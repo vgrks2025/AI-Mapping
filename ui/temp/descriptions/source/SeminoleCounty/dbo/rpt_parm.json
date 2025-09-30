@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "rpt_id",
+    "description": "Identifier of the report this parameter belongs to; typically a foreign key to the report definition."
+  },
+  {
+    "column name": "parm_name",
+    "description": "System key for the parameter used in queries/templates and API calls; must be unique per report."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Display or evaluation order of the parameter within a report's parameter list."
+  },
+  {
+    "column name": "label",
+    "description": "User-facing caption shown for the parameter in screens or printed output."
+  },
+  {
+    "column name": "parm_type",
+    "description": "Data type of the parameter value, guiding validation and rendering."
+  },
+  {
+    "column name": "max_len",
+    "description": "Maximum allowed length for the parameter's value when applicable; null if not constrained."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text explanation of the parameter's purpose or usage to aid users and admins."
+  },
+  {
+    "column name": "default_value",
+    "description": "Value automatically applied when the user or system does not supply the parameter."
+  },
+  {
+    "column name": "lookup",
+    "description": "Reference to the source of allowed values for this parameter; likely controls selectable options; confirm with SME."
+  },
+  {
+    "column name": "web_service",
+    "description": "Configuration used to populate or validate the parameter via a web service call; exact behavior may vary by implementation; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the parameter record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the parameter record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the parameter record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the parameter record."
+  },
+  {
+    "column name": "req_flag",
+    "description": "Indicates whether the parameter must be provided to run the report."
+  }
+]

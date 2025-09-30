@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique system identifier for the report category record."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable identifier or name for the report category used for selection and filtering."
+  },
+  {
+    "column name": "description",
+    "description": "Text describing the report category shown to users."
+  },
+  {
+    "column name": "comments",
+    "description": "Administrative notes about the category, such as scope or usage guidance."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this record was most recently changed."
+  },
+  {
+    "column name": "active",
+    "description": "Boolean flag indicating whether the category is currently enabled in the application."
+  },
+  {
+    "column name": "custom",
+    "description": "Flag indicating whether the category is user-defined rather than system-delivered."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created this category record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the category record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified this category record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the category record was last modified."
+  }
+]

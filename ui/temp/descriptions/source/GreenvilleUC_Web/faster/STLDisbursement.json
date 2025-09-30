@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "DisbursementID",
+    "description": "Unique identifier for a disbursement method used to authorize or attribute a fueling transaction or expense; serves as a foreign key in related transaction records."
+  },
+  {
+    "column name": "DisbursementDesc",
+    "description": "Human-readable description of the disbursement method, indicating how a transaction was identified or authorized; used for reporting and user interface display."
+  }
+]

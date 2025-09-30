@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "OilID",
+    "description": "Unique identifier for an oil record in the fleet maintenance catalog; used to link service tasks, inventory, and purchasing to a specific oil specification."
+  },
+  {
+    "column name": "Oil",
+    "description": "Description of the oil product or grade used for vehicles, including viscosity and packaging details. Drives selection for maintenance work orders and inventory."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the oil record is inactive or discontinued and should not be used for new work or purchases, while remaining available for historical reporting."
+  }
+]

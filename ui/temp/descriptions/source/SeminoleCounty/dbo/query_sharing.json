@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "query_id",
+    "description": "Identifier of the saved query/report this sharing rule references."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number of this sharing entry for the query, supporting ordering or uniqueness among multiple recipients."
+  },
+  {
+    "column name": "share_with",
+    "description": "Recipient identifier the query is shared with (likely a user, role, or workgroup code; confirm with SME). Ignored when share_type is Everyone."
+  },
+  {
+    "column name": "rights",
+    "description": "Permission granted to the recipient for the query (e.g., read-only 'R'; other codes may indicate edit or manage rights—likely; confirm with SME)."
+  },
+  {
+    "column name": "share_type",
+    "description": "Type/scope of sharing, such as individual user, workgroup, or everyone, which dictates how share_with is interpreted."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created/recorded this sharing entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when this sharing entry was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last updated this sharing entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this sharing entry."
+  }
+]

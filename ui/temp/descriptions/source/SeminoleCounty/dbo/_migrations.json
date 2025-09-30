@@ -1,0 +1,6 @@
+[
+  {
+    "column name": "filename",
+    "description": "Stores the identifier of a database schema migration applied to this environment, typically a timestamped script name. Used to track which migrations have run and maintain schema version history."
+  }
+]

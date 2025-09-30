@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "row_no",
+    "description": "Sequential line number used to order entries within a reservation record or result set."
+  },
+  {
+    "column name": "notify_reserver_onreserve",
+    "description": "Indicator to send a notification to the person who booked when the reservation is created."
+  },
+  {
+    "column name": "tmp_onreserve",
+    "description": "Temporary field used during the reservation workflow; likely stores transient status or data at reservation time; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date/time when the record was first created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or process that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date/time when the record was last modified."
+  }
+]

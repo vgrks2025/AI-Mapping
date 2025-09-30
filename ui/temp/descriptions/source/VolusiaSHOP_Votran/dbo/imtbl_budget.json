@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique system identifier for this budget record (primary key)."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "General ledger account code to which this budget applies; links to the chart of accounts."
+  },
+  {
+    "column name": "f_year",
+    "description": "Fiscal year the budget period belongs to."
+  },
+  {
+    "column name": "financial_period",
+    "description": "Internal code for the fiscal period within the fiscal year; likely a system-generated period key, not the human-readable month. Confirm with SME."
+  },
+  {
+    "column name": "financial_period_id",
+    "description": "Numeric sequence of the period within the fiscal year (e.g., month number)."
+  },
+  {
+    "column name": "financial_description",
+    "description": "Optional description of the financial period or budget line for reporting; meaning may vary. Confirm with SME."
+  },
+  {
+    "column name": "begin_date",
+    "description": "Start date (inclusive) of the fiscal period this budget covers."
+  },
+  {
+    "column name": "end_date",
+    "description": "End date (inclusive) of the fiscal period this budget covers."
+  },
+  {
+    "column name": "budget_amount",
+    "description": "Amount budgeted for the GL account for this period, in the system’s base currency."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application-captured timestamp of the last user modification; may duplicate system last_modified. Confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created this record (application login or service account)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created by a user (audit trail)."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID of the person or process that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this record (auditing field)."
+  }
+]

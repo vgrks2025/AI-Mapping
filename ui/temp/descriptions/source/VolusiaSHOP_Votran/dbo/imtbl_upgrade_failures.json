@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate unique identifier for each logged upgrade failure event; used as primary key in this table."
+  },
+  {
+    "column name": "tablesrc",
+    "description": "Name of the originating table whose row failed during the upgrade or migration process."
+  },
+  {
+    "column name": "tablepkey",
+    "description": "Identifier of the specific row in the source table associated with this failure."
+  },
+  {
+    "column name": "errormessage",
+    "description": "Human-readable error or warning text captured from the upgrade process explaining why the row could not be upgraded."
+  },
+  {
+    "column name": "severity",
+    "description": "Numeric indicator of failure seriousness (e.g., warning vs error); mapping may vary by system; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this failure record was last updated by the system or a user."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created the failure record; likely system-generated; confirm with SME."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the failure record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-initiated modification to the record."
+  }
+]

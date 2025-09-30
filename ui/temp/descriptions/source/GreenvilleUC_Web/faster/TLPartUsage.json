@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "PartUsage",
+    "description": "Business code identifying how the part is used/managed in inventory; drives stocking, procurement, and prioritization rules."
+  },
+  {
+    "column name": "PartUsageDesc",
+    "description": "Human-readable description of the usage category corresponding to the code, guiding stocking, criticality, or assignment decisions."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates the usage category record is retired and should not be assigned to new parts; kept for historical reference."
+  },
+  {
+    "column name": "PartUsageID",
+    "description": "System-generated unique identifier for the usage category record, used as the primary key and for relational joins."
+  }
+]

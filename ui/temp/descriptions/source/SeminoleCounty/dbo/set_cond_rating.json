@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "condition_index",
+    "description": "Identifier of the condition index/metric or asset component for which this rating applies (e.g., PCI, IRI, PASER, ROOF); may also note the scale range (e.g., 1–10). Confirm allowable values."
+  },
+  {
+    "column name": "condition_rating",
+    "description": "Numeric rating value on the specified index/scale for that condition. Directionality (higher = better or worse) depends on the metric; confirm."
+  },
+  {
+    "column name": "descr",
+    "description": "Text label describing the condition associated with the rating value (e.g., Brand-new, Excellent, Poor, Failed)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created this rating definition."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the rating definition was created (UTC unless otherwise noted)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified this rating definition."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this rating definition."
+  },
+  {
+    "column name": "eol_flag",
+    "description": "End-of-life or retired indicator for the rating definition (likely Y/N or boolean); confirm semantics and default."
+  },
+  {
+    "column name": "probability_of_failure",
+    "description": "Estimated probability of failure associated with this condition rating (percentage or category); used for risk modeling; confirm units and whether derived or manually assigned."
+  }
+]

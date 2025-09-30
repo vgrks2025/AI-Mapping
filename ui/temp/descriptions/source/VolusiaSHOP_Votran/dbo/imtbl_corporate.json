@@ -1,0 +1,146 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for the corporate entity record used for internal references and relationships."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier/code for the corporate entity or site used across the organization."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name or description of the corporate entity or site."
+  },
+  {
+    "column name": "issite",
+    "description": "Flag indicating whether this record represents a physical site/location (1) versus a corporate grouping (0)."
+  },
+  {
+    "column name": "parent",
+    "description": "Reference to the parent corporate entity’s primary key, defining the organizational hierarchy."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the corporate entity or site."
+  },
+  {
+    "column name": "address_1",
+    "description": "Primary street address line for the entity or site."
+  },
+  {
+    "column name": "address_2",
+    "description": "Secondary address line, such as suite, building, or unit."
+  },
+  {
+    "column name": "address_3",
+    "description": "Additional address line if needed for long or complex addresses."
+  },
+  {
+    "column name": "city",
+    "description": "City for the site’s mailing or physical address."
+  },
+  {
+    "column name": "state",
+    "description": "State or province for the address."
+  },
+  {
+    "column name": "zip_code",
+    "description": "Postal or ZIP code for the address."
+  },
+  {
+    "column name": "country",
+    "description": "Country for the address."
+  },
+  {
+    "column name": "county",
+    "description": "County or similar administrative district for the address."
+  },
+  {
+    "column name": "contact",
+    "description": "Primary contact person for the entity or site."
+  },
+  {
+    "column name": "contact_title",
+    "description": "Job title or role of the primary contact."
+  },
+  {
+    "column name": "voice_number",
+    "description": "Main telephone number for the entity or primary contact."
+  },
+  {
+    "column name": "mobile_number",
+    "description": "Mobile/cell phone number for the primary contact."
+  },
+  {
+    "column name": "pager_number",
+    "description": "Pager number for the contact, if used."
+  },
+  {
+    "column name": "fax_number",
+    "description": "Fax number for the entity or contact."
+  },
+  {
+    "column name": "other_phone_number",
+    "description": "Alternate phone number for the entity or contact."
+  },
+  {
+    "column name": "other_phone_number_description",
+    "description": "Label describing the purpose or type of the alternate phone number."
+  },
+  {
+    "column name": "desktop_email_address",
+    "description": "Primary email address for standard (desktop) correspondence."
+  },
+  {
+    "column name": "wireless_email_address",
+    "description": "Email address used for wireless/mobile messaging (e.g., SMS gateways)."
+  },
+  {
+    "column name": "website",
+    "description": "Official website URL for the entity or site."
+  },
+  {
+    "column name": "app_server_address",
+    "description": "Hostname or network address of the application server used by this entity/site."
+  },
+  {
+    "column name": "db_server_address",
+    "description": "Hostname or network address of the database server for this entity/site."
+  },
+  {
+    "column name": "db_name",
+    "description": "Database or schema name associated with this entity/site’s data."
+  },
+  {
+    "column name": "provider_type",
+    "description": "Likely database provider/type used for the site connection (e.g., SQL Server vs Oracle); confirm with SME."
+  },
+  {
+    "column name": "remote_db",
+    "description": "Flag indicating whether the database is hosted remotely for this entity/site."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent modification to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record; confirm with SME if distinct from system last_modified."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that most recently modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user most recently modified this record."
+  }
+]

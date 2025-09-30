@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "make",
+    "description": "Standardized manufacturer/brand name for equipment used across the fleet; primary value referenced by assets and lookups."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable display name or description of the make, often the full company or division name for clarity."
+  },
+  {
+    "column name": "mfg_no",
+    "description": "Likely an external manufacturer identifier or code associated with the make; confirm intended source/system and format with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or process that created the make record (e.g., conversion job or staff username)."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the make record was first created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last modified the make record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the make record."
+  }
+]

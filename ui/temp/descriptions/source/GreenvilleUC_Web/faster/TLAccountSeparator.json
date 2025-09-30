@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "AccountSeparatorID",
+    "description": "Surrogate key identifying a delimiter option used in account code formatting; referenced by account configuration."
+  },
+  {
+    "column name": "Separator",
+    "description": "The single character delimiter used to split segments within an account or billing code."
+  },
+  {
+    "column name": "SeparatorDesc",
+    "description": "Human-readable label for the delimiter option to display in UIs or reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the delimiter option is retired and should no longer be used in new configurations."
+  }
+]

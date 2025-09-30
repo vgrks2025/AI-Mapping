@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this record; used as the table’s primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time when the record was created or last updated, in yyyymmddhhmmssmmm format."
+  },
+  {
+    "column name": "vendserv",
+    "description": "Foreign key identifying the service type associated with the supplier; numeric code referencing a service catalog."
+  },
+  {
+    "column name": "vendservr",
+    "description": "Name or pointer to the lookup table used by the service-type key; likely metadata created by ETL; confirm with SME."
+  },
+  {
+    "column name": "vendor",
+    "description": "Foreign key identifying the supplier company associated to the service entry."
+  },
+  {
+    "column name": "vendorr",
+    "description": "Name or pointer to the lookup table containing supplier records; likely metadata for the foreign key; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from the source/legacy system to support lineage and deduplication."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source/legacy table the record originated from, used for lineage and troubleshooting."
+  }
+]

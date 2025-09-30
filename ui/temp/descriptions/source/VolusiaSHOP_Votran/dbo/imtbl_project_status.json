@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for each project status record; used as the primary key and for joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business code or name of the project status used across the application and integrations."
+  },
+  {
+    "column name": "description",
+    "description": "Human-friendly description of the project status shown in user interfaces and reports."
+  },
+  {
+    "column name": "project_status_default",
+    "description": "Boolean flag indicating this status is the default assigned to new projects."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Boolean flag to exclude this status from lookup fields and selection lists."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Boolean flag to suppress this status in reports, charts, and dashboards."
+  },
+  {
+    "column name": "allow_changes_to_estimates",
+    "description": "Controls whether planned/estimated values can be edited when a project is in this status."
+  },
+  {
+    "column name": "allow_updates_of_actuals",
+    "description": "Controls whether actual time, cost, or progress can be updated while in this status."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Indicates the status record is retired/inactive and should not be applied to new projects."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the status, such as usage guidance or administrative remarks."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Date and time when this status record was last changed by any process or user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the last user-initiated change to this record; confirm with SME due to naming inconsistency."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created this status record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when this status record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who most recently modified this status record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the most recent user modification to this record."
+  }
+]

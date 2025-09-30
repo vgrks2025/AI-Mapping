@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the currency record used as the primary key for joins and references."
+  },
+  {
+    "column name": "id",
+    "description": "Business key for the currency, likely the ISO 4217 code used to tag monetary amounts; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable currency name for display, selection lists, and reporting."
+  },
+  {
+    "column name": "active",
+    "description": "Indicator showing whether this currency is currently enabled for use in pricing, invoicing, or transactions."
+  },
+  {
+    "column name": "date_last_used",
+    "description": "Timestamp when this currency was most recently referenced in a transaction or record."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text administrative notes about the currency or its usage constraints."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this currency record."
+  },
+  {
+    "column name": "decimal_separator_character",
+    "description": "Character used to separate the fractional part when formatting currency amounts per locale."
+  },
+  {
+    "column name": "thousands_separator_character",
+    "description": "Character used to group thousands when formatting currency amounts per locale."
+  },
+  {
+    "column name": "negative_symbol",
+    "description": "Symbol used to denote negative currency amounts in formatted output."
+  },
+  {
+    "column name": "digits_in_group",
+    "description": "Number of digits per group for thousands grouping in formatted currency values; confirm with SME."
+  },
+  {
+    "column name": "digits_after_decimal",
+    "description": "Number of fractional digits for this currency’s minor units when formatting amounts."
+  },
+  {
+    "column name": "negative_format",
+    "description": "Formatting pattern for negative monetary values, such as minus sign or parentheses; confirm with SME."
+  },
+  {
+    "column name": "currency_symbol",
+    "description": "Symbol representing the currency in displays and reports."
+  },
+  {
+    "column name": "region",
+    "description": "Locale or region code used to drive currency formatting conventions."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit timestamp of the last user-initiated modification to this record; likely redundant with the general modification timestamp—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created this currency record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this currency record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this currency record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this currency record was last modified by a user."
+  }
+]

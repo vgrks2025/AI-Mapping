@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this ledger status record."
+  },
+  {
+    "column name": "id",
+    "description": "Business-facing status label used to categorize ledger entries."
+  },
+  {
+    "column name": "description",
+    "description": "Longer explanation of the status and when it should be used."
+  },
+  {
+    "column name": "general_ledger_status_default",
+    "description": "Flag indicating this status is the default when creating ledger entries."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Flag to exclude this status from selection lists and search pickers."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Flag to suppress this status from analytics, dashboards, and reports."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Indicates the status is inactive and unavailable for new transactions."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text administrative notes about this status."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit timestamp of the latest user-initiated change; likely overlaps other audit fields; confirm with SME."
+  },
+  {
+    "column name": "allow_costs",
+    "description": "Flag controlling whether financial costs can be posted while this status is applied."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

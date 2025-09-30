@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "PartTypeID",
+    "description": "Unique key identifying a part category/type for use in relationships, tracking, and reporting."
+  },
+  {
+    "column name": "PartTypeDesc",
+    "description": "Business-friendly description of the part category shown in user interfaces and reports; supports search and filtering."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the part category is deprecated and should not be assigned to new records; retained for historical data."
+  }
+]

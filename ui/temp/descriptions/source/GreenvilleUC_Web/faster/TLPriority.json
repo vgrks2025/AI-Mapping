@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "PriorityID",
+    "description": "System-generated unique key identifying a priority level used to rank work orders, service requests, or asset tasks in fleet operations."
+  },
+  {
+    "column name": "Priority",
+    "description": "Short code representing the priority level, used on screens/reports and for sort order when sequencing work."
+  },
+  {
+    "column name": "PriorityDesc",
+    "description": "Human-readable description of the priority level, conveying operational urgency for maintenance, dispatch, or logistics decisions."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the priority is retired and should no longer be assigned; retained for historical reporting."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "task_id",
+    "description": "Business key naming the maintenance/inspection task or system area in the fleet, used to reference the task in work orders and checklists; functions as the primary identifier."
+  },
+  {
+    "column name": "task_descr",
+    "description": "Human-readable description detailing what the task involves or how to perform it."
+  },
+  {
+    "column name": "remarks",
+    "description": "Optional free-text notes or additional instructions related to the task’s setup or usage."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the task record for audit trail."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created for audit and traceability."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours to complete the task, used for planning, scheduling, and cost estimation."
+  },
+  {
+    "column name": "result_type",
+    "description": "Specifies how results are captured for the task (e.g., dropdown, numeric, pass/fail); code set likely system-defined; confirm allowed values with SME."
+  },
+  {
+    "column name": "required",
+    "description": "Indicates whether the task is mandatory to complete/record; likely a boolean flag; confirm semantics with SME."
+  }
+]

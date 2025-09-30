@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup or business unit this work order type is associated with, used to scope applicability within fleet operations."
+  },
+  {
+    "column name": "wo_type",
+    "description": "Abbreviated code for the work order category. Values map to predefined service categories; likely a controlled list maintained by the business; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or system identifier that created this record for audit tracking."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this record was created in the system, used for audit history and time-based reporting."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or system identifier that last modified this record; blank if never updated."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record; null or blank if never updated."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "kit_no",
+    "description": "Kit identifier/name used by inventory and work orders to reference a predefined set of components. Typically unique within the kit master."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description of the kit’s contents or specification for purchasing and maintenance users."
+  },
+  {
+    "column name": "unit_name",
+    "description": "Vehicle/unit type, apparatus, or subfleet this kit applies to. Likely a category tag rather than a specific asset; confirm with SME."
+  },
+  {
+    "column name": "avg_cost",
+    "description": "Average cost of the complete kit, derived from component prices or recent purchase history. Used for budgeting, valuation, and default costing."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Status flag indicating whether the kit is active and available for use in transactions. Commonly Y/N."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or ID of the person or process that created the kit record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the kit record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or ID of the person who last modified the kit record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time the kit record was last updated."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Owning application or workgroup associated with the record. Used for segregation, security, or integration; confirm with SME."
+  }
+]

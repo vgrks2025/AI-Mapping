@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for the navigation tree node."
+  },
+  {
+    "column name": "node_order",
+    "description": "Display sequence among sibling items in the hierarchy."
+  },
+  {
+    "column name": "node_desc",
+    "description": "User-visible label shown for this menu item."
+  },
+  {
+    "column name": "node_desc_ls_id",
+    "description": "Reference to the localized text resource for the label; confirm with SME."
+  },
+  {
+    "column name": "node_parent",
+    "description": "Identifier of this item’s parent, defining the tree structure."
+  },
+  {
+    "column name": "node_depth",
+    "description": "Hierarchical level of the item, with root at level zero."
+  },
+  {
+    "column name": "icon_open",
+    "description": "Image asset used when the item is expanded; likely from a shared catalog; confirm with SME."
+  },
+  {
+    "column name": "icon_closed",
+    "description": "Image asset used when the item is collapsed; likely from a shared catalog; confirm with SME."
+  },
+  {
+    "column name": "icon_bar",
+    "description": "Toolbar/breadcrumb image reference associated with the item; may be null; confirm with SME."
+  },
+  {
+    "column name": "form_name",
+    "description": "Application screen opened when the item is selected."
+  },
+  {
+    "column name": "page",
+    "description": "Flag controlling display behavior (e.g., visible page vs placeholder); semantics may vary; confirm with SME."
+  },
+  {
+    "column name": "target",
+    "description": "Destination window, frame, or route for navigation actions; often unused."
+  },
+  {
+    "column name": "node_data1",
+    "description": "Auxiliary flag or parameter influencing behavior; exact use is implementation-specific; confirm with SME."
+  },
+  {
+    "column name": "node_data2",
+    "description": "Composite UI styling metadata (such as color, icon key, size) used for rendering; confirm with SME."
+  },
+  {
+    "column name": "dtotype",
+    "description": "Internal type or object code tied to the item’s action; likely references a catalog; confirm with SME."
+  },
+  {
+    "column name": "form",
+    "description": "Numeric reference to the registered screen to launch; likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "args",
+    "description": "Optional parameters passed to the launched screen, such as context, filters, or role."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification."
+  }
+]

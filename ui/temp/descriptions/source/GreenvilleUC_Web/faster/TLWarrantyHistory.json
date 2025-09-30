@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "HistoryReasonID",
+    "description": "Identifier of the reason for this warranty history entry—such as creation, status change, or correction—referencing a reason code list that classifies warranty history events."
+  },
+  {
+    "column name": "RepairReasonID",
+    "description": "Identifier of the repair reason associated with the warranty claim, describing why the asset was repaired (e.g., failure, recall). Likely a foreign key to a repair reason lookup; confirm with SME."
+  }
+]

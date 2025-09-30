@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key uniquely identifying a craft/job classification record."
+  },
+  {
+    "column name": "id",
+    "description": "Business code or short identifier for the craft/job classification used on work orders, employee assignments, and reporting."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable title/description of the craft/job classification."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the craft, policies, or usage; optional."
+  },
+  {
+    "column name": "estimated_pay_rate",
+    "description": "Estimated hourly pay rate for this craft for budgeting or labor cost calculations; currency/decimal."
+  },
+  {
+    "column name": "taxes",
+    "description": "Tax or burden rate applied to this craft’s labor cost (likely a percentage or code; confirm with SME)."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this craft record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit field for last user modification; appears to store a timestamp (not a user ID). Confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier that created this craft record (audit)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this craft record was created (audit)."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier that last modified this craft record (audit)."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this craft record (audit)."
+  }
+]

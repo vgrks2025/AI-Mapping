@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "KpiSettingsID",
+    "description": "Unique identifier for a KPI settings record used to configure fleet performance metrics and visualizations."
+  },
+  {
+    "column name": "Setting",
+    "description": "Name of the KPI configuration parameter (key) stored in this row for fleet analytics; pairs with a value column to define thresholds, time windows, visibility, or grouping. Likely a key-value design; confirm with SME."
+  }
+]

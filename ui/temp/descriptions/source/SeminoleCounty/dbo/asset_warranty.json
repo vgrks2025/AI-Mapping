@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset covered by this warranty; links to the master asset record."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Categorization of the asset to contextualize warranty terms and meter units."
+  },
+  {
+    "column name": "warr_no",
+    "description": "Internal warranty header identifier for the asset; groups related coverage lines. Likely a warranty header key; confirm with SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number of a coverage line within a warranty, ordering multiple entries under the same header."
+  },
+  {
+    "column name": "warr_type",
+    "description": "Code indicating the warranty category or coverage type; organization-specific code set. Confirm with SME."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier of the supplier or manufacturer providing the warranty; references the vendor master."
+  },
+  {
+    "column name": "warr_exp_dt",
+    "description": "Date the warranty coverage ends, after which claims are not honored."
+  },
+  {
+    "column name": "warranty_no",
+    "description": "External reference number assigned by the warranty provider or manufacturer, if available."
+  },
+  {
+    "column name": "descr",
+    "description": "Narrative description of the warranty coverage scope or plan."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to an attached document or file associated with the warranty (e.g., certificate, terms)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the warranty record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the warranty record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the warranty record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification to the warranty record."
+  },
+  {
+    "column name": "start_date",
+    "description": "Date the warranty coverage begins."
+  },
+  {
+    "column name": "notes",
+    "description": "Free-text remarks related to this warranty entry."
+  },
+  {
+    "column name": "contract_no",
+    "description": "Contract or policy identifier associated with the warranty agreement."
+  },
+  {
+    "column name": "warning_date",
+    "description": "Reminder date to prompt action before expiration (e.g., notifications). Confirm with SME."
+  },
+  {
+    "column name": "warr_exp_meter",
+    "description": "Usage reading at which the warranty expires (miles, hours, or cycles) relative to the start meter; unit varies by asset type."
+  },
+  {
+    "column name": "start_meter",
+    "description": "Asset’s meter reading at warranty start, used to determine usage-based expiration."
+  }
+]

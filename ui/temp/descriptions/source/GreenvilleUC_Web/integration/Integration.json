@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "IntegrationID",
+    "description": "Unique identifier for the integration configuration."
+  },
+  {
+    "column name": "IntegrationName",
+    "description": "Business-friendly title used to identify the integration in user interfaces and logs."
+  },
+  {
+    "column name": "Description",
+    "description": "Brief summary of the integration’s purpose and what data or processes it exchanges."
+  },
+  {
+    "column name": "IntegrationTypeID",
+    "description": "Reference to the integration category (e.g., import, export, event-driven); determines high-level behavior. Likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "IntegrationApplicationTypeID",
+    "description": "Reference to the source/target application family associated with this integration. Likely identifies endpoint system type; confirm with SME."
+  },
+  {
+    "column name": "IntegrationExecutionModeID",
+    "description": "Reference indicating how the integration runs (manual, scheduled, real-time, batch). Likely a foreign key to execution modes; confirm with SME."
+  },
+  {
+    "column name": "IntegrationErrorMechanismID",
+    "description": "Reference to the error handling/notification method used when runs fail (e.g., log, email, queue). Likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "LogError",
+    "description": "Flag indicating whether errors encountered during execution are written to the system log."
+  },
+  {
+    "column name": "CreatedDate",
+    "description": "Timestamp when this integration configuration was first created."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "Identifier of the user or service account that created the configuration. Likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Timestamp of the most recent update to this configuration."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "Identifier of the user or service account that last modified the configuration. Likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "IntegrationURL",
+    "description": "Application route or endpoint used to access or trigger the integration within the platform."
+  },
+  {
+    "column name": "IntegrationSetupURL",
+    "description": "Location or route for configuring this integration’s settings; may be internal or external to the application."
+  },
+  {
+    "column name": "DocumentationPath",
+    "description": "Link or path to user or technical documentation describing how to configure and operate the integration."
+  },
+  {
+    "column name": "ExecutePath",
+    "description": "Executable path or endpoint the scheduler/process uses to run the integration job."
+  },
+  {
+    "column name": "ExecutionStatusPath",
+    "description": "Endpoint or file path where execution status or results can be queried. If empty, status may be available elsewhere; confirm with SME."
+  },
+  {
+    "column name": "FuelVendorID",
+    "description": "Optional reference to a fuel vendor associated with this integration, used for vendor-specific data exchanges. Likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "EffectiveClassName",
+    "description": "Fully qualified application class that implements the integration logic used at runtime."
+  },
+  {
+    "column name": "IsConcurrentExecution",
+    "description": "Flag indicating whether multiple instances of this integration may run in parallel."
+  }
+]

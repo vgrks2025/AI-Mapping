@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset linked to this user-asset assignment."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Classification of the linked asset, used for filtering and business rules (e.g., vehicle, equipment)."
+  },
+  {
+    "column name": "user_name",
+    "description": "System username or user ID of the person associated with the asset."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or system that created this assignment record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when this assignment record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or system that last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this record."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the asset or the user’s assignment context."
+  },
+  {
+    "column name": "is_driver",
+    "description": "Indicates whether the associated user is designated to operate this asset (likely boolean; confirm with SME)."
+  },
+  {
+    "column name": "default_driver",
+    "description": "Indicates the primary driver among users linked to the asset (likely boolean; confirm with SME)."
+  }
+]

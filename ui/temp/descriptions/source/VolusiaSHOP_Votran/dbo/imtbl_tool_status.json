@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key uniquely identifying this tool status record."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the tool status (name or code). Column name is misleading; likely the display value used in lists; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Detailed explanation of what the status means and when it should be used."
+  },
+  {
+    "column name": "tool_status_default",
+    "description": "Boolean flag indicating this is the default status assigned to new tools/assets."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Boolean flag to exclude this status from selection lists and search lookups."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Boolean flag to suppress this status from appearing in reports and dashboards."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Boolean flag marking this status option as inactive or unavailable for new use."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the status, such as policies, usage guidance, or internal remarks."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-driven modification to this record; intent overlaps with other modified fields—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this status record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this status record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this status record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this status record; may overlap with last_modified—confirm with SME."
+  }
+]

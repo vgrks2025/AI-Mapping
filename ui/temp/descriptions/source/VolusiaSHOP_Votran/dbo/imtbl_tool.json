@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for this tool record; unique, non-business identifier used for internal references and joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the tool (tool number/code) used by operations and external integrations; may appear on labels and work orders."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description of the tool or its intended use, displayed in user interfaces and reports."
+  },
+  {
+    "column name": "tool_status",
+    "description": "Status code representing the tool’s lifecycle or availability (e.g., active, inactive, retired, lost); values are from a lookup; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the tool, such as condition, usage restrictions, or administrative remarks."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record, regardless of the actor."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the last user-initiated modification to this record; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that created this tool record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this tool record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that most recently modified this tool record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-initiated modification to this tool record."
+  }
+]

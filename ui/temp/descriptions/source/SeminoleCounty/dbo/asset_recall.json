@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset within the fleet system to which the recall applies."
+  },
+  {
+    "column name": "asset_type",
+    "description": "High-level classification of the asset to determine recall applicability and for reporting."
+  },
+  {
+    "column name": "recall_no",
+    "description": "Internal sequence number for this asset’s recall entry; likely increments to distinguish multiple recalls; confirm with SME."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether the recall is currently active or has been closed for the asset."
+  },
+  {
+    "column name": "title",
+    "description": "Short subject line summarizing the recall issue or required action."
+  },
+  {
+    "column name": "descr",
+    "description": "Detailed narrative of the recall, including scope, instructions, and any staff notes."
+  },
+  {
+    "column name": "closed",
+    "description": "Timestamp when the recall was completed or administratively closed; null if still open."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the recall record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the recall record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the recall record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the recall record."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to supporting documents for the recall; likely a foreign key to an attachments store; confirm with SME."
+  },
+  {
+    "column name": "nhtsa_recall_no",
+    "description": "NHTSA campaign number associated with the recall; may store a manufacturer program code if none exists; confirm with SME."
+  },
+  {
+    "column name": "mfg_recall_no",
+    "description": "Manufacturer’s recall or service campaign identifier for the issue."
+  },
+  {
+    "column name": "recall_date",
+    "description": "Date the recall notice was issued or logged for the asset, used for compliance timelines and tracking."
+  }
+]

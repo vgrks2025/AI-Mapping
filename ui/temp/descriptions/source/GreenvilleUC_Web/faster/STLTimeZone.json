@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "TimeZoneID",
+    "description": "Unique surrogate key for the time zone record, used for lookups and joins across the system."
+  },
+  {
+    "column name": "BaseUtcOffset",
+    "description": "Standard offset from Coordinated Universal Time, in hours (supports fractional minutes), excluding any daylight saving adjustment; negative values indicate locations west of UTC."
+  },
+  {
+    "column name": "DaylightName",
+    "description": "Long-form name used when daylight saving time is observed; may be blank or a placeholder for regions that do not switch."
+  },
+  {
+    "column name": "DisplayName",
+    "description": "User-facing label combining GMT offset and representative locations for selection in settings, lists, and reports."
+  },
+  {
+    "column name": "KeyName",
+    "description": "Canonical time zone key used to map to operating-system or library definitions; likely a Windows time zone ID; confirm with SME."
+  },
+  {
+    "column name": "StandardName",
+    "description": "Long-form name used during standard time (non‑daylight‑saving period) for the zone."
+  },
+  {
+    "column name": "SupportsDaylightSaving",
+    "description": "Indicates whether the zone observes daylight saving time and switches between standard and daylight rules."
+  },
+  {
+    "column name": "ShortName",
+    "description": "Abbreviated code for the zone used in displays and reports; not guaranteed to be globally unique."
+  }
+]

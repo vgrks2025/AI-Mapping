@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "TaxCodeID",
+    "description": "Unique identifier for each tax category used to calculate taxes on charges."
+  },
+  {
+    "column name": "TaxCode",
+    "description": "Abbreviated label for the taxation category assigned to transactions."
+  },
+  {
+    "column name": "TaxCodeDesc",
+    "description": "Readable description detailing the taxation category’s purpose or jurisdiction for selection and reporting."
+  },
+  {
+    "column name": "TaxRate",
+    "description": "Percentage, stored as a decimal, applied to taxable amounts to compute tax."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "True/False flag marking the taxation category as retired and unavailable for new use; retained for history."
+  }
+]

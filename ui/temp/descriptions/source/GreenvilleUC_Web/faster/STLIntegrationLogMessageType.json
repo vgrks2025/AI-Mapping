@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntegrationLogMessageTypeID",
+    "description": "Unique identifier for an integration log message type used to categorize integration log entries across systems."
+  },
+  {
+    "column name": "Desc",
+    "description": "Human-readable label or description of the integration log message type for display and reporting."
+  }
+]

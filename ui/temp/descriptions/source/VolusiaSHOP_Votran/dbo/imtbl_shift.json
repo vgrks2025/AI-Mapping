@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key uniquely identifying the shift record."
+  },
+  {
+    "column name": "id",
+    "description": "Business shift code or short name used to categorize schedules."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description of the shift’s schedule or purpose."
+  },
+  {
+    "column name": "start_time",
+    "description": "Planned start time of the shift (time basis may be local; confirm)."
+  },
+  {
+    "column name": "end_time",
+    "description": "Planned end time of the shift; may roll into the next day for overnight shifts."
+  },
+  {
+    "column name": "split_shift_start_time",
+    "description": "Start time of the second segment for a split shift; null for continuous shifts."
+  },
+  {
+    "column name": "split_shift_end_time",
+    "description": "End time of the second segment for a split shift; null for continuous shifts."
+  },
+  {
+    "column name": "shift_total_hours",
+    "description": "Total scheduled hours for the shift across all segments; confirm whether unpaid breaks are excluded."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the shift definition or special rules."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this shift record was last updated."
+  },
+  {
+    "column name": "duration_hr",
+    "description": "Hour component of the shift’s planned duration."
+  },
+  {
+    "column name": "duration_min",
+    "description": "Minute component of the shift’s planned duration."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the last user-initiated modification; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created the shift record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the shift record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified the shift record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the shift record was last modified by a user."
+  }
+]

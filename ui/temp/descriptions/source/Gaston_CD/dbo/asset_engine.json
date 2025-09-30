@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the engine record in this table; used to join and reference engine attributes."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time associated with this engine record, likely denoting creation or last update (UTC); confirm exact semantics with SME."
+  },
+  {
+    "column name": "size",
+    "description": "Engine displacement capacity, including unit of measure (e.g., liters or cubic inches). Values may include descriptive text or model references; normalize units for analytics."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system corresponding to this engine record; used for data migration, lineage, or cross-system mapping."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source legacy table from which this engine record originated; supports lineage and traceability."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "dashboard_id",
+    "description": "System-generated unique identifier for a KPI dashboard configuration."
+  },
+  {
+    "column name": "dashboard_name",
+    "description": "User-facing title displayed for the dashboard in lists and headers."
+  },
+  {
+    "column name": "dashboard_meta",
+    "description": "Structured metadata (e.g., JSON) describing widgets, layout, filters, and data sources used by the dashboard; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the dashboard record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the dashboard was first created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified the dashboard."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent modification."
+  },
+  {
+    "column name": "share_type",
+    "description": "Sharing scope that controls who can access it (e.g., private, public, specific groups); confirm with SME."
+  },
+  {
+    "column name": "share_groups",
+    "description": "Identifiers or names of groups granted access when shared by group; confirm with SME."
+  },
+  {
+    "column name": "share_rights",
+    "description": "Permissions granted to viewers or groups, such as view-only or edit capabilities."
+  },
+  {
+    "column name": "technician_flag",
+    "description": "Indicator that the dashboard targets field technicians or technician workflows."
+  },
+  {
+    "column name": "owner",
+    "description": "Primary responsible user or account for this dashboard, used for administration and default sharing."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Numeric sort order used to position the dashboard within menus or folders."
+  },
+  {
+    "column name": "visible_flag",
+    "description": "Controls whether the dashboard is shown to users or hidden from view."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Associated workgroup name used for organizing or limiting visibility; confirm with SME."
+  },
+  {
+    "column name": "width",
+    "description": "Configured display width for the dashboard canvas or grid; units depend on the UI framework; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Short summary explaining the dashboard’s purpose and key KPIs."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to a linked attachment or document associated with the dashboard (e.g., file, URL); confirm with SME."
+  },
+  {
+    "column name": "dashboard_descr",
+    "description": "Detailed description text shown in the interface, possibly longer than the short description."
+  },
+  {
+    "column name": "mobile_flag",
+    "description": "Indicator that the dashboard is enabled or optimized for mobile devices."
+  }
+]

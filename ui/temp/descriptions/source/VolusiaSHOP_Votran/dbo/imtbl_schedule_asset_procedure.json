@@ -1,0 +1,110 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this asset–procedure schedule record."
+  },
+  {
+    "column name": "schedule",
+    "description": "Identifier of the parent maintenance schedule this record belongs to."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the specific asset to which this scheduled procedure applies."
+  },
+  {
+    "column name": "asset_group",
+    "description": "Identifier of an asset group targeted by the schedule instead of an individual asset; confirm with SME."
+  },
+  {
+    "column name": "procedure_type",
+    "description": "Code indicating the maintenance category (e.g., preventive, inspection, regulatory); confirm with SME."
+  },
+  {
+    "column name": "procedures",
+    "description": "Identifier of the maintenance procedure to be performed for this asset under the schedule."
+  },
+  {
+    "column name": "schedule_start_date",
+    "description": "Date the schedule becomes effective for this asset–procedure."
+  },
+  {
+    "column name": "schedule_end_date",
+    "description": "Date the schedule ceases to be effective or expires for this asset–procedure."
+  },
+  {
+    "column name": "remaining_number_to_schedule",
+    "description": "Number of remaining occurrences to generate before the schedule completes or is deactivated."
+  },
+  {
+    "column name": "date_last_scheduled",
+    "description": "Most recent date this procedure was scheduled for the asset."
+  },
+  {
+    "column name": "date_last_completed",
+    "description": "Most recent completion date for this scheduled procedure on the asset."
+  },
+  {
+    "column name": "calculated_due_date",
+    "description": "System-computed next due date based on frequency rules and last completion or scheduling."
+  },
+  {
+    "column name": "calculated_due_meter",
+    "description": "System-computed next due meter reading (e.g., miles, hours) when the procedure becomes due; null if not meter-based."
+  },
+  {
+    "column name": "options",
+    "description": "Additional scheduling options or flags encoded for this record; format and usage vary by implementation, confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when the record was last updated by any process or the system."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification performed by a user (as opposed to automated processes); confirm with SME."
+  },
+  {
+    "column name": "suppress_but_update_lowers",
+    "description": "Flag to suppress generating work for this schedule while still updating lower-interval PMs or counters; confirm with SME."
+  },
+  {
+    "column name": "imported",
+    "description": "Flag indicating the record originated from an external import or integration."
+  },
+  {
+    "column name": "remaining_num_to_sched_ind",
+    "description": "Indicator that remaining_number_to_schedule is enforced for this record; confirm with SME."
+  },
+  {
+    "column name": "perform_asset_in_season",
+    "description": "Flag to allow scheduling only during the asset’s defined in-season period."
+  },
+  {
+    "column name": "perform_asset_out_of_season",
+    "description": "Flag to allow scheduling during the asset’s out-of-season period."
+  },
+  {
+    "column name": "repeat_each_year",
+    "description": "Flag to automatically repeat this schedule annually."
+  },
+  {
+    "column name": "schedule_auto_delete",
+    "description": "Flag to automatically delete or deactivate the schedule after the final occurrence or end date; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user."
+  }
+]

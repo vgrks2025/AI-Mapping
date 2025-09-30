@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "loc_cd",
+    "description": "Unique code identifying a fleet location (shop, site, or area) used across work orders, assets, and inventory transactions."
+  },
+  {
+    "column name": "descr",
+    "description": "Short, user-friendly name of the location shown in lists and reports."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text internal notes about the location."
+  },
+  {
+    "column name": "level_no",
+    "description": "Numeric hierarchy level of the location within the location tree; lower numbers typically represent higher tiers."
+  },
+  {
+    "column name": "parent_loc_cd",
+    "description": "Code of the parent location that groups this location in the hierarchy."
+  },
+  {
+    "column name": "address_1",
+    "description": "Primary street address line of the location."
+  },
+  {
+    "column name": "address_2",
+    "description": "Secondary address line, such as building, suite, or unit."
+  },
+  {
+    "column name": "city",
+    "description": "City for the location’s address."
+  },
+  {
+    "column name": "state",
+    "description": "State or province for the location’s address."
+  },
+  {
+    "column name": "zip",
+    "description": "Postal code for the location’s address."
+  },
+  {
+    "column name": "cross_street",
+    "description": "Nearest cross street or intersection for navigation or dispatch."
+  },
+  {
+    "column name": "latitude",
+    "description": "Geographic latitude in decimal degrees (WGS84) for mapping and routing."
+  },
+  {
+    "column name": "longitude",
+    "description": "Geographic longitude in decimal degrees (WGS84) for mapping and routing."
+  },
+  {
+    "column name": "altitude",
+    "description": "Elevation above sea level for the location; unit depends on system configuration (confirm with SME)."
+  },
+  {
+    "column name": "long_desc",
+    "description": "Extended description or directions providing more detail about the location."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or process that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Identifier linking this location to related attachments or documents; likely a foreign key to an attachments entity (confirm with SME)."
+  },
+  {
+    "column name": "st_no",
+    "description": "Street number component of the address, stored separately to support geocoding or formatting."
+  },
+  {
+    "column name": "st_name",
+    "description": "Street name component of the address, stored separately to support geocoding or formatting."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Boolean indicator showing whether the location is active and available for operational use."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for this schedule occurrence record."
+  },
+  {
+    "column name": "create_work_order",
+    "description": "Boolean flag indicating whether a work order should be created from this scheduled occurrence."
+  },
+  {
+    "column name": "exception_warranty_created",
+    "description": "Flag indicating a warranty exception was created for this occurrence; likely used when scheduling impacts warranty coverage; confirm with SME."
+  },
+  {
+    "column name": "schedule_date",
+    "description": "Planned due date/time for the scheduled maintenance occurrence."
+  },
+  {
+    "column name": "schedule",
+    "description": "Identifier of the maintenance schedule definition that generated this occurrence."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Identifier linking the schedule to a specific asset and procedure instance that produced this occurrence; confirm exact relationship with SME."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset to be serviced by this schedule."
+  },
+  {
+    "column name": "asset_location",
+    "description": "Location or site of the asset at the time of scheduling, for routing and reporting."
+  },
+  {
+    "column name": "asset_group",
+    "description": "Asset class or group associated to aid scheduling, filtering, or reporting; may be blank."
+  },
+  {
+    "column name": "procedures",
+    "description": "Identifier of the maintenance procedure or PM task to be performed."
+  },
+  {
+    "column name": "procedure_type",
+    "description": "Category of the procedure (e.g., preventive, inspection, corrective); confirm allowed values with SME."
+  },
+  {
+    "column name": "priority",
+    "description": "Planner-set priority for the scheduled work, used to sequence or dispatch tasks."
+  },
+  {
+    "column name": "calculated_priority",
+    "description": "System-derived priority based on rules such as due date, criticality, or meter proximity; may override or complement manual priority."
+  },
+  {
+    "column name": "project",
+    "description": "Project or job code to associate costs and progress from this scheduled work."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "General ledger account or cost center to which work costs will be posted."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Supervisor responsible for overseeing or approving this scheduled work."
+  },
+  {
+    "column name": "shift",
+    "description": "Work shift associated with performing the scheduled task."
+  },
+  {
+    "column name": "meter_due_value",
+    "description": "Meter reading threshold at which the task becomes due (e.g., mileage, hours)."
+  },
+  {
+    "column name": "work_order",
+    "description": "Identifier of the work order created from this scheduling event, if generated."
+  },
+  {
+    "column name": "proof_indicator",
+    "description": "Code indicating the trigger or source of the schedule (e.g., time-based, meter-based, manual); confirm code meanings with SME."
+  },
+  {
+    "column name": "user_id",
+    "description": "User associated with the latest update to this record (legacy/general field); confirm whether it reflects creator or last modifier."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Type of meter used for scheduling (e.g., hours, miles), referencing a meter definition."
+  },
+  {
+    "column name": "assigned_by",
+    "description": "User who assigned the resulting work to a person or team."
+  },
+  {
+    "column name": "assigned_to",
+    "description": "User, crew, or team assigned to perform the work."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated modification captured by the application; may mirror the system last-modified time."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who created this schedule occurrence record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who most recently modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification to this record."
+  }
+]

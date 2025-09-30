@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "DomainID",
+    "description": "Unique numeric identifier for the application domain/module; typically matches the starting value of that domain’s permission code range."
+  },
+  {
+    "column name": "DomainName",
+    "description": "Human-readable name of the functional domain/module within the fleet management application."
+  },
+  {
+    "column name": "PermissionStart",
+    "description": "Inclusive lower bound of the numeric permission code range allocated to this domain for access control."
+  },
+  {
+    "column name": "PermissionEnd",
+    "description": "Inclusive upper bound of the numeric permission code range allocated to this domain for access control."
+  }
+]

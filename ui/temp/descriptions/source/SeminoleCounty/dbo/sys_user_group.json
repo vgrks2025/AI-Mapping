@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Unique identifier of the system user whose permissions are managed by the associated security group."
+  },
+  {
+    "column name": "sec_group",
+    "description": "Name of the security/permission group that controls the user's access within the fleet management application."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the person or automated process that created this user-group mapping."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this user-group mapping was created (access initially granted)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the person or automated process that last changed this user-group mapping."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this user-group mapping was last updated."
+  }
+]

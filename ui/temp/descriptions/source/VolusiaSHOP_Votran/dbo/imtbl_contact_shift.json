@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for this contact–shift assignment record."
+  },
+  {
+    "column name": "shift",
+    "description": "Identifier of the assigned work shift; likely a foreign key to the shift catalog/schedule."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the employee/contact to whom the shift applies; foreign key to the contacts table."
+  },
+  {
+    "column name": "primary_shift",
+    "description": "Boolean flag indicating this is the contact’s primary/default shift."
+  },
+  {
+    "column name": "additional_hourly_pay",
+    "description": "Optional additional hourly premium rate for this assignment (e.g., shift differential); likely a currency field; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the contact–shift assignment."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated modification; appears redundant with last_modified—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified by a user."
+  }
+]

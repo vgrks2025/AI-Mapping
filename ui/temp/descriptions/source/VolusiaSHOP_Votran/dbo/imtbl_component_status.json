@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the component status record; uniquely identifies the status row."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable identifier for the component’s status/lifecycle state, used for selection, display, and reporting."
+  },
+  {
+    "column name": "description",
+    "description": "Extended user-facing text for the status; likely longer display text; confirm with SME."
+  },
+  {
+    "column name": "in_stock",
+    "description": "Boolean flag indicating whether this status counts the component as available inventory."
+  },
+  {
+    "column name": "default_in_inventory",
+    "description": "Boolean flag marking the default status applied when a component is entered into inventory."
+  },
+  {
+    "column name": "default_on_asset",
+    "description": "Boolean flag marking the default status applied when a component is installed on an asset/unit."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes about the status definition, usage, or policy."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record, regardless of actor."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification by a user account; likely overlaps with other audit timestamps; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created this record (user ID, login, or employee key)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was most recently updated."
+  }
+]

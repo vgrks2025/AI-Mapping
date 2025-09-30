@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ProductTypeID",
+    "description": "Surrogate integer key identifying a product or service category within the fleet system, enabling joins from purchase, consumption, maintenance, and inventory records."
+  },
+  {
+    "column name": "ProductType",
+    "description": "Human-readable label for the product or service category assigned to items and transactions in fleet operations; used for reporting, filtering, and user selection."
+  }
+]

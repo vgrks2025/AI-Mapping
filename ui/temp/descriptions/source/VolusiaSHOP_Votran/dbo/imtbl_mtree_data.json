@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key uniquely identifying this hierarchy record."
+  },
+  {
+    "column name": "mtree_list",
+    "description": "Identifier of the hierarchy/list this node belongs to, supporting multiple trees (e.g., assets, organization)."
+  },
+  {
+    "column name": "mtree_orig",
+    "description": "Identifier of the underlying source object represented by this node (e.g., vehicle, asset group, site); links to the original entity."
+  },
+  {
+    "column name": "viewable",
+    "description": "Boolean flag indicating whether this node is visible in user interfaces or reports."
+  },
+  {
+    "column name": "form",
+    "description": "Likely stores serialized configuration or form metadata associated with the node; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the record for audit and ownership tracking."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date/time the record was created for auditing and change history."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last updated the record for audit tracking."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date/time the record was last updated for auditing and change history."
+  }
+]

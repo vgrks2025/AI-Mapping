@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "RoleID",
+    "description": "Unique identifier for a security role used to group permissions and assign them to users."
+  },
+  {
+    "column name": "RoleName",
+    "description": "Human-readable title of the role shown in administration screens and user-role assignments."
+  },
+  {
+    "column name": "RoleDesc",
+    "description": "Detailed description of the role’s purpose, scope, and permitted activities to aid administrators."
+  },
+  {
+    "column name": "IsCustom",
+    "description": "Boolean flag indicating whether the role was user-defined (custom) versus a system-delivered default."
+  },
+  {
+    "column name": "RoleCreatedDate",
+    "description": "Timestamp when the role record was first created, for audit and change tracking."
+  },
+  {
+    "column name": "RoleCreatedUserID",
+    "description": "Identifier of the user account that created the role; enables audit linkage to the creating user."
+  },
+  {
+    "column name": "RoleModifiedDate",
+    "description": "Timestamp of the most recent update to the role’s definition, for audit and change tracking."
+  },
+  {
+    "column name": "RoleModifiedUserID",
+    "description": "Identifier of the user account that last modified the role; supports audit trails."
+  }
+]

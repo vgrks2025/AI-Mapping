@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "tmp_name",
+    "description": "System-defined name/key for the notification template, typically reflecting the triggering event or default usage. Used to uniquely identify and select the template."
+  },
+  {
+    "column name": "subject",
+    "description": "Subject line template for the notification. Supports runtime placeholders that are replaced with event or record details."
+  },
+  {
+    "column name": "importance",
+    "description": "Priority level guiding delivery or emphasis; used by notification channels to flag urgency."
+  },
+  {
+    "column name": "html_body",
+    "description": "HTML-formatted body of the notification template. May include placeholders populated at send time."
+  },
+  {
+    "column name": "text_body",
+    "description": "Plain‑text version of the notification body for channels that do not render HTML; includes placeholders resolved at send time."
+  },
+  {
+    "column name": "delay_count",
+    "description": "Number of time units to delay sending after the triggering event. Combined with delay_uom to schedule notifications."
+  },
+  {
+    "column name": "delay_uom",
+    "description": "Time unit for delay_count (e.g., minutes, hours, days); defines the delay interval after the event."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the template record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the template was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the template."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the template was last updated."
+  },
+  {
+    "column name": "tmp_type",
+    "description": "Business object category the template targets; used to select templates by context (such as work orders, requests, or purchase orders)."
+  },
+  {
+    "column name": "attach_pdf",
+    "description": "Whether a PDF should be attached to the notification (likely a generated report); confirm behavior with SME."
+  },
+  {
+    "column name": "report_id",
+    "description": "Identifier of the report definition to generate and attach with the notification when enabled; likely references a reporting catalog; confirm linkage with SME."
+  }
+]

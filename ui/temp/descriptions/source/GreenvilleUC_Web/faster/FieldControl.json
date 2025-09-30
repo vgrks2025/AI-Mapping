@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "ControlID",
+    "description": "Unique identifier for a form/UI control that captures or displays an asset-related field in the fleet system. Used to configure, reference, and audit that specific control across screens and workflows."
+  },
+  {
+    "column name": "LabelID",
+    "description": "Identifier linking a control to its display label, typically referencing localized label text. Likely a foreign key to a label/translation resource; confirm with SME."
+  },
+  {
+    "column name": "IdAttribute",
+    "description": "Stable string key used as the HTML/DOM id or API identifier for the field’s label/control, representing asset acquisition and attachment properties. Supports binding, automation, and integration across UI and services."
+  }
+]

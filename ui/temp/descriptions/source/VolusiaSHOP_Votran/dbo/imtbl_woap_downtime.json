@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this downtime record."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Identifier linking this downtime entry to the related work order, asset, and procedure context."
+  },
+  {
+    "column name": "date_down",
+    "description": "Date and time the asset was taken out of service (downtime start)."
+  },
+  {
+    "column name": "downtime_type",
+    "description": "Code classifying the downtime event (e.g., planned, unplanned, failure type); values require reference mapping—confirm with SME."
+  },
+  {
+    "column name": "downtime_hours",
+    "description": "Duration of the outage for this event, expressed in hours (decimal)."
+  },
+  {
+    "column name": "Comments",
+    "description": "Free-text notes describing circumstances, cause, impact, or actions taken for the downtime."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp of the most recent update to this record, regardless of user or process."
+  },
+  {
+    "column name": "options",
+    "description": "Miscellaneous flags or settings associated with this record; likely a bitmask or encoded field—confirm exact usage with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification performed by a user (as opposed to an automated job); may duplicate last-modified audit—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this record."
+  }
+]

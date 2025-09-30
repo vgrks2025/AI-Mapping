@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "gis_service_name",
+    "description": "Human-readable title of the map layer/service shown to users in layer selectors and legends."
+  },
+  {
+    "column name": "is_base_layer",
+    "description": "Flag indicating the layer is a basemap background (single, mutually exclusive) rather than an overlay; used to control default display and toggling."
+  },
+  {
+    "column name": "type",
+    "description": "Mapping library layer type/class used to instantiate the service on the client (e.g., tile layer); determines how requests are made and rendered."
+  },
+  {
+    "column name": "service",
+    "description": "Base endpoint URL of the GIS service used by the client to request tiles or features."
+  },
+  {
+    "column name": "options",
+    "description": "Serialized configuration settings for the client map layer (e.g., attribution, zoom limits, subdomains); parsed to control behavior, styling, and credits."
+  },
+  {
+    "column name": "gis_service_id",
+    "description": "Unique identifier for the GIS service configuration record."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created (UTC unless otherwise noted)."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record (UTC unless otherwise noted)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last updated the record."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Numeric sequence used for display order or drawing priority among services; likely lower numbers render or list first; confirm with SME."
+  }
+]

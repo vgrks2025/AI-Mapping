@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for an engine configuration option used across the fleet catalog."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Datetime the record was created or last updated, stored as yyyymmddHHMMSSmmm. Likely system time; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the engine’s fuel configuration type for reporting and selection."
+  },
+  {
+    "column name": "code",
+    "description": "Abbreviated code representing the engine fuel configuration type used in UIs, imports, and integrations."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in the predecessor system. Enables back-references and migration reconciliation; may be blank post-migration."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the predecessor system for this record; used during migration or cross-system tracing."
+  }
+]

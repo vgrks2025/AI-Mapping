@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "tran_date",
+    "description": "Calendar date the fueling event occurred for the asset."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the vehicle or equipment that received the fuel."
+  },
+  {
+    "column name": "stock",
+    "description": "Code identifying the fuel stock source or product (e.g., tank or location). Likely an inventory or product code; confirm with SME."
+  },
+  {
+    "column name": "quantity",
+    "description": "Volume of fuel dispensed in the transaction; unit depends on configuration (e.g., gallons or liters)."
+  },
+  {
+    "column name": "cost",
+    "description": "Unit price of the fuel for this transaction. Confirm whether this is per unit or total if unclear."
+  },
+  {
+    "column name": "meter",
+    "description": "Asset meter reading captured at the time of fueling (odometer miles/km or engine hours). Used for usage tracking and maintenance."
+  },
+  {
+    "column name": "driver",
+    "description": "Identifier of the driver or operator associated with the fueling event."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Account or cost center charged for the fuel expense."
+  },
+  {
+    "column name": "udf1",
+    "description": "User-defined custom field for additional fueling attributes. Purpose set by the business; confirm with SME."
+  },
+  {
+    "column name": "udf2",
+    "description": "User-defined custom field for additional fueling attributes. Purpose set by the business; confirm with SME."
+  },
+  {
+    "column name": "udf3",
+    "description": "User-defined custom field for additional fueling attributes. Purpose set by the business; confirm with SME."
+  },
+  {
+    "column name": "udf4",
+    "description": "User-defined custom field for additional fueling attributes. Purpose set by the business; confirm with SME."
+  },
+  {
+    "column name": "udf5",
+    "description": "User-defined custom field for additional fueling attributes. Purpose set by the business; confirm with SME."
+  },
+  {
+    "column name": "udf6",
+    "description": "User-defined custom field for additional fueling attributes. Purpose set by the business; confirm with SME."
+  },
+  {
+    "column name": "misc",
+    "description": "Free-text notes or miscellaneous details for the fuel transaction."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created (system time)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the record was last updated (system time)."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Type or classification of the asset fueled (e.g., vehicle, trailer, equipment); used for reporting and rules."
+  }
+]

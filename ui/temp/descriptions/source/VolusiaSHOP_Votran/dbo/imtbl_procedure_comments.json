@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for this procedure comment record."
+  },
+  {
+    "column name": "procedures",
+    "description": "Identifier of the maintenance procedure this comment is tied to (likely a foreign key to the procedures table; confirm with SME)."
+  },
+  {
+    "column name": "create_date",
+    "description": "System timestamp when the comment record was created."
+  },
+  {
+    "column name": "created_by_user",
+    "description": "Login or process name that created the record (e.g., 'system' for automated loads)."
+  },
+  {
+    "column name": "printable",
+    "description": "Flag indicating whether this comment should be included on printed documents (e.g., work orders, PM checklists)."
+  },
+  {
+    "column name": "copy_options",
+    "description": "Option/bitmask controlling if/when the comment is copied to related records (e.g., work orders, tasks, templates); semantics likely platform-specific—confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text comment or instruction for the procedure, often noting service intervals, symbols, or notes shown to technicians."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "Login or process that last modified the record."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification made by a human user (as opposed to a system job); confirm intent."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Internal user ID of the creator; may be null for system-created records; confirm mapping."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the creating user saved the record; may differ from system create_date; confirm."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Internal user ID of the last modifier; confirm mapping to the user table."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the last modifying user saved changes; confirm relationship to last_modified."
+  }
+]

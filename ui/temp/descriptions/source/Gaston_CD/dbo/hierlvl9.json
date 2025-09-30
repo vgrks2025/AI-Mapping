@@ -1,0 +1,110 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this level‑9 organizational grouping or cost center."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time the record was last updated, stored in a compact yyyymmddhhmmssmmm format."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the organizational unit is inactive/retired and excluded from active assignments and counts."
+  },
+  {
+    "column name": "hlvl9name",
+    "description": "Official name of the level‑9 organizational unit or program that owns or uses fleet assets."
+  },
+  {
+    "column name": "hlvl9no",
+    "description": "Business code for the level‑9 unit (department/program identifier) used on assets, work orders, and reports."
+  },
+  {
+    "column name": "comments",
+    "description": "Free‑text notes about the unit; may include accounting or cost center references; confirm with SME."
+  },
+  {
+    "column name": "on_road_count",
+    "description": "Number of vehicles currently in service and roadworthy under this unit."
+  },
+  {
+    "column name": "other_count",
+    "description": "Count of vehicles in nonstandard statuses (e.g., shop, reserve, pending); likely aggregated; confirm with SME."
+  },
+  {
+    "column name": "surplus_count",
+    "description": "Count of vehicles designated as surplus or disposal associated with this unit."
+  },
+  {
+    "column name": "glcode",
+    "description": "General ledger or cost center code tied to this unit for accounting and chargeback."
+  },
+  {
+    "column name": "glcoder",
+    "description": "Reference/lookup identifier describing how glcode is resolved (e.g., related table/key); confirm with SME."
+  },
+  {
+    "column name": "employee",
+    "description": "Likely employee headcount associated with this unit; used for allocation or reporting; confirm with SME."
+  },
+  {
+    "column name": "employeer",
+    "description": "Reference/lookup metadata indicating the relation used to resolve the employee field; confirm with SME."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Identifier of the parent level‑2 organization to which this unit reports (foreign key)."
+  },
+  {
+    "column name": "hierlvl2r",
+    "description": "Reference/lookup metadata naming the parent hierarchy relation used by hierlvl2."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this unit in a prior/legacy system to support cross‑system mapping."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the table or entity in the legacy system where the legacy key originated."
+  },
+  {
+    "column name": "email",
+    "description": "Contact email address for the unit or its primary contact."
+  },
+  {
+    "column name": "webadd",
+    "description": "Website or intranet URL associated with the unit."
+  },
+  {
+    "column name": "postcode",
+    "description": "Postal or ZIP code for the unit’s mailing/location address."
+  },
+  {
+    "column name": "fax",
+    "description": "Fax number for contacting the unit."
+  },
+  {
+    "column name": "phone",
+    "description": "Primary telephone number for the unit."
+  },
+  {
+    "column name": "city",
+    "description": "City for the unit’s address."
+  },
+  {
+    "column name": "address2",
+    "description": "Secondary address line, such as suite, building, or floor."
+  },
+  {
+    "column name": "address",
+    "description": "Street address for the unit’s location or mailing."
+  },
+  {
+    "column name": "state",
+    "description": "State or province code/ID for the address; may be a lookup key; confirm with SME."
+  },
+  {
+    "column name": "stater",
+    "description": "Reference/lookup metadata naming the state enumeration used by the state field."
+  }
+]

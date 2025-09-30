@@ -1,0 +1,502 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this site record."
+  },
+  {
+    "column name": "id",
+    "description": "Business key for the site used across the application."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name of the site or facility."
+  },
+  {
+    "column name": "federal_id_no",
+    "description": "Tax or federal registration number for the operating entity; confirm with SME."
+  },
+  {
+    "column name": "labor_cost_method",
+    "description": "Code defining how labor costs are calculated at this site (e.g., standard, average); confirm with SME."
+  },
+  {
+    "column name": "site_base_rate",
+    "description": "Default hourly labor rate used when no specific rate is available."
+  },
+  {
+    "column name": "labor_grade",
+    "description": "Default labor grade or classification applied for costing or scheduling; confirm with SME."
+  },
+  {
+    "column name": "available_hours_mon",
+    "description": "Planned working hours available on Mondays for scheduling capacity."
+  },
+  {
+    "column name": "available_hours_tue",
+    "description": "Planned working hours available on Tuesdays for scheduling capacity."
+  },
+  {
+    "column name": "available_hours_wed",
+    "description": "Planned working hours available on Wednesdays for scheduling capacity."
+  },
+  {
+    "column name": "available_hours_thu",
+    "description": "Planned working hours available on Thursdays for scheduling capacity."
+  },
+  {
+    "column name": "available_hours_fri",
+    "description": "Planned working hours available on Fridays for scheduling capacity."
+  },
+  {
+    "column name": "available_hours_sat",
+    "description": "Planned working hours available on Saturdays for scheduling capacity."
+  },
+  {
+    "column name": "available_hours_sun",
+    "description": "Planned working hours available on Sundays for scheduling capacity."
+  },
+  {
+    "column name": "available_annual_sick_hrs",
+    "description": "Annual sick leave hours reducing labor availability."
+  },
+  {
+    "column name": "available_annual_vacation_hrs",
+    "description": "Annual vacation hours reducing labor availability."
+  },
+  {
+    "column name": "available_annual_other_hrs",
+    "description": "Other annual non-working hours reducing labor availability."
+  },
+  {
+    "column name": "available_daily_break_hrs",
+    "description": "Daily break time deducted from schedulable hours."
+  },
+  {
+    "column name": "available_daily_lunch_hrs",
+    "description": "Daily lunch time deducted from schedulable hours."
+  },
+  {
+    "column name": "available_daily_other_hrs",
+    "description": "Other daily non-productive time deducted from schedulable hours."
+  },
+  {
+    "column name": "percent_time_productive",
+    "description": "Expected percentage of on-shift time considered productive for planning."
+  },
+  {
+    "column name": "standard_wo_prefix",
+    "description": "Default prefix applied to generated work order numbers."
+  },
+  {
+    "column name": "wo_last_id",
+    "description": "Most recently assigned work order number used for sequencing."
+  },
+  {
+    "column name": "last_work_request_used",
+    "description": "Most recently assigned service request identifier for sequencing."
+  },
+  {
+    "column name": "last_schedule_used",
+    "description": "Most recently used schedule sequence or batch identifier."
+  },
+  {
+    "column name": "last_billing_id_used",
+    "description": "Most recently assigned billing or invoice identifier for sequencing."
+  },
+  {
+    "column name": "pm_last_generated",
+    "description": "Timestamp of the last preventive maintenance work order generation run."
+  },
+  {
+    "column name": "wo_sort_priority_high_to_low",
+    "description": "Flag to sort work orders by priority from highest to lowest by default."
+  },
+  {
+    "column name": "wo_report_format",
+    "description": "Selected report template used when printing work orders."
+  },
+  {
+    "column name": "wo_print_comments",
+    "description": "Flag indicating whether comments are included on printed work orders."
+  },
+  {
+    "column name": "require_priority",
+    "description": "Flag requiring a priority value on new work records."
+  },
+  {
+    "column name": "rime_priority",
+    "description": "Default priority value applied to new work items; confirm with SME."
+  },
+  {
+    "column name": "auto_create_part_vendor_links",
+    "description": "Automatically create supplier associations when parts are transacted or added."
+  },
+  {
+    "column name": "copy_tasks_to_work_order",
+    "description": "Automatically copy task details to new or generated work orders."
+  },
+  {
+    "column name": "po_prefix",
+    "description": "Default prefix applied to purchase order numbers."
+  },
+  {
+    "column name": "last_purchase_order",
+    "description": "Most recently assigned purchase order number for sequencing."
+  },
+  {
+    "column name": "part_cost_method",
+    "description": "Inventory costing method used for parts at this site (e.g., average, last, standard)."
+  },
+  {
+    "column name": "allow_negative_onhand",
+    "description": "Allow inventory balances to drop below zero."
+  },
+  {
+    "column name": "use_sub_warehouse_locations",
+    "description": "Enable use of sublocations within a warehouse for inventory storage."
+  },
+  {
+    "column name": "default_warehouse",
+    "description": "Warehouse used by default for inventory transactions and issues."
+  },
+  {
+    "column name": "validate_warehouse_part_loc",
+    "description": "Enforce that parts must exist in predefined warehouse locations before use."
+  },
+  {
+    "column name": "auto_create_asset_proc_links",
+    "description": "Automatically link assets to maintenance procedures when applicable."
+  },
+  {
+    "column name": "issue_recv_parts",
+    "description": "Enable automatic issue and receipt processing for parts; confirm with SME."
+  },
+  {
+    "column name": "issue_recv_misc_cost",
+    "description": "Enable automatic processing for miscellaneous cost issues and receipts; confirm with SME."
+  },
+  {
+    "column name": "po_report_format",
+    "description": "Selected report template used when printing purchase orders."
+  },
+  {
+    "column name": "po_print_comments",
+    "description": "Flag indicating whether comments are included on printed purchase orders."
+  },
+  {
+    "column name": "country",
+    "description": "Default country setting for addresses, taxes, and localization."
+  },
+  {
+    "column name": "currency_default",
+    "description": "Default currency used for transactions and reporting at this site."
+  },
+  {
+    "column name": "multiple_currency_support",
+    "description": "Enable transactions in multiple currencies."
+  },
+  {
+    "column name": "default_navigation_tree",
+    "description": "Default application menu or navigation layout assigned to users at this site."
+  },
+  {
+    "column name": "prohibit_contain_filter",
+    "description": "Disallow 'contains' search filter in lookups to improve performance or data rules."
+  },
+  {
+    "column name": "prohibit_characters",
+    "description": "Characters not allowed in key data fields to enforce data hygiene."
+  },
+  {
+    "column name": "disable_purchasing",
+    "description": "Disable purchasing functions for this site."
+  },
+  {
+    "column name": "require_gl_purchases",
+    "description": "Require general ledger coding on purchasing transactions."
+  },
+  {
+    "column name": "require_gl_accounts",
+    "description": "Require general ledger coding on applicable transactions across modules."
+  },
+  {
+    "column name": "gl_account",
+    "description": "Default general ledger account used when no specific account is provided."
+  },
+  {
+    "column name": "last_period_end_processed",
+    "description": "Date when the last accounting or inventory period close was completed."
+  },
+  {
+    "column name": "attachment_server_name",
+    "description": "Host name of the file server storing document attachments."
+  },
+  {
+    "column name": "attachment_directory_path",
+    "description": "File system path where attachments are stored."
+  },
+  {
+    "column name": "mail_drop_directory_path",
+    "description": "File system path monitored for inbound mail or request imports."
+  },
+  {
+    "column name": "report_directory_path",
+    "description": "Default file system path for generated reports."
+  },
+  {
+    "column name": "schedule_lockout_option",
+    "description": "Rule controlling schedule lockouts to prevent overbooking or conflicts."
+  },
+  {
+    "column name": "tax1_label",
+    "description": "Custom label for the first tax field used on purchasing documents."
+  },
+  {
+    "column name": "tax2_label",
+    "description": "Custom label for the second tax field used on purchasing documents."
+  },
+  {
+    "column name": "tax3_label",
+    "description": "Custom label for the third tax field used on purchasing documents."
+  },
+  {
+    "column name": "tax1_rate",
+    "description": "Default rate for the first tax applied to purchases."
+  },
+  {
+    "column name": "tax2_rate",
+    "description": "Default rate for the second tax applied to purchases."
+  },
+  {
+    "column name": "tax3_rate",
+    "description": "Default rate for the third tax applied to purchases."
+  },
+  {
+    "column name": "order_info_date_cost",
+    "description": "Setting controlling whether order date determines cost application; confirm with SME."
+  },
+  {
+    "column name": "print_comp_quantity",
+    "description": "Include component quantities on printed documents or reports."
+  },
+  {
+    "column name": "domain_host_ip",
+    "description": "Domain host or IP used for email or integration services."
+  },
+  {
+    "column name": "mail_server_name",
+    "description": "SMTP server used for sending system emails."
+  },
+  {
+    "column name": "username",
+    "description": "Username used for connecting to the mail or integration server."
+  },
+  {
+    "column name": "password",
+    "description": "Password used for connecting to the mail or integration server."
+  },
+  {
+    "column name": "proxy_server_name",
+    "description": "Proxy server used for outbound network connections."
+  },
+  {
+    "column name": "update_schedules",
+    "description": "Automatically update maintenance schedules when related data changes."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this record was last updated."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes relevant to this site’s configuration or usage."
+  },
+  {
+    "column name": "bar_code_font",
+    "description": "Selected barcode font or style used for labels and reports."
+  },
+  {
+    "column name": "po_line_item_gl",
+    "description": "Default general ledger code applied to purchase order line items."
+  },
+  {
+    "column name": "create_purchase_doc",
+    "description": "Rule defining when purchase documents are created in the process flow."
+  },
+  {
+    "column name": "check_digit",
+    "description": "Enable calculation/printing of barcode check digits."
+  },
+  {
+    "column name": "last_import_date",
+    "description": "Timestamp of the most recent data import for this site."
+  },
+  {
+    "column name": "last_export_date",
+    "description": "Timestamp of the most recent data export for this site."
+  },
+  {
+    "column name": "system_admin",
+    "description": "Designated administrative account or role overseeing the system."
+  },
+  {
+    "column name": "max_login_denials",
+    "description": "Maximum allowed failed login attempts before user lockout."
+  },
+  {
+    "column name": "date_time_origin",
+    "description": "Site setting for date/time source or format (e.g., server vs. local); confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit field indicating the user-related last modification; overlaps with other audit fields; confirm with SME."
+  },
+  {
+    "column name": "copy_part_order_udf_data",
+    "description": "Copy user-defined fields from part records to purchase orders."
+  },
+  {
+    "column name": "copy_order_rec_udf_data",
+    "description": "Copy user-defined fields from purchase orders to receipts."
+  },
+  {
+    "column name": "default_wo_gl",
+    "description": "Default general ledger account used for work order postings."
+  },
+  {
+    "column name": "fiscal_year",
+    "description": "Fiscal year configuration (e.g., start month or code); confirm with SME."
+  },
+  {
+    "column name": "release_po_report",
+    "description": "Report template used when printing released purchase orders."
+  },
+  {
+    "column name": "request_po_report",
+    "description": "Report template used when printing purchase requests."
+  },
+  {
+    "column name": "blanket_po_report",
+    "description": "Report template used when printing blanket purchase orders."
+  },
+  {
+    "column name": "wo_printable_default",
+    "description": "Default to create a printable version when generating work orders."
+  },
+  {
+    "column name": "po_handling_cost",
+    "description": "Default handling or processing cost applied per purchase order."
+  },
+  {
+    "column name": "defaulting_option",
+    "description": "Global option controlling how defaults are selected across forms; confirm with SME."
+  },
+  {
+    "column name": "show_work_order_from_request",
+    "description": "Display linked work orders directly from service requests."
+  },
+  {
+    "column name": "lookup_auto_completion",
+    "description": "Enable autocomplete behavior in lookup fields."
+  },
+  {
+    "column name": "password_secure",
+    "description": "Enforce strong password policy settings."
+  },
+  {
+    "column name": "password_min",
+    "description": "Minimum required password length."
+  },
+  {
+    "column name": "password_max",
+    "description": "Maximum allowed password length."
+  },
+  {
+    "column name": "password_upper",
+    "description": "Requirement for uppercase characters in passwords."
+  },
+  {
+    "column name": "password_lower",
+    "description": "Requirement for lowercase characters in passwords."
+  },
+  {
+    "column name": "password_numeric",
+    "description": "Requirement for numeric characters in passwords."
+  },
+  {
+    "column name": "password_norepeat",
+    "description": "Restriction preventing reuse of recent passwords."
+  },
+  {
+    "column name": "password_expirydays",
+    "description": "Number of days before passwords must be changed."
+  },
+  {
+    "column name": "prohibit_characters_description",
+    "description": "Explanation of which characters are disallowed and why."
+  },
+  {
+    "column name": "clear_purchase_proof_option",
+    "description": "Control for when proof-of-purchase indicators are cleared; confirm with SME."
+  },
+  {
+    "column name": "last_attachment_id_used",
+    "description": "Most recently assigned attachment identifier for sequencing."
+  },
+  {
+    "column name": "po_receipt_labels",
+    "description": "Label report template used for items received on purchase orders."
+  },
+  {
+    "column name": "ia_receipt_labels",
+    "description": "Label report template used for inventory receipt/adjustment transactions; confirm with SME."
+  },
+  {
+    "column name": "physical_inv_list_report",
+    "description": "Report template for generating physical inventory count lists."
+  },
+  {
+    "column name": "log_off_users",
+    "description": "Force all users to log off for maintenance or updates."
+  },
+  {
+    "column name": "prevent_future_work_dates",
+    "description": "Block entry of dates in the future on work-related transactions."
+  },
+  {
+    "column name": "mark_new_supplier",
+    "description": "Automatically flag newly added suppliers for review or follow-up."
+  },
+  {
+    "column name": "use_password_reset",
+    "description": "Enable password reset functionality for users."
+  },
+  {
+    "column name": "allow_po_issue_without_wo_est",
+    "description": "Allow issuing purchase orders without a prior work order estimate."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified by a user."
+  },
+  {
+    "column name": "commitment_required_default",
+    "description": "Default requirement for commitments/encumbrances before purchasing."
+  },
+  {
+    "column name": "code_transactions_retention",
+    "description": "Retention period for code and transaction history; confirm with SME."
+  }
+]

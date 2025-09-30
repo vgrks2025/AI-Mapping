@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate unique identifier for this profile-based work order status transition rule."
+  },
+  {
+    "column name": "user_profile",
+    "description": "Identifier of the user profile or role to which this transition rule applies; likely references a profile master."
+  },
+  {
+    "column name": "from_status",
+    "description": "Source work order status code from which a transition is permitted for the specified profile."
+  },
+  {
+    "column name": "to_status",
+    "description": "Target work order status code allowed when moving from the source status for the specified profile."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "User identifier or name that performed the latest update; likely redundant with user_id_modified—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the most recent modification to this record."
+  }
+]

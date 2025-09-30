@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Identifier of the parent asset information record this item belongs to; likely a foreign key used to group related items. Confirm with SME."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated date/time when the record was created or last updated, in yyyymmddHHMMSSmmm format."
+  },
+  {
+    "column name": "assettype",
+    "description": "Identifier of the asset type this item applies to; likely a foreign key to the asset type catalog. Confirm with SME."
+  },
+  {
+    "column name": "assettyper",
+    "description": "Indicates the reference context for assettype (e.g., which code set or table it uses); likely metadata rather than a business value. Confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Short, human-readable description of the asset capability or attribute defined by this item."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes or remarks about the item."
+  },
+  {
+    "column name": "id",
+    "description": "Unique identifier for this item record; likely the primary key."
+  },
+  {
+    "column name": "inact",
+    "description": "Boolean flag indicating whether the item is inactive or not in use."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system for migration or integration mapping."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system for lineage and mapping."
+  }
+]

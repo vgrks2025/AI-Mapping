@@ -1,0 +1,182 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this part–warehouse record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the record was last updated; often used for concurrency control."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether this part is inactive at this warehouse."
+  },
+  {
+    "column name": "trackinv",
+    "description": "Indicates if inventory quantities are tracked for this part at this warehouse."
+  },
+  {
+    "column name": "bin",
+    "description": "Bin identifier within the warehouse where the part is stored."
+  },
+  {
+    "column name": "shelf",
+    "description": "Shelf code within the storage location for this part."
+  },
+  {
+    "column name": "trow",
+    "description": "Row identifier within the storage area; likely a physical row indicator; confirm with SME."
+  },
+  {
+    "column name": "aisle",
+    "description": "Aisle identifier where the part’s storage location resides."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about stocking, handling, or location for this part at the warehouse."
+  },
+  {
+    "column name": "orderqty",
+    "description": "Quantity currently on order from suppliers for this warehouse; likely on‑order amount; confirm with SME."
+  },
+  {
+    "column name": "reordqty",
+    "description": "Standard reorder lot size or ordering multiple for this part at this warehouse."
+  },
+  {
+    "column name": "reorderlvl",
+    "description": "Inventory level that triggers replenishment when reached."
+  },
+  {
+    "column name": "maxqty",
+    "description": "Target maximum stocking level for this part in this warehouse."
+  },
+  {
+    "column name": "total",
+    "description": "Total inventory value for this part at this warehouse (on‑hand × unit cost); likely; confirm with SME."
+  },
+  {
+    "column name": "partcost",
+    "description": "Unit cost used for valuation of this part in this warehouse (e.g., average or last cost)."
+  },
+  {
+    "column name": "availqty",
+    "description": "Quantity available to allocate or issue (on‑hand plus on‑order minus allocations)."
+  },
+  {
+    "column name": "projqty",
+    "description": "Projected available quantity after scheduled receipts and allocations."
+  },
+  {
+    "column name": "stockqty",
+    "description": "Physical on‑hand quantity in this warehouse."
+  },
+  {
+    "column name": "schedallocqty",
+    "description": "Quantity scheduled to be allocated in future periods (planned commitments)."
+  },
+  {
+    "column name": "allocqty",
+    "description": "Quantity currently allocated or reserved for work orders and other demands."
+  },
+  {
+    "column name": "room",
+    "description": "Room or area code within the warehouse where the part is stored."
+  },
+  {
+    "column name": "roomr",
+    "description": "Display label or reference metadata for the room field; not business data."
+  },
+  {
+    "column name": "partincr",
+    "description": "Ordering increment/multiple for this part at this warehouse."
+  },
+  {
+    "column name": "partincrr",
+    "description": "Display label or reference metadata for the partincr field; not business data."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Identifier of the warehouse associated with this record."
+  },
+  {
+    "column name": "warehouser",
+    "description": "Display label or reference metadata for the warehouse field; not business data."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the part/item this warehouse record refers to."
+  },
+  {
+    "column name": "partr",
+    "description": "Display label or reference metadata for the part lookup/table; not business data."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this record in the legacy source system."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table this record originated from."
+  },
+  {
+    "column name": "barcode",
+    "description": "Barcode associated with the part or its storage location in this warehouse."
+  },
+  {
+    "column name": "newpartcnt",
+    "description": "Indicator/value used for initial inventory count of a newly added part; likely -1 means not yet counted; confirm with SME."
+  },
+  {
+    "column name": "countfreq",
+    "description": "Cycle-count frequency code or interval for this part in this warehouse."
+  },
+  {
+    "column name": "defaultpartcost",
+    "description": "Default unit cost used when a specific warehouse cost is unavailable."
+  },
+  {
+    "column name": "allocqtymobile",
+    "description": "Quantity allocated via mobile transactions or mobile workflows."
+  },
+  {
+    "column name": "rollingcountind",
+    "description": "Indicates inclusion in a rolling/cycle count program."
+  },
+  {
+    "column name": "nextinvdate",
+    "description": "Next scheduled physical or cycle inventory count date for this part at this warehouse."
+  },
+  {
+    "column name": "lastinvdate",
+    "description": "Most recent date this part was cycle counted or physically inventoried in this warehouse."
+  },
+  {
+    "column name": "last_received",
+    "description": "Date this part was last received into this warehouse."
+  },
+  {
+    "column name": "sendto_workcode",
+    "description": "Default work code to charge issues or route this part to; likely; confirm with SME."
+  },
+  {
+    "column name": "sendto_workcoder",
+    "description": "Display label or reference metadata for the work code field; not business data."
+  },
+  {
+    "column name": "sendto_workorder",
+    "description": "Default work order to receive or charge this part to; likely; confirm with SME."
+  },
+  {
+    "column name": "sendto_workorderr",
+    "description": "Display label or reference metadata for the work order field; not business data."
+  },
+  {
+    "column name": "storage_location",
+    "description": "Identifier of the specific storage location or zone within the warehouse."
+  },
+  {
+    "column name": "storage_locationr",
+    "description": "Display label or reference metadata for the storage_location field; not business data."
+  }
+]

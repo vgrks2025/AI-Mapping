@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "kpi_no",
+    "description": "Unique identifier or code for the KPI used by reports and scheduling. Can be numeric or mnemonic."
+  },
+  {
+    "column name": "kpi_short_descr",
+    "description": "Brief title used when displaying the KPI in lists, dashboards, or widgets."
+  },
+  {
+    "column name": "kpi_descr",
+    "description": "Full business description explaining what the KPI measures and any important caveats."
+  },
+  {
+    "column name": "formula",
+    "description": "Stored query or expression used to compute the KPI value from operational data."
+  },
+  {
+    "column name": "units",
+    "description": "Measurement unit for the KPI value (for example, currency, count, hours)."
+  },
+  {
+    "column name": "save_amount",
+    "description": "Stored KPI result from the most recent successful run; likely numeric value persisted for display; confirm with SME."
+  },
+  {
+    "column name": "default_mstar_kpi_flag",
+    "description": "Indicator that this is a system-delivered default KPI (Y/N), not a custom one; confirm with SME."
+  },
+  {
+    "column name": "display_format",
+    "description": "Numeric display pattern applied to the KPI value when rendered in the UI."
+  },
+  {
+    "column name": "run_schedule",
+    "description": "Human-readable schedule for when the KPI should be recalculated; likely complements the cron field; confirm with SME."
+  },
+  {
+    "column name": "error_message",
+    "description": "Text of the last calculation error encountered for this KPI, if any."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the KPI definition."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the KPI definition was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the KPI definition."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification to the KPI definition."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Whether the KPI is enabled for calculation and display (Y/N)."
+  },
+  {
+    "column name": "last_calc_date",
+    "description": "Date and time the KPI value was last successfully calculated."
+  },
+  {
+    "column name": "last_calc_user",
+    "description": "User account that last executed the KPI calculation."
+  },
+  {
+    "column name": "kpi_cron_exp",
+    "description": "Cron expression defining the automated schedule for KPI calculation."
+  }
+]

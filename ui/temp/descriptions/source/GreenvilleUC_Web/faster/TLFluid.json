@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "FluidID",
+    "description": "Unique identifier for a fluid type record; used as the key to link maintenance, inventory, and work orders."
+  },
+  {
+    "column name": "Fluid",
+    "description": "Business name or grade of the fluid used across vehicles or equipment; drives selection for service, inventory, and purchasing."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag marking the fluid type as retired from active use and procurement while preserved for historical reporting."
+  }
+]

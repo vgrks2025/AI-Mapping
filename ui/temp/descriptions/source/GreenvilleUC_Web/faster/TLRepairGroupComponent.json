@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "RepairGroupComponentID",
+    "description": "Unique identifier for the specific link between a repair group and a repair component."
+  },
+  {
+    "column name": "RepairGroupID",
+    "description": "References the group of related repair jobs this component belongs to; links to the repair groups master."
+  },
+  {
+    "column name": "RepairComponentID",
+    "description": "References the standard component or operation included in the group; links to the repair component catalog."
+  },
+  {
+    "column name": "AssetWarrantyTypeID",
+    "description": "Optional reference to the asset warranty type affecting this association; likely used to vary components by coverage; confirm with SME."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the association is inactive/obsolete and should not be used for new work."
+  }
+]

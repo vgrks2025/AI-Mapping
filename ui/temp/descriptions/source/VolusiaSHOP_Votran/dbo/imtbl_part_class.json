@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique system-generated identifier for this part class record; used as the primary key for referencing and joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business code for the part class, typically a short alphanumeric identifier used in UI and reports."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name of the part class, describing the component category and, when applicable, vehicle/application specifics."
+  },
+  {
+    "column name": "used_in_bom",
+    "description": "Flag indicating whether this part class is allowed to be used in bills of materials (1=yes, 0=no)."
+  },
+  {
+    "column name": "fluid",
+    "description": "Flag indicating the part class represents fluids/consumables (e.g., oil, coolant) for inventory and handling rules (1=yes, 0=no; confirm with SME)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the part class for internal documentation or special handling."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp for the most recent update to this record, regardless of source (user or process)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent update performed by a user account; distinct from automated or system updates (likely; confirm with SME)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created the part class record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the part class record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified the record."
+  }
+]

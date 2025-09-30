@@ -1,0 +1,166 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for the asset record; unique and immutable."
+  },
+  {
+    "column name": "id",
+    "description": "Business asset identifier (e.g., fleet or unit number), sometimes including component notation; used by operations to reference the asset."
+  },
+  {
+    "column name": "description",
+    "description": "Short free-text name of the asset, such as make/model or common descriptor."
+  },
+  {
+    "column name": "base_location",
+    "description": "Code for the asset’s assigned home location/garage; references a locations table."
+  },
+  {
+    "column name": "current_location",
+    "description": "Code for the asset’s current or last known location; references a locations table."
+  },
+  {
+    "column name": "department",
+    "description": "Owning or responsible department/cost center code."
+  },
+  {
+    "column name": "line",
+    "description": "Likely the operational line, route, or line of business to which the asset is assigned; confirm with SME."
+  },
+  {
+    "column name": "status",
+    "description": "Code representing lifecycle/operational status (e.g., active, out of service, retired); mapped from a status reference."
+  },
+  {
+    "column name": "calculated_priority",
+    "description": "System-computed priority used for scheduling or maintenance planning."
+  },
+  {
+    "column name": "priority",
+    "description": "Manually set priority that can override or complement the calculated priority."
+  },
+  {
+    "column name": "f_type",
+    "description": "Likely the asset category or fleet type code (bus, support vehicle, equipment); confirm with SME."
+  },
+  {
+    "column name": "parent",
+    "description": "Identifier of the parent asset in a hierarchy, indicating this is a component or sub-asset."
+  },
+  {
+    "column name": "manufacturer",
+    "description": "Reference to the manufacturer entity for the asset."
+  },
+  {
+    "column name": "supplier",
+    "description": "Reference to the vendor that sold or provided the asset."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Likely the user or role responsible for the asset (supervisor/manager); confirm with SME."
+  },
+  {
+    "column name": "serial_number",
+    "description": "Manufacturer’s serial number; for vehicles this may be the VIN."
+  },
+  {
+    "column name": "model_number",
+    "description": "Manufacturer model designation for the asset."
+  },
+  {
+    "column name": "building",
+    "description": "Facility building identifier where the asset is stored or assigned."
+  },
+  {
+    "column name": "floor",
+    "description": "Label suggests facility floor; however, values resemble model year. Likely repurposed to store year of manufacture; confirm with SME."
+  },
+  {
+    "column name": "room",
+    "description": "Specific room or bay within a facility where the asset is located."
+  },
+  {
+    "column name": "asset_tag",
+    "description": "Organization’s fixed-asset tag number physically affixed to the asset."
+  },
+  {
+    "column name": "fuel_card_id",
+    "description": "Identifier of the fueling card assigned to the asset for fuel purchases."
+  },
+  {
+    "column name": "last_activity_date",
+    "description": "Timestamp of the most recent recorded activity related to the asset (e.g., movement, maintenance, audit)."
+  },
+  {
+    "column name": "purchase_date",
+    "description": "Date the asset was purchased or capitalized."
+  },
+  {
+    "column name": "purchase_cost",
+    "description": "Acquisition cost of the asset, excluding installation."
+  },
+  {
+    "column name": "install_date",
+    "description": "Date the asset was installed or placed into service."
+  },
+  {
+    "column name": "install_cost",
+    "description": "Cost to install/commission the asset, separate from purchase price."
+  },
+  {
+    "column name": "retirement_date",
+    "description": "Date the asset was retired from service or disposed."
+  },
+  {
+    "column name": "replacement_cost",
+    "description": "Estimated cost to replace the asset at current prices."
+  },
+  {
+    "column name": "life_expectancy",
+    "description": "Planned service life in years used for lifecycle planning and depreciation."
+  },
+  {
+    "column name": "maint_downtime_cost_per_hour",
+    "description": "Estimated cost per hour of maintenance-related downtime for the asset."
+  },
+  {
+    "column name": "prod_cost_per_hour",
+    "description": "Likely operating or production cost rate per hour used for valuation or downtime impact; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the last change to this record."
+  },
+  {
+    "column name": "customer",
+    "description": "The customer or internal client associated with the asset, if applicable."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded by the application for the last user-initiated change; may mirror the system last-modified time."
+  },
+  {
+    "column name": "latitude",
+    "description": "Geographic latitude of the asset’s current or last known position, in decimal degrees."
+  },
+  {
+    "column name": "longitude",
+    "description": "Geographic longitude of the asset’s current or last known position, in decimal degrees."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the last modification by a user."
+  }
+]

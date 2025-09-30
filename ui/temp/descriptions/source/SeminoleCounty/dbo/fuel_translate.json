@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "code_no",
+    "description": "Identifier for the translation rule or grouping within this table."
+  },
+  {
+    "column name": "keycode",
+    "description": "Category or source key indicating which data domain or feed the mapping applies to; likely distinguishes source systems; confirm with SME."
+  },
+  {
+    "column name": "old_value",
+    "description": "Original code or value from incoming data to be translated to the standardized equivalent."
+  },
+  {
+    "column name": "new_value",
+    "description": "Standardized internal code or value resulting from the translation, used for consistent processing and reporting."
+  },
+  {
+    "column name": "product",
+    "description": "Product type indicator for which this mapping applies; likely denotes fuel-related items; confirm with SME."
+  },
+  {
+    "column name": "cost",
+    "description": "Optional default unit cost associated with the translated item when applied; if absent, cost is sourced from the transaction or pricing; confirm with SME."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes about the mapping, usage, or exceptions."
+  },
+  {
+    "column name": "alter_meter",
+    "description": "Flag indicating whether using this mapping should adjust an asset's meter/odometer or hour readings; likely boolean; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or process that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Asset class to which the mapping applies, if restricted; confirm with SME."
+  }
+]

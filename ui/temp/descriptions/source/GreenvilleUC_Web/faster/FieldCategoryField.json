@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FieldCategoryID",
+    "description": "Foreign key identifying the category that groups related custom data fields (e.g., vehicle, driver, asset) for organization and filtering."
+  },
+  {
+    "column name": "FieldID",
+    "description": "Foreign key referencing the specific custom field definition linked to the category, representing a unique data field applied to assets, drivers, or trips."
+  }
+]

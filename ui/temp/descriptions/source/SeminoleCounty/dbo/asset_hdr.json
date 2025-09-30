@@ -1,0 +1,1490 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Primary identifier for the asset record within the system."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Standardized category of asset (e.g., vehicle, trailer, equipment) used for reporting and workflows."
+  },
+  {
+    "column name": "asset_subtype",
+    "description": "Finer classification code within the asset type; organization-specific code; confirm with SME."
+  },
+  {
+    "column name": "asset_descr",
+    "description": "Human-readable description of the asset, typically year, make, model, and configuration."
+  },
+  {
+    "column name": "alt_id",
+    "description": "Alternate asset identifier (e.g., unit number or legacy tag); confirm with SME."
+  },
+  {
+    "column name": "barcode",
+    "description": "Barcode or tag number used for scanning and inventory tracking; confirm with SME."
+  },
+  {
+    "column name": "parent_asset_id",
+    "description": "Identifier of the parent asset in the asset hierarchy (host asset or assembly)."
+  },
+  {
+    "column name": "parent_asset_type",
+    "description": "Type/category of the parent asset associated with this asset."
+  },
+  {
+    "column name": "level_no",
+    "description": "Hierarchy level of this asset within its asset tree (root/top = 1)."
+  },
+  {
+    "column name": "node1_id",
+    "description": "Link to a network/location node associated with the asset; likely GIS or network reference; confirm with SME."
+  },
+  {
+    "column name": "node2_id",
+    "description": "Second network/location node associated with the asset; likely used for linear assets; confirm with SME."
+  },
+  {
+    "column name": "node1_type",
+    "description": "Type/classification of node1; defines what the first node represents; confirm with SME."
+  },
+  {
+    "column name": "node2_type",
+    "description": "Type/classification of node2; defines what the second node represents; confirm with SME."
+  },
+  {
+    "column name": "owner",
+    "description": "Owning organization, department, or external entity responsible for the asset; confirm with SME."
+  },
+  {
+    "column name": "maintain_flag",
+    "description": "Indicates whether the asset is maintained by the organization (Y/N)."
+  },
+  {
+    "column name": "asset_notes",
+    "description": "Free-text notes about the asset’s history, status, or comments."
+  },
+  {
+    "column name": "asset_warning",
+    "description": "Prominent warning or caution message shown with the asset; confirm with SME."
+  },
+  {
+    "column name": "maintainer",
+    "description": "Shop, vendor, or team responsible for maintaining the asset."
+  },
+  {
+    "column name": "costctr",
+    "description": "Financial cost center to which asset-related costs are charged."
+  },
+  {
+    "column name": "acct_no",
+    "description": "General ledger or accounting account associated with the asset."
+  },
+  {
+    "column name": "warranty_start_date",
+    "description": "Start date of the asset’s warranty coverage."
+  },
+  {
+    "column name": "warranty_warn_date",
+    "description": "Date to notify of impending warranty expiration; reminder threshold."
+  },
+  {
+    "column name": "warranty_end_date",
+    "description": "End date of the asset’s warranty coverage."
+  },
+  {
+    "column name": "met_cal",
+    "description": "Indicates metrology/calibration requirement or status for the asset; confirm with SME."
+  },
+  {
+    "column name": "min_mpg",
+    "description": "Minimum expected fuel economy for applicable assets; used for monitoring exceptions."
+  },
+  {
+    "column name": "max_mpg",
+    "description": "Maximum expected fuel economy for applicable assets; used for performance benchmarking."
+  },
+  {
+    "column name": "addr_key",
+    "description": "Internal key referencing a standardized address record; confirm with SME."
+  },
+  {
+    "column name": "block_num",
+    "description": "Street block number for the asset’s location; confirm with SME."
+  },
+  {
+    "column name": "street_name",
+    "description": "Street name for the asset’s location."
+  },
+  {
+    "column name": "address_1",
+    "description": "Primary street address for the asset’s location."
+  },
+  {
+    "column name": "address_2",
+    "description": "Secondary address line (e.g., suite, unit)."
+  },
+  {
+    "column name": "city",
+    "description": "City for the asset’s address."
+  },
+  {
+    "column name": "state",
+    "description": "State or province for the asset’s address."
+  },
+  {
+    "column name": "cross_street",
+    "description": "Nearest cross street reference for location; confirm with SME."
+  },
+  {
+    "column name": "zip",
+    "description": "Postal/ZIP code for the asset’s address."
+  },
+  {
+    "column name": "country_cd",
+    "description": "Country code for the asset’s address (ISO or organization standard)."
+  },
+  {
+    "column name": "parcel",
+    "description": "Parcel identifier for property-related assets; confirm with SME."
+  },
+  {
+    "column name": "tract_no",
+    "description": "Tract or subdivision number tied to the asset’s location; confirm with SME."
+  },
+  {
+    "column name": "quick_loc_ref",
+    "description": "Short reference or landmark for quickly locating the asset."
+  },
+  {
+    "column name": "neighborhood",
+    "description": "Neighborhood or community area for location grouping; confirm with SME."
+  },
+  {
+    "column name": "jurisdiction",
+    "description": "Governing jurisdiction or service area where the asset resides."
+  },
+  {
+    "column name": "map_id",
+    "description": "Map or grid reference identifier for locating the asset; confirm with SME."
+  },
+  {
+    "column name": "easement_flag",
+    "description": "Indicates whether the asset lies within an easement (Y/N)."
+  },
+  {
+    "column name": "pos_x",
+    "description": "Projected X coordinate (e.g., Easting) of the asset’s location; confirm coordinate system with SME."
+  },
+  {
+    "column name": "pos_y",
+    "description": "Projected Y coordinate (e.g., Northing) of the asset’s location; confirm coordinate system with SME."
+  },
+  {
+    "column name": "pos_z",
+    "description": "Elevation (Z) in the projected coordinate system; confirm units with SME."
+  },
+  {
+    "column name": "longitude",
+    "description": "Longitude of the asset’s location (decimal degrees)."
+  },
+  {
+    "column name": "latitude",
+    "description": "Latitude of the asset’s location (decimal degrees)."
+  },
+  {
+    "column name": "altitude",
+    "description": "Altitude/elevation of the asset’s location; units may vary; confirm with SME."
+  },
+  {
+    "column name": "access",
+    "description": "Access restrictions or instructions for reaching the asset."
+  },
+  {
+    "column name": "mfg_no",
+    "description": "Manufacturer-assigned product or model identifier; confirm with SME."
+  },
+  {
+    "column name": "model_no",
+    "description": "Manufacturer model designation for the asset."
+  },
+  {
+    "column name": "serial_no",
+    "description": "Manufacturer serial number uniquely identifying the unit."
+  },
+  {
+    "column name": "brand",
+    "description": "Brand or manufacturer name of the asset."
+  },
+  {
+    "column name": "plan_no",
+    "description": "Engineering plan or drawing number associated with the asset."
+  },
+  {
+    "column name": "as_built_no",
+    "description": "As-built drawing/document number for the installed asset configuration."
+  },
+  {
+    "column name": "size_code",
+    "description": "Coded representation of asset size/dimension class; confirm with SME."
+  },
+  {
+    "column name": "size_descr",
+    "description": "Text description of the asset’s size or configuration."
+  },
+  {
+    "column name": "item_diameter",
+    "description": "Diameter dimension of the asset or component; include units; confirm with SME."
+  },
+  {
+    "column name": "item_color",
+    "description": "Color of the asset; used for identification; confirm with SME."
+  },
+  {
+    "column name": "item_shape",
+    "description": "Shape or form factor descriptor; confirm with SME."
+  },
+  {
+    "column name": "item_volume",
+    "description": "Volume capacity or physical volume; include units; confirm with SME."
+  },
+  {
+    "column name": "item_area",
+    "description": "Surface area or footprint; include units; confirm with SME."
+  },
+  {
+    "column name": "item_weight",
+    "description": "Weight or mass of the asset; include units."
+  },
+  {
+    "column name": "item_length",
+    "description": "Length dimension; include units."
+  },
+  {
+    "column name": "item_depth",
+    "description": "Depth or thickness dimension; include units."
+  },
+  {
+    "column name": "material",
+    "description": "Primary material composition of the asset."
+  },
+  {
+    "column name": "construct_method",
+    "description": "Construction or manufacturing method used; confirm with SME."
+  },
+  {
+    "column name": "rating_value",
+    "description": "Numeric or categorical rating (e.g., condition, capacity) based on rating_type; confirm with SME."
+  },
+  {
+    "column name": "rating_type",
+    "description": "Defines the rating scale or context for rating_value (e.g., condition, risk)."
+  },
+  {
+    "column name": "probability_of_failure",
+    "description": "Estimated likelihood of asset failure within a defined period; used in risk assessment."
+  },
+  {
+    "column name": "consequence_of_failure",
+    "description": "Impact/severity if the asset fails; used in risk assessment."
+  },
+  {
+    "column name": "criticality",
+    "description": "Criticality score or class indicating importance to operations or safety."
+  },
+  {
+    "column name": "useful_life_yrs",
+    "description": "Expected service life of the asset in years."
+  },
+  {
+    "column name": "age_yrs",
+    "description": "Current age of the asset in years (derived or stored)."
+  },
+  {
+    "column name": "remaining_life_yrs",
+    "description": "Estimated remaining service life in years."
+  },
+  {
+    "column name": "date_built",
+    "description": "Date the asset was manufactured or constructed."
+  },
+  {
+    "column name": "sys_asset",
+    "description": "Flags if this record represents a system/assembly rather than a single unit; confirm with SME."
+  },
+  {
+    "column name": "last_rebuilt",
+    "description": "Date of last major rebuild or overhaul."
+  },
+  {
+    "column name": "replacement_cost",
+    "description": "Estimated cost to replace the asset with a like-for-like unit."
+  },
+  {
+    "column name": "purchase_date",
+    "description": "Date the asset was purchased or acquired."
+  },
+  {
+    "column name": "install_date",
+    "description": "Date the asset was installed or commissioned at its location."
+  },
+  {
+    "column name": "sold_date",
+    "description": "Date the asset was sold or disposed."
+  },
+  {
+    "column name": "original_value",
+    "description": "Original acquisition or capitalized value of the asset."
+  },
+  {
+    "column name": "salvage_value",
+    "description": "Estimated residual value at end of service life."
+  },
+  {
+    "column name": "total_periods",
+    "description": "Number of accounting periods used for depreciation; confirm method with SME."
+  },
+  {
+    "column name": "current_period",
+    "description": "Current depreciation period or fiscal period index; confirm with SME."
+  },
+  {
+    "column name": "udfx",
+    "description": "Generic user-defined field; purpose varies by implementation; confirm with SME."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text4",
+    "description": "User-defined text field, often used for budget or funding notes; confirm with SME."
+  },
+  {
+    "column name": "udf_text5",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text6",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text7",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text8",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text9",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text10",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text11",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text12",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text13",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text14",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text15",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text16",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text17",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text18",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text19",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text20",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_date1",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date2",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date3",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date4",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date5",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date6",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date7",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date8",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date9",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_date10",
+    "description": "User-defined date field for client-specific events or milestones."
+  },
+  {
+    "column name": "udf_num1",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num2",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num3",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num4",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num5",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num6",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num7",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num8",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num9",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "udf_num10",
+    "description": "User-defined numeric field for client-specific metrics or codes."
+  },
+  {
+    "column name": "customer_id",
+    "description": "Identifier of the customer/organization the asset is assigned to; confirm with SME."
+  },
+  {
+    "column name": "permit_link",
+    "description": "Reference or URL to related permit documentation."
+  },
+  {
+    "column name": "contact1_name",
+    "description": "Primary contact person’s name for the asset."
+  },
+  {
+    "column name": "contact1_phone1",
+    "description": "Primary phone number for the primary contact."
+  },
+  {
+    "column name": "contact1_email",
+    "description": "Email address for the primary contact."
+  },
+  {
+    "column name": "contact1_text",
+    "description": "Additional text or notes about the primary contact."
+  },
+  {
+    "column name": "contact2_name",
+    "description": "Secondary contact person’s name for the asset."
+  },
+  {
+    "column name": "contact2_phone1",
+    "description": "Primary phone number for the secondary contact."
+  },
+  {
+    "column name": "contact2_email",
+    "description": "Email address for the secondary contact."
+  },
+  {
+    "column name": "contact2_text",
+    "description": "Additional text or notes about the secondary contact."
+  },
+  {
+    "column name": "mailing_addr_add1",
+    "description": "Mailing address line 1 for correspondence related to the asset."
+  },
+  {
+    "column name": "mailing_addr_add2",
+    "description": "Mailing address line 2 for correspondence related to the asset."
+  },
+  {
+    "column name": "mailing_addr_city",
+    "description": "City for the mailing address."
+  },
+  {
+    "column name": "mailing_addr_state",
+    "description": "State/province for the mailing address."
+  },
+  {
+    "column name": "mailing_addr_zip",
+    "description": "Postal/ZIP code for the mailing address."
+  },
+  {
+    "column name": "mailing_addr_country",
+    "description": "Country for the mailing address."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Short code for the asset’s assigned location, division, or shop."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the last update to the record."
+  },
+  {
+    "column name": "route_no",
+    "description": "Route identifier if the asset is part of a service or inspection route; confirm with SME."
+  },
+  {
+    "column name": "geometry",
+    "description": "Current GIS geometry (point/line/polygon) representing the asset’s location."
+  },
+  {
+    "column name": "geometry_orig",
+    "description": "Original GIS geometry as imported or surveyed, retained for reference."
+  },
+  {
+    "column name": "contact1_fax",
+    "description": "Fax number for the primary contact; confirm usage with SME."
+  },
+  {
+    "column name": "current_value",
+    "description": "Current book or fair value of the asset; confirm valuation method with SME."
+  },
+  {
+    "column name": "district",
+    "description": "Operational district or service area to which the asset belongs."
+  },
+  {
+    "column name": "project_no",
+    "description": "Project identifier associated with the asset’s acquisition or deployment."
+  },
+  {
+    "column name": "item_width",
+    "description": "Width dimension; include units."
+  },
+  {
+    "column name": "item_height",
+    "description": "Height dimension; include units."
+  },
+  {
+    "column name": "condition",
+    "description": "Condition status or rating of the asset."
+  },
+  {
+    "column name": "hp",
+    "description": "Horsepower rating for engines/equipment; include units if needed."
+  },
+  {
+    "column name": "lic_no",
+    "description": "License or plate number assigned to the asset."
+  },
+  {
+    "column name": "vin",
+    "description": "Vehicle Identification Number or serial identifier for vehicles."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Sub-location identifier (e.g., bay, stall, room) where the asset resides."
+  },
+  {
+    "column name": "cost_share",
+    "description": "Indicates cost-sharing arrangement or percentage between entities; confirm with SME."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Internal link key to attachments or component associations; confirm with SME."
+  },
+  {
+    "column name": "redundancy",
+    "description": "Redundancy designation (e.g., N+1) indicating backup capability; confirm with SME."
+  },
+  {
+    "column name": "am_group",
+    "description": "Asset management grouping for maintenance, reporting, or permissions; confirm with SME."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Primary meter basis for usage (e.g., miles, hours)."
+  },
+  {
+    "column name": "geometry_object_id",
+    "description": "Foreign key to GIS feature/object representing the asset."
+  },
+  {
+    "column name": "life_pct",
+    "description": "Percentage of useful life consumed based on age or condition."
+  },
+  {
+    "column name": "cost_dntime",
+    "description": "Estimated cost of downtime for this asset; confirm calculation with SME."
+  },
+  {
+    "column name": "standard_hrs",
+    "description": "Standard labor hours associated with routine maintenance or tasks; confirm with SME."
+  },
+  {
+    "column name": "posted_1st",
+    "description": "Indicates whether the first accounting/depreciation posting has been processed; confirm with SME."
+  },
+  {
+    "column name": "model_year",
+    "description": "Model year of the asset (typically vehicles/equipment)."
+  },
+  {
+    "column name": "make",
+    "description": "Manufacturer or make of the asset."
+  },
+  {
+    "column name": "fuel_type",
+    "description": "Primary fuel type used by the asset (e.g., gasoline, diesel, electric)."
+  },
+  {
+    "column name": "autopilot",
+    "description": "Indicates if the asset has autopilot or autonomous capability; confirm with SME."
+  },
+  {
+    "column name": "sub_status",
+    "description": "Sub-status detailing availability or operational state (e.g., Available, Out-of-service)."
+  },
+  {
+    "column name": "svf_file",
+    "description": "Reference to a 3D/visualization file (e.g., SVF) linked to the asset; confirm with SME."
+  },
+  {
+    "column name": "svf_object",
+    "description": "Object identifier within the visualization/model file; confirm with SME."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates if the asset is active and in use (Y/N)."
+  },
+  {
+    "column name": "alpha1",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha2",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha3",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha4",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha5",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha6",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha7",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha8",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha9",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha10",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha11",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha12",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha13",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha14",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha15",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha16",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha17",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha18",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha19",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha20",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha21",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha22",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha23",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha24",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha25",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha26",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha27",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha28",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha29",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha30",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha31",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha32",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha33",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha34",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha35",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha36",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha37",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha38",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha39",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha40",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha41",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha42",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha43",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha44",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha45",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha46",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha47",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha48",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha49",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha50",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha51",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha52",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha53",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha54",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha55",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha56",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha57",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha58",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha59",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha60",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha61",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha62",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha63",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha64",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha65",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha66",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha67",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha68",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha69",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha70",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha71",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha72",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha73",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha74",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha75",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha76",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha77",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha78",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha79",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "alpha80",
+    "description": "Generic alphanumeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num1",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num2",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num3",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num4",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num5",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num6",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num7",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num8",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num9",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "num10",
+    "description": "Generic numeric field reserved for client-specific data; confirm with SME."
+  },
+  {
+    "column name": "date1",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date2",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date3",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date4",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date5",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date6",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date7",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date8",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date9",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "date10",
+    "description": "Generic date field reserved for client-specific use; confirm with SME."
+  },
+  {
+    "column name": "udf_text21",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text22",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text23",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text24",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text25",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text26",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text27",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text28",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text29",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text30",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text31",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text32",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text33",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text34",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text35",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf1",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf2",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf3",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf4",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf5",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf6",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf7",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf8",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf9",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf10",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf11",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf12",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf13",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf14",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf15",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf16",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf17",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf18",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf19",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "udf20",
+    "description": "Generic user-defined field; type and use configured per client; confirm with SME."
+  },
+  {
+    "column name": "po_no",
+    "description": "Purchase order number associated with the asset acquisition."
+  },
+  {
+    "column name": "po_date",
+    "description": "Date of the related purchase order."
+  },
+  {
+    "column name": "street_number",
+    "description": "Street number component of the asset’s address."
+  },
+  {
+    "column name": "unit_udf1",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_udf2",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_udf3",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_udf4",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_udf5",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_udf6",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_udf7",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_udf8",
+    "description": "User-defined field at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "unit_status",
+    "description": "Status specific to the unit (e.g., assigned, spare, retired); confirm with SME."
+  },
+  {
+    "column name": "unit_date1",
+    "description": "User-defined date at the unit level; client-specific purpose."
+  },
+  {
+    "column name": "npdes_permit",
+    "description": "NPDES permit number tied to the asset for environmental compliance; confirm applicability with SME."
+  },
+  {
+    "column name": "unavailable_reason",
+    "description": "Reason the asset is unavailable for service."
+  },
+  {
+    "column name": "classification",
+    "description": "Asset classification code for financial or operational grouping; confirm with SME."
+  },
+  {
+    "column name": "verification_needed",
+    "description": "Flag indicating the record requires verification or field audit."
+  },
+  {
+    "column name": "verified_by",
+    "description": "User or person who verified the asset information."
+  },
+  {
+    "column name": "verified_date",
+    "description": "Date the asset information was verified."
+  },
+  {
+    "column name": "pm_relation",
+    "description": "Linkage to preventive maintenance program or templates; confirm with SME."
+  },
+  {
+    "column name": "dept_id",
+    "description": "Identifier for the department owning or using the asset."
+  },
+  {
+    "column name": "asset_mobile_id",
+    "description": "Identifier used by the mobile application for this asset; confirm with SME."
+  },
+  {
+    "column name": "drivetrain_type",
+    "description": "Drive configuration code (e.g., FWD, RWD, 4WD); coding scheme may be abbreviated; confirm with SME."
+  },
+  {
+    "column name": "engine_size",
+    "description": "Engine displacement/configuration descriptor for the asset’s engine."
+  },
+  {
+    "column name": "fuel_capacity1",
+    "description": "Capacity of the primary fuel tank; include units."
+  },
+  {
+    "column name": "fuel_capacity2",
+    "description": "Capacity of the secondary fuel tank; include units."
+  },
+  {
+    "column name": "fuel_type1",
+    "description": "Fuel type for the primary fuel system/tank."
+  },
+  {
+    "column name": "fuel_type2",
+    "description": "Fuel type for the secondary fuel system/tank."
+  },
+  {
+    "column name": "fuel_type3",
+    "description": "Fuel type for a tertiary fuel system/tank; confirm with SME."
+  },
+  {
+    "column name": "oil_capacity",
+    "description": "Engine oil capacity; include units."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority level for maintenance/operations associated with the asset."
+  },
+  {
+    "column name": "tire_size1",
+    "description": "Primary/front tire size specification."
+  },
+  {
+    "column name": "tire_size2",
+    "description": "Secondary/rear tire size specification."
+  },
+  {
+    "column name": "tran_size",
+    "description": "Transmission type or gear specification; may include model codes."
+  },
+  {
+    "column name": "date_in_service",
+    "description": "Date the asset entered service."
+  },
+  {
+    "column name": "date_out_of_service",
+    "description": "Date the asset was removed from service."
+  },
+  {
+    "column name": "gvwr",
+    "description": "Gross Vehicle Weight Rating for vehicles; confirm units."
+  },
+  {
+    "column name": "depreciation_formula",
+    "description": "Method or formula used to calculate depreciation for this asset; confirm with SME."
+  },
+  {
+    "column name": "tree_path",
+    "description": "Concatenated representation of the asset’s hierarchy path (parents and types)."
+  },
+  {
+    "column name": "has_child",
+    "description": "Indicates whether the asset has child components (e.g., root/leaf)."
+  },
+  {
+    "column name": "child_assets",
+    "description": "Count of immediate child assets linked to this asset."
+  },
+  {
+    "column name": "is_parent_geometry",
+    "description": "Indicates whether this asset uses geometry inherited from its parent; confirm with SME."
+  },
+  {
+    "column name": "parking_lot",
+    "description": "Assigned parking lot or storage area for the asset."
+  },
+  {
+    "column name": "ingis",
+    "description": "Flag indicating whether the asset is represented in GIS; confirm with SME."
+  },
+  {
+    "column name": "udf_text36",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text37",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text38",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text39",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "udf_text40",
+    "description": "User-defined text field for client-specific data."
+  },
+  {
+    "column name": "remaining_life_meter",
+    "description": "Estimated remaining life based on meter usage (e.g., hours, miles); confirm with SME."
+  },
+  {
+    "column name": "replacement_yrs",
+    "description": "Number of years until planned replacement, or replacement cycle length; confirm with SME."
+  },
+  {
+    "column name": "properties",
+    "description": "Serialized or JSON properties with additional asset attributes; confirm structure with SME."
+  },
+  {
+    "column name": "assessed_repl_cost",
+    "description": "Assessed replacement cost from condition/valuation assessments."
+  },
+  {
+    "column name": "last_assessed_date",
+    "description": "Date of the most recent asset assessment or valuation."
+  },
+  {
+    "column name": "acq_no",
+    "description": "Acquisition record/reference number for the asset."
+  },
+  {
+    "column name": "dis_no",
+    "description": "Disposal record/reference number for the asset."
+  }
+]

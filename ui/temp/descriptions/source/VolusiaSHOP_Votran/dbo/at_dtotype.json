@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key identifying this fleet data object type metadata record."
+  },
+  {
+    "column name": "id",
+    "description": "Application identifier for the fleet data object type, used as the unique logical key in configuration and APIs."
+  },
+  {
+    "column name": "description",
+    "description": "User-friendly label for the fleet data object type shown in interfaces and reports."
+  },
+  {
+    "column name": "object",
+    "description": "Database table or view backing this fleet data object type, used for storage and querying."
+  },
+  {
+    "column name": "filter_options",
+    "description": "Encoded flag/bitmask specifying which filtering behaviors are enabled for this type; mapping of values should be confirmed with an SME."
+  },
+  {
+    "column name": "design_editable",
+    "description": "Indicates whether this type’s configuration can be modified in design mode or is locked."
+  },
+  {
+    "column name": "order_fields",
+    "description": "Default sort clause for listing records of this type (field names and directions)."
+  },
+  {
+    "column name": "help",
+    "description": "Help text or guidance associated with this type; used for tooltips or documentation, may be blank."
+  }
+]

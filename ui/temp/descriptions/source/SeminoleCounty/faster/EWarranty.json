@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "EWEHUID",
+    "description": "Identifier of the asset the coverage applies to (likely the equipment header unique ID); used as a foreign key to link an extended warranty to a specific vehicle/unit; confirm with SME."
+  },
+  {
+    "column name": "EWType",
+    "description": "Code indicating the program or plan type of the extended warranty. Mapping of codes to meanings is maintained by the business; confirm with SME."
+  },
+  {
+    "column name": "EWCycle",
+    "description": "Unit used to measure coverage and expiration (e.g., time or meter-based such as years, months, hours, odometer); interpreted with EWCycleLength to determine limits. Confirm unit mapping with SME."
+  },
+  {
+    "column name": "EWCycleLength",
+    "description": "Numeric limit for the cycle unit defining coverage duration or meter cap when combined with EWCycle; used to compute warranty expiration."
+  },
+  {
+    "column name": "EWStart",
+    "description": "Coverage start reference: either an in-service date (YYYYMMDD) or initial meter reading, depending on EWCycle. 0 or blank indicates unknown; used to calculate expiration."
+  },
+  {
+    "column name": "EWExpire",
+    "description": "Coverage end reference: either an expiration date (YYYYMMDD) or terminal meter value, depending on EWCycle/EWCycleLength. May be stored directly or derived."
+  },
+  {
+    "column name": "EWCost",
+    "description": "Amount paid to purchase the extended warranty coverage (currency)."
+  },
+  {
+    "column name": "EWDeductible",
+    "description": "Customer deductible amount per claim under the extended warranty (currency)."
+  },
+  {
+    "column name": "EWVendor",
+    "description": "Name of the dealer or provider associated with this extended warranty contract."
+  },
+  {
+    "column name": "EWContractNum",
+    "description": "Provider’s contract or policy identifier for the extended warranty."
+  }
+]

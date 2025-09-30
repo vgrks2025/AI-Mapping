@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "ms14_asset_type",
+    "description": "Asset category associated with this user-defined field under the MS14 configuration, used to scope where the field appears and applies."
+  },
+  {
+    "column name": "ms14_col_name",
+    "description": "Database column name for the field in the MS14 schema/version, used for storage and mapping."
+  },
+  {
+    "column name": "ms14_table_name",
+    "description": "Underlying inventory table in MS14 where the field resides."
+  },
+  {
+    "column name": "data_type",
+    "description": "Data type for the field in the MS14 schema, guiding storage, validation, and UI behavior."
+  },
+  {
+    "column name": "length",
+    "description": "Configured length or precision for the MS14 field; for text, max characters; for numbers, total digits."
+  },
+  {
+    "column name": "decimal",
+    "description": "Number of decimal places for numeric fields in MS14; used with length to define scale and precision. If not numeric, likely null; confirm with SME."
+  },
+  {
+    "column name": "label",
+    "description": "Human-readable label displayed in the UI for this field in MS14; may differ from the technical column name."
+  },
+  {
+    "column name": "ms15_col_name",
+    "description": "Database column name for the corresponding field in the MS15 schema/version, supporting migration or cross-version mapping."
+  },
+  {
+    "column name": "ms14_taborder",
+    "description": "Tab order index controlling cursor progression among inputs on the MS14 UI screen for this asset type."
+  },
+  {
+    "column name": "ms14_style",
+    "description": "Input control style used in the MS14 UI (e.g., text box, dropdown, checkbox), affecting how users enter or select data."
+  },
+  {
+    "column name": "ms14_dw",
+    "description": "Identifier of the MS14 UI view where this field is rendered for the asset, used to bind screen elements to data."
+  },
+  {
+    "column name": "ms14_limit",
+    "description": "Configured input limit for the field in MS14 (likely maximum characters or value constraints); confirm with SME."
+  },
+  {
+    "column name": "shared_col",
+    "description": "Flag indicating whether the field is shared across multiple asset types or modules, influencing reuse and governance."
+  },
+  {
+    "column name": "title",
+    "description": "User-facing title or section name for the asset context in MS14 where the field appears."
+  },
+  {
+    "column name": "ms15_data_type",
+    "description": "Data type for the field in the MS15 schema, used for storage, validation, and UI configuration."
+  },
+  {
+    "column name": "ms15_max_length",
+    "description": "Maximum length or precision for the field in MS15; for text, character limit; for numbers, total digits; -1 likely indicates unlimited; confirm with SME."
+  }
+]

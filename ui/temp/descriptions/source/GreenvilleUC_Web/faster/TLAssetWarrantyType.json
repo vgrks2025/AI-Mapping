@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AssetWarrantyTypeID",
+    "description": "System-generated unique identifier for a warranty type record, used as the primary key and for referencing this warranty category from related tables."
+  },
+  {
+    "column name": "AssetWarrantyType",
+    "description": "Human-readable name of the coverage category for an asset’s warranty, used for display and reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the warranty type is inactive or deprecated and should not be used for new assignments; retained for historical reference."
+  }
+]

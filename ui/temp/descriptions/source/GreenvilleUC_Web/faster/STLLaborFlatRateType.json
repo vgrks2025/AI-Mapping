@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "LaborFlatRateTypeID",
+    "description": "Unique identifier for the labor flat-rate category used for pricing and reporting in the fleet service system."
+  },
+  {
+    "column name": "RateType",
+    "description": "Specifies the measurement basis for the flat rate, indicating whether pricing is expressed as a monetary amount or as time."
+  }
+]

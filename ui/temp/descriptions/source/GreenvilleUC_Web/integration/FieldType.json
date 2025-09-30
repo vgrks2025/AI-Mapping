@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FieldTypeID",
+    "description": "System-generated unique identifier for a UI control type used to render custom or dynamic fields across the application; referenced by configuration and forms to determine data entry behavior."
+  },
+  {
+    "column name": "FieldTypeName",
+    "description": "Human-readable name of the UI control type corresponding to the identifier; used in configuration and administration screens to specify how a field is displayed and edited."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this meter reading record; serves as the primary key for tracking and linking activities."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Precise date-time when the reading was captured or ingested, typically to milliseconds (YYYYMMDDHHMMSSmmm); used for sequencing and recency checks."
+  },
+  {
+    "column name": "mupddate",
+    "description": "System date the record was last updated, stored as YYYYMMDD; supports audit and synchronization."
+  },
+  {
+    "column name": "meter",
+    "description": "Cumulative meter/odometer value for the asset at capture time, expressed in the unit specified by metertype."
+  },
+  {
+    "column name": "source",
+    "description": "Identifier of the originating record that supplied this reading, paired with sourcer to locate the source entity."
+  },
+  {
+    "column name": "sourcer",
+    "description": "Type of source that provided the reading (e.g., fuel transaction, equipment module); used with source to resolve the origin."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment/asset to which this meter reading applies; foreign key to the fleet asset registry."
+  },
+  {
+    "column name": "equipr",
+    "description": "Reference qualifier indicating the target entity/table for the equipment identifier; likely constant in this dataset; confirm with SME."
+  },
+  {
+    "column name": "metertype",
+    "description": "Unit of measure for the meter reading, such as miles, hours, or kilometers; determines interpretation of meter and elapse_meter."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key from a prior/legacy system corresponding to this record, enabling cross-system traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Table name in the legacy system where the original record resided; used for migration lineage."
+  },
+  {
+    "column name": "workorder_source_meter",
+    "description": "Reference to a work order meter entry that originated this record; may be null when sourced elsewhere; confirm with SME."
+  },
+  {
+    "column name": "updateme",
+    "description": "Internal processing/status flag controlling whether and how this record should be updated or reconciled; numeric codes require definition; confirm with SME."
+  },
+  {
+    "column name": "elapse_meter",
+    "description": "Usage accrued since the previous reading for the same asset, calculated as a delta; uses the unit defined by metertype."
+  },
+  {
+    "column name": "ttime",
+    "description": "Time of day the reading was taken or logged (HHMMSS); may be blank when unknown."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text remarks about the reading, anomalies, or context provided by users or import processes."
+  }
+]

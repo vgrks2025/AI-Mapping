@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "attach_id",
+    "description": "Unique identifier for an attachment record associated with a fleet entity."
+  },
+  {
+    "column name": "attach_offset_id",
+    "description": "Identifier of the parent record the file is attached to (asset, work order, inspection, etc.); exact entity varies by context and should be confirmed with SME."
+  },
+  {
+    "column name": "attach_name",
+    "description": "Original file name provided at upload, including extension."
+  },
+  {
+    "column name": "attach_desc",
+    "description": "User-entered description or title for the attachment to aid identification and search."
+  },
+  {
+    "column name": "attach_mode",
+    "description": "Coded indicator of attachment type or target context (e.g., document, photo, specific module); confirm code definitions with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created or uploaded the attachment record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the attachment record was created or uploaded."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the attachment metadata or file."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to the attachment record."
+  },
+  {
+    "column name": "status_flag",
+    "description": "Current lifecycle status of the attachment record (e.g., active, inactive, soft-deleted)."
+  },
+  {
+    "column name": "pic_dt",
+    "description": "Date and time the photo was captured on the device; may default to upload time if capture time is unavailable."
+  },
+  {
+    "column name": "pic_longitude",
+    "description": "Longitude coordinate where the photo was captured or uploaded, if available."
+  },
+  {
+    "column name": "pic_latitude",
+    "description": "Latitude coordinate where the photo was captured or uploaded, if available."
+  },
+  {
+    "column name": "s3etag",
+    "description": "Cloud object storage ETag or hash for the file, used to verify content integrity and support deduplication."
+  },
+  {
+    "column name": "file_size",
+    "description": "Size of the stored file, typically in bytes; confirm unit with SME."
+  }
+]

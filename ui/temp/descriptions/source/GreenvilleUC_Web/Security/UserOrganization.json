@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "UserID",
+    "description": "Internal unique identifier of the account associated to this organization–role membership. Used to link to the master user record."
+  },
+  {
+    "column name": "Organization",
+    "description": "Identifier for the company/unit within the fleet platform this membership applies to; likely an organization code rather than a name; confirm with SME."
+  },
+  {
+    "column name": "RoleID",
+    "description": "Reference to the permission role granted within the specified organization; joins to the role catalog to determine access rights and features."
+  },
+  {
+    "column name": "IsDefault",
+    "description": "Boolean flag indicating whether this is the primary organization context for the account (used by UI and APIs when no organization is specified)."
+  }
+]

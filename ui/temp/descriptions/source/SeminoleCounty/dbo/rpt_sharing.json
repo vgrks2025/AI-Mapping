@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "rpt_id",
+    "description": "Identifier of the report being shared; links this record to the report catalog."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number for this share entry within a report’s recipients; likely used for ordering or uniqueness; confirm with SME."
+  },
+  {
+    "column name": "share_with",
+    "description": "Recipient identifier granted access, interpreted based on the recipient category (user, group, or all)."
+  },
+  {
+    "column name": "rights",
+    "description": "Permission level granted to the recipient, such as read-only or edit capability."
+  },
+  {
+    "column name": "share_type",
+    "description": "Recipient category that defines the sharing scope (individual user, group/workgroup, or entire organization)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system that created the share entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the share entry was created (audit timestamp)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system that last modified this share entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time this share entry was last updated (audit timestamp)."
+  }
+]

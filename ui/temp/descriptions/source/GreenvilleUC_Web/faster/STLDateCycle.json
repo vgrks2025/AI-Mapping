@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "DateCycleID",
+    "description": "System-generated identifier for a recurrence cycle used in fleet maintenance, compliance, billing, or reporting schedules; links to the standard cycle definition."
+  },
+  {
+    "column name": "DateCycleDesc",
+    "description": "Business label describing the recurrence cycle (time unit or rule) applied to schedules in fleet operations; used for display and to drive recurrence calculations; confirm exact rule set with SME if non-standard options exist."
+  }
+]

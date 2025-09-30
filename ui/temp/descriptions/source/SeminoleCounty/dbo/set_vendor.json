@@ -1,0 +1,162 @@
+[
+  {
+    "column name": "vendor_id",
+    "description": "Unique vendor identifier used across the system and integrations."
+  },
+  {
+    "column name": "name",
+    "description": "Vendor’s legal or doing-business-as name."
+  },
+  {
+    "column name": "address",
+    "description": "Primary street address for the vendor’s business or remittance location."
+  },
+  {
+    "column name": "city",
+    "description": "City associated with the vendor’s address."
+  },
+  {
+    "column name": "state",
+    "description": "State or province code for the vendor’s address."
+  },
+  {
+    "column name": "zipcode",
+    "description": "Postal or ZIP code for the vendor’s address."
+  },
+  {
+    "column name": "phone_no",
+    "description": "Primary business telephone number for the vendor."
+  },
+  {
+    "column name": "fax",
+    "description": "Vendor fax number."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the vendor, services, or account details."
+  },
+  {
+    "column name": "corp_yn",
+    "description": "Yes/No flag indicating the vendor is a corporation; confirm with SME whether this denotes legal entity type or corporate account status."
+  },
+  {
+    "column name": "tax_id",
+    "description": "Vendor tax identification number (e.g., EIN or equivalent) for compliance and reporting."
+  },
+  {
+    "column name": "license",
+    "description": "Vendor business or trade license number or identifier."
+  },
+  {
+    "column name": "grp_type",
+    "description": "Vendor group/type classification used for reporting, approvals, or pricing; likely controlled list; confirm with SME."
+  },
+  {
+    "column name": "rating",
+    "description": "Internal vendor performance or risk rating used for selection and oversight; confirm scale and criteria with SME."
+  },
+  {
+    "column name": "email_add",
+    "description": "Primary email address for vendor communications such as orders, invoices, or support."
+  },
+  {
+    "column name": "eda_add",
+    "description": "Electronic data interchange (EDI) address or endpoint identifier for automated transactions; confirm with SME."
+  },
+  {
+    "column name": "billing",
+    "description": "Billing terms, instructions, or billing contact details associated with the vendor; confirm with SME."
+  },
+  {
+    "column name": "udf1",
+    "description": "User-defined field 1 for custom vendor attributes configured by the business."
+  },
+  {
+    "column name": "udf2",
+    "description": "User-defined field 2 for custom vendor attributes configured by the business."
+  },
+  {
+    "column name": "udf3",
+    "description": "User-defined field 3 for custom vendor attributes configured by the business."
+  },
+  {
+    "column name": "udf4",
+    "description": "User-defined field 4 for custom vendor attributes configured by the business."
+  },
+  {
+    "column name": "udf5",
+    "description": "User-defined field 5 for custom vendor attributes configured by the business."
+  },
+  {
+    "column name": "udf6",
+    "description": "User-defined field 6 for custom vendor attributes configured by the business."
+  },
+  {
+    "column name": "iv_labor_rate",
+    "description": "Default invoiced labor rate this vendor charges (currency per hour) used for service entries; confirm units and applicability with SME."
+  },
+  {
+    "column name": "iv_parts_rate",
+    "description": "Default invoiced parts rate (e.g., discount or markup percentage) for this vendor; confirm calculation basis with SME."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Default sales/use tax rate to apply to purchases from this vendor."
+  },
+  {
+    "column name": "alt_vendor_id",
+    "description": "Alternate vendor identifier used by legacy systems or external partners."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the vendor record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the vendor record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the vendor record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the vendor record."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Identifier linking this vendor record to stored attachments or documents."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether the vendor is active and selectable in transactions."
+  },
+  {
+    "column name": "contact_name",
+    "description": "Primary contact person at the vendor."
+  },
+  {
+    "column name": "web_address",
+    "description": "Vendor website URL."
+  },
+  {
+    "column name": "after_hrs_contact_name",
+    "description": "After-hours support contact name or instructions for reaching the vendor outside normal business hours."
+  },
+  {
+    "column name": "after_hrs_contact_phone",
+    "description": "After-hours contact phone number for the vendor."
+  },
+  {
+    "column name": "cell_phone",
+    "description": "Mobile phone number for the vendor’s contact."
+  },
+  {
+    "column name": "address_2",
+    "description": "Secondary address line (suite, unit, building, or additional mailing details)."
+  },
+  {
+    "column name": "ven_type",
+    "description": "Vendor type/category used for classification and reporting (e.g., parts supplier, service provider); confirm with SME."
+  }
+]

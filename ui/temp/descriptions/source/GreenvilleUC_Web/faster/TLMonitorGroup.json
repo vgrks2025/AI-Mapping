@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "MonitorGroup",
+    "description": "Abbreviated code identifying the asset monitoring group/category used for classification and reporting."
+  },
+  {
+    "column name": "MonitorGroupDesc",
+    "description": "Descriptive name of the asset monitoring group for display in user interfaces and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating whether the group is retired/inactive and should not be assigned to new assets."
+  },
+  {
+    "column name": "MonitorGroupID",
+    "description": "System-generated unique identifier for the monitoring group; primary key referenced by related records."
+  }
+]

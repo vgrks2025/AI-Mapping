@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier of this contact attribute definition record; used as the primary key and for joins."
+  },
+  {
+    "column name": "user_defined_label",
+    "description": "Human-readable label shown in the UI for this attribute (e.g., field caption)."
+  },
+  {
+    "column name": "description",
+    "description": "Longer explanation of the attribute’s purpose and how it should be used."
+  },
+  {
+    "column name": "datatype",
+    "description": "Code indicating the attribute’s data type (e.g., text, number, time); value set is system-defined; confirm with SME."
+  },
+  {
+    "column name": "datasize",
+    "description": "Maximum length, precision, or scale permitted for values of this attribute, depending on the data type."
+  },
+  {
+    "column name": "required",
+    "description": "Flag indicating whether this attribute must be provided on a contact (1 = required, 0 = optional)."
+  },
+  {
+    "column name": "specification",
+    "description": "Reference or code for additional validation/formatting rules applied to this attribute; likely links to a specification table; confirm with SME."
+  },
+  {
+    "column name": "unit_of_measure",
+    "description": "Unit associated with numeric/time values for this attribute (e.g., hours, minutes); blank if not applicable."
+  },
+  {
+    "column name": "default_value",
+    "description": "Value automatically populated for this attribute when creating a contact, if no value is provided."
+  },
+  {
+    "column name": "display_order",
+    "description": "Numeric position controlling this attribute’s ordering in lists or forms."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this attribute definition."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes or admin comments about the attribute."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification performed by a user to this record; may duplicate system last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this attribute definition."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the attribute definition was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this attribute definition."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the attribute definition was last modified by a user."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique system identifier for a navigation tree configuration record."
+  },
+  {
+    "column name": "id",
+    "description": "Business key naming the navigation tree or role-based profile controlling menus and permissions; likely maps to user roles; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "User-facing label describing the navigation tree/profile shown in the application."
+  },
+  {
+    "column name": "is_default",
+    "description": "Indicator that this configuration is the default applied when no specific selection exists."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the account that created the record for audit tracking."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the account that last updated the record for audit tracking."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update to the record."
+  }
+]

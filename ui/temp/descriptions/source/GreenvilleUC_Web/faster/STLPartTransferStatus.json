@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "PartTransferStatusID",
+    "description": "Unique key for the part transfer status reference; used as a foreign key on part transfer records to indicate their workflow state."
+  },
+  {
+    "column name": "PartTransferStatus",
+    "description": "Readable label describing the workflow state of a parts movement between locations; used in user interfaces and reports."
+  }
+]

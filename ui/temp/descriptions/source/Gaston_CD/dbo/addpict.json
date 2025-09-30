@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate unique identifier for this image record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp when this image record was created or last updated, stored as a string in YYYYMMDDHHMMSSmmm format."
+  },
+  {
+    "column name": "descr",
+    "description": "User-entered caption or description of the image’s subject or purpose."
+  },
+  {
+    "column name": "image",
+    "description": "Binary image content (BLOB) storing the original uploaded file."
+  },
+  {
+    "column name": "parent",
+    "description": "Identifier of the parent record to which this image belongs; used with parentr to resolve the target entity."
+  },
+  {
+    "column name": "parentr",
+    "description": "Type of parent entity for this image, used with parent to locate the owning record; confirm allowed codes with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key of the corresponding record in the legacy source system for migration or cross-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the table in the legacy source system from which this record originated."
+  },
+  {
+    "column name": "association",
+    "description": "Code indicating the association context or ordering of this image relative to its parent; meaning likely system-specific—confirm with SME."
+  },
+  {
+    "column name": "associationr",
+    "description": "Text label or reference describing the association code; exact usage unclear—confirm with SME."
+  },
+  {
+    "column name": "image_64",
+    "description": "Base64-encoded representation of the image, used for transport or APIs when binary BLOBs are unsuitable."
+  },
+  {
+    "column name": "inac",
+    "description": "Inactive indicator for the image record (True/False), used to hide or archive without deletion."
+  },
+  {
+    "column name": "tdate",
+    "description": "Date the image was recorded or became effective in the system, stored as YYYYMMDD string; likely transaction date—confirm with SME."
+  }
+]

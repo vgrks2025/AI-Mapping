@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate unique identifier for this row. Used as the primary key in imtbl_woap_meter."
+  },
+  {
+    "column name": "primary_meter",
+    "description": "Boolean-style flag indicating this is the primary meter controlling scheduling for the associated plan/asset (1 = true)."
+  },
+  {
+    "column name": "woap",
+    "description": "Foreign key to the related work order/activity plan (WOAP) record this meter applies to; exact parent entity name to confirm with SME."
+  },
+  {
+    "column name": "Meter_Type",
+    "description": "Code for the meter type (e.g., miles, kilometers, engine hours). Drives units and interpretation of meter readings; reference master list."
+  },
+  {
+    "column name": "Meter_Scheduled",
+    "description": "Target reading at which the maintenance activity is scheduled to occur for this meter, in the units implied by Meter_Type."
+  },
+  {
+    "column name": "Meter_Started",
+    "description": "Reading captured when the work began, in the same units as the meter type. Often blank if start reading was not recorded."
+  },
+  {
+    "column name": "Meter_Completed",
+    "description": "Reading captured when the work was completed, in the same units as the meter type."
+  },
+  {
+    "column name": "Meter_Cancelled",
+    "description": "Reading recorded if the scheduled activity was canceled at a specific meter value; usually empty."
+  },
+  {
+    "column name": "Meter_Last_Completed",
+    "description": "Most recent meter reading at which the same activity was previously completed; used for interval calculations; confirm with SME."
+  },
+  {
+    "column name": "options",
+    "description": "Free-form options or bit flags controlling behavior for this meter link; meaning is system-specific—confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record (server time)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last changed this record (user-initiated modification time)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user modification."
+  }
+]

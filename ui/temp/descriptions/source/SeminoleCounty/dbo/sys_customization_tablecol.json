@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "customization_col_id",
+    "description": "Unique identifier for a column customization record within a table layout."
+  },
+  {
+    "column name": "column_name",
+    "description": "Technical field name in the target data table that this customization controls."
+  },
+  {
+    "column name": "table_id",
+    "description": "Identifier of the table or grid this customization applies to, including module or context."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Display order of the column within the grid or form."
+  },
+  {
+    "column name": "label",
+    "description": "User-facing header caption shown for the column."
+  },
+  {
+    "column name": "config",
+    "description": "Free-form configuration value for column behavior or formatting; format varies by implementation; confirm with SME."
+  },
+  {
+    "column name": "visible",
+    "description": "Flag indicating whether the column is shown to users."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the customization record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the customization was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified the customization."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "read_only",
+    "description": "Indicates if the column’s values are not editable in the UI."
+  },
+  {
+    "column name": "customization_id",
+    "description": "Identifier for the parent customization set/profile this column belongs to; likely 0 means default or global configuration; confirm with SME."
+  },
+  {
+    "column name": "required",
+    "description": "Indicates whether a value is mandatory when entering or updating records for this column."
+  },
+  {
+    "column name": "lookup_name",
+    "description": "Name of the lookup/list source used to populate selectable values for the column; confirm binding rules."
+  },
+  {
+    "column name": "width",
+    "description": "Preferred display width of the column in pixels."
+  },
+  {
+    "column name": "max_height",
+    "description": "Maximum rendered height for this column’s cells or rows, in pixels; likely used for multi-line fields; confirm with SME."
+  },
+  {
+    "column name": "print_flag",
+    "description": "Flag controlling whether the column appears in printed or exported reports; confirm accepted values."
+  },
+  {
+    "column name": "json",
+    "description": "JSON-encoded advanced settings for the column, such as formatting, validation, or conditional visibility."
+  },
+  {
+    "column name": "show_time",
+    "description": "For date/time fields, indicates whether the time component should be displayed; confirm applicability."
+  },
+  {
+    "column name": "max",
+    "description": "Maximum permitted value or length for the column, depending on data type; confirm exact rule."
+  }
+]

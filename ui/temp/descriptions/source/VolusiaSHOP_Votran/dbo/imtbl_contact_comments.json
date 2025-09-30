@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this contact comment record."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the related contact (customer, vendor, or person) to which the comment pertains."
+  },
+  {
+    "column name": "create_date",
+    "description": "Date and time the comment record was created."
+  },
+  {
+    "column name": "created_by_user",
+    "description": "User or process that created the comment."
+  },
+  {
+    "column name": "printable",
+    "description": "Flag indicating whether this comment should appear on printed documents; 1 = printable, 0 = internal only."
+  },
+  {
+    "column name": "copy_options",
+    "description": "Options or bitmask controlling if/where this comment is copied to related documents (e.g., work orders, purchase orders); likely system-controlled; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the contact, such as vendor details, terms, or instructions."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "User or process that last modified the comment record."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification recorded at the user/application level; may differ from system last_modified."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Internal user ID of the creator; may be null or redundant with created_by_user; confirm with SME."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp captured by the user/application layer when created; may mirror create_date; confirm with SME."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Internal user ID of the last modifier; may mirror changed_by_user; confirm with SME."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp captured by the user/application layer for the last modification; may mirror last_modified; confirm with SME."
+  }
+]

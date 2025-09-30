@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the department record, used as the primary key and for joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier or short code for the department; typically unique and used in operations and user interfaces."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable full name or long description of the department for display and reporting."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes or remarks about the department."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded by application auditing for the last user-driven change; likely overlaps with other modified dates; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the department record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the department record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last updated the department record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update performed by a user."
+  }
+]

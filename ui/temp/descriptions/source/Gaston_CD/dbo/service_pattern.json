@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this service pattern row."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the row was written or last updated, in compact yyyymmddhhmmssmmm format; exact event semantics may vary; confirm with SME."
+  },
+  {
+    "column name": "pmsched",
+    "description": "Foreign key identifying the preventive maintenance schedule this pattern belongs to."
+  },
+  {
+    "column name": "pmschedr",
+    "description": "Metadata indicating the reference target used to resolve the schedule foreign key (likely the PM schedule entity); confirm with SME."
+  },
+  {
+    "column name": "stask",
+    "description": "Foreign key identifying the service task or PM category included in this pattern."
+  },
+  {
+    "column name": "staskr",
+    "description": "Metadata indicating the reference target for the task/category foreign key (likely the PM category entity); confirm with SME."
+  },
+  {
+    "column name": "sequence",
+    "description": "Execution order of the task within the pattern; supports decimals to insert steps between whole numbers."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from the legacy source system for lineage, reconciliation, and back-referencing."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table the record originated from."
+  }
+]

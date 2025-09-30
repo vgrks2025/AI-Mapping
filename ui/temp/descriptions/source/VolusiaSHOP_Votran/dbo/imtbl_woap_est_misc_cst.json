@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key uniquely identifying this estimated miscellaneous cost record."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Reference to the work order asset procedure line this estimated miscellaneous cost is associated with."
+  },
+  {
+    "column name": "Completed",
+    "description": "Flag indicating whether this miscellaneous cost line has been fully applied/closed (e.g., 0 = no, 1 = yes; confirm with SME)."
+  },
+  {
+    "column name": "Misc_Cost",
+    "description": "Identifier of the miscellaneous cost type or charge being estimated for this procedure line (likely a lookup to a cost code; confirm with SME)."
+  },
+  {
+    "column name": "Estimated_Quantity",
+    "description": "Planned number of units for this miscellaneous cost item."
+  },
+  {
+    "column name": "Estimated_Unit_Cost",
+    "description": "Planned cost per unit for this item, in the work order’s currency."
+  },
+  {
+    "column name": "Remaining_quantity",
+    "description": "Quantity still outstanding for this miscellaneous cost item, based on progress or completion."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application/user-facing timestamp of the last update (likely separate from system timestamp; confirm with SME)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the creating user or process created this record."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the modifying user or process last updated this record."
+  }
+]

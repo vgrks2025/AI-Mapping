@@ -1,0 +1,278 @@
+[
+  {
+    "column name": "customer_id",
+    "description": "System-wide unique identifier for the customer or user account, often used for login and cross-referencing."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether the customer account is currently active and allowed to use fleet services (Y/N)."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Customer’s billing or charge account number used for invoicing and cost allocation; confirm specific accounting source with SME."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Default asset category linked to the customer (e.g., vehicle, equipment); likely used for requests or assignments; confirm with SME."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Identifier of the primary asset linked to the customer (vehicle or equipment) for assignments, requests, or billing; confirm usage with SME."
+  },
+  {
+    "column name": "cust_name",
+    "description": "Customer’s full name as displayed on records and communications."
+  },
+  {
+    "column name": "address_1",
+    "description": "Primary street address line for the customer’s mailing or location information."
+  },
+  {
+    "column name": "address_2",
+    "description": "Secondary address line (suite, unit, building) for the customer."
+  },
+  {
+    "column name": "city",
+    "description": "City portion of the customer’s address."
+  },
+  {
+    "column name": "state",
+    "description": "State or province for the customer’s address."
+  },
+  {
+    "column name": "zip",
+    "description": "Postal/ZIP code for the customer’s address."
+  },
+  {
+    "column name": "phone",
+    "description": "Primary telephone number for contacting the customer."
+  },
+  {
+    "column name": "fax",
+    "description": "Fax number associated with the customer."
+  },
+  {
+    "column name": "contact",
+    "description": "Designated contact person for this account, if different from the customer name; confirm intended use with SME."
+  },
+  {
+    "column name": "bill_flag",
+    "description": "Indicates whether the customer is billable or requires separate billing setup; confirm exact business rule with SME."
+  },
+  {
+    "column name": "bill_name",
+    "description": "Billing recipient name to appear on invoices for this customer."
+  },
+  {
+    "column name": "bill_address",
+    "description": "Billing street address used for invoicing."
+  },
+  {
+    "column name": "bill_city",
+    "description": "Billing address city."
+  },
+  {
+    "column name": "bill_state",
+    "description": "Billing address state or province."
+  },
+  {
+    "column name": "bill_zip",
+    "description": "Billing address postal/ZIP code."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Sales or usage tax rate applied to taxable charges for this customer, expressed as a percentage or decimal."
+  },
+  {
+    "column name": "dis_labor",
+    "description": "Discount rate or amount applied to labor charges for this customer; confirm units with SME."
+  },
+  {
+    "column name": "dis_parts",
+    "description": "Discount rate or amount applied to parts charges for this customer; confirm units with SME."
+  },
+  {
+    "column name": "dis_payment",
+    "description": "Early payment or prompt-pay discount applicable to invoices; likely a rate or amount; confirm with SME."
+  },
+  {
+    "column name": "day_prompt",
+    "description": "Number of days within which prompt payment discount applies."
+  },
+  {
+    "column name": "day_net",
+    "description": "Number of days after invoice date when full payment is due (net terms)."
+  },
+  {
+    "column name": "cust_udf1",
+    "description": "User-defined field for customer-specific data; configurable; confirm local usage with SME."
+  },
+  {
+    "column name": "cust_udf2",
+    "description": "User-defined field for additional customer attributes; configurable; confirm local usage with SME."
+  },
+  {
+    "column name": "cust_udf3",
+    "description": "User-defined field for custom tracking needs; configurable; confirm local usage with SME."
+  },
+  {
+    "column name": "cust_udf4",
+    "description": "User-defined field reserved for agency-specific data; confirm usage with SME."
+  },
+  {
+    "column name": "cust_udf5",
+    "description": "User-defined field for miscellaneous customer data; confirm intended content with SME."
+  },
+  {
+    "column name": "udfc",
+    "description": "User-defined classification or code for the customer; locally configured; confirm semantics with SME."
+  },
+  {
+    "column name": "email_add",
+    "description": "Primary email address used for notifications and correspondence."
+  },
+  {
+    "column name": "pager_address",
+    "description": "Pager or SMS gateway address used for text-based notifications; legacy field; confirm active use with SME."
+  },
+  {
+    "column name": "notify_via_email",
+    "description": "Preference flag to send notifications to the customer by email (Y/N)."
+  },
+  {
+    "column name": "tax_labor",
+    "description": "Defines whether labor charges are taxable for this customer, or specifies a separate labor tax rate; confirm data type with SME."
+  },
+  {
+    "column name": "tax_misc",
+    "description": "Defines whether miscellaneous charges are taxable for this customer, or specifies a separate misc tax rate; confirm data type with SME."
+  },
+  {
+    "column name": "dis_misc",
+    "description": "Discount rate or amount applied to miscellaneous charges; confirm units with SME."
+  },
+  {
+    "column name": "cust_notes",
+    "description": "Free-text notes about the customer, visible to staff for context or special instructions."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the customer record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when the customer record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the customer record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this customer record."
+  },
+  {
+    "column name": "cross_street",
+    "description": "Nearest cross street or intersection related to the customer’s location; used for field service directions."
+  },
+  {
+    "column name": "company",
+    "description": "Organization or company name associated with the customer."
+  },
+  {
+    "column name": "department",
+    "description": "Department or division within the organization associated with the customer."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Identifier linking the customer to stored attachments or documents; used by the attachment subsystem."
+  },
+  {
+    "column name": "addr_key",
+    "description": "System-generated key referencing a standardized address record; likely used for address validation; confirm with SME."
+  },
+  {
+    "column name": "st_no",
+    "description": "Street number component of the customer address."
+  },
+  {
+    "column name": "st_name",
+    "description": "Street name component of the customer address."
+  },
+  {
+    "column name": "user_name",
+    "description": "System login name associated with the customer account; may duplicate or differ from the customer identifier; confirm relationship with SME."
+  },
+  {
+    "column name": "is_banned",
+    "description": "Indicates whether the user is currently banned from accessing the system or services (Y/N)."
+  },
+  {
+    "column name": "banned_until",
+    "description": "Date/time until which the ban remains in effect, after which access may be restored."
+  },
+  {
+    "column name": "ban_reason",
+    "description": "Reason recorded for banning the user."
+  },
+  {
+    "column name": "internal_user",
+    "description": "Flags the account as an internal staff user rather than an external customer (Y/N)."
+  },
+  {
+    "column name": "cell_phone",
+    "description": "Mobile phone number for contacting the customer or sending texts."
+  },
+  {
+    "column name": "phone2",
+    "description": "Secondary telephone number."
+  },
+  {
+    "column name": "by_text",
+    "description": "Preference flag to send notifications via text/SMS (Y/N)."
+  },
+  {
+    "column name": "by_ext_email",
+    "description": "Preference flag to send notifications to an external email address outside the system’s default routing (Y/N)."
+  },
+  {
+    "column name": "verified_flag",
+    "description": "Indicates whether the account or email has been verified; numeric or boolean status; confirm domain values with SME."
+  },
+  {
+    "column name": "last_pw_chg",
+    "description": "Date/time when the user last changed their password."
+  },
+  {
+    "column name": "account_expire_date",
+    "description": "Date when the account expires and access should be disabled."
+  },
+  {
+    "column name": "force_pw_chg",
+    "description": "Flag requiring the user to change password at next login (Y/N)."
+  },
+  {
+    "column name": "old_pw_1",
+    "description": "Previous password hash retained for history and reuse prevention."
+  },
+  {
+    "column name": "old_pw_2",
+    "description": "Second prior password hash retained for history and reuse prevention."
+  },
+  {
+    "column name": "old_pw_3",
+    "description": "Third prior password hash retained for history and reuse prevention."
+  },
+  {
+    "column name": "bpw",
+    "description": "Current password hash (e.g., bcrypt) for authentication; stored securely."
+  },
+  {
+    "column name": "sso_session_id",
+    "description": "Identifier of the user’s current or last single sign-on session."
+  },
+  {
+    "column name": "no_of_bad_logins",
+    "description": "Count of consecutive failed login attempts for security and lockout logic."
+  }
+]

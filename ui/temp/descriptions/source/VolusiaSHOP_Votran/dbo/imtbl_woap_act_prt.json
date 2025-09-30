@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this issued-part line on a work order procedure; used as the primary key for the record."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Reference to the work order asset procedure (task/step) this part issue applies to; links the line to its parent activity."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory item/part consumed or issued to the work order; links to the item master."
+  },
+  {
+    "column name": "component",
+    "description": "Identifier of the specific component within a bill-of-materials or assembly related to the part line; likely optional; confirm with SME."
+  },
+  {
+    "column name": "Date_issued",
+    "description": "Date the part was issued/consumed against the work order for costing and inventory reduction."
+  },
+  {
+    "column name": "Warehouse",
+    "description": "Source warehouse/store from which the part was issued."
+  },
+  {
+    "column name": "Location",
+    "description": "Bin or sublocation in the warehouse where the part was stored or picked from."
+  },
+  {
+    "column name": "Actual_Quantity",
+    "description": "Actual quantity of the part issued to the work order."
+  },
+  {
+    "column name": "Actual_Unit_Cost",
+    "description": "Unit cost applied to the issued part at the time of transaction, used to calculate actual material cost."
+  },
+  {
+    "column name": "Gl_account",
+    "description": "General ledger account charged for the material issue."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Defines allocation of the charge across multiple GL accounts (percentages or amounts); likely used for cost splitting; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record for auditing or synchronization."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the material issue, such as transaction references or remarks."
+  },
+  {
+    "column name": "options",
+    "description": "Additional option flags or attributes for the line; likely system-specific and rarely used; confirm with SME."
+  },
+  {
+    "column name": "code_type",
+    "description": "Lookup type/category that classifies the associated code (e.g., reason, status, disposition); confirm with SME."
+  },
+  {
+    "column name": "code",
+    "description": "Specific code value classifying this material issue (e.g., reason, status, failure/repair code); links to a lookup."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified the record, distinct from automated changes; confirm with SME if different from system update."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user."
+  }
+]

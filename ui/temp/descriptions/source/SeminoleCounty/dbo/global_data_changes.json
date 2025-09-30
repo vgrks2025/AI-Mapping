@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "run_by",
+    "description": "Identifier of the user or service account that executed the global data change job."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this configuration record was last modified."
+  },
+  {
+    "column name": "old_value",
+    "description": "Original data value targeted for replacement by the change rule."
+  },
+  {
+    "column name": "new_value",
+    "description": "Replacement value written when the change rule is applied."
+  },
+  {
+    "column name": "force_flag",
+    "description": "Indicator to force applying the change even if validations fail or no exact match; confirm with SME."
+  },
+  {
+    "column name": "script_name",
+    "description": "Name or identifier of the change script or rule set this row belongs to, such as the target field or domain."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number determining processing order within the script."
+  },
+  {
+    "column name": "executed",
+    "description": "Flag indicating whether this change row has been executed."
+  },
+  {
+    "column name": "rows_updated",
+    "description": "Number of records updated when this change row last executed."
+  },
+  {
+    "column name": "last_run_dt",
+    "description": "Timestamp when this change row was last executed."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or service account that created this configuration record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this configuration record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or service account that last modified this configuration record."
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "column name": "PartID",
+    "description": "System-generated unique identifier for the part record."
+  },
+  {
+    "column name": "PartNumber",
+    "description": "Primary manufacturer or catalog identifier used to source and reference the part across vendors and systems."
+  },
+  {
+    "column name": "Storeroom",
+    "description": "Warehouse or storeroom where the part’s inventory is maintained."
+  },
+  {
+    "column name": "PartName",
+    "description": "Short, human-readable name of the part for display and selection."
+  },
+  {
+    "column name": "PartType",
+    "description": "General item type classification used for categorization and business rules (e.g., standard items, tires)."
+  },
+  {
+    "column name": "PartStockType",
+    "description": "Stocking status indicating whether the item is kept on hand versus non-stock or special-order."
+  },
+  {
+    "column name": "PartCategory",
+    "description": "Category grouping for reporting, spend analysis, and maintenance classification."
+  },
+  {
+    "column name": "DefaultVendorCode",
+    "description": "Code of the preferred supplier used by default when creating purchase orders."
+  },
+  {
+    "column name": "PartDesc",
+    "description": "Detailed or extended description of the part; often longer than the display name."
+  },
+  {
+    "column name": "BinLocation",
+    "description": "Specific shelf or bin identifier within the storeroom where the item is stored."
+  },
+  {
+    "column name": "AlternateLocation",
+    "description": "Secondary storage location for overflow or alternate bin, if applicable."
+  },
+  {
+    "column name": "HighLevel",
+    "description": "Maximum desired on-hand quantity used by min/max replenishment logic."
+  },
+  {
+    "column name": "LowLevel",
+    "description": "Minimum desired on-hand quantity (safety stock) that helps trigger replenishment."
+  },
+  {
+    "column name": "ReorderPoint",
+    "description": "On-hand quantity at which a reorder should be initiated."
+  },
+  {
+    "column name": "OrderLeadTime",
+    "description": "Expected time between placing an order and receiving the item, typically in days."
+  },
+  {
+    "column name": "OrderLeadTimeDateCycle",
+    "description": "Time unit or cycle for the lead time value (e.g., days, weeks); confirm with SME."
+  },
+  {
+    "column name": "MeanTimeFailure",
+    "description": "Average operating time between failures for this item, used for reliability planning."
+  },
+  {
+    "column name": "MeanTimeFailureDateCycle",
+    "description": "Time unit for mean time between failures (e.g., hours, days); confirm with SME."
+  },
+  {
+    "column name": "IsAutoOrder",
+    "description": "Indicates whether the system automatically creates orders when reorder criteria are met."
+  },
+  {
+    "column name": "HasPrintBarcode",
+    "description": "Indicates whether barcode labels should be printed for this item."
+  },
+  {
+    "column name": "BarcodeDivisor",
+    "description": "Factor dividing quantity to determine barcode units or label count; usage may vary—confirm with SME."
+  },
+  {
+    "column name": "UnitOfOrder",
+    "description": "Unit of measure used when purchasing the item from suppliers."
+  },
+  {
+    "column name": "UnitOfIssue",
+    "description": "Unit of measure used when issuing the item to work orders or vehicles."
+  },
+  {
+    "column name": "UnitMultiplier",
+    "description": "Conversion factor between order and issue units (issue units per order unit)."
+  },
+  {
+    "column name": "IsTaxExempt",
+    "description": "Indicates whether the part is exempt from sales or use tax."
+  },
+  {
+    "column name": "QtyInStock",
+    "description": "Current on-hand quantity available in the storeroom."
+  },
+  {
+    "column name": "MarkupAmount",
+    "description": "Markup applied when charging out the item; may represent amount or percentage—confirm with SME."
+  },
+  {
+    "column name": "UnitPrice",
+    "description": "Standard unit cost or price used for valuation and billing; source may vary—confirm with SME."
+  },
+  {
+    "column name": "Shipping",
+    "description": "Shipping cost associated with procuring the item; may be applied at line or item level—confirm with SME."
+  },
+  {
+    "column name": "Tax",
+    "description": "Tax associated with the item on purchase or issue; may be amount or rate—confirm with SME."
+  },
+  {
+    "column name": "NoteSubject",
+    "description": "Title or subject line for the associated part notes."
+  },
+  {
+    "column name": "Note",
+    "description": "Free-text comments about the item, such as charges, handling, or compatibility."
+  }
+]

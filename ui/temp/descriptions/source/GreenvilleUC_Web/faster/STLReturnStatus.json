@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ReturnStatusID",
+    "description": "Unique integer key identifying each return workflow stage; used to join related records and maintain consistent categorization of return progress."
+  },
+  {
+    "column name": "ReturnStatus",
+    "description": "Human-readable description of the current stage in the return process, used for display and reporting."
+  }
+]

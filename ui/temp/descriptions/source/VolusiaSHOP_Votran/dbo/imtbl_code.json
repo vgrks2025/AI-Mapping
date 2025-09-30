@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the code record, unique within this table; used for joins and referential integrity."
+  },
+  {
+    "column name": "id",
+    "description": "Business code value presented to users and stored in transactions to reference this code."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name of the code (e.g., maintenance category, component, or task)."
+  },
+  {
+    "column name": "code_type",
+    "description": "Identifier of the code set this entry belongs to (code list/type); likely a foreign key to a code-type master; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes providing additional context about the code."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record, regardless of who made it."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp captured when a user last modified the record; overlaps with last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last updated by a user."
+  }
+]

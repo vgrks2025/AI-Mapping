@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this schedule‑meter record; serves as the primary key."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Identifier of the asset maintenance schedule/procedure this meter drives; likely a foreign key to the schedule–asset–procedure entity; confirm with SME."
+  },
+  {
+    "column name": "primary_meter",
+    "description": "Flag indicating whether this is the primary meter driving the maintenance schedule for the asset/procedure."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Reference to the type of meter (e.g., odometer, engine hours, cycles) that defines the unit of measure."
+  },
+  {
+    "column name": "meter_frequency",
+    "description": "Interval, in meter units, between scheduled services for this procedure (e.g., every 6,000 miles or hours)."
+  },
+  {
+    "column name": "percentage_ahead",
+    "description": "Percent of the interval used for early warning or advance scheduling (due‑soon threshold); likely defines how far before target the job can be planned; confirm with SME."
+  },
+  {
+    "column name": "meter_last_completed_count",
+    "description": "Meter reading recorded when the maintenance was last completed for this schedule."
+  },
+  {
+    "column name": "meter_last_scheduled_count",
+    "description": "Meter reading at which the maintenance was last planned or scheduled (may differ from completion reading)."
+  },
+  {
+    "column name": "meter_start_count",
+    "description": "Initial meter reading at which this schedule becomes active; likely the baseline for the first interval; confirm with SME."
+  },
+  {
+    "column name": "meter_end_count",
+    "description": "Meter reading at which this schedule stops applying or is capped; used to end scheduling; confirm with SME."
+  },
+  {
+    "column name": "options",
+    "description": "Option code or bitmask controlling scheduling behavior for this meter (e.g., reset or forecast rules); definitions maintained in configuration; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when the record was last modified."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified the record as captured by the application; likely aligns with system modification time; confirm with SME."
+  },
+  {
+    "column name": "rollover",
+    "description": "Meter rollover setting or value (maximum count before reset) used when computing next due; confirm with SME."
+  },
+  {
+    "column name": "scheduling_method",
+    "description": "Code indicating the scheduling method used (e.g., meter‑based, forecasted, or mixed); confirm with SME."
+  },
+  {
+    "column name": "imported",
+    "description": "Indicator that the record originated from a data import rather than manual entry."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user."
+  }
+]

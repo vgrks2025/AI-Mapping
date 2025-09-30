@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "id",
+    "description": "Unique identifier for the system statistics record; typically an auto-incremented primary key."
+  },
+  {
+    "column name": "event_type",
+    "description": "Categorizes the logged system event to support monitoring, analytics, and alerting."
+  },
+  {
+    "column name": "url",
+    "description": "Application page or API endpoint associated with the event."
+  },
+  {
+    "column name": "profile",
+    "description": "Runtime profile or configuration context tied to the event; confirm with SME."
+  },
+  {
+    "column name": "config",
+    "description": "Serialized JSON context captured with the event (runtime parameters, screens, user/session data) used for diagnostics and replay."
+  },
+  {
+    "column name": "date",
+    "description": "Timestamp when the event was recorded; timezone depends on server configuration."
+  },
+  {
+    "column name": "attach_id",
+    "description": "Identifier of a related attachment or artifact linked to the event; likely a file or attachments-table record; confirm with SME."
+  },
+  {
+    "column name": "date_fixed",
+    "description": "Timestamp when the reported issue/event was resolved or verified; confirm with SME."
+  },
+  {
+    "column name": "attach_id2",
+    "description": "Secondary attachment identifier associated with the event (e.g., linkage between attachments); confirm with SME."
+  },
+  {
+    "column name": "status",
+    "description": "Workflow status of the event or related ticket; confirm with SME."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority or severity assigned to the event or ticket for triage; confirm with SME."
+  },
+  {
+    "column name": "duplicate",
+    "description": "Indicates duplication or references the original record when duplicates exist; confirm with SME."
+  },
+  {
+    "column name": "redmine_no",
+    "description": "Reference number for the corresponding issue in the external tracker (likely Redmine); confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text internal notes about the event, investigation, or remediation."
+  },
+  {
+    "column name": "app",
+    "description": "Application variant/context where the event occurred."
+  },
+  {
+    "column name": "user_comments",
+    "description": "User-provided comments or metadata associated with the event; may store client IP in practice; confirm with SME."
+  },
+  {
+    "column name": "user_name",
+    "description": "Username of the signed-in user associated with the event."
+  },
+  {
+    "column name": "recent_clicks",
+    "description": "Serialized list of recent UI interactions preceding the event, used for issue reproduction and UX analytics."
+  },
+  {
+    "column name": "error",
+    "description": "Raw error payload captured at failure time for troubleshooting and correlation."
+  },
+  {
+    "column name": "version",
+    "description": "Application build/version that generated the event."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this record was last updated."
+  },
+  {
+    "column name": "error_code",
+    "description": "Normalized error code extracted from the error payload for filtering and aggregation."
+  }
+]

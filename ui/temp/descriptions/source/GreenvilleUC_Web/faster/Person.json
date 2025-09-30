@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "PersonID",
+    "description": "System-generated unique identifier for this person record; primary key used to link to other tables."
+  },
+  {
+    "column name": "FirstName",
+    "description": "Person’s given name used for identification and communications."
+  },
+  {
+    "column name": "MiddleInitial",
+    "description": "Optional middle-name initial for the person."
+  },
+  {
+    "column name": "LastName",
+    "description": "Person’s family/surname used for identification and sorting."
+  },
+  {
+    "column name": "Email",
+    "description": "Primary email address for this person; used for notifications and possibly login credentials."
+  },
+  {
+    "column name": "PrimaryPhone",
+    "description": "Main telephone contact for this person, may include extension."
+  },
+  {
+    "column name": "AlternatePhone",
+    "description": "Secondary telephone number for reaching this person."
+  },
+  {
+    "column name": "Fax",
+    "description": "Fax number associated with this person or their office."
+  },
+  {
+    "column name": "EmployerName",
+    "description": "Name of the organization employing this person."
+  },
+  {
+    "column name": "EmployeeNumber",
+    "description": "Employer-assigned payroll/HR identifier for this person."
+  },
+  {
+    "column name": "EmployeeTitle",
+    "description": "Job title or role; may drive permissions, workflow, or display."
+  },
+  {
+    "column name": "TimeZoneID",
+    "description": "Foreign key to time zone definition used to display local dates/times for this person."
+  },
+  {
+    "column name": "PersonAddress",
+    "description": "Street address line(s) for this person’s mailing or work location."
+  },
+  {
+    "column name": "CountryID",
+    "description": "Foreign key to country reference table for this person’s address."
+  },
+  {
+    "column name": "StateID",
+    "description": "Foreign key to state/province reference table tied to the person’s address."
+  },
+  {
+    "column name": "PersonCity",
+    "description": "City component of the person’s address."
+  },
+  {
+    "column name": "PersonZip",
+    "description": "Postal or ZIP code for the person’s address."
+  },
+  {
+    "column name": "VendorEmployeeNumber",
+    "description": "Identifier assigned by an external vendor to this person; used for vendor integrations."
+  },
+  {
+    "column name": "IsActiveDirectoryPerson",
+    "description": "Flag indicating the account is managed via Active Directory/LDAP; affects authentication and provisioning."
+  },
+  {
+    "column name": "MobilePhone",
+    "description": "Mobile number for voice and SMS contact."
+  },
+  {
+    "column name": "MobilePhoneCarrierID",
+    "description": "Foreign key to mobile carrier; likely used for SMS gateway routing; confirm with SME."
+  }
+]

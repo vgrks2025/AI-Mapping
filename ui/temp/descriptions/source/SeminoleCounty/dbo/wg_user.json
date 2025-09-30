@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup or fleet segment associated with the user in this mapping."
+  },
+  {
+    "column name": "user_name",
+    "description": "Unique user login identifier used to authenticate and reference the user in the system."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or system process that created this record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when the record was initially created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or system process that last modified this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this record."
+  },
+  {
+    "column name": "read_only",
+    "description": "Flag indicating whether the user’s access in this workgroup is read-only (Y) or editable (N); likely a permissions setting for this mapping; confirm with SME."
+  },
+  {
+    "column name": "user_fullname",
+    "description": "User’s full display name (e.g., first and last name) for readability in the application."
+  }
+]

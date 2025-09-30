@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this part-to-general-ledger mapping record."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory part/stock item in the fleet maintenance system that this accounting mapping applies to."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "General ledger account code to which transactions for the specified part should be posted (e.g., purchases, issues, adjustments)."
+  },
+  {
+    "column name": "default_general_ledger_account",
+    "description": "Indicator that this is the default GL account for the part when no more specific account is determined; likely a boolean flag (1=true). Confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the part–GL mapping, such as rationale or exceptions."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record, regardless of user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application-captured timestamp of the last user-driven modification; likely duplicates user_date_modified or is a legacy audit field—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created this mapping record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this mapping record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID of the most recent editor of this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-initiated change to this record."
+  }
+]

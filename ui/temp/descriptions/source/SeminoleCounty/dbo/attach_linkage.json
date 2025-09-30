@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "attach_link_id",
+    "description": "System-generated unique identifier for this attachment-to-entity linkage record (primary key)."
+  },
+  {
+    "column name": "attach_id",
+    "description": "Identifier of the attachment being linked; foreign key to the attachment/file metadata record."
+  },
+  {
+    "column name": "attach_code",
+    "description": "Code indicating the target entity or linkage context for the attachment. Controlled values; likely system-defined; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person or process that created the linkage record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the linkage record was created; check system timezone/precision."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person or process that last modified the linkage record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the linkage record was last modified."
+  },
+  {
+    "column name": "status_flag",
+    "description": "Status of the linkage record (e.g., active/inactive) represented as a single-character flag; confirm allowed values with SME."
+  },
+  {
+    "column name": "print_with",
+    "description": "Indicator whether this attachment should print together with its related document or transaction; boolean flag."
+  },
+  {
+    "column name": "thumbnail_flag",
+    "description": "Indicator whether a thumbnail or preview image should be generated or shown for the attachment; boolean flag."
+  }
+]

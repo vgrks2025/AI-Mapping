@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset whose usage meter is tracked; joins to the asset master record."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Operational classification of the asset for fleet and maintenance purposes; values may be descriptive categories or internal codes."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Unit of measure tracked by the meter, e.g., distance or runtime, used to interpret readings and schedule maintenance."
+  },
+  {
+    "column name": "ini_meter",
+    "description": "Starting reading recorded when this meter tracking began, often the installation or baseline value used to calculate subsequent usage."
+  },
+  {
+    "column name": "cur_meter",
+    "description": "Most recent recorded meter reading for the asset."
+  },
+  {
+    "column name": "ltd_meter",
+    "description": "Lifetime-to-date usage total for the asset, likely accumulating across meter resets or replacements; may incorporate offsets and rollovers. Confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the meter or its context for this asset."
+  },
+  {
+    "column name": "start_date",
+    "description": "Date the meter tracking became effective for this asset, such as installation or baseline start."
+  },
+  {
+    "column name": "exp_dt",
+    "description": "Date the meter record expires or is deactivated, after which it should no longer be used."
+  },
+  {
+    "column name": "last_rollover_date",
+    "description": "Most recent date the physical or logical meter rolled over to zero due to capacity limits."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created this meter record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the meter record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified this meter record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this meter record."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number distinguishing multiple meter rows for the same asset; used for ordering or uniqueness."
+  },
+  {
+    "column name": "ltd_offset",
+    "description": "Adjustment factor applied to lifetime totals to account for prior usage, replacements, or rollovers."
+  }
+]

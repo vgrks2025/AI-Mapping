@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this location change record used as the primary key."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the location change event was recorded in the system."
+  },
+  {
+    "column name": "user_id",
+    "description": "User account that performed or submitted the location update."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset (vehicle or equipment) whose location changed."
+  },
+  {
+    "column name": "static_asset_id",
+    "description": "Snapshot of the asset’s identifier at the time of the change for historical reporting; confirm with SME."
+  },
+  {
+    "column name": "static_asset_description",
+    "description": "Snapshot of the asset’s descriptive name/details as of the change for audit and reporting."
+  },
+  {
+    "column name": "old_location",
+    "description": "Identifier of the origin location prior to the move."
+  },
+  {
+    "column name": "static_old_loc_id",
+    "description": "Snapshot of the origin location’s identifier as of the change for point-in-time accuracy."
+  },
+  {
+    "column name": "static_old_loc_description",
+    "description": "Snapshot description of the origin location at the time of the change."
+  },
+  {
+    "column name": "new_location",
+    "description": "Identifier of the destination location after the move."
+  },
+  {
+    "column name": "static_new_loc_id",
+    "description": "Snapshot of the destination location’s identifier as of the change for historical accuracy."
+  },
+  {
+    "column name": "static_new_loc_description",
+    "description": "Snapshot description of the destination location at the time of the change."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this record was last updated by any process or user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely the timestamp of the last user-driven modification to this record; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this actual resource entry on a work order."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Reference to the specific work order asset/procedure line this resource effort is recorded against."
+  },
+  {
+    "column name": "Date_worked",
+    "description": "Date and time the labor/resource work was performed."
+  },
+  {
+    "column name": "Resources",
+    "description": "Identifier of the resource (e.g., technician or equipment) that performed the work."
+  },
+  {
+    "column name": "craft",
+    "description": "Trade or skill classification of the resource used for costing and reporting (e.g., mechanic, electrician)."
+  },
+  {
+    "column name": "line_no",
+    "description": "Sequence number of this resource line within the associated work order/procedure."
+  },
+  {
+    "column name": "Actual_Hours",
+    "description": "Actual labor hours worked for this entry, used for costing."
+  },
+  {
+    "column name": "Shift",
+    "description": "Shift under which the work was performed (e.g., day, swing, night); confirm code set with SME."
+  },
+  {
+    "column name": "Pay_type",
+    "description": "Pay category applied to the hours (e.g., regular, overtime) that drives rate multipliers and costing."
+  },
+  {
+    "column name": "Base_Hourly_Rate",
+    "description": "Base hourly labor rate in effect when the work was performed, before multipliers or premiums."
+  },
+  {
+    "column name": "GL_Account",
+    "description": "General ledger account charged for the labor cost of this entry."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Indicates whether cost is split across multiple GL accounts; likely a flag or allocation reference; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record."
+  },
+  {
+    "column name": "Comments",
+    "description": "Free-text notes about the work performed or context for this resource entry."
+  },
+  {
+    "column name": "options",
+    "description": "Additional options or flags affecting processing or billing of this entry; likely system-specific; confirm with SME."
+  },
+  {
+    "column name": "rate_multiplier",
+    "description": "Multiplier applied to the base hourly rate (e.g., 1.5 for overtime) to calculate extended cost."
+  },
+  {
+    "column name": "code_type",
+    "description": "Category of the associated code (e.g., labor activity, pay, or reason code); confirm domain with SME."
+  },
+  {
+    "column name": "code",
+    "description": "Charge or activity code applied to this resource entry for costing or reporting; exact meaning depends on code_type; confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application-side timestamp when a user last updated this record."
+  },
+  {
+    "column name": "additional_rate",
+    "description": "Additional hourly premium or surcharge applied on top of the base rate; confirm calculation rules with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this resource entry."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this resource entry was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user."
+  }
+]

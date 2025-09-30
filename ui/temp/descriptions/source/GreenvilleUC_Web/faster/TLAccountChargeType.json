@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "AccountChargeTypeID",
+    "description": "Unique surrogate identifier for a charge category record used to classify and link account billing transactions."
+  },
+  {
+    "column name": "ChargeType",
+    "description": "Concise label for the billing category applied to an account’s charges, used for invoicing, allocations, and reporting."
+  },
+  {
+    "column name": "ChargeTypeDesc",
+    "description": "Long-form description explaining what costs the category covers to guide billing, cost allocation, and analysis."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates whether the category is retired and should no longer be used on new transactions; retained for historical reference."
+  }
+]

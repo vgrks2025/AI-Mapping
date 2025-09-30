@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "attach_offset_id",
+    "description": "Unique identifier for this attachment storage record; serves as the primary key."
+  },
+  {
+    "column name": "offset_path",
+    "description": "Relative storage path or folder structure where related attachments are stored; likely used to build full file locations. Confirm exact scheme with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or system process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created, in system timezone."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or system process that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update."
+  },
+  {
+    "column name": "status_flag",
+    "description": "Single-character status code indicating whether the record is active, inactive, or otherwise stateful; confirm allowed values and meanings with SME."
+  }
+]

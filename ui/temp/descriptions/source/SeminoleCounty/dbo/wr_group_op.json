@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "wr_group",
+    "description": "Name or code of the work request group/category this record pertains to."
+  },
+  {
+    "column name": "op_id",
+    "description": "Identifier of the operation associated with the work request group; likely a foreign key to an operation reference; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time the record was last modified."
+  }
+]

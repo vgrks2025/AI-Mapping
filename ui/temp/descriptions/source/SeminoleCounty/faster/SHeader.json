@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "SHUserName",
+    "description": "Unique login identifier for the user; used to authenticate and audit their activity."
+  },
+  {
+    "column name": "SHAdmin",
+    "description": "Indicates whether the user has administrative privileges across the system."
+  },
+  {
+    "column name": "SHDescription",
+    "description": "User’s full name or display name shown in the application."
+  },
+  {
+    "column name": "SHCompany",
+    "description": "User’s default company/business unit context for transactions and reporting; likely optional; confirm with SME."
+  },
+  {
+    "column name": "SHEHShop",
+    "description": "User’s primary or home shop used to scope operations and defaults; likely the main working location; confirm with SME."
+  },
+  {
+    "column name": "SHOpId",
+    "description": "Employee/operator identifier linked to the user account; may be alphanumeric; confirm with SME."
+  },
+  {
+    "column name": "SHStoreroom",
+    "description": "Default storeroom/location for parts inventory activities performed by the user."
+  },
+  {
+    "column name": "SHWHShop",
+    "description": "Default warehouse or issuing shop for inventory-related transactions by the user."
+  },
+  {
+    "column name": "SHClose",
+    "description": "Permission flag allowing the user to close records such as work orders or requests."
+  },
+  {
+    "column name": "SHReOpen",
+    "description": "Permission flag allowing the user to reopen previously closed records."
+  },
+  {
+    "column name": "SHPrice",
+    "description": "Permission to enter or edit pricing on parts, labor, or services."
+  },
+  {
+    "column name": "SHQty",
+    "description": "Permission to enter or edit quantities on inventory or work transactions."
+  },
+  {
+    "column name": "SHEQCompany",
+    "description": "Default company context applied when working with equipment records."
+  },
+  {
+    "column name": "SHWOCompany",
+    "description": "Default company context applied when creating or updating work orders."
+  },
+  {
+    "column name": "SHFuelCompany",
+    "description": "Default company context applied to fuel transactions and reporting."
+  },
+  {
+    "column name": "SHMeterOvrd",
+    "description": "Permission to override or manually adjust meter/odometer readings during entry."
+  },
+  {
+    "column name": "SHCloseRepair",
+    "description": "Permission to close repair jobs or repair-related work orders."
+  },
+  {
+    "column name": "SHSMMassLogoff",
+    "description": "Enables mass logoff functionality in Shop Management (e.g., for multiple mechanics or tasks); likely; confirm with SME."
+  },
+  {
+    "column name": "SHNoteExclusive",
+    "description": "Controls whether notes entered by the user are exclusive/private; likely a visibility/locking setting; confirm with SME."
+  },
+  {
+    "column name": "SHUpdateWODept",
+    "description": "Allows the user to set or change the department on work orders; behavior may be automatic or manual; confirm with SME."
+  },
+  {
+    "column name": "SHWHStatus",
+    "description": "Default warehouse status context used by the user in inventory processes; likely controls access to active vs. closed locations; confirm with SME."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "layout_no",
+    "description": "Identifier for the fuel import layout/template this mapping row belongs to; groups a set of field positions and lengths for a specific vendor or file format."
+  },
+  {
+    "column name": "fieldname",
+    "description": "Logical name of the data element in the fuel file (e.g., ACCOUNT, DRIVER, QUANTITY), used to map fixed-width positions to business fields."
+  },
+  {
+    "column name": "fieldpos",
+    "description": "Starting character offset of the field within a fixed-width fuel record (likely 0-based); used by the parser to locate data; confirm indexing with SME."
+  },
+  {
+    "column name": "fieldlength",
+    "description": "Number of characters the field occupies in the fixed-width record; defines substring length during parsing and validation."
+  },
+  {
+    "column name": "fielddec",
+    "description": "Decimal places to apply when interpreting numeric fields (e.g., cost, quantity); 0 means integers; confirm whether implied decimals are used."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or process that created the mapping definition."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the mapping definition was created (timezone per system; confirm UTC vs local)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last modified the mapping definition."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the mapping definition (timezone per system; confirm UTC vs local)."
+  }
+]

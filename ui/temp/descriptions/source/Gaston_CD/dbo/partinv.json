@@ -1,0 +1,334 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the part inventory record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp of the most recent change to this part’s inventory record."
+  },
+  {
+    "column name": "trackinv",
+    "description": "Indicates whether this item’s quantity is tracked in inventory."
+  },
+  {
+    "column name": "core",
+    "description": "Flags that the item carries a refundable core deposit/return requirement."
+  },
+  {
+    "column name": "inact",
+    "description": "Marks the part as inactive and unavailable for normal transactions."
+  },
+  {
+    "column name": "specialty_equip",
+    "description": "Identifies the item as specialty equipment rather than standard stock; confirm with SME."
+  },
+  {
+    "column name": "outside_purchase",
+    "description": "Indicates the item is purchased directly for jobs rather than stocked."
+  },
+  {
+    "column name": "substitute",
+    "description": "Flags this item as a substitute or allows substitution with alternatives; confirm with SME."
+  },
+  {
+    "column name": "barcode",
+    "description": "Scannable code associated with the item for identification at receipt/issue."
+  },
+  {
+    "column name": "partdesc",
+    "description": "Short business description of the part."
+  },
+  {
+    "column name": "partno",
+    "description": "Primary internal part number (inventory SKU) used to identify the item."
+  },
+  {
+    "column name": "warcomments",
+    "description": "Free-text notes specific to warranty coverage or handling for this part."
+  },
+  {
+    "column name": "comments",
+    "description": "General notes or remarks about the part."
+  },
+  {
+    "column name": "projqty",
+    "description": "Projected available quantity after considering pending receipts and allocations; confirm with SME."
+  },
+  {
+    "column name": "orderqty",
+    "description": "Quantity currently on purchase order or recommended to order for replenishment."
+  },
+  {
+    "column name": "total",
+    "description": "Total inventory value or extended cost for this item; interpretation may depend on configuration. Confirm with SME."
+  },
+  {
+    "column name": "availqty",
+    "description": "Quantity available to issue (on-hand minus reserved/allocated amounts)."
+  },
+  {
+    "column name": "stockqty",
+    "description": "On-hand quantity currently in stock."
+  },
+  {
+    "column name": "allocqty",
+    "description": "Quantity reserved for work orders or other commitments."
+  },
+  {
+    "column name": "partcost",
+    "description": "Unit cost used for valuation and purchasing (standard, average, or last cost per setup)."
+  },
+  {
+    "column name": "coreamt",
+    "description": "Monetary amount of the core deposit linked to this part."
+  },
+  {
+    "column name": "partdoc",
+    "description": "Reference or attachment to documents related to the part (e.g., spec sheet, manual)."
+  },
+  {
+    "column name": "schedule",
+    "description": "Stored schedule or configuration data related to this part (XML); likely reorder or maintenance settings. Confirm with SME."
+  },
+  {
+    "column name": "task",
+    "description": "Identifier of a related task or job this part is associated with; confirm with SME."
+  },
+  {
+    "column name": "taskr",
+    "description": "Readable description for the related task reference."
+  },
+  {
+    "column name": "partincr",
+    "description": "Default quantity increment/step used when issuing or receiving this part; confirm with SME."
+  },
+  {
+    "column name": "partincrr",
+    "description": "Readable description for the quantity increment setting."
+  },
+  {
+    "column name": "invtired",
+    "description": "Indicates whether tiered inventory pricing/levels are enabled for this part; confirm with SME."
+  },
+  {
+    "column name": "invtiredr",
+    "description": "Readable description for the tiered inventory setting."
+  },
+  {
+    "column name": "sds",
+    "description": "Indicates whether a safety data sheet is required/maintained for this item."
+  },
+  {
+    "column name": "sdsr",
+    "description": "Readable description for the safety data sheet flag."
+  },
+  {
+    "column name": "oemno",
+    "description": "Original equipment manufacturer cross-reference number for this part."
+  },
+  {
+    "column name": "oemnor",
+    "description": "Readable description or formatted display of the OEM reference."
+  },
+  {
+    "column name": "unitmeas",
+    "description": "Code for the base unit of measure used to stock this item."
+  },
+  {
+    "column name": "unitmeasr",
+    "description": "Description of the unit of measure code."
+  },
+  {
+    "column name": "partmanf",
+    "description": "Code identifying the manufacturer of the part."
+  },
+  {
+    "column name": "partmanfr",
+    "description": "Manufacturer name/description corresponding to the manufacturer code."
+  },
+  {
+    "column name": "partcat",
+    "description": "Inventory category code used to classify the part."
+  },
+  {
+    "column name": "partcatr",
+    "description": "Category description corresponding to the category code."
+  },
+  {
+    "column name": "invtype",
+    "description": "Inventory type classification for this part."
+  },
+  {
+    "column name": "mangtype",
+    "description": "Inventory management/costing method applied to this item."
+  },
+  {
+    "column name": "barcodelabel",
+    "description": "Rule for printing barcode labels for this item."
+  },
+  {
+    "column name": "partpic",
+    "description": "Binary image/photo stored for the part."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this record in the legacy/source system."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table from which this record originated."
+  },
+  {
+    "column name": "expires_in_months",
+    "description": "Number of months until the item expires once received/activated."
+  },
+  {
+    "column name": "manf_no",
+    "description": "Manufacturer’s part number."
+  },
+  {
+    "column name": "shelflife",
+    "description": "Indicates whether the item’s shelf life is tracked/enforced."
+  },
+  {
+    "column name": "serialize_on_issue",
+    "description": "Requires entry of a unique serial number when issuing this item."
+  },
+  {
+    "column name": "roundoff",
+    "description": "Indicates whether quantities or prices are rounded during transactions for this item."
+  },
+  {
+    "column name": "use_conversions",
+    "description": "Indicates that unit-of-measure conversions are applied for this item."
+  },
+  {
+    "column name": "color",
+    "description": "Code representing the item’s color attribute."
+  },
+  {
+    "column name": "colorr",
+    "description": "Color description corresponding to the color code."
+  },
+  {
+    "column name": "itemsize",
+    "description": "Code representing the item’s size attribute."
+  },
+  {
+    "column name": "itemsizer",
+    "description": "Size description corresponding to the size code."
+  },
+  {
+    "column name": "default_wo_unit",
+    "description": "Default unit of measure used when issuing this part to work orders."
+  },
+  {
+    "column name": "default_wo_unitr",
+    "description": "Description of the default work-order unit."
+  },
+  {
+    "column name": "default_return_unit",
+    "description": "Default unit used when returning this part to stock."
+  },
+  {
+    "column name": "default_return_unitr",
+    "description": "Description of the default return unit."
+  },
+  {
+    "column name": "default_fuel_unit",
+    "description": "Default unit used for fuel-related transactions involving this item."
+  },
+  {
+    "column name": "default_fuel_unitr",
+    "description": "Description of the default fuel unit."
+  },
+  {
+    "column name": "default_po_rec_unit",
+    "description": "Default unit used when receiving this part on purchase orders."
+  },
+  {
+    "column name": "default_po_rec_unitr",
+    "description": "Description of the default purchase-receipt unit."
+  },
+  {
+    "column name": "default_consumed_unit",
+    "description": "Default unit used when recording consumption of this part."
+  },
+  {
+    "column name": "default_consumed_unitr",
+    "description": "Description of the default consumed unit."
+  },
+  {
+    "column name": "default_tire_unit",
+    "description": "Default unit used for tire transactions involving this item."
+  },
+  {
+    "column name": "default_tire_unitr",
+    "description": "Description of the default tire unit."
+  },
+  {
+    "column name": "default_tool_unit",
+    "description": "Default unit used for tool-related transactions involving this item."
+  },
+  {
+    "column name": "default_tool_unitr",
+    "description": "Description of the default tool unit."
+  },
+  {
+    "column name": "default_fluids_unit",
+    "description": "Default unit used for fluids or lubricants associated with this item."
+  },
+  {
+    "column name": "default_fluids_unitr",
+    "description": "Description of the default fluids unit."
+  },
+  {
+    "column name": "default_adjustment_unit",
+    "description": "Default unit used when posting inventory adjustments for this item."
+  },
+  {
+    "column name": "default_adjustment_unitr",
+    "description": "Description of the default adjustment unit."
+  },
+  {
+    "column name": "default_transfer_unit",
+    "description": "Default unit used when transferring this part between locations."
+  },
+  {
+    "column name": "default_transfer_unitr",
+    "description": "Description of the default transfer unit."
+  },
+  {
+    "column name": "subtype",
+    "description": "Sub-classification code within the item’s type hierarchy."
+  },
+  {
+    "column name": "subtyper",
+    "description": "Description of the subtype code."
+  },
+  {
+    "column name": "type",
+    "description": "Top-level classification code for this item."
+  },
+  {
+    "column name": "typer",
+    "description": "Description of the type code."
+  },
+  {
+    "column name": "fm_plus_fueltype",
+    "description": "Integration field mapping this item to an external system’s fuel type; confirm with SME."
+  },
+  {
+    "column name": "warranty_start",
+    "description": "Rule defining when warranty begins for this part, such as purchase or installation date."
+  },
+  {
+    "column name": "core_part",
+    "description": "Identifier of the related core item linked to this part."
+  },
+  {
+    "column name": "core_partr",
+    "description": "Name/description of the related core item."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "BudgetID",
+    "description": "System-generated unique identifier for this budget record."
+  },
+  {
+    "column name": "AccountID",
+    "description": "References the financial account or cost center the budget applies to; likely a foreign key to the chart of accounts or internal cost center table—confirm with SME."
+  },
+  {
+    "column name": "BudgetYearID",
+    "description": "Links the budget to a specific fiscal year period; foreign key to a budget year dimension."
+  },
+  {
+    "column name": "BudgetStatus",
+    "description": "Workflow state of the budget (e.g., Draft, Open, Closed) used to control editing and spending actions."
+  },
+  {
+    "column name": "Amount",
+    "description": "Original approved budgeted amount for the period in the system’s base currency."
+  },
+  {
+    "column name": "AmendedAmount",
+    "description": "Cumulative net adjustments to the original budget from approved amendments or transfers."
+  },
+  {
+    "column name": "Encumbrances",
+    "description": "Funds reserved against the budget for committed spend (e.g., purchase orders or contracts) not yet posted as actuals."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "CreatedDate",
+    "description": "Timestamp when the record was created (system time, timezone per application settings)."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "Identifier of the user who last updated the record."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Timestamp of the most recent update to the record."
+  }
+]

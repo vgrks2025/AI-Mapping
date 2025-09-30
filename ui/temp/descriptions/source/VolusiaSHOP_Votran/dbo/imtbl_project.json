@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the project record."
+  },
+  {
+    "column name": "id",
+    "description": "User-facing project code or short name used to identify and group work; may be alphanumeric. Likely not strictly unique across time; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text explanation of the project’s purpose, scope, or details."
+  },
+  {
+    "column name": "project_status",
+    "description": "Status of the project as a coded value referencing a status lookup (e.g., planned, active, closed); confirm reference table."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "General ledger account or cost center to which project costs are posted; likely GL code used for accounting; confirm with SME."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Identifier of the supervisor responsible for the project; references an employee or user record."
+  },
+  {
+    "column name": "estimated_start_date",
+    "description": "Planned start date/time for the project."
+  },
+  {
+    "column name": "actual_start_date",
+    "description": "Date/time when work on the project actually began."
+  },
+  {
+    "column name": "estimated_end_date",
+    "description": "Planned completion date/time for the project."
+  },
+  {
+    "column name": "actual_end_date",
+    "description": "Date/time when the project was actually completed or closed."
+  },
+  {
+    "column name": "estimated_labor_hours",
+    "description": "Planned labor effort in hours for all staff on the project."
+  },
+  {
+    "column name": "estimated_labor_costs",
+    "description": "Planned labor cost for the project, in the system’s base currency."
+  },
+  {
+    "column name": "estimated_part_costs",
+    "description": "Planned cost of parts and materials required for the project."
+  },
+  {
+    "column name": "estimated_misc_costs",
+    "description": "Planned miscellaneous or non-labor, non-parts costs for the project."
+  },
+  {
+    "column name": "estimated_downtime_hours",
+    "description": "Projected asset downtime in hours due to this project’s work (vehicles/equipment unavailable)."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded from the user/client context for the last change; may duplicate system timestamp; confirm semantics."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified the record (audit trail)."
+  }
+]

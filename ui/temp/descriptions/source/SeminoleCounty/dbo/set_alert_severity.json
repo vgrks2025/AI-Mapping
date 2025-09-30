@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "alert_severity",
+    "description": "Text label defining an alert’s urgency/impact level used to prioritize responses and workflows."
+  },
+  {
+    "column name": "descr",
+    "description": "Brief narrative describing the level’s meaning and appropriate use."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or service account that created this record for audit purposes."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this record was created for audit/history."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or service account that last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "color",
+    "description": "Display color tied to this level for dashboards and notifications. Likely stored as a hex or RGB value; confirm with SME."
+  },
+  {
+    "column name": "symbol_char",
+    "description": "Single character or icon used to visually represent the level in UI elements. Likely a Unicode glyph; confirm with SME."
+  }
+]

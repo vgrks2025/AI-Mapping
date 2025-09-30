@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "RateTypeID",
+    "description": "Unique identifier for a labor rate category used in service/maintenance work; links transactions and pricing rules to the correct labor charge type."
+  },
+  {
+    "column name": "RateType",
+    "description": "Human-readable name of the labor rate category applied to technician time or services; determines billing or cost treatment in work orders."
+  }
+]

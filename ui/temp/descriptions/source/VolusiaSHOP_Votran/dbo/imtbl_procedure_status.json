@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key uniquely identifying a procedure status record."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable status code or name used to label a procedure’s state."
+  },
+  {
+    "column name": "description",
+    "description": "Detailed explanation of the procedure status and how it should be used."
+  },
+  {
+    "column name": "procedure_status_default",
+    "description": "Flag indicating whether this status is the default for newly created procedures."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Flag to hide this status from selection lists and dropdowns."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Flag to exclude this status from reports, dashboards, and visualizations."
+  },
+  {
+    "column name": "generate_PM_work",
+    "description": "Flag indicating that applying this status should create a preventive maintenance work order."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Marks the status record as inactive for new use while retaining it for historical reference."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or internal remarks about the status."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent update to the record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated change to the record; likely distinct from system updates—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification recorded by auditing."
+  }
+]

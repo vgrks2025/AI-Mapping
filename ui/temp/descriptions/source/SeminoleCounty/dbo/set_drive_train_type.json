@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "drive_train_id",
+    "description": "Alphanumeric code that uniquely identifies a drive train configuration in the reference set; used as a key for vehicle records and validation."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the drive train configuration for this code, used for display, selection lists, and reporting."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or system process that originally created this drive train type record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was first created in the system (UTC unless otherwise specified)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or system process that most recently modified this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record (UTC unless otherwise specified)."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "PaymentTermID",
+    "description": "System-generated unique identifier for a payment term, used to link terms to customers, vendors, invoices, and purchase orders."
+  },
+  {
+    "column name": "PaymentTerm",
+    "description": "Human-readable description of the payment terms displayed on financial documents and master data."
+  },
+  {
+    "column name": "NetDays",
+    "description": "Number of days from the invoice date until the full amount becomes due."
+  },
+  {
+    "column name": "DiscountDays",
+    "description": "Number of days from the invoice date during which early payment qualifies for a discount."
+  },
+  {
+    "column name": "DiscountPercentage",
+    "description": "Discount rate applied to the invoice amount for early payment within the specified discount period."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean indicator that the payment term is inactive and should not be used for new transactions; retained for historical reference."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "AdjustmentDocumentID",
+    "description": "Identifier for the document type that supports an adjustment entry in the stock/transaction ledger, used to link adjustments to the appropriate justification category."
+  },
+  {
+    "column name": "AdjustmentDocumentDesc",
+    "description": "Readable label for the document type associated with an adjustment entry in the stock/transaction ledger; likely inventory or cost related; confirm with SME."
+  }
+]

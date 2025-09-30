@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this maintenance scheduling exception record."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Identifier of the scheduled maintenance entry for a specific asset and procedure that this exception applies to; likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "schedule_due_date",
+    "description": "Calendar due date for the maintenance task associated with the exception, possibly adjusted from the original schedule."
+  },
+  {
+    "column name": "meter_due_value",
+    "description": "Meter reading at which the task is due according to the schedule (e.g., miles, hours)."
+  },
+  {
+    "column name": "schedule_indicator",
+    "description": "Code indicating the scheduling basis or exception type (e.g., calendar-based vs meter-based); confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes describing the reason or context for the exception."
+  },
+  {
+    "column name": "user_id",
+    "description": "User account associated with this record (owning or legacy field); likely redundant with created/modified users; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-generated timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Identifier for the meter type used for the due value (e.g., miles, kilometers, engine hours)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp captured by user audit for the last modification of this record."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time the record was last modified."
+  }
+]

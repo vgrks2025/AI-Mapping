@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "SchemaName",
+    "description": "Database schema containing the lookup table that backs a picklist in the application."
+  },
+  {
+    "column name": "TableName",
+    "description": "Lookup table name that provides the allowed values for a particular picklist."
+  },
+  {
+    "column name": "CodeField",
+    "description": "Name of the column in that lookup table storing the code/key for each option."
+  },
+  {
+    "column name": "DescField",
+    "description": "Name of the column in that lookup table storing the user-facing description for each option."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the picklist definition is deprecated and should not be used going forward."
+  }
+]

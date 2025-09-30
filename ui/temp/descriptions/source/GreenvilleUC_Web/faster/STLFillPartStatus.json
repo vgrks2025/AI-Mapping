@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FillPartStatusID",
+    "description": "System-generated key for the part-fill status, referenced by transactions to indicate fulfillment state of a parts request."
+  },
+  {
+    "column name": "FillPartStatus",
+    "description": "Business-friendly label describing the fulfillment state of a parts request in maintenance/inventory processes; supports reporting and UI display."
+  }
+]

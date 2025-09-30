@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "DriveTrain",
+    "description": "Coded value indicating a vehicle’s drivetrain configuration used for classification and selection in fleet systems."
+  },
+  {
+    "column name": "DriveTrainDesc",
+    "description": "Descriptive text corresponding to the drivetrain code for user-friendly display."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean indicator that the drivetrain record is no longer in active use and should be excluded from current selections."
+  },
+  {
+    "column name": "DriveTrainID",
+    "description": "Unique surrogate key for the drivetrain record used to link to vehicles and reference the drivetrain type."
+  }
+]

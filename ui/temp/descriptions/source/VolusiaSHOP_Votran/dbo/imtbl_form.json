@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the form configuration record."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable identifier or title of the form shown in the application."
+  },
+  {
+    "column name": "is_default",
+    "description": "Indicates whether this is the default form layout for the related entity/type."
+  },
+  {
+    "column name": "dto_type",
+    "description": "Domain entity type this form is designed to create, view, or edit."
+  },
+  {
+    "column name": "file_path",
+    "description": "Relative path to the persisted XML definition file for this form."
+  },
+  {
+    "column name": "options",
+    "description": "Encoded configuration flags controlling form behavior or features (e.g., security, UI options); likely a bitmask or enum; confirm with SME."
+  },
+  {
+    "column name": "data_mode",
+    "description": "Enumerated mode controlling how the form binds or interacts with data (e.g., single-record vs list, read-only vs editable); exact meanings of values require confirmation with SME."
+  },
+  {
+    "column name": "logic_template",
+    "description": "Stored script/template defining client or server logic for this form (events, rules, validations). If empty, logic is external or not used."
+  },
+  {
+    "column name": "xml_template",
+    "description": "Inline XML layout/template for the form, used to render fields and sections when not loading from an external file."
+  },
+  {
+    "column name": "code_behind",
+    "description": "Reference or embedded code-behind implementing form behavior beyond the template (handlers, validation, automation); likely script or compiled assembly reference; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text description of the form’s purpose or usage."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this form record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this form record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this form record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this form record was last modified."
+  }
+]

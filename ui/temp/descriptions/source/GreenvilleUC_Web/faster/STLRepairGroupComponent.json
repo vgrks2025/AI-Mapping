@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "RepairGroupComponentID",
+    "description": "Surrogate key uniquely identifying each association between a repair group and a component within that group."
+  },
+  {
+    "column name": "RepairGroupID",
+    "description": "Identifier of the repair group, a package/category of related repair activities to which this component assignment belongs."
+  },
+  {
+    "column name": "RepairComponentID",
+    "description": "Identifier of the specific component, part, or repair task included in the group; references the component catalog."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "BillingType",
+    "description": "Code that classifies the type of charges applied to an account transaction in fleet billing. Used to categorize, price, and report billing entries."
+  },
+  {
+    "column name": "BillingTypeDesc",
+    "description": "Human-readable description for the billing type code, used on invoices, statements, and reports."
+  }
+]

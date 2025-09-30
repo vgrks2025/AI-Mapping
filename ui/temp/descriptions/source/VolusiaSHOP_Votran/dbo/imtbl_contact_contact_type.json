@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this contact-to-contact_type assignment; serves as the primary key for the row."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the contact linked in this record; foreign key to the contact master."
+  },
+  {
+    "column name": "contact_type",
+    "description": "Code identifying the contact’s category or role (e.g., driver, vendor); likely references a lookup table; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this mapping row was last updated in the database."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit field capturing when a user last changed the row; naming suggests a user identifier, but values look like timestamps—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created this mapping record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created by a user or process."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this record, distinct from system last_modified if both exist."
+  }
+]

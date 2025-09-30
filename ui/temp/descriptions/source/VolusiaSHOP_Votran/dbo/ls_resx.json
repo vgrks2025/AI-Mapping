@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the resource record; unique identifier used for joins, indexing, and reference."
+  },
+  {
+    "column name": "hashkey",
+    "description": "Deterministic content hash for the resource entry, used to de-duplicate and detect changes (likely SHA-1); confirm with SME."
+  },
+  {
+    "column name": "resx_xml",
+    "description": "Binary payload of the resource data compiled from RESX (magic 0xBEEFCACE suggests .NET .resources format), not plain XML; stores localized strings/assets; confirm with SME."
+  }
+]

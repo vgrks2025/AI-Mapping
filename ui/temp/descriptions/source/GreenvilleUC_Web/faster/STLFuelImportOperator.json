@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FuelImportOperatorID",
+    "description": "Primary key identifying the comparison operator available for fuel import rules. Used to reference operator logic in configurations and mappings."
+  },
+  {
+    "column name": "OperatorDesc",
+    "description": "Human-readable label for the comparison operator used in fuel import rule criteria, indicating how values should be compared during import parsing and validation."
+  }
+]

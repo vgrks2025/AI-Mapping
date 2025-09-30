@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "session_id",
+    "description": "Unique identifier for the authenticated user session instance, used to tie activity until expiration."
+  },
+  {
+    "column name": "user_name",
+    "description": "Application login ID of the user who owns this session."
+  },
+  {
+    "column name": "wg_name",
+    "description": "User’s workgroup or business unit used to scope access and data visibility."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Default warehouse/site context applied during the session; likely a location code used by inventory workflows; confirm with SME."
+  },
+  {
+    "column name": "computer_name",
+    "description": "Client device identifier initiating the session (hostname or captured endpoint identifier); used for auditing and security."
+  },
+  {
+    "column name": "ip_address",
+    "description": "Client IP observed for the session, for auditing, security controls, and possible geolocation."
+  },
+  {
+    "column name": "eff_rights",
+    "description": "Encoded effective permissions for the session (bitmask/role string determining allowed actions); encoding is proprietary; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created this session record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the session record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified this session record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time this session record was last updated."
+  },
+  {
+    "column name": "master_flag",
+    "description": "Indicator (Y/N) of whether this is the user’s primary/master session versus a secondary one; confirm semantics with SME."
+  },
+  {
+    "column name": "as_user",
+    "description": "Effective username under which the session runs (normalized, aliased, or impersonated account); confirm behavior with SME."
+  },
+  {
+    "column name": "session_type",
+    "description": "Code indicating session context/type (e.g., desktop, device, API, service); refer to code list; confirm meanings with SME."
+  },
+  {
+    "column name": "token_name",
+    "description": "Name or label of the authentication token/provider associated with the session; often unused."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the session for audit or troubleshooting."
+  },
+  {
+    "column name": "expiration_dt",
+    "description": "Scheduled date and time when this session expires."
+  },
+  {
+    "column name": "refresh_token",
+    "description": "Opaque token used to renew access or obtain a new session without re-authentication; handle securely."
+  },
+  {
+    "column name": "session_id_prev",
+    "description": "Identifier of the previous session superseded by the current one (e.g., after refresh/renewal)."
+  },
+  {
+    "column name": "expiration_dt_prev",
+    "description": "Expiration timestamp of the previous session superseded by the current one."
+  },
+  {
+    "column name": "version_id",
+    "description": "Client or application version associated with the session at login, used for support and compatibility checks."
+  }
+]

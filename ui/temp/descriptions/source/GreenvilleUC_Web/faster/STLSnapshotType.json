@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "SnapshotType",
+    "description": "Code that classifies the subject area of a periodic snapshot, enabling selection and routing of the appropriate snapshot process."
+  },
+  {
+    "column name": "SnapshotTypeDesc",
+    "description": "Human-readable label for the snapshot category, intended for display and reporting."
+  },
+  {
+    "column name": "SnapshotProcedure",
+    "description": "Fully qualified process name executed to generate and store the snapshot for the specified category; used by automation and scheduling."
+  }
+]

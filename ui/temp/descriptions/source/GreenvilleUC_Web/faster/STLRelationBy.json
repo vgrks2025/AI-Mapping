@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "RelationByID",
+    "description": "Unique identifier for a rule that determines how fleet records are related or grouped; likely a surrogate key referenced by other tables—confirm with SME."
+  },
+  {
+    "column name": "RelationName",
+    "description": "Human-readable label for the rule used to relate or group fleet records in reports, filters, or workflows."
+  },
+  {
+    "column name": "Priority",
+    "description": "Numeric rank controlling the order in which relation rules are applied; lower numbers typically indicate higher precedence."
+  }
+]

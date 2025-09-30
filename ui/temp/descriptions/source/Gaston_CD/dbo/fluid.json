@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this fluid record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time the entry was recorded, in YYYYMMDDHHMMSSmmm format; used for sequencing and auditing."
+  },
+  {
+    "column name": "fluid",
+    "description": "Type of automotive fluid used or purchased for maintenance."
+  },
+  {
+    "column name": "cost",
+    "description": "Monetary amount for the line item; likely unit price or total cost depending on quantity and unit—confirm with SME."
+  },
+  {
+    "column name": "qty",
+    "description": "Number of units of fluid used or purchased, aligned with the specified unit of measure."
+  },
+  {
+    "column name": "unitmeas",
+    "description": "Enumerated code for the unit of measure applied to the quantity (e.g., gallon, liter)."
+  },
+  {
+    "column name": "unitmeasr",
+    "description": "Human-readable unit of measure corresponding to the code; likely a lookup value—confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for the corresponding record in the legacy system, used for lineage and cross-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name from which the record originated."
+  }
+]

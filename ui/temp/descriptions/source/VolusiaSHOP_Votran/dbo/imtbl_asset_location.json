@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for an asset location record; primary key used for joins and referential integrity."
+  },
+  {
+    "column name": "id",
+    "description": "Operational location code used to identify a yard, site, or region in business processes and user interfaces."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name or address describing the location for display and reporting."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the location, such as directions, access restrictions, or special handling."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this location record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the last user-driven change to this record; appears to duplicate last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User or service account that created this location record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the location record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User or service account that last modified this location record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this location record."
+  }
+]

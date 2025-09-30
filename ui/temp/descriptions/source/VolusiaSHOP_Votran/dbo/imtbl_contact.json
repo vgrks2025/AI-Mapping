@@ -1,0 +1,226 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the contact record; primary key for joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business/legacy identifier code for the contact, typically user-facing and shorter than the primary key; confirm uniqueness rules with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Name or descriptive label of the contact (company or person)."
+  },
+  {
+    "column name": "title",
+    "description": "Job title or role of the person at the contact organization."
+  },
+  {
+    "column name": "contact_status",
+    "description": "Status code indicating the contact’s lifecycle state (e.g., active, inactive, vendor). Values are enumerated; confirm code set with SME."
+  },
+  {
+    "column name": "chargeable_to_work_orders",
+    "description": "Flag indicating whether this contact’s costs can be charged to work orders."
+  },
+  {
+    "column name": "purchase_orders",
+    "description": "Flag indicating whether the contact is allowed to be used on purchase orders (approved vendor)."
+  },
+  {
+    "column name": "social_security_number",
+    "description": "Social Security Number for an employee/individual contact; highly sensitive PII; mask and restrict access."
+  },
+  {
+    "column name": "hire_date",
+    "description": "Date the individual contact began employment."
+  },
+  {
+    "column name": "termination_date",
+    "description": "Date the individual’s employment ended."
+  },
+  {
+    "column name": "review_date",
+    "description": "Scheduled or last performance review date for the employee contact."
+  },
+  {
+    "column name": "raise_date",
+    "description": "Scheduled or last pay increase effective date for the employee contact."
+  },
+  {
+    "column name": "senior_date",
+    "description": "Seniority start date used for tenure calculations; confirm exact business meaning with SME."
+  },
+  {
+    "column name": "birth_date",
+    "description": "Date of birth for the individual contact; PII."
+  },
+  {
+    "column name": "gender",
+    "description": "Gender code for the individual; enumerated values; confirm allowed codes and meanings with SME."
+  },
+  {
+    "column name": "sick",
+    "description": "Available sick leave balance for the employee contact, typically in hours; confirm unit with SME."
+  },
+  {
+    "column name": "vacation_available",
+    "description": "Available vacation leave balance, typically in hours; confirm unit with SME."
+  },
+  {
+    "column name": "other_available",
+    "description": "Available balance for other leave category (e.g., personal time); confirm category with SME."
+  },
+  {
+    "column name": "sick_used",
+    "description": "Sick leave used to date within the current accrual period or year; confirm period with SME."
+  },
+  {
+    "column name": "vacation_used",
+    "description": "Vacation leave used to date within the current accrual period or year; confirm period with SME."
+  },
+  {
+    "column name": "other_used",
+    "description": "Other leave used to date within the current accrual period or year; confirm period with SME."
+  },
+  {
+    "column name": "overtime_worked_YTD",
+    "description": "Total overtime hours worked year-to-date for the employee contact."
+  },
+  {
+    "column name": "federal_id_number",
+    "description": "Federal tax identification number for the contact (EIN/TIN); sensitive; mask and secure."
+  },
+  {
+    "column name": "currency_type",
+    "description": "Currency code used for this contact’s financial transactions (e.g., ISO 4217)."
+  },
+  {
+    "column name": "minimum_order_amount",
+    "description": "Minimum purchase value required by the vendor before accepting orders."
+  },
+  {
+    "column name": "po_payment_terms",
+    "description": "Payment terms code applied to purchase orders for this vendor; references the terms master."
+  },
+  {
+    "column name": "ship_via",
+    "description": "Preferred shipping method or carrier code for orders placed with this vendor."
+  },
+  {
+    "column name": "shipping_payment_terms",
+    "description": "Shipping terms or responsibilities code (e.g., Incoterms or prepaid/collect); confirm exact interpretation with SME."
+  },
+  {
+    "column name": "freight_payment_terms",
+    "description": "Freight payment responsibility code indicating who pays freight charges; confirm code set with SME."
+  },
+  {
+    "column name": "specifications",
+    "description": "Free-text specifications, notes, or requirements associated with the contact (e.g., vendor capabilities or certifications)."
+  },
+  {
+    "column name": "department",
+    "description": "Organizational department associated with the employee contact; used for reporting and permissions."
+  },
+  {
+    "column name": "skill_level",
+    "description": "Skill level rating or classification for the employee contact; used for assignments or labor costing."
+  },
+  {
+    "column name": "costing_method",
+    "description": "Code indicating how labor or services are costed for this contact (e.g., actual vs. standard); confirm code meanings with SME."
+  },
+  {
+    "column name": "labor_grade",
+    "description": "Labor grade or pay band classification for the employee contact."
+  },
+  {
+    "column name": "base_rate",
+    "description": "Base hourly pay rate associated with the contact; currency per currency_type."
+  },
+  {
+    "column name": "shift",
+    "description": "Assigned work shift (e.g., day, evening); may influence premiums and scheduling."
+  },
+  {
+    "column name": "additional_hourly_pay",
+    "description": "Hourly premium added to the base rate (e.g., shift differential or certification pay)."
+  },
+  {
+    "column name": "last_order_date",
+    "description": "Date/time of the most recent purchase order placed with this vendor."
+  },
+  {
+    "column name": "tax1_percent",
+    "description": "Primary tax rate percentage applied to transactions for this contact; confirm jurisdiction and application rules."
+  },
+  {
+    "column name": "tax2_percent",
+    "description": "Secondary tax rate percentage (e.g., county or city) applied in addition to primary tax; confirm rules."
+  },
+  {
+    "column name": "tax3_percent",
+    "description": "Tertiary tax rate percentage applied if applicable; confirm usage with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when any field in this record was last changed in the system."
+  },
+  {
+    "column name": "f_currency",
+    "description": "Foreign or functional currency reference for this contact; likely indicates an alternate currency; confirm definition with SME."
+  },
+  {
+    "column name": "customer_number",
+    "description": "Customer account number assigned to this contact within the organization’s billing system."
+  },
+  {
+    "column name": "markup_type",
+    "description": "Code defining how markups are calculated for this contact (e.g., percentage, matrix, tiered); confirm code meanings with SME."
+  },
+  {
+    "column name": "parts_percent",
+    "description": "Markup percentage applied to parts for this contact when pricing or billing."
+  },
+  {
+    "column name": "labor_percent",
+    "description": "Markup percentage applied to labor for this contact when pricing or billing."
+  },
+  {
+    "column name": "misc_percent",
+    "description": "Markup percentage applied to miscellaneous charges for this contact when pricing or billing."
+  },
+  {
+    "column name": "parts_cost",
+    "description": "Base cost used to compute priced parts for this contact (e.g., standard or last cost); confirm costing source."
+  },
+  {
+    "column name": "labor_cost",
+    "description": "Base labor cost used for pricing or cost calculations for this contact; confirm costing source."
+  },
+  {
+    "column name": "misc_cost",
+    "description": "Base miscellaneous cost used for pricing or cost calculations for this contact; confirm costing source."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp captured when a user last modified the record (user action time)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified; audit field tied to user_id_modified."
+  }
+]

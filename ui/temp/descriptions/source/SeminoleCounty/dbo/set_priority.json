@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "code",
+    "description": "Abbreviated identifier for the priority level used in requests, work orders, or assets."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable label for the priority level."
+  },
+  {
+    "column name": "remarks",
+    "description": "Optional notes or business rules about the priority."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Numeric sequence used to control display or processing order of priorities."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system account that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system account that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "promised_days",
+    "description": "Number of days promised to complete or respond to items with this priority; drives SLA planning."
+  },
+  {
+    "column name": "use_in_asset",
+    "description": "Indicator whether this priority can be applied to asset records (Y/N)."
+  },
+  {
+    "column name": "styles",
+    "description": "Display style reference, such as a color or CSS class, used to highlight this priority in the user interface."
+  }
+]

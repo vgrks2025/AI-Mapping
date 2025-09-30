@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this migration mapping record."
+  },
+  {
+    "column name": "phase",
+    "description": "Numeric phase grouping to orchestrate migration waves; earlier phases run first. Likely batches related asset data; confirm with SME."
+  },
+  {
+    "column name": "torder",
+    "description": "Execution sequence number within a phase controlling when this step runs during fleet data migration."
+  },
+  {
+    "column name": "itable",
+    "description": "Target table this migration step populates in the fleet management schema (e.g., assets, attributes, meters)."
+  },
+  {
+    "column name": "fromandwhere",
+    "description": "SQL FROM/WHERE clause defining the source dataset and filters for this migration step; likely references legacy UNIT entities; confirm with SME."
+  },
+  {
+    "column name": "ishardcoded",
+    "description": "Flag: 1 when the step uses fixed values instead of sourcing from legacy fields; 0 otherwise."
+  },
+  {
+    "column name": "isupdate",
+    "description": "Flag indicating this step updates existing target rows rather than inserting new ones."
+  },
+  {
+    "column name": "isdistinct",
+    "description": "Flag indicating the SELECT applies DISTINCT to deduplicate source records before loading."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User or service account that created this migration rule."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date/time when this migration rule was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User or service account that last modified this migration rule."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date/time of the most recent modification to this migration rule."
+  }
+]

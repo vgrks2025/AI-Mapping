@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "KpiID",
+    "description": "Identifier of the KPI that this default setting applies to in the fleet metrics catalog."
+  },
+  {
+    "column name": "KpiSettingsID",
+    "description": "Unique identifier for the default setting record associated with a KPI, used for configuration management and referencing."
+  },
+  {
+    "column name": "Value",
+    "description": "Default numeric parameter for the KPI—such as a target, threshold, or limit—applied when no custom value exists; exact meaning depends on the KPI; confirm with SME."
+  },
+  {
+    "column name": "Type",
+    "description": "Data type of the default value for the KPI (e.g., integer, decimal, percentage), used to validate input and control display/formatting."
+  }
+]

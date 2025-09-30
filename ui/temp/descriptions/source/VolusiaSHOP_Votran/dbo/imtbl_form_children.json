@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key uniquely identifying this parent–child form relationship record."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable identifier or code for the child form/transaction type tied to the parent form; likely used as the label shown to users; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text description of the child form or relationship, providing context for users; meaning may vary by implementation; confirm with SME."
+  },
+  {
+    "column name": "parentform",
+    "description": "Identifier of the parent form definition this child form belongs to; references the forms/master table to group related transactions."
+  },
+  {
+    "column name": "childform",
+    "description": "Identifier of the child form definition linked under the parent form; references the forms/master table to enable navigation to related transactions."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this relationship record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date/time when this relationship record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this relationship record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date/time when this relationship record was last modified."
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this preventive maintenance detail record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp when the record was created or last updated."
+  },
+  {
+    "column name": "pmduedate",
+    "description": "Date when the preventive maintenance is due."
+  },
+  {
+    "column name": "pmmeterleft",
+    "description": "Remaining meter units until maintenance is due; negative values mean overdue. Units follow the meter type."
+  },
+  {
+    "column name": "pmcat",
+    "description": "Identifier for the preventive maintenance category or program."
+  },
+  {
+    "column name": "pmcatr",
+    "description": "Reference metadata indicating the related entity/field for the category key; likely used by UI or integration. Confirm with SME."
+  },
+  {
+    "column name": "actwo",
+    "description": "Identifier of the associated work order executing this maintenance."
+  },
+  {
+    "column name": "actwor",
+    "description": "Reference metadata indicating the related entity/field for the associated work order; likely used by UI or integration. Confirm with SME."
+  },
+  {
+    "column name": "workorder",
+    "description": "Identifier of the work order linked to this preventive maintenance detail."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Reference metadata indicating the related entity/field for the linked work order; likely used by UI or integration. Confirm with SME."
+  },
+  {
+    "column name": "pmmetertype",
+    "description": "Type of meter used to schedule maintenance (e.g., distance, hours). Determines the units for meter-based fields."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key value from the legacy source system for migration traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table for this migrated record."
+  },
+  {
+    "column name": "quickwo",
+    "description": "Identifier or flag for using a quick work order template on creation; 0/blank indicates none. Confirm exact behavior with SME."
+  },
+  {
+    "column name": "quickwor",
+    "description": "Reference metadata indicating the related entity/field for the quick work order link; likely used by UI or integration. Confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment or asset associated to this maintenance detail; 0/blank indicates none."
+  },
+  {
+    "column name": "equipr",
+    "description": "Reference metadata indicating the related entity/field for the equipment link; likely used by UI or integration. Confirm with SME."
+  },
+  {
+    "column name": "quickemp",
+    "description": "Identifier of a default employee for quick assignment; 0/blank indicates none. Confirm whether this stores an employee ID or a boolean flag with SME."
+  },
+  {
+    "column name": "quickempr",
+    "description": "Reference metadata indicating the related entity/field for the quick employee link; likely used by UI or integration. Confirm with SME."
+  },
+  {
+    "column name": "quick_wc_labor_option",
+    "description": "Option controlling how labor/work center is assigned for quick maintenance creation; value meanings are configuration-specific. Confirm with SME."
+  },
+  {
+    "column name": "quickmaintreq",
+    "description": "Indicates whether this record was created from a quick maintenance request feature."
+  },
+  {
+    "column name": "newo",
+    "description": "Indicates that a new work order should be, or was, created for this PM item."
+  },
+  {
+    "column name": "is_scheduled_pm",
+    "description": "Indicates whether this item is part of a scheduled preventive maintenance plan."
+  }
+]

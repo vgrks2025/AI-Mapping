@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for the physical inventory record."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable identifier or name for the physical inventory event or count cycle (e.g., a seasonal count name or date)."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text description of the physical inventory event, purpose, or scope."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Identifier of the warehouse/location where the count is performed; likely a foreign key to the warehouse master—confirm with SME."
+  },
+  {
+    "column name": "date_created",
+    "description": "Timestamp when the inventory record was created."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the inventory record."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Most recent user account to modify the inventory record."
+  },
+  {
+    "column name": "counted_by",
+    "description": "Person(s) who physically counted the items during this inventory."
+  },
+  {
+    "column name": "sort_order",
+    "description": "Numeric sequence used to order inventory batches/lists in the UI or reports; likely a display or processing preference—confirm with SME."
+  },
+  {
+    "column name": "date_update",
+    "description": "Timestamp of the most recent update to this record (application-level). May duplicate last_modified; confirm intended usage with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Additional notes about the inventory count."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the last modification to this record (high precision)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of last modification (despite the name), mirroring last_modified; field naming appears inconsistent—confirm with SME."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Likely application audit timestamp when a user created the record; may duplicate date_created—confirm with SME."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Likely application audit timestamp of the last user-driven modification; may duplicate date_update/last_modified—confirm with SME."
+  }
+]

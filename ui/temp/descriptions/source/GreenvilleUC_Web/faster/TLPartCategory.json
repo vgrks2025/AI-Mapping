@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "PartCategory",
+    "description": "Compact code that classifies a vehicle part into a standard category for inventory control, maintenance planning, and reporting; also used to map to external catalogs or integrations."
+  },
+  {
+    "column name": "PartCategoryDesc",
+    "description": "Readable name for the category used in user interfaces, search, and reports; provides context for the code."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates whether the category is retired and should not be used for new parts or work orders; retained for historical records and audits."
+  },
+  {
+    "column name": "PartCategoryID",
+    "description": "Internal unique identifier (numeric surrogate key) for the category, used as the primary key and referenced by related part and maintenance records."
+  }
+]

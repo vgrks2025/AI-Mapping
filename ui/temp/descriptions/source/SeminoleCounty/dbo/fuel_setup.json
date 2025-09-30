@@ -1,0 +1,122 @@
+[
+  {
+    "column name": "layout_no",
+    "description": "Identifier of the mapping template used to parse incoming fuel files for this configuration."
+  },
+  {
+    "column name": "file_format",
+    "description": "Code indicating the file structure used for import (e.g., delimited vs fixed-width); likely selects parsing rules; confirm with SME."
+  },
+  {
+    "column name": "updt_meter",
+    "description": "Flag to update vehicle odometer/hourmeter from values in imported fuel records."
+  },
+  {
+    "column name": "chk_driver",
+    "description": "Enforces validation of driver identifiers from the feed against master records during import."
+  },
+  {
+    "column name": "chk_acct",
+    "description": "Enforces validation of account or card numbers from the feed against master records during import."
+  },
+  {
+    "column name": "prn_data",
+    "description": "Controls printing or generating a report of successfully parsed fuel transactions."
+  },
+  {
+    "column name": "save_data",
+    "description": "Determines whether validated imports are committed to the database or run as a dry-run/preview."
+  },
+  {
+    "column name": "fuelman",
+    "description": "Indicates this setup targets the Fuelman card program; likely alters field mapping and rules; confirm with SME."
+  },
+  {
+    "column name": "prn_err",
+    "description": "Controls printing or logging of detailed error reports for rejected records."
+  },
+  {
+    "column name": "date_format",
+    "description": "Pattern used to parse dates in incoming files for this configuration."
+  },
+  {
+    "column name": "meter_trans",
+    "description": "Indicates whether meter-only readings from the feed are created as transactions; confirm behavior with SME."
+  },
+  {
+    "column name": "target_date",
+    "description": "Next scheduled calendar date for the automated import job to run."
+  },
+  {
+    "column name": "target_time",
+    "description": "Next scheduled time of day for the automated import job; time zone may be system default; confirm with SME."
+  },
+  {
+    "column name": "freq_no",
+    "description": "Numeric interval for the import schedule (e.g., every N units); used with the frequency unit; confirm with SME."
+  },
+  {
+    "column name": "freq_unit",
+    "description": "Time unit for the schedule interval (minutes, hours, days, etc.); used with the frequency number; confirm with SME."
+  },
+  {
+    "column name": "valid_sys",
+    "description": "Activates or deactivates this configuration for use by the system."
+  },
+  {
+    "column name": "def_stock_1",
+    "description": "Primary default product/stock code applied to imported transactions when the feed lacks a valid code; confirm exact usage with SME."
+  },
+  {
+    "column name": "def_stock_2",
+    "description": "Secondary fallback product/stock code used if primary default does not apply; confirm exact usage with SME."
+  },
+  {
+    "column name": "def_stock_3",
+    "description": "Additional fallback product/stock code for mapping ambiguous or missing product entries; confirm with SME."
+  },
+  {
+    "column name": "def_stock_4",
+    "description": "Fourth-level fallback product/stock code for import mapping when prior defaults fail; confirm with SME."
+  },
+  {
+    "column name": "allow_0_qty",
+    "description": "Permits zero-quantity records, typically for meter-only submissions or tests."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this configuration record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this configuration record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified this configuration record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this configuration record."
+  },
+  {
+    "column name": "encoding",
+    "description": "Character set expected for the incoming file content."
+  },
+  {
+    "column name": "skip_headers",
+    "description": "Number of initial rows to ignore before reading data lines from the file."
+  },
+  {
+    "column name": "chk_stock",
+    "description": "Enforces validation of product/stock codes from the feed against inventory master data."
+  },
+  {
+    "column name": "delim_char",
+    "description": "Field separator character used for parsing delimited files (e.g., comma, tab); confirm with SME."
+  },
+  {
+    "column name": "chk_meter",
+    "description": "Validates meter readings for reasonableness or sequence (e.g., nondecreasing values); confirm specific rules with SME."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "AUDIT_LOG_DATA_ID",
+    "description": "Surrogate key for the audit log detail row; unique identifier for each field-level change captured."
+  },
+  {
+    "column name": "AUDIT_LOG_TRANSACTION_ID",
+    "description": "Reference to the parent audit transaction that groups all field changes made in a single operation."
+  },
+  {
+    "column name": "PRIMARY_KEY_DATA",
+    "description": "String representation of the business key(s) of the affected record, as captured from the source table at change time."
+  },
+  {
+    "column name": "COL_NAME",
+    "description": "Name of the source table column whose value changed; in maintenance contexts, may include readings, dates, technician, status, or shop fields."
+  },
+  {
+    "column name": "OLD_VALUE_LONG",
+    "description": "Full-length prior value of the field before the change, stored in a long/text-capable column to preserve large or precise data."
+  },
+  {
+    "column name": "NEW_VALUE_LONG",
+    "description": "Full-length new value of the field after the change, stored in a long/text-capable column to preserve large or precise data."
+  },
+  {
+    "column name": "NEW_VALUE_BLOB",
+    "description": "Binary or large-object storage for the new value when the change involves large, non-text data; likely used for files or rich content; confirm with SME."
+  },
+  {
+    "column name": "NEW_VALUE",
+    "description": "New value of the changed field stored as text; used for most data types when size fits standard column limits."
+  },
+  {
+    "column name": "OLD_VALUE",
+    "description": "Previous value of the changed field stored as text; used for most data types when size fits standard column limits."
+  },
+  {
+    "column name": "PRIMARY_KEY",
+    "description": "Canonical text of the affected record’s primary key(s), often duplicated for readability and search, matching the source table’s identifier format."
+  },
+  {
+    "column name": "DATA_TYPE",
+    "description": "Code indicating the data type/category of the logged value (e.g., numeric, text, datetime); meanings are system-specific; confirm code set with SME."
+  },
+  {
+    "column name": "KEY1",
+    "description": "Parsed key component 1 derived from the affected record’s identifier to support indexing and joins; for single-key tables, this holds the primary key value."
+  },
+  {
+    "column name": "KEY2",
+    "description": "Parsed key component 2 for composite keys; blank when not applicable. Enables indexing/filtering on the second part of a multi-column identifier."
+  },
+  {
+    "column name": "KEY3",
+    "description": "Parsed key component 3 for composite keys; blank when not applicable. Enables indexing/filtering on the third part of a multi-column identifier."
+  },
+  {
+    "column name": "KEY4",
+    "description": "Parsed key component 4 for composite keys; blank when not applicable. Enables indexing/filtering on the fourth part of a multi-column identifier."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "query_id",
+    "description": "Unique identifier of the saved query or report referenced by this favorite record."
+  },
+  {
+    "column name": "user_name",
+    "description": "User account that owns this favorite setting for the query."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the favorite record, often the same as the owner."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the favorite record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified this favorite record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification to this favorite record."
+  },
+  {
+    "column name": "favorite",
+    "description": "Boolean flag indicating whether the user has marked the query as a favorite."
+  }
+]

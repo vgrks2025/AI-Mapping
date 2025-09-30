@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntegrationLogLevelID",
+    "description": "Numeric surrogate key identifying a logging severity level used by system-to-system integrations in the fleet platform. Enables consistent referencing and joins across logs and configuration."
+  },
+  {
+    "column name": "IntegrationLogLevel",
+    "description": "Text label describing the severity or category of an integration log entry. Used to classify, filter, and report on system integration events in the fleet management platform."
+  }
+]

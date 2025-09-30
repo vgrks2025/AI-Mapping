@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "RepairComponentID",
+    "description": "Unique internal identifier for a repair-component record used across maintenance and repair workflows and reporting."
+  },
+  {
+    "column name": "Component",
+    "description": "Alphanumeric code that classifies the component or service assembly used when recording repairs and preventive maintenance."
+  },
+  {
+    "column name": "ComponentDesc",
+    "description": "Human-readable description of the component or service category corresponding to the code, shown on work orders, catalogs, and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the component/category is retired and should not be selected for new work; retained only for historical records."
+  },
+  {
+    "column name": "IsDefault",
+    "description": "Boolean flag indicating this component/category is the default choice in applicable contexts (e.g., templates or selection lists); exact scope may vary—confirm with SME."
+  }
+]

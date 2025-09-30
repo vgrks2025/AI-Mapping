@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "TransactionTypeID",
+    "description": "System-assigned unique identifier for a transaction category used to classify how a transaction was created or sourced. Serves as the primary key for joining transaction records to this lookup."
+  },
+  {
+    "column name": "TransactionTypeDesc",
+    "description": "Human-readable label describing the transaction category, indicating the source or method of creation. Used in user interfaces and reports to interpret the identifier."
+  }
+]

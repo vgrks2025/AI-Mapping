@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Identifier of the application user who owns this inbox entry."
+  },
+  {
+    "column name": "msg_no",
+    "description": "System-assigned unique identifier for the message within the inbox."
+  },
+  {
+    "column name": "subject",
+    "description": "Short title or subject line provided by the sender."
+  },
+  {
+    "column name": "body",
+    "description": "Full text content of the message."
+  },
+  {
+    "column name": "status_cd",
+    "description": "Code indicating message status (likely Unread/Read/Archived/Deleted); confirm with SME."
+  },
+  {
+    "column name": "from_email",
+    "description": "Sender’s address or user identifier in the system."
+  },
+  {
+    "column name": "to_email",
+    "description": "Primary recipient’s address or user identifier."
+  },
+  {
+    "column name": "cc_email",
+    "description": "Addresses or user IDs copied on the message, if any; may be delimited."
+  },
+  {
+    "column name": "bcc_email",
+    "description": "Addresses or user IDs blind-copied on the message, hidden from other recipients."
+  },
+  {
+    "column name": "importance",
+    "description": "Priority level for the message (e.g., Low/Normal/High); confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created this record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created/received."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Reference to an associated work order in the fleet maintenance system."
+  },
+  {
+    "column name": "link_to",
+    "description": "Generic link to a related entity or module (likely asset, incident, ticket); confirm with SME."
+  },
+  {
+    "column name": "from_msg_no",
+    "description": "Identifier of the originating message for replies/forwards, enabling conversation threading."
+  }
+]

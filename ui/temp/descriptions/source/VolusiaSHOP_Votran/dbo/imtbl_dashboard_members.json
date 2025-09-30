@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Primary key uniquely identifying this membership record."
+  },
+  {
+    "column name": "member",
+    "description": "Name of the user group or role associated to a dashboard; likely a security principal rather than an individual user; confirm with SME."
+  },
+  {
+    "column name": "dashboard",
+    "description": "Business name of the dashboard to which the member is granted visibility or access."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this record was last changed, typically in UTC with sub-second precision."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that created this membership record, for audit purposes."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that last updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last updated by a user action."
+  }
+]

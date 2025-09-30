@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate unique identifier for this cross-reference row; primary key used internally."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time when the cross-reference was created or last updated, stored as a compact numeric string (likely yyyymmddhhmmssmmm); confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the cross-reference, such as applicability, vendor details, or exceptions."
+  },
+  {
+    "column name": "crosspart",
+    "description": "Identifier of the alternate/equivalent part linked to the primary part; references the parts inventory."
+  },
+  {
+    "column name": "crosspartr",
+    "description": "Name of the referenced table containing the alternate/equivalent part (e.g., parts inventory); supports dynamic foreign-key resolution."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the primary part for which alternates/equivalents are maintained; references the parts inventory."
+  },
+  {
+    "column name": "partr",
+    "description": "Name of the referenced table containing the primary part (e.g., parts inventory); used to resolve the foreign key."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key value from the legacy source system for lineage/migration back-reference; format and meaning may vary by source; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table that supplied this record, enabling traceability to the original system."
+  }
+]

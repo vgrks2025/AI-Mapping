@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the workspace or workgroup that owns this layer in the fleet mapping system; likely used to group related layers; confirm with SME."
+  },
+  {
+    "column name": "layer_name",
+    "description": "Human-readable name of the map/GIS layer representing a category of fleet assets or infrastructure used for display, search, and filtering."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or service that created the record for audit traceability."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was first created, typically stored in UTC."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or service that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record, typically stored in UTC."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Numeric sequence controlling layer display order or processing priority within its group."
+  }
+]

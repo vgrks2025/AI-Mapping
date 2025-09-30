@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "field_name",
+    "description": "System placeholder identifier for a merge field used in notifications or document templates (e.g., variables for asset, address, dates). Begins with $; used to substitute runtime values."
+  },
+  {
+    "column name": "tmp_type",
+    "description": "Code for the template’s business context or document type (e.g., work order, purchase order, work request). Used to group applicable fields; some codes may be system-specific (e.g., 'BF'); confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable label for the placeholder, shown to users when selecting or mapping fields in a template."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system account that created this template field definition for audit purposes."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this template field definition was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system account that last modified this template field definition."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this template field definition."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Display or processing order of the field within its template or section; lower numbers appear first."
+  }
+]

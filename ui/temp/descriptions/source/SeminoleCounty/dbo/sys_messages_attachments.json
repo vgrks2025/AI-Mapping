@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "id",
+    "description": "Unique, system-generated identifier for this message–attachment association."
+  },
+  {
+    "column name": "message_id",
+    "description": "References the parent message that this attachment entry belongs to."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Foreign key to the link/URL or file reference record used by the attachment; likely points to a links or storage table; confirm with SME."
+  },
+  {
+    "column name": "attach_id",
+    "description": "Foreign key to the underlying attachment asset (e.g., file metadata) associated with the message; likely references the attachment master record; confirm with SME."
+  }
+]

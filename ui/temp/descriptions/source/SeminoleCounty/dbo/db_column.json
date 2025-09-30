@@ -1,0 +1,114 @@
+[
+  {
+    "column name": "table_name",
+    "description": "Name of the database table that this column metadata describes."
+  },
+  {
+    "column name": "ordinal_position",
+    "description": "Column’s position within the table, counting from 1, used for ordering."
+  },
+  {
+    "column name": "column_name",
+    "description": "Technical name of the column in the referenced table."
+  },
+  {
+    "column name": "data_type",
+    "description": "SQL data type assigned to the column (e.g., nvarchar, numeric)."
+  },
+  {
+    "column name": "data_length",
+    "description": "Length, precision, or scale for the column’s data type, as defined in SQL."
+  },
+  {
+    "column name": "nullable",
+    "description": "Indicates whether the column allows NULL values (Y/N)."
+  },
+  {
+    "column name": "comments",
+    "description": "Technical or administrative notes about the column for data dictionary documentation."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system process that created this metadata record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this metadata record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system process that last modified this metadata record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this metadata record."
+  },
+  {
+    "column name": "label",
+    "description": "Human-friendly label for the column, used in UIs and reports."
+  },
+  {
+    "column name": "primary_key",
+    "description": "Indicates whether the column is part of the table’s primary key."
+  },
+  {
+    "column name": "src_table",
+    "description": "Upstream source table name for lineage/ETL mapping; likely populated for imported fields; confirm with SME."
+  },
+  {
+    "column name": "domain",
+    "description": "Business domain or subject area the column belongs to (e.g., asset, maintenance); confirm with SME."
+  },
+  {
+    "column name": "user_comments",
+    "description": "Free-form business comments entered by users about the column’s meaning or usage."
+  },
+  {
+    "column name": "default_width",
+    "description": "Preferred display width for the column in grids/reports; used by UI layouts."
+  },
+  {
+    "column name": "default_flag",
+    "description": "Indicates default behavior or visibility for this column in standard views; likely a Y/N flag; confirm with SME."
+  },
+  {
+    "column name": "report_order",
+    "description": "Preferred display order of the column in reports or list views."
+  },
+  {
+    "column name": "data_count",
+    "description": "Profiled count of non-null values for this column; used for data quality monitoring; confirm with SME."
+  },
+  {
+    "column name": "data_count_distinct",
+    "description": "Profiled count of distinct values in the column; useful for uniqueness and cardinality checks; confirm with SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Internal sequence number for ordering metadata records or grouping columns across screens."
+  },
+  {
+    "column name": "api_upd",
+    "description": "Flag indicating whether this column can be updated via the public API (0/1 or Y/N)."
+  },
+  {
+    "column name": "api_list",
+    "description": "Flag indicating whether this column is included in list/GET responses from the API (0/1 or Y/N)."
+  },
+  {
+    "column name": "data_example",
+    "description": "Representative example value for the column, shown in documentation and profiling."
+  },
+  {
+    "column name": "data_options",
+    "description": "Enumerated set of allowed values or lookup codes for the column, when applicable."
+  },
+  {
+    "column name": "description_flag",
+    "description": "Marks this field as a human-readable description for a coded value; likely a Y/N flag; confirm with SME."
+  },
+  {
+    "column name": "autogenerate_flag",
+    "description": "Indicates the column’s values are system-generated rather than user-entered (e.g., IDs, timestamps); confirm with SME."
+  }
+]

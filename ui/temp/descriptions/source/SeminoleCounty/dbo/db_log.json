@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "user_name",
+    "description": "User or service account that initiated the recorded change."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the update occurred and was recorded in the log."
+  },
+  {
+    "column name": "upd_module",
+    "description": "Application module or functional area responsible for the update."
+  },
+  {
+    "column name": "key1",
+    "description": "Primary business identifier of the affected record; likely varies by module and may represent different entities; confirm with SME."
+  },
+  {
+    "column name": "upd_sql",
+    "description": "Text of the SQL statement executed to apply the update for auditing and troubleshooting."
+  },
+  {
+    "column name": "script",
+    "description": "Name of the automated job, script, or procedure that performed the change, if applicable."
+  },
+  {
+    "column name": "key2",
+    "description": "Secondary business key providing additional context for the affected record (such as a line item or sub-identifier); confirm with SME."
+  },
+  {
+    "column name": "log_id",
+    "description": "Unique identifier for this log entry, used for tracing and reference."
+  },
+  {
+    "column name": "autoremove_off",
+    "description": "Flag indicating this entry is exempt from automated cleanup or archival; likely used to retain critical records; confirm with SME."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Application user account that initiated the operation that was flagged as slow."
+  },
+  {
+    "column name": "request",
+    "description": "Captured request payload/parameters for the operation, stored as serialized JSON (e.g., report id, format, filters)."
+  },
+  {
+    "column name": "request_origin",
+    "description": "Source host or application URL where the request was initiated."
+  },
+  {
+    "column name": "table_name",
+    "description": "Target dataset or report identifier referenced by the request (table name or report ID); confirm with SME."
+  },
+  {
+    "column name": "api_name",
+    "description": "Internal API or service endpoint that processed the request."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the slow request event was recorded."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes about the event, investigation, or remediation."
+  },
+  {
+    "column name": "duration",
+    "description": "Elapsed time for the request to complete, likely measured in seconds; confirm unit with SME."
+  },
+  {
+    "column name": "log_type",
+    "description": "Event type indicating the stage of processing (e.g., start or completion) captured for the request."
+  }
+]

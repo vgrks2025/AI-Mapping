@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "PaymentMethodID",
+    "description": "System-generated unique identifier for a tender type; serves as the primary key and foreign key reference."
+  },
+  {
+    "column name": "PaymentMethod",
+    "description": "Short standardized code representing the tender type used to settle charges."
+  },
+  {
+    "column name": "PaymentMethodDesc",
+    "description": "User-friendly description of the tender type for UI and reporting."
+  },
+  {
+    "column name": "IsReferenceRequired",
+    "description": "Boolean flag indicating whether transactions must include an external reference identifier when this tender type is used."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the tender type is retired or inactive and should not be used for new transactions, though historical records remain."
+  }
+]

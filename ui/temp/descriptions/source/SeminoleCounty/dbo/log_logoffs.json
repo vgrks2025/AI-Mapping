@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Identifier of the application user or service whose session ended (logoff event)."
+  },
+  {
+    "column name": "session_id",
+    "description": "System-generated unique ID of the terminated session, used to correlate with login/activity logs."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and timestamp when the logoff event was recorded in the system (server time or UTC; confirm)."
+  },
+  {
+    "column name": "add_by",
+    "description": "Likely the account, job, or application component that created this log entry; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes about the logoff, such as reason, errors, or contextual details."
+  }
+]

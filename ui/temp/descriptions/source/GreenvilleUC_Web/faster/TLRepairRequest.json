@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "RepairRequestID",
+    "description": "System-generated unique identifier for a single repair request record in the fleet maintenance system. Used to link the request to assets, schedules, work orders, and billing."
+  },
+  {
+    "column name": "PortalServiceItemDesc",
+    "description": "Human-readable description of the service item selected or entered via the portal for this request. Typically sourced from a controlled list to guide technicians and billing; confirm whether free-text is allowed."
+  },
+  {
+    "column name": "RepairReasonID",
+    "description": "Reference to a coded reason explaining why the repair is needed. Foreign key to a reason lookup (symptom, failure, compliance); exact code set may vary—confirm with SME."
+  },
+  {
+    "column name": "RepairGroupComponentActionID",
+    "description": "Reference to a standardized code combining group/system, component, and action to be performed. Supports labor estimation, parts mapping, and analytics; likely a foreign key to a repair taxonomy table—confirm with SME."
+  },
+  {
+    "column name": "IsBillable",
+    "description": "Boolean flag indicating whether this request’s costs are chargeable to a customer or internal cost center. Drives invoicing, budgeting, and cost allocation rules."
+  },
+  {
+    "column name": "RepairScheduleID",
+    "description": "Identifier linking the request to its associated maintenance schedule or appointment. Foreign key to scheduling data; confirm whether it points to a preventive maintenance plan, campaign, or specific calendar event."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the record is deprecated or inactive and should no longer be used in current processing. Used to hide or lock the request; confirm whether it denotes cancellation or historical archival."
+  }
+]

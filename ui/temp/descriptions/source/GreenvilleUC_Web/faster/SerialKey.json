@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "SerialKeyID",
+    "description": "System-generated unique identifier for this license/entitlement record."
+  },
+  {
+    "column name": "Desc",
+    "description": "Human-readable name of the module, API, or feature enabled by the license."
+  },
+  {
+    "column name": "SerialKey",
+    "description": "License key (GUID) used to activate or authorize the associated module or integration in the platform."
+  },
+  {
+    "column name": "CreatedDate",
+    "description": "Timestamp when the license record was initially created for auditing."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "Identifier of the user or automated process that created the license record."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "Identifier of the user or automated process that last updated the record."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Timestamp of the most recent update to the license record for auditing."
+  },
+  {
+    "column name": "AddOnTypeID",
+    "description": "Identifier of the add-on category this license enables; likely references an add-on type lookup; confirm with SME."
+  }
+]

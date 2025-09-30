@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "AutoEmailTemplateFieldID",
+    "description": "System-generated unique ID for a template field available to automated emails; used to reference, update, and relate template field records."
+  },
+  {
+    "column name": "TableName",
+    "description": "Source database table from which the template field pulls data for email merge."
+  },
+  {
+    "column name": "ColumnName",
+    "description": "Source column within the specified table whose value is inserted into the email."
+  },
+  {
+    "column name": "FriendlyName",
+    "description": "User-friendly label for the field, shown in interfaces and placeholder picklists instead of technical identifiers."
+  }
+]

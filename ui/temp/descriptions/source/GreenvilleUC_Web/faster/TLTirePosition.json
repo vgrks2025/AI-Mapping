@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "TirePositionID",
+    "description": "Surrogate key uniquely identifying a tire position record used to reference a specific wheel location configuration across the system."
+  },
+  {
+    "column name": "TirePosition",
+    "description": "Business label describing the wheel’s location on the vehicle, including side, axle, and inner/outer placement."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating whether this tire position definition is retired and should be excluded from new assignments while retained for historical records."
+  }
+]

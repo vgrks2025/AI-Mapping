@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Unique login ID for a support user; used to authenticate and associate actions to the user."
+  },
+  {
+    "column name": "admin_flag",
+    "description": "Indicates whether the support user has administrative privileges."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or process that created this support user record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this support user record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or process that last modified this support user record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this support user record."
+  }
+]

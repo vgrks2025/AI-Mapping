@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ConditionFactor",
+    "description": "Numeric factor indicating asset condition relative to baseline, used to adjust scoring, lifecycle cost, or replacement priority. Negative/positive values reflect below/above baseline performance; likely applied as a multiplier in planning models; confirm with SME."
+  },
+  {
+    "column name": "ConditionFactorDesc",
+    "description": "Human-readable description of the condition category associated with each factor, for UI and reporting. Supplies ordered qualitative levels from highest to lowest condition to interpret the numeric adjustment; mapping rules should be confirmed with SME."
+  }
+]

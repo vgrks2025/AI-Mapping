@@ -1,0 +1,346 @@
+[
+  {
+    "column name": "stock",
+    "description": "Primary part/stock identifier used to reference and locate the item across purchasing, stores, and maintenance."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Code for the warehouse or site where the item is stored."
+  },
+  {
+    "column name": "bin_no",
+    "description": "Specific bin or shelf location within the warehouse for physical storage."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether the item is currently active and available for stocking or purchasing."
+  },
+  {
+    "column name": "partloc",
+    "description": "Detailed storage location path (e.g., aisle/bay/bin) within a warehouse; likely complements bin_no; confirm with SME."
+  },
+  {
+    "column name": "model_no",
+    "description": "Manufacturer’s model number for the part for cross-reference and purchasing."
+  },
+  {
+    "column name": "descr",
+    "description": "Concise item description summarizing the part’s name or function."
+  },
+  {
+    "column name": "class",
+    "description": "Inventory class or commodity code used for categorization, reporting, and possibly accounting controls."
+  },
+  {
+    "column name": "brand",
+    "description": "Brand or manufacturer associated with the item."
+  },
+  {
+    "column name": "unit_name",
+    "description": "Inventory unit of measure used for stocking and transactions."
+  },
+  {
+    "column name": "detail_descr",
+    "description": "Extended description, notes, and cross-references such as equivalent part numbers or additional specifications."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier for the preferred or current supplier of the item."
+  },
+  {
+    "column name": "leadtime",
+    "description": "Typical supplier lead time to receive the item, measured in days."
+  },
+  {
+    "column name": "ven_cost",
+    "description": "Current vendor unit cost used for purchasing and valuation."
+  },
+  {
+    "column name": "ord_qty",
+    "description": "Quantity currently on open purchase orders for this item; confirm definition with SME."
+  },
+  {
+    "column name": "avg_cost",
+    "description": "Moving average unit cost calculated from purchase history."
+  },
+  {
+    "column name": "inv_type",
+    "description": "Code indicating stocking type (e.g., stocked vs. non-stocked); confirm local code definitions with SME."
+  },
+  {
+    "column name": "min_qty",
+    "description": "Minimum stocking level (reorder point) used to trigger replenishment."
+  },
+  {
+    "column name": "max_qty",
+    "description": "Maximum stocking level target used for replenishment planning."
+  },
+  {
+    "column name": "tot_qty",
+    "description": "Total on-hand quantity for the item across its storage locations in the warehouse."
+  },
+  {
+    "column name": "rsv_qty",
+    "description": "Quantity reserved or committed to work orders, projects, or sales and unavailable for new demand."
+  },
+  {
+    "column name": "avl_qty",
+    "description": "Quantity available to allocate, typically on-hand minus reserved quantities."
+  },
+  {
+    "column name": "udf_a1",
+    "description": "User-defined text attribute for site-specific information."
+  },
+  {
+    "column name": "udf_a2",
+    "description": "User-defined text attribute for site-specific information."
+  },
+  {
+    "column name": "udf_a3",
+    "description": "User-defined text attribute for site-specific information."
+  },
+  {
+    "column name": "udf_a4",
+    "description": "User-defined text attribute for site-specific information."
+  },
+  {
+    "column name": "udf_a5",
+    "description": "User-defined text attribute for site-specific information."
+  },
+  {
+    "column name": "udf_a6",
+    "description": "User-defined text attribute for site-specific information."
+  },
+  {
+    "column name": "udf_n1",
+    "description": "User-defined numeric attribute for site-specific metrics or thresholds."
+  },
+  {
+    "column name": "udf_n2",
+    "description": "User-defined numeric attribute for site-specific metrics or thresholds."
+  },
+  {
+    "column name": "udf_n3",
+    "description": "User-defined numeric attribute for site-specific metrics or thresholds."
+  },
+  {
+    "column name": "udf_n4",
+    "description": "User-defined numeric attribute for site-specific metrics or thresholds."
+  },
+  {
+    "column name": "udf_n5",
+    "description": "User-defined numeric attribute for site-specific metrics or thresholds."
+  },
+  {
+    "column name": "udf_n6",
+    "description": "User-defined numeric attribute for site-specific metrics or thresholds."
+  },
+  {
+    "column name": "udf_d1",
+    "description": "User-defined date attribute for site-specific timelines or events."
+  },
+  {
+    "column name": "udf_d2",
+    "description": "User-defined date attribute for site-specific timelines or events."
+  },
+  {
+    "column name": "udf_d3",
+    "description": "User-defined date attribute for site-specific timelines or events."
+  },
+  {
+    "column name": "udf_d4",
+    "description": "User-defined date attribute for site-specific timelines or events."
+  },
+  {
+    "column name": "last_in",
+    "description": "Timestamp of the most recent receipt into stock."
+  },
+  {
+    "column name": "last_out",
+    "description": "Timestamp of the most recent issue or consumption from stock."
+  },
+  {
+    "column name": "markup_cost",
+    "description": "Markup value or percentage applied to cost to derive sell or internal transfer price; confirm basis with SME."
+  },
+  {
+    "column name": "ven_unitname",
+    "description": "Vendor’s unit of measure as used on purchase documents."
+  },
+  {
+    "column name": "ven_qtyperunit",
+    "description": "Units per vendor package (e.g., pieces per box or case)."
+  },
+  {
+    "column name": "warranty_freq",
+    "description": "Warranty interval basis (time or usage) for the part; likely defines service or claim frequency; confirm with SME."
+  },
+  {
+    "column name": "cnt_date",
+    "description": "Date of the most recent physical or cycle inventory count."
+  },
+  {
+    "column name": "cnt_qty",
+    "description": "Quantity recorded during the most recent physical or cycle count."
+  },
+  {
+    "column name": "cnt_cost",
+    "description": "Inventory value recorded during the last count, typically counted quantity multiplied by unit cost."
+  },
+  {
+    "column name": "price_low",
+    "description": "Minimum sell or charge price used for pricing controls or guidance."
+  },
+  {
+    "column name": "price_high",
+    "description": "Maximum sell or charge price used for pricing controls or guidance."
+  },
+  {
+    "column name": "tool_flag",
+    "description": "Indicates the item is a tool tracked under the tool management program."
+  },
+  {
+    "column name": "repair_flag",
+    "description": "Indicates the item is repairable or managed through a repair process; confirm exact usage with SME."
+  },
+  {
+    "column name": "end_value",
+    "description": "Estimated end-of-life or salvage value used for valuation; confirm business use with SME."
+  },
+  {
+    "column name": "warranty_mi",
+    "description": "Mileage limit associated with the item’s warranty."
+  },
+  {
+    "column name": "abc_code",
+    "description": "ABC classification indicating inventory importance or turnover for control policies."
+  },
+  {
+    "column name": "serialized",
+    "description": "Indicates whether individual units require serial number tracking."
+  },
+  {
+    "column name": "acct_no",
+    "description": "General ledger account number used for costing and postings."
+  },
+  {
+    "column name": "month_1",
+    "description": "Usage or issue quantity for month 1 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_2",
+    "description": "Usage or issue quantity for month 2 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_3",
+    "description": "Usage or issue quantity for month 3 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_4",
+    "description": "Usage or issue quantity for month 4 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_5",
+    "description": "Usage or issue quantity for month 5 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_6",
+    "description": "Usage or issue quantity for month 6 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_7",
+    "description": "Usage or issue quantity for month 7 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_8",
+    "description": "Usage or issue quantity for month 8 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_9",
+    "description": "Usage or issue quantity for month 9 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_10",
+    "description": "Usage or issue quantity for month 10 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_11",
+    "description": "Usage or issue quantity for month 11 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "month_12",
+    "description": "Usage or issue quantity for month 12 in a rolling 12‑month history; confirm period mapping with SME."
+  },
+  {
+    "column name": "inv_vendor_key_id",
+    "description": "Internal key linking the item to a specific vendor–part relationship."
+  },
+  {
+    "column name": "barcode",
+    "description": "Barcode value used for scanning and item identification."
+  },
+  {
+    "column name": "tool_id",
+    "description": "Identifier linking the inventory item to a corresponding tool asset record."
+  },
+  {
+    "column name": "not_upd_sys_parts",
+    "description": "Flag to exclude this item from automated system catalog updates; confirm governing process with SME."
+  },
+  {
+    "column name": "exp_dt",
+    "description": "Expiration date after which the item should not be used or issued."
+  },
+  {
+    "column name": "serial_no",
+    "description": "Serial number associated with an individual unit when serialized tracking applies."
+  },
+  {
+    "column name": "hazard_flag",
+    "description": "Indicates the item is hazardous material requiring special handling and compliance."
+  },
+  {
+    "column name": "lot_no",
+    "description": "Lot or batch identifier for traceability and quality control."
+  },
+  {
+    "column name": "core_value",
+    "description": "Core charge value associated with returnable components in automotive parts programs."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to attached documents or images related to the item."
+  },
+  {
+    "column name": "prior_avg_cost",
+    "description": "Previous moving average unit cost before the most recent change."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the inventory record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the inventory record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the inventory record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the inventory record."
+  },
+  {
+    "column name": "last_cost",
+    "description": "Most recent vendor purchase unit cost."
+  },
+  {
+    "column name": "core_cost",
+    "description": "Recorded cost component for the core charge paid to the vendor."
+  },
+  {
+    "column name": "eoq",
+    "description": "Economic order quantity calculated to minimize total ordering and holding costs."
+  }
+]

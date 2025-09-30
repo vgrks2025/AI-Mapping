@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "AddOnTypeID",
+    "description": "Surrogate key identifying a specific extension category in this reference list; used to relate external capabilities to their category across the platform."
+  },
+  {
+    "column name": "AddOnType",
+    "description": "Business label for the extension category used by the platform, indicating how external capabilities connect or are delivered."
+  }
+]

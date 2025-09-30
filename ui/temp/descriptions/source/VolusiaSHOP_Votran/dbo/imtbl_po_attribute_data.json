@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this purchase order attribute record (surrogate key)."
+  },
+  {
+    "column name": "po_attribute",
+    "description": "Identifier of the attribute type applied to the purchase order (foreign key to attribute definition/lookup)."
+  },
+  {
+    "column name": "value",
+    "description": "Stored value for the attribute, as text; may contain codes, free text, or numbers depending on the attribute’s data type."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "Identifier of the purchase order this attribute belongs to (foreign key)."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this attribute record was last updated by the system or a user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely identifier of the user who last modified the record; sample appears to be a timestamp—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this attribute record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the attribute record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who most recently modified this attribute record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification to this attribute record."
+  }
+]

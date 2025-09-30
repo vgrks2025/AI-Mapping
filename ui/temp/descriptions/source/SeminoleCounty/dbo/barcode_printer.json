@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "printer_name",
+    "description": "Human-readable name for the label printer profile used when generating barcode labels."
+  },
+  {
+    "column name": "printer_type",
+    "description": "Device type or driver class for this printer (likely label/thermal); confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about this printer configuration or its intended use."
+  },
+  {
+    "column name": "label_width",
+    "description": "Configured label width used to size printed barcodes (unit likely inches; confirm with SME)."
+  },
+  {
+    "column name": "label_height",
+    "description": "Configured label height used to size printed barcodes (unit likely inches; confirm with SME)."
+  },
+  {
+    "column name": "web_hook",
+    "description": "Webhook endpoint or URL used to trigger remote label printing; specifics may vary by integration; confirm with SME."
+  },
+  {
+    "column name": "web_operation",
+    "description": "API operation or HTTP method used by the webhook when sending print jobs; confirm with SME."
+  },
+  {
+    "column name": "web_printer_ip",
+    "description": "IP address of the networked printer or print service gateway used for barcode jobs."
+  },
+  {
+    "column name": "web_printer_port",
+    "description": "TCP port for the network printer or print service receiving barcode print requests."
+  },
+  {
+    "column name": "web_password",
+    "description": "Password or token used to authenticate to the web printing endpoint; treat as sensitive."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created this printer record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this printer record was created (UTC unless otherwise noted)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last updated this printer record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this printer record (UTC unless noted)."
+  },
+  {
+    "column name": "default_printer",
+    "description": "Boolean flag marking this as the system’s default barcode printer for the relevant scope (e.g., site, account)."
+  }
+]

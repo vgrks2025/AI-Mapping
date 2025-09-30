@@ -1,0 +1,314 @@
+[
+  {
+    "column name": "RepairCenterPK",
+    "description": "System-generated primary key uniquely identifying this maintenance center."
+  },
+  {
+    "column name": "RepairCenterID",
+    "description": "Business code used to reference the maintenance center in transactions and user interfaces."
+  },
+  {
+    "column name": "RepairCenterName",
+    "description": "Human-readable name of the maintenance center."
+  },
+  {
+    "column name": "Active",
+    "description": "Indicates whether the center is currently enabled for operational use."
+  },
+  {
+    "column name": "DefaultRepairCenter",
+    "description": "Flags this center as the default selection for new requests, assets, or users, depending on configuration."
+  },
+  {
+    "column name": "RequesterCanJoin",
+    "description": "Indicates if requesters may self-enroll or associate themselves with this center."
+  },
+  {
+    "column name": "CategoryPK",
+    "description": "Primary key of the category grouping this center belongs to; likely an organizational or service category; confirm with SME."
+  },
+  {
+    "column name": "CategoryID",
+    "description": "Business identifier of the category assigned to this center; confirm with SME."
+  },
+  {
+    "column name": "CategoryName",
+    "description": "Name of the category grouping for this center; confirm with SME."
+  },
+  {
+    "column name": "SupervisorPK",
+    "description": "Primary key referencing the supervising person responsible for this center."
+  },
+  {
+    "column name": "SupervisorID",
+    "description": "Login or employee identifier of the supervising person for this center."
+  },
+  {
+    "column name": "SupervisorName",
+    "description": "Full name of the supervising person for this center."
+  },
+  {
+    "column name": "StockRoomPK",
+    "description": "Primary key of the associated storeroom managing parts inventory for this center."
+  },
+  {
+    "column name": "StockRoomID",
+    "description": "Business code for the associated storeroom used by this center."
+  },
+  {
+    "column name": "StockRoomName",
+    "description": "Name of the associated storeroom used by this center."
+  },
+  {
+    "column name": "ToolRoomPK",
+    "description": "Primary key of the associated tool room used for issuing/returning tools."
+  },
+  {
+    "column name": "ToolRoomID",
+    "description": "Business code of the tool room associated with this center."
+  },
+  {
+    "column name": "ToolRoomName",
+    "description": "Name of the tool room associated with this center."
+  },
+  {
+    "column name": "Budget",
+    "description": "Monetary budget allocated to this center for operations, parts, and services."
+  },
+  {
+    "column name": "BuyerCompanyPK",
+    "description": "Primary key referencing the purchasing organization used for this center."
+  },
+  {
+    "column name": "BuyerCompanyID",
+    "description": "Business identifier of the purchasing organization associated with this center."
+  },
+  {
+    "column name": "BuyerCompanyName",
+    "description": "Name of the purchasing organization associated with this center."
+  },
+  {
+    "column name": "BuyerPK",
+    "description": "Primary key referencing the default purchasing agent/contact for this center."
+  },
+  {
+    "column name": "BuyerID",
+    "description": "Login or employee identifier of the default buyer for this center."
+  },
+  {
+    "column name": "BuyerName",
+    "description": "Name of the default buyer/contact handling purchases for this center."
+  },
+  {
+    "column name": "ShipToPK",
+    "description": "Primary key of the default shipping destination used on purchase orders from this center."
+  },
+  {
+    "column name": "ShipToID",
+    "description": "Business identifier of the default shipping destination for this center."
+  },
+  {
+    "column name": "ShipToName",
+    "description": "Name of the default shipping destination for this center."
+  },
+  {
+    "column name": "ShipToAttention",
+    "description": "Attention line for the default shipping address."
+  },
+  {
+    "column name": "ShipToAddress1",
+    "description": "Address line 1 for the shipping destination."
+  },
+  {
+    "column name": "ShipToAddress2",
+    "description": "Address line 2 for the shipping destination."
+  },
+  {
+    "column name": "ShipToAddress3",
+    "description": "Address line 3 for the shipping destination."
+  },
+  {
+    "column name": "BillToPK",
+    "description": "Primary key of the default billing account or remittance destination for this center."
+  },
+  {
+    "column name": "BillToID",
+    "description": "Business identifier of the default billing destination for this center."
+  },
+  {
+    "column name": "BillToName",
+    "description": "Name of the default billing destination for this center."
+  },
+  {
+    "column name": "BillToAttention",
+    "description": "Attention line for the billing address."
+  },
+  {
+    "column name": "BillToAddress1",
+    "description": "Address line 1 for the billing destination."
+  },
+  {
+    "column name": "BillToAddress2",
+    "description": "Address line 2 for the billing destination."
+  },
+  {
+    "column name": "BillToAddress3",
+    "description": "Address line 3 for the billing destination."
+  },
+  {
+    "column name": "Address",
+    "description": "Street address of the center’s physical location."
+  },
+  {
+    "column name": "City",
+    "description": "City of the center’s physical location."
+  },
+  {
+    "column name": "State",
+    "description": "State or province of the center’s physical location."
+  },
+  {
+    "column name": "Zip",
+    "description": "Postal or ZIP code of the center’s physical location."
+  },
+  {
+    "column name": "Country",
+    "description": "Country of the center’s physical location."
+  },
+  {
+    "column name": "Phone",
+    "description": "Primary contact phone number for the center."
+  },
+  {
+    "column name": "Police",
+    "description": "Emergency police contact number for this location; confirm usage with SME."
+  },
+  {
+    "column name": "Security",
+    "description": "Security office contact number for this location; confirm usage with SME."
+  },
+  {
+    "column name": "Fire",
+    "description": "Emergency fire department contact number for this location; confirm usage with SME."
+  },
+  {
+    "column name": "Fax",
+    "description": "Fax number for the center."
+  },
+  {
+    "column name": "Email",
+    "description": "General contact email address for the center."
+  },
+  {
+    "column name": "EmailNotify",
+    "description": "Indicates whether automated notifications are sent via email for this center; confirm behavior with SME."
+  },
+  {
+    "column name": "EmailNotifyDesc",
+    "description": "Description or label for the email notification recipients or configuration."
+  },
+  {
+    "column name": "URL",
+    "description": "Website or intranet link with information related to this center."
+  },
+  {
+    "column name": "Comments",
+    "description": "Free-text notes or internal comments about the center."
+  },
+  {
+    "column name": "Photo",
+    "description": "Image or file reference representing the center; storage format may vary; confirm with SME."
+  },
+  {
+    "column name": "UDFChar1",
+    "description": "User-defined text field for tenant-specific attributes."
+  },
+  {
+    "column name": "UDFChar2",
+    "description": "User-defined text field for tenant-specific attributes."
+  },
+  {
+    "column name": "UDFChar3",
+    "description": "User-defined text field for tenant-specific attributes."
+  },
+  {
+    "column name": "UDFChar4",
+    "description": "User-defined text field for tenant-specific attributes."
+  },
+  {
+    "column name": "UDFChar5",
+    "description": "User-defined text field for tenant-specific attributes."
+  },
+  {
+    "column name": "UDFDate1",
+    "description": "User-defined date field for tenant-specific attributes."
+  },
+  {
+    "column name": "UDFDate2",
+    "description": "User-defined date field for tenant-specific attributes."
+  },
+  {
+    "column name": "UDFBit1",
+    "description": "User-defined boolean flag for tenant-specific logic."
+  },
+  {
+    "column name": "UDFBit2",
+    "description": "User-defined boolean flag for tenant-specific logic."
+  },
+  {
+    "column name": "DemoLaborPK",
+    "description": "Likely references a labor record used for demonstrations, defaults, or templates; confirm with SME."
+  },
+  {
+    "column name": "RowVersionIPAddress",
+    "description": "IP address of the client that performed the last modification (audit trail)."
+  },
+  {
+    "column name": "RowVersionUserPK",
+    "description": "Primary key of the user who performed the last modification (audit trail)."
+  },
+  {
+    "column name": "RowVersionInitials",
+    "description": "Initials of the user who performed the last modification (audit trail)."
+  },
+  {
+    "column name": "RowVersionAction",
+    "description": "Type of operation recorded for the last change (e.g., edit) for auditing."
+  },
+  {
+    "column name": "RowVersionDate",
+    "description": "Timestamp of the most recent change recorded for this record."
+  },
+  {
+    "column name": "PMCycleStartDate",
+    "description": "Starting date used to calculate preventive maintenance cycles for assets managed by this center."
+  },
+  {
+    "column name": "RiskLevel",
+    "description": "Risk classification associated with this center’s operations or assets; confirm definition and scale with SME."
+  },
+  {
+    "column name": "PMCounter",
+    "description": "Numeric counter or offset used in preventive maintenance scheduling calculations for this center."
+  },
+  {
+    "column name": "Currency",
+    "description": "Currency code applied to financial amounts tracked for this center."
+  },
+  {
+    "column name": "ApprovalType",
+    "description": "Approval workflow type governing service requests or work orders in this center; confirm rules with SME."
+  },
+  {
+    "column name": "POApprovalType",
+    "description": "Approval workflow type governing purchase orders generated by this center."
+  },
+  {
+    "column name": "SMSEmail",
+    "description": "Email-to-SMS gateway address used to send text notifications for this center."
+  },
+  {
+    "column name": "FormName",
+    "description": "Name of the custom form template used for requests or work orders associated with this center."
+  }
+]

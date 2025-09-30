@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "SCHED_NAME",
+    "description": "Logical name of the job scheduler/cluster this status row belongs to, used to group instances participating in scheduling."
+  },
+  {
+    "column name": "INSTANCE_NAME",
+    "description": "Unique identifier of the scheduler node reporting status within the cluster, enabling tracking of each node’s health."
+  },
+  {
+    "column name": "LAST_CHECKIN_TIME",
+    "description": "Timestamp of the node’s most recent heartbeat with the scheduler; stored as a long (likely Quartz.NET ticks—confirm with SME)."
+  },
+  {
+    "column name": "CHECKIN_INTERVAL",
+    "description": "Configured time between expected heartbeats from the node, in milliseconds, used to detect missed check-ins and node failure."
+  }
+]

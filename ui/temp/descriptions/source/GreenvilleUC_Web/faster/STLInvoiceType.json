@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "InvoiceType",
+    "description": "Categorizes an invoice by transaction nature to determine accounting treatment and inventory impact."
+  },
+  {
+    "column name": "InvoiceTypeDesc",
+    "description": "Human-readable description of the invoice category for user display and reporting; clarifies how the transaction should be processed."
+  }
+]

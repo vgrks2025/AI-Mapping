@@ -1,0 +1,98 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for the status record."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the status, typically the label shown to users; confirm if it serves as a unique code."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description of the status shown in interfaces and reports."
+  },
+  {
+    "column name": "category_default",
+    "description": "Flag indicating the default status within its category when creating or transitioning orders; confirm behavior."
+  },
+  {
+    "column name": "category",
+    "description": "Workflow category code grouping related statuses; confirm category definitions with SME."
+  },
+  {
+    "column name": "order_info_read_only",
+    "description": "If true, order details (header and lines) are locked from editing while in this status."
+  },
+  {
+    "column name": "receipt_info_read_only",
+    "description": "If true, receiving-related fields are locked from editing while in this status."
+  },
+  {
+    "column name": "items_considered_on_order",
+    "description": "Indicates whether quantities in this status contribute to on‑order inventory for planning and availability."
+  },
+  {
+    "column name": "po_read_only",
+    "description": "If true, the entire purchase order is read-only in this status."
+  },
+  {
+    "column name": "require_code_entry",
+    "description": "Requires entering a reason or authorization code when applying this status; confirm exact requirement."
+  },
+  {
+    "column name": "prompt_if_orders_remain",
+    "description": "Prompts the user if unreceived or open items remain when moving into this status."
+  },
+  {
+    "column name": "prompt_user_for_comp_info",
+    "description": "Prompts the user to enter completion details when selecting this status."
+  },
+  {
+    "column name": "prompt_user_for_cancel_info",
+    "description": "Prompts the user to enter cancellation details when selecting this status."
+  },
+  {
+    "column name": "comments",
+    "description": "Default notes associated with this status, optionally displayed or printed; often mirrors the status description."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this status record."
+  },
+  {
+    "column name": "enforce_approval_limits",
+    "description": "Enforces approver spending limits before allowing transition to this status."
+  },
+  {
+    "column name": "allow_print",
+    "description": "Allows printing the purchase order while in this status."
+  },
+  {
+    "column name": "status_read_only",
+    "description": "If true, the status field itself cannot be changed while in this state."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification performed by a user; column name suggests a user identifier—confirm intended value."
+  },
+  {
+    "column name": "allow_misc_negative_receipts",
+    "description": "Allows negative receipts or returns on miscellaneous items when the order is in this status."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this row."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time this row was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this row."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time this row was last modified by a user."
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "column name": "op_id",
+    "description": "Unique identifier for the operation configuration used to route and manage work requests."
+  },
+  {
+    "column name": "op_name",
+    "description": "Human-readable label for the service area handling work requests."
+  },
+  {
+    "column name": "op_descr",
+    "description": "Extended description of the service area’s scope, policies, or usage."
+  },
+  {
+    "column name": "promised_days",
+    "description": "Target completion timeframe in days for requests; whether calendar or business days should be confirmed with SME."
+  },
+  {
+    "column name": "notify_users",
+    "description": "Delimited list of users to be notified on key events for requests under this operation."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the responsible workgroup or team to which requests are assigned."
+  },
+  {
+    "column name": "udf1",
+    "description": "Custom field for organization-specific data; meaning varies by implementation—confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "op_class",
+    "description": "Category or type of service for reporting or routing; exact taxonomy may vary—confirm with SME."
+  },
+  {
+    "column name": "wr_print_rpt_id",
+    "description": "Identifier of the report/print template used for work request documents."
+  },
+  {
+    "column name": "allow_public_requests",
+    "description": "Indicates whether non-authenticated users can submit requests for this service."
+  },
+  {
+    "column name": "needs_approval",
+    "description": "Indicates whether submitted requests require approval before work begins."
+  },
+  {
+    "column name": "use_workflow",
+    "description": "Indicates whether workflow routing steps are enforced for requests in this service area."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Display or processing order used when listing multiple operations."
+  },
+  {
+    "column name": "send_survey",
+    "description": "Controls whether a post-completion survey is sent to requestors."
+  },
+  {
+    "column name": "auto_assign_flag",
+    "description": "Indicates whether new requests are automatically assigned to a default assignee or group; confirm specifics with SME."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "column name": "wo_type",
+    "description": "Unique code that categorizes work orders for routing, rules, and reporting."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable label describing the work order category."
+  },
+  {
+    "column name": "remarks",
+    "description": "Optional notes or guidance explaining the category’s intended use."
+  },
+  {
+    "column name": "parent_wo_type",
+    "description": "Optional reference to a broader category this type rolls up under; supports hierarchy."
+  },
+  {
+    "column name": "level_no",
+    "description": "Numeric depth of the category within the hierarchy; 0 indicates top level."
+  },
+  {
+    "column name": "craftsman_filter",
+    "description": "Limits which technicians/trades can be assigned to work under this category; likely a lookup filter; confirm with SME."
+  },
+  {
+    "column name": "part_filter",
+    "description": "Restricts which inventory parts can be issued or selected for this category; confirm with SME."
+  },
+  {
+    "column name": "asset_type_filter",
+    "description": "Restricts applicable asset classes for work created under this category; confirm with SME."
+  },
+  {
+    "column name": "asset_filter",
+    "description": "Limits selection to specific assets when creating work in this category; confirm with SME."
+  },
+  {
+    "column name": "mgmt_unit_filter",
+    "description": "Restricts allowable responsible organizational/management units for this category; confirm with SME."
+  },
+  {
+    "column name": "activity_code_filter",
+    "description": "Limits activity codes that can be used when coding work in this category; confirm with SME."
+  },
+  {
+    "column name": "problem_filter",
+    "description": "Restricts problem or failure codes available for work in this category; confirm with SME."
+  },
+  {
+    "column name": "contractor_filter",
+    "description": "Limits which external contractors/vendors can be assigned to this category; confirm with SME."
+  },
+  {
+    "column name": "equipment_filter",
+    "description": "Restricts equipment resources that can be scheduled or charged to this category; confirm with SME."
+  },
+  {
+    "column name": "location_filter",
+    "description": "Restricts selectable locations/sites for work created under this category; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or process that created the category record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the category record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the category record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification to the category record."
+  },
+  {
+    "column name": "tv_inspection",
+    "description": "Flag indicating this category is used for TV/CCTV inspection activities; likely utilities-related; confirm with SME."
+  },
+  {
+    "column name": "hydrant_inspection",
+    "description": "Flag indicating this category is used for fire hydrant inspection work; confirm with SME."
+  },
+  {
+    "column name": "accident_flag",
+    "description": "Flag marking accident/incident-related work, often for vehicle events; confirm with SME."
+  },
+  {
+    "column name": "inspection_flag",
+    "description": "Flag marking inspection-type work for scheduling, compliance, and reporting."
+  },
+  {
+    "column name": "customization_id",
+    "description": "Identifier linking the record to a specific client configuration or customization version; confirm with SME."
+  },
+  {
+    "column name": "styles",
+    "description": "Presentation or UI styling configuration for the category; likely optional system metadata; confirm with SME."
+  }
+]

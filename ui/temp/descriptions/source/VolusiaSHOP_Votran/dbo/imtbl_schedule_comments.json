@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique primary key identifying this schedule comment record."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Foreign key linking the note to the associated scheduled asset procedure; confirm exact target entity with SME."
+  },
+  {
+    "column name": "create_date",
+    "description": "System timestamp when the record was created."
+  },
+  {
+    "column name": "created_by_user",
+    "description": "User account that created the record (may be system)."
+  },
+  {
+    "column name": "printable",
+    "description": "Setting controlling whether and where the note prints on documents; likely an enumeration, not simple boolean—confirm with SME."
+  },
+  {
+    "column name": "copy_options",
+    "description": "Controls if/how the note is copied to related records (e.g., generated work orders); likely bitmask/enum—confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text comment associated with the scheduled work."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "User account that last modified the record in the core system."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent change."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application/UI-maintained timestamp of the most recent user edit."
+  },
+  {
+    "column name": "imported",
+    "description": "Indicator that the record originated from an external import (0/1 or similar)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Application-captured user identifier for the creator."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Application-captured timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Application-captured user identifier for the last editor."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Application-captured timestamp of the most recent user edit."
+  }
+]

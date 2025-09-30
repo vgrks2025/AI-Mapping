@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IgnitionStatusID",
+    "description": "Unique identifier for each ignition state in the reference table; used as a foreign key to tag vehicle telemetry with the corresponding ignition condition."
+  },
+  {
+    "column name": "IgnitionStatusDesc",
+    "description": "Human-readable label describing the vehicle's ignition state for reporting and UI display; maps to the identifier in this lookup."
+  }
+]

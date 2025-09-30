@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "RepairGroupComponentActionID",
+    "description": "Unique identifier for the mapping between a repair group component and a permitted maintenance action; used to track and reference this rule in work orders and configuration."
+  },
+  {
+    "column name": "RepairGroupComponentID",
+    "description": "Identifier of the specific component within a repair group to which the action applies; links to the component definition used in maintenance planning and parts selection."
+  },
+  {
+    "column name": "RepairActionID",
+    "description": "Reference to the cataloged maintenance activity (e.g., inspect, adjust, replace) that should be performed on the component; used to standardize work steps and reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating this mapping is deprecated and should no longer be used for new jobs; retained only for historical records or legacy configurations."
+  }
+]

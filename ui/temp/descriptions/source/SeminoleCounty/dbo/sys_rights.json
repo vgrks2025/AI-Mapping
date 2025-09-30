@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "keycode",
+    "description": "Unique alphanumeric code identifying a specific system permission or action used by access control and application logic."
+  },
+  {
+    "column name": "category",
+    "description": "Functional area or module grouping the permission, used to organize and filter security rights."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of what the permission allows or restricts."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Numeric display order for the permission in menus or security configuration; values determine list position."
+  },
+  {
+    "column name": "apply_yes_no",
+    "description": "Y/N flag indicating whether the permission is applicable or enforced in the current environment."
+  },
+  {
+    "column name": "key_no",
+    "description": "Numeric identifier for the permission used for security mapping and ordering; often corresponds to the display sequence."
+  },
+  {
+    "column name": "ms14_keycode",
+    "description": "Cross-reference code mapping the permission to a legacy or external system’s right; used for integrations or migrations; may be unavailable for some rights."
+  }
+]

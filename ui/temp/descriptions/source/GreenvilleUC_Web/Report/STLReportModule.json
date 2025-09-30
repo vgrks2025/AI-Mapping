@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "ReportModuleID",
+    "description": "Primary key identifying a reporting module in the fleet management suite; used to join reports, security, and configuration to the correct module."
+  },
+  {
+    "column name": "ReportModuleName",
+    "description": "Human-readable title of the reporting module shown in menus and report catalogs; used for user selection, labeling, and search."
+  },
+  {
+    "column name": "ReportApplicationID",
+    "description": "Foreign key referencing the parent application that owns the module within the reporting platform; likely distinguishes product context or environment; confirm with SME."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "column name": "FXEHUID",
+    "description": "Unique identifier linking this record to an Equipment/History (EH) entity, such as the vehicle or asset associated with the fueling; likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "FXDate",
+    "description": "Calendar date the fueling transaction occurred, typically in YYYYMMDD."
+  },
+  {
+    "column name": "FXTime",
+    "description": "Time of day the fueling occurred; stored in a compact numeric format (e.g., minutes after midnight or HHMM). Exact format may vary; confirm with SME."
+  },
+  {
+    "column name": "FXUID",
+    "description": "System-generated unique identifier for this record in the source fueling system, used to uniquely reference the transaction row."
+  },
+  {
+    "column name": "FXBillCode",
+    "description": "Billing code used to route the charge to the appropriate customer, cost center, or invoice group."
+  },
+  {
+    "column name": "FXCompany",
+    "description": "Operating company code responsible for the transaction, used for organizational and financial reporting."
+  },
+  {
+    "column name": "FXDatePosted",
+    "description": "Date the transaction was posted to accounting or the back-office system, typically in YYYYMMDD."
+  },
+  {
+    "column name": "FXDept",
+    "description": "Department or cost center charged for the product or service."
+  },
+  {
+    "column name": "FXEmployee",
+    "description": "Identifier or name of the employee associated with the transaction (for example, the driver). May be blank when unknown."
+  },
+  {
+    "column name": "FXEmployeeType",
+    "description": "Code indicating the party type involved (for example, employee versus other). Code list may vary; confirm with SME."
+  },
+  {
+    "column name": "FXMarkUp",
+    "description": "Markup rate or amount applied to the base unit cost to derive the charge-out price for this transaction."
+  },
+  {
+    "column name": "FXOverride",
+    "description": "Indicator that pricing, limits, or authorization were overridden for this transaction. Code meanings vary; confirm with SME."
+  },
+  {
+    "column name": "FXQty",
+    "description": "Quantity dispensed, in the product’s unit of measure (such as gallons or liters)."
+  },
+  {
+    "column name": "FXSitePump",
+    "description": "Identifier of the site and the pump/nozzle where the product was dispensed."
+  },
+  {
+    "column name": "FXTHUID",
+    "description": "Identifier linking to the transaction header (TH) record. Values like zero may indicate no header link; confirm with SME."
+  },
+  {
+    "column name": "FXTHKey",
+    "description": "Business key for the transaction header in the source system; often blank when not provided."
+  },
+  {
+    "column name": "FXTaxCode",
+    "description": "Tax classification applied to the transaction, used to determine applicable tax calculation rules."
+  },
+  {
+    "column name": "FXTaxCost",
+    "description": "Total tax amount charged for the transaction."
+  },
+  {
+    "column name": "FXTimePosted",
+    "description": "Time the transaction was posted to accounting or back-office systems. Stored in a vendor-specific numeric format; confirm format and timezone."
+  },
+  {
+    "column name": "FXTotalCost",
+    "description": "Total monetary amount charged for the transaction, including taxes and adjustments."
+  },
+  {
+    "column name": "FXTransaction",
+    "description": "External transaction number assigned by the fueling system or batch, used for reconciliation and auditing."
+  },
+  {
+    "column name": "FXType",
+    "description": "Product or fuel type code. Numeric values may map to named types; confirm the code set with SME."
+  },
+  {
+    "column name": "FXUnitCost",
+    "description": "Unit price of the product at the time of sale (per gallon or liter), before taxes."
+  },
+  {
+    "column name": "FXTxType",
+    "description": "Transaction type code indicating the nature of the entry (e.g., dispense, invoice, adjustment). Code definitions vary; confirm with SME."
+  }
+]

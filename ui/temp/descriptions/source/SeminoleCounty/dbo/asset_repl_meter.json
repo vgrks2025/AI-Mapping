@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Identifier of the asset or unit associated with this meter replacement."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Code indicating the asset’s class or category; organization-specific mapping; confirm with SME."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Specifies whether the meter tracks distance or operating time."
+  },
+  {
+    "column name": "keyrow",
+    "description": "Sequence number for this asset’s meter replacement entry, distinguishing multiple replacements."
+  },
+  {
+    "column name": "date_repl",
+    "description": "Timestamp when the asset’s meter was replaced or reset."
+  },
+  {
+    "column name": "was_meter",
+    "description": "Reading on the removed meter at replacement time, used to preserve lifetime totals."
+  },
+  {
+    "column name": "ini_meter",
+    "description": "Starting reading on the new meter after replacement; likely the reset baseline; confirm with SME."
+  },
+  {
+    "column name": "cur_meter",
+    "description": "Most recent reading on the replacement meter recorded in this entry; confirm semantics with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes about the meter replacement."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created this record (e.g., migration job)."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Creation timestamp for this record."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the last modification to this record."
+  }
+]

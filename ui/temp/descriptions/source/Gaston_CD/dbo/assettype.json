@@ -1,0 +1,454 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the asset type configuration record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp indicating when this asset type record was last updated."
+  },
+  {
+    "column name": "oil2name",
+    "description": "Display label for the second oil-related attribute for this asset type."
+  },
+  {
+    "column name": "oil1name",
+    "description": "Display label for the first oil-related attribute for this asset type."
+  },
+  {
+    "column name": "fuel2name",
+    "description": "Display label for the second fuel-related attribute for this asset type."
+  },
+  {
+    "column name": "fuel1name",
+    "description": "Display label for the first fuel-related attribute for this asset type."
+  },
+  {
+    "column name": "type3name",
+    "description": "Display label for the third custom type attribute."
+  },
+  {
+    "column name": "type2name",
+    "description": "Display label for the second custom type attribute."
+  },
+  {
+    "column name": "type1name",
+    "description": "Display label for the first custom type attribute."
+  },
+  {
+    "column name": "serial3name",
+    "description": "Display label for the third auxiliary identification field."
+  },
+  {
+    "column name": "serial2name",
+    "description": "Display label for the second auxiliary identification field."
+  },
+  {
+    "column name": "serial1name",
+    "description": "Display label for the primary auxiliary identification field."
+  },
+  {
+    "column name": "licplstatename",
+    "description": "Display label for the license plate state/province field."
+  },
+  {
+    "column name": "licplname",
+    "description": "Display label for the license plate number field."
+  },
+  {
+    "column name": "loc4name",
+    "description": "Display label for the fourth location field."
+  },
+  {
+    "column name": "loc3name",
+    "description": "Display label for the third location field."
+  },
+  {
+    "column name": "loc2name",
+    "description": "Display label for the second location field."
+  },
+  {
+    "column name": "loc1name",
+    "description": "Display label for the primary location field."
+  },
+  {
+    "column name": "gvwname",
+    "description": "Display label for the gross vehicle weight attribute."
+  },
+  {
+    "column name": "occname",
+    "description": "Display label for the occupancy/capacity attribute (likely passenger count or load capacity; confirm with SME)."
+  },
+  {
+    "column name": "spec3name",
+    "description": "Display label for the third specification field."
+  },
+  {
+    "column name": "spec2name",
+    "description": "Display label for the second specification field."
+  },
+  {
+    "column name": "spec1name",
+    "description": "Display label for the first specification field."
+  },
+  {
+    "column name": "sec8name",
+    "description": "Display label for the eighth custom section header."
+  },
+  {
+    "column name": "sec7name",
+    "description": "Display label for the seventh custom section header."
+  },
+  {
+    "column name": "sec6name",
+    "description": "Display label for the sixth custom section header."
+  },
+  {
+    "column name": "sec5name",
+    "description": "Display label for the fifth custom section header."
+  },
+  {
+    "column name": "sec4name",
+    "description": "Display label for the fourth custom section header."
+  },
+  {
+    "column name": "sec3name",
+    "description": "Display label for the third custom section header."
+  },
+  {
+    "column name": "sec2name",
+    "description": "Display label for the second custom section header."
+  },
+  {
+    "column name": "sec1name",
+    "description": "Display label for the first custom section header."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable name or description of the asset category represented by this type."
+  },
+  {
+    "column name": "baseline_mrf",
+    "description": "Indicates participation in a baseline MRF process (meaning of MRF likely maintenance/repair form; confirm with SME)."
+  },
+  {
+    "column name": "has_expire",
+    "description": "Indicates whether assets of this type track an expiration date."
+  },
+  {
+    "column name": "inact",
+    "description": "Marks this asset type as inactive for new asset creation."
+  },
+  {
+    "column name": "asset_ind_schedule",
+    "description": "Indicates whether individual assets of this type can be scheduled or assigned."
+  },
+  {
+    "column name": "oil2",
+    "description": "Enables the second oil-related attribute for this asset type."
+  },
+  {
+    "column name": "oil1",
+    "description": "Enables the first oil-related attribute for this asset type."
+  },
+  {
+    "column name": "oilind",
+    "description": "Enables oil tracking for assets of this type."
+  },
+  {
+    "column name": "fuel2",
+    "description": "Enables the second fuel-related attribute for this asset type."
+  },
+  {
+    "column name": "fuel1",
+    "description": "Enables the first fuel-related attribute for this asset type."
+  },
+  {
+    "column name": "fuelind",
+    "description": "Enables fuel tracking for assets of this type."
+  },
+  {
+    "column name": "attachto",
+    "description": "Indicates assets of this type can be attached to another asset (e.g., trailer to vehicle)."
+  },
+  {
+    "column name": "hascond",
+    "description": "Enables condition tracking for assets of this type."
+  },
+  {
+    "column name": "tool",
+    "description": "Flags this asset type as a tool or portable item."
+  },
+  {
+    "column name": "downcost",
+    "description": "Enables downtime cost tracking for assets of this type."
+  },
+  {
+    "column name": "type3",
+    "description": "Enables the third custom type attribute."
+  },
+  {
+    "column name": "type2",
+    "description": "Enables the second custom type attribute."
+  },
+  {
+    "column name": "type1",
+    "description": "Enables the first custom type attribute."
+  },
+  {
+    "column name": "typeind",
+    "description": "Enables the set of custom type attributes for this asset type."
+  },
+  {
+    "column name": "serial3",
+    "description": "Enables the third auxiliary identification field."
+  },
+  {
+    "column name": "serial2",
+    "description": "Enables the second auxiliary identification field."
+  },
+  {
+    "column name": "serial1",
+    "description": "Enables the primary auxiliary identification field."
+  },
+  {
+    "column name": "haslicst",
+    "description": "Enables tracking of license plate state or province."
+  },
+  {
+    "column name": "haslic",
+    "description": "Enables tracking of license plate number."
+  },
+  {
+    "column name": "hasvin",
+    "description": "Enables tracking of vehicle identification number."
+  },
+  {
+    "column name": "loc4",
+    "description": "Enables the fourth location field for this asset type."
+  },
+  {
+    "column name": "loc3",
+    "description": "Enables the third location field for this asset type."
+  },
+  {
+    "column name": "loc2",
+    "description": "Enables the second location field for this asset type."
+  },
+  {
+    "column name": "loc1",
+    "description": "Enables the primary location field for this asset type."
+  },
+  {
+    "column name": "show_req_cert",
+    "description": "Displays required certifications or compliance items on asset records of this type."
+  },
+  {
+    "column name": "show_pic",
+    "description": "Displays or requires an asset image on records of this type."
+  },
+  {
+    "column name": "show_storage_location",
+    "description": "Displays a storage location field for assets of this type."
+  },
+  {
+    "column name": "has_physloc",
+    "description": "Indicates physical location tracking is enabled for this asset type."
+  },
+  {
+    "column name": "fleetind",
+    "description": "Marks this as a fleet-managed asset type."
+  },
+  {
+    "column name": "modelind",
+    "description": "Enables tracking of model information for assets of this type."
+  },
+  {
+    "column name": "gvwind",
+    "description": "Enables tracking of gross vehicle weight for this asset type."
+  },
+  {
+    "column name": "occind",
+    "description": "Enables tracking of occupancy/capacity for this asset type."
+  },
+  {
+    "column name": "os3",
+    "description": "Enables optional/specification field 3 (exact meaning unclear; confirm with SME)."
+  },
+  {
+    "column name": "os2",
+    "description": "Enables optional/specification field 2 (exact meaning unclear; confirm with SME)."
+  },
+  {
+    "column name": "os1",
+    "description": "Enables optional/specification field 1 (exact meaning unclear; confirm with SME)."
+  },
+  {
+    "column name": "yearind",
+    "description": "Enables tracking of manufacture or model year."
+  },
+  {
+    "column name": "section8",
+    "description": "Enables the eighth custom section in the asset profile."
+  },
+  {
+    "column name": "section7",
+    "description": "Enables the seventh custom section in the asset profile."
+  },
+  {
+    "column name": "section6",
+    "description": "Enables the sixth custom section in the asset profile."
+  },
+  {
+    "column name": "section5",
+    "description": "Enables the fifth custom section in the asset profile."
+  },
+  {
+    "column name": "section4",
+    "description": "Enables the fourth custom section in the asset profile."
+  },
+  {
+    "column name": "section3",
+    "description": "Enables the third custom section in the asset profile."
+  },
+  {
+    "column name": "section2",
+    "description": "Enables the second custom section in the asset profile."
+  },
+  {
+    "column name": "section1",
+    "description": "Enables the first custom section in the asset profile."
+  },
+  {
+    "column name": "sectionalind",
+    "description": "Indicates the asset profile uses custom sections or tabs."
+  },
+  {
+    "column name": "tiresind",
+    "description": "Enables tracking of tire details for this asset type."
+  },
+  {
+    "column name": "engineind",
+    "description": "Enables tracking of engine details for this asset type."
+  },
+  {
+    "column name": "transmissionind",
+    "description": "Enables tracking of transmission details for this asset type."
+  },
+  {
+    "column name": "colorind",
+    "description": "Enables tracking of color information for this asset type."
+  },
+  {
+    "column name": "maintenanceind",
+    "description": "Enables maintenance scheduling and history tracking for this asset type."
+  },
+  {
+    "column name": "asset_desc_include_year",
+    "description": "Includes the year in the auto-generated asset description."
+  },
+  {
+    "column name": "asset_transfer_inspection",
+    "description": "Default inspection template used when transferring an asset of this type."
+  },
+  {
+    "column name": "asset_transfer_inspectionr",
+    "description": "Reference source for the transfer inspection template (lookup table; confirm with SME)."
+  },
+  {
+    "column name": "asset_setup_inspection",
+    "description": "Default inspection template used during initial asset setup."
+  },
+  {
+    "column name": "asset_setup_inspectionr",
+    "description": "Reference source for the setup inspection template (lookup table; confirm with SME)."
+  },
+  {
+    "column name": "new_asset_work_code",
+    "description": "Default work code applied when a new asset of this type is created."
+  },
+  {
+    "column name": "new_asset_work_coder",
+    "description": "Reference source for the default work code (lookup table; confirm with SME)."
+  },
+  {
+    "column name": "new_asset_status_default",
+    "description": "Default status assigned to newly created assets of this type."
+  },
+  {
+    "column name": "new_asset_status_defaultr",
+    "description": "Reference source for the status values used for new assets."
+  },
+  {
+    "column name": "type",
+    "description": "Behavioral class for this asset type (e.g., consumable vs. physical asset); confirm categories with SME."
+  },
+  {
+    "column name": "default_meter_type4",
+    "description": "Default unit or metric used by the fourth meter for this type."
+  },
+  {
+    "column name": "default_meter_type3",
+    "description": "Default unit or metric used by the third meter for this type."
+  },
+  {
+    "column name": "default_meter_type2",
+    "description": "Default unit or metric used by the second meter for this type."
+  },
+  {
+    "column name": "default_meter_type1",
+    "description": "Default unit or metric used by the primary meter for this type."
+  },
+  {
+    "column name": "meterind",
+    "description": "Meter tracking configuration indicator (e.g., none, single, multiple); exact codes vary by system; confirm with SME."
+  },
+  {
+    "column name": "facilitytype",
+    "description": "Subclassification for facility-related assets or flag when not applicable; confirm with SME."
+  },
+  {
+    "column name": "asset_desc_fields",
+    "description": "Fields included when auto-generating the asset description for this type."
+  },
+  {
+    "column name": "asset_desc_type",
+    "description": "Method or template code used to build asset descriptions."
+  },
+  {
+    "column name": "asset_desc_make_model",
+    "description": "Code controlling inclusion and order of make and model in asset descriptions."
+  },
+  {
+    "column name": "asset_desc_year",
+    "description": "Code controlling inclusion of year in asset descriptions."
+  },
+  {
+    "column name": "asset_desc_category",
+    "description": "Code controlling inclusion of category in asset descriptions."
+  },
+  {
+    "column name": "asset_desc_primary_id",
+    "description": "Field used as the primary identifier within generated descriptions."
+  },
+  {
+    "column name": "assettype",
+    "description": "High-level asset family this configuration represents (e.g., vehicle, equipment, facility)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy source system for cross-reference or migration."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table associated with the legacy identifier."
+  },
+  {
+    "column name": "default_inspection",
+    "description": "Default inspection template generally applied to this asset type."
+  },
+  {
+    "column name": "default_inspectionr",
+    "description": "Reference source for the default inspection template (lookup table; confirm with SME)."
+  }
+]

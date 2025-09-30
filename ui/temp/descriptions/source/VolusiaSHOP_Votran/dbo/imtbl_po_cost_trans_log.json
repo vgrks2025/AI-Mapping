@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this log entry; unique per record."
+  },
+  {
+    "column name": "user_id",
+    "description": "Identifier of the user who executed the transaction."
+  },
+  {
+    "column name": "cost_transaction_type",
+    "description": "Code indicating the nature of the cost event (e.g., receipt, adjustment, reversal); confirm allowed codes with SME."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "Account number in the chart of accounts charged/credited by this transaction."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "PO identifier linked to the cost event, typically the source document."
+  },
+  {
+    "column name": "supplier",
+    "description": "Vendor identifier associated with the linked purchase order."
+  },
+  {
+    "column name": "project",
+    "description": "Optional project/job code charged for this cost; may be blank when not project-related."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Per‑unit monetary cost used for this transaction; zero may indicate no cost impact."
+  },
+  {
+    "column name": "cost_type",
+    "description": "Category of cost (such as parts, labor, fees) stored as a code; confirm code set."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the system recorded this transaction in the log."
+  },
+  {
+    "column name": "adjustment_date",
+    "description": "Effective date/time the cost adjustment applies, which may differ from the log timestamp."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "item_type",
+    "description": "Type of item involved (e.g., part, service); used for reporting and accounting."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-driven modification to this record; may mirror the system modified date."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last updated."
+  }
+]

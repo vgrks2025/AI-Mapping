@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key uniquely identifying this task status change event."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the status change was recorded in the system."
+  },
+  {
+    "column name": "user_id",
+    "description": "Application user account that performed the status update."
+  },
+  {
+    "column name": "f_task",
+    "description": "Foreign key referencing the task/job whose status changed."
+  },
+  {
+    "column name": "static_task_id",
+    "description": "Snapshot of the task identifier at the time of change; denormalized for audit/history."
+  },
+  {
+    "column name": "static_task_description",
+    "description": "Snapshot of the task’s description at the time of change for historical reporting."
+  },
+  {
+    "column name": "new_status",
+    "description": "Resulting status code after the change; see status lookup for meaning."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Snapshot of the resulting status code at change time; denormalized for audit."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Snapshot of the resulting status label at change time."
+  },
+  {
+    "column name": "old_status",
+    "description": "Previous status code before the change occurred."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Snapshot of the prior status code at change time; denormalized for audit."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Snapshot of the prior status label at change time."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record, by any process."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated modification; confirm distinction from last_modified with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created this audit record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this audit record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified this audit record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this audit record was last modified."
+  }
+]

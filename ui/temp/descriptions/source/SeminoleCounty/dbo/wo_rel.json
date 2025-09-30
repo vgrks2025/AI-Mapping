@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the source work order to which this relationship applies."
+  },
+  {
+    "column name": "row_no",
+    "description": "Line number for this relationship entry under the source work order; used to distinguish multiple entries."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number for ordering or grouping related entries for the same work order; exact usage may vary; confirm with SME."
+  },
+  {
+    "column name": "rel_type",
+    "description": "Code indicating the type of related record or relationship category (e.g., work order vs. work request)."
+  },
+  {
+    "column name": "rel_wo_no",
+    "description": "Identifier of the related work order or request referenced by this relationship."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the relationship record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the relationship record was created, in system time."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last updated the relationship record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this relationship record."
+  },
+  {
+    "column name": "rel2_type",
+    "description": "Secondary relationship type or qualifier providing additional context; likely optional and sparsely used; confirm with SME."
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "column name": "EHKey",
+    "description": "System-wide unique asset identifier for this equipment record."
+  },
+  {
+    "column name": "EHCompany",
+    "description": "Owning or operating company/business unit code."
+  },
+  {
+    "column name": "EHUID",
+    "description": "Internal unique ID for the equipment header record."
+  },
+  {
+    "column name": "EHMasterUID",
+    "description": "Identifier of the master/parent asset for component or child assets; 0 if none."
+  },
+  {
+    "column name": "EHReplacement",
+    "description": "Estimated replacement cost for the asset; confirm with SME."
+  },
+  {
+    "column name": "EHMasterLink",
+    "description": "Indicator linking this record to a master asset hierarchy; confirm exact meaning with SME."
+  },
+  {
+    "column name": "EHAC",
+    "description": "Indicates whether the vehicle is equipped with air conditioning (Y/N)."
+  },
+  {
+    "column name": "EHBillCode",
+    "description": "Billing code used for chargebacks or allocations related to this asset."
+  },
+  {
+    "column name": "EHCC",
+    "description": "Flag indicating cost-center applicability or special charging; confirm with SME."
+  },
+  {
+    "column name": "EHClass",
+    "description": "Equipment class/type code used for categorization and reporting."
+  },
+  {
+    "column name": "EHColor",
+    "description": "Exterior color of the vehicle/equipment."
+  },
+  {
+    "column name": "EHComment1",
+    "description": "Primary descriptive text about the asset."
+  },
+  {
+    "column name": "EHComment2",
+    "description": "Secondary notes or annotations about the asset."
+  },
+  {
+    "column name": "EHComment3",
+    "description": "Additional notes or special instructions about the asset."
+  },
+  {
+    "column name": "EHConv",
+    "description": "Conversion indicator (e.g., converted from another system or configuration); confirm with SME."
+  },
+  {
+    "column name": "EHCost",
+    "description": "Acquisition cost paid to procure the asset."
+  },
+  {
+    "column name": "EHCostD",
+    "description": "Cost adjustment or discount amount associated with acquisition; confirm with SME."
+  },
+  {
+    "column name": "EHDRV",
+    "description": "Depreciation rate or driver used in cost calculations; confirm with SME."
+  },
+  {
+    "column name": "EHDTC",
+    "description": "Code representing device/type/category for tracking or billing; confirm with SME."
+  },
+  {
+    "column name": "EHDTType",
+    "description": "Drive or drivetrain type code (e.g., front-, rear-, or four-wheel drive); confirm mapping."
+  },
+  {
+    "column name": "EHDateAcq",
+    "description": "Acquisition/purchase date."
+  },
+  {
+    "column name": "EHDateChg",
+    "description": "Date when the record was last modified."
+  },
+  {
+    "column name": "EHDateD",
+    "description": "Date the asset was disposed/retired; 0 or blank if not disposed."
+  },
+  {
+    "column name": "EHDateExp",
+    "description": "Planned expiration or end-of-life date for the asset."
+  },
+  {
+    "column name": "EHDateLastRes",
+    "description": "Date of most recent reservation; 0 if never reserved."
+  },
+  {
+    "column name": "EHDateInService",
+    "description": "Date the asset entered service."
+  },
+  {
+    "column name": "EHDepreciation",
+    "description": "Periodic depreciation expense charged to the asset; confirm period (monthly/annual) with SME."
+  },
+  {
+    "column name": "EHDept",
+    "description": "Owning/charging department or cost center."
+  },
+  {
+    "column name": "EHEmployee",
+    "description": "Assigned operator/driver or responsible employee."
+  },
+  {
+    "column name": "EHEngSize",
+    "description": "Engine displacement and configuration."
+  },
+  {
+    "column name": "EHFuelCap1",
+    "description": "Primary fuel tank capacity."
+  },
+  {
+    "column name": "EHFuelCap2",
+    "description": "Secondary/auxiliary fuel tank capacity."
+  },
+  {
+    "column name": "EHFuelType1",
+    "description": "Primary fuel type."
+  },
+  {
+    "column name": "EHFuelType2",
+    "description": "Secondary fuel type."
+  },
+  {
+    "column name": "EHFuelType3",
+    "description": "Additional fuel type code, if applicable; confirm with SME."
+  },
+  {
+    "column name": "EHGVW",
+    "description": "Gross vehicle weight rating."
+  },
+  {
+    "column name": "EHInsuranceAmt",
+    "description": "Insured value or coverage limit for the asset; confirm with SME."
+  },
+  {
+    "column name": "EHInsuranceChrg",
+    "description": "Insurance charge allocated to this asset."
+  },
+  {
+    "column name": "EHKey1",
+    "description": "Primary key/lock code or identifier; confirm usage with SME."
+  },
+  {
+    "column name": "EHKey2",
+    "description": "Secondary key/lock code or identifier; confirm usage with SME."
+  },
+  {
+    "column name": "EHLease",
+    "description": "Lease identification or status for the asset; confirm with SME."
+  },
+  {
+    "column name": "EHLicense",
+    "description": "Vehicle registration/license plate number."
+  },
+  {
+    "column name": "EHLifeExpMonths",
+    "description": "Expected service life in months."
+  },
+  {
+    "column name": "EHMake",
+    "description": "Manufacturer/brand."
+  },
+  {
+    "column name": "EHMisc",
+    "description": "Miscellaneous user-defined code or attribute; confirm with SME."
+  },
+  {
+    "column name": "EHModel",
+    "description": "Manufacturer model name/designation."
+  },
+  {
+    "column name": "EHMonitorGrp",
+    "description": "Monitoring or maintenance grouping code used for scheduling and reporting."
+  },
+  {
+    "column name": "EHMonthChrg",
+    "description": "Monthly ownership/lease charge billed to the department."
+  },
+  {
+    "column name": "EHOilCap",
+    "description": "Engine oil capacity."
+  },
+  {
+    "column name": "EHOpIDChg",
+    "description": "User ID or operator who last modified the record."
+  },
+  {
+    "column name": "EHOutReservation",
+    "description": "Current reservation status/count for the asset (e.g., 0 = none)."
+  },
+  {
+    "column name": "EHPO",
+    "description": "Purchase order number used to acquire the asset."
+  },
+  {
+    "column name": "EHPOD",
+    "description": "Disposition or delivery note related to the PO (e.g., auction); confirm with SME."
+  },
+  {
+    "column name": "EHPriority",
+    "description": "Priority code for maintenance, assignment, or replacement; confirm code definitions."
+  },
+  {
+    "column name": "EHRadio",
+    "description": "Radio equipment identifier/presence indicator; confirm with SME."
+  },
+  {
+    "column name": "EHRateCode",
+    "description": "Rate plan code used to calculate internal charges."
+  },
+  {
+    "column name": "EHSeasonalUsage",
+    "description": "Seasonal usage charge or factor applied to billing; confirm with SME."
+  },
+  {
+    "column name": "EHSerial",
+    "description": "Serial number or VIN."
+  },
+  {
+    "column name": "EHShop",
+    "description": "Assigned maintenance shop/location code."
+  },
+  {
+    "column name": "EHSite",
+    "description": "Site/location code where the asset is stationed."
+  },
+  {
+    "column name": "EHStatus",
+    "description": "High-level status of the asset (e.g., active or inactive)."
+  },
+  {
+    "column name": "EHStatusD",
+    "description": "Detailed status or disposition code; confirm definitions."
+  },
+  {
+    "column name": "EHTimeChg",
+    "description": "Time of last modification (HHMMSS)."
+  },
+  {
+    "column name": "EHTireSize1",
+    "description": "Primary/front tire size specification."
+  },
+  {
+    "column name": "EHTireSize2",
+    "description": "Secondary/rear tire size specification."
+  },
+  {
+    "column name": "EHTitle",
+    "description": "Vehicle title number/reference; confirm with SME."
+  },
+  {
+    "column name": "EHTitleSet",
+    "description": "Title/document set category for the asset; confirm with SME."
+  },
+  {
+    "column name": "EHTranSize",
+    "description": "Transmission type and number of speeds."
+  },
+  {
+    "column name": "EHUsageCost",
+    "description": "Rate charged per unit of use (mile, hour, etc.)."
+  },
+  {
+    "column name": "EHUsageCostType",
+    "description": "Unit on which usage cost is based (e.g., mile or hour); confirm with SME."
+  },
+  {
+    "column name": "EHVendor",
+    "description": "Vendor/supplier name associated with acquisition or service."
+  },
+  {
+    "column name": "EHVendorD",
+    "description": "Vendor display/long name or description."
+  },
+  {
+    "column name": "EHYear",
+    "description": "Model year of the asset."
+  },
+  {
+    "column name": "EHSupplierID",
+    "description": "Supplier identifier/reference; 0 if unknown; confirm with SME."
+  },
+  {
+    "column name": "EHMotorPool",
+    "description": "Indicates whether the asset belongs to a shared motor pool."
+  },
+  {
+    "column name": "EHFund",
+    "description": "Funding source or accounting fund code."
+  },
+  {
+    "column name": "EHMajGroup",
+    "description": "Major asset group/category code."
+  },
+  {
+    "column name": "EHConditionFactor",
+    "description": "Condition adjustment factor used in valuation or replacement modeling."
+  },
+  {
+    "column name": "EHInflationRate",
+    "description": "Inflation rate used in cost or replacement forecasting."
+  },
+  {
+    "column name": "EHSalvageRate",
+    "description": "Estimated salvage value rate as a percentage of cost."
+  },
+  {
+    "column name": "EHRecovCollected",
+    "description": "Amount of recovered charges collected to date."
+  },
+  {
+    "column name": "EHMaintenenceLTD",
+    "description": "Maintenance cost life-to-date."
+  },
+  {
+    "column name": "EHDateOutService",
+    "description": "Date the asset was taken out of service."
+  },
+  {
+    "column name": "EHHrCharge",
+    "description": "Hourly internal rental or usage charge."
+  },
+  {
+    "column name": "EHProjManagement",
+    "description": "Date associated with project management tracking for this asset; confirm purpose with SME."
+  },
+  {
+    "column name": "EHLocation",
+    "description": "Physical location or region designation."
+  },
+  {
+    "column name": "EHDateCreated",
+    "description": "Record creation date."
+  },
+  {
+    "column name": "EHNoteExists",
+    "description": "Indicates whether additional notes exist for this asset."
+  },
+  {
+    "column name": "EHGraphic",
+    "description": "Flag indicating presence of an associated image/graphic."
+  },
+  {
+    "column name": "EHSaleProceeds",
+    "description": "Cash proceeds received from sale or disposal."
+  }
+]

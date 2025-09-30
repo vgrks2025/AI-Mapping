@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Code identifying the maintenance template or task master that this nesting definition belongs to (e.g., a specific inspection/test program)."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number controlling the order in which nested templates/tasks are applied or evaluated within the parent template."
+  },
+  {
+    "column name": "nesting",
+    "description": "Identifier for the nested template/group referenced by the parent; indicates which sub-template is included (e.g., N1); likely a code rather than free text; confirm with SME."
+  },
+  {
+    "column name": "nest_descr",
+    "description": "Free-text description of the nesting group or rule to clarify its purpose or contents."
+  },
+  {
+    "column name": "multiplier",
+    "description": "Numeric factor applied to the nested item (e.g., repeat count, quantity, or weighting) when generating work or costs; exact usage may vary; confirm with SME."
+  },
+  {
+    "column name": "exclusive",
+    "description": "Y/N flag indicating the nested item is mutually exclusive with other options in the same sequence; if set, only one should be selected or scheduled."
+  },
+  {
+    "column name": "use_template",
+    "description": "Indicator specifying whether to apply the nested template’s tasks as-is when creating work, versus copying or expanding them differently; exact behavior may depend on configuration; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or process that created this record for auditing."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created (system time)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or process that last modified this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record."
+  }
+]

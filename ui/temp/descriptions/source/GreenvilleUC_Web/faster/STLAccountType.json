@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AccountTypeID",
+    "description": "Unique identifier for a financial account category in the chart of accounts, used to classify and link ledger accounts and transactions to the correct category."
+  },
+  {
+    "column name": "Description",
+    "description": "Business-friendly label for the financial account category used in the chart of accounts and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the category is retired and should not be used for new records; retained only for historical reporting and reference."
+  }
+]

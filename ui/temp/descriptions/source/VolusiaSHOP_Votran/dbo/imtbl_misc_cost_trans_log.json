@@ -1,0 +1,126 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this miscellaneous cost transaction log entry."
+  },
+  {
+    "column name": "cost_transaction_type",
+    "description": "Code indicating the kind of cost event (e.g., charge, credit, adjustment); typically references a lookup."
+  },
+  {
+    "column name": "misc_cost",
+    "description": "Identifier of the miscellaneous cost item being posted; links to the master cost record."
+  },
+  {
+    "column name": "misc_cost_quantity",
+    "description": "Number of units associated with the miscellaneous cost on this transaction."
+  },
+  {
+    "column name": "misc_cost_unit_cost",
+    "description": "Cost per unit applied for the miscellaneous cost on this transaction."
+  },
+  {
+    "column name": "user_id",
+    "description": "User or system account that created the transaction entry."
+  },
+  {
+    "column name": "contact",
+    "description": "Associated person or vendor related to the cost; likely a foreign key to contacts; confirm with SME."
+  },
+  {
+    "column name": "asset",
+    "description": "Asset or equipment ID the cost is applied to."
+  },
+  {
+    "column name": "procedures",
+    "description": "Maintenance procedure or task linked to the cost; likely references a procedure catalog; confirm with SME."
+  },
+  {
+    "column name": "project",
+    "description": "Project against which this cost is charged for budgeting or reporting."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "General ledger account used to post this cost in financials."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Reference or flag for allocating the cost across multiple GL accounts; confirm with SME."
+  },
+  {
+    "column name": "work_order",
+    "description": "Work order associated with the miscellaneous cost entry."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "Purchase order number related to this cost, if sourced via procurement; confirm with SME."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the transaction was recorded in the system."
+  },
+  {
+    "column name": "adjustment_date",
+    "description": "Effective date of an adjustment for accounting or reporting purposes."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes describing the transaction."
+  },
+  {
+    "column name": "code",
+    "description": "User-defined categorization for the cost entry; meaning may vary by configuration; confirm with SME."
+  },
+  {
+    "column name": "code_type",
+    "description": "Type or domain that defines how to interpret the code field; confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-initiated change; may differ from automated updates; confirm with SME."
+  },
+  {
+    "column name": "woap",
+    "description": "Likely a work order accounting or approval/posting reference; confirm with SME."
+  },
+  {
+    "column name": "woap_actual",
+    "description": "Likely the actual posted value or reference tied to the WOAP field; confirm with SME."
+  },
+  {
+    "column name": "po_order",
+    "description": "Likely the internal purchase order record identifier linked to this transaction; confirm with SME."
+  },
+  {
+    "column name": "po_receipt",
+    "description": "Likely the purchase receipt record identifier for received goods/services; confirm with SME."
+  },
+  {
+    "column name": "po_order_line_num",
+    "description": "Line number on the related purchase order."
+  },
+  {
+    "column name": "po_receipt_line_num",
+    "description": "Line number on the related purchase receipt."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who initially created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the last modification made by a user."
+  }
+]

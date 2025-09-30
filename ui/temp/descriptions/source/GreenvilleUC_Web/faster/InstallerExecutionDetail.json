@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "InstallerExecutionDetailID",
+    "description": "Unique identifier for an installer execution detail entry."
+  },
+  {
+    "column name": "InstallerExecutionDate",
+    "description": "Timestamp when the installation process executed on the environment or server."
+  },
+  {
+    "column name": "OriginatedVersion",
+    "description": "Application version present before the installation started; likely the source/base version for upgrade; confirm with SME."
+  },
+  {
+    "column name": "TargetVersion",
+    "description": "Application version intended to be installed as a result of this run (post-install version)."
+  },
+  {
+    "column name": "InstallationMode",
+    "description": "Type of installation performed, such as fresh, upgrade, repair, or fresh against an existing database."
+  },
+  {
+    "column name": "ConfigurationDecisions",
+    "description": "Serialized key-value list of setup choices (features, add-ons, settings) selected during installation."
+  }
+]

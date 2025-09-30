@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate primary key for this record in the vehicle class lookup; uniquely identifies one class entry."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp for this record, with millisecond precision; indicates when the entry was created or last updated. Timezone unspecified; confirm with SME."
+  },
+  {
+    "column name": "class",
+    "description": "Human-readable vehicle classification (body style and drivetrain) used for fleet categorization, pricing, and reporting."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a legacy source system; used for migration, deduplication, or cross-system mapping. Exact source and format may vary; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table or entity from which this record originated; supports lineage and reconciliation. Likely populated during migration; confirm with SME."
+  }
+]

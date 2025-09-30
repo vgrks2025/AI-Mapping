@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this status change log record. Uniquely identifies the row."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the event was logged in the system."
+  },
+  {
+    "column name": "user_id",
+    "description": "Application user account that performed the change or generated the log entry."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the affected contact (likely a driver or employee record in the fleet system); confirm with SME."
+  },
+  {
+    "column name": "static_contact_id",
+    "description": "Lookup key to the snapshot/static dimension representing the contact at event time; used for historical consistency; confirm with SME."
+  },
+  {
+    "column name": "static_contact_description",
+    "description": "Human-readable label for the snapshot contact (e.g., name) stored to preserve history at the time of the event; confirm with SME."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code for the updated status assigned to the contact after the change (e.g., available, out of service); confirm with SME."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Lookup key to the snapshot/static status at event time, ensuring historical reporting; confirm with SME."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Human-readable description of the new status captured at event time; confirm with SME."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code for the previous status before the change; used to track transitions; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Lookup key to the snapshot/static status representing the previous state at event time; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Human-readable description of the previous status captured at event time; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this log record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded as the user-context time of last modification to this record; often mirrors the system timestamp; confirm behavior with SME."
+  }
+]

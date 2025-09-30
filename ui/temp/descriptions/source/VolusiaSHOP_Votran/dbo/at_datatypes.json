@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique internal identifier for the datatype record; serves as the table’s primary key and join key."
+  },
+  {
+    "column name": "id",
+    "description": "Business-facing name of the datatype definition used in configuration, selection lists, and UI displays."
+  },
+  {
+    "column name": "description",
+    "description": "Narrative explanation of the datatype’s purpose, usage, or constraints within the maintenance application."
+  },
+  {
+    "column name": "TypeName",
+    "description": "Internal logical or enum type name linked to this datatype, referenced by application logic and integrations."
+  },
+  {
+    "column name": "valueType",
+    "description": "Underlying runtime data type used to store values for this definition (for example, a .NET primitive)."
+  },
+  {
+    "column name": "isFlags",
+    "description": "Boolean indicating whether the datatype is a bitwise flags enumeration that supports combining multiple options."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Code identifying the preventive maintenance or inspection template/program this cycle belongs to, typically reflecting equipment class or service type."
+  },
+  {
+    "column name": "cycle_no",
+    "description": "Sequence number for the cycle within the template/program, used to order or distinguish multiple cycles."
+  },
+  {
+    "column name": "nesting",
+    "description": "Flag for the nested PM hierarchy level of this cycle (e.g., N1), controlling bundling of tasks across progressive service levels; likely a nesting level code—confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or username that created the cycle record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the cycle record was created (system timestamp)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or username that last modified the cycle record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to the cycle record (system timestamp)."
+  }
+]

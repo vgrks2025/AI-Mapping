@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "FMFXUID",
+    "description": "Unique ID of the asset/unit this meter entry applies to; likely a foreign key to the equipment or vehicle master record (confirm target table with SME)."
+  },
+  {
+    "column name": "FMType",
+    "description": "Code for the meter’s type/units (e.g., miles, kilometers, engine hours); confirm valid code set with SME."
+  },
+  {
+    "column name": "FMReading",
+    "description": "Numeric value read from the device at the time of capture (e.g., odometer or hourmeter); units and interpretation are determined by the type code."
+  },
+  {
+    "column name": "FMOverride",
+    "description": "Indicator that this value should override calculated or prior readings (manual entry/adjustment). Blank likely means no override; confirm allowed values and logic."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this schedule status change record."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the status change was logged."
+  },
+  {
+    "column name": "user_id",
+    "description": "Identifier of the user or process that performed the status change."
+  },
+  {
+    "column name": "schedule",
+    "description": "Identifier of the schedule (e.g., job, route, maintenance) whose status changed."
+  },
+  {
+    "column name": "static_schedule_id",
+    "description": "Snapshot key referencing the static schedule dimension captured at the time of change; confirm with SME."
+  },
+  {
+    "column name": "static_schedule_description",
+    "description": "Snapshot name or description of the schedule at the time of change; confirm with SME."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code representing the resulting schedule status after the change."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Snapshot key for the resulting status in a static lookup at change time; confirm with SME."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Snapshot description for the resulting status at change time; confirm with SME."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code representing the prior schedule status before the change."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Snapshot key for the prior status in a static lookup at change time; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Snapshot description for the prior status before the change; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Identifier of the user who last updated this record; sample suggests a timestamp, so confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "column name": "warehouse",
+    "description": "Unique code identifying the warehouse, stockroom, or service truck location in the fleet inventory system."
+  },
+  {
+    "column name": "ware_descr",
+    "description": "Human-readable name/description of the warehouse or mobile storeroom."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes about the warehouse/site (instructions, special handling, status)."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Default sales/use tax rate applied to purchases or transactions processed for this warehouse/site."
+  },
+  {
+    "column name": "tran_prefix",
+    "description": "Prefix used to generate inventory transaction numbers for this warehouse (e.g., issues, receipts)."
+  },
+  {
+    "column name": "tran_lastno",
+    "description": "Last sequential number issued for inventory transactions at this warehouse; used to determine the next number."
+  },
+  {
+    "column name": "inv_ctrl",
+    "description": "Flag indicating whether inventory levels are actively controlled for this warehouse (Y/N)."
+  },
+  {
+    "column name": "email_add",
+    "description": "Primary email address for the warehouse/site or its main contact."
+  },
+  {
+    "column name": "site_no",
+    "description": "Internal site identifier for the warehouse location; likely ties to a site master; confirm with SME."
+  },
+  {
+    "column name": "site_name",
+    "description": "Name or address text for the physical warehouse/site location."
+  },
+  {
+    "column name": "site_phone",
+    "description": "Primary telephone number for the warehouse/site."
+  },
+  {
+    "column name": "site_fax",
+    "description": "Fax number for the warehouse/site."
+  },
+  {
+    "column name": "ord_prefix",
+    "description": "Prefix used to generate order numbers associated with this warehouse (e.g., stock orders, purchase requests)."
+  },
+  {
+    "column name": "ord_lastno",
+    "description": "Last sequential number issued for orders associated with this warehouse; used to generate the next order number."
+  },
+  {
+    "column name": "contact",
+    "description": "Primary contact person or role for the warehouse, optionally with phone details."
+  },
+  {
+    "column name": "cust_flag",
+    "description": "Flag indicating whether the location is a customer or consignment warehouse (Y/N); confirm with SME."
+  },
+  {
+    "column name": "addr_key",
+    "description": "Reference key to the address record for this warehouse/site; likely links to an address master; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the warehouse record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the warehouse record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the warehouse record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the warehouse record."
+  },
+  {
+    "column name": "inv_ctrl_rsvd",
+    "description": "Flag indicating whether inventory reservations are enforced or tracked for this warehouse (Y/N); confirm with SME."
+  },
+  {
+    "column name": "geometry",
+    "description": "Geospatial geometry for the warehouse location used for mapping and spatial analysis; confirm data type."
+  },
+  {
+    "column name": "add_tax_to_avg_cost",
+    "description": "Flag indicating whether tax is included when calculating average inventory cost for this warehouse."
+  }
+]

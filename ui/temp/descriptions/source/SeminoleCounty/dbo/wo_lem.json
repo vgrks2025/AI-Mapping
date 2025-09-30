@@ -1,0 +1,274 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the work order this line belongs to."
+  },
+  {
+    "column name": "row_no",
+    "description": "Line number within the work order for this LEM entry."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence used to order multiple postings within the work order line."
+  },
+  {
+    "column name": "it_type",
+    "description": "Category of the item charged on this line."
+  },
+  {
+    "column name": "it_code",
+    "description": "Internal code identifying the specific resource, part, or service."
+  },
+  {
+    "column name": "it_class",
+    "description": "Classification code grouping the item for costing and reporting."
+  },
+  {
+    "column name": "it_descr",
+    "description": "Descriptive text for the resource, part, or service on this line."
+  },
+  {
+    "column name": "act_qty",
+    "description": "Actual quantity or hours consumed for this line item."
+  },
+  {
+    "column name": "uom",
+    "description": "Unit of measure corresponding to the recorded quantity."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Price per unit or hour applied to this line."
+  },
+  {
+    "column name": "total_cost",
+    "description": "Extended cost for the line, typically quantity multiplied by unit cost."
+  },
+  {
+    "column name": "act_date",
+    "description": "Date and time the activity was performed or posted to the work order."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Issuing warehouse or service location providing the item or work."
+  },
+  {
+    "column name": "bin_no",
+    "description": "Specific bin or storage location within the warehouse."
+  },
+  {
+    "column name": "inv_type",
+    "description": "Inventory transaction type code for this line; likely issue/return status. Confirm with SME."
+  },
+  {
+    "column name": "valid_item",
+    "description": "Indicator that the referenced item code is valid/active."
+  },
+  {
+    "column name": "rcvd",
+    "description": "Quantity received for this line’s item; likely a goods receipt measure. Confirm with SME."
+  },
+  {
+    "column name": "acct_no",
+    "description": "General ledger account to charge this cost."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit or cost center responsible for this transaction."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Code representing the maintenance activity or task performed."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes captured for this line."
+  },
+  {
+    "column name": "it_udf1",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf2",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf3",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf4",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf5",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf6",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf7",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf8",
+    "description": "User-defined item attribute; meaning varies by implementation."
+  },
+  {
+    "column name": "it_udf9",
+    "description": "User-defined item attribute (often numeric); meaning varies by implementation."
+  },
+  {
+    "column name": "udfl",
+    "description": "User-defined flag or list code for additional categorization; confirm with SME."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Shop or location code where the work or issue occurred."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Identifier for the sub-location beneath the primary location."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Identifier of the asset or unit charged by this line."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update."
+  },
+  {
+    "column name": "acp_no",
+    "description": "Accounting control or posting batch number for this transaction; confirm with SME."
+  },
+  {
+    "column name": "tax_yn",
+    "description": "Flag indicating whether this line is taxable."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Tax rate applied to this line."
+  },
+  {
+    "column name": "tax_cost",
+    "description": "Calculated tax amount for this line."
+  },
+  {
+    "column name": "craft_trade",
+    "description": "Labor craft/trade associated with the work performed."
+  },
+  {
+    "column name": "src",
+    "description": "Source module or system that created the record."
+  },
+  {
+    "column name": "hrfactor_pay",
+    "description": "Pay factor or premium multiplier applied to labor hours; confirm with SME."
+  },
+  {
+    "column name": "operator_id",
+    "description": "Identifier of the technician or operator who performed the work."
+  },
+  {
+    "column name": "geometry_object_id",
+    "description": "Reference to a GIS feature or spatial object related to the work; confirm with SME."
+  },
+  {
+    "column name": "warr_exp_dt",
+    "description": "Warranty expiration date applicable to the item or asset."
+  },
+  {
+    "column name": "warr_exp_meter",
+    "description": "Meter reading at which warranty coverage ends."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier of the supplier associated with this line."
+  },
+  {
+    "column name": "start_dt",
+    "description": "Start date and time for the work on this line."
+  },
+  {
+    "column name": "finish_dt",
+    "description": "Finish date and time for the work on this line."
+  },
+  {
+    "column name": "act_date_month",
+    "description": "Month derived from the activity date for reporting."
+  },
+  {
+    "column name": "fiscal_year",
+    "description": "Fiscal year associated with the posting of this activity."
+  },
+  {
+    "column name": "period_no",
+    "description": "Accounting period number used for posting."
+  },
+  {
+    "column name": "locked",
+    "description": "Indicator that the line is locked from edits or posting."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "Custom text field at the record level; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "Custom text field at the record level; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "Custom text field at the record level; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_text4",
+    "description": "Custom text field at the record level; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_text5",
+    "description": "Custom text field at the record level; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_num1",
+    "description": "Custom numeric field; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_num2",
+    "description": "Custom numeric field; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_num3",
+    "description": "Custom numeric field; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_date1",
+    "description": "Custom date field; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_date2",
+    "description": "Custom date field; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_date3",
+    "description": "Custom date field; meaning varies by implementation."
+  },
+  {
+    "column name": "udf_text6",
+    "description": "Additional custom text field; meaning varies by implementation."
+  }
+]

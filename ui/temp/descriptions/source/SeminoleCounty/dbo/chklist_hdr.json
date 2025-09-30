@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "checklist",
+    "description": "Name of the checklist template used for vehicle, equipment, or safety inspections and maintenance tasks."
+  },
+  {
+    "column name": "descr",
+    "description": "Free‑text summary describing the purpose, scope, or instructions for the checklist template."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the checklist template record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the checklist template record was created; time zone likely UTC—confirm with SME."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last modified the checklist template record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the checklist template; time zone likely UTC—confirm with SME."
+  }
+]

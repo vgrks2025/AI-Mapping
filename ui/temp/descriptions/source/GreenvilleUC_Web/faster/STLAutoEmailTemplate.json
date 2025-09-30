@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "AutoEmailTemplateID",
+    "description": "System-generated unique identifier for an automated email template used in fleet notifications and service communications; referenced by workflows and configuration."
+  },
+  {
+    "column name": "AutoEmailTemplateName",
+    "description": "Display name of the automated email template selected by users or rules when sending notifications, appointments, maintenance, or authorization messages; used to label and manage templates."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "MergeReasonID",
+    "description": "System-generated unique key identifying a standardized reason used when consolidating or merging records in the fleet management system."
+  },
+  {
+    "column name": "MergeReason",
+    "description": "Human-readable description of the standardized rationale applied when combining duplicate, superseded, or related records across parts, assets, or vendors."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean indicator denoting whether this reason code is retired and unavailable for new use in operational workflows."
+  }
+]

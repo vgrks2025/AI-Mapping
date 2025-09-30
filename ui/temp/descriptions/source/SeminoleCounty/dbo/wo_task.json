@@ -1,0 +1,114 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the work order that this task belongs to."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Identifier of the asset (vehicle or equipment) serviced by this task."
+  },
+  {
+    "column name": "task_no",
+    "description": "Identifier for the specific task line within the work order or a standard task code; confirm with SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number determining the order this task is executed or displayed within the work order."
+  },
+  {
+    "column name": "task_id",
+    "description": "System-generated unique key for the task record; sometimes unused in legacy data."
+  },
+  {
+    "column name": "done",
+    "description": "Completion indicator for the task (e.g., 1 = complete)."
+  },
+  {
+    "column name": "task_descr",
+    "description": "Human-readable description of the task, typically including category and component details."
+  },
+  {
+    "column name": "result_type",
+    "description": "Type of result captured for the task (e.g., pass/fail, numeric, text); likely used for inspections; confirm with SME."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Type of meter associated with the task (e.g., miles, hours, km) used for readings or thresholds; confirm with SME."
+  },
+  {
+    "column name": "result_text",
+    "description": "Free-text result or outcome recorded when completing the task."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to linked attachments (photos, documents) related to this task."
+  },
+  {
+    "column name": "completion_notes",
+    "description": "Technician notes or comments entered upon task completion."
+  },
+  {
+    "column name": "formula",
+    "description": "Business rule or calculation formula applied to the task’s measurements or costs; likely configurable; confirm with SME."
+  },
+  {
+    "column name": "required",
+    "description": "Flag indicating whether the task is mandatory to complete the work order or meet compliance."
+  },
+  {
+    "column name": "compl_dt",
+    "description": "Timestamp when the task was marked complete."
+  },
+  {
+    "column name": "cost_portion",
+    "description": "Portion of the work order’s cost allocated to this task (amount or percentage); confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the task record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the task record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the task record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the task record."
+  },
+  {
+    "column name": "geometry",
+    "description": "Geospatial geometry capturing the task’s location (point/line/polygon), if tracked; often null in shop tasks."
+  },
+  {
+    "column name": "task_finisher",
+    "description": "User who completed or signed off the task."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours required to perform the task."
+  },
+  {
+    "column name": "percent_start",
+    "description": "Percent complete at task start for progress tracking; likely used with inspections; confirm with SME."
+  },
+  {
+    "column name": "percent_end",
+    "description": "Percent complete when the task finished; used for progress tracking; confirm with SME."
+  },
+  {
+    "column name": "dir_cd",
+    "description": "Direction or department/accounting code used to categorize or route the task; meaning may be organization-specific; confirm with SME."
+  },
+  {
+    "column name": "geometry_object_id",
+    "description": "Identifier linking the task to a stored geometry object in a GIS or spatial table."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field for custom codes or notes related to the task."
+  }
+]

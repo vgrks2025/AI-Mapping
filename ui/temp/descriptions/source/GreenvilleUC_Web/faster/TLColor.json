@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "ColorID",
+    "description": "System-generated unique identifier for a color record used across fleet configuration and reporting; links this entry to vehicles, assets, and related tables."
+  },
+  {
+    "column name": "Color",
+    "description": "Human-readable name of the paint or finish associated with a vehicle, asset, or part; standardized label shown in user interfaces and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the color entry is retired and should not be used for new records; when true, remains for historical reference and reporting."
+  }
+]

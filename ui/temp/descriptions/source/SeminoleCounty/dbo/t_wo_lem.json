@@ -1,0 +1,518 @@
+[
+  {
+    "column name": "geometry",
+    "description": "Geospatial location of the work order or service site; likely a point/shape from a GIS system. Confirm geometry type and coordinate system with SME."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the work order record."
+  },
+  {
+    "column name": "status",
+    "description": "Current lifecycle status of the work order (e.g., open, in progress, closed)."
+  },
+  {
+    "column name": "cmpm_flag",
+    "description": "Code indicating corrective versus preventive maintenance classification."
+  },
+  {
+    "column name": "wo_descr",
+    "description": "Short narrative describing the problem, service category, and system involved."
+  },
+  {
+    "column name": "wo_type",
+    "description": "Work order category by maintenance type used for reporting and routing."
+  },
+  {
+    "column name": "issued",
+    "description": "Date the work order was issued or created."
+  },
+  {
+    "column name": "closed",
+    "description": "Date the work order was closed or completed."
+  },
+  {
+    "column name": "target",
+    "description": "Target due date for completing the work."
+  },
+  {
+    "column name": "assign_to",
+    "description": "Identifier of the technician primarily assigned to perform the work."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Supervisor responsible for oversight of this work order."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Crew lead responsible for onsite coordination."
+  },
+  {
+    "column name": "origin_code",
+    "description": "Code describing how the work originated (e.g., inspection, driver report, telematics)."
+  },
+  {
+    "column name": "primary_wr_no",
+    "description": "Original request number from which this work order was generated, if applicable."
+  },
+  {
+    "column name": "appvby",
+    "description": "User who approved the work order or expenditure."
+  },
+  {
+    "column name": "customer_type",
+    "description": "Classification of the requesting customer (internal, external, department, etc.)."
+  },
+  {
+    "column name": "req_cust_id",
+    "description": "Identifier of the person or department requesting service."
+  },
+  {
+    "column name": "cust_name",
+    "description": "Name of the customer or requesting party."
+  },
+  {
+    "column name": "req_cell_phone",
+    "description": "Requester’s mobile phone number."
+  },
+  {
+    "column name": "req_phone2",
+    "description": "Alternate contact phone for the requester."
+  },
+  {
+    "column name": "req_email",
+    "description": "Requester’s email address."
+  },
+  {
+    "column name": "portal_id",
+    "description": "Self-service portal account ID linked to the requester."
+  },
+  {
+    "column name": "op_id",
+    "description": "Identifier of the equipment operator associated with the request or asset; confirm with SME."
+  },
+  {
+    "column name": "issue_id",
+    "description": "External issue or ticket reference that initiated the work; confirm with SME."
+  },
+  {
+    "column name": "req_request",
+    "description": "Short title or summary of the service request."
+  },
+  {
+    "column name": "req_comments",
+    "description": "Additional comments supplied by the requester."
+  },
+  {
+    "column name": "sup_notes",
+    "description": "Supervisor notes or instructions regarding the job."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority level code used to schedule and triage the work."
+  },
+  {
+    "column name": "req_text",
+    "description": "Detailed description of the problem as reported."
+  },
+  {
+    "column name": "req_notes",
+    "description": "Internal notes captured during intake of the request."
+  },
+  {
+    "column name": "site_addr_key",
+    "description": "Internal key for the service site address record."
+  },
+  {
+    "column name": "site_street_name",
+    "description": "Street name of the service location."
+  },
+  {
+    "column name": "site_street_number",
+    "description": "Street number of the service location."
+  },
+  {
+    "column name": "site_city",
+    "description": "City for the service location."
+  },
+  {
+    "column name": "site_zip_code",
+    "description": "Postal code for the service location."
+  },
+  {
+    "column name": "site_loc_desc",
+    "description": "Free-form description to help locate the work site."
+  },
+  {
+    "column name": "site_cross_street",
+    "description": "Nearest cross street to the service location."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "Custom text field 1 for agency-specific data; meaning varies by configuration."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "Custom text field 2 for client-defined information; confirm intended use with SME."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "Custom text field 3 reserved for local needs."
+  },
+  {
+    "column name": "udf_text4",
+    "description": "Custom text field 4; usage configurable per deployment."
+  },
+  {
+    "column name": "udf_text5",
+    "description": "Custom text field 5 for additional labeling or tags."
+  },
+  {
+    "column name": "udf_text6",
+    "description": "Custom text field 6 used for organization-specific details."
+  },
+  {
+    "column name": "udf_text7",
+    "description": "Custom text field 7; semantics depend on business rules."
+  },
+  {
+    "column name": "udf_text8",
+    "description": "Custom text field 8 for optional annotations."
+  },
+  {
+    "column name": "udf_text9",
+    "description": "Custom text field 9 for extended attributes."
+  },
+  {
+    "column name": "udf_text10",
+    "description": "Custom text field 10; confirm purpose with SME."
+  },
+  {
+    "column name": "udf_date1",
+    "description": "User-defined date field 1 for configurable milestones; confirm meaning."
+  },
+  {
+    "column name": "udf_date2",
+    "description": "User-defined date field 2 for local processes."
+  },
+  {
+    "column name": "udf_date3",
+    "description": "User-defined date field 3; semantics vary by client."
+  },
+  {
+    "column name": "udf_date4",
+    "description": "User-defined date field 4 for custom tracking."
+  },
+  {
+    "column name": "udf_date5",
+    "description": "User-defined date field 5; confirm with SME."
+  },
+  {
+    "column name": "udf_date6",
+    "description": "User-defined date field 6 used as configured."
+  },
+  {
+    "column name": "udf_date7",
+    "description": "User-defined date field 7 for optional events."
+  },
+  {
+    "column name": "udf_date8",
+    "description": "User-defined date field 8; purpose varies."
+  },
+  {
+    "column name": "udf_date9",
+    "description": "User-defined date field 9 for additional scheduling data."
+  },
+  {
+    "column name": "udf_num1",
+    "description": "User-defined numeric field 1 for configurable metrics."
+  },
+  {
+    "column name": "udf_num2",
+    "description": "User-defined numeric field 2; meaning varies."
+  },
+  {
+    "column name": "udf_num3",
+    "description": "User-defined numeric field 3 for client-specific quantities."
+  },
+  {
+    "column name": "action_taken",
+    "description": "Summary of the actions performed to resolve the issue."
+  },
+  {
+    "column name": "tm_no",
+    "description": "Related task or time entry number from a timekeeping or task module; confirm with SME."
+  },
+  {
+    "column name": "wr_no",
+    "description": "Work request identifier that preceded and generated this work order."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the work group or shop responsible for the job."
+  },
+  {
+    "column name": "project_no",
+    "description": "Project identifier charged for this work, if applicable."
+  },
+  {
+    "column name": "customer_id",
+    "description": "Customer account identifier linked to billing."
+  },
+  {
+    "column name": "wo_vendor_id",
+    "description": "Vendor identifier for outsourced or sublet work."
+  },
+  {
+    "column name": "asset_seq_no",
+    "description": "Sequence number of the asset within the work order."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Identifier of the vehicle or equipment being serviced."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Code representing the asset’s type or class."
+  },
+  {
+    "column name": "asset_descr",
+    "description": "Descriptive name or details of the asset."
+  },
+  {
+    "column name": "subsys_id",
+    "description": "Subsystem or component identifier within the asset, if specified."
+  },
+  {
+    "column name": "failure_code",
+    "description": "Coded reason or symptom associated with the failure."
+  },
+  {
+    "column name": "fail_descr",
+    "description": "Narrative description of the failure condition."
+  },
+  {
+    "column name": "cost_share",
+    "description": "Percentage of cost allocated to this customer, department, or funding source."
+  },
+  {
+    "column name": "rating",
+    "description": "Post-service rating or evaluation score for the work performed."
+  },
+  {
+    "column name": "compl_dt",
+    "description": "Date and time the work was completed."
+  },
+  {
+    "column name": "opt1",
+    "description": "Optional field 1 for agency-specific coding; confirm intended use."
+  },
+  {
+    "column name": "opt2",
+    "description": "Optional field 2 for agency-specific coding; confirm intended use."
+  },
+  {
+    "column name": "dntime",
+    "description": "Equipment downtime attributed to this job, typically in hours."
+  },
+  {
+    "column name": "asset_start_dt",
+    "description": "Date the asset entered an out-of-service or repair state for this job."
+  },
+  {
+    "column name": "asset_finish_dt",
+    "description": "Date the asset returned to service for this job."
+  },
+  {
+    "column name": "asset_owner",
+    "description": "Owning department, division, or customer of the asset."
+  },
+  {
+    "column name": "asset_remarks",
+    "description": "Notes about the asset relevant to this work."
+  },
+  {
+    "column name": "wk_in_progress",
+    "description": "Flag indicating whether work is in progress or complete."
+  },
+  {
+    "column name": "acct_no",
+    "description": "General ledger account charged for this line or work order."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Location or shop code where the work occurred or the asset is assigned."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Activity code identifying the task for costing or reporting."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit or cost center responsible for the work."
+  },
+  {
+    "column name": "wo_acct_no",
+    "description": "Work-order-level accounting override for charges."
+  },
+  {
+    "column name": "wo_activity_code",
+    "description": "Work-order-level activity code used for costing."
+  },
+  {
+    "column name": "wo_mgmt_unit",
+    "description": "Work-order-level management unit (cost center) for chargeback."
+  },
+  {
+    "column name": "wo_loc_cd",
+    "description": "Work-order-level location code for accounting or reporting."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Asset line number or position within the work order; confirm with SME."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number of this line item within the work order."
+  },
+  {
+    "column name": "it_type",
+    "description": "Type of line item, such as labor, part, or contractor."
+  },
+  {
+    "column name": "it_code",
+    "description": "Identifier for the resource: employee ID, part number, or contractor code."
+  },
+  {
+    "column name": "it_class",
+    "description": "Classification of the line item (e.g., regular labor, part, contractor)."
+  },
+  {
+    "column name": "it_descr",
+    "description": "Description of the labor resource, part, or contractor service."
+  },
+  {
+    "column name": "act_qty",
+    "description": "Quantity used on this line (hours for labor, count for parts, etc.)."
+  },
+  {
+    "column name": "uom",
+    "description": "Unit of measure corresponding to the quantity."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Cost per unit or hourly rate for this line."
+  },
+  {
+    "column name": "total_cost",
+    "description": "Extended line cost calculated from quantity and unit cost."
+  },
+  {
+    "column name": "act_date",
+    "description": "Date the labor, part issue, or contractor charge was recorded."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Warehouse providing the inventory item for this line."
+  },
+  {
+    "column name": "bin_no",
+    "description": "Storage location within the warehouse for the item."
+  },
+  {
+    "column name": "inv_type",
+    "description": "Inventory category or type for the item."
+  },
+  {
+    "column name": "valid_item",
+    "description": "Indicates whether the item code is valid or approved in the catalog."
+  },
+  {
+    "column name": "rcvd",
+    "description": "Date or indicator that the item was received against this work; confirm with SME."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-form notes for this line item."
+  },
+  {
+    "column name": "it_udf1",
+    "description": "Item-level user-defined field 1 for custom data."
+  },
+  {
+    "column name": "it_udf2",
+    "description": "Item-level user-defined field 2; configurable meaning."
+  },
+  {
+    "column name": "it_udf3",
+    "description": "Item-level user-defined field 3 for local needs."
+  },
+  {
+    "column name": "udfl",
+    "description": "User-defined flag at the line level; purpose varies by client."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Sub-location within the facility where work occurred or parts were stored."
+  },
+  {
+    "column name": "acp_no",
+    "description": "Accounting posting or charge packet reference for this transaction; confirm with SME."
+  },
+  {
+    "column name": "start_dt",
+    "description": "Start date and time of the labor or activity on this line."
+  },
+  {
+    "column name": "finish_dt",
+    "description": "Finish date and time of the labor or activity on this line."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the record."
+  },
+  {
+    "column name": "start_time",
+    "description": "Time of day the activity began, paired with the date."
+  },
+  {
+    "column name": "act_cost",
+    "description": "Actual cost attributed to this line (sum of labor, parts, contractor, etc.)."
+  },
+  {
+    "column name": "act_work_qty",
+    "description": "Measured quantity of work completed for this line’s activity."
+  },
+  {
+    "column name": "act_lbr_hrs",
+    "description": "Actual labor hours charged to this line."
+  },
+  {
+    "column name": "act_labor",
+    "description": "Actual labor cost charged."
+  },
+  {
+    "column name": "act_equip",
+    "description": "Actual equipment usage cost charged."
+  },
+  {
+    "column name": "act_part",
+    "description": "Actual parts or materials cost charged."
+  },
+  {
+    "column name": "act_misc",
+    "description": "Actual miscellaneous charges applied."
+  },
+  {
+    "column name": "act_ctr",
+    "description": "Actual contractor or sublet cost charged."
+  },
+  {
+    "column name": "act_total",
+    "description": "Total actual cost for this line; typically equals the sum of all cost components."
+  }
+]

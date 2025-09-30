@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate primary key for the repair location record; uniquely identifies a location within this table."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Timestamp when this record was created or last replicated/updated, likely in yyyymmddHHMMSSmmm format; used for incremental loads and auditing; confirm exact timezone/semantics with SME."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Code for the top organizational hierarchy level associated with the repair location; 0 may indicate no parent/root; exact meaning varies by tenant - confirm with SME."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Readable label corresponding to the hierarchy level 1 code, likely the name/description of that organizational grouping; confirm with SME."
+  },
+  {
+    "column name": "reploc",
+    "description": "Official name of the repair facility/vendor where vehicles are serviced or parts obtained."
+  },
+  {
+    "column name": "id",
+    "description": "Organization or tenant identifier tied to this record; 0 may represent a default/global scope; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this location in the originating legacy system to support cross-system mapping and deduplication."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which this record was imported."
+  }
+]

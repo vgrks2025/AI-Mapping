@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "rpt_category",
+    "description": "Label that identifies and groups related report/printout types for navigation, filtering, and security within the system."
+  },
+  {
+    "column name": "descr",
+    "description": "User-facing explanation of the category’s purpose and scope to help users choose the correct printouts."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the category record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the category record was first created (system time, UTC or server timezone)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified the category record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the category record."
+  },
+  {
+    "column name": "reserved",
+    "description": "Flag indicating system-reserved categories that are not meant to be edited or deleted (likely Y/N; confirm with SME)."
+  }
+]

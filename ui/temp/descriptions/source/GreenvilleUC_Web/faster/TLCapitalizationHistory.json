@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "HistoryReasonID",
+    "description": "Identifier of the reason for a capitalization history entry—e.g., asset acquisition, cost adjustment, transfer, or reversal. Likely a foreign key to a reason code table; confirm with SME."
+  },
+  {
+    "column name": "RepairReasonID",
+    "description": "Reference to the coded reason associated with a repair recorded in capitalization history—e.g., failure, damage, warranty, or preventive maintenance. Likely links to a repair reason lookup; confirm with SME."
+  }
+]

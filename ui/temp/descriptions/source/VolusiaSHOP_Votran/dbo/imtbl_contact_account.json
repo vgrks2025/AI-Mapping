@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this contact–general ledger account association record."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "Identifier of the general ledger account assigned to the contact for postings; likely references the GL account master."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the contact (person or organization) linked to this GL account; likely references the contact master record."
+  },
+  {
+    "column name": "primary_gl",
+    "description": "Flag indicating whether this is the contact’s primary/default GL account used for automatic postings (1=yes, 0=no)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the contact–account relationship, such as special billing or posting instructions."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp when the record was last updated; may duplicate another modified timestamp field (confirm with SME)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely the timestamp of the last user-driven update; field name suggests a user ID but stored values are datetimes (confirm with SME)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID of the person or process that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID of the person or process that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user."
+  }
+]

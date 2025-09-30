@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AdjustmentReasonID",
+    "description": "System-generated unique identifier for a specific inventory adjustment rationale used in transactions and reporting."
+  },
+  {
+    "column name": "AdjustmentReason",
+    "description": "Human-readable description explaining why an inventory or asset quantity adjustment occurred; used to classify transactions and support reporting and controls."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the reason is retired and should not be used in new transactions, while remaining available for historical records and references."
+  }
+]

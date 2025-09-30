@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "PK",
+    "description": "System-generated unique identifier for the invoice detail record."
+  },
+  {
+    "column name": "InvoicePK",
+    "description": "Identifier linking this detail line to its parent purchase order invoice."
+  },
+  {
+    "column name": "PurchaseOrderDetailPK",
+    "description": "Identifier of the originating purchase order line item associated with this invoice detail."
+  },
+  {
+    "column name": "OrderUnitQtyReceived",
+    "description": "Number of units received against this line, measured in the purchase order’s unit of measure."
+  },
+  {
+    "column name": "OrderUnitQtyBackOrdered",
+    "description": "Quantity not yet fulfilled and placed on backorder for this line, in the purchase order’s unit of measure."
+  },
+  {
+    "column name": "OrderUnitQtyCanceled",
+    "description": "Quantity canceled and no longer expected to be received for this line, in the purchase order’s unit of measure."
+  },
+  {
+    "column name": "DemoLaborPK",
+    "description": "Likely references a labor charge record associated with this invoice detail; confirm with SME."
+  },
+  {
+    "column name": "RowVersionIPAddress",
+    "description": "IP address captured for the most recent change to this record, for audit/version control."
+  },
+  {
+    "column name": "RowVersionUserPK",
+    "description": "Identifier of the user account that last modified this record (row versioning audit)."
+  },
+  {
+    "column name": "RowVersionInitials",
+    "description": "Initials of the user who performed the most recent update to this record."
+  },
+  {
+    "column name": "RowVersionDate",
+    "description": "Timestamp when this record was last created or updated (row version)."
+  },
+  {
+    "column name": "ReceiveDate",
+    "description": "Date the goods or services on this line were received."
+  },
+  {
+    "column name": "Bin",
+    "description": "Warehouse storage location/bin code where the received items for this line are placed."
+  }
+]

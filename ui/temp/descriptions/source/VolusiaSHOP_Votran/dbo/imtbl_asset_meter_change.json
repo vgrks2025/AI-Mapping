@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this meter change record."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the meter replacement or reset event was recorded."
+  },
+  {
+    "column name": "user_id",
+    "description": "Identifier of the user or service that logged the meter change."
+  },
+  {
+    "column name": "asset",
+    "description": "Internal identifier of the asset whose meter was changed; links to the asset master."
+  },
+  {
+    "column name": "static_asset_id",
+    "description": "Snapshot of the asset’s external/business identifier at the time of the change; preserves history if the master value later changes."
+  },
+  {
+    "column name": "static_asset_description",
+    "description": "Snapshot of the asset’s description captured at the time of the change for historical context."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Code indicating which meter was affected (e.g., odometer, engine hours). Likely references a meter type lookup; confirm codes with SME."
+  },
+  {
+    "column name": "static_meter_id",
+    "description": "Snapshot of the meter identifier at change time to preserve history."
+  },
+  {
+    "column name": "static_meter_description",
+    "description": "Snapshot of the meter’s description captured at the time of the change."
+  },
+  {
+    "column name": "static_old_meter_value",
+    "description": "Reading on the removed meter at change time, preserved for audit and cumulative calculations."
+  },
+  {
+    "column name": "static_new_meter_value",
+    "description": "Initial reading on the installed meter immediately after the change, preserved for audit and baseline calculations."
+  },
+  {
+    "column name": "distance_traveled",
+    "description": "Calculated usage accumulated since the prior reading for this asset, typically distance or hours; confirm units and calculation logic with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record for audit purposes."
+  },
+  {
+    "column name": "old_meter_stop",
+    "description": "Final reading on the old meter just before it was removed or replaced."
+  },
+  {
+    "column name": "new_meter_start",
+    "description": "Starting reading on the new meter immediately after installation; may be zero or a calibrated carryover value."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "User or process that most recently updated this record in the application layer."
+  },
+  {
+    "column name": "rollover_count",
+    "description": "Number of meter rollovers accounted for across this change, used to maintain an accurate cumulative total."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User or process that created the record, for audit trail."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User or process that last modified the record; likely overlaps with application-level modifier fields."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

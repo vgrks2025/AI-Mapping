@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "CustomSpecTypeID",
+    "description": "System-generated unique identifier for a custom specification type used in fleet records. Enables referencing, joins, and maintenance of specification type definitions."
+  },
+  {
+    "column name": "CustomSpecType",
+    "description": "Human-readable name for the custom specification category associated with fleet assets or parts. Defines the attribute a custom specification captures in asset or component records."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating whether this specification type is retired and should no longer be assigned to records. Helps prevent new use while preserving historical data."
+  }
+]

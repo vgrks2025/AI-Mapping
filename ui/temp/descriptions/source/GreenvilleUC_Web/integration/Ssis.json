@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "IntegrationID",
+    "description": "Unique identifier of the SSIS integration record (project/package) within the ETL catalog, used to reference configuration, deployments, and executions for fleet data pipelines."
+  },
+  {
+    "column name": "IsDeployed",
+    "description": "Indicator showing whether the SSIS project/package is currently deployed to the target environment and available for scheduling or execution."
+  },
+  {
+    "column name": "FolderName",
+    "description": "SSIS catalog folder that contains the project/package; organizes related ETL solutions for fleet data integration."
+  },
+  {
+    "column name": "ProjectFileName",
+    "description": "Name of the SSIS deployment file (.ispac) for the project containing packages that load or transform fleet data."
+  }
+]

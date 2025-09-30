@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate unique identifier for the status change entry."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the status change event was logged."
+  },
+  {
+    "column name": "user_id",
+    "description": "User or system account that performed the change."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "Business identifier of the purchase order whose status changed."
+  },
+  {
+    "column name": "static_po_id",
+    "description": "Snapshot reference to the purchase order master used at change time; likely a denormalized lookup—confirm with SME."
+  },
+  {
+    "column name": "static_po_description",
+    "description": "Snapshot of the purchase order’s description captured at the time of change; confirm with SME."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code representing the resulting purchase order status after the change."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Snapshot reference to the resulting status in the status dictionary at change time; confirm with SME."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Text label for the resulting status captured at the time of change."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code representing the prior purchase order status before the change."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Snapshot reference to the prior status in the status dictionary at change time; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Text label for the prior status captured at the time of change."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this log entry was last updated by any process."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last updated this entry (vs. automated process); likely date-time—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created this log entry."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this log entry was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that most recently updated this entry."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-driven update to this entry."
+  }
+]

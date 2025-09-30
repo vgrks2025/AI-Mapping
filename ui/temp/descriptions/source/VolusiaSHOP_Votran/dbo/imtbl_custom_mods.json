@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this record; serves as the primary key."
+  },
+  {
+    "column name": "id",
+    "description": "Business code for the customization/module used to reference it across systems; likely unique; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name or brief summary of the customization/module."
+  },
+  {
+    "column name": "major_ver",
+    "description": "Major version number indicating significant or breaking changes."
+  },
+  {
+    "column name": "minor_ver",
+    "description": "Minor version number indicating backward-compatible enhancements."
+  },
+  {
+    "column name": "build",
+    "description": "Build number for this release, often reflecting compile or packaging iteration."
+  },
+  {
+    "column name": "revision",
+    "description": "Patch or revision number indicating small fixes after the build."
+  },
+  {
+    "column name": "ship_date",
+    "description": "Date the customization was released or deployed to customers or production; confirm exact milestone with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created the record (audit)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when the record was created (audit)."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified the record (audit)."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time when the record was last modified (audit)."
+  }
+]

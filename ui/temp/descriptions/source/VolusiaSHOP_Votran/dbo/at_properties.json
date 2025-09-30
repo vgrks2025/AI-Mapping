@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for a configuration row; uniquely identifies a property setting."
+  },
+  {
+    "column name": "object",
+    "description": "Name of the business object or view the property applies to."
+  },
+  {
+    "column name": "col",
+    "description": "Target field within the object to which the property setting applies."
+  },
+  {
+    "column name": "property",
+    "description": "Type of setting being configured for the field (e.g., behavior, display, validation)."
+  },
+  {
+    "column name": "value",
+    "description": "Configured value for the specified property, controlling behavior, formatting, visibility, or display options."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this property record was last updated; used for audit and synchronization."
+  }
+]

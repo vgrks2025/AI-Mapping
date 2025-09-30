@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the note record (primary key)."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated date and time when the note was created or last updated; confirm with SME."
+  },
+  {
+    "column name": "workorder",
+    "description": "Display/work order number this note pertains to (human-facing identifier)."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Metadata indicating how the work order relationship is resolved (reference field name); likely legacy; confirm with SME."
+  },
+  {
+    "column name": "woworkd",
+    "description": "Internal work order ID from the maintenance system linked to this note; differs from display number; confirm with SME."
+  },
+  {
+    "column name": "woworkdr",
+    "description": "Metadata indicating the relation target for the internal work order ID; likely a reference field name; confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment/unit associated with the note or its work order."
+  },
+  {
+    "column name": "equipr",
+    "description": "Metadata indicating how the equipment relationship is resolved (reference field name); likely legacy; confirm with SME."
+  },
+  {
+    "column name": "employee",
+    "description": "Identifier of the employee who entered the note; 0 may indicate system or unknown."
+  },
+  {
+    "column name": "employeer",
+    "description": "Metadata indicating how the employee relationship is resolved (reference field name); likely legacy; confirm with SME."
+  },
+  {
+    "column name": "notes",
+    "description": "Free-text details describing issues, observations, or instructions related to the work order or equipment."
+  },
+  {
+    "column name": "time",
+    "description": "Clock time when the note was recorded; often stored separately from date."
+  },
+  {
+    "column name": "date",
+    "description": "Calendar date when the note was recorded."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key value for this note in a legacy source system, used for migration or back-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table from which the legacy key originated."
+  }
+]

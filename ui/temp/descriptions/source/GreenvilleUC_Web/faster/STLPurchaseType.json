@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "PurchaseTypeID",
+    "description": "Numeric surrogate key for the procurement type reference record used to classify acquisitions and support joins; not business meaningful by itself."
+  },
+  {
+    "column name": "PurchaseTypeDesc",
+    "description": "User-facing description of the procurement category for fleet acquisitions, used for reporting, filtering, and policy rules; values maintained in the reference list."
+  }
+]

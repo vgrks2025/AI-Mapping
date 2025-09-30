@@ -1,0 +1,106 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for a column definition in the metadata catalog; used to link related records."
+  },
+  {
+    "column name": "object",
+    "description": "Name of the business object (table or view) that this column definition belongs to."
+  },
+  {
+    "column name": "col",
+    "description": "Logical field name as exposed by the business object."
+  },
+  {
+    "column name": "tablesrc",
+    "description": "Physical source table that supplies data for the business object."
+  },
+  {
+    "column name": "tablecol",
+    "description": "Physical source column mapped to the logical field."
+  },
+  {
+    "column name": "lingual",
+    "description": "User-facing label or caption used in screens and reports."
+  },
+  {
+    "column name": "codedatatype",
+    "description": "Application data type for the field; guides validation, formatting, and storage."
+  },
+  {
+    "column name": "fkeytable",
+    "description": "Referenced table for a lookup or foreign-key relationship."
+  },
+  {
+    "column name": "fkeyfield",
+    "description": "Referenced key column in the related table used to resolve the relationship."
+  },
+  {
+    "column name": "defaultvalue",
+    "description": "Value automatically assigned when none is provided during insert; may use expressions."
+  },
+  {
+    "column name": "isidentity",
+    "description": "Flag indicating the database auto-generates sequential values for this field."
+  },
+  {
+    "column name": "keyfield",
+    "description": "Application relationship key or alias identifying the linked parent entity; likely used for lookups. Confirm with SME."
+  },
+  {
+    "column name": "recordverified",
+    "description": "Indicates whether this configuration has been reviewed and approved for use."
+  },
+  {
+    "column name": "tool_comments",
+    "description": "Administrative notes captured by configuration tools; not used in runtime logic."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Date and time when this configuration row was last updated."
+  },
+  {
+    "column name": "isnullable",
+    "description": "Indicates whether empty or NULL values are permitted."
+  },
+  {
+    "column name": "colflags",
+    "description": "Bitmask of behavior flags controlling UI, validation, and synchronization rules."
+  },
+  {
+    "column name": "isbase",
+    "description": "Marks records delivered by the base product rather than site-specific customization."
+  },
+  {
+    "column name": "site_nullable",
+    "description": "Site-level override for whether the field can be left empty."
+  },
+  {
+    "column name": "site_default",
+    "description": "Site-level default value applied when none is provided."
+  },
+  {
+    "column name": "site_deleted",
+    "description": "Indicates the site has disabled or removed this column configuration."
+  },
+  {
+    "column name": "valuelist",
+    "description": "Reference to an allowed-values list or enumeration that constrains input."
+  },
+  {
+    "column name": "isreadonly",
+    "description": "Indicates the field is non-editable in the application."
+  },
+  {
+    "column name": "site_readonly",
+    "description": "Site-level override that forces the field to be non-editable."
+  },
+  {
+    "column name": "bitmask_value",
+    "description": "Site-specific bitmask override applied to behavior flags; likely computed or stored override. Confirm with SME."
+  },
+  {
+    "column name": "base_filter",
+    "description": "Default filter clause restricting records used for lookups or data selection associated with this field."
+  }
+]

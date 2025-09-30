@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this work order/asset procedure task record."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Foreign key referencing the parent work order/asset procedure this task belongs to."
+  },
+  {
+    "column name": "complete",
+    "description": "Binary indicator that the task has been completed (1=yes, 0=no)."
+  },
+  {
+    "column name": "f_task",
+    "description": "Likely references the task master/template used to create this procedure task; confirm with SME."
+  },
+  {
+    "column name": "copy_details",
+    "description": "Flag indicating whether task details should be copied from the template/procedure when generating the work order; confirm with SME."
+  },
+  {
+    "column name": "safety",
+    "description": "Indicator that this task is safety-related or safety-critical (1=yes, 0=no)."
+  },
+  {
+    "column name": "estimated_downtime_hours",
+    "description": "Estimated equipment downtime caused by this task, measured in hours."
+  },
+  {
+    "column name": "task_details",
+    "description": "Free-text instructions or descriptive details for performing the task."
+  },
+  {
+    "column name": "date_completed",
+    "description": "Date/time the task was marked complete."
+  },
+  {
+    "column name": "sequence_order",
+    "description": "Order in which this task should be performed within the procedure."
+  },
+  {
+    "column name": "Comments",
+    "description": "Free-text comments or notes about the task."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this task record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated modification to this record; may differ from last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this task record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this task record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this task record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this task record."
+  }
+]

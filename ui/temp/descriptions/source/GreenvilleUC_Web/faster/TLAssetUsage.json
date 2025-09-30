@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "AssetUsage",
+    "description": "Compact code representing the fleet asset’s operational usage category for classification and reporting."
+  },
+  {
+    "column name": "AssetUsageDesc",
+    "description": "Human-readable description of the usage category corresponding to the code, used in user interfaces and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating whether this usage category is no longer active or should not be assigned to new assets."
+  },
+  {
+    "column name": "AssetUsageID",
+    "description": "System-generated unique identifier for the usage category; used as the primary key and for foreign key references."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate identifier for this asset attribute definition; used as the primary key."
+  },
+  {
+    "column name": "f_type",
+    "description": "Likely code indicating the attribute’s functional category or field type; confirm with SME."
+  },
+  {
+    "column name": "user_defined_label",
+    "description": "Display label entered by administrators for the attribute as shown in screens and reports."
+  },
+  {
+    "column name": "description",
+    "description": "Longer business description explaining what the attribute captures."
+  },
+  {
+    "column name": "datatype",
+    "description": "Reference code for the attribute’s data type (e.g., text, number, date) used for validation and storage."
+  },
+  {
+    "column name": "datasize",
+    "description": "Maximum allowed length or precision for the attribute’s value, depending on its data type."
+  },
+  {
+    "column name": "required",
+    "description": "Flag indicating whether this attribute must have a value for an asset (1 = required, 0 = optional)."
+  },
+  {
+    "column name": "specification",
+    "description": "Flag marking the attribute as part of the asset’s specification sheet or technical specs; confirm with SME."
+  },
+  {
+    "column name": "unit_of_measure",
+    "description": "Unit associated with the attribute’s numeric values (e.g., volts, amps, liters)."
+  },
+  {
+    "column name": "default_value",
+    "description": "Value automatically populated for the attribute when none is provided."
+  },
+  {
+    "column name": "display_order",
+    "description": "Sequence number controlling where the attribute appears in user interfaces or printouts."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this attribute record."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or admin comments about the attribute."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the last change performed by a user, as opposed to system processes; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier of the person or process that created this attribute record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this attribute record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier of the person or process that last updated this attribute record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this attribute record was last updated."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "AccountTableID",
+    "description": "System-generated unique identifier for this account-table mapping record."
+  },
+  {
+    "column name": "SchemaName",
+    "description": "Database schema that contains the referenced business table."
+  },
+  {
+    "column name": "TableName",
+    "description": "Name of the business table registered for account mapping and rules; likely used to drive posting logic across modules; confirm with SME."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the mapping is no longer in use and has been retired."
+  },
+  {
+    "column name": "FullTableName",
+    "description": "Fully qualified table reference combining schema and table (SchemaName.TableName) for use in queries, integrations, and reporting."
+  }
+]

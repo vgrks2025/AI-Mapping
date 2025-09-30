@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "AccountElementTypeID",
+    "description": "Surrogate key uniquely identifying a record in this lookup of accounting element types."
+  },
+  {
+    "column name": "ElementType",
+    "description": "Short name of the accounting element category used for financial coding and reporting."
+  },
+  {
+    "column name": "ElementTypeDesc",
+    "description": "Longer description explaining the category’s purpose or scope within the chart of accounts."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating whether the category is retired and should no longer be used."
+  }
+]

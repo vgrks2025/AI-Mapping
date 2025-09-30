@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "AUDIT_LOG_TRANSACTION_ID",
+    "description": "System-generated unique identifier for each audited data-change event."
+  },
+  {
+    "column name": "DATABASE",
+    "description": "Name of the source database where the audited change occurred (environment/context of the table)."
+  },
+  {
+    "column name": "TABLE_NAME",
+    "description": "Name of the business table impacted by the audited operation."
+  },
+  {
+    "column name": "TABLE_SCHEMA",
+    "description": "Database schema name (logical domain/module) of the impacted table."
+  },
+  {
+    "column name": "AUDIT_ACTION_ID",
+    "description": "Numeric code for the type of operation performed (e.g., insert, update, delete); maps to an audit action lookup—confirm mapping with SME."
+  },
+  {
+    "column name": "HOST_NAME",
+    "description": "Client or server host that initiated the database change, captured from the connection."
+  },
+  {
+    "column name": "APP_NAME",
+    "description": "Application reported by the database connection that executed the change (client program or driver)."
+  },
+  {
+    "column name": "MODIFIED_BY",
+    "description": "User or service account that executed the change, as captured by the database session."
+  },
+  {
+    "column name": "MODIFIED_DATE",
+    "description": "Timestamp when the change was recorded in the audit log (database server time)."
+  },
+  {
+    "column name": "AFFECTED_ROWS",
+    "description": "Number of rows impacted by the operation; useful for bulk updates, inserts, or deletes."
+  },
+  {
+    "column name": "SYSOBJ_ID",
+    "description": "Database object identifier of the target object involved in the change (likely sys.objects.object_id in SQL Server; confirm with SME)."
+  }
+]

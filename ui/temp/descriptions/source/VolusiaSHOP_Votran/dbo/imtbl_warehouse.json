@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Stores the system-generated unique identifier for the warehouse record; serves as the table’s primary key."
+  },
+  {
+    "column name": "id",
+    "description": "Stores the business identifier for the warehouse/location, typically a short alphanumeric code used on transactions and screens."
+  },
+  {
+    "column name": "description",
+    "description": "Provides the human-readable warehouse name or description."
+  },
+  {
+    "column name": "address_1",
+    "description": "Stores the primary street address for the warehouse."
+  },
+  {
+    "column name": "address_2",
+    "description": "Stores an additional address line (suite, building, etc.)."
+  },
+  {
+    "column name": "address_3",
+    "description": "Stores a third address line if needed."
+  },
+  {
+    "column name": "city",
+    "description": "Stores the city for the warehouse’s physical address."
+  },
+  {
+    "column name": "state",
+    "description": "Holds the state/province code for the address; likely references a lookup table; confirm with SME."
+  },
+  {
+    "column name": "zip",
+    "description": "Holds the postal or ZIP code for the warehouse address."
+  },
+  {
+    "column name": "country",
+    "description": "Holds the country code for the address; likely references a country lookup; confirm with SME."
+  },
+  {
+    "column name": "county",
+    "description": "Stores the county or administrative region for the address (optional)."
+  },
+  {
+    "column name": "phone_number",
+    "description": "Stores the primary contact phone for the warehouse."
+  },
+  {
+    "column name": "fax_number",
+    "description": "Stores the fax number for the warehouse (if used)."
+  },
+  {
+    "column name": "other_phone_number",
+    "description": "Stores an alternate contact phone number (e.g., after-hours or direct line)."
+  },
+  {
+    "column name": "other_phone_number_description",
+    "description": "Describes the purpose or label of the alternate phone (e.g., after-hours, dispatch)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the warehouse or location."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record."
+  },
+  {
+    "column name": "combine_warehouse",
+    "description": "Flag indicating this location is combined with others for inventory or reporting; likely boolean (0/1); confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-driven modification (legacy audit field; may duplicate other timestamps); confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID of the person or process that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID of the person or process that last changed the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified the record."
+  }
+]

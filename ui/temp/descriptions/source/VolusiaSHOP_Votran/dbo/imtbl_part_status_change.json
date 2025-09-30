@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate unique identifier for a status-change event record. Use as primary key."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the status change was logged by the system."
+  },
+  {
+    "column name": "user_id",
+    "description": "Application user who executed the change."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory part affected by the change."
+  },
+  {
+    "column name": "static_part_id",
+    "description": "Snapshot of the part’s master identifier at the time of the change; likely duplicates the live ID for stable historical reporting; confirm with SME."
+  },
+  {
+    "column name": "static_part_description",
+    "description": "Snapshot of the part’s description captured at the time of the change."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code indicating the resulting lifecycle state after the change. Values are defined by inventory workflow."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Snapshot identifier for the resulting status at the time of the event, preserving historical context."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Snapshot of the human-readable description of the resulting status at event time."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code for the prior lifecycle state before the change."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Snapshot identifier for the prior status at the time of the event."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Snapshot of the human-readable description of the prior status at event time."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded when a user last edited this record; naming suggests user-related context; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that most recently updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was most recently updated."
+  }
+]

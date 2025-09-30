@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique row identifier for a localized label or field definition within a label set; used to reference this entry across the application."
+  },
+  {
+    "column name": "ls_files_pkey",
+    "description": "Reference to the parent localization/label file this entry belongs to, grouping related UI text for specific modules or languages."
+  },
+  {
+    "column name": "id",
+    "description": "Entry identifier within the parent file, often used for stable ordering or lookups of specific text tokens; confirm exact usage with SME."
+  },
+  {
+    "column name": "value",
+    "description": "Human-readable text shown to users (label, caption, or message) on fleet management screens and reports."
+  },
+  {
+    "column name": "valuemask",
+    "description": "Formatting template with placeholders indicating how runtime values are inserted into the display text."
+  },
+  {
+    "column name": "menu_value",
+    "description": "Alternate text used when the entry is rendered in menus or navigation contexts; may be null when not applicable."
+  },
+  {
+    "column name": "prop",
+    "description": "Internal key or property name that maps this text to a specific data field or UI element in the application."
+  },
+  {
+    "column name": "display_order",
+    "description": "Numeric sequence controlling the position this field or label appears within a screen, form, or section."
+  },
+  {
+    "column name": "col1",
+    "description": "Likely rendering or validation flags affecting how the field is displayed (e.g., required, formatting, currency); confirm with SME."
+  },
+  {
+    "column name": "col2",
+    "description": "Likely additional UI flags or parameters for this entry; confirm with SME."
+  },
+  {
+    "column name": "controlname",
+    "description": "UI control identifier associated with this entry, linking the text to a specific widget on a screen."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "sec_group",
+    "description": "Name of the security group used to assign user roles and permissions in the fleet management system."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the group’s purpose, scope, or notes to guide administrators."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or username of the person or process that created the group record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the group record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or username of whoever last modified the group record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the group record."
+  }
+]

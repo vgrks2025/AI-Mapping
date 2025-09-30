@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "MeterSourceID",
+    "description": "Surrogate key identifying the source category of a meter reading within the system; used to link meter entries to their origin across modules and integrations."
+  },
+  {
+    "column name": "SourceDesc",
+    "description": "Human-readable description of the meter reading source, used for display, reporting, and selection from a controlled list."
+  }
+]

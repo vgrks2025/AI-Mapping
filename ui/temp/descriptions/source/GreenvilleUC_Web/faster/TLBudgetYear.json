@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "BudgetYearID",
+    "description": "Unique identifier for this budget year record."
+  },
+  {
+    "column name": "BudgetYear",
+    "description": "Numeric year that the budget applies to (e.g., 2025); likely fiscal year; confirm with SME."
+  },
+  {
+    "column name": "EffectiveDate",
+    "description": "Date the budget year becomes effective for planning, forecasting, and reporting."
+  },
+  {
+    "column name": "ExpirationDate",
+    "description": "Date after which the budget year is no longer effective."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates the record is deprecated and should not be used in new processes."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "User account that created this budget year record (audit trail)."
+  },
+  {
+    "column name": "CreatedDate",
+    "description": "Date and time the record was created."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "User account that last modified this record."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Date and time of the most recent modification."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "gis_map_id",
+    "description": "Unique identifier for this GIS-to-asset system field mapping record."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Asset category that this mapping applies to within the fleet/facilities portfolio."
+  },
+  {
+    "column name": "ms_col",
+    "description": "Destination field in the asset/maintenance system to be populated from the mapped GIS attribute."
+  },
+  {
+    "column name": "gis_exp",
+    "description": "Optional transformation logic (stored expression/script) applied to GIS data before populating the destination field."
+  },
+  {
+    "column name": "ms_exp",
+    "description": "Optional transformation logic applied when deriving values from the asset system; likely used for reverse mapping or computed fields; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this mapping record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this mapping record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified this mapping record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this mapping record."
+  },
+  {
+    "column name": "gis_col",
+    "description": "Source GIS attribute/field name used to supply data for the mapping."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the mapping rule, usage, or context."
+  },
+  {
+    "column name": "default_label",
+    "description": "Default label text/template for map display when no specific label is defined; likely controls asset labeling; confirm with SME."
+  },
+  {
+    "column name": "gis_domain_use_name",
+    "description": "Name of the value domain to apply to this GIS field during mapping (e.g., coded value set); confirm with SME."
+  },
+  {
+    "column name": "gis_domain",
+    "description": "Serialized domain definition (e.g., JSON of allowed values/codes) used to validate or translate GIS attribute values."
+  }
+]

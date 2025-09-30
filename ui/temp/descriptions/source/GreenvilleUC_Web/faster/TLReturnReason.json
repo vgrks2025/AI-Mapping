@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "ReturnReasonID",
+    "description": "Unique identifier for a standardized reason used to classify returned goods in the system."
+  },
+  {
+    "column name": "ReturnReason",
+    "description": "Short description of why an item was returned, selected during return processing for reporting and workflow rules."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean indicator that the reason code is retired and should be excluded from new transactions while preserving historical references."
+  }
+]

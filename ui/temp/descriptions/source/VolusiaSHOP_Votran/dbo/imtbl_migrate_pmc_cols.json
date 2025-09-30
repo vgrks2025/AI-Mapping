@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key identifying this migration mapping record."
+  },
+  {
+    "column name": "migrate",
+    "description": "Identifier of the migration batch or mapping set this record belongs to, used to group related column mappings."
+  },
+  {
+    "column name": "icol",
+    "description": "Name of the source (legacy) column to be migrated."
+  },
+  {
+    "column name": "acol",
+    "description": "Destination column name or transformation expression used to populate the target field during migration."
+  },
+  {
+    "column name": "special",
+    "description": "Special mapping directive (e.g., primary key flag, foreign key lookup, or NOW timestamp) that controls how the value is derived or validated."
+  },
+  {
+    "column name": "cdefault",
+    "description": "Default value to apply when the source value is missing, null, or otherwise unmapped during migration."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this mapping record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date/time when this mapping record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated this mapping record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date/time of the most recent update to this mapping record."
+  }
+]

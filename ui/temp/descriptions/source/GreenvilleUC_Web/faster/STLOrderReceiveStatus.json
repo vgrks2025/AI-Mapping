@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "OrderReceiveStatusID",
+    "description": "Integer surrogate key identifying each possible order receipt state in this reference table; used to link to orders and maintain referential integrity."
+  },
+  {
+    "column name": "OrderReceiveStatus",
+    "description": "Descriptive text label for the order’s receipt state, used for user display and reporting."
+  }
+]

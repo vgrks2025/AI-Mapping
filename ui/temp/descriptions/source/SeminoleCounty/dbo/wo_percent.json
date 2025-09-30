@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the work order associated with this cost allocation."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Identifier of the asset (vehicle or equipment) receiving this allocation for the work order."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number of the allocation line within the work order; used to order multiple lines."
+  },
+  {
+    "column name": "pct",
+    "description": "Percentage of the work order’s cost assigned to this line or asset."
+  },
+  {
+    "column name": "alloc_cost",
+    "description": "Monetary amount of cost allocated on this line, typically in the work order’s currency."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or system process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or process that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update."
+  },
+  {
+    "column name": "ano",
+    "description": "Likely internal key for the asset or allocation used for joins; confirm with SME."
+  }
+]

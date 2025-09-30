@@ -1,0 +1,122 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this contact address record."
+  },
+  {
+    "column name": "contact",
+    "description": "Reference to the contact (person or organization) this address belongs to."
+  },
+  {
+    "column name": "address_type",
+    "description": "Code indicating type of address (e.g., home, work, billing); values likely map to a lookup; confirm meanings."
+  },
+  {
+    "column name": "address_primary",
+    "description": "Flag indicating whether this is the primary address for the contact."
+  },
+  {
+    "column name": "address_1",
+    "description": "Primary street address line."
+  },
+  {
+    "column name": "address_2",
+    "description": "Secondary street address line (apartment, suite, building)."
+  },
+  {
+    "column name": "address_3",
+    "description": "Additional address line for complex locations; often null."
+  },
+  {
+    "column name": "city",
+    "description": "City for the address."
+  },
+  {
+    "column name": "county",
+    "description": "County or district for the address; optional."
+  },
+  {
+    "column name": "state",
+    "description": "Reference or code for the state/province; likely a lookup to a state table."
+  },
+  {
+    "column name": "zip_code",
+    "description": "Postal code for the address."
+  },
+  {
+    "column name": "country",
+    "description": "Reference or code for the country; likely a lookup."
+  },
+  {
+    "column name": "voice_number",
+    "description": "Main telephone number for voice calls; free-form, may include extensions or notes."
+  },
+  {
+    "column name": "mobile_number",
+    "description": "Mobile/cell phone number; free-form text."
+  },
+  {
+    "column name": "pager_number",
+    "description": "Pager or alternate contact number; legacy field; may include notes."
+  },
+  {
+    "column name": "fax_number",
+    "description": "Fax number; field may contain legacy notes or other text; confirm usage."
+  },
+  {
+    "column name": "other_phone_number",
+    "description": "Additional telephone number for the contact."
+  },
+  {
+    "column name": "other_phone_number_desc",
+    "description": "Label describing the additional phone number (e.g., Home, Spouse)."
+  },
+  {
+    "column name": "desktop_email_address",
+    "description": "Primary email address for the contact."
+  },
+  {
+    "column name": "wireless_email_address",
+    "description": "Email address used for mobile messaging devices or SMS gateways."
+  },
+  {
+    "column name": "wireless_active",
+    "description": "Indicator that wireless email is enabled for the contact; likely boolean (0/1); confirm values."
+  },
+  {
+    "column name": "website",
+    "description": "Website URL associated with the contact or organization."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when the address record was last updated."
+  },
+  {
+    "column name": "contact_name",
+    "description": "Addressee or attention line to display for this address; may override the contact’s name."
+  },
+  {
+    "column name": "title",
+    "description": "Job title or role of the contact person."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record (audit field); naming suggests an ID but values appear datetime; confirm."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified by a user."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "partclass_id",
+    "description": "Unique code identifying the part class/category; often structured to support hierarchies for grouping parts and applying pricing or reporting rules."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable name or description of the part class."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes or comments about the part class; optional."
+  },
+  {
+    "column name": "markup_term",
+    "description": "Pricing rule type for this class (e.g., percent vs. fixed); values and behavior likely system-defined; confirm with SME."
+  },
+  {
+    "column name": "percentage",
+    "description": "Percentage used to mark up or discount items in this class, according to the markup term; confirm sign and rounding rules with SME."
+  },
+  {
+    "column name": "fixed_price",
+    "description": "Fixed charge or price applied to items in this class when the markup term dictates a fixed amount; confirm currency and application logic with SME."
+  },
+  {
+    "column name": "plan_rate",
+    "description": "Rate associated with a pricing or maintenance plan for this part class; likely used when calculating planned costs; confirm units and usage with SME."
+  },
+  {
+    "column name": "unit_name",
+    "description": "Default unit of measure for items in this part class (e.g., each, kit); used for pricing or reporting; confirm whether it overrides item-level UOM with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created, in system time."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the record; null if never updated."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update; null if never updated."
+  }
+]

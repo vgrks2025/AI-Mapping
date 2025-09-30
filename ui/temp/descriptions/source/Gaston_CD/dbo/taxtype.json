@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the tax record; used as the primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp of the most recent creation or update for this row (likely yyyymmddHHMMSSmmm; confirm with SME)."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description shown in user interfaces and reports for this tax."
+  },
+  {
+    "column name": "taxtype",
+    "description": "Short code or category label identifying the jurisdiction or type of tax."
+  },
+  {
+    "column name": "taxrate",
+    "description": "Percentage rate applied to the taxable amount for this tax."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a prior system used for migration or cross-reference; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Source table name from a prior system for lineage or migration mapping; confirm with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Flag indicating the record is inactive and should not be used for new transactions."
+  },
+  {
+    "column name": "fee_rate",
+    "description": "Rate used to compute an additional fee associated with this tax; interpreted per the calculation method."
+  },
+  {
+    "column name": "fee_calc_type",
+    "description": "Method for calculating the fee (percentage, flat amount, etc.); confirm valid codes with SME."
+  },
+  {
+    "column name": "apply_fee_to_inv_value",
+    "description": "Boolean indicating whether the fee is applied against the invoice value rather than another base amount."
+  }
+]

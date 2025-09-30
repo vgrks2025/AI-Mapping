@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Username of the assignee responsible for this to‑do item."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number for this to‑do entry within the user’s list; used for ordering or uniqueness."
+  },
+  {
+    "column name": "frm",
+    "description": "Source screen/module or process that generated the to‑do item; likely the originating application form or workflow step (confirm with SME)."
+  },
+  {
+    "column name": "task",
+    "description": "Short task title or action required for the to‑do item."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Identifier of the related work order linked to this to‑do item."
+  },
+  {
+    "column name": "issued",
+    "description": "Date/time the item or its related work order was issued or assigned to the user; confirm exact scope with SME."
+  },
+  {
+    "column name": "target",
+    "description": "Target due date/time or completion goal for the to‑do item; confirm if this reflects SLA due date."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority code for the item (e.g., Normal/High/Low) used to sort or escalate tasks."
+  },
+  {
+    "column name": "descr",
+    "description": "Detailed description or instructions for what needs to be done."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created or added this to‑do item."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the to‑do item was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified this to‑do item."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the to‑do item."
+  }
+]

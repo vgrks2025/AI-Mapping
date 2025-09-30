@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "ApplicationSettingID",
+    "description": "System-generated unique identifier for an application configuration setting record."
+  },
+  {
+    "column name": "Setting",
+    "description": "System key or name used by the application to reference this configuration option."
+  },
+  {
+    "column name": "Value",
+    "description": "Current configured value for the option; may store text, numeric, Boolean, or coded data depending on the setting."
+  },
+  {
+    "column name": "FriendlyName",
+    "description": "Human-readable label shown to users for this configuration option."
+  },
+  {
+    "column name": "SettingDesc",
+    "description": "Explanation of what the configuration option controls and how it should be used."
+  },
+  {
+    "column name": "DomainID",
+    "description": "Identifier of the organization, tenant, or domain to which this setting applies, enabling domain-specific configurations."
+  },
+  {
+    "column name": "CreatedDate",
+    "description": "Timestamp when the setting record was created."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Timestamp when the setting record was last updated."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "Identifier of the user who created the setting record."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "Identifier of the user who last modified the setting record."
+  }
+]

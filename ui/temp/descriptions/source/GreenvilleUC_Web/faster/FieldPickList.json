@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "PickListID",
+    "description": "Unique identifier of the picklist configuration tied to the field; likely a foreign key to the list definition. Confirm whether it points to the list header versus individual items with an SME."
+  },
+  {
+    "column name": "FieldID",
+    "description": "Identifier of the application field that this mapping applies to; typically joins to the field metadata table to determine where the picklist is used in screens, forms, or data capture."
+  },
+  {
+    "column name": "PickListTableName",
+    "description": "Name of the lookup source providing permissible values for the field, stored as a table identifier (e.g., billing codes, fuel types); used to populate dropdown options and validate inputs."
+  }
+]

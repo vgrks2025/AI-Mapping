@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Unique code for the maintenance task/program this rule governs (e.g., inspection or PM template)."
+  },
+  {
+    "column name": "sch_type",
+    "description": "Scheduling basis for the task: Fixed dates do not slide after completion; Floating dates reset based on last completion."
+  },
+  {
+    "column name": "rule_lands_sat",
+    "description": "Indicator whether a due date is allowed to fall on Saturday; if not, the system will shift the date. Likely 0=no, 1=yes; confirm with SME."
+  },
+  {
+    "column name": "rule_lands_sun",
+    "description": "Indicator whether a due date is allowed to fall on Sunday; if not, the system will shift the date. Likely 0=no, 1=yes; confirm with SME."
+  },
+  {
+    "column name": "rule_advance_days",
+    "description": "Number of calendar days before the due date to begin triggering the event (e.g., create WO or alert)."
+  },
+  {
+    "column name": "rule_advance_meter",
+    "description": "Lead threshold in meter units (miles, hours, etc.) before the meter-based due value to trigger scheduling."
+  },
+  {
+    "column name": "rule_dont_from_1",
+    "description": "Start of the first blackout window when this task should not be scheduled or due; date/time format may vary. Confirm with SME."
+  },
+  {
+    "column name": "rule_dont_thru_1",
+    "description": "End of the first blackout window when this task should not be scheduled or due."
+  },
+  {
+    "column name": "rule_dont_from_2",
+    "description": "Start of the second blackout window when this task should not be scheduled or due."
+  },
+  {
+    "column name": "rule_dont_thru_2",
+    "description": "End of the second blackout window when this task should not be scheduled or due."
+  },
+  {
+    "column name": "rule_if_open",
+    "description": "Whether to generate the next occurrence when a prior work order for this task is still open (Y=allow overlap, N=wait)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID who created the rule record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the rule record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID who last updated the rule record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the rule record."
+  },
+  {
+    "column name": "create_wo_flag",
+    "description": "If Y, automatically create a work order when this rule becomes due."
+  },
+  {
+    "column name": "create_alert_flag",
+    "description": "If Y, generate an alert/notification when this rule becomes due."
+  },
+  {
+    "column name": "alert_text",
+    "description": "Message content to display in the generated alert."
+  },
+  {
+    "column name": "alert_severity",
+    "description": "Priority/severity level assigned to the generated alert (e.g., info, warning, critical)."
+  },
+  {
+    "column name": "allow_dup_asset",
+    "description": "Flag controlling whether the same asset can have multiple active schedule instances under this rule; confirm with SME."
+  }
+]

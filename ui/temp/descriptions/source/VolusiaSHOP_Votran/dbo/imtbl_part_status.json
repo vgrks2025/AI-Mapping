@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the part status record; uniquely identifies each status value."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier or name of the part status used in lookups and references."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text description explaining the meaning or usage of the part status."
+  },
+  {
+    "column name": "part_status_default",
+    "description": "Flag indicating whether this status is the default assigned to newly created parts."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Flag that hides this status from selection lists and search lookups within the application."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Flag that excludes this status from reports and visualizations."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Indicates the status code itself is disabled and should no longer be used in new transactions."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional notes or comments about this part status."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this status record."
+  },
+  {
+    "column name": "generate_automatic_purchases",
+    "description": "When enabled, parts with this status may trigger automatic purchase or reorder actions."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely identifier of the user who last modified this record; sample suggests timestamp; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this status record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this status record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who most recently modified this status record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this status record."
+  }
+]

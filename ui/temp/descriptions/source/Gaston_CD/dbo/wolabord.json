@@ -1,0 +1,178 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this labor line record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp when this record was created or last updated (to the millisecond)."
+  },
+  {
+    "column name": "manglabor",
+    "description": "Flag indicating the labor entry is manager-controlled (e.g., scheduled/allocated by a supervisor) rather than ad‑hoc; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description of the task or service performed."
+  },
+  {
+    "column name": "comments",
+    "description": "Technician or service notes for this labor entry."
+  },
+  {
+    "column name": "updcount",
+    "description": "Row version counter used for concurrency or change tracking."
+  },
+  {
+    "column name": "total",
+    "description": "Extended labor amount charged for this line (rate multiplied by quantity), in currency."
+  },
+  {
+    "column name": "totalhours",
+    "description": "Total hours accounted for on this labor line, in decimal hours."
+  },
+  {
+    "column name": "mngquantity",
+    "description": "Quantity allocated by management for this labor (typically hours). Used to compare scheduled vs actual; confirm with SME."
+  },
+  {
+    "column name": "quantity",
+    "description": "Units applied to this labor line (typically hours) used to calculate charges."
+  },
+  {
+    "column name": "rate",
+    "description": "Billing rate applied to this labor, typically per hour."
+  },
+  {
+    "column name": "ltaxtype",
+    "description": "Code indicating the tax category applied to the labor charge."
+  },
+  {
+    "column name": "ltaxtyper",
+    "description": "Reference source that defines the labor tax category code; confirm with SME."
+  },
+  {
+    "column name": "labor",
+    "description": "Identifier of the labor resource who performed the work (e.g., technician/employee/vendor)."
+  },
+  {
+    "column name": "laborr",
+    "description": "Type of labor resource referenced by the identifier (e.g., employee, contractor)."
+  },
+  {
+    "column name": "actwo",
+    "description": "Internal identifier of the associated work order this labor is posted against."
+  },
+  {
+    "column name": "actwor",
+    "description": "Reference source for the associated work order identifier (table/type indicator)."
+  },
+  {
+    "column name": "workorder",
+    "description": "Work order number linked to this labor entry (display or external identifier)."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Reference source for the work order number (table/type indicator)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a prior system for migration or cross‑reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in a prior system for migration mapping."
+  },
+  {
+    "column name": "display_time",
+    "description": "Human‑readable rendering of the recorded time (e.g., HH:MM)."
+  },
+  {
+    "column name": "clocked_minutes",
+    "description": "Minutes captured via time clock for this labor entry."
+  },
+  {
+    "column name": "clocked_hours",
+    "description": "Hours captured via time clock for this labor entry."
+  },
+  {
+    "column name": "scheduled_end_time",
+    "description": "Planned end time of the labor activity (time of day)."
+  },
+  {
+    "column name": "schedule_start_time",
+    "description": "Planned start time of the labor activity (time of day)."
+  },
+  {
+    "column name": "clockedin",
+    "description": "Indicates whether the technician is currently clocked into this task."
+  },
+  {
+    "column name": "skip_source_schedule_updater",
+    "description": "Flag to prevent automatic updates from the originating schedule."
+  },
+  {
+    "column name": "completed",
+    "description": "Indicates whether the labor work has been finished."
+  },
+  {
+    "column name": "pre_labor",
+    "description": "Flag marking pre‑assignment or estimate time before actual work; confirm with SME."
+  },
+  {
+    "column name": "scheduled_end_date",
+    "description": "Planned end date of the labor activity."
+  },
+  {
+    "column name": "schedule_start_date",
+    "description": "Planned start date of the labor activity."
+  },
+  {
+    "column name": "labor_date",
+    "description": "Date the labor was performed or recorded."
+  },
+  {
+    "column name": "source_schedule",
+    "description": "Code identifying the scheduling origin for this labor entry (e.g., manual, import)."
+  },
+  {
+    "column name": "source_scheduler",
+    "description": "User or system that created the schedule for this labor entry."
+  },
+  {
+    "column name": "ratetype",
+    "description": "Code for the pay/bill rate category used for this labor (e.g., regular, overtime)."
+  },
+  {
+    "column name": "ratetyper",
+    "description": "Reference source that defines rate categories used here (table/type indicator)."
+  },
+  {
+    "column name": "add_time_type",
+    "description": "Classification of additional time added to this entry (e.g., travel, admin); confirm with SME."
+  },
+  {
+    "column name": "clock_minutes",
+    "description": "Current or last recorded minutes on the active clock for this task."
+  },
+  {
+    "column name": "clock_hours",
+    "description": "Current or last recorded hours on the active clock for this task."
+  },
+  {
+    "column name": "dec_hours",
+    "description": "Decimal hours representation of the current or last clocked time."
+  },
+  {
+    "column name": "active_clock_time",
+    "description": "Accumulated running clock duration used while actively clocked in (unit defined by system); confirm with SME."
+  },
+  {
+    "column name": "time_comments",
+    "description": "Notes specific to time entry, separate from general labor comments."
+  },
+  {
+    "column name": "add_time_process",
+    "description": "Indicates whether extra time was added via an automated process rather than manual entry."
+  }
+]

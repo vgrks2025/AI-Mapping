@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "sub_status",
+    "description": "Label identifying a specific sub-status that refines the asset’s overall status in fleet workflows."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text explanation of the sub-status, providing business meaning and usage notes."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user who created the sub-status record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the sub-status record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user who last updated the sub-status record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the sub-status record."
+  },
+  {
+    "column name": "styles",
+    "description": "Display styling metadata for the sub-status, likely colors/icons or CSS; confirm with SME."
+  }
+]

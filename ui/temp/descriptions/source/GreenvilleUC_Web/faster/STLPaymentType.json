@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "PaymentTypeID",
+    "description": "Unique identifier for a payment method option in the fleet system; used to reference the method in transactions and as a foreign key across related tables."
+  },
+  {
+    "column name": "PaymentType",
+    "description": "User-facing label for the payment method used to settle fleet charges, shown in selection lists and reports."
+  }
+]

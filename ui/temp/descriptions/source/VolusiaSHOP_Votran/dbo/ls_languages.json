@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for each language record; serves as the table’s primary key for joins, indexing, and reference integrity."
+  },
+  {
+    "column name": "lang_dir",
+    "description": "Short standardized code identifying the language used for localization and resource lookup (likely ISO 639-1 or app-specific directory key; confirm with SME)."
+  },
+  {
+    "column name": "language",
+    "description": "Human-readable name of the language displayed to users in settings, lists, and reports."
+  },
+  {
+    "column name": "righttoleft",
+    "description": "Flag indicating text direction for the language; used to apply right-to-left layout and rendering when applicable."
+  },
+  {
+    "column name": "os_requirement",
+    "description": "Indicator of platform prerequisites for this language pack (likely required operating system or version needed for support; confirm with SME)."
+  }
+]

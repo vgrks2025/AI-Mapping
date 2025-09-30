@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "HistoryTypeID",
+    "description": "Unique identifier for the category used to classify entries in maintenance and inventory history; referenced by related records."
+  },
+  {
+    "column name": "HistoryType",
+    "description": "Text label describing the category assigned to a maintenance or inventory history entry; used for reporting and UI display."
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "column name": "sys_keyrow",
+    "description": "Unique identifier of the singleton system settings record for this environment."
+  },
+  {
+    "column name": "masterid",
+    "description": "Identifier of the customer/tenant or administrative owner associated with this system configuration; confirm with SME."
+  },
+  {
+    "column name": "bpw",
+    "description": "Stored encrypted/hashed application password or key used by the system for background/authentication tasks; confirm with SME."
+  },
+  {
+    "column name": "date_format",
+    "description": "Default format used to display and parse dates across the application."
+  },
+  {
+    "column name": "desktop_timeout",
+    "description": "Inactivity timeout, in minutes, before desktop sessions automatically sign out."
+  },
+  {
+    "column name": "mobile_timeout",
+    "description": "Inactivity timeout, in minutes, before mobile sessions automatically sign out."
+  },
+  {
+    "column name": "min_pw_length",
+    "description": "Minimum number of characters required for user passwords."
+  },
+  {
+    "column name": "pw_complexity",
+    "description": "Level/flags defining required password complexity (e.g., mix of case, numbers, symbols)."
+  },
+  {
+    "column name": "use_nt_security",
+    "description": "Toggle to enable Windows/Active Directory integrated authentication for user logins."
+  },
+  {
+    "column name": "require_windows_pw",
+    "description": "Whether Windows/AD password policies are enforced for application passwords; confirm with SME."
+  },
+  {
+    "column name": "expire_pw_days",
+    "description": "Number of days before passwords must be changed; zero typically disables expiration."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the settings record (audit)."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the settings record was created (audit)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the settings (audit)."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the settings were last modified (audit)."
+  },
+  {
+    "column name": "model_db",
+    "description": "Flag indicating this environment is a model/template database rather than production; confirm with SME."
+  },
+  {
+    "column name": "master_wg",
+    "description": "Default or primary work group code used system-wide for assignments and permissions; confirm with SME."
+  },
+  {
+    "column name": "ctl_street_valid",
+    "description": "Setting controlling whether street addresses are validated against a reference dataset/service; confirm with SME."
+  },
+  {
+    "column name": "logo_attach_id",
+    "description": "Attachment reference for the organization’s logo used in application branding."
+  },
+  {
+    "column name": "max_bad_logins",
+    "description": "Number of consecutive failed login attempts allowed before an account is locked."
+  },
+  {
+    "column name": "mclogo_attach_id",
+    "description": "Attachment reference for the mobile client’s logo/branding; confirm with SME."
+  },
+  {
+    "column name": "logo_height",
+    "description": "Configured display height for the logo image, typically in pixels."
+  },
+  {
+    "column name": "phone_format",
+    "description": "Default phone number mask/format used for input validation and display."
+  },
+  {
+    "column name": "phone_country_cd",
+    "description": "Default country code used to format and validate phone numbers."
+  },
+  {
+    "column name": "portal_timeout",
+    "description": "Inactivity timeout, in minutes, for public/portal user sessions."
+  },
+  {
+    "column name": "logodark_attach_id",
+    "description": "Attachment reference for the dark-theme logo used in branding."
+  },
+  {
+    "column name": "mobile_max_wo_to_download",
+    "description": "Maximum number of work orders downloaded to a mobile device for offline use."
+  },
+  {
+    "column name": "def_city",
+    "description": "Default city prefilled on new addresses or records."
+  },
+  {
+    "column name": "def_state",
+    "description": "Default state/province prefilled on new addresses or records."
+  },
+  {
+    "column name": "notify_version_update",
+    "description": "Comma-separated contacts to notify when the application version is updated."
+  },
+  {
+    "column name": "image_size_limit",
+    "description": "Maximum allowed file size for uploaded images/attachments; units may be MB or bytes—confirm with SME."
+  },
+  {
+    "column name": "metric_sys",
+    "description": "Whether the application uses metric measurements instead of US customary units."
+  },
+  {
+    "column name": "mobile_closedwo_days",
+    "description": "Number of days closed work orders remain visible/synced on mobile devices; confirm with SME."
+  },
+  {
+    "column name": "time_offset",
+    "description": "Time zone offset applied to system times (likely hours from UTC); confirm units with SME."
+  },
+  {
+    "column name": "version_dt",
+    "description": "Timestamp when the currently installed application version was released or applied."
+  },
+  {
+    "column name": "mobile_show_my_wo",
+    "description": "Default preference to show only the signed-in user’s work orders on mobile."
+  },
+  {
+    "column name": "forbid_doubles",
+    "description": "Setting that likely disallows consecutive duplicate characters in passwords or duplicate entries; confirm scope with SME."
+  },
+  {
+    "column name": "pw_allow_doubles",
+    "description": "Whether passwords may include consecutive duplicate characters (e.g., repeated letters or numbers)."
+  }
+]

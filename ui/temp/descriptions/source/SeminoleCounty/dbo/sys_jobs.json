@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "id",
+    "description": "Unique identifier for a scheduled job execution record."
+  },
+  {
+    "column name": "name",
+    "description": "Descriptive name of the system task to run (e.g., data sync, report generation for fleet operations)."
+  },
+  {
+    "column name": "scheduled",
+    "description": "Planned date and time the job is scheduled to execute."
+  },
+  {
+    "column name": "started",
+    "description": "Actual timestamp when the job began running."
+  },
+  {
+    "column name": "completed",
+    "description": "Timestamp when the job finished execution."
+  },
+  {
+    "column name": "success",
+    "description": "Indicates whether the job run completed successfully (true/false)."
+  },
+  {
+    "column name": "output",
+    "description": "Captured output, status message, or summary log produced by the job run."
+  },
+  {
+    "column name": "add_by",
+    "description": "User, service, or process that created or scheduled the job."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the job record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the job record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the job record."
+  },
+  {
+    "column name": "trial_count",
+    "description": "Number of attempts made to run the job for this schedule."
+  },
+  {
+    "column name": "last_trial_time",
+    "description": "Date and time of the most recent execution attempt."
+  },
+  {
+    "column name": "parameters",
+    "description": "Job-specific configuration parameters, likely stored as serialized data; confirm with SME."
+  },
+  {
+    "column name": "shown",
+    "description": "Flag indicating whether this job is visible in user interfaces; likely a UI display control. Confirm with SME."
+  },
+  {
+    "column name": "agent",
+    "description": "Execution agent or worker responsible for running the job (e.g., host, service, or node) within the fleet platform."
+  },
+  {
+    "column name": "job_var",
+    "description": "Likely identifier for a variable set or job variant used at runtime; confirm with SME."
+  },
+  {
+    "column name": "auto_job",
+    "description": "Flag indicating the job is automatically scheduled/triggered rather than manually initiated."
+  }
+]

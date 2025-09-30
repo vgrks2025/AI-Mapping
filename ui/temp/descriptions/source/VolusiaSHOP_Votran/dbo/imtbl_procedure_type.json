@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique key for this maintenance/repair procedure category record; primary key used for joins and referential integrity."
+  },
+  {
+    "column name": "id",
+    "description": "Business code identifying the maintenance/repair procedure category; used in user interfaces, rules, reports, and integrations."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name or longer label describing the procedure category."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes or administrative remarks about the procedure category."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Date and time when this record was last updated in the database."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application-tracked date/time of the most recent change; likely redundant with the database last-updated field; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account or system process that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account or system process that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was most recently modified."
+  }
+]

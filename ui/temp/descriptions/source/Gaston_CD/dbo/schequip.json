@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate primary key uniquely identifying this record linking a fleet unit to a schedule set."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated audit datetime for record creation or last update (format YYYYMMDDHHMMSSmmm); likely set by the integration layer; confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the fleet unit assigned; foreign key to the asset/equipment master."
+  },
+  {
+    "column name": "equipr",
+    "description": "Reference metadata indicating the target entity/table for the equipment foreign key; used by application or integration logic; confirm with SME."
+  },
+  {
+    "column name": "schedset",
+    "description": "Identifier of the schedule grouping or dispatch set to which the unit is assigned; foreign key to scheduling configuration."
+  },
+  {
+    "column name": "schedsetr",
+    "description": "Reference metadata indicating the target entity/table for the schedule set foreign key; used by application or integration logic; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from a prior system to support lineage and migration traceability; may be blank if not migrated."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Original source table or entity name from a prior system for lineage and migration traceability; may be blank if not migrated."
+  },
+  {
+    "column name": "changed",
+    "description": "Boolean flag indicating the record was modified since the last synchronization or load; confirm exact trigger logic with SME."
+  },
+  {
+    "column name": "mark_for_deletion",
+    "description": "Boolean soft-delete indicator showing the record is slated for removal and should be excluded from active processing."
+  }
+]

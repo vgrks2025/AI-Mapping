@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the contact status record, serving as the primary key and for foreign-key references."
+  },
+  {
+    "column name": "id",
+    "description": "Label or code representing the contact’s lifecycle state; shown in user interfaces and stored on related records."
+  },
+  {
+    "column name": "description",
+    "description": "Long-form explanation of the status’s meaning, scope, and intended use."
+  },
+  {
+    "column name": "contact_status_default",
+    "description": "Boolean flag indicating this status is assigned by default when a new contact is created."
+  },
+  {
+    "column name": "business_logic",
+    "description": "Internal code that drives behavior/workflow for this status (eligibility, transitions, visibility). Value mapping is system-specific; confirm with SME."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Boolean flag to exclude this status from selection lists and lookup searches."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Boolean flag to exclude this status from reports, dashboards, and analytics."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Soft-delete indicator; when set, the status is no longer selectable or used operationally."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes providing context or guidance about the status."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record, used for auditing and synchronization."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the most recent user-initiated change; column name suggests a user reference but stores datetime; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who initially created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who most recently updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update performed by a user."
+  }
+]

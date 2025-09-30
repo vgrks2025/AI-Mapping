@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "session_id",
+    "description": "Unique identifier for a login session, used to track and tie events to a specific user’s active sign-on."
+  },
+  {
+    "column name": "user_name",
+    "description": "Application login of the person or service associated with the session; may be anonymous when unauthenticated or public access."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Context tag for the session (likely workgroup, web gateway, or workflow name) used to route application behavior; confirm exact meaning with SME."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Operational site or facility context associated to the session (e.g., default warehouse/location for data and permissions); confirm with SME."
+  },
+  {
+    "column name": "computer_name",
+    "description": "Identifier of the client device initiating the session; despite the label, values appear to be IP addresses. Used for auditing and security."
+  },
+  {
+    "column name": "ip_address",
+    "description": "IP address from which the session originated, captured for auditing, geolocation, and security controls."
+  },
+  {
+    "column name": "eff_rights",
+    "description": "Effective permission set for the session, likely a numeric code or bitmask indicating access rights; confirm coding scheme with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the session record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the session record was created or the session started (UTC unless otherwise specified)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the session record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the session record."
+  },
+  {
+    "column name": "verification_id",
+    "description": "Identifier linking the session to an authentication or verification event (e.g., MFA challenge); confirm source and usage with SME."
+  },
+  {
+    "column name": "customer_id",
+    "description": "External account/customer identifier associated with the session; may duplicate login when customers authenticate directly. Confirm mapping rules with SME."
+  },
+  {
+    "column name": "token_name",
+    "description": "Label or type for the authentication token/provider used for the session (e.g., SSO provider, API key); confirm allowed values with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes captured about the session for support or auditing."
+  },
+  {
+    "column name": "expiration_dt",
+    "description": "Timestamp when the session or its access token expires and is no longer valid."
+  },
+  {
+    "column name": "refresh_token",
+    "description": "Opaque token or identifier used to obtain new access tokens and extend the session without reauthentication; handle securely."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "sch_id",
+    "description": "Unique identifier for this scheduled job entry."
+  },
+  {
+    "column name": "name",
+    "description": "Descriptive title used to identify the scheduled job in the system."
+  },
+  {
+    "column name": "cron",
+    "description": "CRON expression defining when and how often the job runs (server time)."
+  },
+  {
+    "column name": "parameters",
+    "description": "JSON-formatted runtime options passed to the job at execution; likely key-value settings—confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system account that created the job schedule."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when the job schedule was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system account that last modified the job schedule."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to the job schedule."
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this report type record; used as the primary key in the reporting metadata."
+  },
+  {
+    "column name": "id",
+    "description": "Business-facing report code used by the application to reference the report template and menu entry."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable title or summary describing what the report shows for users."
+  },
+  {
+    "column name": "rptfilename",
+    "description": "Report template file name used by the reporting engine to render the output."
+  },
+  {
+    "column name": "hidden",
+    "description": "Boolean flag controlling whether the report appears in user menus and selections."
+  },
+  {
+    "column name": "graph",
+    "description": "Flag indicating the report includes charting elements or supports graphical output."
+  },
+  {
+    "column name": "custom",
+    "description": "Flag marking whether the report is user-defined versus delivered standard content; likely; confirm with SME."
+  },
+  {
+    "column name": "add_to_wo_print_list",
+    "description": "Flag to include this report in the Work Order print options list."
+  },
+  {
+    "column name": "add_to_po_print_list",
+    "description": "Flag to include this report in the Purchase Order print options list."
+  },
+  {
+    "column name": "filter_view",
+    "description": "Name of the database view or query used as the report’s data source/filter."
+  },
+  {
+    "column name": "has_subreports",
+    "description": "Indicates whether the report contains one or more subreports."
+  },
+  {
+    "column name": "comments",
+    "description": "Detailed notes describing the report’s purpose, grouping, and usage considerations."
+  },
+  {
+    "column name": "record_limit",
+    "description": "Maximum number of records the report will retrieve to manage performance and result size."
+  },
+  {
+    "column name": "graph_select",
+    "description": "Serialized configuration for chart selections or graph parameters; likely used by the report engine—confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp of the most recent change to this report definition or related metadata."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created the report definition record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the report definition record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated the report definition record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified the report definition record."
+  }
+]

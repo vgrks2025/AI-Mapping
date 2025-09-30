@@ -1,0 +1,182 @@
+[
+  {
+    "column name": "PK",
+    "description": "System-generated unique key for this pending purchase order line item."
+  },
+  {
+    "column name": "OrderPart",
+    "description": "Flag indicating the line represents a stock part rather than services or misc; confirm with SME."
+  },
+  {
+    "column name": "VendorPK",
+    "description": "Internal surrogate key referencing the vendor master record for this purchase."
+  },
+  {
+    "column name": "VendorID",
+    "description": "Business identifier/code used to reference the supplier in operations and documents."
+  },
+  {
+    "column name": "VendorName",
+    "description": "Supplier’s name as it should appear on purchasing documents."
+  },
+  {
+    "column name": "PartPK",
+    "description": "Internal surrogate key referencing the item/part record in the parts catalog."
+  },
+  {
+    "column name": "PartID",
+    "description": "Business item number or SKU used to identify the part."
+  },
+  {
+    "column name": "PartName",
+    "description": "Short description of the item being purchased."
+  },
+  {
+    "column name": "LocationPK",
+    "description": "Internal key for the inventory location where the item will be received."
+  },
+  {
+    "column name": "LocationID",
+    "description": "Business code for the receiving location/warehouse."
+  },
+  {
+    "column name": "LocationName",
+    "description": "Name of the receiving location/warehouse."
+  },
+  {
+    "column name": "DirectIssue",
+    "description": "Indicates the ordered item will be issued directly to a work order or asset instead of stocked."
+  },
+  {
+    "column name": "VendorPartNumber",
+    "description": "Supplier’s catalog or part number for the item."
+  },
+  {
+    "column name": "WOPK",
+    "description": "Internal key referencing the related work order, when the purchase fulfills a job."
+  },
+  {
+    "column name": "WOID",
+    "description": "Human-readable work order number linked to this line, if applicable."
+  },
+  {
+    "column name": "WOPartPK",
+    "description": "Internal key to the specific work order part requirement this purchase will fulfill; confirm with SME."
+  },
+  {
+    "column name": "AccountPK",
+    "description": "Internal key to the financial account charged for this line."
+  },
+  {
+    "column name": "AccountID",
+    "description": "Account code used for cost allocation on this purchase line."
+  },
+  {
+    "column name": "AccountName",
+    "description": "Description of the financial account being charged."
+  },
+  {
+    "column name": "AssetPK",
+    "description": "Internal key referencing the asset associated with this purchase, for direct issue."
+  },
+  {
+    "column name": "AssetID",
+    "description": "Business identifier for the associated asset (unit/equipment number)."
+  },
+  {
+    "column name": "AssetName",
+    "description": "Descriptive name of the associated asset."
+  },
+  {
+    "column name": "LaborPK",
+    "description": "Internal key referencing a labor code or personnel record tied to this line; confirm with SME."
+  },
+  {
+    "column name": "LaborID",
+    "description": "Code for the labor task or person associated with this purchase line; confirm with SME."
+  },
+  {
+    "column name": "LaborName",
+    "description": "Description/name of the labor code or person associated; confirm with SME."
+  },
+  {
+    "column name": "OrderUnits",
+    "description": "Unit of measure used on the purchase order for pricing and quantity."
+  },
+  {
+    "column name": "OrderUnitsDesc",
+    "description": "Readable description of the order unit of measure."
+  },
+  {
+    "column name": "ConversionToIssueUnits",
+    "description": "Multiplier converting one order unit to the inventory issue unit for this item."
+  },
+  {
+    "column name": "IssueUnits",
+    "description": "Inventory issue unit of measure used when stocking or issuing the item."
+  },
+  {
+    "column name": "IssueUnitsDesc",
+    "description": "Readable description of the inventory issue unit."
+  },
+  {
+    "column name": "OrderUnitPrice",
+    "description": "Price per order unit before discounts and taxes."
+  },
+  {
+    "column name": "OrderUnitQty",
+    "description": "Quantity ordered, expressed in order units."
+  },
+  {
+    "column name": "Discount",
+    "description": "Discount applied to the line before tax; amount vs percent may vary—confirm with SME."
+  },
+  {
+    "column name": "Subtotal",
+    "description": "Extended amount before tax, typically quantity multiplied by unit price minus discounts."
+  },
+  {
+    "column name": "IsTax",
+    "description": "Indicates whether the line is taxable."
+  },
+  {
+    "column name": "TaxRate",
+    "description": "Tax rate applied to this line, expressed as a percentage."
+  },
+  {
+    "column name": "TaxAmount",
+    "description": "Calculated tax amount for this line."
+  },
+  {
+    "column name": "LineItemTotal",
+    "description": "Total line amount including tax and after discounts."
+  },
+  {
+    "column name": "Comments",
+    "description": "Free-text notes for this line item."
+  },
+  {
+    "column name": "DemoLaborPK",
+    "description": "Likely a reference used for demonstration/testing to a labor record; confirm with SME."
+  },
+  {
+    "column name": "RowVersionIPAddress",
+    "description": "IP address of the client or service that last updated this record."
+  },
+  {
+    "column name": "RowVersionUserPK",
+    "description": "Internal key of the user who last modified the record."
+  },
+  {
+    "column name": "RowVersionInitials",
+    "description": "Initials of the user who last modified the record."
+  },
+  {
+    "column name": "RowVersionDate",
+    "description": "Timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "Bin",
+    "description": "Specific bin/shelf location within the warehouse where the item is stored or received."
+  }
+]

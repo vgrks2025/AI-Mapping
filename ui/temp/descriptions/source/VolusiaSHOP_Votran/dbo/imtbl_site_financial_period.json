@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique key for the financial period record; used for joins and internal identity, not business-meaningful."
+  },
+  {
+    "column name": "f_year",
+    "description": "Fiscal year the period belongs to."
+  },
+  {
+    "column name": "id",
+    "description": "Sequence number of the period within the fiscal year (typically 1–12 for months)."
+  },
+  {
+    "column name": "description",
+    "description": "Optional human-readable label for the period (e.g., Jan 2023 or FY2023 P01)."
+  },
+  {
+    "column name": "beginning",
+    "description": "Start date/time of the financial period (inclusive)."
+  },
+  {
+    "column name": "ending",
+    "description": "End date/time of the financial period; typically last moment of the period. Confirm inclusivity with SME."
+  },
+  {
+    "column name": "primaryflag",
+    "description": "Likely indicates the primary or active period or a display order; values are numeric rather than boolean; confirm intent and valid range with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the period."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update from any source."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent modification performed by a user; overlaps with user_date_modified; confirm authoritative field with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

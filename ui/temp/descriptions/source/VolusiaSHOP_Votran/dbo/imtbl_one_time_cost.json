@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for a single one-time expense entry."
+  },
+  {
+    "column name": "contact",
+    "description": "Person, vendor, or department associated with the charge; likely the payee or requester; confirm with SME."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the vehicle or equipment to which this expense is attributed."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "Accounting code used to post the expense to the appropriate ledger account."
+  },
+  {
+    "column name": "description",
+    "description": "Short text describing the expense item or purpose."
+  },
+  {
+    "column name": "actual_cost",
+    "description": "Recorded monetary amount of the expense, stored as a decimal value."
+  },
+  {
+    "column name": "comments",
+    "description": "Additional free-form notes about the expense, such as category or justification."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp indicating when the record was last changed in the database."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application-captured timestamp of the most recent user-initiated update; may mirror system timestamp; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update performed by a user."
+  }
+]

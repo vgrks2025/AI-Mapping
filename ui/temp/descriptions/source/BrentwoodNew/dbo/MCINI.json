@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "INI_KEY",
+    "description": "Name of a configuration parameter used by fleet management modules to control features or options; serves as the setting identifier."
+  },
+  {
+    "column name": "INI_VALUE",
+    "description": "Value assigned to the configuration parameter controlling application behavior; type varies by setting (boolean, text, numeric) and may be string-serialized or encoded (e.g., Base64); confirm with SME."
+  }
+]

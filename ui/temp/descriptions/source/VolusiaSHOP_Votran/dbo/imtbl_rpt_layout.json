@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this report layout configuration record."
+  },
+  {
+    "column name": "language",
+    "description": "Language code the layout is authored for, used to select localized report output."
+  },
+  {
+    "column name": "layout",
+    "description": "XML content defining the report’s template—sections, fields, and formatting used when generating the document."
+  },
+  {
+    "column name": "rpt_type",
+    "description": "Identifier of the report type this layout is for; likely a foreign key to a report type catalog—confirm with SME."
+  },
+  {
+    "column name": "imaint_logo_id",
+    "description": "Identifier of the default system/company logo to render on the report; likely references a stored image asset—confirm with SME."
+  },
+  {
+    "column name": "customer_logo_id",
+    "description": "Identifier of the customer’s logo to render on the report; references a stored image asset."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this layout."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this layout was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this layout."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this layout was last modified."
+  }
+]

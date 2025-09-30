@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "HistoryReasonID",
+    "description": "Lookup key indicating why the maintenance history entry was created (e.g., scheduled service, correction). Classifies the event for reporting/analytics; likely references a reason code table; confirm with SME."
+  },
+  {
+    "column name": "RepairReasonID",
+    "description": "Identifier for the cause or justification of a repair on the asset (e.g., breakdown, wear). Used to categorize repairs for analysis and compliance; likely links to a repair-reason lookup; confirm with SME."
+  }
+]

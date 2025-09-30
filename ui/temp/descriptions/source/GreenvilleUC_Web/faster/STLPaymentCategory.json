@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "PaymentCategoryID",
+    "description": "Unique key denoting the cost type assigned to maintenance transactions or invoice lines within fleet operations and accounting."
+  },
+  {
+    "column name": "PaymentCategoryDesc",
+    "description": "Business-friendly label for the corresponding cost type, used for display on screens, reports, and external integrations."
+  }
+]

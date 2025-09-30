@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the maintenance work order associated with this record."
+  },
+  {
+    "column name": "dep_tm_no",
+    "description": "Code identifying the responsible department/team for the asset or work order; likely a functional area label; confirm with SME."
+  },
+  {
+    "column name": "dep_sch_no",
+    "description": "Department schedule identifier for the preventive maintenance plan or route tied to the asset/work order; confirm with SME."
+  },
+  {
+    "column name": "open_pm_wo_no",
+    "description": "Identifier of the currently open preventive maintenance work order linked to this asset or schedule."
+  },
+  {
+    "column name": "last_wo_create_dt",
+    "description": "Timestamp when the most recent work order was created for the asset/schedule. A default like 1900-01-01 likely denotes unknown or not applicable."
+  },
+  {
+    "column name": "last_done_dt",
+    "description": "Date the last maintenance or preventive service was completed for the asset or schedule."
+  },
+  {
+    "column name": "due_flag",
+    "description": "Indicates whether maintenance/PM is currently due (Y) or not due (N)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created or added the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created or added."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record."
+  }
+]

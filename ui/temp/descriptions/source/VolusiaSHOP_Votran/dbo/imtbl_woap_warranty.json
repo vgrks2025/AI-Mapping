@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for this warranty record."
+  },
+  {
+    "column name": "woap",
+    "description": "Reference to the related work-order asset/part line; used to attach warranty details to a specific job item. Likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "warranty_type",
+    "description": "Code denoting the kind of coverage applied (e.g., parts, labor, component). Typically links to a warranty type lookup."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Code for the meter used to measure coverage limits, such as odometer, engine hours, or cycles; ties to a meter type domain."
+  },
+  {
+    "column name": "warranty_provider",
+    "description": "Identifier of the coverage provider (manufacturer, vendor, or insurer); usually references a supplier/organization record."
+  },
+  {
+    "column name": "warranty_expiration_date",
+    "description": "Calendar date when coverage ends based on time terms."
+  },
+  {
+    "column name": "warranty_exp_meter_value",
+    "description": "Meter reading at which coverage expires (e.g., miles, hours). Numeric threshold for the indicated meter."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about coverage, parts replaced, or claim context."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp of the most recent update to this record, regardless of user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Date/time when a user last changed the record; values appear to be timestamps, not user IDs—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Username or ID of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Username or ID of the most recent editor."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

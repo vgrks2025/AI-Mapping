@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "CertificationID",
+    "description": "Unique system identifier for a certification type used for referencing and linking records across the platform."
+  },
+  {
+    "column name": "CertificationName",
+    "description": "Official title of the credential or skill category recognized by the organization, shown in user interfaces and reports."
+  },
+  {
+    "column name": "CertificationDesc",
+    "description": "Narrative summary describing the scope, requirements, or coverage of the credential for documentation and user guidance."
+  },
+  {
+    "column name": "Validation",
+    "description": "Duration the credential remains valid before renewal, likely measured in years; confirm exact unit and rules with SME."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicator that the credential type is retired/inactive and should no longer be assigned or selected in current processes."
+  }
+]

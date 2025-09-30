@@ -1,0 +1,106 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this downtime cost transaction."
+  },
+  {
+    "column name": "cost_transaction_type",
+    "description": "Coded classification of the cost entry (e.g., charge, credit, adjustment); mapping defined by system reference values; confirm with SME."
+  },
+  {
+    "column name": "downtime_hours",
+    "description": "Total hours the asset was unavailable during this event, used to calculate downtime costs."
+  },
+  {
+    "column name": "downtime_type",
+    "description": "Code indicating the nature of downtime (e.g., planned, unplanned, safety); mapping required; confirm with SME."
+  },
+  {
+    "column name": "production_cost_per_hour",
+    "description": "Hourly rate representing lost production value when the asset is down; used to compute downtime impact."
+  },
+  {
+    "column name": "maintenance_cost_per_hour",
+    "description": "Hourly maintenance cost rate applied during downtime (e.g., labor/overhead) for cost calculations."
+  },
+  {
+    "column name": "user_id",
+    "description": "Identifier of the user associated with this transaction (creator or owner); confirm role with SME."
+  },
+  {
+    "column name": "contact",
+    "description": "Reference to the person or external party to contact regarding this downtime or cost entry; likely a contact record ID."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the affected vehicle or equipment unit for which downtime costs are recorded."
+  },
+  {
+    "column name": "procedures",
+    "description": "Link to a maintenance procedure or standard job applied to this event; likely references a procedure catalog; confirm with SME."
+  },
+  {
+    "column name": "project",
+    "description": "Project or job code to which this downtime cost is allocated."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "Accounting account to post the cost, following the organization’s chart of accounts."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Indicates allocation of costs across multiple GL accounts, or references split details; confirm implementation with SME."
+  },
+  {
+    "column name": "work_order",
+    "description": "Associated work order that triggered or recorded this downtime and related costs."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "Related purchase order for parts or services tied to this cost."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the downtime cost transaction was logged into the system."
+  },
+  {
+    "column name": "adjustment_date",
+    "description": "Date and time the cost entry was adjusted or reallocated, if applicable."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes providing context or explanations about the downtime or cost."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Identifier of the user who last modified this record; data type or content may vary; confirm with SME."
+  },
+  {
+    "column name": "woap",
+    "description": "Likely the work order accounting period or approval status for planned values; confirm definition with SME."
+  },
+  {
+    "column name": "woap_actual",
+    "description": "Likely the actual work order accounting period or actual approval flag; confirm definition with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the latest user-initiated modification."
+  }
+]

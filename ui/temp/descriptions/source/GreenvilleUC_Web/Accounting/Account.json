@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "AccountID",
+    "description": "System-generated unique identifier for the account record."
+  },
+  {
+    "column name": "Number",
+    "description": "Code or number used to identify the account in the chart of accounts; exact format may vary—confirm with SME."
+  },
+  {
+    "column name": "Name",
+    "description": "Human-readable title of the account shown in user interfaces and reports."
+  },
+  {
+    "column name": "AccountType",
+    "description": "Coded reference indicating the account’s category (e.g., asset, liability, revenue, expense)."
+  },
+  {
+    "column name": "Organization",
+    "description": "Code for the organization or business unit that owns or manages this account."
+  },
+  {
+    "column name": "Status",
+    "description": "Coded status of the account (e.g., active, inactive, closed) controlling whether it can be posted to."
+  },
+  {
+    "column name": "SubaccountOf",
+    "description": "Identifier of the parent account when this record is a subaccount, supporting hierarchical chart-of-accounts structure."
+  },
+  {
+    "column name": "TaxLineMapping",
+    "description": "Mapping to a tax reporting line or code used in filings and tax reports; likely configurable—confirm with SME."
+  },
+  {
+    "column name": "Comment",
+    "description": "Free-text notes describing the account’s purpose, usage, or other remarks."
+  },
+  {
+    "column name": "ExternalGroup",
+    "description": "Grouping key linking this account to a category in an external system for integration; confirm with SME."
+  },
+  {
+    "column name": "ExternalAccount",
+    "description": "Identifier of the corresponding account in an external accounting/ERP system for synchronization."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "Identifier of the user who created this account record."
+  },
+  {
+    "column name": "CreatedDate",
+    "description": "Date and time when this account record was created."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "Identifier of the user who last modified this account record."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Date and time of the most recent update to this account record."
+  }
+]

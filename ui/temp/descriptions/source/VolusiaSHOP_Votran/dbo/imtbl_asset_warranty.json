@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate unique identifier for this asset warranty record."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the covered asset (vehicle/equipment); typically a foreign key to the asset master."
+  },
+  {
+    "column name": "warranty_type",
+    "description": "Reference to the category of coverage (e.g., manufacturer, extended, parts/labor); likely a lookup code; confirm with SME."
+  },
+  {
+    "column name": "warranty_provider",
+    "description": "Identifier of the organization providing the coverage (manufacturer, dealer, or third‑party administrator)."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Type of usage meter tied to coverage limits (miles, kilometers, engine hours); likely from a meter type list; confirm with SME."
+  },
+  {
+    "column name": "warranty_expiration_date",
+    "description": "Calendar date when coverage ends, regardless of usage unless superseded by meter limits."
+  },
+  {
+    "column name": "warranty_exp_meter_value",
+    "description": "Usage threshold at which coverage ends, based on the specified meter; very high values may represent ‘no limit’; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about terms, exclusions, or special conditions of the coverage."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record in the source application."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-initiated change; likely similar to user_date_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the last modification performed by a user."
+  }
+]

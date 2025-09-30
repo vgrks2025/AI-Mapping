@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "condition_index",
+    "description": "Label or code for the condition index, asset component, or defect category being scored; may also denote a rating scale definition. Confirm dual use with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the index, component/defect, or guidance about the associated rating scale."
+  },
+  {
+    "column name": "best_rating",
+    "description": "Numeric value representing the optimal score for this index under its defined scale."
+  },
+  {
+    "column name": "worst_rating",
+    "description": "Numeric value representing the poorest score for this index under its defined scale."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the last update."
+  },
+  {
+    "column name": "rising",
+    "description": "Flag indicating whether higher numbers mean better condition (1) or worse (0); confirm coding with SME."
+  }
+]

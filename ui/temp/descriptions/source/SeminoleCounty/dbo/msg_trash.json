@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Account that owns the trashed message (mailbox owner)."
+  },
+  {
+    "column name": "msg_no",
+    "description": "System-assigned identifier for the message within the trash folder."
+  },
+  {
+    "column name": "subject",
+    "description": "Subject line of the notification or message."
+  },
+  {
+    "column name": "body",
+    "description": "Full text content of the message body."
+  },
+  {
+    "column name": "status_cd",
+    "description": "Code indicating read status; likely unread/read—confirm with SME."
+  },
+  {
+    "column name": "from_email",
+    "description": "Sender’s account or email identifier recorded on the message."
+  },
+  {
+    "column name": "to_email",
+    "description": "Primary recipient account(s) for the message; may be delimited."
+  },
+  {
+    "column name": "cc_email",
+    "description": "Carbon-copy recipient account(s); may be empty or delimited."
+  },
+  {
+    "column name": "bcc_email",
+    "description": "Blind carbon copy recipient account(s), hidden from other recipients."
+  },
+  {
+    "column name": "importance",
+    "description": "Priority level code for the message; likely low/medium/high—confirm mapping."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the message record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the message record was created or received."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified this message record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this message record."
+  },
+  {
+    "column name": "origin_cd",
+    "description": "Code for the message’s original folder/source before deletion; confirm mapping with SME."
+  },
+  {
+    "column name": "from_msg_no",
+    "description": "Original message identifier in its source folder before being trashed; confirm with SME."
+  }
+]

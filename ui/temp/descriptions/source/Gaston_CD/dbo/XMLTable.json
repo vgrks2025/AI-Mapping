@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ID",
+    "description": "System-generated unique key for each stored XML report record, used to reference, join, and prevent duplicates."
+  },
+  {
+    "column name": "XMLData",
+    "description": "Full XML payload of a fleet report or message (e.g., vehicle status, alerts, or telemetry); structure varies by source system and version. Likely raw, unparsed content; confirm schema with SME."
+  }
+]

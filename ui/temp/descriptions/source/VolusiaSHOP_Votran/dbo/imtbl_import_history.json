@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this import history entry."
+  },
+  {
+    "column name": "filename",
+    "description": "Name of the source file that was imported, typically including extension."
+  },
+  {
+    "column name": "username",
+    "description": "Application username that initiated the import run."
+  },
+  {
+    "column name": "inserts",
+    "description": "Count of new records successfully created by this import."
+  },
+  {
+    "column name": "updates",
+    "description": "Count of existing records successfully updated by this import."
+  },
+  {
+    "column name": "failures",
+    "description": "Count of records that failed validation or load during this import."
+  },
+  {
+    "column name": "import_process",
+    "description": "Name of the import job or target domain/entity."
+  },
+  {
+    "column name": "import_date",
+    "description": "Timestamp when the import was executed or completed."
+  },
+  {
+    "column name": "process_time",
+    "description": "Total processing time for the import, likely in seconds; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or system that created this history record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this history record was originally created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this history record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification to this history record."
+  }
+]

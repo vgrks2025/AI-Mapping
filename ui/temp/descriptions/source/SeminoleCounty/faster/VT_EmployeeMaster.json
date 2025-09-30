@@ -1,0 +1,270 @@
+[
+  {
+    "column name": "EmployeeID",
+    "description": "Unique internal identifier for the employee used across the fleet system for linking records."
+  },
+  {
+    "column name": "EmpInactive",
+    "description": "Y/N flag indicating whether the employee is inactive/terminated and should be excluded from active assignments and billing."
+  },
+  {
+    "column name": "EmpSSN",
+    "description": "Employee’s Social Security Number for HR/payroll identity verification; may include placeholder values. Highly sensitive PII."
+  },
+  {
+    "column name": "EmpOutsideRate",
+    "description": "Flag indicating the employee’s labor should be billed at an outside/vendor rate rather than standard internal rate; confirm with SME."
+  },
+  {
+    "column name": "EmpFirstName",
+    "description": "Employee’s given name as used on HR records."
+  },
+  {
+    "column name": "EmpLastName",
+    "description": "Employee’s family/surname as used on HR records."
+  },
+  {
+    "column name": "EmpAddr1",
+    "description": "Primary street address line for the employee’s home mailing address."
+  },
+  {
+    "column name": "EmpAddr2",
+    "description": "Secondary address line (apartment, suite, unit, etc.)."
+  },
+  {
+    "column name": "EmpCity",
+    "description": "City for the employee’s home address."
+  },
+  {
+    "column name": "EmpState",
+    "description": "State or province code for the employee’s home address."
+  },
+  {
+    "column name": "EmpZip",
+    "description": "Postal/ZIP code for the employee’s home address."
+  },
+  {
+    "column name": "EmpAreaCode",
+    "description": "Area code associated with the employee’s personal/main phone number."
+  },
+  {
+    "column name": "EmpPhone",
+    "description": "Personal phone number, typically stored without area code."
+  },
+  {
+    "column name": "EmpExtension",
+    "description": "Extension associated with the personal/main phone number; confirm with SME."
+  },
+  {
+    "column name": "BirthDate",
+    "description": "Employee’s date of birth in YYYYMMDD format."
+  },
+  {
+    "column name": "Gender",
+    "description": "Employee’s sex/gender code (e.g., M/F) for HR reporting."
+  },
+  {
+    "column name": "Ethnicity",
+    "description": "Employee’s ethnicity classification for HR and compliance reporting; values organization-defined."
+  },
+  {
+    "column name": "DriverLicenseNumber",
+    "description": "Driver’s license number used to verify driving eligibility for fleet operations."
+  },
+  {
+    "column name": "DriverLicenseState",
+    "description": "Issuing state/province for the driver’s license."
+  },
+  {
+    "column name": "DriverLicenseExpires",
+    "description": "Expiration date of the driver’s license (YYYYMMDD)."
+  },
+  {
+    "column name": "EmpDriver",
+    "description": "Y/N flag indicating authorization to operate fleet vehicles."
+  },
+  {
+    "column name": "EmpMechanic",
+    "description": "Y/N flag indicating the employee performs mechanic/technician duties."
+  },
+  {
+    "column name": "EmploymentType",
+    "description": "Employment category or job class (e.g., full-time, contractor, role designation)."
+  },
+  {
+    "column name": "WorkSiteCode",
+    "description": "Code for the employee’s primary shop/work site or billing location; likely used for labor allocation; confirm with SME."
+  },
+  {
+    "column name": "WorkAreaCode",
+    "description": "Area code for the employee’s work phone."
+  },
+  {
+    "column name": "WorkPhone",
+    "description": "Work phone number, typically stored without area code."
+  },
+  {
+    "column name": "WorkExtension",
+    "description": "Work phone extension, if applicable."
+  },
+  {
+    "column name": "WorkEmailAddress",
+    "description": "Official work email address."
+  },
+  {
+    "column name": "MobilAreaCode",
+    "description": "Area code for the employee’s mobile phone."
+  },
+  {
+    "column name": "MobilePhone",
+    "description": "Mobile phone number, typically stored without area code."
+  },
+  {
+    "column name": "Intercom",
+    "description": "Internal intercom or radio contact number; likely a short code; confirm with SME."
+  },
+  {
+    "column name": "EmpBeeperNumber",
+    "description": "Employee’s beeper/pager phone number (legacy field)."
+  },
+  {
+    "column name": "PagerID",
+    "description": "Pager identifier or cap code (legacy field)."
+  },
+  {
+    "column name": "EmpDepartment",
+    "description": "Organizational department or shop to which the employee belongs."
+  },
+  {
+    "column name": "EmpSupervisor",
+    "description": "Name of the employee’s immediate supervisor or manager."
+  },
+  {
+    "column name": "EmpUnionDate",
+    "description": "Date the employee joined or became eligible for a union (YYYYMMDD)."
+  },
+  {
+    "column name": "HideDeploymentView",
+    "description": "Y/N flag to hide the employee from deployment/dispatch scheduling views; confirm with SME."
+  },
+  {
+    "column name": "EmpFuelCardNumber",
+    "description": "Fuel card number assigned for fueling transactions and tracking; if used."
+  },
+  {
+    "column name": "PersonalDefaultsCode",
+    "description": "Code referencing a set of user-specific default settings/preferences in the application."
+  },
+  {
+    "column name": "EmpMedicalText",
+    "description": "Free-text medical notes or restrictions relevant to job duties; sensitive."
+  },
+  {
+    "column name": "EmpMedicalExpireDate",
+    "description": "Expiration date for required medical certification (e.g., DOT physical) in YYYYMMDD format."
+  },
+  {
+    "column name": "Handicapped",
+    "description": "Y/N flag indicating disability status for accommodation tracking; confirm with SME and handle as sensitive data."
+  },
+  {
+    "column name": "SpousesName",
+    "description": "Employee’s spouse/partner name for HR or benefits records."
+  },
+  {
+    "column name": "EmpEmergencyContact",
+    "description": "Primary emergency contact person’s name."
+  },
+  {
+    "column name": "EmpRelationToContact",
+    "description": "Relationship of the emergency contact to the employee."
+  },
+  {
+    "column name": "EmergencyAreaCode",
+    "description": "Area code for the emergency contact’s phone number."
+  },
+  {
+    "column name": "EmergencyPhone",
+    "description": "Emergency contact phone number, typically without area code."
+  },
+  {
+    "column name": "EmergencyExtension",
+    "description": "Extension for the emergency contact phone, if applicable."
+  },
+  {
+    "column name": "EmergencyMobileAreaCode",
+    "description": "Area code for the emergency contact’s mobile phone."
+  },
+  {
+    "column name": "EmergencyMobilePhone",
+    "description": "Emergency contact mobile phone number, typically without area code."
+  },
+  {
+    "column name": "EmergencyEmailAddress",
+    "description": "Emergency contact email address."
+  },
+  {
+    "column name": "EmpHiredDate",
+    "description": "Employee’s original hire date (YYYYMMDD)."
+  },
+  {
+    "column name": "PositionOrTitle",
+    "description": "Employee’s job title/position as displayed in directories and reports."
+  },
+  {
+    "column name": "Salaried",
+    "description": "Y/N flag indicating salaried compensation status."
+  },
+  {
+    "column name": "HourlyPayRate",
+    "description": "Current hourly wage rate for the employee."
+  },
+  {
+    "column name": "AnnualSalary",
+    "description": "Annual base salary amount; zero if not salaried."
+  },
+  {
+    "column name": "EmpPassword",
+    "description": "Application login credential (stored encrypted/hashed). Extremely sensitive; restrict access."
+  },
+  {
+    "column name": "EmpDBAAuthority",
+    "description": "Y/N flag granting database/admin privileges within the application; confirm with SME."
+  },
+  {
+    "column name": "FullAccessFlag",
+    "description": "Y/N flag indicating full system access rights."
+  },
+  {
+    "column name": "TimeZoneUniqueID",
+    "description": "Reference to the employee’s time zone setting (foreign key to time zone table)."
+  },
+  {
+    "column name": "DisallowAsMotorPoolDriver",
+    "description": "Y/N flag preventing assignment as a motor pool driver."
+  },
+  {
+    "column name": "NoteUniqueID",
+    "description": "Identifier linking to detailed notes or annotations for the employee."
+  },
+  {
+    "column name": "ImageObjectUID1",
+    "description": "Identifier for the stored profile image object; zero/blank if none."
+  },
+  {
+    "column name": "LastUpdated",
+    "description": "Timestamp of last modification to this record (YYYYMMDDHHMMSS)."
+  },
+  {
+    "column name": "RowID",
+    "description": "System-generated unique row identifier (GUID/UUID) for the record."
+  },
+  {
+    "column name": "UpdateCount",
+    "description": "Incrementing revision counter used for optimistic concurrency/version tracking."
+  },
+  {
+    "column name": "LastUpdatedBy",
+    "description": "User account that last modified the record."
+  }
+]

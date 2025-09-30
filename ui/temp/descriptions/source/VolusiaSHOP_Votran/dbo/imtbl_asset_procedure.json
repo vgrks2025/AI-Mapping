@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this asset–procedure linkage; uniquely identifies the row."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset the procedure applies to; foreign key to the asset master."
+  },
+  {
+    "column name": "procedures",
+    "description": "Identifier of the maintenance or inspection procedure assigned to the asset; references the procedure catalog."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-generated timestamp when this asset–procedure association was last updated by any process."
+  },
+  {
+    "column name": "woap",
+    "description": "Likely references the related work order or work-order–procedure instance for this asset; confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp for the last user-driven change to this record; may duplicate last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created this asset–procedure association."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this asset–procedure association was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that most recently modified this asset–procedure association."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification to this asset–procedure association."
+  }
+]

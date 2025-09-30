@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this subreport configuration record used as the primary key."
+  },
+  {
+    "column name": "language",
+    "description": "Language code for rendering the subreport; likely ISO language abbreviation; confirm with SME."
+  },
+  {
+    "column name": "rpt_type",
+    "description": "Identifier of the parent report type this configuration applies to; used to group related subreports."
+  },
+  {
+    "column name": "section_name",
+    "description": "Logical placement identifier indicating where this subreport appears within the parent report layout."
+  },
+  {
+    "column name": "rpt_file_name",
+    "description": "Filename of the report template used to render the subreport within the reporting engine."
+  },
+  {
+    "column name": "view_name",
+    "description": "Name of the database view or dataset supplying data to the subreport."
+  },
+  {
+    "column name": "parent_link_field",
+    "description": "Field in the parent dataset used to join to the subreport’s dataset for contextual filtering."
+  },
+  {
+    "column name": "link_field",
+    "description": "Field in the subreport’s dataset that joins back to the parent dataset."
+  },
+  {
+    "column name": "rpt_layout",
+    "description": "Embedded XML definition of the subreport’s design and formatting used by the report renderer."
+  },
+  {
+    "column name": "hide_nodata",
+    "description": "Flag indicating the subreport should be suppressed when its dataset returns no rows."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier that created this configuration record, for audit tracking."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this configuration record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier that last updated this configuration record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update to this configuration record."
+  }
+]

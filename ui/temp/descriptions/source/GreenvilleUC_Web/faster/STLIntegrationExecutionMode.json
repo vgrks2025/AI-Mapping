@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntegrationExecutionModeID",
+    "description": "Primary key identifying a specific option for how integrations are run; used as a reference in related records."
+  },
+  {
+    "column name": "IntegrationExecutionMode",
+    "description": "Business classification describing how an integration is initiated or controlled; informs scheduling, triggering, and monitoring behavior across the platform."
+  }
+]

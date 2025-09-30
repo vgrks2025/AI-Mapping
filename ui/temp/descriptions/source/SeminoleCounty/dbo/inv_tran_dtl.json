@@ -1,0 +1,186 @@
+[
+  {
+    "column name": "tran_no",
+    "description": "Unique identifier of the inventory movement this line belongs to; ties detail lines to a single posting."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequential line number within the same transaction header; used to order and uniquely identify the line."
+  },
+  {
+    "column name": "stock",
+    "description": "Item or part identifier (SKU/part number) moved."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Code for the facility or store where the item was stored or moved."
+  },
+  {
+    "column name": "bin_no",
+    "description": "Storage location within the facility (aisle/bin/shelf) for the item."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable item description at the time of movement."
+  },
+  {
+    "column name": "qty",
+    "description": "Number of units moved on this line; sign may indicate issue versus receipt."
+  },
+  {
+    "column name": "unituse",
+    "description": "Unit of measure used for the quantity on this line."
+  },
+  {
+    "column name": "unit_qty",
+    "description": "Conversion factor between the transaction unit and the stocking unit (units per transaction unit)."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Cost per transaction unit applied at posting time."
+  },
+  {
+    "column name": "total_cost",
+    "description": "Extended amount for the line (quantity × unit cost), typically excluding tax."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Work order associated with the part issue or return, if applicable."
+  },
+  {
+    "column name": "part_row",
+    "description": "Reference to the specific parts line on the related work order."
+  },
+  {
+    "column name": "system",
+    "description": "Code for the vehicle/equipment system or category related to the usage; confirm with SME."
+  },
+  {
+    "column name": "slip_no",
+    "description": "Pick/issue slip or material ticket reference for this movement."
+  },
+  {
+    "column name": "po_no",
+    "description": "Purchasing document reference tied to the movement (e.g., purchase order)."
+  },
+  {
+    "column name": "acct_no",
+    "description": "General ledger account to charge or credit for this line."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Supplier identifier associated with the item or transaction."
+  },
+  {
+    "column name": "shipment",
+    "description": "Shipment or receiving document identifier linked to this movement; confirm with SME."
+  },
+  {
+    "column name": "inv_type",
+    "description": "Code indicating movement type (e.g., issue, receipt, adjustment). \"I\" likely indicates an issue; confirm with SME."
+  },
+  {
+    "column name": "lastdate",
+    "description": "Most recent activity or update date for this line; confirm with SME."
+  },
+  {
+    "column name": "item_no",
+    "description": "Internal item master identifier for the part."
+  },
+  {
+    "column name": "rele_no",
+    "description": "Release number for a blanket order or shipment schedule; confirm with SME."
+  },
+  {
+    "column name": "rele_date",
+    "description": "Date for the referenced release."
+  },
+  {
+    "column name": "model_no",
+    "description": "Manufacturer or equipment model reference related to the item; confirm with SME."
+  },
+  {
+    "column name": "item_code",
+    "description": "Commodity or classification code for reporting and controls."
+  },
+  {
+    "column name": "item_flag",
+    "description": "Indicator for special handling or status (e.g., serialized, repairable); confirm with SME."
+  },
+  {
+    "column name": "org_price",
+    "description": "Original or list price used prior to discounts or adjustments."
+  },
+  {
+    "column name": "trn_price",
+    "description": "Actual transaction price after discounts or overrides."
+  },
+  {
+    "column name": "pick_tran",
+    "description": "Identifier of the picking process or reservation transaction that generated this movement; confirm with SME."
+  },
+  {
+    "column name": "return_flag",
+    "description": "Indicator that the line represents a return or reversal to stock."
+  },
+  {
+    "column name": "rec_tran_no",
+    "description": "Reference to the receiving transaction tied to this item."
+  },
+  {
+    "column name": "return_date",
+    "description": "Actual date the item was returned to inventory."
+  },
+  {
+    "column name": "return_date_est",
+    "description": "Expected date for a planned return to stock; useful for temporary issues."
+  },
+  {
+    "column name": "partloc",
+    "description": "Location on the asset where the part was installed, or storage location text; confirm with SME."
+  },
+  {
+    "column name": "update_wo_row",
+    "description": "Work order line updated by this movement, or flag to trigger update; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "inv_ctrl",
+    "description": "Inventory control method or status code (e.g., cycle count, FIFO); confirm with SME."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Identifier of the vehicle or equipment consuming the part."
+  },
+  {
+    "column name": "tax_yn",
+    "description": "Flag indicating whether tax applies to this line."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Tax percentage applied to the taxable amount."
+  },
+  {
+    "column name": "tax_cost",
+    "description": "Tax amount calculated for this line."
+  },
+  {
+    "column name": "cnt_qty",
+    "description": "Counted quantity used for physical inventory reconciliation or adjustments."
+  }
+]

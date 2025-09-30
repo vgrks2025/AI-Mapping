@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "code",
+    "description": "Business status code/label for a work order’s in‑progress state, used to drive workflow steps and reporting."
+  },
+  {
+    "column name": "descr",
+    "description": "Detailed description of the status, explaining when it should be applied in the maintenance workflow."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free‑text notes about this status configuration or usage; likely for administrators; confirm with SME."
+  },
+  {
+    "column name": "email_flag",
+    "description": "Y/N flag indicating whether an email notification is sent when a work order enters this status."
+  },
+  {
+    "column name": "email_add",
+    "description": "Email address(es) to notify when this status is set; may support multiple recipients."
+  },
+  {
+    "column name": "hold_flag",
+    "description": "Flag indicating this status places the work order on hold and pauses activity timers; confirm exact behavior with SME."
+  },
+  {
+    "column name": "hold_rqby",
+    "description": "User who requested the hold associated with this status; likely a username or ID; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this status record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the status record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated this status record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this status record."
+  },
+  {
+    "column name": "user_name",
+    "description": "User associated with this status (e.g., default assignee or notification target); exact purpose may vary; confirm with SME."
+  },
+  {
+    "column name": "mc_id",
+    "description": "Identifier scoping this status to a specific company/client or maintenance center; meaning of “mc” should be confirmed with SME."
+  },
+  {
+    "column name": "mc_status_id",
+    "description": "Reference to the corresponding status in the master/company status catalog for integration or inheritance; confirm mapping with SME."
+  },
+  {
+    "column name": "styles",
+    "description": "UI style or color tag used to display this status consistently in boards, lists, or dashboards."
+  },
+  {
+    "column name": "dntime_flag",
+    "description": "Y/N flag indicating whether this status counts as vehicle downtime for availability and uptime reporting."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this accident category record; used as the primary key and for referencing from related tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time when the record was captured or last updated, stored as yyyymmddhhmmssSSS; likely system-generated. Confirm whether it reflects creation or update time with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text notes providing additional context or narrative about the incident beyond the standardized category."
+  },
+  {
+    "column name": "typeacc",
+    "description": "Standardized category describing the nature of the fleet incident or accident; used for classification, reporting, and analytics."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from the legacy source system corresponding to this record; used for migration mapping and cross-referencing; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table or system name from which this record originated; supports lineage, reconciliation, and migration audits; confirm with SME."
+  }
+]

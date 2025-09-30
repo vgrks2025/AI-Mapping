@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "year_begin",
+    "description": "Date-time when the organization's calculated fiscal year starts for the given record. Based on the system’s fiscal calendar configuration; confirm scope (organization vs. region) and timezone with SME."
+  },
+  {
+    "column name": "year_end",
+    "description": "Date-time when the calculated fiscal year ends for the record (final day boundary). Derived from the fiscal calendar; end may be inclusive or exclusive—likely boundary timestamp; confirm treatment and timezone with SME."
+  }
+]

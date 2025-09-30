@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for the reason record; used as the primary key without business meaning."
+  },
+  {
+    "column name": "id",
+    "description": "Business reason code used in operations (e.g., maintenance, road calls, tire actions); may be alphanumeric and user-visible."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name or description of the operational reason."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes providing additional context about the reason."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-generated timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely the application timestamp of the last user-driven change; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or account that last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last updated by a user."
+  }
+]

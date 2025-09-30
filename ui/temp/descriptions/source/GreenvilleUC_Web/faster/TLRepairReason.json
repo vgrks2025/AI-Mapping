@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "RepairReasonID",
+    "description": "Unique identifier for a repair reason category used to classify service events and reporting."
+  },
+  {
+    "column name": "Reason",
+    "description": "Human-readable description of the repair reason category presented in UIs and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the reason is retired and should no longer be assigned to new service events."
+  },
+  {
+    "column name": "IsBillable",
+    "description": "Indicates whether costs tied to this reason are charged to an external party/department or treated as non-billable."
+  },
+  {
+    "column name": "RepairScheduleID",
+    "description": "Links the reason to a maintenance/repair schedule grouping for planning and SLA rules; likely a foreign key to a schedule table; confirm with SME."
+  }
+]

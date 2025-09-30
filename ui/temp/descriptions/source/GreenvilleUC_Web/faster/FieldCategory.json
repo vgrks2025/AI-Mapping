@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FieldCategoryID",
+    "description": "Unique identifier (primary key) for a field category record; used to link data fields and configurations to their category across the fleet management system."
+  },
+  {
+    "column name": "FieldCategory",
+    "description": "Human-readable category name used to group and label related data fields, influencing form layout, navigation, filtering, and reporting."
+  }
+]

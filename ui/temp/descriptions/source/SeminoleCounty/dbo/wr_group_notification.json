@@ -1,0 +1,78 @@
+[
+  {
+    "column name": "wr_group",
+    "description": "Identifier of the work-request notification group (e.g., team or department) this configuration applies to."
+  },
+  {
+    "column name": "tmp_on_wr_received",
+    "description": "Reference to the notification template applied when a work request is received; likely a template ID/code; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_wr_wo_converted",
+    "description": "Reference to the notification template applied when a work request converts to a work order; likely a template ID/code; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_wr_approval_needed",
+    "description": "Reference to the notification template applied when a work request requires approval; likely a template ID/code; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_wr_denied",
+    "description": "Reference to the notification template applied when a work request is denied; likely a template ID/code; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_wr_closed",
+    "description": "Reference to the notification template applied when a work request is closed; likely a template ID/code; confirm with SME."
+  },
+  {
+    "column name": "notify_customer_wr_received",
+    "description": "Yes/No flag to send a customer notification when a work request is received."
+  },
+  {
+    "column name": "notify_customer_wr_wo_converted",
+    "description": "Yes/No flag to send a customer notification when a work request is converted to a work order."
+  },
+  {
+    "column name": "notify_customer_wr_approval_needed",
+    "description": "Yes/No flag to send a customer notification when approval is required on a work request."
+  },
+  {
+    "column name": "notify_customer_wr_denied",
+    "description": "Yes/No flag to send a customer notification when a work request is denied."
+  },
+  {
+    "column name": "notify_customer_wr_closed",
+    "description": "Yes/No flag to send a customer notification when a work request is closed."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this record was last updated."
+  },
+  {
+    "column name": "notify_customer_req_comments",
+    "description": "Yes/No flag to notify the customer when comments are added on a request (distinct from work requests); confirm with SME."
+  },
+  {
+    "column name": "notify_customer_req_request",
+    "description": "Yes/No flag to notify the customer when a request is submitted or updated (distinct from work requests); confirm with SME."
+  },
+  {
+    "column name": "tmp_on_req_comments",
+    "description": "Reference to the notification template used when comments are added on a request; likely a template ID/code; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_req_request",
+    "description": "Reference to the notification template used when a request is submitted or updated; likely a template ID/code; confirm with SME."
+  }
+]

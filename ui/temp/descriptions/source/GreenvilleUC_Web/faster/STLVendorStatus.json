@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "VendorStatusID",
+    "description": "System-generated numeric key identifying a unique vendor lifecycle state; used to join lookup tables and reference statuses in other records."
+  },
+  {
+    "column name": "VendorStatus",
+    "description": "Short text label indicating a vendor’s current lifecycle state within the system."
+  },
+  {
+    "column name": "VendorStatusDesc",
+    "description": "Human-readable description elaborating on the meaning and usage of the lifecycle state for display, help text, or reporting."
+  }
+]

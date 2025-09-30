@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "EngineLocationID",
+    "description": "Unique identifier for a standardized engine placement option, enabling consistent reference in asset and maintenance data."
+  },
+  {
+    "column name": "EngineLocation",
+    "description": "Text label describing where an engine is mounted on the asset to support classification, analytics, and operational reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the placement option is retired or no longer valid; prevents use in new records while preserving history."
+  }
+]

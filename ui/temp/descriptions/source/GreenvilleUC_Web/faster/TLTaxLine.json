@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "TaxLineID",
+    "description": "Unique system-generated identifier for a tax line record, used as the primary key and for referential links."
+  },
+  {
+    "column name": "TaxLine",
+    "description": "Business code identifying the specific tax reporting line item to which amounts are mapped (e.g., Schedule C line); used for tax form mapping."
+  },
+  {
+    "column name": "TaxLineDesc",
+    "description": "Readable description of the tax line item’s purpose or tax form context, displayed in UIs and reports to clarify the code."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the tax line is deprecated/inactive and should not be used for new mappings; retained only for historical reference."
+  }
+]

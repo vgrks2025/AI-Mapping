@@ -1,0 +1,78 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the miscellaneous cost line entry."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-maintained date/time of the most recent change to this record; supports auditing and synchronization."
+  },
+  {
+    "column name": "item",
+    "description": "Likely identifier or code for the miscellaneous item or charge applied to the work order; confirm with SME."
+  },
+  {
+    "column name": "itemr",
+    "description": "Human-readable reference or description associated with the item; confirm with SME."
+  },
+  {
+    "column name": "actwo",
+    "description": "Work order identifier used for accounting or actual cost posting; often matches the main work order number; confirm with SME."
+  },
+  {
+    "column name": "actwor",
+    "description": "Reference field indicating the related record type/table for the accounting work order link; confirm with SME."
+  },
+  {
+    "column name": "workorder",
+    "description": "Work order number that this miscellaneous charge is linked to."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Reference field indicating the related record type/table for the main work order link; confirm with SME."
+  },
+  {
+    "column name": "unmdesc",
+    "description": "Free text description of the miscellaneous charge, potentially migrated from a legacy system."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional remarks or notes about this charge line."
+  },
+  {
+    "column name": "total",
+    "description": "Extended amount for the line after quantity is applied; may equal unit cost when quantity is one."
+  },
+  {
+    "column name": "cost",
+    "description": "Unit cost or price for the charge before quantity and taxes."
+  },
+  {
+    "column name": "qty",
+    "description": "Quantity associated with this charge line."
+  },
+  {
+    "column name": "taxable",
+    "description": "Indicates whether this line is subject to sales or use tax."
+  },
+  {
+    "column name": "billable",
+    "description": "Indicates whether this charge should be billed to an external customer or internal department."
+  },
+  {
+    "column name": "mang_item",
+    "description": "Flag indicating whether the entry references an inventory-managed item versus a freeform miscellaneous charge; confirm with SME."
+  },
+  {
+    "column name": "dateadded",
+    "description": "Date the charge line was created or entered into the system."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from the source legacy system used for data lineage and reconciliation."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Source legacy table name for lineage and troubleshooting."
+  }
+]

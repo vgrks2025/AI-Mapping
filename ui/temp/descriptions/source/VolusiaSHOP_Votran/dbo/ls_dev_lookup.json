@@ -1,0 +1,114 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the lookup record; uniquely identifies a translatable UI string used by the application."
+  },
+  {
+    "column name": "hashkey",
+    "description": "Deterministic content hash for the string/context, used to ensure uniqueness, detect changes, and sync translations across environments."
+  },
+  {
+    "column name": "ZH",
+    "description": "Chinese localization of the UI text for this lookup entry (menu label, command, message, etc.)."
+  },
+  {
+    "column name": "ZH_Prop",
+    "description": "Status/quality metadata for the Chinese entry (e.g., verified, auto-translated, confidence); exact semantics likely system-specific; confirm with SME."
+  },
+  {
+    "column name": "EN",
+    "description": "English UI text for this lookup entry (menu label, command, message, etc.)."
+  },
+  {
+    "column name": "EN_Prop",
+    "description": "Status/quality metadata for the English entry (e.g., verified, auto-translated, priority); exact semantics likely system-specific; confirm with SME."
+  },
+  {
+    "column name": "FR",
+    "description": "French localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "FR_Prop",
+    "description": "Status/quality metadata for the French entry; meaning of values is likely implementation-specific; confirm with SME."
+  },
+  {
+    "column name": "DE",
+    "description": "German localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "DE_Prop",
+    "description": "Status/quality metadata for the German entry; exact interpretation of values should be confirmed with SME."
+  },
+  {
+    "column name": "IT",
+    "description": "Italian localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "IT_Prop",
+    "description": "Status/quality metadata for the Italian entry; likely indicates verification or translation method; confirm with SME."
+  },
+  {
+    "column name": "JA",
+    "description": "Japanese localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "JA_Prop",
+    "description": "Status/quality metadata for the Japanese entry; semantics of values are implementation-specific; confirm with SME."
+  },
+  {
+    "column name": "NO",
+    "description": "Norwegian localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "NO_Prop",
+    "description": "Status/quality metadata for the Norwegian entry; likely denotes verification or translation source; confirm with SME."
+  },
+  {
+    "column name": "PT",
+    "description": "Portuguese localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "PT_Prop",
+    "description": "Status/quality metadata for the Portuguese entry; exact meaning of codes should be confirmed with SME."
+  },
+  {
+    "column name": "RU",
+    "description": "Russian localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "RU_Prop",
+    "description": "Status/quality metadata for the Russian entry (e.g., verified vs. machine translation); confirm exact semantics with SME."
+  },
+  {
+    "column name": "ES",
+    "description": "Spanish localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "ES_Prop",
+    "description": "Status/quality metadata for the Spanish entry; values indicate properties such as verification or translation method; confirm with SME."
+  },
+  {
+    "column name": "IW",
+    "description": "Hebrew localization of the UI text (legacy language code IW)."
+  },
+  {
+    "column name": "IW_Prop",
+    "description": "Status/quality metadata for the Hebrew entry; semantics of values should be confirmed with SME."
+  },
+  {
+    "column name": "AR",
+    "description": "Arabic localization of the UI text for this lookup entry."
+  },
+  {
+    "column name": "AR_Prop",
+    "description": "Status/quality metadata for the Arabic entry; likely indicates verification or translation provenance; confirm with SME."
+  },
+  {
+    "column name": "UE",
+    "description": "Localization for the 'UE' locale; likely a specific language variant or regional code; meaning of this locale code is unclear; confirm with SME."
+  },
+  {
+    "column name": "UE_Prop",
+    "description": "Status/quality metadata for the UE entry; intended semantics mirror other *_Prop fields; confirm with SME."
+  }
+]

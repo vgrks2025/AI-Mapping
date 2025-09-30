@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this row, used as the primary key and for joins."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit datetime when the row was created or last modified, stored as YYYYMMDDHHMMSSmmm; timezone/source system may need confirmation."
+  },
+  {
+    "column name": "altfuel",
+    "description": "Boolean flag marking alternative fuel classification for compliance and reporting."
+  },
+  {
+    "column name": "fueltype",
+    "description": "Human-readable product or service description shown on fueling and purchase records."
+  },
+  {
+    "column name": "code",
+    "description": "Short product/service code used in transactions and integrations to reference this item."
+  },
+  {
+    "column name": "cost",
+    "description": "Default unit price for this item; likely per gallon or unit and currency unspecified; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Cross-reference identifier from a legacy system for migration or mapping purposes."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the originating table in the legacy system associated with this record."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the item is inactive and should be excluded from new transactions."
+  }
+]

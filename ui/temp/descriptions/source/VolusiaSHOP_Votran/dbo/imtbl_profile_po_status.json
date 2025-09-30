@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this profile-based purchase order status transition rule."
+  },
+  {
+    "column name": "user_profile",
+    "description": "Identifier of the user role/profile that this purchase order status transition permission applies to; likely a foreign key to a user profile table."
+  },
+  {
+    "column name": "from_status",
+    "description": "Code for the current purchase order status from which a transition is permitted for the specified profile; values reference the PO status code list."
+  },
+  {
+    "column name": "to_status",
+    "description": "Code for the target purchase order status that the profile is allowed to set; values reference the PO status code list."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this rule, independent of user audit fields; likely maintained by triggers or application logic (confirm with SME)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Identifier or name of the user who most recently updated this record; likely the login/username, distinct from numeric user_id fields (confirm with SME)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID of the account that created this transition rule; enables auditability and accountability."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the transition rule was initially created in the system."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID of the account that last updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the latest user-driven update to this record."
+  }
+]

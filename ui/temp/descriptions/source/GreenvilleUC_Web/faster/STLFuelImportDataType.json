@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FuelImportDataTypeID",
+    "description": "Surrogate key identifying a specific data-type category used to validate and parse fields in fuel import files; referenced by mappings and rules across the import process."
+  },
+  {
+    "column name": "DataTypeDesc",
+    "description": "Business-friendly label describing the expected format for an imported field, enabling validation and transformation logic during fuel data ingestion."
+  }
+]

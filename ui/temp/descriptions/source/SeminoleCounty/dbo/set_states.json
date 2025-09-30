@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "abbrev",
+    "description": "Two-character postal abbreviation for the jurisdiction (U.S. state or D.C.) used in addresses, registrations, and regulatory reporting."
+  },
+  {
+    "column name": "name",
+    "description": "Official long name of the jurisdiction corresponding to the abbreviation; used for display, reporting, and master data lookups."
+  },
+  {
+    "column name": "default_state",
+    "description": "Flag indicating the organization’s default operating/registration jurisdiction for new records (e.g., vehicles, drivers, locations); likely Yes/No. Meaning may vary by tenant; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or system service that created the record for audit trail and data lineage."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created in the application, used for auditing and change history."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or system service that last modified the record for audit and traceability."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record, supporting audit trails and data synchronization."
+  }
+]

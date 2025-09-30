@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for a work order assignment record."
+  },
+  {
+    "column name": "work_order",
+    "description": "Identifier of the work order to which this assignment belongs."
+  },
+  {
+    "column name": "assigned_to",
+    "description": "Identifier of the person, technician, or team assigned to the work order. Likely a user/employee ID; confirm with SME."
+  },
+  {
+    "column name": "assigned_to_primary",
+    "description": "Boolean flag indicating the primary assignee when multiple assignees exist."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "User identifier of who last changed this assignment; likely legacy or redundant; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this assignment record was last updated; may duplicate other modified timestamp fields; confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "User identifier for the last modifier of this record; likely redundant; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier that created this assignment record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time the assignment record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier that last modified this assignment record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time the assignment record was last modified."
+  }
+]

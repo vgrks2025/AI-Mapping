@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "code",
+    "description": "System code identifying the unit of measure used on parts, fluids, work orders, and transactions."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable name for the unit of measure corresponding to the code."
+  },
+  {
+    "column name": "cimpro",
+    "description": "Legacy CIMPRO unit-of-measure mapping used for integrations; likely a code from an external or retired system—confirm with SME."
+  },
+  {
+    "column name": "alt_uom",
+    "description": "Alternate unit of measure associated for conversions or display; likely stores the code of a compatible unit—confirm with SME."
+  },
+  {
+    "column name": "alt2_uom",
+    "description": "Second alternate unit of measure available for conversions when multiple equivalents exist—confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User identifier that created this unit-of-measure record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created in the system."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User identifier that last modified this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record."
+  }
+]

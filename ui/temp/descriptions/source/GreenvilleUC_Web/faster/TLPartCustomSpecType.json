@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "PartCustomSpecTypeID",
+    "description": "Primary key for the part specification type record, uniquely identifying it for references and relationships."
+  },
+  {
+    "column name": "PartCustomSpecType",
+    "description": "Human-readable category name for classifying parts by equipment or operational context."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the type is retired and should not be used for new assignments; kept for historical reporting."
+  }
+]

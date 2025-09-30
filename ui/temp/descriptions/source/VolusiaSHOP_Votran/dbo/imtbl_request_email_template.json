@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the email template record; uniquely identifies a row."
+  },
+  {
+    "column name": "id",
+    "description": "Business-facing identifier or label for the template (e.g., request type or subject); values may be friendly names or technical keys; confirm exact usage with SME."
+  },
+  {
+    "column name": "default_template",
+    "description": "Flag indicating whether this is the default template for its request category (1=true, 0=false)."
+  },
+  {
+    "column name": "email_body",
+    "description": "Email body template text, potentially with placeholders/tokens populated from request data."
+  },
+  {
+    "column name": "template_name",
+    "description": "Technical name/code of the template used by application logic or file references."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this template record."
+  },
+  {
+    "column name": "Description",
+    "description": "Narrative summary of the template’s purpose or usage."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the template record (audit)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the template record was created (audit)."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the template record (audit)."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified the template record (audit; may overlap with last_modified); confirm with SME."
+  }
+]

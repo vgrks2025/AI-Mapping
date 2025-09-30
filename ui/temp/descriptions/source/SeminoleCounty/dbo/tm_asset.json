@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Identifier for the maintenance task or template linked to the asset; likely a human-readable code. Confirm with SME."
+  },
+  {
+    "column name": "sch_no",
+    "description": "Numeric schedule or step number within the task/template to order procedures or intervals; confirm with SME."
+  },
+  {
+    "column name": "row_no",
+    "description": "Row or line within the schedule or template used for grouping or ordering entries."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Execution sequence used to control processing or display order when multiple rows exist."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset to which the maintenance task or schedule applies."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Category of the asset (for example, vehicle, generator) used for grouping, business rules, or reporting."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or system process that created the record, captured for audit trail."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or system process that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Code for the site or facility where the asset is located or maintenance is performed."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Identifier for a sublocation within the site (such as building, bay, or area) for precise placement."
+  },
+  {
+    "column name": "subsys_id",
+    "description": "Identifier of the asset subsystem or component targeted by the task; likely a component reference. Confirm with SME."
+  },
+  {
+    "column name": "cost_share",
+    "description": "Percentage of maintenance cost allocated to this asset or line within a shared task (0 to 100)."
+  }
+]

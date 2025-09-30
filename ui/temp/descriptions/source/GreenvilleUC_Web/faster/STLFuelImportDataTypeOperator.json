@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "FuelImportDataTypeOperatorID",
+    "description": "Surrogate primary key for the row that links a fuel import data category to a specific importing operator/provider."
+  },
+  {
+    "column name": "FuelImportDataTypeID",
+    "description": "Foreign key referencing the cataloged fuel import data category/format (e.g., transactions, pricing, invoices) used in this operator mapping; confirm specific categories with SME."
+  },
+  {
+    "column name": "FuelImportOperatorID",
+    "description": "Foreign key referencing the external operator/provider that supplies the fuel data import (e.g., fuel card issuer or integration partner) associated with this mapping; confirm operator scope with SME."
+  }
+]

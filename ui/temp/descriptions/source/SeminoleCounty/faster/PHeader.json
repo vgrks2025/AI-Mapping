@@ -1,0 +1,278 @@
+[
+  {
+    "column name": "PHKey",
+    "description": "Unique identifier for the part record in the inventory/catalog, used across transactions and references."
+  },
+  {
+    "column name": "PHStoreRoom",
+    "description": "Code for the storeroom or warehouse where the item is managed and stored."
+  },
+  {
+    "column name": "PHUID",
+    "description": "System-generated unique numeric ID for this item record, used for internal joins and references."
+  },
+  {
+    "column name": "PHEquiv",
+    "description": "Identifier linking this item to an equivalent/alternate part group for interchangeability; likely equals itself when no alternates; confirm with SME."
+  },
+  {
+    "column name": "PHBarcode",
+    "description": "Binary flag indicating whether the item uses a barcode for identification and scanning."
+  },
+  {
+    "column name": "PHBarcodeDivisor",
+    "description": "Divisor used to scale scanned barcode quantities to the inventory unit of measure; confirm with SME."
+  },
+  {
+    "column name": "PHBCEquiv",
+    "description": "Alternate barcode value associated with an equivalent part for cross-referencing; confirm with SME."
+  },
+  {
+    "column name": "PHCategory",
+    "description": "Item category or classification code for reporting, purchasing, or accounting controls."
+  },
+  {
+    "column name": "PHCoreFlag",
+    "description": "Indicates the item carries a core return/deposit requirement."
+  },
+  {
+    "column name": "PHCoreUnitCost",
+    "description": "Monetary amount of the core deposit per unit."
+  },
+  {
+    "column name": "PHCycle",
+    "description": "Cycle-count classification indicating how frequently the item should be counted."
+  },
+  {
+    "column name": "PHCycleStatus",
+    "description": "Status of the current or most recent cycle count for the item."
+  },
+  {
+    "column name": "PHDateCyclePosted",
+    "description": "Date the latest cycle count adjustment was posted to inventory."
+  },
+  {
+    "column name": "PHDateChg",
+    "description": "Date the item master record was last modified."
+  },
+  {
+    "column name": "PHDateLastUsed",
+    "description": "Most recent date the item was issued or consumed."
+  },
+  {
+    "column name": "PHDescription1",
+    "description": "Primary short description of the item."
+  },
+  {
+    "column name": "PHDescription2",
+    "description": "Secondary description or additional details for the item."
+  },
+  {
+    "column name": "PHEOQFlag",
+    "description": "Indicates whether economic order quantity logic is enabled for this item."
+  },
+  {
+    "column name": "PHHUFlag",
+    "description": "Flag for handling unit/packaging requirement or special handling; likely denotes items issued in handling units; confirm with SME."
+  },
+  {
+    "column name": "PHLocation",
+    "description": "Primary bin or shelf location of the item within the storeroom."
+  },
+  {
+    "column name": "PHLowLimit",
+    "description": "Minimum stock level (reorder point) before replenishment is triggered."
+  },
+  {
+    "column name": "PHMarkUp",
+    "description": "Markup percentage applied to the item’s cost for pricing."
+  },
+  {
+    "column name": "PHMaxLimit",
+    "description": "Maximum desired on-hand stock level."
+  },
+  {
+    "column name": "PHMaxUnitIssue",
+    "description": "Maximum quantity allowed to be issued in a single transaction."
+  },
+  {
+    "column name": "PHOpIDChg",
+    "description": "User or operator ID that last updated the item record."
+  },
+  {
+    "column name": "PHOrderLeadTime",
+    "description": "Supplier lead time required to replenish the item."
+  },
+  {
+    "column name": "PHOrderLTimeType",
+    "description": "Unit of measure for the lead time (for example, days or weeks); confirm with SME."
+  },
+  {
+    "column name": "PHQtyInStock",
+    "description": "Current on-hand quantity in inventory."
+  },
+  {
+    "column name": "PHSafeLimit",
+    "description": "Safety stock quantity intended to buffer against demand or supply variability."
+  },
+  {
+    "column name": "PHSeasonalUsage",
+    "description": "Indicator or factor for seasonal demand patterns; confirm with SME."
+  },
+  {
+    "column name": "PHStatus",
+    "description": "Lifecycle status of the item (e.g., active or inactive)."
+  },
+  {
+    "column name": "PHTaxCode",
+    "description": "Taxability code used to determine applicable sales or use tax treatment."
+  },
+  {
+    "column name": "PHTimeChg",
+    "description": "Time of day when the item record was last modified."
+  },
+  {
+    "column name": "PHType",
+    "description": "Item type/class code (such as stocked part, tool, or service); confirm with SME."
+  },
+  {
+    "column name": "PHUnitCost",
+    "description": "Current standard unit cost of the item, excluding freight and taxes."
+  },
+  {
+    "column name": "PHUnitOfIssue",
+    "description": "Unit of measure used when issuing the item from inventory."
+  },
+  {
+    "column name": "PHUnitOfOrder",
+    "description": "Unit of measure used when purchasing the item."
+  },
+  {
+    "column name": "PHUOIMultiplier",
+    "description": "Conversion factor between purchase unit and issue unit of measure."
+  },
+  {
+    "column name": "PHVendor",
+    "description": "Preferred or primary supplier for the item."
+  },
+  {
+    "column name": "PHWHKeyLastUsed",
+    "description": "Reference key for the last work order or transaction that consumed this item; confirm with SME."
+  },
+  {
+    "column name": "PHAltPNum",
+    "description": "Alternate internal or supplier part number for cross-reference."
+  },
+  {
+    "column name": "PHCatalog",
+    "description": "Supplier catalog identifier for the item."
+  },
+  {
+    "column name": "PHManufactNum",
+    "description": "Manufacturer’s part number."
+  },
+  {
+    "column name": "PHMSDS",
+    "description": "Link or identifier for the item’s safety data sheet (SDS/MSDS)."
+  },
+  {
+    "column name": "PHRef1",
+    "description": "User-defined reference field for additional notes or codes (slot 1)."
+  },
+  {
+    "column name": "PHRef2",
+    "description": "User-defined reference field for additional notes or codes (slot 2)."
+  },
+  {
+    "column name": "PHRef3",
+    "description": "User-defined reference field for additional notes or codes (slot 3)."
+  },
+  {
+    "column name": "PHRef4",
+    "description": "User-defined reference field for additional notes or codes (slot 4)."
+  },
+  {
+    "column name": "PHNonStock",
+    "description": "Indicates the item is non-stock (special order or direct purchase)."
+  },
+  {
+    "column name": "PHEconCode1",
+    "description": "Economic or accounting classification code (level 1), such as cost center or GL mapping; confirm with SME."
+  },
+  {
+    "column name": "PHEconCode2",
+    "description": "Economic or accounting classification code (level 2); confirm with SME."
+  },
+  {
+    "column name": "PHEconCode3",
+    "description": "Economic or accounting classification code (level 3); confirm with SME."
+  },
+  {
+    "column name": "PHPUCode",
+    "description": "Purchasing or pricing unit code; confirm with SME."
+  },
+  {
+    "column name": "PHInv",
+    "description": "Flag indicating inclusion in physical inventory processes or counts; confirm with SME."
+  },
+  {
+    "column name": "PHMTBFCycle",
+    "description": "Mean time between failures cycle category for planned replacement; confirm with SME."
+  },
+  {
+    "column name": "PHMTBFCycleLength",
+    "description": "Length of the MTBF cycle for this item; unit defined elsewhere; confirm with SME."
+  },
+  {
+    "column name": "PHLocation2",
+    "description": "Secondary or overflow bin location for the item."
+  },
+  {
+    "column name": "PHABCUCC",
+    "description": "ABC classification based on unit carrying cost to prioritize inventory control."
+  },
+  {
+    "column name": "PHVMRSCode",
+    "description": "Standard VMRS code classifying the part for fleet maintenance reporting."
+  },
+  {
+    "column name": "PHABCEVC",
+    "description": "ABC classification based on extended value consumption (usage times cost)."
+  },
+  {
+    "column name": "PHEOQDeviation",
+    "description": "Allowable variance from the calculated economic order quantity when placing orders."
+  },
+  {
+    "column name": "PHEOQOverRideFlag",
+    "description": "Indicates that EOQ is manually overridden for this item."
+  },
+  {
+    "column name": "PHLastUnitCost",
+    "description": "Most recent purchase unit cost paid for the item."
+  },
+  {
+    "column name": "PHRTY",
+    "description": "Reorder or replenishment type code (e.g., stocked, non-stock, repairable); confirm with SME."
+  },
+  {
+    "column name": "PHTax",
+    "description": "Tax component used in cost calculations for the item; confirm with SME if amount or rate."
+  },
+  {
+    "column name": "PHShipping",
+    "description": "Freight or shipping cost component per unit."
+  },
+  {
+    "column name": "PHTrueCost",
+    "description": "Fully burdened unit cost including base cost and adders such as freight and tax."
+  },
+  {
+    "column name": "PHNoteExists",
+    "description": "Indicator that notes or attachments exist for this item."
+  },
+  {
+    "column name": "PHGraphic",
+    "description": "Reference to an image or diagram for the item; likely a file identifier or flag; confirm with SME."
+  }
+]

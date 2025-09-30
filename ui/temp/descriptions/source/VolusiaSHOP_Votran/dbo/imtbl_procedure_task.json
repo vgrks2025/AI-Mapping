@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this procedure–task link record."
+  },
+  {
+    "column name": "procedures",
+    "description": "ID of the maintenance procedure this task is linked to; likely a foreign key to the procedures master (confirm with SME)."
+  },
+  {
+    "column name": "f_task",
+    "description": "ID of the maintenance task included in the procedure; likely references the task catalog (confirm with SME)."
+  },
+  {
+    "column name": "sequence",
+    "description": "Order of execution for the task within the procedure; lower numbers occur earlier (confirm 0-based with SME)."
+  },
+  {
+    "column name": "estimated_downtime_hours",
+    "description": "Estimated asset downtime, in hours, attributable to executing this task within the procedure."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Database timestamp when this record was last updated by any process."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp captured by the application when a user last edited the record; may mirror the standard last modified time (confirm with SME)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last changed by a user."
+  }
+]

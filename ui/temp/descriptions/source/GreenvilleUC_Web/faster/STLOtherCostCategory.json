@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "OtherCostCategoryID",
+    "description": "Surrogate key identifying a cost category used to classify cost line items on service/repair transactions; referenced by transactions for reporting, costing, and analytics."
+  },
+  {
+    "column name": "OtherCostCategoryDesc",
+    "description": "Human-readable label for the cost category used on service/repair transactions and reports; determines how related costs are grouped and displayed."
+  }
+]

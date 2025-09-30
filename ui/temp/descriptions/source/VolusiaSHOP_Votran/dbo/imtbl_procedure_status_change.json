@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this procedure status change event."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the status change was recorded in the system."
+  },
+  {
+    "column name": "user_id",
+    "description": "Identifier of the user who performed the status change."
+  },
+  {
+    "column name": "procedures",
+    "description": "Identifier of the procedure/work item whose status was changed (e.g., maintenance or inspection task)."
+  },
+  {
+    "column name": "static_procedure_id",
+    "description": "Denormalized reference to a static lookup of the procedure at change time; likely for reporting consistency; confirm with SME."
+  },
+  {
+    "column name": "static_procedure_description",
+    "description": "Snapshot description of the procedure from a static lookup captured at change time; likely for reporting; confirm with SME."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code representing the procedure’s status after the change; maps to a status lookup."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Denormalized lookup key for the new status captured at change time; used for historical reporting; confirm with SME."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Snapshot description of the new status from a static lookup at change time; confirm with SME."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code representing the procedure’s status before the change; maps to a status lookup."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Denormalized lookup key for the prior status at change time; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Snapshot description of the prior status from a static lookup; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this status change record was last updated in the database."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-driven modification to this record; appears redundant with last_modified—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that originally created this status change record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this status change record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that most recently modified this status change record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this status change record was most recently modified."
+  }
+]

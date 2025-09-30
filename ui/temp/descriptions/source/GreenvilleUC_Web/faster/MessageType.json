@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "MessageTypeID",
+    "description": "Integer key identifying each message type in the fleet platform; used to categorize event logs, alerts, and notifications and to reference this lookup from other tables."
+  },
+  {
+    "column name": "Desc",
+    "description": "Human-readable label describing the message type’s purpose or severity; displayed in user interfaces and reports for quick understanding."
+  }
+]

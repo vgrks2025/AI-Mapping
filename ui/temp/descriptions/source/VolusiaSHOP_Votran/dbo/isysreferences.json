@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for each reference definition row. Enables consistent referencing and maintenance of parent–child relationship metadata."
+  },
+  {
+    "column name": "parent_object",
+    "description": "Name of the source entity or view acting as the parent in a defined relationship. Indicates where the referenced field resides for metadata-driven joins in fleet reporting."
+  },
+  {
+    "column name": "parent_col",
+    "description": "Field within the parent entity used for the relationship, typically the key or attribute referenced by the child. Supports consistent join logic across reports."
+  },
+  {
+    "column name": "child_object",
+    "description": "Name of the dependent entity or view participating as the child in the relationship. Identifies the dataset that links to the parent for analysis and reporting."
+  },
+  {
+    "column name": "child_col",
+    "description": "Field within the child entity that links back to the parent field, usually a foreign key or comparable reference. Drives join conditions in fleet reports."
+  }
+]

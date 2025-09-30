@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "SaID",
+    "description": "Unique surrogate key for a compliance/administrative requirement type in the fleet system."
+  },
+  {
+    "column name": "Sa",
+    "description": "Human-readable name of the requirement type tracked for vehicles or drivers (compliance/administrative)."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating this requirement type is obsolete and maintained only for historical purposes; exclude from new use."
+  },
+  {
+    "column name": "IsUseCurrent",
+    "description": "Flag indicating the ‘current’ version of this requirement type should be applied by default when assigning or validating; likely a control for default applicability; confirm with SME."
+  }
+]

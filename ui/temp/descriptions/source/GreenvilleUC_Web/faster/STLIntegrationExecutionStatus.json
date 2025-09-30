@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntegrationExecutionStatusID",
+    "description": "Numeric identifier for each distinct execution outcome/state of an integration run; used for lookups and referential integrity across related tables."
+  },
+  {
+    "column name": "IntegrationExecutionStatus",
+    "description": "Human-readable label describing the outcome or current state of an integration run, supporting monitoring, auditing, and reporting."
+  }
+]

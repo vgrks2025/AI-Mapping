@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "KpiID",
+    "description": "System-generated unique identifier for a performance metric used in fleet reporting and dashboards."
+  },
+  {
+    "column name": "KpiDesc",
+    "description": "Human-readable title or description for the performance metric shown to users in reports and dashboards."
+  },
+  {
+    "column name": "MinHeight",
+    "description": "Lowest permitted display height for rendering the metric’s visualization (likely in pixels; confirm with SME)."
+  },
+  {
+    "column name": "MinWidth",
+    "description": "Lowest permitted display width for rendering the metric’s visualization (likely in pixels; confirm with SME)."
+  },
+  {
+    "column name": "MaxHeight",
+    "description": "Maximum display height allowed for the metric’s visualization to maintain layout consistency (likely in pixels; confirm with SME)."
+  },
+  {
+    "column name": "MaxWidth",
+    "description": "Maximum display width allowed for the metric’s visualization to maintain layout consistency (likely in pixels; confirm with SME)."
+  }
+]

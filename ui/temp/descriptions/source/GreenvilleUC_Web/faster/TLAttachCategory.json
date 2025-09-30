@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AttachCategoryID",
+    "description": "Unique identifier for an attachment category used to classify uploaded files across the system; primary key for this lookup."
+  },
+  {
+    "column name": "CategoryName",
+    "description": "Descriptive name of the attachment category shown to users for selection and reporting. Used to organize and filter stored attachments."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the category is deprecated or inactive for new attachments while retained for historical records; may control visibility and selection in user interfaces."
+  }
+]

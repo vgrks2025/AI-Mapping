@@ -1,0 +1,146 @@
+[
+  {
+    "column name": "tran_no",
+    "description": "Unique identifier for the inventory transaction."
+  },
+  {
+    "column name": "batch_no",
+    "description": "Identifier grouping multiple transactions for batch processing/posting; confirm conventions with SME."
+  },
+  {
+    "column name": "iss_rec",
+    "description": "Code indicating whether stock was issued or received into inventory; confirm code set with SME."
+  },
+  {
+    "column name": "tran_type",
+    "description": "Transaction type code categorizing the movement (such as issue, receipt, adjustment, transfer); confirm mapping with SME."
+  },
+  {
+    "column name": "tran_date",
+    "description": "Effective date and time of the transaction used for inventory and accounting timing."
+  },
+  {
+    "column name": "inv_no",
+    "description": "External invoice number associated with the transaction for matching and audit; likely populated on receipts or returns; confirm with SME."
+  },
+  {
+    "column name": "inv_date",
+    "description": "Date on the associated external invoice used for terms, matching, and audit."
+  },
+  {
+    "column name": "rel_by",
+    "description": "User or approver who released or authorized the transaction."
+  },
+  {
+    "column name": "rec_by",
+    "description": "User who received the items or acknowledged the transaction; null when not applicable."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or justification for the transaction."
+  },
+  {
+    "column name": "send_flag",
+    "description": "Indicator that the transaction was exported or sent to an external system or interface; confirm usage and values with SME."
+  },
+  {
+    "column name": "tax_cost",
+    "description": "Total tax amount applied to the transaction header."
+  },
+  {
+    "column name": "freight_cost",
+    "description": "Freight or shipping charges allocated to this transaction."
+  },
+  {
+    "column name": "misc_cost",
+    "description": "Other non-tax, non-freight charges allocated to this transaction."
+  },
+  {
+    "column name": "tran_udf1",
+    "description": "User-defined header field for site-specific data; semantics configured locally."
+  },
+  {
+    "column name": "tran_udf2",
+    "description": "User-defined header field for site-specific data; semantics configured locally."
+  },
+  {
+    "column name": "tran_udf3",
+    "description": "User-defined header field for site-specific data; semantics configured locally."
+  },
+  {
+    "column name": "tran_udf4",
+    "description": "User-defined header field for site-specific data; semantics configured locally."
+  },
+  {
+    "column name": "tran_udf5",
+    "description": "User-defined header field for site-specific data; semantics configured locally."
+  },
+  {
+    "column name": "status",
+    "description": "Lifecycle status code for the transaction (such as open, posted, closed); confirm with SME."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Code of the warehouse or stocking location where the transaction occurred or is recorded."
+  },
+  {
+    "column name": "wnprogress",
+    "description": "Flag indicating whether workflow or warehouse processing is in progress; meaning unclear; confirm with SME."
+  },
+  {
+    "column name": "ord_tran",
+    "description": "Reference to the originating order or work order transaction that generated this movement; confirm exact linkage with SME."
+  },
+  {
+    "column name": "tran_log",
+    "description": "System-generated audit or process log details for the transaction; confirm structure and content with SME."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Tax percentage rate used to calculate the tax amount."
+  },
+  {
+    "column name": "exp_flag",
+    "description": "Indicator that costs should be expensed to a cost center rather than capitalized to inventory; confirm values and behavior with SME."
+  },
+  {
+    "column name": "tool_flag",
+    "description": "Flag noting the movement pertains to tool inventory or tooling items; confirm impact on costing and controls with SME."
+  },
+  {
+    "column name": "linked_tran_no",
+    "description": "Identifier of a related transaction, enabling cross-reference (for example, the paired side of a transfer)."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier of the supplier associated with the transaction, used on receipts or returns."
+  },
+  {
+    "column name": "po_no",
+    "description": "Purchase order number related to the transaction, used for matching receipts, returns, or invoices."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the transaction."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the transaction record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the transaction."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "post_dt",
+    "description": "Date and time the transaction was posted to inventory and/or the general ledger."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Identifier linking to attached documents or images related to the transaction, such as invoices or packing slips."
+  }
+]

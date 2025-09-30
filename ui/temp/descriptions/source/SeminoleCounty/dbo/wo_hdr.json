@@ -1,0 +1,906 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier for the work order used across maintenance, scheduling, and billing."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup or shop responsible for the order."
+  },
+  {
+    "column name": "assign_to",
+    "description": "User or technician currently assigned to perform the work."
+  },
+  {
+    "column name": "tm_no",
+    "description": "Identifier for the assigned technician/team member; likely a personnel ID; confirm with SME."
+  },
+  {
+    "column name": "issued",
+    "description": "Date and time the work order was officially issued or opened."
+  },
+  {
+    "column name": "target",
+    "description": "Planned target completion date/time for the work."
+  },
+  {
+    "column name": "closed",
+    "description": "Date and time the order was closed/completed in the system."
+  },
+  {
+    "column name": "status",
+    "description": "Current lifecycle status code of the work order (e.g., open, in progress, closed)."
+  },
+  {
+    "column name": "wo_type",
+    "description": "Code indicating the type of work (e.g., preventive maintenance, repair, inspection)."
+  },
+  {
+    "column name": "wo_descr",
+    "description": "Short description of the problem or work requested as captured at creation."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Accounting or cost center number to which expenses are charged."
+  },
+  {
+    "column name": "project_no",
+    "description": "Project identifier the work is associated with for tracking and billing."
+  },
+  {
+    "column name": "priority",
+    "description": "Business priority level determining scheduling urgency."
+  },
+  {
+    "column name": "wk_in_progress",
+    "description": "Textual workflow state used by dispatch/scheduling to indicate progress."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Supervisor responsible for overseeing this work."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Crew lead or foreman in charge of on-site work."
+  },
+  {
+    "column name": "rec_type",
+    "description": "Record classification code for the entry (e.g., work order vs. other record types)."
+  },
+  {
+    "column name": "origin_code",
+    "description": "Code describing how the request originated (e.g., call-in, inspection, telematics); confirm mappings with SME."
+  },
+  {
+    "column name": "customer_id",
+    "description": "Identifier of the internal or external customer requesting service."
+  },
+  {
+    "column name": "cmpm_flag",
+    "description": "Indicator for maintenance class, typically Corrective (CM) versus Preventive (PM)."
+  },
+  {
+    "column name": "planby",
+    "description": "Planner or scheduler who prepared the work plan."
+  },
+  {
+    "column name": "appvby",
+    "description": "User who approved the work order or plan."
+  },
+  {
+    "column name": "tran_no",
+    "description": "Reference to a related system or financial transaction; confirm linkage with SME."
+  },
+  {
+    "column name": "map_markup",
+    "description": "Stored map annotations or GIS markup relevant to the job location."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours required to complete the job."
+  },
+  {
+    "column name": "est_labor",
+    "description": "Estimated labor cost for the job."
+  },
+  {
+    "column name": "est_equip",
+    "description": "Estimated internal equipment usage cost."
+  },
+  {
+    "column name": "est_part",
+    "description": "Estimated parts/materials cost."
+  },
+  {
+    "column name": "est_ctr",
+    "description": "Estimated contractor/subcontractor cost."
+  },
+  {
+    "column name": "est_misc",
+    "description": "Estimated miscellaneous costs not covered by other estimates."
+  },
+  {
+    "column name": "req_cell_phone",
+    "description": "Requester’s mobile phone number."
+  },
+  {
+    "column name": "req_phone2",
+    "description": "Alternate phone number for the requester."
+  },
+  {
+    "column name": "req_email",
+    "description": "Requester’s email address."
+  },
+  {
+    "column name": "req_text",
+    "description": "Free-text details provided by the requester about the issue."
+  },
+  {
+    "column name": "req_street_number",
+    "description": "Requester address street number."
+  },
+  {
+    "column name": "req_street_name",
+    "description": "Requester address street name."
+  },
+  {
+    "column name": "req_cross_street",
+    "description": "Nearest cross street to the requester’s address."
+  },
+  {
+    "column name": "req_city",
+    "description": "Requester address city."
+  },
+  {
+    "column name": "req_state",
+    "description": "Requester address state/province."
+  },
+  {
+    "column name": "req_zip",
+    "description": "Requester address postal/ZIP code."
+  },
+  {
+    "column name": "site_loc_desc",
+    "description": "Narrative description of the work site location."
+  },
+  {
+    "column name": "req_request",
+    "description": "Short title or summary of the initial service request."
+  },
+  {
+    "column name": "req_comments",
+    "description": "Additional comments supplied with the service request."
+  },
+  {
+    "column name": "req_notes",
+    "description": "Internal notes captured during request intake."
+  },
+  {
+    "column name": "req_use_cust_address",
+    "description": "Flag indicating the work site should use the customer’s stored address."
+  },
+  {
+    "column name": "req_addr_key",
+    "description": "Key referencing the requester’s saved address record."
+  },
+  {
+    "column name": "site_street_number",
+    "description": "Work site address street number."
+  },
+  {
+    "column name": "site_street_name",
+    "description": "Work site address street name."
+  },
+  {
+    "column name": "site_cross_street",
+    "description": "Nearest cross street for the work site."
+  },
+  {
+    "column name": "site_city",
+    "description": "Work site city."
+  },
+  {
+    "column name": "site_state",
+    "description": "Work site state/province."
+  },
+  {
+    "column name": "site_zip_code",
+    "description": "Work site postal/ZIP code."
+  },
+  {
+    "column name": "latitude",
+    "description": "Latitude coordinate of the work site or asset."
+  },
+  {
+    "column name": "longitude",
+    "description": "Longitude coordinate of the work site or asset."
+  },
+  {
+    "column name": "altitude",
+    "description": "Altitude/elevation of the work site, if available."
+  },
+  {
+    "column name": "private_property",
+    "description": "Indicator whether the work location is on private property."
+  },
+  {
+    "column name": "site_addr_key",
+    "description": "Key referencing the stored work site address record."
+  },
+  {
+    "column name": "CrmSrNumber",
+    "description": "Linked CRM service request number."
+  },
+  {
+    "column name": "CrmEntityId",
+    "description": "Identifier of the related CRM entity (e.g., account, asset, case)."
+  },
+  {
+    "column name": "CrmEntityName",
+    "description": "Name of the related CRM entity."
+  },
+  {
+    "column name": "CrmContactType",
+    "description": "Type of CRM contact interaction (e.g., phone, email)."
+  },
+  {
+    "column name": "CrmContactUser",
+    "description": "CRM user or agent who handled the contact."
+  },
+  {
+    "column name": "CrmContactTime",
+    "description": "Timestamp when the CRM contact occurred."
+  },
+  {
+    "column name": "CrmSystemTime",
+    "description": "Timestamp recorded by CRM system for the interaction."
+  },
+  {
+    "column name": "udfh",
+    "description": "User-defined fields header/template identifier; likely links to a UDF configuration. Confirm with SME."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text4",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text5",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text6",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text7",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text8",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text9",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text10",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text11",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text12",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text13",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text14",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text15",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text16",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text17",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text18",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text19",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text20",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_date1",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date2",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date3",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date4",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date5",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date6",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date7",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date8",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date9",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_date10",
+    "description": "Configurable date field for business-specific tracking."
+  },
+  {
+    "column name": "udf_num1",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num2",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num3",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num4",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num5",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num6",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num7",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num8",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num9",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "udf_num10",
+    "description": "Configurable numeric field for business-specific metrics."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update."
+  },
+  {
+    "column name": "action_taken",
+    "description": "Narrative of work performed or corrective actions completed."
+  },
+  {
+    "column name": "sup_notes",
+    "description": "Supervisor’s internal notes regarding the order."
+  },
+  {
+    "column name": "sch_no",
+    "description": "Scheduling reference or schedule number for planned work."
+  },
+  {
+    "column name": "est_total",
+    "description": "Total estimated cost (sum of labor, parts, equipment, contractors, misc.)."
+  },
+  {
+    "column name": "est_qty",
+    "description": "Estimated quantity of units or tasks to complete."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Identifier linking to attached documents, images, or files."
+  },
+  {
+    "column name": "master_wo",
+    "description": "Identifier of the master work order governing this job."
+  },
+  {
+    "column name": "actual_start_dt",
+    "description": "Actual start date and time of work."
+  },
+  {
+    "column name": "actual_finish_dt",
+    "description": "Actual finish/complete date and time."
+  },
+  {
+    "column name": "req_department",
+    "description": "Department that submitted the request."
+  },
+  {
+    "column name": "op_id",
+    "description": "Identifier for the operator/operation associated with the job; confirm with SME."
+  },
+  {
+    "column name": "issue_id",
+    "description": "Reference to a standardized issue or problem code."
+  },
+  {
+    "column name": "portal_id",
+    "description": "Identifier of the portal submission or account that logged the request."
+  },
+  {
+    "column name": "req_is_public",
+    "description": "Flag indicating whether the request is visible publicly."
+  },
+  {
+    "column name": "lack_expertise",
+    "description": "Indicator that work was delayed due to insufficient expertise."
+  },
+  {
+    "column name": "lack_time",
+    "description": "Indicator that work was delayed due to insufficient time availability."
+  },
+  {
+    "column name": "lack_power",
+    "description": "Indicator that work was delayed due to lack of power/utilities."
+  },
+  {
+    "column name": "lack_tools",
+    "description": "Indicator that work was delayed due to unavailable tools/equipment."
+  },
+  {
+    "column name": "lack_info",
+    "description": "Indicator that work was delayed due to missing information."
+  },
+  {
+    "column name": "lack_parts",
+    "description": "Indicator that work was delayed due to unavailable parts."
+  },
+  {
+    "column name": "wo_compl",
+    "description": "Complaint or completion remarks related to the order; meaning may vary. Confirm with SME."
+  },
+  {
+    "column name": "wo_comments",
+    "description": "General comments or notes recorded against the work order."
+  },
+  {
+    "column name": "wr_no",
+    "description": "Linked work request number from the intake system."
+  },
+  {
+    "column name": "reason_dntime",
+    "description": "Reason code or description for asset downtime."
+  },
+  {
+    "column name": "est_start_dt",
+    "description": "Planned start date/time."
+  },
+  {
+    "column name": "est_finish_dt",
+    "description": "Planned finish/complete date/time."
+  },
+  {
+    "column name": "req_date",
+    "description": "Date the service request was submitted."
+  },
+  {
+    "column name": "billable",
+    "description": "Flag indicating if costs are billable to a customer."
+  },
+  {
+    "column name": "req_company",
+    "description": "Company name of the requester or customer."
+  },
+  {
+    "column name": "old_meter",
+    "description": "Meter reading before service (e.g., odometer or engine hours)."
+  },
+  {
+    "column name": "new_meter",
+    "description": "Meter reading after service."
+  },
+  {
+    "column name": "vin",
+    "description": "Vehicle Identification Number of the asset."
+  },
+  {
+    "column name": "lic_no",
+    "description": "License plate or registration number."
+  },
+  {
+    "column name": "model_no",
+    "description": "Manufacturer model number."
+  },
+  {
+    "column name": "hp",
+    "description": "Engine power rating in horsepower."
+  },
+  {
+    "column name": "mfg_no",
+    "description": "Manufacturer’s serial or production number."
+  },
+  {
+    "column name": "model_year",
+    "description": "Model year of the asset."
+  },
+  {
+    "column name": "make",
+    "description": "Manufacturer brand."
+  },
+  {
+    "column name": "fuel_type",
+    "description": "Primary fuel type used by the asset."
+  },
+  {
+    "column name": "autopilot",
+    "description": "Indicator that the asset has autonomous/driver-assist capability; confirm with SME."
+  },
+  {
+    "column name": "geometry",
+    "description": "Geospatial geometry of the location/asset (e.g., GIS point/shape)."
+  },
+  {
+    "column name": "route_seq_no",
+    "description": "Sequence number for this stop in a route."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit code grouping assets, crews, or budgets."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Activity/job code for work classification and reporting."
+  },
+  {
+    "column name": "driver",
+    "description": "Driver associated to the asset at the time of the issue/work."
+  },
+  {
+    "column name": "parent_wo_no",
+    "description": "Identifier of the immediate parent work order in a hierarchy."
+  },
+  {
+    "column name": "mc_id",
+    "description": "Mobile client/user identifier associated with this record."
+  },
+  {
+    "column name": "mc_device_id",
+    "description": "Identifier of the mobile device used to process the order."
+  },
+  {
+    "column name": "mc_platform",
+    "description": "Mobile operating platform (e.g., iOS, Android) used."
+  },
+  {
+    "column name": "mc_deleted",
+    "description": "Flag indicating the record was deleted on a mobile device."
+  },
+  {
+    "column name": "cust_name",
+    "description": "Customer name linked to the order."
+  },
+  {
+    "column name": "customer_type",
+    "description": "Classification of customer (e.g., internal, external)."
+  },
+  {
+    "column name": "wr_deny_reason",
+    "description": "Reason code for denying the associated work request."
+  },
+  {
+    "column name": "wr_deny_comment",
+    "description": "Free-text explanation for the denial decision."
+  },
+  {
+    "column name": "req_address_2",
+    "description": "Requester address second line (suite, unit, etc.)."
+  },
+  {
+    "column name": "site_address_2",
+    "description": "Work site address second line (suite, yard, etc.)."
+  },
+  {
+    "column name": "mc_first_name",
+    "description": "First name of the mobile user/contact linked to the order."
+  },
+  {
+    "column name": "mc_last_name",
+    "description": "Last name of the mobile user/contact linked to the order."
+  },
+  {
+    "column name": "req_cust_id",
+    "description": "External customer identifier provided with the request."
+  },
+  {
+    "column name": "wo_id",
+    "description": "System-generated unique key for the work order record."
+  },
+  {
+    "column name": "wo_mobile_id",
+    "description": "Identifier used by the mobile app to reference the work order."
+  },
+  {
+    "column name": "shared_lem",
+    "description": "Indicator that labor, equipment, and materials are shared across related orders; confirm with SME."
+  },
+  {
+    "column name": "udf_text21",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text22",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text23",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text24",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text25",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text26",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text27",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text28",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text29",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text30",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text31",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text32",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text33",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text34",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text35",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text36",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text37",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text38",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text39",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text40",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text41",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text42",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text43",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text44",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text45",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text46",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text47",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text48",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text49",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "udf_text50",
+    "description": "Configurable free-text field for business-specific data."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier of the external vendor assigned or billed."
+  },
+  {
+    "column name": "claim_filed",
+    "description": "Indicator that an insurance or warranty claim has been filed."
+  },
+  {
+    "column name": "wo_udf1",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf2",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf3",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf4",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf5",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "action_next",
+    "description": "Planned next action or follow-up step."
+  },
+  {
+    "column name": "county_prob",
+    "description": "County where the problem occurred or is recorded; confirm with SME."
+  },
+  {
+    "column name": "wo_udf6",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf7",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf8",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf9",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "wo_udf10",
+    "description": "Work-order-specific user-defined field."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Code for the shop, depot, or location responsible for the work."
+  },
+  {
+    "column name": "site_geometry_from_address",
+    "description": "Geometric location derived from geocoding the address."
+  },
+  {
+    "column name": "site_source",
+    "description": "Source of site location data (e.g., GPS, manual entry, CRM)."
+  },
+  {
+    "column name": "primary_wr_no",
+    "description": "Primary work request number when multiple requests are linked."
+  },
+  {
+    "column name": "geometry_object_id",
+    "description": "Identifier referencing a GIS geometry object."
+  },
+  {
+    "column name": "need_recalc",
+    "description": "Flag indicating derived fields (e.g., costs, routes) need recalculation."
+  },
+  {
+    "column name": "dept_id",
+    "description": "Responsible department identifier."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Sub-location identifier within a facility or yard."
+  },
+  {
+    "column name": "district",
+    "description": "Geographic or organizational district code."
+  },
+  {
+    "column name": "approval_required",
+    "description": "Indicator that formal approval is required before proceeding."
+  },
+  {
+    "column name": "site_udf1",
+    "description": "Site-specific user-defined field."
+  }
+]

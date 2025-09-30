@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "wk_in_progress",
+    "description": "User-facing progress state label for a work request, shown in the work-in-progress view to indicate the current stage."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text explanation describing the meaning or use of this progress state; used for user guidance."
+  },
+  {
+    "column name": "mc_id",
+    "description": "Identifier for the master code or category this status belongs to; likely a foreign key to a code table; confirm with SME."
+  },
+  {
+    "column name": "mc_status_id",
+    "description": "Identifier for the specific status within the master code/status table; used to link to standardized definitions; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "Login or process that created the status record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the status record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Login or process that last modified the status record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time the status record was last modified."
+  },
+  {
+    "column name": "color_code",
+    "description": "UI color assigned to this status for visual cues (e.g., HEX/RGB); confirm format with SME."
+  },
+  {
+    "column name": "default_flag",
+    "description": "Indicator showing whether this status is applied by default when creating a new work request in this context (Y/N)."
+  },
+  {
+    "column name": "system_status",
+    "description": "System-normalized status value mapped to the progress state, used for workflow rules and integrations."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Numeric order controlling how statuses appear or progress within lists and workflows."
+  }
+]

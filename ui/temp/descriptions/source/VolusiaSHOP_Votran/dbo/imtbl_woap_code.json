@@ -1,0 +1,102 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this work order asset procedure code record."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Foreign key to the specific work order asset procedure this entry belongs to."
+  },
+  {
+    "column name": "Date_created",
+    "description": "Timestamp when this entry was first created."
+  },
+  {
+    "column name": "Code",
+    "description": "Identifier of the inspection, test, or measurement being recorded for the procedure."
+  },
+  {
+    "column name": "Code_State",
+    "description": "State or status selected for the code (e.g., OK/Fail/NA); likely enumerated; confirm with SME."
+  },
+  {
+    "column name": "Code_Value",
+    "description": "Recorded numeric or textual value for the code during the procedure."
+  },
+  {
+    "column name": "As_found",
+    "description": "Condition or reading observed before maintenance or repair."
+  },
+  {
+    "column name": "As_Left",
+    "description": "Condition or reading after completion of the work."
+  },
+  {
+    "column name": "Upper_Limit",
+    "description": "Maximum acceptable value for the measurement."
+  },
+  {
+    "column name": "Lower_Limit",
+    "description": "Minimum acceptable value for the measurement."
+  },
+  {
+    "column name": "lower_alarm",
+    "description": "Lower alarm threshold that triggers an alert if crossed."
+  },
+  {
+    "column name": "upper_alarm",
+    "description": "Upper alarm threshold that triggers an alert if exceeded."
+  },
+  {
+    "column name": "Normal_Value",
+    "description": "Expected or nominal value used as a reference."
+  },
+  {
+    "column name": "Normal_State",
+    "description": "Expected classification when within normal condition; likely enumerated; confirm with SME."
+  },
+  {
+    "column name": "Comments",
+    "description": "Free-text notes or remarks about the reading or step."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated change; meaning may overlap with audit fields; confirm with SME."
+  },
+  {
+    "column name": "date_reading_taken",
+    "description": "Date/time the observation or measurement was captured in the field."
+  },
+  {
+    "column name": "code_required",
+    "description": "Boolean flag indicating whether recording this code is mandatory to complete the procedure (0=no, 1=yes)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier that created the entry."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Audit timestamp when the creating user saved the entry; confirm difference from Date_created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier that last modified the entry."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Audit timestamp of the latest user modification."
+  },
+  {
+    "column name": "asset_code_pkey",
+    "description": "Foreign key to the asset code definition referenced by this entry."
+  },
+  {
+    "column name": "comparison_oper",
+    "description": "Comparison operator used to evaluate the value against limits (e.g., >, <, =, between); likely enumerated; confirm with SME."
+  }
+]

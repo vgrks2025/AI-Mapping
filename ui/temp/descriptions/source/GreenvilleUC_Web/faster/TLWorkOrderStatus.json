@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "Status",
+    "description": "Compact code representing the work order's current state. Joins to the status description and drives workflow, reporting, and business rules."
+  },
+  {
+    "column name": "StatusDesc",
+    "description": "Human-readable label for the status code, used in screens and reports to explain the work order's stage."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates the status is retired and should not be assigned to new work orders, but remains for historical reference."
+  },
+  {
+    "column name": "WorkOrderStatusID",
+    "description": "System-generated unique identifier for this status record; used as the primary key and for foreign key references."
+  },
+  {
+    "column name": "IsDowntime",
+    "description": "Flags that a work order in this status counts the asset as out of service for availability and downtime calculations."
+  },
+  {
+    "column name": "IsEmailStatus",
+    "description": "Controls whether entering this status triggers email notifications to stakeholders per configured rules."
+  },
+  {
+    "column name": "IsClearDateOut",
+    "description": "When set, moving into this status clears the work order's Date Out/return-to-service timestamp (likely; confirm with SME)."
+  }
+]

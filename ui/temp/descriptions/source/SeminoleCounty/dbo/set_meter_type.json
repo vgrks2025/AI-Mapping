@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "meter_type",
+    "description": "Code or name identifying the kind of usage meter tracked for assets (e.g., time-based or distance-based)."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable label or description of the meter type for use in screens and reports."
+  },
+  {
+    "column name": "result_type",
+    "description": "Likely indicates the value category or format produced by this meter (e.g., numeric count, time, distance); confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or identifier of the user or process that created this meter type record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the meter type record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or identifier of the user or process that last modified this meter type record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the meter type record was last updated."
+  }
+]

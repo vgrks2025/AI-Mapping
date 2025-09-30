@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "MeterTypeID",
+    "description": "Unique identifier for a meter category used to track asset usage; typically the primary key referenced by assets, readings, and maintenance rules."
+  },
+  {
+    "column name": "MeterDesc",
+    "description": "Human-readable label for the usage meter’s unit or basis, displayed in interfaces and reports when recording or showing readings."
+  },
+  {
+    "column name": "MaxLimit",
+    "description": "Maximum allowed reading for this meter type, used to validate entries or handle rollover logic; likely the cap before rejecting values—confirm with SME."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicator that the meter type is retired and should no longer be used for new records, though historical data remains accessible."
+  },
+  {
+    "column name": "RepairGroupComponentActionID",
+    "description": "Reference to the maintenance action or rule associated with this meter type, linking usage tracking to specific repair workflows; likely a foreign key to a maintenance domain table—confirm with SME."
+  },
+  {
+    "column name": "DefaultAcquireReading",
+    "description": "Flag controlling whether the system should prompt or auto-capture this meter when recording readings by default; likely boolean behavior configurable per meter type—confirm with SME."
+  }
+]

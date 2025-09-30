@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "FieldID",
+    "description": "Unique identifier for the fuel import field definition; used to reference and order fields in import mappings."
+  },
+  {
+    "column name": "FieldDesc",
+    "description": "Human-readable label describing the import field’s business meaning, shown in mapping tools and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the field definition is retired and should be excluded from new imports or mappings, retained only for historical compatibility."
+  },
+  {
+    "column name": "IsValidationApplicable",
+    "description": "Boolean flag specifying whether system validation rules should be enforced for this field during import (e.g., required, format, range checks)."
+  },
+  {
+    "column name": "FuelImportDataTypeID",
+    "description": "Identifier referencing the field’s data type, which determines parsing, storage, and validation behavior (such as text, numeric, or date/time)."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "RepairComponentActionID",
+    "description": "Unique identifier for this component–action association within a repair or maintenance record; likely a surrogate key—confirm with SME."
+  },
+  {
+    "column name": "RepairComponentID",
+    "description": "Foreign key to the component/part being serviced, referencing the component master."
+  },
+  {
+    "column name": "RepairActionID",
+    "description": "Foreign key to the maintenance operation code applied (e.g., replace, repair, inspect), referencing the action/operation lookup."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "AccountStatusID",
+    "description": "Unique internal identifier for a specific account status used in lookups and relationships."
+  },
+  {
+    "column name": "AccountStatus",
+    "description": "Compact code representing the account’s current status for processing, integrations, and UI logic."
+  },
+  {
+    "column name": "AccountStatusDesc",
+    "description": "Human-readable label describing the status code for display in screens and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates the status is retired and should not be assigned to new records; kept for historical reference."
+  },
+  {
+    "column name": "IsSystemDefault",
+    "description": "Marks the status used by default when creating a new account if no status is specified."
+  }
+]

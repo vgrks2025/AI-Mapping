@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "row_no",
+    "description": "Sequential number used to order entries in the guide; not a business key."
+  },
+  {
+    "column name": "user_name",
+    "description": "User account associated with the entry, likely the author or owner; confirm with SME."
+  },
+  {
+    "column name": "shared_with",
+    "description": "Intended audience for the entry (users, roles, or groups) who can view it; format likely IDs or names; confirm with SME."
+  },
+  {
+    "column name": "details",
+    "description": "Main content of the guide entry, such as instructions, procedures, or notes specific to fleet operations."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user who created the entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the entry was created, in system time."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user who last modified the entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the entry."
+  }
+]

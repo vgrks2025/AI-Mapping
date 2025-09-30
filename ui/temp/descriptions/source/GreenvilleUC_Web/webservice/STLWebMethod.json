@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "WebMethodID",
+    "description": "Unique identifier for a specific web service method configuration used in integrations; primary key for the method record."
+  },
+  {
+    "column name": "WebServiceID",
+    "description": "Identifier linking the method to its parent web service/application; foreign key that associates methods under the same service."
+  },
+  {
+    "column name": "WebMethodDesc",
+    "description": "Human-readable description or name of the operation performed by the method, used for display, selection, and auditing."
+  },
+  {
+    "column name": "WebMethodType",
+    "description": "Categorizes the method by data flow direction (inbound vs. outbound) to distinguish integrations that receive data from those that publish it."
+  }
+]

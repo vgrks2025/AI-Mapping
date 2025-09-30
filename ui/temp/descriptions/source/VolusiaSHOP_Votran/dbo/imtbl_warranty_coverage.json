@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate identifier for a warranty coverage record, used for joins and tracking."
+  },
+  {
+    "column name": "schedule_proof",
+    "description": "Identifier referencing a supporting schedule/proof record tied to this coverage (e.g., maintenance verification); likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Reference to the asset maintenance procedure schedule associated with this coverage, defining tasks or intervals relevant to warranty conditions; likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "warranty_type",
+    "description": "Code indicating the kind of warranty (e.g., manufacturer, extended, component-specific); typically links to a lookup of coverage categories and rules."
+  },
+  {
+    "column name": "expiration_date",
+    "description": "Calendar date when the warranty coverage ceases based on time criteria."
+  },
+  {
+    "column name": "expiration_meter",
+    "description": "Meter threshold at which coverage expires (e.g., odometer or hours), compared to the asset’s current reading to determine remaining eligibility."
+  },
+  {
+    "column name": "user_id",
+    "description": "Application user associated with creating or owning this record; often the login of the responsible user; meaning may vary by deployment; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text note describing coverage status or calculations, such as days or meter units remaining or exceeded. Often system-generated explanations of expiration conditions."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this record was most recently updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent change attributed to a user action; may duplicate the system’s last update time; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who originally created the record (login or employee identifier)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who most recently updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-initiated update."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the asset group record, used as the primary key for joins and references."
+  },
+  {
+    "column name": "id",
+    "description": "Alternate or legacy identifier for the asset group (distinct from the primary key); likely sourced from an external system; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Short human-readable label or description of the asset group’s purpose or category."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or additional details about the asset group."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when the record was last updated in the database (system-level audit)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-attributed update; naming implies user context rather than system process; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was most recently updated by a user."
+  }
+]

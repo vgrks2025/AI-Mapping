@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this asset comment record; used as the primary key."
+  },
+  {
+    "column name": "asset",
+    "description": "Reference to the asset this comment applies to; links to the asset master."
+  },
+  {
+    "column name": "create_date",
+    "description": "System timestamp when the comment record was created."
+  },
+  {
+    "column name": "created_by_user",
+    "description": "Username or source that created the comment (e.g., system, user account)."
+  },
+  {
+    "column name": "copy_options",
+    "description": "Setting controlling how this note is propagated or copied to related records or transactions; likely a coded value; confirm with SME."
+  },
+  {
+    "column name": "printable",
+    "description": "Flag or code indicating whether/where the note should appear on printed documents; likely enumerated; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the asset; may include structured key-value details captured by integration or forms."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "Account that last modified this record; blank if unchanged since creation or set by system."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last change attributed to a user action, distinct from automated updates; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Internal identifier of the user who created the record; null when created by system process."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp recorded from the user context when the record was created; may differ from server time; confirm with SME."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Internal identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp recorded from the user context when the record was last modified; confirm with SME."
+  }
+]

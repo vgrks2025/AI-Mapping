@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AssetWarrantyCategoryID",
+    "description": "Unique identifier for a warranty category used to classify asset warranties; primarily for relational references."
+  },
+  {
+    "column name": "AssetWarrantyCategory",
+    "description": "Business-facing name of the warranty classification applied to assets, used for selection and reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the category is retired and should not be used for new records, while retained for historical reference."
+  }
+]

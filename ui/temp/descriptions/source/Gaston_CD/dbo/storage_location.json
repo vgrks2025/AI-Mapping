@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate unique identifier for the storage location record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Datetime the location record was created or last updated, stored in compact yyyymmddHHMMSSmmm format; timezone/source system may vary—confirm with SME."
+  },
+  {
+    "column name": "room",
+    "description": "Identifier of the room or area within a facility where items are stored; may be numeric."
+  },
+  {
+    "column name": "roomr",
+    "description": "Display label or category for the room field; appears constant in data; likely used for UI or reporting—confirm with SME."
+  },
+  {
+    "column name": "bin",
+    "description": "Bin identifier specifying the smallest storage slot within a shelf or aisle."
+  },
+  {
+    "column name": "shelf",
+    "description": "Shelf code identifying the vertical or horizontal segment within a storage area."
+  },
+  {
+    "column name": "trow",
+    "description": "Row identifier within the area (e.g., numbered row or boundary like a wall); naming suggests 'row'—confirm with SME."
+  },
+  {
+    "column name": "aisle",
+    "description": "Aisle or zone code identifying the corridor or section where the storage location resides (including outdoor/yard areas)."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the storage location or directions for finding it."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key from the source/legacy system used to trace the original record during migration and reconciliation."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source/legacy table from which this record originated."
+  }
+]

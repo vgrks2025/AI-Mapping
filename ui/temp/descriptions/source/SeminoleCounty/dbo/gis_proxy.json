@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "gis_proxy_id",
+    "description": "System-generated unique key for this GIS integration configuration."
+  },
+  {
+    "column name": "url",
+    "description": "Base endpoint of the external GIS service accessed through the proxy."
+  },
+  {
+    "column name": "username",
+    "description": "Account name used by the application to authenticate to the GIS service."
+  },
+  {
+    "column name": "password",
+    "description": "Secret credential used with the username to authenticate to the GIS service; typically stored encrypted."
+  },
+  {
+    "column name": "clientId",
+    "description": "Application identifier for OAuth/token-based authentication to the GIS service; confirm with SME."
+  },
+  {
+    "column name": "clientSecret",
+    "description": "Application secret paired with the identifier for OAuth/token-based authentication; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created this configuration record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the configuration record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified this configuration record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the configuration record was last updated."
+  }
+]

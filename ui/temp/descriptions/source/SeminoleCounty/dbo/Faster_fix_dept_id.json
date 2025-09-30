@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "FASTER_ID",
+    "description": "Legacy department identifier from the FASTER fleet system to be corrected; serves as the source key for mapping to the standardized department code."
+  },
+  {
+    "column name": "Correct_ID",
+    "description": "Standardized department code that replaces the legacy value; authoritative identifier for reporting, billing, and integrations."
+  },
+  {
+    "column name": "Department",
+    "description": "Official department name aligned to the standardized code."
+  },
+  {
+    "column name": "Program",
+    "description": "Program or division within the department linked to the standardized department code; used for organizational reporting and chargeback."
+  },
+  {
+    "column name": "SQL_text",
+    "description": "SQL update statement snippet used to set records to the standardized department code based on the legacy identifier; primarily for remediation scripts."
+  }
+]

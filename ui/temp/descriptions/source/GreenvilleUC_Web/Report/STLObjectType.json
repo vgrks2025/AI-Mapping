@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ObjectTypeID",
+    "description": "System-generated unique identifier for a type of application object, used as a stable reference to classify and join related records."
+  },
+  {
+    "column name": "ObjectTypeName",
+    "description": "Human-readable label for the application object type, defining the category used for configuration, reporting, and access control."
+  }
+]

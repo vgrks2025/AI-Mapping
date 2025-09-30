@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this status record."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier or name of the part location status; likely used in UIs and references; confirm with SME."
+  },
+  {
+    "column name": "description",
+    "description": "Extended description explaining when and how this status should be used."
+  },
+  {
+    "column name": "part_location_status_default",
+    "description": "Boolean flag indicating this is the default status assigned to new part locations."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Boolean flag to hide this status from selection lists and lookup dialogs."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Boolean flag to exclude this status from reports, dashboards, and charts."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Boolean flag marking the status as inactive so it cannot be selected or assigned."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the status configuration or usage; likely optional; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when the record was last modified by any process or user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-initiated change; may mirror the general last modified time; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last updated."
+  }
+]

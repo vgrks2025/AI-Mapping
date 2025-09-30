@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "fail_group",
+    "description": "Unique identifier for a failure category used to group related fault types and apply shared alert thresholds."
+  },
+  {
+    "column name": "descr",
+    "description": "Text description explaining the failure category’s intent or coverage."
+  },
+  {
+    "column name": "warn_days",
+    "description": "Days until a condition in this group is considered warning-level; likely a threshold for preliminary alerts; confirm with SME."
+  },
+  {
+    "column name": "error_days",
+    "description": "Days until a condition is treated as error/critical in this group; likely an escalation threshold; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system that created this configuration entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the configuration entry was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system that last updated this configuration entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this configuration entry."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the asset–part association; uniquely identifies this row."
+  },
+  {
+    "column name": "primary_part",
+    "description": "Flag indicating this part is the primary/standard component for the asset’s BOM or configuration (1=yes, 0=no). Likely denotes default fitment versus alternates; confirm with SME."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset (vehicle/equipment) this part applies to; foreign key to the asset master."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the part item referenced; foreign key to the part/item master."
+  },
+  {
+    "column name": "bom_quantity",
+    "description": "Quantity of this part specified on the asset’s bill of materials or standard configuration, per asset."
+  },
+  {
+    "column name": "ltd_quantity",
+    "description": "Cumulative life‑to‑date quantity of this part issued/installed on the asset. Likely counts total consumption or replacements; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free‑text notes about the asset–part relationship, usage, or BOM details."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this row was last updated by any process or integration."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the latest user‑initiated update. Despite the name, values appear to be datetimes rather than a user ID; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this row."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this row was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this row."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this row was last modified by a user."
+  }
+]

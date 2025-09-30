@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Identifier of the preventive maintenance template or task this frequency rule belongs to."
+  },
+  {
+    "column name": "row_no",
+    "description": "Line number within the task’s frequency set; distinguishes multiple rules for the same task."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence used to order evaluation or execution when multiple triggers exist for the same task."
+  },
+  {
+    "column name": "trigger_type",
+    "description": "Kind of trigger used to schedule the task, such as time-based or utilization-based."
+  },
+  {
+    "column name": "when_txt",
+    "description": "Free-text description of the timing condition for this rule; likely for user readability, not used for logic—confirm with SME."
+  },
+  {
+    "column name": "sch_type",
+    "description": "Scheduling behavior for the rule (e.g., fixed vs. floating/last-completion based); likely controls how due dates roll forward—confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "freq_count",
+    "description": "Numeric interval value; used with the unit field to compute when the task becomes due."
+  },
+  {
+    "column name": "freq_type",
+    "description": "Unit of measure for the interval, paired with the count to determine due thresholds (time or utilization units)."
+  },
+  {
+    "column name": "freq_on",
+    "description": "Context or source the frequency applies to, likely the measurement or date anchor for the trigger; confirm with SME."
+  }
+]

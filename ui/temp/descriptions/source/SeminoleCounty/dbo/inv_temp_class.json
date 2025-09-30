@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "stock",
+    "description": "Unique identifier for the inventory item (part number/SKU) used to reference a specific part or stock item in the fleet parts catalog."
+  },
+  {
+    "column name": "abc_code",
+    "description": "ABC inventory classification indicating the item's importance or consumption value for stocking decisions (A=highest priority, B=moderate, C=lowest)."
+  },
+  {
+    "column name": "was_code",
+    "description": "Code identifying the associated warehouse/site or accounting classification for the item; likely used for grouping or costing. Meaning may vary; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created."
+  }
+]

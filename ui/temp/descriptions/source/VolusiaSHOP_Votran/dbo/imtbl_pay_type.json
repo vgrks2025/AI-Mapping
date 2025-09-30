@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the pay type record; used as the table’s primary key."
+  },
+  {
+    "column name": "id",
+    "description": "Business code for the pay type (e.g., regular, overtime) used in payroll calculations and reporting."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable name or description of the pay type shown in UIs and reports."
+  },
+  {
+    "column name": "rate_multiplier",
+    "description": "Numeric factor applied to the base hourly rate to compute pay for this type (e.g., 1.0, 1.5)."
+  },
+  {
+    "column name": "default_pay_type",
+    "description": "Flag indicating this is the default pay type for standard hours (1=yes, 0=no)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or additional details about the pay type."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System audit timestamp when this pay type record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-driven update; name suggests a user identifier—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record; likely stores a user ID—confirm with SME."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by a user; may duplicate system creation time—confirm with SME."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record; likely a user ID—confirm with SME."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user; may duplicate last_modified—confirm with SME."
+  }
+]

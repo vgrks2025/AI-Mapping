@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for the warranty type record; used for internal identification and joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the warranty type (human-readable code), used by users and integrations; may include hierarchical or legacy codes."
+  },
+  {
+    "column name": "description",
+    "description": "Short name/description of the warranty type or the covered component."
+  },
+  {
+    "column name": "provider",
+    "description": "Reference to the warranty provider/vendor organization (foreign key); likely points to a vendor table; confirm with SME."
+  },
+  {
+    "column name": "coverage_in_days",
+    "description": "Number of calendar days the warranty covers from the effective date; blank if not time-based."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Lookup to the meter basis used for coverage (e.g., miles, kilometers, engine hours); likely a code from a meter type table; confirm with SME."
+  },
+  {
+    "column name": "coverage_in_clicks",
+    "description": "Maximum allowed meter units under the warranty (miles/km/hours) based on meter_type; likely blank when not meter-based; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the warranty type, often including part numbers, pricing, or special terms."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when the record was last modified."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Legacy timestamp of the last user-initiated change; likely overlaps with last_modified or user_date_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that originally created the warranty type record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was originally created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for a single contact status change event."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the status change was recorded in the system."
+  },
+  {
+    "column name": "user_id",
+    "description": "Application user who performed or recorded the status change."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the contact (person/vendor/driver) whose status changed."
+  },
+  {
+    "column name": "static_contact_id",
+    "description": "Snapshot of the contact’s external or legacy ID at change time; confirm with SME."
+  },
+  {
+    "column name": "static_contact_description",
+    "description": "Snapshot of the contact’s name/description at the time of change for audit; confirm with SME."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code representing the resulting contact status after the change."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Snapshot of the resulting status identifier at the time of change; confirm with SME."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Snapshot description text for the resulting status at the time of change."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code representing the prior contact status before the change."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Snapshot of the prior status identifier at the time of change; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Snapshot description text for the prior status at the time of change."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-generated timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last updated this record; field name is misleading; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that initially created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Creation timestamp for this record."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification to this record."
+  }
+]

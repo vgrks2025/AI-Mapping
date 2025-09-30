@@ -1,0 +1,78 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this part–supplier record."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory part this supplier can provide; links to the parts master."
+  },
+  {
+    "column name": "primary_supplier",
+    "description": "Boolean flag indicating whether this supplier is the preferred source for the part."
+  },
+  {
+    "column name": "supplier",
+    "description": "Identifier of the supplier/vendor; links to the vendor master."
+  },
+  {
+    "column name": "supplier_part_number",
+    "description": "Supplier’s catalog/part number used on quotes and purchase orders."
+  },
+  {
+    "column name": "primary_manufacturer",
+    "description": "Identifier of the preferred manufacturer for this part when purchased from this supplier; confirm with SME."
+  },
+  {
+    "column name": "lead_time",
+    "description": "Estimated procurement lead time from this supplier for the part, typically in days; confirm unit."
+  },
+  {
+    "column name": "ship_via",
+    "description": "Preferred shipping method or carrier for orders to this supplier; confirm code set."
+  },
+  {
+    "column name": "last_purchase_cost",
+    "description": "Unit price paid on the most recent purchase of this part from this supplier, in base currency."
+  },
+  {
+    "column name": "last_purchase_date",
+    "description": "Timestamp of the most recent purchase transaction for this part from this supplier."
+  },
+  {
+    "column name": "last_quoted_cost",
+    "description": "Most recent quoted unit price from this supplier for the part."
+  },
+  {
+    "column name": "last_quoted_date",
+    "description": "Date/time of the most recent price quote received from the supplier."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about this part–supplier relationship (pricing, terms, alternates, etc.)."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated modification to this record; likely overlaps with user_date_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created this part–supplier record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date/time when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last changed the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date/time when a user last modified the record; may duplicate user_last_modified; confirm with SME."
+  }
+]

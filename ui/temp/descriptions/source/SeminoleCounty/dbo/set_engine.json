@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "engine_id",
+    "description": "Business code that uniquely identifies an engine configuration (displacement/family/technology) used across the fleet and referenced by vehicle and specification records."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable engine description, typically detailing displacement, manufacturer/series, and key characteristics or technologies."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or system process that created the engine record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the engine record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or system process that last updated the engine record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to the engine record."
+  }
+]

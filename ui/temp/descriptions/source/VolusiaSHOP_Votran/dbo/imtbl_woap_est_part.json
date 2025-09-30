@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this estimated part line associated with a work-order asset procedure."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Foreign key referencing the parent work-order/asset procedure this estimated part requirement belongs to."
+  },
+  {
+    "column name": "Completed",
+    "description": "Indicator that the estimated part requirement has been fully fulfilled or closed for the procedure; likely a boolean flag. Confirm with SME."
+  },
+  {
+    "column name": "Part",
+    "description": "Identifier of the inventory item to be used on the related work-order asset procedure."
+  },
+  {
+    "column name": "Warehouse",
+    "description": "Code of the warehouse or storeroom from which the part is planned to be sourced."
+  },
+  {
+    "column name": "Estimated_Quantity",
+    "description": "Planned quantity of the part expected to be needed for the procedure."
+  },
+  {
+    "column name": "Required",
+    "description": "Flag indicating whether this part is mandatory (versus optional) to perform the work; likely a boolean. Confirm with SME."
+  },
+  {
+    "column name": "Estimated_Unit_Cost",
+    "description": "Estimated per-unit cost of the part at planning time, used for budgeting and forecasting."
+  },
+  {
+    "column name": "Remaining_Quantity",
+    "description": "Quantity of the part still outstanding for this line (planned minus issued or used)."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this estimated part line was last updated in the source application."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated update to this line; likely distinct from automated system updates. Confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that originally created this estimated part line."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this estimated part line was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that most recently modified this line."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this line was most recently modified."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "checklist",
+    "description": "Title or category of the inspection/maintenance checklist this line item belongs to (e.g., vehicle, equipment, generator)."
+  },
+  {
+    "column name": "row_no",
+    "description": "Line number within the checklist template; used for display or grouping, not necessarily the execution order (confirm with SME)."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Execution sequence for this task within the checklist; controls the order tasks should be performed or validated."
+  },
+  {
+    "column name": "task_descr",
+    "description": "Free-text description of the inspection or maintenance step the technician must perform."
+  },
+  {
+    "column name": "result_type",
+    "description": "Likely specifies the expected response format for this task (e.g., pass/fail, numeric value, text); confirm with SME."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Likely identifies the meter reading associated with this task (e.g., odometer, engine hours); confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person who created this checklist line."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this checklist line was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person who last updated this checklist line."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this checklist line."
+  },
+  {
+    "column name": "task_id",
+    "description": "Identifier for the task in a master task library or system; may be blank when ad‑hoc (confirm with SME)."
+  },
+  {
+    "column name": "required",
+    "description": "Indicates whether completing this task is mandatory before the checklist can be submitted (Y/N)."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours needed to complete this task."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the work code record; primary key used to link this code to work orders and related tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp of the most recent change to this work code record (format likely YYYYMMDDHHMMSSmmm); used for audit and synchronization."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable title describing the maintenance/repair task or recall associated with the work code."
+  },
+  {
+    "column name": "code",
+    "description": "Short alphanumeric code for the work item, used for entry, search, and reporting on work orders."
+  },
+  {
+    "column name": "notes",
+    "description": "Free-text instructions or remarks for performing the task, such as checks, lubrication, or parts replacement."
+  },
+  {
+    "column name": "wotype",
+    "description": "Numeric reference to the work order type/category this code belongs to; joins to a work order type lookup."
+  },
+  {
+    "column name": "wotyper",
+    "description": "Lookup source indicator for wotype (likely the referenced table or domain); confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this work code in the legacy system to support data migration and cross-reference; may be null."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which this code originated; aids traceability."
+  },
+  {
+    "column name": "action_on_fail",
+    "description": "Code indicating what action to take if the related inspection or task fails; meaning of specific values is unclear and should be confirmed with SME."
+  },
+  {
+    "column name": "pass_all",
+    "description": "Boolean flag indicating all associated checks/subtasks must pass for the work item to be considered successful."
+  },
+  {
+    "column name": "limit_by_service_class",
+    "description": "Boolean flag indicating this work code applies only to specified service/vehicle classes; when true, eligibility is restricted."
+  },
+  {
+    "column name": "inact",
+    "description": "Boolean flag marking the work code as inactive/unavailable for new work orders while preserving history."
+  },
+  {
+    "column name": "defaultcode",
+    "description": "Boolean flag indicating this is the default code selected for the associated context or work type."
+  }
+]

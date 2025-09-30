@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate unique identifier for the work order type record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time when the work order type record was last modified (likely system-generated); confirm whether creation or last update."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the work order type displayed in user interfaces and reports."
+  },
+  {
+    "column name": "wotype",
+    "description": "Compact code used to categorize the work order type for integrations, rules, and reporting."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in the legacy source system, retained for migration mapping and audit; confirm originating system."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the table or entity in the legacy system that held this record, used for lineage and traceability; confirm source."
+  },
+  {
+    "column name": "tire_service",
+    "description": "Indicates whether this work order type pertains to tire-related service or maintenance activities."
+  }
+]

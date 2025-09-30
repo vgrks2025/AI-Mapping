@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "FileExtension",
+    "description": "The file type suffix identifying the format of documents attached or uploaded in the system; used to validate and categorize attachments."
+  },
+  {
+    "column name": "FileDesc",
+    "description": "Human-readable description of the file format shown to users and admins for clarity when managing allowed attachment types."
+  },
+  {
+    "column name": "IsAllowed",
+    "description": "Indicates whether this file type is permitted in the application (e.g., for uploads or attachments) according to security and policy rules."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates the file type is deprecated and likely not supported for new uploads; retained for historical records. Confirm behavior when combined with allowed status with SME."
+  },
+  {
+    "column name": "FileExtensionID",
+    "description": "System-generated unique identifier for the file type record; used as the primary key and for referencing in related tables."
+  }
+]

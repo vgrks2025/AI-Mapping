@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "Transmission",
+    "description": "Abbreviated code identifying the vehicle’s transmission, typically indicating gear count, manufacturer/series, or shift type; used as the concise transmission identifier."
+  },
+  {
+    "column name": "TransmissionDesc",
+    "description": "Human-readable description of the transmission corresponding to the code, detailing speeds, manufacturer/series, and configuration or shift type; intended for display and reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating whether this transmission option is no longer current and should not be assigned to new assets; retained for historical or legacy records."
+  },
+  {
+    "column name": "TransmissionID",
+    "description": "Surrogate numeric identifier for the transmission record; primary key used to join to vehicles or other tables."
+  }
+]

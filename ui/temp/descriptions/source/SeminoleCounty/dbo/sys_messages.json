@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "id",
+    "description": "Unique identifier for the queued system message."
+  },
+  {
+    "column name": "phone",
+    "description": "Recipient phone number for SMS/voice notifications; optional when using email only."
+  },
+  {
+    "column name": "email",
+    "description": "Primary recipient email address(es); may include multiple addresses separated by delimiters."
+  },
+  {
+    "column name": "type",
+    "description": "Code indicating message category, medium, or priority; meanings are system-specific and should be confirmed with an SME."
+  },
+  {
+    "column name": "subject",
+    "description": "Subject line or title displayed to message recipients."
+  },
+  {
+    "column name": "description",
+    "description": "Message body/content, often HTML-formatted, delivered to recipients."
+  },
+  {
+    "column name": "created",
+    "description": "Timestamp when the message record was created in the queue."
+  },
+  {
+    "column name": "is_sent",
+    "description": "Boolean indicating whether the message was successfully dispatched."
+  },
+  {
+    "column name": "error_count",
+    "description": "Number of failed delivery attempts for this message."
+  },
+  {
+    "column name": "error_message",
+    "description": "Most recent error details returned by the delivery service when sending failed."
+  },
+  {
+    "column name": "error_date",
+    "description": "Timestamp of the most recent delivery failure."
+  },
+  {
+    "column name": "email_cc",
+    "description": "CC recipient email address(es) included with the message."
+  },
+  {
+    "column name": "sent",
+    "description": "Timestamp when the message was successfully sent; null if pending or failed."
+  },
+  {
+    "column name": "source",
+    "description": "Originating module or process that generated the message."
+  },
+  {
+    "column name": "notif_type",
+    "description": "Short code for notification category or audience; likely implementation-specific; confirm with SME."
+  },
+  {
+    "column name": "notif_code",
+    "description": "Programmatic code identifying the notification event or template used."
+  },
+  {
+    "column name": "tmp_name",
+    "description": "Temporary file name or path for a generated attachment; likely used during send; confirm with SME."
+  },
+  {
+    "column name": "report_id",
+    "description": "Identifier of a report definition used to generate message content or attachments; confirm with SME."
+  },
+  {
+    "column name": "report_query",
+    "description": "Saved query or SQL used to produce report data for this message; confirm with SME."
+  },
+  {
+    "column name": "user_name",
+    "description": "User account associated with creating or triggering the message (e.g., sender or process owner)."
+  }
+]

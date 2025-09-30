@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this status change event record."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the status change was logged."
+  },
+  {
+    "column name": "user_id",
+    "description": "User account that executed the status change."
+  },
+  {
+    "column name": "project",
+    "description": "Internal identifier of the affected project."
+  },
+  {
+    "column name": "static_project_id",
+    "description": "Snapshot of the project’s external/reference ID at the change time; likely denormalized for history. Confirm with SME."
+  },
+  {
+    "column name": "static_project_description",
+    "description": "Snapshot of the project’s descriptive name captured at the change time."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code representing the resulting status after the change."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Snapshot of the canonical identifier for the resulting status at the change time; confirm with SME."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Human-readable label for the resulting status captured at the change time."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code representing the prior status before the change."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Snapshot of the canonical identifier for the prior status at the change time; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Human-readable label for the prior status captured at the change time."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this row was last updated in the database."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification attributed to a user action; field naming suggests user ID, but data appears to be a datetime—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created this row."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this row was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified this row."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this row was last modified."
+  }
+]

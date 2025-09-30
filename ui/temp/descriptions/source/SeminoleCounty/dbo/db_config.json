@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "Id",
+    "description": "Surrogate numeric identifier for each configuration entry. Used as the primary key to uniquely reference a setting."
+  },
+  {
+    "column name": "Name",
+    "description": "Canonical key for the configuration setting used by the application to look up its value. Must be unique within this table."
+  },
+  {
+    "column name": "ValueType",
+    "description": "Expected data type of the setting’s value (e.g., string or integer). Guides validation, parsing, and UI rendering."
+  },
+  {
+    "column name": "Description",
+    "description": "Human-readable explanation of what the configuration controls and how it’s used. Aids administrators when managing settings."
+  },
+  {
+    "column name": "Value",
+    "description": "Current configured value for the setting referenced by the key. Consumed at runtime; may contain sensitive data depending on the setting."
+  },
+  {
+    "column name": "ClientSide",
+    "description": "Flag indicating whether the setting can be exposed to client-side code or user interfaces. False implies server-only use."
+  },
+  {
+    "column name": "IsPassword",
+    "description": "Flag marking the value as a secret credential. Such values should be encrypted, masked in logs/UI, and restricted in access."
+  }
+]

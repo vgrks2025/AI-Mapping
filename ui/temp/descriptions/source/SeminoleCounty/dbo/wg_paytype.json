@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup associated with this compensation rule in fleet operations; likely denotes the business unit or program used for organizing time and pay; confirm with SME."
+  },
+  {
+    "column name": "pay_type",
+    "description": "Classification of compensation used in payroll and timekeeping for employees within the associated workgroup, driving pay rates and accrual rules."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person or system that created this record for compensation configuration."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the compensation record was created, in system time."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person or system that last modified this compensation record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification to this compensation record."
+  }
+]

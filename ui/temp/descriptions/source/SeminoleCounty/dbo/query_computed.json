@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "query_id",
+    "description": "Identifier of the saved query/report that this computed field belongs to, used to group computed fields under the same query configuration."
+  },
+  {
+    "column name": "column_name",
+    "description": "Alias or display name for the computed field as it will appear in query results and reports."
+  },
+  {
+    "column name": "expression",
+    "description": "Formula or SQL snippet used to compute the field's value at runtime; likely stored as executable SQL; confirm with SME."
+  },
+  {
+    "column name": "data_type",
+    "description": "Data type of the computed field's output (e.g., numeric, currency, string), used to format results and validate expressions."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or system account that created the computed field configuration for the query."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the computed field configuration was created (UTC unless otherwise noted)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or system account that last modified the computed field configuration."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time the computed field configuration was last modified (UTC unless otherwise noted)."
+  }
+]

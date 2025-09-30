@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique key for this asset status record, used as the primary identifier in the database."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier or code for the asset status, used in selection lists, validations, and automation rules."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text explanation of what the status means and when it should be applied."
+  },
+  {
+    "column name": "asset_status_default",
+    "description": "Flag indicating this is the default status assigned when creating a new asset."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Flag to exclude this status from selection lists and other lookup controls in the application."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Flag to exclude this status, and assets in it, from analytics, dashboards, and printed reports."
+  },
+  {
+    "column name": "generate_PM_work",
+    "description": "Controls whether preventive maintenance schedules and work orders are generated while assets are in this status."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Indicates the status option is retired and should not be selectable for future use."
+  },
+  {
+    "column name": "comments",
+    "description": "Additional notes or internal comments about the status for user reference."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this record was last changed by any process (user or system)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the most recent user-initiated change; may duplicate other audit fields; confirm with SME."
+  },
+  {
+    "column name": "hide_in_trees",
+    "description": "Flag to suppress assets in this status from hierarchical tree views or navigation."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Login or identifier of the user who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Login or identifier of the user who last updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last updated by a user."
+  }
+]

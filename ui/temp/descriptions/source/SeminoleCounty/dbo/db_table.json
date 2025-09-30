@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "table_name",
+    "description": "Canonical name of the dataset recorded in the metadata catalog; used to uniquely identify the physical table or view."
+  },
+  {
+    "column name": "family",
+    "description": "Functional domain or application module the dataset supports, used to group related fleet management data assets."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes describing the dataset’s purpose, contents, and usage context."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account or system process that created this metadata record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when this metadata record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last updated this metadata record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this metadata record."
+  },
+  {
+    "column name": "table_type",
+    "description": "Indicates the kind of database object (e.g., relational table or virtual view)."
+  },
+  {
+    "column name": "src_table",
+    "description": "Name of the upstream source object this dataset is derived from; supports lineage and impact analysis."
+  },
+  {
+    "column name": "unused_flag",
+    "description": "Flag indicating the dataset is deprecated or not in active use (Y/N); confirm coding with SME."
+  },
+  {
+    "column name": "show_in_query",
+    "description": "Controls whether the dataset is visible and selectable in query tools and self-service data catalogs."
+  }
+]

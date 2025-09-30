@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for this part warranty record."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the specific part or inventory item the warranty covers; typically a foreign key to the parts catalog."
+  },
+  {
+    "column name": "primary_warranty",
+    "description": "Boolean flag marking the primary/active warranty for the part."
+  },
+  {
+    "column name": "warranty_type",
+    "description": "Reference to a warranty type code used to classify coverage."
+  },
+  {
+    "column name": "warranty_provider",
+    "description": "Reference to the organization responsible for honoring the warranty (manufacturer, dealer, or third-party provider)."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Code indicating which meter (miles, hours, etc.) governs warranty limits."
+  },
+  {
+    "column name": "valid_from_installation_date",
+    "description": "Flag specifying that warranty coverage starts from the installation date rather than purchase or ship date."
+  },
+  {
+    "column name": "warranty_expiration_date",
+    "description": "Date/time when warranty coverage ends if governed by calendar time."
+  },
+  {
+    "column name": "warranty_exp_meter_value",
+    "description": "Meter reading at which coverage ends, interpreted with the meter type; likely 0 when no meter limit applies; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the warranty, installation details, units, or related work orders."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-initiated change; appears redundant with the system modification timestamp; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified."
+  }
+]

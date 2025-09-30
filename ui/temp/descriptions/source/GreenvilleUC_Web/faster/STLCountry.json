@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "CountryID",
+    "description": "System-generated unique identifier for a country record, used to link locations, assets, drivers, and regulatory rules for routing, taxation, and reporting across the fleet platform."
+  },
+  {
+    "column name": "CountryName",
+    "description": "Official country name used for display, search, and address validation; expected to follow standardized naming (ISO or equivalent), with localization handled elsewhere."
+  }
+]

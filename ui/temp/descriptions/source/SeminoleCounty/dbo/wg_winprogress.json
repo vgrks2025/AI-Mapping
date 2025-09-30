@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Identifier for the fleet application or workgroup this progress record belongs to (likely a system/module name; confirm with SME)."
+  },
+  {
+    "column name": "code",
+    "description": "Workflow status indicating the current progress state of the item being tracked; used to control process steps and reporting."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system identifier that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created (timezone per system configuration; confirm with SME)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system identifier that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to the record (timezone per system configuration; confirm with SME)."
+  },
+  {
+    "column name": "descr",
+    "description": "Human readable description of the progress stage or status associated with the record."
+  }
+]

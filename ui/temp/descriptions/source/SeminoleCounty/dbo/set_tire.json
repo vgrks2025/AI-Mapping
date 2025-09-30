@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "tire_id",
+    "description": "Alphanumeric size code identifying a tire specification (dimensions/construction/rim) used on fleet equipment."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description for the tire size entry, often mirroring the size code or providing expanded dimensions or notes for identification."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or system process that created this tire size record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this tire size record was created in the system."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or system process that last updated this tire size record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this tire size record."
+  }
+]

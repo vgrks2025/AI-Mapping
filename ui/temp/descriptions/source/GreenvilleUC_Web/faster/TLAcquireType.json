@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AcquireTypeID",
+    "description": "Unique identifier for the acquisition method of a fleet asset; used as a reference key in related tables."
+  },
+  {
+    "column name": "AcquireType",
+    "description": "Business label describing how an asset was obtained (e.g., purchase, lease, grant); drives reporting and selection lists."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicator that the acquisition method is retired/inactive and should be excluded from new entries while preserved for historical records."
+  }
+]

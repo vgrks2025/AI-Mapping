@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "group_nm",
+    "description": "Name of the asset grouping used to associate related assets for planning, costing, or maintenance workflows."
+  },
+  {
+    "column name": "row_no",
+    "description": "Row number for this record within the group, primarily used for sorting or deterministic ordering; likely not business‑significant. Confirm with SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence position of the asset inside the group for processing, display, or allocation order; meaning may overlap with row number; confirm with SME."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the specific asset that belongs to the group; links to the asset master record."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Categorical classification of the asset to support filtering, rules, and reporting; often indicates equipment or component type."
+  },
+  {
+    "column name": "cost_share",
+    "description": "Proportion of group‑level cost assigned to this asset, typically expressed as a percentage; may be required to sum to 100% across the group. Confirm rules with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system account that created the record for this group‑asset relationship."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created in the source system."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system account that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record."
+  }
+]

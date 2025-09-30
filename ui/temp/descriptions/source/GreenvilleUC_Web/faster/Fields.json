@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "FieldID",
+    "description": "Unique identifier for a field metadata record in the system."
+  },
+  {
+    "column name": "ColumnName",
+    "description": "Technical column name associated with the field in its underlying table."
+  },
+  {
+    "column name": "DataType",
+    "description": "Logical data type of the field, guiding storage, validation, and UI controls."
+  },
+  {
+    "column name": "FieldDesc",
+    "description": "Human-readable description explaining the field’s purpose and how it should be used."
+  },
+  {
+    "column name": "FieldDomain",
+    "description": "Business domain within fleet operations where the field applies."
+  },
+  {
+    "column name": "FieldTableName",
+    "description": "Name of the application table that contains the column this field describes."
+  },
+  {
+    "column name": "DisplayFormat",
+    "description": "Preferred display and input formatting for the field, such as masks, precision, length, or datetime formats."
+  },
+  {
+    "column name": "AllowMassUpdate",
+    "description": "Boolean flag indicating whether the field can be updated across multiple records in a single operation."
+  },
+  {
+    "column name": "AllowAdvancedSearch",
+    "description": "Boolean flag indicating whether the field is available as a filter or criterion in advanced searches."
+  }
+]

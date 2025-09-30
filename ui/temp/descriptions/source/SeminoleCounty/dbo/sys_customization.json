@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "customization_id",
+    "description": "Unique identifier for the customization record."
+  },
+  {
+    "column name": "entity",
+    "description": "Application module or business object this customization targets, such as work management, inventory, or purchasing."
+  },
+  {
+    "column name": "entity_var",
+    "description": "Variant or scope within the entity—such as asset class, site, or context—used to apply the customization to a subset; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the customization’s purpose or scope."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the customization record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the customization was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified the customization."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent modification."
+  },
+  {
+    "column name": "config",
+    "description": "Serialized configuration payload (e.g., JSON or XML) defining fields, rules, or UI behavior for this customization."
+  },
+  {
+    "column name": "is_default",
+    "description": "Flag indicating this is the default configuration for the entity or variant (1=true, 0=false)."
+  },
+  {
+    "column name": "ms14_name",
+    "description": "Legacy display name used by an older interface or integration labeled MS14; purpose may be system-specific; confirm with SME."
+  },
+  {
+    "column name": "field_groups",
+    "description": "Definition of UI field groupings for the customized entity, likely a serialized layout controlling section organization and visibility; confirm with SME."
+  }
+]

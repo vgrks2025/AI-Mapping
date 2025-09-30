@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for a single enumeration record used by application logic and joins."
+  },
+  {
+    "column name": "object",
+    "description": "Identifier of the owning module or table the enumeration applies to (the entity where the attribute resides)."
+  },
+  {
+    "column name": "col",
+    "description": "Name of the attribute within the referenced entity that uses this enumeration (the enumerated field)."
+  },
+  {
+    "column name": "colorder",
+    "description": "Sort position controlling display or processing order of values within the enumeration list for the attribute."
+  },
+  {
+    "column name": "bitmask",
+    "description": "Numeric code representing the value for programmatic use (bitmask/flag), allowing filtering or combinations; exact encoding may vary; confirm with SME."
+  },
+  {
+    "column name": "lingual",
+    "description": "User-facing label for the enumeration value, intended for localization and translation."
+  }
+]

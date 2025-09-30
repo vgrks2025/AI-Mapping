@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this procedure attribute data row."
+  },
+  {
+    "column name": "procedure_attribute",
+    "description": "ID of the attribute definition this value represents for the procedure; likely a foreign key to a procedure-attribute catalog; confirm with SME."
+  },
+  {
+    "column name": "value",
+    "description": "Recorded value for the specified attribute, as entered or computed (text/number/flag)."
+  },
+  {
+    "column name": "procedures",
+    "description": "Identifier of the maintenance procedure to which this attribute value belongs; likely a foreign key to the procedures table; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this record was last updated, regardless of user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-initiated modification; may duplicate last_modified in some implementations; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was originally created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user or process."
+  }
+]

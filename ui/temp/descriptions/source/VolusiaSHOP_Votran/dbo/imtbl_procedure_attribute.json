@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this procedure attribute configuration record."
+  },
+  {
+    "column name": "user_defined_label",
+    "description": "User-facing caption for the attribute shown on procedure forms."
+  },
+  {
+    "column name": "description",
+    "description": "Detailed text explaining the attribute’s purpose in the procedure."
+  },
+  {
+    "column name": "datatype",
+    "description": "Code indicating the data type for values captured by this attribute; likely references a lookup; confirm with SME."
+  },
+  {
+    "column name": "datasize",
+    "description": "Maximum allowed length or size for the attribute’s value, based on its data type."
+  },
+  {
+    "column name": "required",
+    "description": "Indicator of whether entering a value is mandatory (1) or optional (0) when completing the procedure."
+  },
+  {
+    "column name": "specification",
+    "description": "Likely flag marking this attribute as part of the procedure’s specification/configuration rather than runtime input; confirm with SME."
+  },
+  {
+    "column name": "unit_of_measure",
+    "description": "Unit applicable to numeric values for this attribute (e.g., miles, hours); 'N/A' when not measured."
+  },
+  {
+    "column name": "default_value",
+    "description": "Value automatically populated when the attribute is first presented, if none is entered."
+  },
+  {
+    "column name": "display_order",
+    "description": "Sequence position controlling where the attribute appears relative to others on forms and reports."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp for the most recent update to this record, used for auditing."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes about configuration decisions, edge cases, or context for this attribute."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last change recorded by the user-facing application; may duplicate the system modified time; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when the record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that most recently updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the latest user-initiated modification to this record."
+  }
+]

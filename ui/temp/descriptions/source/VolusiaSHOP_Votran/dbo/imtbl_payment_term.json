@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key uniquely identifying the payment term record."
+  },
+  {
+    "column name": "id",
+    "description": "Business-facing payment term code or name used on orders and invoices."
+  },
+  {
+    "column name": "description",
+    "description": "Detailed description of the payment term’s rules or usage."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes or internal comments about this payment term."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record (any source)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record; may duplicate the system last-modified field—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-driven update to this record."
+  }
+]

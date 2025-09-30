@@ -1,0 +1,146 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate key uniquely identifying this part–warehouse record."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Identifier of the warehouse/location where the item is stocked."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory item associated with this record."
+  },
+  {
+    "column name": "status",
+    "description": "Operational status code for the item at this warehouse (e.g., active/inactive); confirm with SME."
+  },
+  {
+    "column name": "stock",
+    "description": "Flag indicating whether the item is treated as a stocked item at this warehouse."
+  },
+  {
+    "column name": "supplier",
+    "description": "Default supplier/vendor used to replenish this item for this warehouse."
+  },
+  {
+    "column name": "abc_code",
+    "description": "ABC classification for inventory control and cycle counting based on usage/value; confirm code set with SME."
+  },
+  {
+    "column name": "cycle_code",
+    "description": "Cycle counting frequency/group code for this item at this warehouse."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Current unit cost used to value on-hand inventory at this warehouse (standard or average; confirm costing method with SME)."
+  },
+  {
+    "column name": "last_cost",
+    "description": "Unit price from the most recent receipt or purchase for this item at this warehouse."
+  },
+  {
+    "column name": "order_method",
+    "description": "Replenishment method code (e.g., manual, min/max, EOQ); confirm valid values with SME."
+  },
+  {
+    "column name": "minimum",
+    "description": "Minimum desired on-hand level used for min/max planning at this warehouse."
+  },
+  {
+    "column name": "maximum",
+    "description": "Maximum desired on-hand level used for min/max planning at this warehouse."
+  },
+  {
+    "column name": "consider_max_min",
+    "description": "Flag indicating whether min/max levels are enforced for planning."
+  },
+  {
+    "column name": "reorder_point",
+    "description": "On-hand threshold that triggers a replenishment order for this item."
+  },
+  {
+    "column name": "safety_stock",
+    "description": "Buffer quantity held to protect against demand or lead-time variability."
+  },
+  {
+    "column name": "usual_quantity",
+    "description": "Typical order quantity suggested when replenishing this item."
+  },
+  {
+    "column name": "one_time_order",
+    "description": "One-off purchase setting or quantity used for a single special buy; confirm behavior with SME."
+  },
+  {
+    "column name": "stockout_count",
+    "description": "Number of times on-hand fell to zero at this warehouse."
+  },
+  {
+    "column name": "on_order_quantity",
+    "description": "Quantity currently on open purchase orders destined for this warehouse."
+  },
+  {
+    "column name": "desired_on_hand_quantity",
+    "description": "Target on-hand level used by planning to maintain availability."
+  },
+  {
+    "column name": "committed_quantity",
+    "description": "Quantity allocated to work orders or requests, reducing available stock."
+  },
+  {
+    "column name": "last_receipt_date",
+    "description": "Timestamp of the most recent inventory receipt for this item at this warehouse."
+  },
+  {
+    "column name": "last_purchase_order_date",
+    "description": "Timestamp of the most recent purchase order placed for this item."
+  },
+  {
+    "column name": "last_issue_date",
+    "description": "Timestamp when the item was last issued to a job, asset, or department."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about this item at this warehouse."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this record was last updated."
+  },
+  {
+    "column name": "primary_warehouse",
+    "description": "Flag marking this warehouse as the primary stocking location for the item."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated change to this record (legacy tracking; confirm use with SME)."
+  },
+  {
+    "column name": "eoq",
+    "description": "Economic order quantity calculated for this item at this warehouse."
+  },
+  {
+    "column name": "annual_carrying_cost",
+    "description": "Annual carrying cost rate or amount used in EOQ and inventory cost analysis; confirm units with SME."
+  },
+  {
+    "column name": "standard_order_quantity",
+    "description": "Preferred fixed lot size to order when replenishing this item."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this record."
+  }
+]

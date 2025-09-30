@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this supplier–item record; primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit datetime when the row was created or last updated, stored as a compact numeric timestamp; confirm format."
+  },
+  {
+    "column name": "vpartno",
+    "description": "Supplier’s catalog or SKU for the item, as used on purchase orders and invoices."
+  },
+  {
+    "column name": "leadtime",
+    "description": "Expected time between ordering and delivery from the supplier, likely in days; confirm unit."
+  },
+  {
+    "column name": "comments",
+    "description": "Free‑text notes about pricing, terms, or other details of this supplier–item relationship."
+  },
+  {
+    "column name": "price",
+    "description": "Unit cost quoted by the supplier for this item, excluding taxes/fees; currency per system settings."
+  },
+  {
+    "column name": "type",
+    "description": "Coded classification of the supplier–item relationship (e.g., preferred, alternate, OEM); values defined externally; confirm meaning."
+  },
+  {
+    "column name": "typer",
+    "description": "Name of the lookup source for the classification code; confirm usage."
+  },
+  {
+    "column name": "vendor",
+    "description": "Supplier identifier, foreign key to the supplier master."
+  },
+  {
+    "column name": "vendorr",
+    "description": "Qualifier naming the entity referenced by the supplier identifier (e.g., supplier master table)."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the stocked item this row refers to, foreign key to a warehouse-level item record."
+  },
+  {
+    "column name": "partr",
+    "description": "Name of the table that the item identifier references; enables polymorphic foreign keys."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the related record in the source legacy system; used for migration traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source legacy table from which this row was migrated."
+  }
+]

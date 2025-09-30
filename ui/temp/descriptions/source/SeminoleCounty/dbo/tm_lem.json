@@ -1,0 +1,190 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Identifier of the task or maintenance template this LEM line belongs to. Likely the maintenance task code; confirm with SME."
+  },
+  {
+    "column name": "sch_no",
+    "description": "Schedule or occurrence number tying the line to a specific planned instance; used to group related LEM lines. Confirm with SME."
+  },
+  {
+    "column name": "row_no",
+    "description": "Line number within the LEM entry for ordering and reference."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Execution sequence of this item within the task or schedule."
+  },
+  {
+    "column name": "it_type",
+    "description": "Type of cost item (e.g., labor, equipment, materials, contractor)."
+  },
+  {
+    "column name": "it_code",
+    "description": "Code or reference identifying the specific item, service, or vendor associated with this line."
+  },
+  {
+    "column name": "it_class",
+    "description": "Category/classification of the item or service for reporting and controls."
+  },
+  {
+    "column name": "it_descr",
+    "description": "Free-text description of the item or service charged on this line."
+  },
+  {
+    "column name": "act_qty",
+    "description": "Actual quantity of the item/service consumed or billed."
+  },
+  {
+    "column name": "uom",
+    "description": "Unit of measure used for the quantity or billing basis."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Unit price applied to the item/service."
+  },
+  {
+    "column name": "total_cost",
+    "description": "Extended line amount calculated from quantity and unit price."
+  },
+  {
+    "column name": "act_date",
+    "description": "Date the work, usage, or transaction occurred."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Warehouse or store from which the item was issued or managed."
+  },
+  {
+    "column name": "bin_no",
+    "description": "Specific bin/location within the warehouse where the item is stored."
+  },
+  {
+    "column name": "inv_type",
+    "description": "Inventory item or transaction type used for processing and reporting; confirm with SME."
+  },
+  {
+    "column name": "valid_item",
+    "description": "Flag indicating whether the item is approved/valid in the item master; confirm with SME."
+  },
+  {
+    "column name": "rcvd",
+    "description": "Indicates whether goods/service have been received or completed; confirm with SME."
+  },
+  {
+    "column name": "acct_no",
+    "description": "General ledger account charged for this line."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit or cost center responsible for the cost."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Code identifying the maintenance activity or work type performed."
+  },
+  {
+    "column name": "remarks",
+    "description": "Notes or comments providing context for the line item."
+  },
+  {
+    "column name": "it_udf1",
+    "description": "User-defined field for client-specific attributes (1)."
+  },
+  {
+    "column name": "it_udf2",
+    "description": "User-defined field for client-specific attributes (2)."
+  },
+  {
+    "column name": "it_udf3",
+    "description": "User-defined field for client-specific attributes (3)."
+  },
+  {
+    "column name": "it_udf4",
+    "description": "User-defined field for client-specific attributes (4)."
+  },
+  {
+    "column name": "it_udf5",
+    "description": "User-defined field for client-specific attributes (5)."
+  },
+  {
+    "column name": "it_udf6",
+    "description": "User-defined field for client-specific attributes (6)."
+  },
+  {
+    "column name": "it_udf7",
+    "description": "User-defined field for client-specific attributes (7)."
+  },
+  {
+    "column name": "it_udf8",
+    "description": "User-defined field for client-specific attributes (8)."
+  },
+  {
+    "column name": "it_udf9",
+    "description": "User-defined field for client-specific attributes (9)."
+  },
+  {
+    "column name": "udfl",
+    "description": "User-defined flag or status indicator; usage varies by implementation. Confirm with SME."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Location/site code where the work or cost is associated."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Sub-location or area within the site tied to this line."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Identifier of the asset associated with the work or cost."
+  },
+  {
+    "column name": "tax_yn",
+    "description": "Flag indicating whether tax applies to this line."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Tax rate applied to the line amount."
+  },
+  {
+    "column name": "tax_cost",
+    "description": "Tax amount calculated for this line."
+  },
+  {
+    "column name": "nesting",
+    "description": "Hierarchy or indentation level used to group related lines; confirm with SME."
+  },
+  {
+    "column name": "act_loc",
+    "description": "Actual location where the work was performed or item issued."
+  },
+  {
+    "column name": "craft_trade",
+    "description": "Labor craft or trade responsible for performing the work."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update."
+  },
+  {
+    "column name": "shared_cost",
+    "description": "Indicates whether this line’s cost is allocated across multiple assets or units."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Internal identifier linking to the vendor/supplier master record."
+  }
+]

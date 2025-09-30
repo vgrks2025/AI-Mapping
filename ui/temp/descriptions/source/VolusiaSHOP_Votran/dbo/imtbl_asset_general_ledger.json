@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the record, uniquely identifying the asset-to-general-ledger mapping."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset (vehicle/equipment) this mapping applies to; references the asset master."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "Identifier of the general ledger (GL) account used to book transactions for the asset."
+  },
+  {
+    "column name": "default_general_ledger",
+    "description": "Flag indicating whether this is the default GL account for the asset (1=true, 0=false)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the asset-to-GL assignment."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent update to the record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the last user-initiated change; column name suggests a user identifier—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

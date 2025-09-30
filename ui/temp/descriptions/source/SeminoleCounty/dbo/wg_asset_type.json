@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Identifier of the workgroup or system module that owns the asset type definitions. Likely associates asset types to a specific fleet program; confirm with SME."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Code describing the asset’s category/type used in fleet operations. Drives classification, reporting, search, and configuration rules."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person or process that created the asset type record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the asset type record was created in the system (audit field)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person or process that last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record (audit field)."
+  }
+]

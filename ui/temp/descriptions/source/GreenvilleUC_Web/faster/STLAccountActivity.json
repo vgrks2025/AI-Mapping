@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "AccountActivityID",
+    "description": "Unique identifier for an account activity type record used to map financial transactions to correct posting logic within the fleet management accounting processes."
+  },
+  {
+    "column name": "ActivityType",
+    "description": "Categorical label defining how a transaction is posted in the ledger, including nature, settlement method, and direction, enabling consistent reporting and general ledger mapping."
+  },
+  {
+    "column name": "ActivityTypeDesc",
+    "description": "Narrative description providing additional posting details and context for the activity classification, such as direction and settlement nuances; likely maintained by accounting for GL mapping and reconciliation; confirm with SME."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the record is retired and should not be used for new transactions while remaining available for historical reference and reporting."
+  }
+]

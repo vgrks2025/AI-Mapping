@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate unique identifier for this migration rule row, used as the primary key."
+  },
+  {
+    "column name": "phase",
+    "description": "Numeric stage of the migration workflow used to group and sequence related operations; confirm exact semantics with SME."
+  },
+  {
+    "column name": "torder",
+    "description": "Decimal sort position controlling execution order within the phase; likely an intra‑phase sequence. Confirm with SME."
+  },
+  {
+    "column name": "itable",
+    "description": "Name of the target table affected by this migration step (destination entity)."
+  },
+  {
+    "column name": "fromandwhere",
+    "description": "Stored SQL FROM/WHERE clause defining source tables and filters for this step’s data extraction; used to assemble SELECT queries."
+  },
+  {
+    "column name": "ishardcoded",
+    "description": "Boolean flag indicating this step uses fixed/constant values instead of sourcing from data."
+  },
+  {
+    "column name": "isupdate",
+    "description": "Boolean flag indicating the operation updates existing records rather than inserting new ones."
+  },
+  {
+    "column name": "isdistinct",
+    "description": "Boolean flag indicating the source query applies DISTINCT to eliminate duplicate rows."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that created this configuration entry."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this configuration entry was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that last updated this configuration entry."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update to this configuration entry."
+  }
+]

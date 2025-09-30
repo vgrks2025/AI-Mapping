@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "UnitID",
+    "description": "System-generated unique identifier for each unit-of-measure record used across parts, inventory, and purchasing."
+  },
+  {
+    "column name": "UnitMeasure",
+    "description": "Business-friendly name of the measurement unit applied to quantities for parts and materials in operations, inventory, and procurement."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the measurement unit is retired/inactive and should not be used on new transactions; retained for historical reference."
+  }
+]

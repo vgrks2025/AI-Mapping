@@ -1,0 +1,102 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this claim record tied to an asset/incident."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp when the record was created or last updated; used for audit and ordering."
+  },
+  {
+    "column name": "fault",
+    "description": "Flag indicating whether the operator/organization was at fault for the incident."
+  },
+  {
+    "column name": "tdate",
+    "description": "Date of the incident or claim in YYYYMMDD format; likely the occurrence date; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Short narrative summarizing the incident circumstances."
+  },
+  {
+    "column name": "equipdesc",
+    "description": "Free-text description of the involved asset (e.g., vehicle details); likely optional; confirm with SME."
+  },
+  {
+    "column name": "damage",
+    "description": "Narrative of damage identified and repair actions taken or planned."
+  },
+  {
+    "column name": "cost",
+    "description": "Total monetary amount associated with repairs or the claim for this incident."
+  },
+  {
+    "column name": "meter2",
+    "description": "Secondary meter reading at time of incident (e.g., engine hours or auxiliary odometer); likely seldom used; confirm with SME."
+  },
+  {
+    "column name": "meter",
+    "description": "Primary odometer/meter reading of the asset at the time of incident."
+  },
+  {
+    "column name": "vendor",
+    "description": "Identifier of the external repair or service provider associated with the claim."
+  },
+  {
+    "column name": "vendorr",
+    "description": "Reference type or target entity for the vendor ID (e.g., table/namespace); confirm with SME."
+  },
+  {
+    "column name": "driver",
+    "description": "Identifier of the driver or operator associated with the incident."
+  },
+  {
+    "column name": "driverr",
+    "description": "Reference type for the driver ID (e.g., employee entity); confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment or vehicle involved in the incident."
+  },
+  {
+    "column name": "equiper",
+    "description": "Reference type for the equipment ID (e.g., equipment entity/table); confirm with SME."
+  },
+  {
+    "column name": "accident",
+    "description": "Identifier of the related accident or incident record."
+  },
+  {
+    "column name": "accidentr",
+    "description": "Reference type for the accident ID (e.g., target entity/table); confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Primary key from the source legacy system for cross-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Source table name from the legacy system for this record."
+  },
+  {
+    "column name": "workreq",
+    "description": "Identifier or code for a related service request initiated by the incident; confirm with SME."
+  },
+  {
+    "column name": "meter4",
+    "description": "Additional meter reading field; purpose varies (e.g., attachment or hour meters); confirm with SME."
+  },
+  {
+    "column name": "meter3",
+    "description": "Additional meter reading field; purpose varies (e.g., attachment or hour meters); confirm with SME."
+  },
+  {
+    "column name": "workorder",
+    "description": "Flag indicating whether a repair work order was created or linked for this incident."
+  },
+  {
+    "column name": "maintreq",
+    "description": "Flag indicating whether a maintenance request was created or linked due to this incident."
+  }
+]

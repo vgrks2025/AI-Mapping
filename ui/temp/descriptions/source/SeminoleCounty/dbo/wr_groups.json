@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "wr_group",
+    "description": "Unique code or name for the work request group used to categorize requests and manage access, routing, or reporting."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the group for UI display and reporting."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update."
+  },
+  {
+    "column name": "show_all_req_tab",
+    "description": "Boolean flag indicating whether the group’s users can view an all-requests tab or list."
+  },
+  {
+    "column name": "default_customer_type",
+    "description": "Default customer type assigned to new requests for this group; likely used to prefill forms or workflows; confirm with SME."
+  },
+  {
+    "column name": "show_cust_info",
+    "description": "Boolean flag controlling whether customer details are shown to users in this group."
+  }
+]

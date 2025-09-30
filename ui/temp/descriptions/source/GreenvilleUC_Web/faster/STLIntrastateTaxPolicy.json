@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntrastateTaxPolicyID",
+    "description": "Unique identifier for the intrastate tax sourcing rule used for rating, billing, and reporting. Surrogate key linking shipments/transactions to the applicable in-state tax policy."
+  },
+  {
+    "column name": "IntrastateTaxPolicy",
+    "description": "Text label indicating how tax is sourced for in-state transactions, such as based on shipment origin or destination; drives tax calculation and compliance logic."
+  }
+]

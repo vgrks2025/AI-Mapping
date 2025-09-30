@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ReturnType",
+    "description": "Code identifying the category of a return transaction within fleet parts/inventory processes; used to control handling, financial treatment, and reporting."
+  },
+  {
+    "column name": "ReturnTypeDesc",
+    "description": "User-friendly label describing the return category corresponding to the return type code; displayed in UIs and reports."
+  }
+]

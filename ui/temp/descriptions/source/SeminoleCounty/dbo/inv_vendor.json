@@ -1,0 +1,102 @@
+[
+  {
+    "column name": "stock",
+    "description": "Vendor’s stock or catalog number for the item; used when ordering from the supplier. May include alphanumeric characters and leading zeros."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number for this vendor-item row, used to order multiple vendor options for the same item."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Internal identifier for the supplier providing this item."
+  },
+  {
+    "column name": "ven_type",
+    "description": "Vendor classification or role for this item (likely manufacturer, distributor, etc.); confirm with SME."
+  },
+  {
+    "column name": "model_no",
+    "description": "Manufacturer’s model or part number associated with the item."
+  },
+  {
+    "column name": "brand",
+    "description": "Brand or manufacturer name for the item as offered by the vendor."
+  },
+  {
+    "column name": "price",
+    "description": "Unit price associated with this vendor-item record (may represent list or sell price distinct from vendor cost); confirm definition with SME."
+  },
+  {
+    "column name": "leadtime",
+    "description": "Expected procurement lead time from the vendor, likely in days; confirm unit with SME."
+  },
+  {
+    "column name": "ord_qty",
+    "description": "Default or minimum order quantity for this vendor item; unit aligns with vendor unit of measure; confirm with SME."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority ranking for sourcing from this vendor for the item (lower number typically indicates higher preference); confirm business rule with SME."
+  },
+  {
+    "column name": "item_no",
+    "description": "Internal inventory item identifier that this vendor record applies to."
+  },
+  {
+    "column name": "eff_date",
+    "description": "Date when this vendor-item pricing or terms become effective."
+  },
+  {
+    "column name": "exp_dt",
+    "description": "Date when this vendor-item pricing or terms expire or become inactive."
+  },
+  {
+    "column name": "serial_no",
+    "description": "Serial number for the specific unit, if tracked for this item; often blank for non-serialized parts; confirm use with SME."
+  },
+  {
+    "column name": "usage_flag",
+    "description": "Flag indicating whether this vendor record is active/usable in purchasing and planning; confirm allowed values with SME."
+  },
+  {
+    "column name": "primary_row",
+    "description": "Indicates whether this is the primary/preferred vendor row for the item (Y/N)."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Warehouse or stocking location code where this vendor relationship or pricing applies."
+  },
+  {
+    "column name": "ven_unitname",
+    "description": "Vendor’s selling unit of measure used for ordering (e.g., EA, GAL)."
+  },
+  {
+    "column name": "ven_qtyperunit",
+    "description": "Quantity contained in one vendor selling unit, used to convert to base units."
+  },
+  {
+    "column name": "ven_cost",
+    "description": "Unit purchase cost quoted by the vendor, in the organization’s currency."
+  },
+  {
+    "column name": "model_desc",
+    "description": "Text description of the model or part as provided by the vendor or catalog."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the vendor-item record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the vendor-item record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last updated the vendor-item record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the vendor-item record was last updated."
+  }
+]

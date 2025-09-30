@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "RepairStatusID",
+    "description": "Unique identifier for a repair status option used in service workflows; enables consistent referencing and joins to orders or events."
+  },
+  {
+    "column name": "Status",
+    "description": "Human-readable label describing the current stage of a repair workflow for assets or work orders."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this employee rate record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp when this rate row was created or last updated (format yyyymmddHHMMSSmmm); used for change tracking."
+  },
+  {
+    "column name": "type",
+    "description": "Foreign key to the employee rate type (e.g., regular, overtime) that classifies the rate; joins via 'typer' to the referenced list."
+  },
+  {
+    "column name": "typer",
+    "description": "Name of the reference list backing the 'type' field; used by generic foreign-key logic."
+  },
+  {
+    "column name": "employee",
+    "description": "Identifier of the employee this rate applies to; foreign key to the employee master."
+  },
+  {
+    "column name": "employeer",
+    "description": "Name of the master data source for the employee foreign key."
+  },
+  {
+    "column name": "rate",
+    "description": "Monetary amount for this employee’s rate, likely hourly; used for labor costing or billing. Confirm unit and currency with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Marks the rate record as inactive so it’s ignored in lookups and calculations."
+  },
+  {
+    "column name": "defaultrate",
+    "description": "Flags this as the employee’s default rate when multiple rates exist."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from the prior system to support back-reference and reconciliation."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Original table name from the prior system for lineage and audit."
+  }
+]

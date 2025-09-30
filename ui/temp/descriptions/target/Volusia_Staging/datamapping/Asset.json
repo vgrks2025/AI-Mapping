@@ -1,0 +1,334 @@
+[
+  {
+    "column name": "AssetID",
+    "description": "Unique identifier for each asset in the fleet management system."
+  },
+  {
+    "column name": "AssetNumber",
+    "description": "Human-readable identifier for the asset, often including descriptive text."
+  },
+  {
+    "column name": "Organization",
+    "description": "Name of the organization that owns or operates the asset."
+  },
+  {
+    "column name": "FinancialReferenceNumber",
+    "description": "Identifier for financial tracking; confirm with SME."
+  },
+  {
+    "column name": "AssetStatus",
+    "description": "Current operational status of the asset, indicating if it is active or inactive."
+  },
+  {
+    "column name": "Year",
+    "description": "Year of manufacture or acquisition of the asset."
+  },
+  {
+    "column name": "Make",
+    "description": "Manufacturer or brand name of the asset."
+  },
+  {
+    "column name": "Model",
+    "description": "Specific model designation of the asset as provided by the manufacturer."
+  },
+  {
+    "column name": "ClassCode",
+    "description": "Code representing the classification of the asset for categorization purposes."
+  },
+  {
+    "column name": "LicensePlate",
+    "description": "Registered license plate number of the asset."
+  },
+  {
+    "column name": "State",
+    "description": "State where the asset is registered or primarily operated."
+  },
+  {
+    "column name": "VINSerialNumber",
+    "description": "Vehicle Identification Number or serial number for tracking and identification."
+  },
+  {
+    "column name": "AssetDepartmentCode",
+    "description": "Code representing the department responsible for the asset."
+  },
+  {
+    "column name": "AssetDepartmentDesc",
+    "description": "Description of the department responsible for managing the asset."
+  },
+  {
+    "column name": "AssetShopCode",
+    "description": "Code identifying the shop or location where the asset is maintained."
+  },
+  {
+    "column name": "AssetShopDesc",
+    "description": "Description of the shop or location for asset maintenance."
+  },
+  {
+    "column name": "Availability",
+    "description": "Indicates the availability schedule of the asset for use."
+  },
+  {
+    "column name": "Color",
+    "description": "Color of the asset; confirm with SME."
+  },
+  {
+    "column name": "GrossVehicleWeight",
+    "description": "Total weight of the vehicle when fully loaded; may include 'nan' for unknown."
+  },
+  {
+    "column name": "DriveTrainCode",
+    "description": "Code representing the drivetrain configuration; confirm with SME."
+  },
+  {
+    "column name": "DriveTrainDesc",
+    "description": "Description of the drivetrain configuration; confirm with SME."
+  },
+  {
+    "column name": "BodySerialNumber",
+    "description": "Serial number for the body of the asset; confirm with SME."
+  },
+  {
+    "column name": "ChassisSerialNumber",
+    "description": "Serial number for the chassis of the asset; confirm with SME."
+  },
+  {
+    "column name": "Site",
+    "description": "Location or site where the asset is primarily used or stored."
+  },
+  {
+    "column name": "Location",
+    "description": "Specific location details for the asset; confirm with SME."
+  },
+  {
+    "column name": "ZipCode",
+    "description": "Postal code for the asset's registered or operational location."
+  },
+  {
+    "column name": "AssetComment",
+    "description": "Additional comments or notes regarding the asset; confirm with SME."
+  },
+  {
+    "column name": "VendorAssetNumber",
+    "description": "Asset number assigned by the vendor; confirm with SME."
+  },
+  {
+    "column name": "FuelCardNumber",
+    "description": "Identifier for the fuel card associated with the asset; confirm with SME."
+  },
+  {
+    "column name": "Priority",
+    "description": "Priority level assigned to the asset for operational purposes; confirm with SME."
+  },
+  {
+    "column name": "MonitorGroupCode",
+    "description": "Code for the monitoring group associated with the asset; confirm with SME."
+  },
+  {
+    "column name": "MonitorGroup",
+    "description": "Name of the monitoring group associated with the asset; confirm with SME."
+  },
+  {
+    "column name": "UsageTypeCode",
+    "description": "Code indicating the type of usage for the asset; confirm with SME."
+  },
+  {
+    "column name": "UsageType",
+    "description": "Description of the asset's usage type; confirm with SME."
+  },
+  {
+    "column name": "InServiceDate",
+    "description": "Date when the asset was put into service."
+  },
+  {
+    "column name": "AcquireDate",
+    "description": "Date when the asset was acquired."
+  },
+  {
+    "column name": "AcquireCost",
+    "description": "Cost incurred to acquire the asset."
+  },
+  {
+    "column name": "Title",
+    "description": "Title of ownership for the asset; confirm with SME."
+  },
+  {
+    "column name": "AcquireType",
+    "description": "Type of acquisition for the asset; confirm with SME."
+  },
+  {
+    "column name": "ReplacedAssetNumber",
+    "description": "Identifier for any asset that this asset has replaced; confirm with SME."
+  },
+  {
+    "column name": "UsefulLifeinMonths",
+    "description": "Estimated useful life of the asset expressed in months."
+  },
+  {
+    "column name": "FuelDescription1",
+    "description": "Description of the primary fuel type used by the asset."
+  },
+  {
+    "column name": "FuelCapacity1",
+    "description": "Capacity of the primary fuel tank in specified units."
+  },
+  {
+    "column name": "FuelUnitOfMeasure1",
+    "description": "Unit of measure for the primary fuel capacity."
+  },
+  {
+    "column name": "FuelDescription2",
+    "description": "Description of a secondary fuel type, if applicable; confirm with SME."
+  },
+  {
+    "column name": "FuelCapacity2",
+    "description": "Capacity of a secondary fuel tank, if applicable; confirm with SME."
+  },
+  {
+    "column name": "FuelUnitOfMeasure2",
+    "description": "Unit of measure for the secondary fuel capacity; confirm with SME."
+  },
+  {
+    "column name": "EngineSize",
+    "description": "Size or specification of the engine used in the asset."
+  },
+  {
+    "column name": "EngineSerialNumber",
+    "description": "Serial number for the engine; confirm with SME."
+  },
+  {
+    "column name": "OilCapacity",
+    "description": "Capacity of the oil system in the asset."
+  },
+  {
+    "column name": "MeterType1",
+    "description": "Type of measurement for the first meter (e.g., mileage)."
+  },
+  {
+    "column name": "ActualReading1",
+    "description": "Current reading from the first meter; may include 'nan' for unknown."
+  },
+  {
+    "column name": "LifeExpectancy1",
+    "description": "Expected lifespan of the asset based on the first meter; may include 'nan'."
+  },
+  {
+    "column name": "AcquireReading1",
+    "description": "Reading from the first meter at the time of acquisition; may include 'nan'."
+  },
+  {
+    "column name": "AcquireDate1",
+    "description": "Date of the first meter reading at acquisition."
+  },
+  {
+    "column name": "LTDReading1",
+    "description": "Lifetime reading from the first meter; may include 'nan'."
+  },
+  {
+    "column name": "MeterType2",
+    "description": "Type of measurement for the second meter; confirm with SME."
+  },
+  {
+    "column name": "ActualReading2",
+    "description": "Current reading from the second meter; confirm with SME."
+  },
+  {
+    "column name": "LifeExpectancy2",
+    "description": "Expected lifespan based on the second meter; confirm with SME."
+  },
+  {
+    "column name": "AcquireReading2",
+    "description": "Reading from the second meter at acquisition; confirm with SME."
+  },
+  {
+    "column name": "AcquireDate2",
+    "description": "Date of the second meter reading at acquisition; confirm with SME."
+  },
+  {
+    "column name": "LTDReading2",
+    "description": "Lifetime reading from the second meter; confirm with SME."
+  },
+  {
+    "column name": "MeterType3",
+    "description": "Type of measurement for the third meter; confirm with SME."
+  },
+  {
+    "column name": "ActualReading3",
+    "description": "Current reading from the third meter; confirm with SME."
+  },
+  {
+    "column name": "LifeExpectancy3",
+    "description": "Expected lifespan based on the third meter; confirm with SME."
+  },
+  {
+    "column name": "AcquireReading3",
+    "description": "Reading from the third meter at acquisition; confirm with SME."
+  },
+  {
+    "column name": "AcquireDate3",
+    "description": "Date of the third meter reading at acquisition; confirm with SME."
+  },
+  {
+    "column name": "LTDReading3",
+    "description": "Lifetime reading from the third meter; confirm with SME."
+  },
+  {
+    "column name": "TransmissionType",
+    "description": "Type of transmission used in the asset; confirm with SME."
+  },
+  {
+    "column name": "FluidCapacity",
+    "description": "Capacity for fluids (e.g., transmission fluid); confirm with SME."
+  },
+  {
+    "column name": "TransmissionSerialNumber",
+    "description": "Serial number for the transmission; confirm with SME."
+  },
+  {
+    "column name": "ContactFirstName",
+    "description": "First name of the primary contact for the asset; confirm with SME."
+  },
+  {
+    "column name": "ContactMiddleInitial",
+    "description": "Middle initial of the primary contact; confirm with SME."
+  },
+  {
+    "column name": "ContactLastName",
+    "description": "Last name of the primary contact for the asset; confirm with SME."
+  },
+  {
+    "column name": "EmailAddress",
+    "description": "Email address of the primary contact; confirm with SME."
+  },
+  {
+    "column name": "ContactPhone",
+    "description": "Phone number of the primary contact for the asset; confirm with SME."
+  },
+  {
+    "column name": "ReceivePMEmailAlerts",
+    "description": "Indicates if the contact receives email alerts for preventive maintenance; confirm with SME."
+  },
+  {
+    "column name": "15PointMeter",
+    "description": "Indicates if a 15-point meter is used for tracking; confirm with SME."
+  },
+  {
+    "column name": "InflationRate",
+    "description": "Rate of inflation applied for financial calculations; confirm with SME."
+  },
+  {
+    "column name": "SalvageRate",
+    "description": "Estimated salvage value of the asset at the end of its useful life; confirm with SME."
+  },
+  {
+    "column name": "ReplacementCollected",
+    "description": "Indicates if a replacement asset has been collected; confirm with SME."
+  },
+  {
+    "column name": "NoteSubject",
+    "description": "Subject line for any notes related to the asset; confirm with SME."
+  },
+  {
+    "column name": "Note",
+    "description": "Detailed notes regarding the asset; confirm with SME."
+  }
+]

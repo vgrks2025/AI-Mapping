@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Identifier of the account attempting authentication; typically the application or network login ID."
+  },
+  {
+    "column name": "success",
+    "description": "Flag indicating whether the authentication attempt succeeded (e.g., Y/N)."
+  },
+  {
+    "column name": "ip_address",
+    "description": "Source IP address of the client that initiated the login request."
+  },
+  {
+    "column name": "session_id",
+    "description": "Unique identifier for the session established for this authentication event; used to correlate subsequent activity."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the login attempt was recorded; likely stored in UTC; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the authentication event, such as reason, flow, or error details; confirm meaning with SME."
+  }
+]

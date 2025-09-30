@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate unique identifier for this vehicle type and weight classification record; used as the primary key and to reference the classification elsewhere."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time when the record was created or last updated, stored as yyyymmddhhmmssSSS; supports auditing, sequencing, and change tracking."
+  },
+  {
+    "column name": "typweight",
+    "description": "Human-readable category describing vehicle type and gross vehicle weight rating (GVWR) class, including attributes like drivetrain or size; used to classify fleet assets for reporting, procurement, and compliance."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for the equivalent classification in a legacy source system to support mapping and migration; likely nullable; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the table in the legacy system where the equivalent classification originated; used for lineage and traceability; likely nullable; confirm with SME."
+  }
+]

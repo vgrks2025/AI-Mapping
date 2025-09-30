@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this row, used as the primary key and for referential links."
+  },
+  {
+    "column name": "timestamp",
+    "description": "High-precision date and time when the row was created or last updated, typically stored to milliseconds."
+  },
+  {
+    "column name": "vendserv",
+    "description": "Business name or description of the service offering provided, used to categorize available vendor services."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original record identifier from the migrated source system, retained to support lineage, reconciliation, and back-references."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Original table name in the source system from which this row was migrated, kept for lineage and auditing."
+  },
+  {
+    "column name": "type",
+    "description": "Code indicating the service category or classification; likely denotes standard versus other types; confirm with SME."
+  }
+]

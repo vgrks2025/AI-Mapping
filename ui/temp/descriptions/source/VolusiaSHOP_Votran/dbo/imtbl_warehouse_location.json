@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the warehouse location record; serves as the primary key for joins and references."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Identifier of the warehouse facility that this location belongs to, typically a foreign key to the warehouse master."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable code or name for the physical storage spot within the warehouse (bin, shelf, room, etc.)."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text description of the storage location to aid identification or provide context."
+  },
+  {
+    "column name": "sub_one",
+    "description": "Likely first-level sublocation component within the warehouse (e.g., zone/aisle); confirm with SME."
+  },
+  {
+    "column name": "sub_two",
+    "description": "Likely second-level sublocation component (e.g., rack/row); confirm with SME."
+  },
+  {
+    "column name": "sub_three",
+    "description": "Likely third-level sublocation component (e.g., shelf/slot); confirm with SME."
+  },
+  {
+    "column name": "active",
+    "description": "Indicates whether the storage location is currently available for use in inventory operations."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional notes about the location, such as restrictions, hazards, or usage instructions."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last updated this record; name suggests a user reference but stores a date-time—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created the record; confirm source system mapping."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when the record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the most recent user-driven modification."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated surrogate key uniquely identifying the saved query definition."
+  },
+  {
+    "column name": "id",
+    "description": "User-assigned name or identifier for the saved query, used for selection and display."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text or encoded notes/flags describing the query; values appear semicolon-delimited; likely stores metadata rather than prose; confirm with SME."
+  },
+  {
+    "column name": "class",
+    "description": "Functional area or entity type the query targets; determines which data set and fields are available."
+  },
+  {
+    "column name": "fields",
+    "description": "List of fields to return in results; may support wildcards or comma-separated field names."
+  },
+  {
+    "column name": "filter_clause",
+    "description": "Serialized filter criteria defining field/operator/value conditions for the query; stored in a delimited format for the application to parse."
+  },
+  {
+    "column name": "sort",
+    "description": "Sort specification for query results, including field(s) and direction."
+  },
+  {
+    "column name": "main_operator",
+    "description": "Default logical operator used to join multiple filter conditions when building the query; likely AND or OR."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this query definition was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated change to this query; may mirror last_modified depending on implementation; confirm distinction with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created the query definition."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the query definition was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the query definition."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the query was last modified by a user; may duplicate user_last_modified; confirm with SME."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this record; uniquely identifies a localized UI form/resource entry."
+  },
+  {
+    "column name": "ls_language_pkey",
+    "description": "Foreign key to the language catalog identifying the language of this record’s captions/labels."
+  },
+  {
+    "column name": "filename",
+    "description": "Logical identifier of the application form or UI component this localization entry pertains to."
+  },
+  {
+    "column name": "formcaption",
+    "description": "User-visible caption or title for the form/component in the specified language."
+  },
+  {
+    "column name": "file_class",
+    "description": "Code indicating the type/class of UI resource (e.g., form, dialog, report); likely from a lookup; confirm with SME."
+  },
+  {
+    "column name": "ls_project_pkey",
+    "description": "Foreign key to the project or module that owns this localized resource, used for scoping and grouping."
+  },
+  {
+    "column name": "ls_resx_pkey",
+    "description": "Optional link to the underlying .resx resource entry containing strings for this form; may be null; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp of the most recent change to this record, used for auditing and replication."
+  }
+]

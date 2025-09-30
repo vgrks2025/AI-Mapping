@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "WebServiceID",
+    "description": "Unique internal identifier for a configured web service integration/endpoint, used to relate requests, configurations, and permissions across the platform."
+  },
+  {
+    "column name": "WebServiceDesc",
+    "description": "Human-readable label describing the function or business domain of the configured web service, used in selection, reporting, and administration."
+  }
+]

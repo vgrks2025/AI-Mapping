@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "keyrow",
+    "description": "Surrogate primary key for the inventory record; uniquely identifies the row in sys_inventory."
+  },
+  {
+    "column name": "last_tran_no",
+    "description": "Identifier of the most recent inventory transaction that affected this item/location; likely the last posted transaction number. Confirm with SME."
+  },
+  {
+    "column name": "po_inv",
+    "description": "Indicator or reference linking this inventory record to a purchase order or invoice; meaning may vary by site. Confirm with SME."
+  },
+  {
+    "column name": "poqty_overwrite",
+    "description": "Flag or value used to override the purchase order quantity when receiving or adjusting inventory for this item; confirm intended datatype and behavior with SME."
+  },
+  {
+    "column name": "inv_protect_trans",
+    "description": "Indicator that locks the inventory record from certain transactions (e.g., issues, adjustments) to protect quantities/status; confirm exact rules with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or process that created the inventory record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the inventory record was created (system create date/time)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or process that last modified the inventory record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the inventory record."
+  },
+  {
+    "column name": "inv_print_rpt_id",
+    "description": "Identifier of the print report or label template associated with this inventory item; used when printing item reports/labels."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "LevelID",
+    "description": "Integer code for a charge allocation level within the account hierarchy, used to map charges to the appropriate organizational scope in the fleet system."
+  },
+  {
+    "column name": "Level",
+    "description": "Descriptive name of the charge allocation level indicating the scope at which charges are tracked or billed in the account hierarchy."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the level is retired and retained only for historical reference; true means no longer valid for new charge mappings."
+  }
+]

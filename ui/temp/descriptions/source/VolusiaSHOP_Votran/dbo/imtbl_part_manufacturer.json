@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this row; used as the primary key."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory item (fleet part) this manufacturer record relates to; foreign key to the parts catalog."
+  },
+  {
+    "column name": "manufacturer",
+    "description": "Identifier of the producing vendor/brand for the part; foreign key to the manufacturers directory."
+  },
+  {
+    "column name": "primary_manufacturer",
+    "description": "Boolean flag indicating the preferred producer for this item when multiple sources exist; likely true/false; confirm with SME."
+  },
+  {
+    "column name": "manufacturer_part_number",
+    "description": "The vendor’s catalog/part number for this item, as printed on packaging or specifications."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes about the manufacturer–part association, sourcing, compatibility, or other remarks."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when the record was last changed in the system, regardless of actor or process."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a human user most recently updated the record; likely excludes automated updates; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that created the record; likely a foreign key to a users or employees table; confirm target."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that most recently updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was most recently updated by a user."
+  }
+]

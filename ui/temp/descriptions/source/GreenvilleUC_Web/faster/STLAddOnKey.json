@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "AddOnKeyID",
+    "description": "System-generated primary key uniquely identifying an add-on license record."
+  },
+  {
+    "column name": "IntegrationName",
+    "description": "Business-facing name of the add-on integration or feature associated with the license."
+  },
+  {
+    "column name": "Description",
+    "description": "Concise functional summary of what the add-on enables or how it is used."
+  },
+  {
+    "column name": "SerialKey",
+    "description": "Unique license/activation token (typically a GUID) used to enable the add-on for a customer or installation."
+  },
+  {
+    "column name": "AddOnTypeID",
+    "description": "Foreign key to a lookup defining the add-on’s category or type (e.g., integration, utility); likely reference data—confirm with SME."
+  }
+]

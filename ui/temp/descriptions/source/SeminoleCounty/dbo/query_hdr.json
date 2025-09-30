@@ -1,0 +1,130 @@
+[
+  {
+    "column name": "query_id",
+    "description": "System-generated unique identifier for the saved query/report definition."
+  },
+  {
+    "column name": "qu_name",
+    "description": "User-facing name of the saved query or report."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description of the query/report’s purpose to help users select it."
+  },
+  {
+    "column name": "table_name",
+    "description": "Primary database table or view the query/report draws data from."
+  },
+  {
+    "column name": "query_category",
+    "description": "Functional category used to organize the query within the application."
+  },
+  {
+    "column name": "jrxml",
+    "description": "JRXML layout template content used to render the report output."
+  },
+  {
+    "column name": "cust_sql",
+    "description": "Custom SQL statement that defines the data selection and aggregation for this query."
+  },
+  {
+    "column name": "owner",
+    "description": "User designated as the owner or maintainer of the query."
+  },
+  {
+    "column name": "title_height",
+    "description": "Height of the report title band in the output layout."
+  },
+  {
+    "column name": "header_height",
+    "description": "Height of the column header band in the report layout."
+  },
+  {
+    "column name": "detail_height",
+    "description": "Height of each detail row band in the report layout."
+  },
+  {
+    "column name": "subtotal_height",
+    "description": "Height allocated to subtotal or group footer sections."
+  },
+  {
+    "column name": "total_height",
+    "description": "Height allocated to the final totals or summary section."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who originally created the query configuration."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the query configuration was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the query configuration."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the query configuration."
+  },
+  {
+    "column name": "custom_flag",
+    "description": "Indicates whether this is a customer-defined query versus a delivered system template."
+  },
+  {
+    "column name": "run_by",
+    "description": "User who last executed the query/report."
+  },
+  {
+    "column name": "run_dt",
+    "description": "Timestamp when the query/report was last executed."
+  },
+  {
+    "column name": "header_tag",
+    "description": "Text displayed in the report header, such as a title or tagline."
+  },
+  {
+    "column name": "footer_tag",
+    "description": "Text displayed in the report footer, such as company name or disclaimers."
+  },
+  {
+    "column name": "charts",
+    "description": "Serialized list of chart configurations included in the report output."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the work group associated with access or ownership; likely security-related; confirm with SME."
+  },
+  {
+    "column name": "advanced_conditions",
+    "description": "Additional filter logic or expressions beyond basic conditions; likely serialized; confirm with SME."
+  },
+  {
+    "column name": "portrait_orientation",
+    "description": "Flag indicating page orientation; 1 = portrait, 0 = landscape (or similar)."
+  },
+  {
+    "column name": "cascade_style",
+    "description": "Controls cascading behavior of parameter prompts or style inheritance; likely an option flag; confirm with SME."
+  },
+  {
+    "column name": "font_size",
+    "description": "Default font size used in the report layout or printed output."
+  },
+  {
+    "column name": "summary_flag",
+    "description": "Indicates whether the query returns summary-only (aggregated) results instead of detailed rows."
+  },
+  {
+    "column name": "columns",
+    "description": "Stored definition of output columns, including selection, order, labels, and widths."
+  },
+  {
+    "column name": "conditions",
+    "description": "Stored filter criteria and parameter values applied when running the query."
+  },
+  {
+    "column name": "single_line_output",
+    "description": "When enabled, formats each result record on a single printed line; confirm behavior with SME."
+  }
+]

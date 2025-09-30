@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "AcquisitionStatusID",
+    "description": "Unique identifier for a procurement status in the acquisition lifecycle; used to relate assets or requests to their current state."
+  },
+  {
+    "column name": "AcquisitionStatus",
+    "description": "Short code representing the procurement status within the acquisition lifecycle."
+  },
+  {
+    "column name": "AcquisitionStatusDesc",
+    "description": "Human-readable label describing the procurement status for user interfaces and reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating this status value is retired from active use but retained for historical reference."
+  }
+]

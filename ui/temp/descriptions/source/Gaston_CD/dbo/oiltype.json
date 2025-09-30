@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this record; serves as the primary key for reference and joins."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the record was created or last modified, in yyyymmddHHMMSSmmm numeric string with millisecond precision; timezone not indicated—confirm with SME."
+  },
+  {
+    "column name": "oiltype",
+    "description": "SAE viscosity grade designation for engine oil used to determine appropriate service and parts selection."
+  },
+  {
+    "column name": "code",
+    "description": "Canonical code representing the oil grade, used as the stable identifier in integrations and lookups; often equals the SAE viscosity designation."
+  },
+  {
+    "column name": "cost",
+    "description": "Monetary cost associated with the oil type—likely unit price per container or volume; currency and unit conventions should be confirmed with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a prior system used to map or reconcile this record during migration; may be null for natively created records."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which this record originated; supports lineage and back-referencing during migration."
+  }
+]

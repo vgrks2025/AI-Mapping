@@ -1,0 +1,1154 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup used for organizing fleet work orders and settings."
+  },
+  {
+    "column name": "descr",
+    "description": "Business description of the workgroup’s scope or purpose."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the workgroup record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the workgroup record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last updated the workgroup record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this record."
+  },
+  {
+    "column name": "tmp_on_creation",
+    "description": "Notification or message template applied when a work order is created; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_assigned",
+    "description": "Template used when a work order is assigned; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_wip_change",
+    "description": "Template used when work order work-in-progress status changes; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_close",
+    "description": "Template used when a work order is closed; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_task_done",
+    "description": "Template used when a task is completed; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_parts_rcvd",
+    "description": "Template used when ordered parts are received; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_evt1",
+    "description": "Custom event template slot 1 for notifications; confirm usage with SME."
+  },
+  {
+    "column name": "tmp_on_evt2",
+    "description": "Custom event template slot 2 for notifications; confirm usage with SME."
+  },
+  {
+    "column name": "tmp_on_evt3",
+    "description": "Custom event template slot 3 for notifications; confirm usage with SME."
+  },
+  {
+    "column name": "wo_pattern",
+    "description": "Pattern for auto-generating work order numbers for this workgroup."
+  },
+  {
+    "column name": "last_wo_no",
+    "description": "Most recent work order number issued by this workgroup’s pattern."
+  },
+  {
+    "column name": "cc_customer",
+    "description": "Control flag for capturing or requiring the Customer field on work orders."
+  },
+  {
+    "column name": "cc_lem_activity",
+    "description": "Control for capturing activity codes on labor/equipment/material entries; confirm with SME."
+  },
+  {
+    "column name": "cc_planby",
+    "description": "Control for recording the planner on the work order; confirm with SME."
+  },
+  {
+    "column name": "cc_appvby",
+    "description": "Control for recording approver on the work order; confirm with SME."
+  },
+  {
+    "column name": "cc_wo_type",
+    "description": "Control for requiring or enabling the work order type field."
+  },
+  {
+    "column name": "cc_asset_location",
+    "description": "Control for capturing the asset’s location on work orders."
+  },
+  {
+    "column name": "cc_asset_acct",
+    "description": "Control for capturing the asset account on work orders."
+  },
+  {
+    "column name": "cc_reviewer_sig",
+    "description": "Control for requiring a reviewer signature; confirm with SME."
+  },
+  {
+    "column name": "cc_approver_sig",
+    "description": "Control for requiring an approver signature; confirm with SME."
+  },
+  {
+    "column name": "cc_lem_employee",
+    "description": "Control for capturing the employee on labor entries."
+  },
+  {
+    "column name": "cc_lem_work_hrs",
+    "description": "Control for capturing work hours on labor entries."
+  },
+  {
+    "column name": "cc_priority",
+    "description": "Control for requiring or enabling the priority field on work orders."
+  },
+  {
+    "column name": "cc_project",
+    "description": "Control for linking work orders to projects."
+  },
+  {
+    "column name": "cc_udf_text1",
+    "description": "Control for user-defined text field 1 on work orders."
+  },
+  {
+    "column name": "cc_udf_text2",
+    "description": "Control for user-defined text field 2 on work orders."
+  },
+  {
+    "column name": "cc_udf_text3",
+    "description": "Control for user-defined text field 3 on work orders."
+  },
+  {
+    "column name": "cc_lem_mgmt_unit",
+    "description": "Control for capturing management unit on labor/equipment/material entries."
+  },
+  {
+    "column name": "wo_print_rpt_id",
+    "description": "Default report layout identifier used to print work orders."
+  },
+  {
+    "column name": "ctl_lkup_dflt",
+    "description": "Default lookup list or search scope applied in selection dialogs."
+  },
+  {
+    "column name": "cc_assign_to",
+    "description": "Control for assigned-to (technician) field on work orders."
+  },
+  {
+    "column name": "cc_crew_leader",
+    "description": "Control for capturing the crew leader on work orders."
+  },
+  {
+    "column name": "cc_supervisor",
+    "description": "Control for capturing the supervisor on work orders."
+  },
+  {
+    "column name": "msg_open_opt",
+    "description": "Enable notifications for open work orders within a configured window."
+  },
+  {
+    "column name": "msg_open_subsys",
+    "description": "Subsystems included in open-order notifications; confirm with SME."
+  },
+  {
+    "column name": "msg_open_iw_status",
+    "description": "Filter for statuses included in the open-items notification window; confirm with SME."
+  },
+  {
+    "column name": "msg_open_iwfuture",
+    "description": "Number of future days considered for open-items notifications."
+  },
+  {
+    "column name": "msg_open_iwback",
+    "description": "Number of past days considered for open-items notifications."
+  },
+  {
+    "column name": "msg_open_iw_maxcnt",
+    "description": "Maximum number of open-items notifications sent per window; confirm with SME."
+  },
+  {
+    "column name": "msg_fail_opt",
+    "description": "Enable notifications triggered by failure conditions or codes."
+  },
+  {
+    "column name": "msg_fail_subsys",
+    "description": "Subsystems monitored for failure notifications; confirm with SME."
+  },
+  {
+    "column name": "msg_fail_code",
+    "description": "Failure codes that trigger notifications; confirm with SME."
+  },
+  {
+    "column name": "msg_fail_iwday",
+    "description": "Lookback period (days) for failure-triggered notifications."
+  },
+  {
+    "column name": "msg_fail_iw_maxcnt",
+    "description": "Maximum failure notifications allowed within the lookback window."
+  },
+  {
+    "column name": "msg_iw_meterpm",
+    "description": "Enable meter-based preventive maintenance notifications within the window."
+  },
+  {
+    "column name": "msg_due_days",
+    "description": "Days before due date to send maintenance reminders."
+  },
+  {
+    "column name": "msg_due_miles",
+    "description": "Mileage threshold before due to trigger maintenance reminders."
+  },
+  {
+    "column name": "msg_due_hrs",
+    "description": "Engine hours threshold before due to trigger reminders."
+  },
+  {
+    "column name": "msg_due_gals",
+    "description": "Fuel consumption threshold before due to trigger reminders."
+  },
+  {
+    "column name": "msg_assetwar_opt",
+    "description": "Enable notifications related to asset warranty coverage."
+  },
+  {
+    "column name": "msg_partwar_opt",
+    "description": "Enable notifications related to part warranty coverage."
+  },
+  {
+    "column name": "msg_partwar_when",
+    "description": "Timing rule for part warranty notifications; confirm with SME."
+  },
+  {
+    "column name": "msg_assetnote_opt",
+    "description": "Enable notifications when asset notes are present or updated."
+  },
+  {
+    "column name": "cc_action_taken",
+    "description": "Control for the action-taken field on work orders."
+  },
+  {
+    "column name": "cc_sup_notes",
+    "description": "Control for supervisor notes field on work orders."
+  },
+  {
+    "column name": "cc_wo_descr",
+    "description": "Control for work order description behavior (e.g., required or read-only)."
+  },
+  {
+    "column name": "cc_asset_subloc_id",
+    "description": "Control for asset sublocation identifier field."
+  },
+  {
+    "column name": "cc_asset_subloc_loc",
+    "description": "Control for asset sublocation description field."
+  },
+  {
+    "column name": "cc_asset_novalid_acct",
+    "description": "Allows non-validated asset account entries; confirm with SME."
+  },
+  {
+    "column name": "cc_asset_compl_dt",
+    "description": "Control for capturing asset-related completion date."
+  },
+  {
+    "column name": "cc_asset_subsystem",
+    "description": "Control for capturing the asset subsystem on work orders."
+  },
+  {
+    "column name": "cc_asset_opt1",
+    "description": "Custom asset option control 1; confirm business use with SME."
+  },
+  {
+    "column name": "cc_asset_opt2",
+    "description": "Custom asset option control 2; confirm business use with SME."
+  },
+  {
+    "column name": "cc_lem_acct",
+    "description": "Control for account field on labor/equipment/material entries."
+  },
+  {
+    "column name": "cc_lem_act_loc",
+    "description": "Control for activity location on labor/equipment/material entries."
+  },
+  {
+    "column name": "cc_lem_one_labor_line",
+    "description": "Setting to consolidate labor into a single line item."
+  },
+  {
+    "column name": "cc_lem_workqty_line",
+    "description": "Setting to capture work quantity per labor line."
+  },
+  {
+    "column name": "cc_employee_sig",
+    "description": "Control for capturing employee signature on work orders."
+  },
+  {
+    "column name": "cc_compl_dt_cur_mo",
+    "description": "Restricts completion date entry to the current month; confirm with SME."
+  },
+  {
+    "column name": "cc_one_asset",
+    "description": "Restricts work orders to reference only one asset."
+  },
+  {
+    "column name": "cc_wip",
+    "description": "Control for work-in-progress status handling on work orders."
+  },
+  {
+    "column name": "pop_user_reqby",
+    "description": "Default ‘Requested By’ to the current user when creating work orders."
+  },
+  {
+    "column name": "pop_tax_default",
+    "description": "Default tax code applied to work orders; confirm with SME."
+  },
+  {
+    "column name": "pop_wo_taxable",
+    "description": "Default taxable status for work orders; confirm with SME."
+  },
+  {
+    "column name": "pop_iw_closed_default",
+    "description": "Default closed state in in-window listings; confirm with SME."
+  },
+  {
+    "column name": "pop_iw_target_freq",
+    "description": "Default target frequency for in-window tracking; confirm with SME."
+  },
+  {
+    "column name": "pop_loc_cd",
+    "description": "Default location code applied to new work orders."
+  },
+  {
+    "column name": "pop_address_option",
+    "description": "Default address selection behavior for work orders; confirm with SME."
+  },
+  {
+    "column name": "pop_mgmt_unit",
+    "description": "Default management unit assigned to new work orders."
+  },
+  {
+    "column name": "pop_wo_type",
+    "description": "Default work order type applied on creation."
+  },
+  {
+    "column name": "pop_asset_acct_no",
+    "description": "Default asset account number for new work orders."
+  },
+  {
+    "column name": "pop_asset_type",
+    "description": "Default asset type used when creating work orders."
+  },
+  {
+    "column name": "pop_priority",
+    "description": "Default priority applied to new work orders."
+  },
+  {
+    "column name": "pop_batch_issue_days",
+    "description": "Default day range for batch issuing jobs or PMs; confirm with SME."
+  },
+  {
+    "column name": "pop_hdr_acct_no",
+    "description": "Default header account number on work orders."
+  },
+  {
+    "column name": "pop_lem_acct_no",
+    "description": "Default account used for labor/equipment/material entries."
+  },
+  {
+    "column name": "ctl_lkup_valid",
+    "description": "Lookup validation rule set applied to selections; confirm with SME."
+  },
+  {
+    "column name": "ctl_target_range",
+    "description": "Allowed range for planned/target dates on work orders."
+  },
+  {
+    "column name": "ctl_closed_range",
+    "description": "Allowed range for closing dates on work orders."
+  },
+  {
+    "column name": "ctl_keep_blank_act_hrs",
+    "description": "Allows saving labor entries with blank actual hours."
+  },
+  {
+    "column name": "ctl_subsys_linkage",
+    "description": "Enforces valid linkage between assets and their subsystems."
+  },
+  {
+    "column name": "ctl_priority_reqd",
+    "description": "Requires a priority value on work orders."
+  },
+  {
+    "column name": "filter_asset_type",
+    "description": "Enables filtering by asset type in lookups and lists."
+  },
+  {
+    "column name": "filter_warehouse",
+    "description": "Enables filtering by warehouse/store in lookups and lists."
+  },
+  {
+    "column name": "filter_vendor",
+    "description": "Vendor filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_equip",
+    "description": "Equipment filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_wotype",
+    "description": "Enables filtering by work order type."
+  },
+  {
+    "column name": "filter_mgmt_unit",
+    "description": "Management unit filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_activity_code",
+    "description": "Activity code filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_gis_layers",
+    "description": "Allows filtering by GIS layers on maps and selections."
+  },
+  {
+    "column name": "filter_issue",
+    "description": "Issue code filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_task",
+    "description": "Task filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_failure_code",
+    "description": "Failure code filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_wk_in_progress",
+    "description": "Limits lists to work-in-progress items when filtering."
+  },
+  {
+    "column name": "filter_loc_cd",
+    "description": "Enables filtering by location code."
+  },
+  {
+    "column name": "cc_flexible_yn",
+    "description": "Enables custom, flexible validation rules for this workgroup; confirm with SME."
+  },
+  {
+    "column name": "cc_flexible_stored_proc",
+    "description": "Stored procedure implementing flexible validations; confirm details with SME."
+  },
+  {
+    "column name": "filter_wh_by_user",
+    "description": "Restricts warehouse visibility based on the current user."
+  },
+  {
+    "column name": "filter_lbr_by_user",
+    "description": "Restricts labor resource visibility based on the current user."
+  },
+  {
+    "column name": "wo_descr_add_only",
+    "description": "Restricts work order description edits to append-only."
+  },
+  {
+    "column name": "filter_wo",
+    "description": "Enables filtering directly by work order identifiers."
+  },
+  {
+    "column name": "filter_crew",
+    "description": "Enables filtering by crew."
+  },
+  {
+    "column name": "filter_kit",
+    "description": "Kit filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_pm",
+    "description": "Preventive maintenance filter mode used in lookups and lists."
+  },
+  {
+    "column name": "ctl_standard_wo",
+    "description": "Enables use of standard (template) work orders."
+  },
+  {
+    "column name": "notify_craft_part",
+    "description": "Sends notifications to craft when parts are added to the work order."
+  },
+  {
+    "column name": "notify_craft_assigned",
+    "description": "Sends notifications to craft when they are assigned."
+  },
+  {
+    "column name": "notify_supervisor_assigned",
+    "description": "Sends notifications to supervisor when assigned to a work order."
+  },
+  {
+    "column name": "notify_supervisor_closed",
+    "description": "Sends notifications to supervisor when a work order is closed."
+  },
+  {
+    "column name": "notify_crew_leader_assigned",
+    "description": "Sends notifications to crew leader when assigned."
+  },
+  {
+    "column name": "notify_crew_leader_closed",
+    "description": "Sends notifications to crew leader when a work order is closed."
+  },
+  {
+    "column name": "notify_assigned_to_assigned",
+    "description": "Notifies the assigned technician when assignment occurs."
+  },
+  {
+    "column name": "notify_customer_closed",
+    "description": "Notifies the customer when a work order is closed."
+  },
+  {
+    "column name": "cc_meter_reading",
+    "description": "Requires capturing meter readings on applicable work orders."
+  },
+  {
+    "column name": "filter_labor",
+    "description": "Enables filtering by labor resources."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether this workgroup is active and usable."
+  },
+  {
+    "column name": "wo_auto_approve",
+    "description": "Automatically approves work orders on creation; confirm process with SME."
+  },
+  {
+    "column name": "notify_asset_user_create",
+    "description": "Notifies the asset’s designated user when a work order is created."
+  },
+  {
+    "column name": "notify_asset_user_close",
+    "description": "Notifies the asset’s designated user when a work order is closed."
+  },
+  {
+    "column name": "tmp_on_asset_user_create",
+    "description": "Template used for asset-user creation notifications; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_asset_user_close",
+    "description": "Template used for asset-user close notifications; confirm with SME."
+  },
+  {
+    "column name": "fleet_wg",
+    "description": "Identifies this workgroup as part of fleet operations."
+  },
+  {
+    "column name": "notify_craft_created",
+    "description": "Notifies craft when a work order is created."
+  },
+  {
+    "column name": "notify_craft_taskc",
+    "description": "Notifies craft when a task is completed."
+  },
+  {
+    "column name": "notify_craft_wip",
+    "description": "Notifies craft when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "notify_craft_closed",
+    "description": "Notifies craft when a work order is closed."
+  },
+  {
+    "column name": "notify_assigned_to_created",
+    "description": "Notifies the assignee when a work order is created."
+  },
+  {
+    "column name": "notify_assigned_to_part",
+    "description": "Notifies the assignee when parts are added."
+  },
+  {
+    "column name": "notify_assigned_to_taskc",
+    "description": "Notifies the assignee when a task is completed."
+  },
+  {
+    "column name": "notify_assigned_to_wip",
+    "description": "Notifies the assignee when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "notify_assigned_to_closed",
+    "description": "Notifies the assignee when a work order is closed."
+  },
+  {
+    "column name": "notify_supervisor_created",
+    "description": "Notifies supervisor when a work order is created."
+  },
+  {
+    "column name": "notify_supervisor_part",
+    "description": "Notifies supervisor when parts are added."
+  },
+  {
+    "column name": "notify_supervisor_taskc",
+    "description": "Notifies supervisor when a task is completed."
+  },
+  {
+    "column name": "notify_supervisor_wip",
+    "description": "Notifies supervisor when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "notify_crew_leader_created",
+    "description": "Notifies crew leader when a work order is created."
+  },
+  {
+    "column name": "notify_crew_leader_part",
+    "description": "Notifies crew leader when parts are added."
+  },
+  {
+    "column name": "notify_crew_leader_taskc",
+    "description": "Notifies crew leader when a task is completed."
+  },
+  {
+    "column name": "notify_crew_leader_wip",
+    "description": "Notifies crew leader when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "notify_linked_user_created",
+    "description": "Notifies linked users when a work order is created."
+  },
+  {
+    "column name": "notify_linked_user_assigned",
+    "description": "Notifies linked users when a work order is assigned."
+  },
+  {
+    "column name": "notify_linked_user_part",
+    "description": "Notifies linked users when parts are added."
+  },
+  {
+    "column name": "notify_linked_user_taskc",
+    "description": "Notifies linked users when a task is completed."
+  },
+  {
+    "column name": "notify_linked_user_wip",
+    "description": "Notifies linked users when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "notify_linked_user_closed",
+    "description": "Notifies linked users when a work order is closed."
+  },
+  {
+    "column name": "notify_customer_created",
+    "description": "Notifies customer when a work order is created."
+  },
+  {
+    "column name": "notify_customer_assigned",
+    "description": "Notifies customer when assigned parties change; confirm with SME."
+  },
+  {
+    "column name": "notify_customer_part",
+    "description": "Notifies customer when parts are added; confirm with SME."
+  },
+  {
+    "column name": "notify_customer_taskc",
+    "description": "Notifies customer when a task is completed; confirm with SME."
+  },
+  {
+    "column name": "notify_customer_wip",
+    "description": "Notifies customer when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "tmp_on_wo_create",
+    "description": "Template used when creating a work order."
+  },
+  {
+    "column name": "tmp_on_wo_assign",
+    "description": "Template used when assigning a work order."
+  },
+  {
+    "column name": "tmp_on_wo_part",
+    "description": "Template used when parts are added to a work order."
+  },
+  {
+    "column name": "tmp_on_task_c",
+    "description": "Template used when a task is completed on a work order."
+  },
+  {
+    "column name": "tmp_on_wip",
+    "description": "Template used when a work order enters work-in-progress."
+  },
+  {
+    "column name": "tmp_on_wo_closed",
+    "description": "Template used when a work order is closed."
+  },
+  {
+    "column name": "filter_checklist",
+    "description": "Checklist filter mode used in lookups and lists."
+  },
+  {
+    "column name": "pop_wo_winprogress",
+    "description": "Default status shown in the Work-In-Progress view."
+  },
+  {
+    "column name": "pop_customer_id",
+    "description": "Default customer assigned to new work orders."
+  },
+  {
+    "column name": "pop_hdr_from_asset_acct_flag",
+    "description": "Defaults work order header account from the asset’s account."
+  },
+  {
+    "column name": "pm_cron_exp",
+    "description": "Scheduling expression for automated preventive maintenance jobs or alerts."
+  },
+  {
+    "column name": "pm_recipients",
+    "description": "Default recipients for preventive maintenance notifications."
+  },
+  {
+    "column name": "filter_acct",
+    "description": "Account filter mode used in lookups and lists."
+  },
+  {
+    "column name": "pm_due_days",
+    "description": "Days before preventive maintenance due to send notifications."
+  },
+  {
+    "column name": "pm_due_meter1",
+    "description": "Primary meter threshold for PM due notifications."
+  },
+  {
+    "column name": "pm_due_meter2",
+    "description": "Secondary meter threshold for PM due notifications."
+  },
+  {
+    "column name": "pm_due_meter3",
+    "description": "Tertiary meter threshold for PM due notifications."
+  },
+  {
+    "column name": "pm_meter_type1",
+    "description": "Meter type associated with the primary PM threshold."
+  },
+  {
+    "column name": "pm_meter_type2",
+    "description": "Meter type associated with the secondary PM threshold."
+  },
+  {
+    "column name": "pm_meter_type3",
+    "description": "Meter type associated with the tertiary PM threshold."
+  },
+  {
+    "column name": "msg_meter_1_type",
+    "description": "Meter type monitored for messaging thresholds."
+  },
+  {
+    "column name": "msg_meter_2_type",
+    "description": "Additional meter type monitored for messaging; confirm with SME."
+  },
+  {
+    "column name": "msg_meter_3_type",
+    "description": "Additional meter type monitored for messaging; confirm with SME."
+  },
+  {
+    "column name": "cc_wo_attachment_count",
+    "description": "Count or limit of attachments on work orders; confirm intended use with SME."
+  },
+  {
+    "column name": "tmp_asset_verified",
+    "description": "Template or flag used when an asset is verified; confirm with SME."
+  },
+  {
+    "column name": "tmp_asset_needs_verification",
+    "description": "Template or flag when an asset requires verification; confirm with SME."
+  },
+  {
+    "column name": "user_asset_verified",
+    "description": "Allows users to mark assets as verified; confirm with SME."
+  },
+  {
+    "column name": "user_asset_needs_verification",
+    "description": "Allows users to flag assets needing verification; confirm with SME."
+  },
+  {
+    "column name": "show_tasks_desktop",
+    "description": "Shows the tasks panel by default in the desktop interface."
+  },
+  {
+    "column name": "show_tasks_mobile",
+    "description": "Shows the tasks panel by default in the mobile interface."
+  },
+  {
+    "column name": "show_map_desktop",
+    "description": "Shows the map panel by default in the desktop interface."
+  },
+  {
+    "column name": "show_map_mobile",
+    "description": "Shows the map panel by default in the mobile interface."
+  },
+  {
+    "column name": "ctl_mobile_edit_lemgrid",
+    "description": "Allows editing labor/equipment/material grid on mobile devices."
+  },
+  {
+    "column name": "user_may_edit_notifications",
+    "description": "Permits end users to modify notification preferences for this group."
+  },
+  {
+    "column name": "est_hrs_from_tasks",
+    "description": "Derives work order estimated hours by summing task estimates."
+  },
+  {
+    "column name": "pop_attach_printwith",
+    "description": "Defaults to include attachments when printing work orders."
+  },
+  {
+    "column name": "ctl_copy_operation_issue",
+    "description": "Copies operation-issue details during related transactions; confirm with SME."
+  },
+  {
+    "column name": "pop_sub_status",
+    "description": "Default sub-status assigned to new work orders."
+  },
+  {
+    "column name": "cc_fail_code",
+    "description": "Control for failure code field on work orders."
+  },
+  {
+    "column name": "notify_vendor_created",
+    "description": "Notifies vendor when a work order is created."
+  },
+  {
+    "column name": "notify_vendor_assigned",
+    "description": "Notifies vendor when assigned to a work order."
+  },
+  {
+    "column name": "notify_vendor_part",
+    "description": "Notifies vendor when parts are added to the work order."
+  },
+  {
+    "column name": "notify_vendor_taskc",
+    "description": "Notifies vendor when a task is completed."
+  },
+  {
+    "column name": "notify_vendor_wip",
+    "description": "Notifies vendor when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "notify_vendor_closed",
+    "description": "Notifies vendor when a work order is closed."
+  },
+  {
+    "column name": "reprice_on_close",
+    "description": "Recalculates pricing or costs when closing work orders; confirm with SME."
+  },
+  {
+    "column name": "reprice_not_flag",
+    "description": "Excludes specific items from repricing operations; confirm with SME."
+  },
+  {
+    "column name": "reprice_not_before",
+    "description": "Date threshold before which items are not repriced; confirm with SME."
+  },
+  {
+    "column name": "ctl_rates_fromtrade",
+    "description": "Determines whether labor rates are sourced from trade definitions."
+  },
+  {
+    "column name": "filter_assignee_by_crew_leader",
+    "description": "Limits assignee options based on the selected crew leader."
+  },
+  {
+    "column name": "stock_acct_no",
+    "description": "Default stock inventory account number for parts issues."
+  },
+  {
+    "column name": "wo_comments_add_only",
+    "description": "Restricts work order comments to append-only edits."
+  },
+  {
+    "column name": "wo_assetremarks_add_only",
+    "description": "Restricts asset remarks to append-only edits."
+  },
+  {
+    "column name": "wo_faildescr_add_only",
+    "description": "Restricts failure description to append-only edits."
+  },
+  {
+    "column name": "pop_wo_dept_from_asset",
+    "description": "Defaults department on work orders from the asset’s department."
+  },
+  {
+    "column name": "pop_wo_priority_from_asset",
+    "description": "Defaults work order priority from the asset’s configured priority."
+  },
+  {
+    "column name": "notify_craft_laboradded",
+    "description": "Notifies craft when labor is added to the work order."
+  },
+  {
+    "column name": "notify_assigned_to_laboradded",
+    "description": "Notifies the assignee when labor is added."
+  },
+  {
+    "column name": "notify_supervisor_laboradded",
+    "description": "Notifies supervisor when labor is added."
+  },
+  {
+    "column name": "notify_crew_leader_laboradded",
+    "description": "Notifies crew leader when labor is added."
+  },
+  {
+    "column name": "notify_linked_user_laboradded",
+    "description": "Notifies linked users when labor is added."
+  },
+  {
+    "column name": "notify_customer_laboradded",
+    "description": "Notifies customer when labor is added; confirm with SME."
+  },
+  {
+    "column name": "notify_vendor_laboradded",
+    "description": "Notifies vendor when labor is added; confirm with SME."
+  },
+  {
+    "column name": "tmp_on_laboradded",
+    "description": "Template used when labor is added to a work order."
+  },
+  {
+    "column name": "pop_wo_acct_from_asset",
+    "description": "Defaults work order account number from the asset."
+  },
+  {
+    "column name": "pop_wo_loc_from_asset",
+    "description": "Defaults work order location from the asset’s location."
+  },
+  {
+    "column name": "pop_wo_subloc_from_asset",
+    "description": "Defaults work order sublocation from the asset’s sublocation."
+  },
+  {
+    "column name": "pop_result_type",
+    "description": "Default result or disposition type applied on completion; confirm with SME."
+  },
+  {
+    "column name": "notify_addby_created",
+    "description": "Notifies the record creator when a work order is created."
+  },
+  {
+    "column name": "notify_addby_part",
+    "description": "Notifies the record creator when parts are added."
+  },
+  {
+    "column name": "notify_addby_taskc",
+    "description": "Notifies the record creator when a task is completed."
+  },
+  {
+    "column name": "notify_addby_wip",
+    "description": "Notifies the record creator when a work order moves to work-in-progress."
+  },
+  {
+    "column name": "notify_addby_closed",
+    "description": "Notifies the record creator when a work order is closed."
+  },
+  {
+    "column name": "notify_addby_assigned",
+    "description": "Notifies the record creator when assignment changes occur."
+  },
+  {
+    "column name": "notify_addby_supervisor_change",
+    "description": "Notifies the record creator when the supervisor changes."
+  },
+  {
+    "column name": "notify_addby_crew_leader_change",
+    "description": "Notifies the record creator when the crew leader changes."
+  },
+  {
+    "column name": "notify_addby_laboradded",
+    "description": "Notifies the record creator when labor is added."
+  },
+  {
+    "column name": "dntime_calc",
+    "description": "Method used to calculate asset downtime for reporting."
+  },
+  {
+    "column name": "show_tasks_shared",
+    "description": "Shows shared tasks across users in applicable views."
+  },
+  {
+    "column name": "filter_paytype",
+    "description": "Enables filtering by pay type for labor entries."
+  },
+  {
+    "column name": "notify_customer_project_closed",
+    "description": "Notifies customer when a related project is closed."
+  },
+  {
+    "column name": "tmp_on_project_closed",
+    "description": "Template used when a project is closed; confirm with SME."
+  },
+  {
+    "column name": "wo_actiontaken_add_only",
+    "description": "Restricts action-taken field edits to append-only."
+  },
+  {
+    "column name": "filter_assets",
+    "description": "Asset filter mode used in lookups and lists."
+  },
+  {
+    "column name": "filter_dept",
+    "description": "Department filter mode used in lookups and lists."
+  },
+  {
+    "column name": "show_lem_in_todo",
+    "description": "Includes labor/equipment/material items in technician to-do lists."
+  },
+  {
+    "column name": "notify_crew_leader_crewleadadded",
+    "description": "Notifies crew leader when a crew lead is added to the work order."
+  },
+  {
+    "column name": "notify_supervisor_superadded",
+    "description": "Notifies supervisor when a supervisor is added to the work order."
+  },
+  {
+    "column name": "notify_vendor_vendoradded",
+    "description": "Notifies vendor when a vendor is added to the work order."
+  },
+  {
+    "column name": "notify_technician_techscheduled",
+    "description": "Notifies technician when they are scheduled for work."
+  },
+  {
+    "column name": "tmp_on_crew_leader_added",
+    "description": "Template used when a crew leader is added to a work order."
+  },
+  {
+    "column name": "tmp_on_supervisor_added",
+    "description": "Template used when a supervisor is added to a work order."
+  },
+  {
+    "column name": "tmp_on_vendor_added",
+    "description": "Template used when a vendor is added to a work order."
+  },
+  {
+    "column name": "tmp_on_watcher_added",
+    "description": "Template used when a watcher is added to a work order."
+  },
+  {
+    "column name": "pop_pm_due_days",
+    "description": "Default days-before-due threshold for PM schedules created in this group."
+  },
+  {
+    "column name": "pop_pm_due_meter1",
+    "description": "Default primary meter threshold for PM schedules in this workgroup."
+  },
+  {
+    "column name": "pop_pm_due_meter2",
+    "description": "Default secondary meter threshold for PM schedules in this workgroup."
+  },
+  {
+    "column name": "pop_pm_due_meter3",
+    "description": "Default tertiary meter threshold for PM schedules; confirm with SME."
+  },
+  {
+    "column name": "pop_pm_meter_type1",
+    "description": "Default primary meter type for PM schedules."
+  },
+  {
+    "column name": "pop_pm_meter_type2",
+    "description": "Default secondary meter type for PM schedules; confirm with SME."
+  },
+  {
+    "column name": "pop_pm_meter_type3",
+    "description": "Default tertiary meter type for PM schedules; confirm with SME."
+  },
+  {
+    "column name": "show_watchers_in_todo",
+    "description": "Includes watcher roles in to-do lists and dashboards."
+  },
+  {
+    "column name": "cc_asset_remarks",
+    "description": "Control for asset remarks field on work orders."
+  },
+  {
+    "column name": "project_pattern",
+    "description": "Pattern for auto-generating project numbers associated with this group."
+  },
+  {
+    "column name": "last_project_no",
+    "description": "Most recent project number issued by this workgroup’s pattern."
+  },
+  {
+    "column name": "pm_batch_sort",
+    "description": "Sort order used when batch-generating preventive maintenance work orders."
+  },
+  {
+    "column name": "filter_priority",
+    "description": "Priority filter mode used in lookups and lists."
+  },
+  {
+    "column name": "pop_wo_customer_from_asset",
+    "description": "Defaults work order customer from the asset’s configured customer."
+  },
+  {
+    "column name": "notify_addby_target",
+    "description": "Notifies the record creator when the target date or time changes."
+  },
+  {
+    "column name": "notify_craft_target",
+    "description": "Notifies craft when the target date or time changes."
+  },
+  {
+    "column name": "notify_assigned_target",
+    "description": "Notifies the assignee when the target date or time changes."
+  },
+  {
+    "column name": "notify_supervisor_target",
+    "description": "Notifies supervisor when the target date or time changes."
+  },
+  {
+    "column name": "notify_crew_leader_target",
+    "description": "Notifies crew leader when the target date or time changes."
+  },
+  {
+    "column name": "notify_linked_user_target",
+    "description": "Notifies linked users when the target date or time changes."
+  },
+  {
+    "column name": "notify_customer_target",
+    "description": "Notifies customer when the target date or time changes."
+  },
+  {
+    "column name": "notify_vendor_target",
+    "description": "Notifies vendor when the target date or time changes."
+  },
+  {
+    "column name": "tmp_on_target_changed",
+    "description": "Template used when a work order’s target date or time changes."
+  },
+  {
+    "column name": "cc_vendor_id",
+    "description": "Control for vendor selection field on work orders."
+  },
+  {
+    "column name": "notify_reqcustomer_target",
+    "description": "Notifies the requesting customer when the target date or time changes."
+  },
+  {
+    "column name": "msg_recall",
+    "description": "Enables recall or repeat-issue notifications for assets; confirm with SME."
+  },
+  {
+    "column name": "cc_wo_comments",
+    "description": "Control for the comments field on work orders."
+  },
+  {
+    "column name": "pop_completed",
+    "description": "Default setting for marking items as completed in this group; confirm with SME."
+  }
+]

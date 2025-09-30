@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Identifier of the work request/work order associated with this tag entry; values resemble work request IDs—confirm exact reference with SME."
+  },
+  {
+    "column name": "user_name",
+    "description": "Username of the person who has this request tagged/bookmarked (the tag owner); confirm intended role with SME."
+  },
+  {
+    "column name": "tag_yn",
+    "description": "Boolean indicator showing whether the user currently has the linked request tagged."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username that created the tag record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the tag record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username that last modified the tag record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the tag record was last modified."
+  }
+]

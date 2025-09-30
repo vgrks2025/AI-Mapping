@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this reference mapping between reporting objects; serves as the primary key for the table."
+  },
+  {
+    "column name": "parent_object",
+    "description": "Name or identifier of the source reporting object that owns the link to a related object; likely the parent report or dataset (confirm with SME)."
+  },
+  {
+    "column name": "parent_col",
+    "description": "Field within the source object whose value is used as the linking key to the related target object; likely a primary or foreign key (confirm with SME)."
+  },
+  {
+    "column name": "child_object",
+    "description": "Name or identifier of the target reporting object reached via the link or drill-through from the source object."
+  },
+  {
+    "column name": "child_col",
+    "description": "Field in the target object that holds the corresponding value used to match and join with the source field."
+  },
+  {
+    "column name": "display_name",
+    "description": "User-facing label presented for this relationship or link in the interface or reports; controls what users see as the clickable name."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key uniquely identifying this tab suppression configuration record."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the suppression profile (role, site, or organization name); used to select which tab rules apply."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable label for the suppression profile."
+  },
+  {
+    "column name": "suppression_default",
+    "description": "Flag indicating this profile is the default tab visibility configuration when no more specific profile is matched."
+  },
+  {
+    "column name": "suppression_data",
+    "description": "Encoded tab-visibility rules by form and tab/section IDs (e.g., form:tabX·items|tabY·items) defining which tabs are hidden; format is system-specific; confirm exact delimiters and semantics with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Date and time this record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely identifier of the user who last modified the record; sample resembles a timestamp—confirm data type and intent with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Creation timestamp for the record."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification."
+  }
+]

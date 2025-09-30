@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "VendorCategoryID",
+    "description": "Unique identifier for each vendor classification record; typically serves as the primary key and supports relationships to vendors or related transactions."
+  },
+  {
+    "column name": "VendorCategory",
+    "description": "Text label describing the vendor’s classification by goods or services provided; used for grouping, selection, and reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the classification is retired from active use; when true, prevent new assignments while preserving historical references."
+  }
+]

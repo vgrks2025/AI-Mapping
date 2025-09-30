@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "ViewID",
+    "description": "Unique identifier for a saved KPI dashboard configuration."
+  },
+  {
+    "column name": "UserID",
+    "description": "Identifier of the user who owns or is assigned this configuration; likely a foreign key to the users table."
+  },
+  {
+    "column name": "ViewName",
+    "description": "Human-readable title shown to users for the saved KPI dashboard configuration."
+  },
+  {
+    "column name": "Layout",
+    "description": "Serialized layout definition (likely JSON) describing widget arrangement, sizes, filters, and settings for the KPI dashboard; confirm exact schema with SME."
+  },
+  {
+    "column name": "DefaultViewStatus",
+    "description": "Boolean indicating whether this is the default dashboard automatically loaded (user-level or global); confirm scope with SME."
+  }
+]

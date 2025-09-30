@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "log_id",
+    "description": "Unique identifier for this customization log entry; used to track a specific snapshot of settings applied to an application entity."
+  },
+  {
+    "column name": "customization_id",
+    "description": "Identifier of the parent customization record this log refers to; links the snapshot to its source configuration/version."
+  },
+  {
+    "column name": "entity",
+    "description": "Target system entity or module impacted by the customization (e.g., work orders, work requests, assets)."
+  },
+  {
+    "column name": "entity_var",
+    "description": "Entity variant or context for the customization, such as view type, portal context, site/business unit, or asset category; meaning may vary by entity and should be confirmed with SMEs."
+  },
+  {
+    "column name": "config",
+    "description": "Serialized configuration payload for the customization at the entity level, likely stored as JSON (layout, behaviors, defaults, rules); structure may vary by entity; confirm format and schema with SMEs."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified this log entry or its stored configuration."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the log entry was last updated."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the log entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the log entry was created."
+  },
+  {
+    "column name": "columns",
+    "description": "Serialized list of field-level configurations included in this customization (per-column attributes such as visibility, labels, input properties), typically stored as a JSON array."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description or comment explaining the customization change, purpose, or scope."
+  }
+]

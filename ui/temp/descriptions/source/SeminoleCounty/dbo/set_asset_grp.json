@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "group_nm",
+    "description": "Unique code or name identifying the asset group used to categorize assets (e.g., for inspections, maintenance, or reporting)."
+  },
+  {
+    "column name": "group_descr",
+    "description": "Detailed description explaining the asset group’s purpose, scope, or inclusion criteria."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or system that created this asset group record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when this asset group record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or system that last updated this asset group record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time when this asset group record was last updated."
+  }
+]

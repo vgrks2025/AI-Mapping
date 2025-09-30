@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "AUDIT_ACTION_ID",
+    "description": "Surrogate key identifying the action type recorded by the auditing subsystem for a data change event. Used to link audit records to their action definition."
+  },
+  {
+    "column name": "AUDIT_ACTION_DESC",
+    "description": "Text label describing the audit action type associated with a data change event. Enables readable reporting and filtering of audit records."
+  }
+]

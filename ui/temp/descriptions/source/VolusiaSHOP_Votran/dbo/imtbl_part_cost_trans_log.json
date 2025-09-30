@@ -1,0 +1,214 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this cost transaction log entry."
+  },
+  {
+    "column name": "cost_transaction_type",
+    "description": "Categorizes the inventory cost event (receipt, issue, adjustment, transfer, etc.); coded values."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory part affected by the cost transaction."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Warehouse where the part’s inventory is held for this transaction."
+  },
+  {
+    "column name": "location",
+    "description": "Storage bin/location within the warehouse impacted by this transaction."
+  },
+  {
+    "column name": "source_location",
+    "description": "From-location used when costs arise from a transfer or relocation."
+  },
+  {
+    "column name": "loc_trans_from_pkey",
+    "description": "Reference to the originating inventory movement/transaction record this cost entry was derived from."
+  },
+  {
+    "column name": "different_part_id",
+    "description": "If the cost adjustment involved a substitute or reclassification, references the other part; confirm with SME."
+  },
+  {
+    "column name": "quantity",
+    "description": "Number of part units affected by the cost transaction (may be zero for cost-only adjustments)."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Per-unit cost applied in the transaction. Negative values indicate a decrease, credit, or reversal."
+  },
+  {
+    "column name": "physical_quantity",
+    "description": "Physical on-hand quantity considered when recalculating average/weighted cost; likely snapshot at time of transaction; confirm with SME."
+  },
+  {
+    "column name": "new_unit_cost",
+    "description": "Resulting per-unit cost after the adjustment or recalculation."
+  },
+  {
+    "column name": "site_pkey",
+    "description": "Identifier of the operating site owning the warehouse/inventory for this transaction."
+  },
+  {
+    "column name": "component",
+    "description": "Specific component or BOM item within an asset associated to the part cost; confirm with SME."
+  },
+  {
+    "column name": "order_quantity",
+    "description": "Ordered quantity related to the transaction (e.g., from a purchase order); confirm with SME."
+  },
+  {
+    "column name": "counted_by",
+    "description": "Person who performed the physical count leading to this cost entry."
+  },
+  {
+    "column name": "user_id",
+    "description": "User who initiated or recorded the transaction."
+  },
+  {
+    "column name": "contact",
+    "description": "Related vendor/person contact for the transaction, if applicable; confirm with SME."
+  },
+  {
+    "column name": "asset",
+    "description": "Asset/equipment the part was issued to or associated with for costing."
+  },
+  {
+    "column name": "procedures",
+    "description": "Maintenance procedure or task linked to the costed part usage; confirm with SME."
+  },
+  {
+    "column name": "project",
+    "description": "Project/job code to which the part cost is allocated."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "GL account charged/credited by this transaction."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Details or key for splitting cost across multiple GL accounts; confirm with SME."
+  },
+  {
+    "column name": "work_order",
+    "description": "Related work order driving the part usage or cost."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "Reference to the associated purchase order header for this part cost."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the log entry was created."
+  },
+  {
+    "column name": "adjustment_date",
+    "description": "Effective date/time of the cost change applied."
+  },
+  {
+    "column name": "in_progress",
+    "description": "Flag indicating the transaction is not yet finalized/posted; confirm with SME."
+  },
+  {
+    "column name": "rec_from_ext_app",
+    "description": "Indicates the record was received from an external application/interface."
+  },
+  {
+    "column name": "tran_to_ext_app",
+    "description": "Indicates the record was transmitted to an external application/interface."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the last update to this record."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the cost change, such as old/new unit cost."
+  },
+  {
+    "column name": "s_id",
+    "description": "Likely supplier/vendor identifier related to the transaction; confirm with SME."
+  },
+  {
+    "column name": "po_number",
+    "description": "Human-readable purchase order number associated with the transaction."
+  },
+  {
+    "column name": "issue_uom",
+    "description": "Unit of measure used when issuing the part from inventory."
+  },
+  {
+    "column name": "purchase_uom",
+    "description": "Unit of measure used on purchasing documents for this part."
+  },
+  {
+    "column name": "fluid_indicator",
+    "description": "Flag identifying the part as a fluid/fuel item (e.g., 0=no, 1=yes)."
+  },
+  {
+    "column name": "meter_change_log",
+    "description": "Link to a meter/fuel reading adjustment record associated with this transaction; confirm with SME."
+  },
+  {
+    "column name": "code",
+    "description": "Reason or classification code for the transaction; confirm with SME."
+  },
+  {
+    "column name": "code_type",
+    "description": "Type/category of the associated reason/transaction code; confirm with SME."
+  },
+  {
+    "column name": "fuel_correction",
+    "description": "Amount or factor used to correct cost/quantity for fuel-related transactions; confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record."
+  },
+  {
+    "column name": "woap",
+    "description": "Likely reference to work order accounting posting (AP) batch or queue; confirm with SME."
+  },
+  {
+    "column name": "woap_actual",
+    "description": "Likely reference to the actual posted work order accounting record; confirm with SME."
+  },
+  {
+    "column name": "po_order",
+    "description": "Internal key linking to the purchase order header; confirm with SME."
+  },
+  {
+    "column name": "po_receipt",
+    "description": "Internal key/link to the purchase receipt header; confirm with SME."
+  },
+  {
+    "column name": "po_order_line_num",
+    "description": "Line number on the purchase order tied to this transaction."
+  },
+  {
+    "column name": "po_receipt_line_num",
+    "description": "Line number on the purchase receipt tied to this transaction."
+  },
+  {
+    "column name": "resource",
+    "description": "Technician, labor, or cost-center resource associated with the transaction; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

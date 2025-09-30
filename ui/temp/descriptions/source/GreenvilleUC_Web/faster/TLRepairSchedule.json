@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "RepairScheduleID",
+    "description": "Unique identifier for a repair schedule record used to classify maintenance timing. Serves as the primary key for lookups and relationships."
+  },
+  {
+    "column name": "Schedule",
+    "description": "Categorical label indicating whether a repair is planned versus unplanned, and whether it counts toward target metrics. Drives maintenance planning, compliance tracking, and reporting."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the record is deprecated and should no longer be used in new transactions; retained for historical reference and backward compatibility."
+  }
+]

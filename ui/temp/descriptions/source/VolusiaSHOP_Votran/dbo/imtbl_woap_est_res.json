@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate key uniquely identifying this estimated resource record for a work order asset procedure."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Foreign key referencing the specific work order–asset procedure (task/step) this resource estimate belongs to."
+  },
+  {
+    "column name": "completed",
+    "description": "Flag indicating whether this estimated resource line has been completed or closed."
+  },
+  {
+    "column name": "craft",
+    "description": "Code identifying the required craft/trade for this resource; likely references a craft master record; confirm with SME."
+  },
+  {
+    "column name": "Resources",
+    "description": "Identifier of the resource estimated or assigned to perform the procedure (person, crew, or equipment); likely references a resource master; confirm with SME."
+  },
+  {
+    "column name": "Line_No",
+    "description": "Sequence number of the resource line within the procedure or work order."
+  },
+  {
+    "column name": "Estimated_Hours",
+    "description": "Planned labor or resource hours for this line."
+  },
+  {
+    "column name": "Remaining_Hours",
+    "description": "Unfinished hours still expected to complete this resource line."
+  },
+  {
+    "column name": "planned_work_date",
+    "description": "Planned date/time to perform this resource work on the work order procedure."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record (any source, user or integration)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded when a user last edited this record; may differ from system last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this estimated resource record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was initially created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this record."
+  }
+]

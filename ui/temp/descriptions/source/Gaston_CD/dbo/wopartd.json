@@ -1,0 +1,218 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this work order part line item."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit date/time when this record was created or last modified."
+  },
+  {
+    "column name": "mangpart",
+    "description": "Indicates the part is managed in inventory rather than a miscellaneous entry; likely a boolean flag; confirm with SME."
+  },
+  {
+    "column name": "partdesc",
+    "description": "Free-text description or catalog identifier for the part displayed on the work order line; confirm exact usage with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "User-entered notes relevant to this part line."
+  },
+  {
+    "column name": "total",
+    "description": "Extended line amount for the part (typically quantity × unit price, after any applicable adjustments)."
+  },
+  {
+    "column name": "quantity",
+    "description": "Number of part units issued or used for the work order."
+  },
+  {
+    "column name": "price",
+    "description": "Unit price applied to the part on this line at time of issue/purchase."
+  },
+  {
+    "column name": "ptaxtype",
+    "description": "Code indicating tax treatment for this line (e.g., taxable, exempt)."
+  },
+  {
+    "column name": "ptaxtyper",
+    "description": "Lookup/reference describing the tax type code; confirm relationship with SME."
+  },
+  {
+    "column name": "partincr",
+    "description": "Markup or discount increment applied to the part’s price; likely percent or amount; confirm with SME."
+  },
+  {
+    "column name": "partincrr",
+    "description": "Lookup/reference for the pricing increment setting; confirm with SME."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the part in the parts catalog linked to this line; confirm with SME if unused when zero."
+  },
+  {
+    "column name": "partr",
+    "description": "Lookup/reference to the parts catalog for the part identifier; confirm with SME."
+  },
+  {
+    "column name": "recpartd",
+    "description": "Link to the receiving transaction detail that fulfilled this line; used when tied to a receipt/PO; confirm with SME."
+  },
+  {
+    "column name": "recpartdr",
+    "description": "Lookup/reference to the receiving detail source for recpartd; confirm with SME."
+  },
+  {
+    "column name": "actwo",
+    "description": "Internal key of the related work order header associated with this part line."
+  },
+  {
+    "column name": "actwor",
+    "description": "Reference indicating the relationship target for actwo (e.g., table/field name); confirm with SME."
+  },
+  {
+    "column name": "workorder",
+    "description": "Business work order number to which this part line belongs."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Lookup/reference to the work order header source for the workorder field."
+  },
+  {
+    "column name": "status",
+    "description": "Lifecycle state of the part line (for example, requested, issued, backordered, canceled)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from a prior system for migration traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Source table name from a prior system associated with legacykey."
+  },
+  {
+    "column name": "created_timestamp",
+    "description": "Date/time when this part line record was initially created."
+  },
+  {
+    "column name": "partcost",
+    "description": "Internal cost basis for the part (e.g., average or standard cost) used for costing, not necessarily the sell price."
+  },
+  {
+    "column name": "quick_rec_qty",
+    "description": "Quantity received using the quick-receive process for this line."
+  },
+  {
+    "column name": "quick_final_qty",
+    "description": "Finalized quantity resulting from quick-receive reconciliation; confirm with SME."
+  },
+  {
+    "column name": "quick_rec_cost",
+    "description": "Cost captured during quick-receive for the received quantity on this line."
+  },
+  {
+    "column name": "final_qty",
+    "description": "Final issued or received quantity recorded for this line after all adjustments; confirm with SME."
+  },
+  {
+    "column name": "limit_assigned_parts",
+    "description": "Controls whether only preassigned parts may be issued on this work order; confirm with SME."
+  },
+  {
+    "column name": "pre_part",
+    "description": "Indicates the line was preallocated/templated (e.g., from PM/template) before actual issuance; confirm with SME."
+  },
+  {
+    "column name": "status_date",
+    "description": "Date associated with the current line status."
+  },
+  {
+    "column name": "tdate",
+    "description": "Transaction posting date for this part movement; confirm with SME."
+  },
+  {
+    "column name": "created_by",
+    "description": "Identifier of the user or process that created this line."
+  },
+  {
+    "column name": "created_byr",
+    "description": "Lookup/reference to the user directory/source for created_by."
+  },
+  {
+    "column name": "override_bucket",
+    "description": "Accounting or cost bucket override to charge this line to a nondefault bucket; confirm with SME."
+  },
+  {
+    "column name": "override_bucketr",
+    "description": "Lookup/reference to the bucket source for override_bucket."
+  },
+  {
+    "column name": "partinv_ref",
+    "description": "Identifier of the specific inventory record/bin/lot from which the part was issued; confirm with SME."
+  },
+  {
+    "column name": "partinv_refr",
+    "description": "Lookup/reference to the inventory source for partinv_ref."
+  },
+  {
+    "column name": "part_category",
+    "description": "Classification code for the part (e.g., filters, tires) used for reporting and accounting."
+  },
+  {
+    "column name": "part_categoryr",
+    "description": "Lookup/reference to the category source for part_category."
+  },
+  {
+    "column name": "quick_rec_vendor",
+    "description": "Vendor identifier used during quick-receive for this line."
+  },
+  {
+    "column name": "quick_rec_vendorr",
+    "description": "Lookup/reference to the vendor source for quick_rec_vendor."
+  },
+  {
+    "column name": "po_ref",
+    "description": "Purchase order identifier or line reference associated with supplying this part."
+  },
+  {
+    "column name": "po_refr",
+    "description": "Lookup/reference to the purchase order source for po_ref."
+  },
+  {
+    "column name": "inventory_units",
+    "description": "Inventory unit-of-measure code for this part (e.g., EA, BOX)."
+  },
+  {
+    "column name": "inventory_unitsr",
+    "description": "Lookup/reference to the unit-of-measure source for inventory_units."
+  },
+  {
+    "column name": "conversion",
+    "description": "Conversion factor between the inventory unit and the issue/use unit for this line."
+  },
+  {
+    "column name": "conversionr",
+    "description": "Lookup/reference describing the conversion rule; confirm with SME."
+  },
+  {
+    "column name": "unit_type",
+    "description": "Issue unit-of-measure code applied to this part line."
+  },
+  {
+    "column name": "unit_typer",
+    "description": "Lookup/reference to the unit-of-measure source for unit_type."
+  },
+  {
+    "column name": "eta_date",
+    "description": "Estimated arrival date for ordered or backordered parts on this line."
+  },
+  {
+    "column name": "partinv_scan",
+    "description": "Identifier linking the transaction to a barcode/scan capture event during issue or receipt; confirm with SME."
+  },
+  {
+    "column name": "partinv_scanr",
+    "description": "Lookup/reference to the scan session/source for partinv_scan; confirm with SME."
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate key uniquely identifying this import configuration record."
+  },
+  {
+    "column name": "id",
+    "description": "Short code identifying the source/profile this mapping applies to."
+  },
+  {
+    "column name": "file_directory",
+    "description": "Path where incoming fuel or fluid transaction files are retrieved for processing."
+  },
+  {
+    "column name": "delimited",
+    "description": "Flag indicating the file layout type: delimited versus fixed‑width."
+  },
+  {
+    "column name": "delimited_character",
+    "description": "Field separator used when the file is delimited."
+  },
+  {
+    "column name": "leading_zero",
+    "description": "Controls trimming or padding of leading zeros on identifiers; likely an encoded option value; confirm with SME."
+  },
+  {
+    "column name": "validate_fuel",
+    "description": "Toggle to enforce product codes against the master catalog during import."
+  },
+  {
+    "column name": "include_exclude",
+    "description": "Filter mode code specifying whether matching records are processed or skipped; likely enumerated; confirm with SME."
+  },
+  {
+    "column name": "date_format",
+    "description": "Code denoting the expected calendar format of transaction dates in the file."
+  },
+  {
+    "column name": "time_format",
+    "description": "Code denoting the expected clock format of transaction times in the file."
+  },
+  {
+    "column name": "include_exclude_pos",
+    "description": "Position index of the field used for the filter criteria in delimited files."
+  },
+  {
+    "column name": "include_exclude_start",
+    "description": "Start character position of the filter field for fixed‑width files."
+  },
+  {
+    "column name": "include_exclude_end",
+    "description": "End character position of the filter field for fixed‑width files."
+  },
+  {
+    "column name": "asset_pos",
+    "description": "Position index of the equipment/vehicle identifier in delimited files."
+  },
+  {
+    "column name": "asset_start",
+    "description": "Start character position of the equipment/vehicle identifier for fixed‑width files."
+  },
+  {
+    "column name": "asset_end",
+    "description": "End character position of the equipment/vehicle identifier for fixed‑width files."
+  },
+  {
+    "column name": "card_pos",
+    "description": "Position index of the fuel card or account number in delimited files."
+  },
+  {
+    "column name": "card_start",
+    "description": "Start character position of the fuel card/account number for fixed‑width files."
+  },
+  {
+    "column name": "card_end",
+    "description": "End character position of the fuel card/account number for fixed‑width files."
+  },
+  {
+    "column name": "date_pos",
+    "description": "Position index of the transaction date in delimited files."
+  },
+  {
+    "column name": "date_start",
+    "description": "Start character position of the transaction date for fixed‑width files."
+  },
+  {
+    "column name": "date_end",
+    "description": "End character position of the transaction date for fixed‑width files."
+  },
+  {
+    "column name": "time_pos",
+    "description": "Position index of the transaction time in delimited files."
+  },
+  {
+    "column name": "time_start",
+    "description": "Start character position of the transaction time for fixed‑width files."
+  },
+  {
+    "column name": "time_end",
+    "description": "End character position of the transaction time for fixed‑width files."
+  },
+  {
+    "column name": "meter_value_pos",
+    "description": "Position index of the odometer or hourmeter reading in delimited files."
+  },
+  {
+    "column name": "meter_value_start",
+    "description": "Start character position of the odometer/hourmeter reading for fixed‑width files."
+  },
+  {
+    "column name": "meter_value_end",
+    "description": "End character position of the odometer/hourmeter reading for fixed‑width files."
+  },
+  {
+    "column name": "driver_pos",
+    "description": "Position index of the driver identifier in delimited files."
+  },
+  {
+    "column name": "driver_start",
+    "description": "Start character position of the driver identifier for fixed‑width files."
+  },
+  {
+    "column name": "driver_end",
+    "description": "End character position of the driver identifier for fixed‑width files."
+  },
+  {
+    "column name": "ticket_pos",
+    "description": "Position index of the transaction receipt or ticket number in delimited files."
+  },
+  {
+    "column name": "ticket_start",
+    "description": "Start character position of the receipt/ticket number for fixed‑width files."
+  },
+  {
+    "column name": "ticket_end",
+    "description": "End character position of the receipt/ticket number for fixed‑width files."
+  },
+  {
+    "column name": "quantity_pos",
+    "description": "Position index of the volume dispensed in delimited files."
+  },
+  {
+    "column name": "quantity_start",
+    "description": "Start character position of the volume dispensed for fixed‑width files."
+  },
+  {
+    "column name": "quantity_end",
+    "description": "End character position of the volume dispensed for fixed‑width files."
+  },
+  {
+    "column name": "quantity_decimals",
+    "description": "Number of decimal places to apply when parsing the dispensed volume."
+  },
+  {
+    "column name": "price_pos",
+    "description": "Position index of the unit cost in delimited files."
+  },
+  {
+    "column name": "price_start",
+    "description": "Start character position of the unit cost for fixed‑width files."
+  },
+  {
+    "column name": "price_end",
+    "description": "End character position of the unit cost for fixed‑width files."
+  },
+  {
+    "column name": "price_decimals",
+    "description": "Number of decimal places to apply when parsing the cost value."
+  },
+  {
+    "column name": "station_pos",
+    "description": "Position index of the fueling location or vendor name in delimited files."
+  },
+  {
+    "column name": "station_start",
+    "description": "Start character position of the fueling location/vendor for fixed‑width files."
+  },
+  {
+    "column name": "station_end",
+    "description": "End character position of the fueling location/vendor for fixed‑width files."
+  },
+  {
+    "column name": "fluid_pos",
+    "description": "Position index of the product type (fuel grade, oil, DEF) in delimited files."
+  },
+  {
+    "column name": "fluid_start",
+    "description": "Start character position of the product type for fixed‑width files."
+  },
+  {
+    "column name": "fluid_end",
+    "description": "End character position of the product type for fixed‑width files."
+  },
+  {
+    "column name": "tank_pos",
+    "description": "Position index of the storage tank or pump identifier in delimited files."
+  },
+  {
+    "column name": "tank_start",
+    "description": "Start character position of the storage tank/pump identifier for fixed‑width files."
+  },
+  {
+    "column name": "tank_end",
+    "description": "End character position of the storage tank/pump identifier for fixed‑width files."
+  },
+  {
+    "column name": "state_pos",
+    "description": "Position index of the state/province where the transaction occurred in delimited files."
+  },
+  {
+    "column name": "state_start",
+    "description": "Start character position of the state/province for fixed‑width files."
+  },
+  {
+    "column name": "state_end",
+    "description": "End character position of the state/province for fixed‑width files."
+  },
+  {
+    "column name": "comments",
+    "description": "Free‑text notes about this import configuration."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this configuration record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user‑initiated update; appears duplicative of the system value; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that created this configuration."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this configuration was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last modified this configuration."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this configuration was last modified."
+  }
+]

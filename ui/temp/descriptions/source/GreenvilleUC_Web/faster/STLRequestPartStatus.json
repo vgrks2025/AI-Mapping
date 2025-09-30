@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "RequestPartStatusID",
+    "description": "Unique identifier for the parts request status lookup, used to link requests to a standardized lifecycle state and enforce valid transitions."
+  },
+  {
+    "column name": "RequestPartStatus",
+    "description": "Human-readable label describing the current lifecycle state of a parts request in inventory/maintenance workflows; used in user interfaces, business rules, and reporting."
+  }
+]

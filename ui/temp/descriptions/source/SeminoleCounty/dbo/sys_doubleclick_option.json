@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "option_id",
+    "description": "Unique identifier for a configurable option used by the system’s double-click behavior on a customized field."
+  },
+  {
+    "column name": "customization_col_id",
+    "description": "Identifier of the specific customized field/column to which this option applies within the configuration."
+  },
+  {
+    "column name": "value",
+    "description": "The stored value applied or displayed for this option on the target field; supports numeric or text content."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or service account that created this configuration entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this configuration entry was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or service account that last updated this configuration entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this configuration entry."
+  },
+  {
+    "column name": "customization_id",
+    "description": "Identifier of the customization set or context that groups the field and its related options."
+  },
+  {
+    "column name": "column_name",
+    "description": "Internal name of the field this option targets, such as a user-defined or standard attribute."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description or label explaining the option’s purpose; may be blank."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ServiceRatingID",
+    "description": "Surrogate key identifying a level on the service quality scale used to evaluate maintenance or vendor performance; referenced by related records for consistency and reporting."
+  },
+  {
+    "column name": "ServiceRating",
+    "description": "Descriptive label for the corresponding service quality level on the scale used in fleet maintenance or vendor evaluations; shown in user interfaces and reports."
+  }
+]

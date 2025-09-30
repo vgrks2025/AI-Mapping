@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "transm_id",
+    "description": "Code identifying the transmission model/type for a vehicle (often OEM model codes). Serves as the master key for transmission reference data used in specifications and reporting."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the transmission, including make, series, speeds, and type; displayed to users in picklists and reports."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or automated process that created the transmission master record; used for audit trail."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the transmission record was created in the system; timezone may be system default or UTC (confirm with SME)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or process that last modified this transmission record; supports auditability."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the transmission record; likely stored in system time or UTC (confirm with SME)."
+  }
+]

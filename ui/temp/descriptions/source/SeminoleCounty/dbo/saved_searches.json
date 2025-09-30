@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Account that owns the saved search; determines visibility and management rights. System-owned entries are platform defaults."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Workgroup context the search is associated with or limited to."
+  },
+  {
+    "column name": "search_code",
+    "description": "Application module or feature the search pertains to; used to route and execute the saved query in the correct context."
+  },
+  {
+    "column name": "search_name",
+    "description": "User-friendly title shown in the interface for this saved search."
+  },
+  {
+    "column name": "system_search",
+    "description": "Boolean flag indicating whether the entry is a built-in/system search or user-defined."
+  },
+  {
+    "column name": "search_criteria",
+    "description": "Serialized criteria (typically JSON) defining filters, selected columns, and parameters used when running the search."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the saved search."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the saved search was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the saved search."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent edit to the saved search."
+  },
+  {
+    "column name": "styles",
+    "description": "Optional UI color/style tag applied to the saved search for visual grouping."
+  },
+  {
+    "column name": "system_search_type",
+    "description": "Category for dynamic system searches that drives automatic filtering behavior."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Display order of the search within its list; lower values appear first."
+  },
+  {
+    "column name": "json",
+    "description": "Additional JSON payload for extended search configuration; likely deprecated or superseded by the primary criteria field; confirm with SME."
+  },
+  {
+    "column name": "force_default_flag",
+    "description": "When set, designates this search as the default selection for applicable users or workgroups opening the module; confirm scope with SME."
+  },
+  {
+    "column name": "shared_search",
+    "description": "Indicates whether and how the search is shared beyond the owner; confirm encoding with SME."
+  },
+  {
+    "column name": "order_by",
+    "description": "Named sort preset applied when running the search."
+  }
+]

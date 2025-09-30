@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "task_id",
+    "description": "Reference to the maintenance task or component category this result applies to; values appear to be descriptive labels, not numeric IDs—likely a lookup key; confirm with SME."
+  },
+  {
+    "column name": "task_result",
+    "description": "Standardized outcome/action selected for the task, indicating what was done or determined."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or system account that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date/time the record was created; timezone and precision per system configuration (confirm with SME)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or system account that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date/time of the most recent update; timezone and precision per system configuration (confirm with SME)."
+  }
+]

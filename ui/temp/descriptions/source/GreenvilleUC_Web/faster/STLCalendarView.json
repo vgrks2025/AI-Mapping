@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "CalendarViewID",
+    "description": "System-generated unique identifier for a scheduling view configuration in fleet dashboards; used for joins, filtering, and access control."
+  },
+  {
+    "column name": "CalendarViewDesc",
+    "description": "Human-readable label describing the scheduling view’s purpose or perspective in fleet operations, helping users understand what data the view presents."
+  }
+]

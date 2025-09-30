@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the acquisition type record; serves as the primary key and join key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp for the record’s creation or last update, stored with sub-second precision (format likely YYYYMMDDHHMMSSmmm; confirm with SME)."
+  },
+  {
+    "column name": "leased",
+    "description": "Boolean flag indicating whether the acquisition method involves leasing rather than outright ownership."
+  },
+  {
+    "column name": "purtype",
+    "description": "Business classification describing how the asset was acquired; used for reporting, compliance, and lifecycle decisions."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from the legacy source system for this record, kept for cross-reference, migration reconciliation, and integrations."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name from which this record originated; supports lineage, traceability, and back-references."
+  }
+]

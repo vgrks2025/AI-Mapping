@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FuelMarkupTypeID",
+    "description": "Unique key for a fuel markup category, used to join pricing rules and configurations."
+  },
+  {
+    "column name": "FuelMarkupTypeDesc",
+    "description": "Descriptive label for the markup category applied in fuel pricing or cost allocation; displayed in user interfaces and reports."
+  }
+]

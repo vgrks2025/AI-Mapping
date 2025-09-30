@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntegrationApplicationTypeID",
+    "description": "Unique identifier for the integration application type used to categorize how fleet data integrations are executed or triggered across the platform."
+  },
+  {
+    "column name": "IntegrationApplicationType",
+    "description": "Text label describing the platform or method by which a fleet data integration runs, informing routing, scheduling, security, and monitoring behavior."
+  }
+]

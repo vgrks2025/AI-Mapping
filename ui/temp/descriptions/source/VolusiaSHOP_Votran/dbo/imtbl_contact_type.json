@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated numeric primary key for the contact type record; used to uniquely identify and join to related tables."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier/name of the contact type shown in the UI and used for selection and reporting."
+  },
+  {
+    "column name": "description",
+    "description": "Longer free-text explanation of the contact type’s purpose or usage."
+  },
+  {
+    "column name": "base_type",
+    "description": "Foreign key pointing to a parent/base contact type used for categorization or inheritance; likely references another record in this table; confirm with SME."
+  },
+  {
+    "column name": "display_in_window",
+    "description": "Numeric display order or grouping indicator for showing this type in application windows or picklists; likely controls placement rather than visibility; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes about the contact type for additional context or business rules."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when this record was last updated in the database."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit field recording when a user last changed the record, possibly from a legacy source; may duplicate or precede the system modification timestamp; confirm with SME."
+  },
+  {
+    "column name": "isbase",
+    "description": "Flag indicating whether this entry is a base/template contact type that others derive from."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created the record for audit purposes."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by the originating user or process."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified the record for audit tracking."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification performed by a user or process."
+  }
+]

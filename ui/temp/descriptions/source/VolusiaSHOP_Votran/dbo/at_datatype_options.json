@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for each datatype option record; serves as the primary key for joins and lookups."
+  },
+  {
+    "column name": "id",
+    "description": "Stable identifier for the datatype option, typically a technical or business key used to reference the option across systems."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable explanation of the datatype option; likely mirrors the technical identifier in this dataset; confirm with SME."
+  },
+  {
+    "column name": "datatype",
+    "description": "Coded category for the option, indicating how the data is represented or sourced; values are enumerations; exact code set and meaning should be confirmed with SME."
+  },
+  {
+    "column name": "value",
+    "description": "Stored value for the option, such as a code or underlying data type designation, used by the application to control validation, storage, or transformation behavior."
+  }
+]

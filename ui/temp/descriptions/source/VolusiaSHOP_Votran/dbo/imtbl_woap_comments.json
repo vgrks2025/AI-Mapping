@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Primary key for the comment record."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Foreign key to the specific work order–asset–procedure line this comment refers to."
+  },
+  {
+    "column name": "comments",
+    "description": "Technician or system-entered text describing observations, work performed, or instructions for the procedure."
+  },
+  {
+    "column name": "create_date",
+    "description": "Datetime when this comment was created in the system."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Datetime of the most recent update to this record by any process."
+  },
+  {
+    "column name": "created_by_user",
+    "description": "User or system process that created the comment."
+  },
+  {
+    "column name": "printable",
+    "description": "Boolean indicator controlling whether the comment appears on printed outputs (e.g., work orders or invoices)."
+  },
+  {
+    "column name": "sourcemask",
+    "description": "Code or bitmask denoting the originating context or display targets for the comment; likely drives visibility. Confirm with SME."
+  },
+  {
+    "column name": "copy_options",
+    "description": "Flags controlling whether/how the comment is copied when duplicating related records (work orders, assets, procedures, schedules); likely a bitmask. Confirm with SME."
+  },
+  {
+    "column name": "asset",
+    "description": "Optional reference to the related asset when not derived from the WOAP link; likely asset ID. Confirm with SME."
+  },
+  {
+    "column name": "procedures",
+    "description": "Optional reference to a maintenance procedure definition associated with this comment. Confirm with SME."
+  },
+  {
+    "column name": "schedule",
+    "description": "Optional reference to a preventive maintenance schedule or plan tied to this comment. Confirm with SME."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "User who last modified the comment."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Datetime when a user (as opposed to a batch/system job) last modified the record."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Internal identifier of the user who created the comment."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Datetime recorded in user audit fields for when the comment was created; may differ from system create_date."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Internal identifier of the user who last modified the comment."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Datetime recorded in user audit fields for the last user modification."
+  }
+]

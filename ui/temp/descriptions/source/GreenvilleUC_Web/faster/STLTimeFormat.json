@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "TimeFormatID",
+    "description": "Surrogate key for each display-time pattern option used to standardize how times are presented across the platform, referenced by user, region, or report settings."
+  },
+  {
+    "column name": "TimeFormat",
+    "description": "Pattern string that defines the visual representation of times (12/24-hour, seconds, separators, meridiem). Applied in UI, exports, and reports to present timestamps consistently."
+  }
+]

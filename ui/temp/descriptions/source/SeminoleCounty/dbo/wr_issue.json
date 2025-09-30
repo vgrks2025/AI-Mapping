@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "issue_id",
+    "description": "Unique identifier for an issue definition used in work request processes."
+  },
+  {
+    "column name": "issue_name",
+    "description": "User-facing name for this issue category when submitting or tracking work requests."
+  },
+  {
+    "column name": "issue_descr",
+    "description": "Optional detailed description or instructions for this issue category."
+  },
+  {
+    "column name": "op_id",
+    "description": "Identifier of the operating entity or department responsible for this issue; likely links to an operations/organization table; confirm with SME."
+  },
+  {
+    "column name": "promised_days",
+    "description": "Target completion timeframe in calendar days for requests of this issue category."
+  },
+  {
+    "column name": "notify_users",
+    "description": "Users to notify when this issue’s requests are created or updated; likely stored as a reference list or delimited IDs; confirm with SME."
+  },
+  {
+    "column name": "duplicate_mode",
+    "description": "Rule defining how potential duplicate requests for this issue are handled (e.g., allow, warn, block, merge); confirm with SME."
+  },
+  {
+    "column name": "udf1",
+    "description": "User-defined field for custom metadata related to this issue; exact meaning varies by deployment; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of whoever created this issue definition."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the issue definition was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of whoever last updated this issue definition."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this issue definition."
+  },
+  {
+    "column name": "priority",
+    "description": "Default priority code for work requests of this issue (e.g., Low/Normal/High); values are coded; confirm with SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number used to order this issue among others in lists or processing."
+  },
+  {
+    "column name": "auto_assign_flag",
+    "description": "Indicator whether new requests with this issue are auto-assigned to a default owner/team (Y/N)."
+  }
+]

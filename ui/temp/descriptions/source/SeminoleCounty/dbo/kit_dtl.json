@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "kit_no",
+    "description": "Identifier of the parts kit this detail line belongs to; links to the parent kit record used for grouped parts in maintenance or repairs."
+  },
+  {
+    "column name": "stock",
+    "description": "Inventory part number for the item included in the kit; may be an internal stock code or vendor/manufacturer number."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Line sequence within the kit, controlling display, pick order, or assembly steps."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the stock item, including key specifications."
+  },
+  {
+    "column name": "qty",
+    "description": "Quantity of the item required per kit, used for planning and costing."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Cost per unit of the item for this kit line; likely sourced from inventory valuation or last purchase price; confirm with SME."
+  },
+  {
+    "column name": "total_cost",
+    "description": "Extended line cost for this kit item (quantity × unit cost); typically calculated for kit costing."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the kit detail line for audit purposes."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the kit detail line was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last updated the kit detail line."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the kit detail line."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Code of the warehouse or location associated with this kit line (default stocking or pick location); confirm business rules with SME."
+  }
+]

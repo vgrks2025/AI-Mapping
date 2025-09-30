@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for this address type record; unique identifier used for joins and referential integrity."
+  },
+  {
+    "column name": "id",
+    "description": "Business code or short name for the address type (e.g., Home, Business, Shipping, Billing); expected to be unique."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description of the address type; may duplicate the code value in some implementations; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes about the address type, such as usage guidance, distinctions, or internal remarks."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record, regardless of actor."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user, rather than an automated job, last modified this record; likely a legacy audit field; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or service account that created the record (e.g., login name or employee ID)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or service account that most recently updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last updated by a user or process."
+  }
+]

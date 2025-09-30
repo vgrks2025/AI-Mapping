@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "KeyID",
+    "description": "System-generated unique identifier for each configuration setting; used as the primary key and for relational references."
+  },
+  {
+    "column name": "KeyName",
+    "description": "Machine-readable key that labels a specific application setting; must be unique within the configuration catalog and is used for lookups and integration mappings."
+  },
+  {
+    "column name": "Description",
+    "description": "Human-readable summary of the setting’s purpose and usage, intended to guide administrators and users during configuration, documentation, or support."
+  }
+]

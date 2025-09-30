@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "PVCode",
+    "description": "Internal vendor identifier used to uniquely reference the supplier in purchasing, payables, and reporting."
+  },
+  {
+    "column name": "PVAdr1",
+    "description": "Primary street address line for the supplier’s mailing or physical location."
+  },
+  {
+    "column name": "PVAdr2",
+    "description": "Secondary address line (suite, building, PO Box, or additional routing details)."
+  },
+  {
+    "column name": "PVCity",
+    "description": "City for the supplier’s address."
+  },
+  {
+    "column name": "PVState",
+    "description": "State/province or region code for the supplier’s address; typically a two-letter postal abbreviation."
+  },
+  {
+    "column name": "PVZip",
+    "description": "Postal or ZIP code for the supplier’s address; may include ZIP+4 or placeholders."
+  },
+  {
+    "column name": "PVPhone",
+    "description": "Primary telephone number for general contact with the supplier."
+  },
+  {
+    "column name": "PVContactName",
+    "description": "Primary contact person or department at the supplier for ordering or inquiries."
+  },
+  {
+    "column name": "PVTaxCode",
+    "description": "Tax classification code determining sales/use tax treatment for purchases; likely references a tax table; confirm with SME."
+  },
+  {
+    "column name": "PVDiscount",
+    "description": "Default vendor discount (e.g., early-payment or price discount) applied on purchases; percentage or amount as configured; confirm unit with SME."
+  },
+  {
+    "column name": "PVDescription",
+    "description": "Short description of the supplier or the goods and services provided."
+  },
+  {
+    "column name": "PVFax",
+    "description": "Fax number for the supplier."
+  },
+  {
+    "column name": "PVEmail",
+    "description": "Primary email address for the supplier; field may contain other contact info; confirm validation rules."
+  },
+  {
+    "column name": "PVSatRating",
+    "description": "Internal satisfaction or performance rating for the supplier (e.g., 1–3 scale); confirm scoring method with SME."
+  },
+  {
+    "column name": "PVWebAdr",
+    "description": "Supplier’s website or online portal address."
+  },
+  {
+    "column name": "PVAHName",
+    "description": "After-hours or emergency contact name/attention line for the supplier; likely used for off-hours support; confirm with SME."
+  },
+  {
+    "column name": "PVAHPhone",
+    "description": "After-hours or emergency phone number for the supplier."
+  },
+  {
+    "column name": "PVFedTaxID",
+    "description": "Supplier’s federal tax identification number (EIN/SSN) for compliance and reporting."
+  },
+  {
+    "column name": "PVName",
+    "description": "Supplier’s legal or display name used on purchasing and payables documents."
+  },
+  {
+    "column name": "PVTaxRate",
+    "description": "Default tax rate used for this supplier’s purchases; may be overridden by jurisdiction rules; confirm source and usage with SME."
+  },
+  {
+    "column name": "PVCellPhone",
+    "description": "Mobile phone number for the primary contact."
+  },
+  {
+    "column name": "PVMinorityBiz",
+    "description": "Indicates minority-owned or disadvantaged business status for supplier diversity reporting; likely coded flag; confirm values with SME."
+  },
+  {
+    "column name": "PVStatus",
+    "description": "Supplier status code controlling availability for transactions (e.g., Active, Closed); confirm code set with SME."
+  }
+]

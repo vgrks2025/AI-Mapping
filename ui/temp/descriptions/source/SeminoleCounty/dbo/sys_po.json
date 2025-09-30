@@ -1,0 +1,174 @@
+[
+  {
+    "column name": "keyrow",
+    "description": "Unique row identifier for this purchase order settings record."
+  },
+  {
+    "column name": "po_name",
+    "description": "Legal or display name of the buying organization printed on purchase documents."
+  },
+  {
+    "column name": "po_addr",
+    "description": "Street address line 1 of the buying organization used on purchase documents."
+  },
+  {
+    "column name": "po_city",
+    "description": "City for the buying organization’s address."
+  },
+  {
+    "column name": "po_state",
+    "description": "State or province for the buying organization’s address."
+  },
+  {
+    "column name": "po_zip",
+    "description": "Postal or ZIP code for the buying organization’s address."
+  },
+  {
+    "column name": "po_phone",
+    "description": "Main telephone number for purchasing correspondence."
+  },
+  {
+    "column name": "po_fax",
+    "description": "Fax number used for purchasing correspondence."
+  },
+  {
+    "column name": "po_udf1",
+    "description": "Custom user-defined field for additional purchasing information; semantics vary by client."
+  },
+  {
+    "column name": "po_udf2",
+    "description": "Another user-defined field for additional purchasing information; semantics vary by client."
+  },
+  {
+    "column name": "po_taxrate",
+    "description": "Default sales/use tax rate applied to new purchase orders; confirm units and jurisdiction with SME."
+  },
+  {
+    "column name": "po_inv",
+    "description": "Likely flag or code controlling integration with inventory receipts from purchase orders; confirm with SME."
+  },
+  {
+    "column name": "po_req",
+    "description": "Likely setting indicating whether requisitions are required/enabled before creating a purchase order; confirm with SME."
+  },
+  {
+    "column name": "po_prefix",
+    "description": "Alphanumeric prefix prepended to generated purchase order numbers."
+  },
+  {
+    "column name": "po_start",
+    "description": "Beginning number in the purchase order numbering sequence or range."
+  },
+  {
+    "column name": "po_end",
+    "description": "Ending number in the purchase order numbering sequence or range."
+  },
+  {
+    "column name": "po_now",
+    "description": "Current or last assigned purchase order number in the sequence."
+  },
+  {
+    "column name": "po_entrytype",
+    "description": "Default transaction type for new orders (e.g., regular, blanket, quote); confirm available codes with SME."
+  },
+  {
+    "column name": "po_footing",
+    "description": "Standard footer or terms text printed on purchase documents."
+  },
+  {
+    "column name": "poship_name",
+    "description": "Default ship-to name shown on purchase documents."
+  },
+  {
+    "column name": "poship_addr",
+    "description": "Default ship-to address line 1."
+  },
+  {
+    "column name": "poship_city",
+    "description": "City for the default ship-to address."
+  },
+  {
+    "column name": "poship_state",
+    "description": "State or province for the default ship-to address."
+  },
+  {
+    "column name": "poship_zip",
+    "description": "Postal or ZIP code for the default ship-to address."
+  },
+  {
+    "column name": "po_contact",
+    "description": "Primary contact person for purchasing communications."
+  },
+  {
+    "column name": "po_tax_default",
+    "description": "Default taxable status or tax code applied to new orders; confirm code set with SME."
+  },
+  {
+    "column name": "po_auto_close",
+    "description": "Rule or flag to automatically close orders when fully received or after defined criteria."
+  },
+  {
+    "column name": "po_ini_acct",
+    "description": "Default general ledger or cost account charged when creating new orders; confirm account format with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or identifier of the user who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or identifier of the user who last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent modification."
+  },
+  {
+    "column name": "po_req_print_rpt_id",
+    "description": "Identifier of the report layout used to print requisitions."
+  },
+  {
+    "column name": "po_regular_print_rpt_id",
+    "description": "Identifier of the report layout used to print standard purchase orders."
+  },
+  {
+    "column name": "po_blanket_print_rpt_id",
+    "description": "Identifier of the report layout used to print blanket purchase orders."
+  },
+  {
+    "column name": "po_quote_print_rpt_id",
+    "description": "Identifier of the report layout used to print request-for-quote documents."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Key linking this record to stored file attachments or a document repository."
+  },
+  {
+    "column name": "poqty_overwrite",
+    "description": "Setting controlling whether ordered quantities may be overridden after creation or receipt; confirm behavior with SME."
+  },
+  {
+    "column name": "lkpo_in",
+    "description": "Likely integration link or ledger key for inbound purchase order transactions; confirm purpose with SME."
+  },
+  {
+    "column name": "tmp_po_approve",
+    "description": "Temporary flag used during approval workflow processing; confirm lifecycle with SME."
+  },
+  {
+    "column name": "po_auto_reopen",
+    "description": "Setting to automatically reopen orders when returns, changes, or backorders occur; confirm conditions with SME."
+  },
+  {
+    "column name": "po_auto_approve",
+    "description": "Rule or threshold enabling automatic approval of orders under defined limits; confirm policy with SME."
+  },
+  {
+    "column name": "address_2",
+    "description": "Street address line 2 for the buying organization’s address."
+  }
+]

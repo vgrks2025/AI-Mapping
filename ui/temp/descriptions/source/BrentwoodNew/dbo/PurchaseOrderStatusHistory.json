@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "PK",
+    "description": "Unique identifier for this purchase order status history entry."
+  },
+  {
+    "column name": "POPK",
+    "description": "Identifier of the purchase order whose status change this entry records."
+  },
+  {
+    "column name": "IsAuthStatus",
+    "description": "Flag indicating this entry represents an authorization/approval stage rather than a processing state; confirm with SME."
+  },
+  {
+    "column name": "StatusDate",
+    "description": "Date and time the purchase order transitioned to this status."
+  },
+  {
+    "column name": "Status",
+    "description": "System code for the purchase order’s status at the recorded time."
+  },
+  {
+    "column name": "StatusDesc",
+    "description": "Human-readable description of the status displayed to users."
+  },
+  {
+    "column name": "DemoLaborPK",
+    "description": "Likely reference to a related labor/demonstration record tied to the order; confirm with SME."
+  },
+  {
+    "column name": "RowVersionIPAddress",
+    "description": "IP address captured when this record was written/updated, for audit tracking."
+  },
+  {
+    "column name": "RowVersionUserPK",
+    "description": "Identifier of the user who created or last updated this record."
+  },
+  {
+    "column name": "RowVersionInitials",
+    "description": "Initials of the user who performed the change, for audit purposes."
+  },
+  {
+    "column name": "RowVersionDate",
+    "description": "Timestamp when this status history record was created or last modified."
+  },
+  {
+    "column name": "ApprovalCountCompleted",
+    "description": "Indicates whether all required approvals for the order/status have been completed."
+  }
+]

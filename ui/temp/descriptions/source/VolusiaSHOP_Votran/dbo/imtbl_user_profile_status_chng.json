@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this status change record."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the status change was recorded in the system."
+  },
+  {
+    "column name": "user_id",
+    "description": "Identifier of the affected user whose profile status changed."
+  },
+  {
+    "column name": "user_profile",
+    "description": "Identifier of the user’s profile associated with this change event."
+  },
+  {
+    "column name": "static_user_profile_id",
+    "description": "Lookup key to a static profile code/dimension used for reporting; likely a stable reference decoupled from transactional IDs; confirm with SME."
+  },
+  {
+    "column name": "static_user_profile_desc",
+    "description": "Human-readable description for the static profile code; confirm with SME."
+  },
+  {
+    "column name": "new_status",
+    "description": "Code representing the profile status after the change."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Lookup key to the static code/dimension for the new status; confirm with SME."
+  },
+  {
+    "column name": "static_new_status_desc",
+    "description": "Human-readable description of the new status from the static lookup; confirm with SME."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code representing the profile status before the change."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Lookup key to the static code/dimension for the prior status; confirm with SME."
+  },
+  {
+    "column name": "static_old_status_desc",
+    "description": "Human-readable description of the prior status from the static lookup; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp for the most recent update to this row, any source."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Application-level audit timestamp for the most recent modification; likely mirrors the modified date fields; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User or service account that created this change record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this change record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User or service account that last updated this change record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this change record was last updated."
+  }
+]

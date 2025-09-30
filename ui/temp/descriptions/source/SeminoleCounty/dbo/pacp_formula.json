@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "obs_code",
+    "description": "Observation code identifying the asset feature or condition this rule applies to."
+  },
+  {
+    "column name": "obs_descr",
+    "description": "Human-readable description of the observation code."
+  },
+  {
+    "column name": "obs_group",
+    "description": "Category grouping the observation for scoring and reporting."
+  },
+  {
+    "column name": "degree",
+    "description": "Severity degree associated with the observation, typically an ordinal scale (e.g., 0–5)."
+  },
+  {
+    "column name": "weight",
+    "description": "Numeric weight applied to the observation/degree in condition score calculations."
+  },
+  {
+    "column name": "formula",
+    "description": "Expression or rule defining how to score or evaluate the observation and degree."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system that last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "EngineID",
+    "description": "Unique identifier for this record, used for system references and joins."
+  },
+  {
+    "column name": "Engine",
+    "description": "Power rating of the unit, likely expressed in horsepower; confirm with SME."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the specification is retired and not for current use."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the maintenance task record; used as the primary key for joins and references."
+  },
+  {
+    "column name": "id",
+    "description": "Short code or title identifying the maintenance task used in maintenance planning, PM programs, and work orders."
+  },
+  {
+    "column name": "description",
+    "description": "Full, human-readable description of the maintenance task's purpose and scope."
+  },
+  {
+    "column name": "safety",
+    "description": "Boolean flag indicating if the task is safety-critical or required for regulatory compliance."
+  },
+  {
+    "column name": "estimated_downtime_hours",
+    "description": "Planned vehicle out-of-service time, in hours, to complete this task; used for scheduling and capacity planning."
+  },
+  {
+    "column name": "status",
+    "description": "Coded lifecycle state of the task definition (e.g., active/inactive); exact code meanings should be confirmed with SME."
+  },
+  {
+    "column name": "details",
+    "description": "Abbreviated label or printed text (often with symbol prefix) shown on work orders or shop boards for this task."
+  },
+  {
+    "column name": "user_last_updated",
+    "description": "User account recorded as the most recent updater; may include automated processes. Legacy field - confirm authoritative source."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text administrative notes about the task, instructions, or special considerations."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent change to this task record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Legacy audit timestamp for the last modification; may duplicate other modified dates - confirm usage with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that initially created the task record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the task record was originally created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that last updated the task record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the user in the modifier field last saved changes to this record."
+  }
+]

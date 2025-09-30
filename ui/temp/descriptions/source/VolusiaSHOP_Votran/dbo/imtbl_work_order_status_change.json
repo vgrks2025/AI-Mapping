@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for the recorded change of a work order’s status."
+  },
+  {
+    "column name": "log_date",
+    "description": "Date and time the status change event was recorded."
+  },
+  {
+    "column name": "user_id",
+    "description": "Identifier of the user or role who performed the status change."
+  },
+  {
+    "column name": "work_order",
+    "description": "Business identifier of the work order whose status changed."
+  },
+  {
+    "column name": "static_work_order_id",
+    "description": "Snapshot of the work order identifier captured at change time for reporting; likely denormalized—confirm with SME."
+  },
+  {
+    "column name": "static_work_order_description",
+    "description": "Snapshot of the work order’s description at the time of the status change; confirm with SME."
+  },
+  {
+    "column name": "new_status",
+    "description": "Resulting status code after the change."
+  },
+  {
+    "column name": "static_new_status_id",
+    "description": "Snapshot identifier for the resulting status at change time; likely mirrors lookup ID—confirm with SME."
+  },
+  {
+    "column name": "static_new_status_description",
+    "description": "Text label of the resulting status captured at the time of change."
+  },
+  {
+    "column name": "old_status",
+    "description": "Code for the prior status before the change."
+  },
+  {
+    "column name": "static_old_status_id",
+    "description": "Snapshot identifier for the prior status at change time; likely mirrors lookup ID—confirm with SME."
+  },
+  {
+    "column name": "static_old_status_description",
+    "description": "Text label of the prior status captured at the time of change."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset/equipment associated with the work order."
+  },
+  {
+    "column name": "procedures",
+    "description": "Reference to the maintenance procedure or job plan associated with the change or work order; likely a procedure ID—confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this log record was last updated in the system."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record; may duplicate the general last-update timestamp depending on process—confirm with SME."
+  },
+  {
+    "column name": "is_header",
+    "description": "Indicator for header versus detail row within a grouped status-change event; likely 1=header, 0=detail—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who created this status change record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this status change record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last modified this status change record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this status change record was last modified by a user."
+  }
+]

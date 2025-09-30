@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key that uniquely identifies a code type record."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the code type used to group and classify related codes across the application."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description of the code type’s purpose or scope."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text administrative notes about the code type, such as migration or usage remarks."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when the record was last updated by the system or user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the last change recorded in a legacy user-audit field; appears to store a datetime rather than a user identifier; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was originally created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user or process."
+  }
+]

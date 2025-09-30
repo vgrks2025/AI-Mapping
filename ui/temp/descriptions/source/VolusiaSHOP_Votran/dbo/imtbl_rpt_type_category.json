@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated surrogate key uniquely identifying this report type–category mapping row."
+  },
+  {
+    "column name": "rpt_type",
+    "description": "Foreign key referencing the specific report type being categorized; used to join with the master report type table."
+  },
+  {
+    "column name": "rpt_category",
+    "description": "Foreign key referencing the category assigned to the report type; used to group and filter reports."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this row for auditing and synchronization."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created the row for auditability."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the row was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last updated the row."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the row was last updated."
+  }
+]

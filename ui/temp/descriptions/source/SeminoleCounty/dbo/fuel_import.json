@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "row_no",
+    "description": "Sequential record number within the import batch, preserving the original file order for processing and auditing."
+  },
+  {
+    "column name": "file_name",
+    "description": "Original name of the source file imported into the system, used for traceability and audit."
+  },
+  {
+    "column name": "step_by_step",
+    "description": "Flag indicating whether the import runs interactively step-by-step versus automatically; confirm with SME."
+  },
+  {
+    "column name": "layout_no",
+    "description": "Identifier of the file layout/template (mapping version) used to parse the incoming fuel data."
+  },
+  {
+    "column name": "code_no",
+    "description": "Internal code or mapping identifier applied during import to drive rules or lookups; exact meaning unclear—confirm with SME."
+  },
+  {
+    "column name": "data_format",
+    "description": "Human-readable description of the file’s format and delimiter settings used by the import process."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system account that created the import record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the import record was created (system time zone)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the import record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the import record."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference ID linking this import to a stored attachment or document (e.g., uploaded source file); confirm with SME."
+  },
+  {
+    "column name": "run_file",
+    "description": "Flag controlling whether this file should be executed/processed by the import job; confirm with SME."
+  }
+]

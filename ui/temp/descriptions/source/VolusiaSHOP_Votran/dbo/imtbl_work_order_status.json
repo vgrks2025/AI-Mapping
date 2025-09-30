@@ -1,0 +1,126 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for a work order status record; unique row identifier."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier or name of the work order status used in user interfaces and rules."
+  },
+  {
+    "column name": "description",
+    "description": "Long-form explanation or notes describing the status's purpose and use."
+  },
+  {
+    "column name": "work_order_status_default",
+    "description": "Flag indicating this is the default status assigned to new work orders."
+  },
+  {
+    "column name": "category",
+    "description": "Numeric code grouping statuses into broader lifecycle categories; likely system-defined mapping; confirm with SME."
+  },
+  {
+    "column name": "commit_parts",
+    "description": "When set, inventory is reserved or committed to the work order upon entering this status."
+  },
+  {
+    "column name": "issue_parts",
+    "description": "When set, parts are issued or consumed from inventory for the work order in this status."
+  },
+  {
+    "column name": "allocate_labor",
+    "description": "Controls whether labor resources can be allocated or scheduled while the work order is in this status."
+  },
+  {
+    "column name": "use_labor",
+    "description": "Controls whether labor time and charges can be recorded while in this status."
+  },
+  {
+    "column name": "apply_misc_cost",
+    "description": "Controls whether miscellaneous costs or fees can be applied to the work order at this status."
+  },
+  {
+    "column name": "apply_downtime",
+    "description": "Indicates whether asset downtime should be recorded or accumulated while the work order is in this status."
+  },
+  {
+    "column name": "wo_read_only",
+    "description": "Makes the work order read-only in this status, preventing edits except permitted transitions."
+  },
+  {
+    "column name": "require_code_entry",
+    "description": "Requires entry of a reason or authorization code when setting this status; exact code set likely system-configured; confirm with SME."
+  },
+  {
+    "column name": "warn_if_parts_unavailable",
+    "description": "Triggers a warning if required parts are not available in inventory when moving to this status."
+  },
+  {
+    "column name": "notify_receiver_when_parts_rec",
+    "description": "Sends a notification to the designated receiver or requester when ordered parts for the work order are received; recipient role likely system-defined; confirm with SME."
+  },
+  {
+    "column name": "prompt_if_estimates_remain",
+    "description": "Prompts the user if estimated items remain unconverted to actuals before proceeding with this status change."
+  },
+  {
+    "column name": "prompt_user_for_comp_info",
+    "description": "Prompts the user to enter completion details when applying this status."
+  },
+  {
+    "column name": "prompt_user_for_cancel_info",
+    "description": "Prompts the user to provide cancellation details when applying this status."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Excludes this status from selection lists and lookups to limit use."
+  },
+  {
+    "column name": "hide_in_reports",
+    "description": "Excludes this status from standard reports or analytics outputs."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text comments or label associated with the status, used for display or administrative notes."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this status record."
+  },
+  {
+    "column name": "download_to_pda",
+    "description": "Controls whether this status definition is synchronized to mobile field devices."
+  },
+  {
+    "column name": "status_read_only",
+    "description": "Prevents the status field from being changed once applied to a work order; behavior likely system-specific; confirm with SME."
+  },
+  {
+    "column name": "resource_allocation",
+    "description": "Enables resource capacity planning or allocation features for work orders in this status."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit timestamp of the last user-initiated modification to this record; may differ from system-modified time; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the status record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the status record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the status record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the status record was last modified by a user."
+  },
+  {
+    "column name": "estimate_parts",
+    "description": "Allows entry and management of estimated parts for the work order in this status."
+  }
+]

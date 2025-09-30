@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "SnapshotFrom",
+    "description": "Categorizes the origin of the snapshot creation event, indicating whether it was initiated by a user interaction or by an automated scheduling process."
+  },
+  {
+    "column name": "SnapshotFromDesc",
+    "description": "Free‑text explanation of how the snapshot was generated, providing contextual details about the initiating process, screen, or job run."
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this record."
+  },
+  {
+    "column name": "Work_Order",
+    "description": "Identifier of the work order associated with this record."
+  },
+  {
+    "column name": "Asset",
+    "description": "Identifier of the asset on which the work is to be performed."
+  },
+  {
+    "column name": "ProcedurePkey",
+    "description": "Reference to the maintenance procedure to be executed for the asset."
+  },
+  {
+    "column name": "Schedule",
+    "description": "Reference to the scheduling record governing when this work should occur."
+  },
+  {
+    "column name": "Asset_Group",
+    "description": "Identifier for the asset’s group/classification; used for reporting and scheduling."
+  },
+  {
+    "column name": "Status",
+    "description": "Coded status of this work assignment (e.g., planned, in progress, completed); see status lookup."
+  },
+  {
+    "column name": "asset_priority",
+    "description": "Priority derived from the asset’s criticality for scheduling and dispatching."
+  },
+  {
+    "column name": "procedure_priority",
+    "description": "Priority assigned to the procedure, influencing ordering and response."
+  },
+  {
+    "column name": "Calculated_priority",
+    "description": "System-calculated priority combining factors such as asset and procedure priorities."
+  },
+  {
+    "column name": "Date_Added",
+    "description": "Timestamp when this assignment was created in the system."
+  },
+  {
+    "column name": "Date_Scheduled",
+    "description": "Planned date/time the work is scheduled to occur."
+  },
+  {
+    "column name": "Date_last_performed",
+    "description": "Most recent date/time this procedure was previously performed on the asset."
+  },
+  {
+    "column name": "Date_Needed",
+    "description": "Required completion date/time or due-by for the work."
+  },
+  {
+    "column name": "Date_Started",
+    "description": "Actual start date/time when work began."
+  },
+  {
+    "column name": "Date_Completed",
+    "description": "Actual completion date/time for the work."
+  },
+  {
+    "column name": "Date_Cancelled",
+    "description": "Date/time the assignment was cancelled, if applicable."
+  },
+  {
+    "column name": "Asset_Location",
+    "description": "Identifier of the asset’s location/site when the work was raised."
+  },
+  {
+    "column name": "Warranty_Coverage",
+    "description": "Flag indicating whether the work is covered by warranty (1=yes, 0=no)."
+  },
+  {
+    "column name": "Performed_While_Asset_Running",
+    "description": "Indicates the task was performed while the asset remained in operation."
+  },
+  {
+    "column name": "Performed_While_Asset_Shutdown",
+    "description": "Indicates the task required the asset to be shut down."
+  },
+  {
+    "column name": "Reason",
+    "description": "Reason code for initiating or modifying the work (e.g., preventive, failure, compliance)."
+  },
+  {
+    "column name": "DelayNote",
+    "description": "Free-text notes explaining scheduling delays or hold-ups."
+  },
+  {
+    "column name": "Date_Amended",
+    "description": "Date/time of the most recent amendment to this record."
+  },
+  {
+    "column name": "Amended_By_user",
+    "description": "User ID that performed the last amendment."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Likely reference to a combined schedule-asset-procedure record used for planning; confirm with SME."
+  },
+  {
+    "column name": "use_remaining_parts",
+    "description": "Flag to allocate any remaining planned parts from prior related work; confirm with SME."
+  },
+  {
+    "column name": "use_remaining_misc_costs",
+    "description": "Flag to allocate remaining miscellaneous costs from prior related work; confirm with SME."
+  },
+  {
+    "column name": "use_remaining_res",
+    "description": "Flag to allocate remaining planned resources or labor from prior related work; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the latest change to this record."
+  },
+  {
+    "column name": "options",
+    "description": "Optional settings or serialized flags affecting this assignment; likely system-controlled; confirm with SME."
+  },
+  {
+    "column name": "building",
+    "description": "Building identifier where the asset or work is located."
+  },
+  {
+    "column name": "f_floor",
+    "description": "Floor within the building; facility-level location detail."
+  },
+  {
+    "column name": "room",
+    "description": "Room or space identifier within the facility."
+  },
+  {
+    "column name": "primary_ap",
+    "description": "Flag indicating this is the primary asset-procedure association for the work order."
+  },
+  {
+    "column name": "customer",
+    "description": "Customer or internal account to be charged for the work."
+  },
+  {
+    "column name": "billing_number",
+    "description": "Billing or chargeback reference number associated with this work."
+  },
+  {
+    "column name": "parts_percent",
+    "description": "Percentage of parts cost allocated to this assignment or customer."
+  },
+  {
+    "column name": "labor_percent",
+    "description": "Percentage of labor cost allocated to this assignment or customer."
+  },
+  {
+    "column name": "misc_percent",
+    "description": "Percentage of miscellaneous cost allocated to this assignment or customer."
+  },
+  {
+    "column name": "parts_cost",
+    "description": "Parts cost amount attributable to this assignment."
+  },
+  {
+    "column name": "labor_cost",
+    "description": "Labor cost amount attributable to this assignment."
+  },
+  {
+    "column name": "misc_cost",
+    "description": "Miscellaneous cost amount attributable to this assignment."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification performed by a user (as opposed to automated updates)."
+  },
+  {
+    "column name": "schedule_proof",
+    "description": "Reference to proof-of-service or scheduling evidence (e.g., document ID, attachment); likely used for compliance; confirm with SME."
+  },
+  {
+    "column name": "proof_indicator",
+    "description": "Flag indicating proof-of-service is required or has been captured; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user."
+  }
+]

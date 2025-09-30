@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "PartStockTypeID",
+    "description": "Unique identifier for the stocking classification assigned to a part, used to drive inventory control and procurement rules."
+  },
+  {
+    "column name": "PartStockTypeDesc",
+    "description": "Human-readable description of the stocking classification indicating how the part is managed or sourced within inventory operations."
+  }
+]

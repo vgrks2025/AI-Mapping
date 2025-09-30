@@ -1,0 +1,214 @@
+[
+  {
+    "column name": "tran_no",
+    "description": "System-assigned unique identifier for a fuel transaction record."
+  },
+  {
+    "column name": "tran_date",
+    "description": "Date and time the fueling event occurred (transaction effective date)."
+  },
+  {
+    "column name": "stock",
+    "description": "Code for the fuel stock item or storage tank used; likely references inventory/tank. Confirm with SME."
+  },
+  {
+    "column name": "qty",
+    "description": "Volume of fuel dispensed in this transaction; units per system configuration (e.g., gallons or liters)."
+  },
+  {
+    "column name": "cost",
+    "description": "Unit price of the fuel at the time of transaction, before taxes and fees."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Internal identifier of the vehicle or equipment that received fuel."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Classification of the fueled asset for reporting and business rules."
+  },
+  {
+    "column name": "meter_at",
+    "description": "Meter reading at fueling (odometer or hour meter), used for usage tracking and efficiency; unit indicated by meter_type."
+  },
+  {
+    "column name": "meter2_at",
+    "description": "Secondary meter value recorded at fueling (e.g., hours when primary is miles); likely optional. Confirm with SME."
+  },
+  {
+    "column name": "meter3_at",
+    "description": "Tertiary meter value recorded at fueling; rarely used. Confirm with SME."
+  },
+  {
+    "column name": "user_name",
+    "description": "Username of the operator or clerk who dispensed or recorded the transaction."
+  },
+  {
+    "column name": "product",
+    "description": "Identifier or description of the fuel product dispensed; likely stored as a code. Confirm with SME."
+  },
+  {
+    "column name": "inv_type",
+    "description": "Inventory movement type associated with the fuel transaction (issue, receipt, transfer). Confirm with SME."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Cost or general ledger account charged for this fuel transaction."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Inventory site or fuel storage location associated with the transaction. Confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the fueling event or data anomalies."
+  },
+  {
+    "column name": "tax_rate",
+    "description": "Tax percentage applied to the fuel price for this transaction."
+  },
+  {
+    "column name": "tax_amt",
+    "description": "Monetary amount of fuel tax calculated for this transaction."
+  },
+  {
+    "column name": "posted",
+    "description": "Status flag indicating whether the transaction has been posted to inventory or accounting."
+  },
+  {
+    "column name": "inv_tran",
+    "description": "Reference key to the related inventory transaction record. Confirm with SME."
+  },
+  {
+    "column name": "inv_date",
+    "description": "Date and time the inventory transaction was created or posted."
+  },
+  {
+    "column name": "udf1",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf2",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf3",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf4",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf5",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf6",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf7",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf8",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf9",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf10",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf11",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf12",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf13",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf14",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf15",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf16",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf17",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "udf18",
+    "description": "User-defined field for site-specific data; meaning configured by the organization."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update."
+  },
+  {
+    "column name": "Total_Cost",
+    "description": "Extended amount for the transaction (quantity × unit price plus taxes or fees, if applicable)."
+  },
+  {
+    "column name": "Tran_Type_Added",
+    "description": "Indicates how the transaction was added (manual entry, import, automated pump feed). Confirm with SME."
+  },
+  {
+    "column name": "Site_Fuel_Pump",
+    "description": "Identifier of the fueling site or specific pump used. Confirm with SME."
+  },
+  {
+    "column name": "Fuel_Disb_Type",
+    "description": "Method of fuel disbursement (bulk issue, card purchase, mobile tanker). Confirm with SME."
+  },
+  {
+    "column name": "miles",
+    "description": "Distance since the previous fueling, derived from meter readings; units follow meter_type. Confirm with SME."
+  },
+  {
+    "column name": "mpg",
+    "description": "Fuel economy for the interval, calculated as distance per unit of fuel."
+  },
+  {
+    "column name": "prev_meter",
+    "description": "Previous recorded meter value used to compute distance and validate readings. Confirm with SME."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Unit of measure for meter readings (e.g., miles, kilometers, hours)."
+  },
+  {
+    "column name": "inv_trn_no",
+    "description": "Document or sequence number of the associated inventory transaction. Confirm with SME."
+  },
+  {
+    "column name": "department",
+    "description": "Organizational unit responsible for the asset or fuel cost allocation."
+  }
+]

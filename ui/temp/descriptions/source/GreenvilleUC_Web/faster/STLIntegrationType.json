@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntegrationTypeID",
+    "description": "Unique identifier for the integration category used to classify external system interactions and support referential integrity."
+  },
+  {
+    "column name": "IntegrationType",
+    "description": "Human-readable label describing the integration category, indicating the nature or direction of data exchange with external systems."
+  }
+]

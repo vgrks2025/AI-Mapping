@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "RepairActionID",
+    "description": "Unique identifier for a repair action record within the catalog of maintenance or service tasks."
+  },
+  {
+    "column name": "Action",
+    "description": "System code for the repair action, used to reference and sequence tasks in procedures and interfaces."
+  },
+  {
+    "column name": "ActionDesc",
+    "description": "Human-readable name or description of the repair action performed (e.g., Diagnosis, Test Drive)."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates whether this action is obsolete/inactive and should not be used for new work orders."
+  },
+  {
+    "column name": "IsDefault",
+    "description": "Flags whether this action is the default selection in relevant workflows or templates; likely default option for new tasks—confirm with SME."
+  }
+]

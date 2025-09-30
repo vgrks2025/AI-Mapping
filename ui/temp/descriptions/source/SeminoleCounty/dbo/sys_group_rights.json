@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "sec_group",
+    "description": "Security role or group identifier to which this access record applies; used to group users for access control."
+  },
+  {
+    "column name": "keycode",
+    "description": "Code representing the specific application function or module governed by this access record; used to evaluate permissions for the group."
+  },
+  {
+    "column name": "user_rights",
+    "description": "Grant indicator for the group on this function (e.g., Y/N); determines whether access is allowed."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this group-permission record (audit field)."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this group-permission record was created (audit field)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified this group-permission record (audit field)."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this group-permission record (audit field)."
+  }
+]

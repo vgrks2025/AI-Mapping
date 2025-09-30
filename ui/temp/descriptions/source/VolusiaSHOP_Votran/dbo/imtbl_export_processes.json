@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the export process record."
+  },
+  {
+    "column name": "name",
+    "description": "Human-friendly label for this export process."
+  },
+  {
+    "column name": "viewname",
+    "description": "Name of the source database view from which this export retrieves records."
+  },
+  {
+    "column name": "depth",
+    "description": "Hierarchy level used to order and nest related exports; parent levels run before their children."
+  },
+  {
+    "column name": "parentviewname",
+    "description": "Name of the parent view that this export depends on when joining related data."
+  },
+  {
+    "column name": "parentfield",
+    "description": "Join key in the parent view used to relate parent records to this export’s records."
+  },
+  {
+    "column name": "localfield",
+    "description": "Join key in this view used to link back to the parent view’s key."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this export configuration."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this export configuration was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this export configuration."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this export configuration was last modified."
+  }
+]

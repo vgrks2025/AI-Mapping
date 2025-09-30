@@ -1,0 +1,134 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique row identifier for this labor cost transaction log entry."
+  },
+  {
+    "column name": "cost_transaction_type",
+    "description": "Code indicating the type of cost posting (e.g., original, adjustment, reversal); likely enumerated; confirm with SME."
+  },
+  {
+    "column name": "craft",
+    "description": "Identifier for the technician’s trade/skill classification billed for the work; likely references a craft table."
+  },
+  {
+    "column name": "labor_hours",
+    "description": "Number of labor hours recorded for this transaction."
+  },
+  {
+    "column name": "actual_cost",
+    "description": "Total monetary cost posted for the recorded labor on this transaction."
+  },
+  {
+    "column name": "pay_type",
+    "description": "Pay category applied to the hours (e.g., regular, overtime, double-time); likely coded; confirm with SME."
+  },
+  {
+    "column name": "user_id",
+    "description": "User or system process that created or posted this transaction."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the employee or technician whose labor is being charged."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset or equipment the labor was performed on."
+  },
+  {
+    "column name": "procedures",
+    "description": "Reference to a maintenance procedure or task list performed; likely a procedure ID; confirm with SME."
+  },
+  {
+    "column name": "project",
+    "description": "Project or job identifier to which this labor cost is charged, if applicable."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "General Ledger account charged for this labor cost."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Indicator or reference for splitting cost across multiple GL accounts; likely an allocation detail; confirm with SME."
+  },
+  {
+    "column name": "work_order",
+    "description": "Work order associated with the labor transaction."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "Purchase order linked to this labor (e.g., contracted labor), if applicable."
+  },
+  {
+    "column name": "log_date",
+    "description": "Timestamp when the labor cost transaction was logged."
+  },
+  {
+    "column name": "adjustment_date",
+    "description": "Timestamp when an adjustment or final posting for this transaction occurred; confirm exact use with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes describing the work or reason for the cost or adjustment."
+  },
+  {
+    "column name": "code",
+    "description": "Optional classification code tied to this transaction; meaning depends on code_type; confirm with SME."
+  },
+  {
+    "column name": "code_type",
+    "description": "Type/category that defines how the associated code should be interpreted (e.g., reason, failure, cost class)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record (distinct from system updates); naming suggests user-specific audit; confirm with SME."
+  },
+  {
+    "column name": "woap",
+    "description": "Work order accounts payable reference (e.g., AP batch or invoice link) related to this labor cost; likely; confirm with SME."
+  },
+  {
+    "column name": "woap_actual",
+    "description": "Reference or flag for actual AP posting against the work order for this labor; likely; confirm with SME."
+  },
+  {
+    "column name": "po_order",
+    "description": "Reference to the purchase order header associated with this labor, if applicable; confirm with SME."
+  },
+  {
+    "column name": "po_receipt",
+    "description": "Reference to the PO receipt transaction tied to this labor, if applicable."
+  },
+  {
+    "column name": "po_order_line_num",
+    "description": "Line number on the associated purchase order, if applicable."
+  },
+  {
+    "column name": "po_receipt_line_num",
+    "description": "Line number on the associated PO receipt, if applicable."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Labor rate applied per hour for this transaction."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who originally created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified by a user."
+  }
+]

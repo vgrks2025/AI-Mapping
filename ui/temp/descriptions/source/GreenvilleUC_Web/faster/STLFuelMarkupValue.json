@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "FuelMarkupValueID",
+    "description": "Surrogate key identifying the method used to apply fuel markup values (e.g., fixed amount per unit or rate-based). Used to link to related pricing rules."
+  },
+  {
+    "column name": "FuelMarkupValueDesc",
+    "description": "Human-readable label describing the basis for applying a fuel markup, such as fixed amount per unit or a percentage rate. Used in UIs and reports."
+  }
+]

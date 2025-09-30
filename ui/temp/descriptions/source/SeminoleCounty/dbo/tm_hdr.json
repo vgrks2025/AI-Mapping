@@ -1,0 +1,282 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Unique identifier for the maintenance template used to generate work orders."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Workgroup or team responsible for executing work from this template."
+  },
+  {
+    "column name": "wo_type",
+    "description": "Code classifying the work order; likely distinguishes scheduled versus other types; confirm with SME."
+  },
+  {
+    "column name": "priority",
+    "description": "Default urgency level applied to work orders created from the template."
+  },
+  {
+    "column name": "target_add_days",
+    "description": "Number of days added to the computed target date when scheduling the work."
+  },
+  {
+    "column name": "wk_in_progress",
+    "description": "Default status used when the work order is active or underway."
+  },
+  {
+    "column name": "project_no",
+    "description": "Associated project identifier for budgeting, scheduling, or reporting."
+  },
+  {
+    "column name": "cal_freq",
+    "description": "Time-based interval for recurring service (e.g., number of days between occurrences)."
+  },
+  {
+    "column name": "unit_freq",
+    "description": "Meter-based interval quantity for triggering service; confirm exact unit source."
+  },
+  {
+    "column name": "shift",
+    "description": "Shift code indicating when the work should be performed or staffed."
+  },
+  {
+    "column name": "tm_descr",
+    "description": "Detailed description of the maintenance template’s scope and frequency."
+  },
+  {
+    "column name": "assign_to",
+    "description": "Default technician, role, or team assigned to the work."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the template record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the template record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the template."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent modification."
+  },
+  {
+    "column name": "wo_descr",
+    "description": "Concise title used on work orders generated from the template."
+  },
+  {
+    "column name": "it_udf1",
+    "description": "Custom user-defined text field 1 for template-specific information."
+  },
+  {
+    "column name": "it_udf2",
+    "description": "Custom user-defined text field 2 for template-specific information."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Supervisor responsible for overseeing the work."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Crew leader assigned to direct the field crew."
+  },
+  {
+    "column name": "parent_template_no",
+    "description": "Identifier of the parent template from which this template inherits settings."
+  },
+  {
+    "column name": "calc_descr_flag",
+    "description": "Indicates whether the system auto-builds the description from rules instead of manual entry."
+  },
+  {
+    "column name": "delete_flag",
+    "description": "Soft-delete or inactive marker for the template; used to suppress use without removing history."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Accounting or cost center account to which charges will be posted."
+  },
+  {
+    "column name": "est_labor",
+    "description": "Estimated labor cost for performing the work."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours required to complete the work."
+  },
+  {
+    "column name": "est_equip",
+    "description": "Estimated equipment usage cost."
+  },
+  {
+    "column name": "est_part",
+    "description": "Estimated parts/materials cost."
+  },
+  {
+    "column name": "est_ctr",
+    "description": "Estimated contractor or outside services cost."
+  },
+  {
+    "column name": "est_misc",
+    "description": "Estimated miscellaneous costs not covered elsewhere."
+  },
+  {
+    "column name": "customer_id",
+    "description": "Customer or internal client associated with the work."
+  },
+  {
+    "column name": "meter_cal",
+    "description": "Meter configuration used for scheduling; likely identifies the relevant meter or calculation method; confirm with SME."
+  },
+  {
+    "column name": "met_cal",
+    "description": "Scheduling basis indicator specifying calendar-based versus meter-based triggering; confirm code mapping."
+  },
+  {
+    "column name": "est_qty",
+    "description": "Estimated quantity related to the job (e.g., items or occurrences); confirm intended unit."
+  },
+  {
+    "column name": "rec_type",
+    "description": "Record classification code for the template; controls behavior or reporting; confirm allowed values."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference key linking the template to attached files or documents."
+  },
+  {
+    "column name": "est_total",
+    "description": "Sum of all estimated costs for the work."
+  },
+  {
+    "column name": "advanced_flag",
+    "description": "Indicates whether advanced scheduling or template features are enabled."
+  },
+  {
+    "column name": "subsys_id",
+    "description": "Asset subsystem identifier relevant to this maintenance."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Managing organization or operational unit accountable for the work."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Standard activity code categorizing the maintenance task."
+  },
+  {
+    "column name": "shared_lem",
+    "description": "Whether labor, equipment, and materials are shared across tasks within the resulting work order."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "External vendor designated to perform or support the work."
+  },
+  {
+    "column name": "site_loc_desc",
+    "description": "Free-text description of the job site or asset location."
+  },
+  {
+    "column name": "site_street_number",
+    "description": "Street number portion of the site address."
+  },
+  {
+    "column name": "site_street_name",
+    "description": "Street name portion of the site address."
+  },
+  {
+    "column name": "site_cross_street",
+    "description": "Nearest intersecting street for locating the site."
+  },
+  {
+    "column name": "site_city",
+    "description": "City of the job site."
+  },
+  {
+    "column name": "site_state",
+    "description": "State or province of the job site."
+  },
+  {
+    "column name": "site_zip_code",
+    "description": "Postal code for the job site."
+  },
+  {
+    "column name": "latitude",
+    "description": "Geographic latitude of the site in decimal degrees."
+  },
+  {
+    "column name": "longitude",
+    "description": "Geographic longitude of the site in decimal degrees."
+  },
+  {
+    "column name": "altitude",
+    "description": "Elevation of the site; units may vary; confirm with SME."
+  },
+  {
+    "column name": "site_addr_key",
+    "description": "Internal key referencing a standardized site address record."
+  },
+  {
+    "column name": "site_address_2",
+    "description": "Second address line for suite, building, or additional location details."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Internal location code indicating where the work applies or is managed."
+  },
+  {
+    "column name": "dept_id",
+    "description": "Department responsible for work execution or cost ownership."
+  },
+  {
+    "column name": "multi_task",
+    "description": "Indicates whether generated work orders include multiple tasks."
+  },
+  {
+    "column name": "opt1",
+    "description": "Optional configurable field for organization-specific use; confirm purpose with SME."
+  },
+  {
+    "column name": "failure_code",
+    "description": "Standard failure/problem code associated with this maintenance template."
+  },
+  {
+    "column name": "fail_descr",
+    "description": "Narrative description of the failure or problem addressed."
+  },
+  {
+    "column name": "dntime",
+    "description": "Expected asset downtime associated with performing this work; confirm units."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "Custom user-defined text field 3 for additional notes or data."
+  },
+  {
+    "column name": "crew_id",
+    "description": "Identifier of the crew assigned to perform the work."
+  },
+  {
+    "column name": "remarks",
+    "description": "General notes or instructions associated with the template or resulting work orders."
+  },
+  {
+    "column name": "calc_aw_desc_flag",
+    "description": "Indicates whether the system auto-generates the asset/work description instead of manual entry."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field 1 for supplemental information."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "User-defined text field 2 for supplemental information."
+  },
+  {
+    "column name": "cmpm_flag",
+    "description": "Maintenance class flag distinguishing preventive versus corrective maintenance; used for planning and reporting."
+  }
+]

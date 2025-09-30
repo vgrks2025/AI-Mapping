@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "wkplan_no",
+    "description": "Unique identifier for the work plan associated with this ACP entry; used for linking schedules and budgets."
+  },
+  {
+    "column name": "year_no",
+    "description": "Plan year index within a multi‑year plan (e.g., 1 for first year); confirm with SME."
+  },
+  {
+    "column name": "lab_per",
+    "description": "Percentage of budget or effort allocated to labor for the plan; confirm with SME."
+  },
+  {
+    "column name": "mat_per",
+    "description": "Percentage of the plan allocated to materials; confirm with SME."
+  },
+  {
+    "column name": "sys_per",
+    "description": "Percentage allocated to system/overhead or other indirect costs; confirm with SME."
+  },
+  {
+    "column name": "hrs_day_per",
+    "description": "Expected working hours per day, possibly as a percentage of standard hours; confirm with SME."
+  },
+  {
+    "column name": "acp_no",
+    "description": "Primary identifier for the ACP plan record used to link related details; confirm with SME."
+  },
+  {
+    "column name": "print_form",
+    "description": "Report template or form identifier used when printing the plan."
+  },
+  {
+    "column name": "leading_chr",
+    "description": "Prefix characters applied when generating plan or document numbers; confirm with SME."
+  },
+  {
+    "column name": "default_column",
+    "description": "System setting indicating the default column used for display or sorting in forms; confirm with SME."
+  },
+  {
+    "column name": "default_activity_prn",
+    "description": "Default activity or layout used when printing plan activities; confirm with SME."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  }
+]

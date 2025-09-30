@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AlertSourceID",
+    "description": "Unique identifier for the origin type of an alert; primary key used to link alerts to their source category."
+  },
+  {
+    "column name": "Description",
+    "description": "User-facing label describing how the alert data was obtained or populated; used for categorization and display in interfaces and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean indicator that the source type is deprecated or inactive and should not be used for new records; maintained for historical reference."
+  }
+]

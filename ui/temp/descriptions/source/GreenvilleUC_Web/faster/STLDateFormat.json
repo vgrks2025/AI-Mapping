@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "DateFormatID",
+    "description": "Surrogate key identifying a specific date formatting option within the system; referenced by settings or records to determine how dates are displayed or printed."
+  },
+  {
+    "column name": "DateFormat",
+    "description": "Pattern string that defines how a date is rendered, including day-month-year order and separators; used for display, reporting, export, and parsing according to locale or customer preference."
+  }
+]

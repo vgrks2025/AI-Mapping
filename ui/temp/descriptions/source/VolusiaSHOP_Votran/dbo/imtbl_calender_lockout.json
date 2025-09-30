@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key uniquely identifying this calendar lockout record."
+  },
+  {
+    "column name": "f_date",
+    "description": "Calendar date (and time, if applicable) the lockout applies to."
+  },
+  {
+    "column name": "lockout",
+    "description": "Likely a boolean/status indicating the date is blocked from scheduling or assignments; confirm exact values and behavior with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes explaining the reason, scope, or context for the lockout."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Intended to capture who last changed the record; sample shows a timestamp—confirm whether this stores user ID or date/time with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when the record was created (per user/audit trail)."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who most recently modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the most recent modification by a user (audit trail)."
+  }
+]

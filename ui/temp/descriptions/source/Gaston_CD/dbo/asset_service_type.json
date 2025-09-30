@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this asset service type record (primary key)."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the record was last created/updated in yyyymmddhhmmssSSS format; used for audit/sync; exact semantics likely 'last modified'—confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Short, user-facing name/description of the asset service type."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes providing additional details, caveats, or usage guidance for the service type."
+  },
+  {
+    "column name": "inact",
+    "description": "Boolean indicator that the service type is inactive/retired and should not be available for new use."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a legacy system, used for historical mapping and migration; meaning may vary by source—confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table that contained the mapped record; retained for lineage and migration traceability; confirm with SME."
+  }
+]

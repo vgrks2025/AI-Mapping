@@ -1,0 +1,110 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the schedule record (surrogate key used for joins and internal references)."
+  },
+  {
+    "column name": "id",
+    "description": "Business-facing schedule identifier used in the application or integrations; may differ from the internal primary key."
+  },
+  {
+    "column name": "description",
+    "description": "Short text describing the scheduled maintenance or service activity."
+  },
+  {
+    "column name": "work_order_type",
+    "description": "Code referencing the type/category of work order this schedule will create (e.g., PM, inspection); confirm lookup."
+  },
+  {
+    "column name": "status",
+    "description": "Current lifecycle state of the schedule (e.g., planned, active, closed), stored as a status code; confirm mapping."
+  },
+  {
+    "column name": "shift",
+    "description": "Shift or time window when the work is scheduled (e.g., day, swing); likely references a shift master; confirm with SME."
+  },
+  {
+    "column name": "skill",
+    "description": "Required technician trade/skill for the scheduled work (e.g., electrician, mechanic); likely references a skills list; confirm with SME."
+  },
+  {
+    "column name": "project",
+    "description": "Project or cost objective associated with the scheduled work; used for reporting and chargeback."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Supervisor or responsible person/team overseeing the scheduled work; likely references a user/role."
+  },
+  {
+    "column name": "schedule_lock_out_option",
+    "description": "Defines how lockout/blackout rules are applied during scheduling (e.g., prevent during asset downtime or calendar blocks); confirm option codes with SME."
+  },
+  {
+    "column name": "combine_procedures",
+    "description": "Flag indicating whether multiple maintenance procedures are combined into a single generated work order."
+  },
+  {
+    "column name": "combine_assets",
+    "description": "Flag indicating whether work for multiple assets is combined into a single generated work order."
+  },
+  {
+    "column name": "override_calendar_lockout",
+    "description": "Flag to bypass calendar lockout rules and allow scheduling during otherwise restricted periods."
+  },
+  {
+    "column name": "options",
+    "description": "Bitmask or coded flags controlling additional scheduling behavior/settings; values are system-specific; confirm mapping."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Default warehouse/site from which parts and materials will be issued for this scheduled work; references a warehouse ID."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the schedule."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this schedule record."
+  },
+  {
+    "column name": "assigned_by",
+    "description": "User who created the assignment or designated the assignee for this schedule."
+  },
+  {
+    "column name": "assigned_to",
+    "description": "User, technician, crew, or vendor assigned to perform the scheduled work."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority level indicating urgency or scheduling precedence for the work (e.g., low to high); confirm code set."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification performed by a user action rather than an automated process; confirm semantics."
+  },
+  {
+    "column name": "work_order_status",
+    "description": "Status code of the work order(s) generated from this schedule, if applicable; confirm mapping."
+  },
+  {
+    "column name": "imported",
+    "description": "Indicator that the schedule was loaded via data import/integration rather than created manually (0/1 or similar)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the schedule record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the schedule record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the schedule record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the schedule record was last modified by a user."
+  }
+]

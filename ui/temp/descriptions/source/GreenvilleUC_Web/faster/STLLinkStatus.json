@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "LinkStatusID",
+    "description": "Numeric identifier of the enumerated link status used to classify an association between fleet assets (such as device-to-vehicle or tractor-to-trailer). Specific association type is organization-specific; confirm with SME."
+  },
+  {
+    "column name": "LinkStatus",
+    "description": "Business label describing the state of an association between fleet assets (such as device-to-vehicle or tractor-to-trailer), indicating whether the link is ongoing, temporary, or ended. Exact semantics may vary; confirm with SME."
+  }
+]

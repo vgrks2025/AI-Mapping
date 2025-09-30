@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ReportApplicationID",
+    "description": "Surrogate key identifying the platform or module that hosts a given report within the fleet management ecosystem; used to link reports to their source application."
+  },
+  {
+    "column name": "ReportApplicationName",
+    "description": "Human-readable title of the platform or module where the report resides, used for display and selection by users."
+  }
+]

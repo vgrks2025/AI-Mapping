@@ -1,0 +1,462 @@
+[
+  {
+    "column name": "status",
+    "description": "Code indicating the current lifecycle state of the work order (e.g., open, closed, canceled); confirm code set with SME."
+  },
+  {
+    "column name": "cmpm_flag",
+    "description": "Maintenance category for the job: corrective (CM) versus preventive/scheduled (PM)."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the work order associated with this asset line."
+  },
+  {
+    "column name": "wo_descr",
+    "description": "Short text describing the maintenance job scope and system/component involved."
+  },
+  {
+    "column name": "issued",
+    "description": "Date and time the work order was created/issued."
+  },
+  {
+    "column name": "closed",
+    "description": "Date and time the work order was closed/completed."
+  },
+  {
+    "column name": "target",
+    "description": "Planned or target completion date for the work."
+  },
+  {
+    "column name": "assign_to",
+    "description": "Identifier of the technician or employee assigned to perform the work."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Supervisor responsible for overseeing this work order; likely an employee ID; confirm with SME."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Crew leader in charge of the work team; likely an employee ID; confirm with SME."
+  },
+  {
+    "column name": "origin_code",
+    "description": "Code indicating how the work originated (e.g., driver report, inspection, PM); confirm code definitions with SME."
+  },
+  {
+    "column name": "primary_wr_no",
+    "description": "Identifier for the original/primary work request associated with this work order; confirm linkage rules with SME."
+  },
+  {
+    "column name": "appvby",
+    "description": "Identifier of the person who approved the work order; confirm approval workflow with SME."
+  },
+  {
+    "column name": "customer_type",
+    "description": "Type of customer requesting service (e.g., internal department, external); confirm allowed values with SME."
+  },
+  {
+    "column name": "req_cust_id",
+    "description": "Identifier of the requesting customer or department."
+  },
+  {
+    "column name": "cust_name",
+    "description": "Name of the customer or department requesting service."
+  },
+  {
+    "column name": "req_cell_phone",
+    "description": "Requester’s mobile phone number."
+  },
+  {
+    "column name": "req_phone2",
+    "description": "Requester’s alternate phone number."
+  },
+  {
+    "column name": "req_email",
+    "description": "Requester’s email address."
+  },
+  {
+    "column name": "portal_id",
+    "description": "Identifier for the portal/account used to submit or track the request; confirm with SME."
+  },
+  {
+    "column name": "op_id",
+    "description": "Operator/driver associated with the asset or request; likely an employee/operator ID; confirm with SME."
+  },
+  {
+    "column name": "issue_id",
+    "description": "External issue/ticket reference tied to this work; confirm source system with SME."
+  },
+  {
+    "column name": "req_request",
+    "description": "Short statement of the requester’s problem or service need."
+  },
+  {
+    "column name": "req_comments",
+    "description": "Additional comments provided by the requester at submission."
+  },
+  {
+    "column name": "sup_notes",
+    "description": "Supervisor’s notes or instructions related to the work."
+  },
+  {
+    "column name": "priority",
+    "description": "Code indicating urgency or priority level of the work; meanings of T/NT/W need confirmation with SME."
+  },
+  {
+    "column name": "req_text",
+    "description": "Detailed description of the requester’s issue or service request."
+  },
+  {
+    "column name": "req_notes",
+    "description": "Intake notes captured during request creation."
+  },
+  {
+    "column name": "site_addr_key",
+    "description": "Reference key to the service location address record; confirm source with SME."
+  },
+  {
+    "column name": "site_street_name",
+    "description": "Street name for the service location."
+  },
+  {
+    "column name": "site_street_number",
+    "description": "Street number for the service location."
+  },
+  {
+    "column name": "site_city",
+    "description": "City for the service location."
+  },
+  {
+    "column name": "site_zip_code",
+    "description": "Postal/ZIP code for the service location."
+  },
+  {
+    "column name": "site_loc_desc",
+    "description": "Descriptive location details (e.g., yard, bay, landmark) for where work occurs."
+  },
+  {
+    "column name": "site_cross_street",
+    "description": "Nearest cross street to the service location."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this record was added to the system."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the record (e.g., data conversion job)."
+  },
+  {
+    "column name": "wo_udf_text1",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text2",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text3",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text4",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text5",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text6",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text7",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text8",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text9",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_text10",
+    "description": "User-defined text field for work-order-level custom data; usage varies by business unit."
+  },
+  {
+    "column name": "wo_udf_date1",
+    "description": "User-defined date field at the work-order level; purpose varies by configuration."
+  },
+  {
+    "column name": "wo_udf_date2",
+    "description": "User-defined date field at the work-order level; purpose varies by configuration."
+  },
+  {
+    "column name": "wo_udf_date3",
+    "description": "User-defined date field at the work-order level; purpose varies by configuration."
+  },
+  {
+    "column name": "wo_udf_num1",
+    "description": "User-defined numeric field at the work-order level; purpose varies by configuration."
+  },
+  {
+    "column name": "wo_udf_num2",
+    "description": "User-defined numeric field at the work-order level; purpose varies by configuration."
+  },
+  {
+    "column name": "wo_udf_num3",
+    "description": "User-defined numeric field at the work-order level; purpose varies by configuration."
+  },
+  {
+    "column name": "action_taken",
+    "description": "Narrative of the work performed, findings, and resolution."
+  },
+  {
+    "column name": "tm_no",
+    "description": "Related ticket/memo number associated with this work; likely a cross-reference; confirm with SME."
+  },
+  {
+    "column name": "wr_no",
+    "description": "Identifier of the originating work request linked to this work order."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the work group/shop responsible for the job."
+  },
+  {
+    "column name": "project_no",
+    "description": "Project identifier if the work is billed or tracked under a project."
+  },
+  {
+    "column name": "customer_id",
+    "description": "Account or department to be billed for the work."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier of an external vendor performing or supplying part of the work."
+  },
+  {
+    "column name": "wo_activity_code",
+    "description": "Code categorizing the type of activity at the work-order level (e.g., repair, inspection); confirm code list."
+  },
+  {
+    "column name": "wo_mgmt_unit",
+    "description": "Management unit or cost center responsible for the work order."
+  },
+  {
+    "column name": "wo_acct_no",
+    "description": "Accounting/GL account charged at the work-order level."
+  },
+  {
+    "column name": "wo_loc_cd",
+    "description": "Code for the facility or shop where the work order is handled."
+  },
+  {
+    "column name": "wo_wk_in_progress",
+    "description": "Indicator of work-in-progress status at the work-order level; code meanings require SME confirmation."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Sequence number referencing the asset entry on this work order; confirm usage with SME."
+  },
+  {
+    "column name": "asset_seq_no",
+    "description": "Line sequence for the asset within the work order, used when multiple assets are involved; confirm with SME."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier/unit number of the asset being serviced."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Code representing the asset’s class/type (e.g., vehicle, equipment); confirm code set with SME."
+  },
+  {
+    "column name": "asset_descr",
+    "description": "Descriptive name/details of the asset."
+  },
+  {
+    "column name": "subsys_id",
+    "description": "Identifier for the asset subsystem/component involved in the repair; confirm with SME."
+  },
+  {
+    "column name": "failure_code",
+    "description": "Code describing the reported problem/failure mode; confirm code set with SME."
+  },
+  {
+    "column name": "fail_descr",
+    "description": "Text description of the failure or symptom observed."
+  },
+  {
+    "column name": "cost_share",
+    "description": "Percentage of total work order cost allocated to this asset line."
+  },
+  {
+    "column name": "rating",
+    "description": "Numeric rating related to this job (e.g., severity, quality, or satisfaction); meaning requires SME confirmation."
+  },
+  {
+    "column name": "compl_dt",
+    "description": "Date the work on this asset line was completed."
+  },
+  {
+    "column name": "opt1",
+    "description": "Optional free-form field for additional information; purpose varies by site."
+  },
+  {
+    "column name": "opt2",
+    "description": "Optional free-form field for additional information; purpose varies by site."
+  },
+  {
+    "column name": "dntime",
+    "description": "Asset downtime attributed to this job, typically in hours."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text4",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text5",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text6",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text7",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text8",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text9",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_text10",
+    "description": "User-defined text field at the asset/line level; usage varies by business unit."
+  },
+  {
+    "column name": "udf_date1",
+    "description": "User-defined date field at the asset/line level; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_date2",
+    "description": "User-defined date field at the asset/line level; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_date3",
+    "description": "User-defined date field at the asset/line level; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_num1",
+    "description": "User-defined numeric field at the asset/line level; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_num2",
+    "description": "User-defined numeric field at the asset/line level; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_num3",
+    "description": "User-defined numeric field at the asset/line level; purpose varies by configuration."
+  },
+  {
+    "column name": "wk_in_progress",
+    "description": "Indicator of in-progress status for this asset line; code meanings require SME confirmation."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Accounting/GL account charged for this asset line."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Code identifying the shop, facility, or organizational location performing the work."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Code categorizing the specific maintenance activity performed on the asset; confirm code list."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit or cost center responsible for this asset line."
+  },
+  {
+    "column name": "geometry",
+    "description": "Geospatial location of the work/site (point or shape); coordinate system and precision require SME confirmation."
+  },
+  {
+    "column name": "asset_start_dt",
+    "description": "Date and time work began on this asset."
+  },
+  {
+    "column name": "asset_finish_dt",
+    "description": "Date and time work on this asset finished; may differ from work order close time."
+  },
+  {
+    "column name": "asset_owner",
+    "description": "Department or entity that owns the asset."
+  },
+  {
+    "column name": "asset_remarks",
+    "description": "Remarks about the asset relevant to this job."
+  },
+  {
+    "column name": "act_cost",
+    "description": "Total actual cost recorded for this asset line."
+  },
+  {
+    "column name": "act_work_qty",
+    "description": "Quantity of work completed (e.g., tasks or measured units) for this line."
+  },
+  {
+    "column name": "act_lbr_hrs",
+    "description": "Actual labor hours spent on this asset line."
+  },
+  {
+    "column name": "act_labor",
+    "description": "Actual labor cost charged to this asset line."
+  },
+  {
+    "column name": "act_equip",
+    "description": "Actual equipment/usage cost charged to this asset line."
+  },
+  {
+    "column name": "act_part",
+    "description": "Actual parts/materials cost charged to this asset line."
+  },
+  {
+    "column name": "act_misc",
+    "description": "Actual miscellaneous costs charged to this asset line."
+  },
+  {
+    "column name": "act_ctr",
+    "description": "Actual contractor/sublet cost charged to this asset line."
+  },
+  {
+    "column name": "act_total",
+    "description": "Sum of all actual costs for this asset line."
+  },
+  {
+    "column name": "cur_meter",
+    "description": "Odometer or hour-meter reading of the asset at the time of service."
+  }
+]

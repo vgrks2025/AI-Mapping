@@ -1,0 +1,182 @@
+[
+  {
+    "column name": "portal_id",
+    "description": "Unique identifier for this portal configuration record."
+  },
+  {
+    "column name": "def_state",
+    "description": "Default state prefilled for request location when users submit a new request."
+  },
+  {
+    "column name": "def_city",
+    "description": "Default city prefilled for request location."
+  },
+  {
+    "column name": "date_format",
+    "description": "Display pattern used to format dates shown to users (e.g., submission and promise dates)."
+  },
+  {
+    "column name": "wr_pattern",
+    "description": "Format string used to generate or display work request identifiers; exact usage may vary, confirm with SME."
+  },
+  {
+    "column name": "promise_days",
+    "description": "Default number of days added to determine the promised completion date after submission."
+  },
+  {
+    "column name": "approval_required",
+    "description": "Indicates whether submissions must be approved before becoming active or converting to a work order."
+  },
+  {
+    "column name": "send_survey_request_close",
+    "description": "Controls sending a satisfaction survey to the requester when a request is closed."
+  },
+  {
+    "column name": "captcha_enabled",
+    "description": "Enables human verification on the submission form to reduce spam."
+  },
+  {
+    "column name": "show_help",
+    "description": "Controls whether contextual help or instructions are displayed in the portal."
+  },
+  {
+    "column name": "server_url",
+    "description": "Base URL where this portal is hosted and accessed by users."
+  },
+  {
+    "column name": "accept_from_mobile",
+    "description": "Allows request submissions from mobile devices or mobile apps."
+  },
+  {
+    "column name": "agency_phone_mobile",
+    "description": "Contact phone number displayed on the mobile view for assistance."
+  },
+  {
+    "column name": "duplicates_radius_auto",
+    "description": "Distance threshold used for automatic duplicate detection based on proximity of reported locations; confirm units with SME."
+  },
+  {
+    "column name": "duplicates_period",
+    "description": "Time window used to detect duplicates based on how recently similar requests were submitted."
+  },
+  {
+    "column name": "duplicates_auto_mode",
+    "description": "Enables automatic duplicate checking to flag or merge matching submissions."
+  },
+  {
+    "column name": "def_lat",
+    "description": "Default latitude used to center maps or prefill location for new requests."
+  },
+  {
+    "column name": "def_lon",
+    "description": "Default longitude used to center maps or prefill location for new requests."
+  },
+  {
+    "column name": "google_map_enabled",
+    "description": "Enables integration with Google Maps for location selection and display."
+  },
+  {
+    "column name": "portal_descr",
+    "description": "Human-readable title or description presented to users for this portal."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this portal configuration record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this portal configuration record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated this portal configuration record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this portal configuration record was last updated."
+  },
+  {
+    "column name": "city_boundary_geometry",
+    "description": "Geospatial boundary defining the service area in which requests can be placed; used for geofencing/validation."
+  },
+  {
+    "column name": "last_wr_no",
+    "description": "Most recently assigned work request number used to continue sequential numbering."
+  },
+  {
+    "column name": "wrext_group",
+    "description": "Grouping code linking requests from this portal to an external or extended request group; confirm with SME."
+  },
+  {
+    "column name": "tmp_approval_reqd",
+    "description": "Notification template used to inform stakeholders that a submission requires approval."
+  },
+  {
+    "column name": "tmp_closed",
+    "description": "Notification template used when a request is closed."
+  },
+  {
+    "column name": "tmp_created",
+    "description": "Notification template used when a new request is created."
+  },
+  {
+    "column name": "tmp_denied",
+    "description": "Notification template used when a request is denied."
+  },
+  {
+    "column name": "tmp_promise_date_change",
+    "description": "Notification template used when the promised completion date is changed."
+  },
+  {
+    "column name": "tmp_password_recovery",
+    "description": "Notification template used for requester password reset messages."
+  },
+  {
+    "column name": "tmp_supervisor",
+    "description": "Notification template used for supervisor alerts or escalations."
+  },
+  {
+    "column name": "tmp_wo_created",
+    "description": "Notification template used when a work order is created from a request."
+  },
+  {
+    "column name": "ctl_street_valid",
+    "description": "Controls whether entered street addresses must validate against a reference street database."
+  },
+  {
+    "column name": "allow_anonymous",
+    "description": "Allows submissions without user authentication."
+  },
+  {
+    "column name": "allow_public_requests",
+    "description": "Allows submissions from the general public, not just internal staff."
+  },
+  {
+    "column name": "default_flag",
+    "description": "Marks this configuration as the system’s default portal."
+  },
+  {
+    "column name": "mc_flag",
+    "description": "Flag indicating integration with a companion citizen/mobile app; confirm exact platform with SME."
+  },
+  {
+    "column name": "default_wr_group",
+    "description": "Default category or group assigned to new requests submitted through this portal."
+  },
+  {
+    "column name": "show_map",
+    "description": "Controls whether a map is shown for selecting or viewing request locations."
+  },
+  {
+    "column name": "issue_required",
+    "description": "Indicates that describing the issue is mandatory before submission."
+  },
+  {
+    "column name": "show_motorpool",
+    "description": "Controls visibility of motor pool request options; confirm exact scope with SME."
+  },
+  {
+    "column name": "sso_allow_flag",
+    "description": "Enables single sign-on so users can authenticate via an external identity provider."
+  }
+]

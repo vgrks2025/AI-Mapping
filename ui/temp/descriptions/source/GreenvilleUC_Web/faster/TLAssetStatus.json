@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "AssetStatus",
+    "description": "Short code indicating an asset’s lifecycle state used in workflows and reporting."
+  },
+  {
+    "column name": "AssetStatusDesc",
+    "description": "Human-readable label for the status code shown in UIs and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates the status definition is deprecated and should no longer be assigned to assets; retained for historical records."
+  },
+  {
+    "column name": "AssetStatusID",
+    "description": "Unique identifier for the status record, used as a stable key in references and integrations."
+  },
+  {
+    "column name": "CanOpenMaintDocument",
+    "description": "Indicates whether maintenance work orders or related documents may be created or accessed when an asset is in this status."
+  },
+  {
+    "column name": "IsSystemDefault",
+    "description": "Flags status definitions delivered by the application as defaults rather than custom entries; may be restricted from modification."
+  }
+]

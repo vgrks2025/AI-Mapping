@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this model-year record, used as the primary key and for downstream joins."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the record was created or last updated in the source/load process; likely stored as a compact numeric string including milliseconds; confirm timezone and semantics with SME."
+  },
+  {
+    "column name": "year",
+    "description": "Marketing model year associated with the vehicle configuration; may differ from the calendar year of manufacture."
+  },
+  {
+    "column name": "model",
+    "description": "Vehicle model designation describing the specific series or configuration for the make and year; may include body style, drivetrain, or package details."
+  },
+  {
+    "column name": "make",
+    "description": "Manufacturer brand of the vehicle associated with the model year."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a legacy system; used for lineage and cross-system mapping; confirm cardinality and format with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table from which this record originated; supports data lineage and reconciliation; likely a system code rather than a human-friendly label; confirm with SME."
+  }
+]

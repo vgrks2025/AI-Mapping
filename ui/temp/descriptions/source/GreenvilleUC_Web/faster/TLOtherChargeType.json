@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "OtherChargeTypeID",
+    "description": "Unique identifier for the charge category used to classify additional fees in maintenance or parts transactions and to link records across tables."
+  },
+  {
+    "column name": "OtherChargeType",
+    "description": "Human-readable label for the charge category displayed on work orders, invoices, and reports to classify additional fees."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the charge category is inactive and should not be used on new transactions, retained only for historical reference and reporting."
+  },
+  {
+    "column name": "IsCoreDeposit",
+    "description": "Flag indicating the charge category represents a refundable core deposit for parts, driving separate accounting and potential credit when cores are returned."
+  }
+]

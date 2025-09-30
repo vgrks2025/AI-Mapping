@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key that uniquely identifies this migration column-mapping row."
+  },
+  {
+    "column name": "migrate",
+    "description": "Identifier of the migration job or batch this mapping belongs to; likely a foreign key to a migration definition table (confirm with SME)."
+  },
+  {
+    "column name": "icol",
+    "description": "Name of the source or logical input field from the legacy/landing fleet dataset being migrated."
+  },
+  {
+    "column name": "acol",
+    "description": "Target column name or transformation expression used to populate the destination schema for this field."
+  },
+  {
+    "column name": "special",
+    "description": "Special migration directives, such as primary-key flags, foreign-key lookups, defaulting to current timestamp, or other rule indicators needed to resolve references and enforce constraints."
+  },
+  {
+    "column name": "cdefault",
+    "description": "Constant default value applied when the source value is missing, null, or fails transformation; typically used to ensure required target fields are populated."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created this mapping record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this mapping record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last updated this mapping record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update to this mapping record."
+  }
+]

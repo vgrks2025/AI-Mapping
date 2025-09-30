@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup (WG) associated with the user’s warehouse access; likely a security or permission group; confirm exact meaning of WG with SME."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Code identifying a warehouse or site included in the user’s access scope via the workgroup."
+  },
+  {
+    "column name": "user_name",
+    "description": "Unique login or user ID for whom the warehouse access mapping applies."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created this mapping record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the mapping record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last updated this mapping record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the mapping record was last updated."
+  }
+]

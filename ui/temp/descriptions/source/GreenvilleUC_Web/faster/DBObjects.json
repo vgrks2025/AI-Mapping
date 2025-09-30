@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "ObjectID",
+    "description": "System-generated unique identifier for a cataloged database object (module, table, or column). Used to reference the object and relate it to parent or child objects."
+  },
+  {
+    "column name": "ObjectName",
+    "description": "Business-friendly name of the cataloged object in the fleet system (e.g., module, table, view, or column)."
+  },
+  {
+    "column name": "ObjectType",
+    "description": "Code indicating the kind of object (likely module/table/view/column); confirm with SME. Drives which attributes (e.g., data type, length) are applicable."
+  },
+  {
+    "column name": "ParentObjectID",
+    "description": "Identifier of this object's immediate parent in the object hierarchy. 0/NULL typically means no parent or a top-level object."
+  },
+  {
+    "column name": "Description",
+    "description": "Free-text or HTML summary of the object’s purpose and business function within fleet operations or integrations."
+  },
+  {
+    "column name": "DataType",
+    "description": "When the object is a column, the database data type assigned to its values (e.g., integer, varchar, date). Otherwise not applicable."
+  },
+  {
+    "column name": "Length",
+    "description": "For column objects, the maximum length, precision, or scale permitted by the data type. Often 0 when not applicable."
+  },
+  {
+    "column name": "PrimaryKey",
+    "description": "Boolean flag indicating the column participates in the table’s primary key when the object represents a column."
+  },
+  {
+    "column name": "ForeignKey",
+    "description": "Boolean flag identifying the column as a foreign key that references another table when applicable."
+  },
+  {
+    "column name": "AllowNull",
+    "description": "Indicates whether the column allows NULL values (i.e., may be left blank). Applies only to column objects."
+  },
+  {
+    "column name": "WebTableName",
+    "description": "Name of the corresponding table in the web application or integration layer used for mapping; likely populated for objects exposed on the web; confirm with SME."
+  },
+  {
+    "column name": "WebColumnMapping",
+    "description": "Mapping definition from this database column to its web/API field name or path; used for data exchange or UI binding. Likely only for column objects."
+  },
+  {
+    "column name": "MappingDescription",
+    "description": "Human-readable notes explaining the web/data mapping, transformation rules, or usage context."
+  },
+  {
+    "column name": "WebTableID",
+    "description": "Identifier for the related web-layer table used in mappings; pairs with the named web table to link cataloged objects to their web representation."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "CertificationClassID",
+    "description": "System-generated unique identifier for a technician certification category used for referencing and joins across systems."
+  },
+  {
+    "column name": "CertificationClassName",
+    "description": "Official title of the technician certification category displayed to users and on reports."
+  },
+  {
+    "column name": "CertificationClassDesc",
+    "description": "Free-text details about the certification category—e.g., administering authority, scope, or exam notes; likely supplemental context beyond the title; confirm with SME."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean status showing whether the certification category is retired/inactive and should be excluded from new assignments and lists (true = obsolete; confirm with SME)."
+  }
+]

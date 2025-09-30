@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique internal identifier for the task status record; primary key for this table."
+  },
+  {
+    "column name": "id",
+    "description": "Business-facing identifier or name of the task status used in user interfaces and references; typically unique."
+  },
+  {
+    "column name": "description",
+    "description": "Longer explanation of the task status to clarify when and how it should be used."
+  },
+  {
+    "column name": "task_status_default",
+    "description": "Flag indicating this status should be assigned by default to new tasks; 1=yes, 0=no."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Flag to hide this status from lookup or pick lists to prevent selection; 1=hidden, 0=visible."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Flag to exclude this status from reports and visualizations; 1=exclude, 0=include."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Soft-delete indicator marking the status as inactive or retired while preserving historical references; 1=inactive, 0=active."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or administrative comments about the status value for context or policy guidance."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp when this record was last changed, regardless of who made the change."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Legacy timestamp of last modification recorded by the application; likely redundant with other audit fields; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that originally created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was originally created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this record; may overlap with system last_modified."
+  }
+]

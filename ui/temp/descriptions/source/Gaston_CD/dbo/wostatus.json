@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique system-generated identifier for the status record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp of creation or last update for the record (format likely YYYYMMDDHHMMSSmmm; trailing spaces observed)."
+  },
+  {
+    "column name": "defaultstatus",
+    "description": "Indicates this is the default status assigned to new work orders."
+  },
+  {
+    "column name": "wostatus",
+    "description": "Display label of the work order status used in screens and reports."
+  },
+  {
+    "column name": "seq",
+    "description": "Numeric sort order controlling where this status appears and/or the progression sequence in workflows."
+  },
+  {
+    "column name": "type",
+    "description": "Generalized status category used to drive business rules and reporting."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system used for migration mapping; confirm origin."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name associated with this status for migration/audit purposes; confirm origin."
+  },
+  {
+    "column name": "color",
+    "description": "UI color associated with this status for visual cues (e.g., hex/RGB); confirm format."
+  },
+  {
+    "column name": "inact",
+    "description": "Flag marking the status as inactive so it cannot be selected."
+  },
+  {
+    "column name": "allow_edit",
+    "description": "Allows editing of work orders while they are in this status."
+  },
+  {
+    "column name": "promptsave",
+    "description": "Prompts users to save changes when applying this status; confirm exact behavior."
+  },
+  {
+    "column name": "out_of_service_status",
+    "description": "Indicates that assets linked to work orders in this status are considered out of service."
+  },
+  {
+    "column name": "default_substatus",
+    "description": "Identifier of the default sub-status linked to this status (0 typically means none); confirm mapping."
+  },
+  {
+    "column name": "default_substatusr",
+    "description": "Likely reference to a related default sub-status record; purpose unclear—confirm with SME."
+  }
+]

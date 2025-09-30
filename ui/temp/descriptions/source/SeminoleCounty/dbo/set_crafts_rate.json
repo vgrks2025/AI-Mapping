@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Login ID of the employee/labor resource whose craft/trade rate this record defines; used to link rates to individuals. Likely the system username; confirm with SME."
+  },
+  {
+    "column name": "row_no",
+    "description": "Original line number from the source file or batch load, used for ordering and error tracking during imports; confirm with SME."
+  },
+  {
+    "column name": "craft_trade",
+    "description": "Code representing the maintenance craft/trade (e.g., mechanic, welder) associated with the labor resource."
+  },
+  {
+    "column name": "craft_rate",
+    "description": "Hourly labor rate for the specified craft, in the organization’s standard currency; used for costing and billing."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes or comments about the rate entry, such as justification, source, or effective context."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record, for audit trail."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created (system time), for audit trail and effective dating."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the record, for audit trail."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the record was last modified."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence identifier to order or group multiple rate rows within a batch or per user; likely used with imports; confirm with SME."
+  }
+]

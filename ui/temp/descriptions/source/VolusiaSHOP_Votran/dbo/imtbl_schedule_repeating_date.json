@@ -1,0 +1,146 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this repeating schedule rule."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Links the rule to a specific asset and maintenance procedure schedule entry."
+  },
+  {
+    "column name": "every_count",
+    "description": "Base interval quantity used with the selected cadence (days, weeks, months, years) to space occurrences; confirm unit pairing with cadence fields."
+  },
+  {
+    "column name": "options",
+    "description": "Encoded option flags that alter recurrence behavior (e.g., business days, holiday handling); likely a bitmask; confirm with SME."
+  },
+  {
+    "column name": "recurrence_indicator",
+    "description": "Flag controlling whether a recurrence pattern is active for this schedule; confirm semantics with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this rule."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded when a user last edited this recurrence definition; may differ from system update time."
+  },
+  {
+    "column name": "imported",
+    "description": "Indicates the record originated from data import rather than manual entry."
+  },
+  {
+    "column name": "scheduling_method",
+    "description": "Code defining how due dates are computed (calendar-based, meter/usage-based, or other); confirm code set with SME."
+  },
+  {
+    "column name": "repeating_indicator",
+    "description": "Denotes that the schedule generates recurring occurrences instead of a single event."
+  },
+  {
+    "column name": "daily_type",
+    "description": "Code describing daily pattern interpretation (e.g., every N days versus weekdays only); confirm values with SME."
+  },
+  {
+    "column name": "daily_count",
+    "description": "Number of days between occurrences when using a daily pattern."
+  },
+  {
+    "column name": "weekly_count",
+    "description": "Number of weeks between occurrences when using a weekly pattern."
+  },
+  {
+    "column name": "weekly_monday",
+    "description": "Includes Monday in the weekly recurrence when enabled."
+  },
+  {
+    "column name": "weekly_tuesday",
+    "description": "Includes Tuesday in the weekly recurrence when enabled."
+  },
+  {
+    "column name": "weekly_wednesday",
+    "description": "Includes Wednesday in the weekly recurrence when enabled."
+  },
+  {
+    "column name": "weekly_thursday",
+    "description": "Includes Thursday in the weekly recurrence when enabled."
+  },
+  {
+    "column name": "weekly_friday",
+    "description": "Includes Friday in the weekly recurrence when enabled."
+  },
+  {
+    "column name": "weekly_saturday",
+    "description": "Includes Saturday in the weekly recurrence when enabled."
+  },
+  {
+    "column name": "weekly_sunday",
+    "description": "Includes Sunday in the weekly recurrence when enabled."
+  },
+  {
+    "column name": "monthly_type",
+    "description": "Code determining monthly pattern style (specific day-of-month or nth weekday); confirm values with SME."
+  },
+  {
+    "column name": "monthly_the_interval",
+    "description": "Ordinal occurrence within the month for the nth-weekday pattern (e.g., first, second, last); confirm mapping with SME."
+  },
+  {
+    "column name": "monthly_the_day",
+    "description": "Day-of-week used with the nth-weekday monthly pattern; confirm code mapping with SME."
+  },
+  {
+    "column name": "monthly_the_count",
+    "description": "Number of months between occurrences for the nth-weekday monthly pattern."
+  },
+  {
+    "column name": "monthly_day_number",
+    "description": "Calendar day-of-month used for the specific-day monthly pattern."
+  },
+  {
+    "column name": "monthly_day_count",
+    "description": "Number of months between occurrences for the specific-day monthly pattern."
+  },
+  {
+    "column name": "yearly_type",
+    "description": "Code selecting the yearly pattern style (specific date or nth weekday of a month); confirm values with SME."
+  },
+  {
+    "column name": "yearly_the_interval",
+    "description": "Ordinal occurrence within the month for the yearly nth-weekday pattern; confirm mapping with SME."
+  },
+  {
+    "column name": "yearly_the_day",
+    "description": "Day-of-week for the yearly nth-weekday pattern; confirm code mapping with SME."
+  },
+  {
+    "column name": "yearly_the_month",
+    "description": "Month used for the yearly nth-weekday pattern; confirm code mapping with SME."
+  },
+  {
+    "column name": "yearly_every_month",
+    "description": "Month used for the yearly specific-date pattern; likely paired with a day-of-month elsewhere; confirm with SME."
+  },
+  {
+    "column name": "yearly_every_count",
+    "description": "Number of years between occurrences for the yearly pattern; confirm semantics with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created this rule."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this rule was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated this rule."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the rule was last updated by a user."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "KpiIndividualSettingsID",
+    "description": "Unique identifier for an individual KPI configuration within fleet operations, representing person- or asset-specific thresholds, targets, alerts, or visibility for a metric."
+  },
+  {
+    "column name": "KpiID",
+    "description": "References the KPI metric being customized so these settings apply to the correct indicator (e.g., fuel economy, idling, safety score)."
+  },
+  {
+    "column name": "KpiSettingsID",
+    "description": "Links to the settings template or base configuration that this individual record uses or overrides—likely the default thresholds/targets inherited from the organization; confirm with SME."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "query_id",
+    "description": "Identifier of the saved query/report this column configuration belongs to."
+  },
+  {
+    "column name": "column_name",
+    "description": "Source data field selected to appear in the query output for this column."
+  },
+  {
+    "column name": "col_order",
+    "description": "Display order index of this column within the query results."
+  },
+  {
+    "column name": "col_width",
+    "description": "Preferred display width for the column, typically measured in pixels or characters, used by the UI."
+  },
+  {
+    "column name": "header_name",
+    "description": "Label shown in the query header for this column; may differ from the source field name."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created this column configuration."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this column configuration was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified this column configuration."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this column configuration."
+  },
+  {
+    "column name": "data_type",
+    "description": "Underlying data type of the column’s values, used for validation, formatting, and sorting."
+  },
+  {
+    "column name": "visible_flag",
+    "description": "Indicates whether this column is shown in the query output."
+  },
+  {
+    "column name": "sort_order",
+    "description": "Priority or sequence number for sorting by this column; negative or unspecified values likely mean no sorting; confirm with SME."
+  },
+  {
+    "column name": "subtotal",
+    "description": "Flag to calculate and display subtotal values for this column within grouped results."
+  },
+  {
+    "column name": "desc_flag",
+    "description": "Specifies whether the sort direction for this column is descending when sorting is enabled."
+  },
+  {
+    "column name": "group_flag",
+    "description": "Controls grouping of results on this column (e.g., group breaks or sections); some codes likely indicate special group types; confirm with SME."
+  },
+  {
+    "column name": "total_flag",
+    "description": "Controls inclusion and type of grand-total aggregation for this column (e.g., none, sum, average); specific codes require confirmation with SME."
+  },
+  {
+    "column name": "expression",
+    "description": "Optional formula used to compute the column’s value instead of using a single source field."
+  },
+  {
+    "column name": "label_type",
+    "description": "Determines how codes and descriptions are labeled in output (e.g., show code, description, or both)."
+  },
+  {
+    "column name": "sort_flag",
+    "description": "Indicates whether this column participates in result sorting per the defined sort sequence and direction."
+  },
+  {
+    "column name": "format",
+    "description": "Display format string applied to the column’s values (e.g., date pattern, number precision, currency) for consistent presentation."
+  }
+]

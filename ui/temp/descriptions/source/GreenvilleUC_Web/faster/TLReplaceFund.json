@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "ReplaceFund",
+    "description": "Short name or code for the funding source used to finance asset replacement in the fleet."
+  },
+  {
+    "column name": "ReplaceFundDesc",
+    "description": "Full description of the funding source for replacement activities; displayed in reports and user interfaces."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates whether this funding source is retired and should not be used for new records."
+  },
+  {
+    "column name": "ReplaceFundID",
+    "description": "Unique key for the funding source record, used to join with assets, replacement plans, or transactions."
+  }
+]

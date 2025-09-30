@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "PartCustomSpecCategoryID",
+    "description": "Unique identifier for the grouping of custom specification fields related to parts used in fleet assets."
+  },
+  {
+    "column name": "PartCustomSpecCategory",
+    "description": "Human-readable label for the group of part-specific custom specification fields used across maintenance, procurement, and inventory processes."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the grouping is retired and should not be used for new assignments; retained for historical reporting."
+  }
+]

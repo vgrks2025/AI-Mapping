@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pay_type",
+    "description": "Short code or name identifying the pay category used in payroll and time entry."
+  },
+  {
+    "column name": "pay_descr",
+    "description": "Human-readable description of the pay category for display and reporting."
+  },
+  {
+    "column name": "hrfactor_pay",
+    "description": "Multiplier applied to an employee’s base hourly rate to compute compensation for this pay category."
+  },
+  {
+    "column name": "hrfactor_xtra",
+    "description": "Additional hourly premium amount added to the calculated rate for this pay category; likely expressed in currency per hour; confirm with SME."
+  },
+  {
+    "column name": "flat_rate",
+    "description": "Fixed payment amount to be paid instead of an hourly calculation when applicable; likely overrides multipliers; confirm with SME."
+  },
+  {
+    "column name": "hr_info",
+    "description": "Optional HR-specific notes or code associated with the pay category; likely for payroll integration; confirm with SME."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text comments or notes about the pay category."
+  },
+  {
+    "column name": "default_type",
+    "description": "Indicator designating this pay category as the system default when creating new records or timesheets."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the record was last updated."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Flag indicating whether the pay category is currently active and available for use."
+  }
+]

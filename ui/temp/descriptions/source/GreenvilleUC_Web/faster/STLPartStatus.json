@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "PartStatus",
+    "description": "Categorical code indicating a maintenance part’s current lifecycle state within fleet operations; used to control processing, eligibility, and reporting."
+  },
+  {
+    "column name": "PartStatusDesc",
+    "description": "User-friendly description for the lifecycle state associated with the part status code; supports display, reporting, and search."
+  }
+]

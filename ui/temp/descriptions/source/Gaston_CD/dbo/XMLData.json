@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ID",
+    "description": "Unique identifier for each stored XML report record used for tracking and referencing in integrations."
+  },
+  {
+    "column name": "XMLData",
+    "description": "Raw XML payload of a fleet report received from external systems; used for parsing and audit. Likely contains telematics or asset data; confirm with SME."
+  }
+]

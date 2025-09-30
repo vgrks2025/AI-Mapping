@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this line/category record; used as the primary key in the table."
+  },
+  {
+    "column name": "id",
+    "description": "Business code or name identifying the vehicle/asset line category used for classification and reporting."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description of the line category for users, shown in screens and reports."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes about the line category, policies, or usage; not used for system logic."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when the record was last changed by any user or process."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Legacy timestamp of last update. Likely redundant with last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that originally created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that most recently updated the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update per the user audit trail."
+  }
+]

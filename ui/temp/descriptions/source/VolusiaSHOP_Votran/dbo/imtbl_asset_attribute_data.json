@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique row identifier for this attribute entry; used as the primary key."
+  },
+  {
+    "column name": "asset_attribute",
+    "description": "Reference to the attribute definition applied to the asset; links to the attribute master/list."
+  },
+  {
+    "column name": "value",
+    "description": "Recorded value for the attribute on this asset; units and type depend on the attribute’s definition."
+  },
+  {
+    "column name": "specification",
+    "description": "Target, threshold, or specification tied to the attribute value; often null when not applicable. Meaning may vary; confirm with SME."
+  },
+  {
+    "column name": "asset",
+    "description": "Reference to the asset (vehicle/equipment) this attribute value belongs to; links to the asset master."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record, regardless of who made the change."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp capturing the last change initiated by a user session; may mirror the system last-modified time. Confirm usage with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record for audit purposes."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created (often UTC); used for audit/history."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by a user (often UTC), for audit tracking."
+  }
+]

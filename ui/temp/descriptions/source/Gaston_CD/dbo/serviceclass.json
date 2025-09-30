@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this service class record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time the record was created or last modified; stored with millisecond precision. Confirm whether it tracks creation only or latest update."
+  },
+  {
+    "column name": "active_season",
+    "description": "Code indicating seasonal applicability of this class (e.g., which season is active or if seasonal rules apply); confirm code set and semantics."
+  },
+  {
+    "column name": "active_seasonr",
+    "description": "Human-readable label for the season code; confirm lookup source."
+  },
+  {
+    "column name": "asset_category",
+    "description": "Reference code linking this class to an asset category/type used across the fleet."
+  },
+  {
+    "column name": "asset_categoryr",
+    "description": "Display name for the associated asset category; likely from a lookup; confirm with SME."
+  },
+  {
+    "column name": "serviceclass",
+    "description": "Identifier of the maintenance class applied to assets; used to drive service schedules and policies, with details described in the comments field."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text description of the maintenance class, typically indicating weight ranges (GVW) or special vehicle categories."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the equivalent record in the prior system to support migration or cross-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table where the corresponding record originated."
+  }
+]

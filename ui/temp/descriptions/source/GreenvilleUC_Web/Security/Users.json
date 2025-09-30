@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "UserID",
+    "description": "System-generated unique identifier for a user account."
+  },
+  {
+    "column name": "UserName",
+    "description": "Login identifier used by a person or service to sign into the application."
+  },
+  {
+    "column name": "Password",
+    "description": "Stored credential hash for authentication; typically hashed and salted, never plain text."
+  },
+  {
+    "column name": "PasswordQuestion",
+    "description": "Security question prompt used for self-service account recovery."
+  },
+  {
+    "column name": "PasswordAnswer",
+    "description": "Stored hash of the response to the security question for account recovery."
+  },
+  {
+    "column name": "UserDesc",
+    "description": "Free‑text description of the account, such as role, function, or department."
+  },
+  {
+    "column name": "IsLockedOut",
+    "description": "Indicates whether the account is currently locked due to security policy, typically after repeated failed sign-ins."
+  },
+  {
+    "column name": "IsOnline",
+    "description": "Indicates whether the account currently has an active session or is flagged as online."
+  },
+  {
+    "column name": "IsDisabled",
+    "description": "Indicates whether the account is deactivated and cannot be used to sign in."
+  },
+  {
+    "column name": "CreateDate",
+    "description": "Timestamp when the account record was created."
+  },
+  {
+    "column name": "LastLoginDate",
+    "description": "Timestamp of the most recent successful sign-in."
+  },
+  {
+    "column name": "LastPasswordChangeDate",
+    "description": "Timestamp when the credential was last changed or reset."
+  },
+  {
+    "column name": "LastLockOutDate",
+    "description": "Timestamp when the account was last locked out. May be null if never locked."
+  },
+  {
+    "column name": "FailedPasswordAttemptCount",
+    "description": "Number of recent unsuccessful sign-in attempts tracked for lockout policy."
+  },
+  {
+    "column name": "FailedPasswordAnswerAttemptCount",
+    "description": "Number of recent incorrect responses to the security question tracked for lockout policy."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "Identifier of the user who last updated this account record; references another user."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Timestamp when this account record was last updated."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "Identifier of the user who initially created this account record; references another user."
+  },
+  {
+    "column name": "PersonID",
+    "description": "Foreign key linking the account to the corresponding person/employee profile."
+  },
+  {
+    "column name": "IsSystemUser",
+    "description": "Flags accounts reserved for system processes or initial setup, not a typical human user."
+  },
+  {
+    "column name": "HasLoginAfterUpgrade",
+    "description": "Indicates whether the user has signed in at least once since the last application upgrade; used for post-upgrade tasks."
+  },
+  {
+    "column name": "ShowReportBuilderInstructions",
+    "description": "User preference to display on-screen guidance for the report-building feature."
+  },
+  {
+    "column name": "IsWebApiUser",
+    "description": "Indicates a service/API account intended for programmatic access rather than interactive use."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this part-comment record; used as the primary key."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory item the note pertains to; foreign key to the part master."
+  },
+  {
+    "column name": "create_date",
+    "description": "System timestamp when the comment record was initially created."
+  },
+  {
+    "column name": "created_by_user",
+    "description": "Username or system process that created the comment record."
+  },
+  {
+    "column name": "copy_options",
+    "description": "Flag controlling whether/how the note is copied to related documents (e.g., work orders, purchase orders); likely an option bitmask or code; confirm with SME."
+  },
+  {
+    "column name": "printable",
+    "description": "Indicator for whether the note should appear on printed or customer-facing documents; values represent visibility levels; confirm exact code meanings."
+  },
+  {
+    "column name": "comments",
+    "description": "Free‑text note about the part (instructions, cross‑references, corrections, vendor numbers, etc.)."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "Username that last modified the comment content or settings."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent update to the record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated change recorded by the application; may differ from the system update time."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Internal user identifier of the creator, for audit purposes."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Audit timestamp when the creator saved the record in the application; may mirror the system create time."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Internal user identifier of the person who last modified the record, for audit purposes."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Audit timestamp of the most recent modification made through the application."
+  }
+]

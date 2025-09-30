@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Identifier of the application user this access record pertains to; used to join user profiles when evaluating permissions."
+  },
+  {
+    "column name": "keycode",
+    "description": "Code of the specific feature or module for which access is controlled within the fleet management system."
+  },
+  {
+    "column name": "user_rights",
+    "description": "Permission level or set of allowed actions for the user on the referenced feature (likely read/create/update/delete flags or role mask; confirm with SME)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account or system process that originally granted or recorded this permission entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the permission entry was created, used for audit and effective-dating."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account or system process that last modified this permission entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this permission entry, for audit tracking."
+  }
+]

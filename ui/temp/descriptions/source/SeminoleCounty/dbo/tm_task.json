@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Identifier of the maintenance template or task model this task belongs to; used to group tasks for a PM program."
+  },
+  {
+    "column name": "sch_no",
+    "description": "Schedule identifier within the template, indicating the service interval or grouping this task belongs to; likely default when unscheduled—confirm with SME."
+  },
+  {
+    "column name": "task_no",
+    "description": "Task number unique within the template or schedule, used as a human-readable step ID."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Execution/display sequence controlling the order in which tasks appear or are performed."
+  },
+  {
+    "column name": "task_descr",
+    "description": "Concise description of the maintenance action or inspection to perform."
+  },
+  {
+    "column name": "result_type",
+    "description": "Type of result to capture for this task (e.g., pass/fail, numeric, text); controls input and validation. Confirm allowed codes with SME."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Meter category or unit associated with this task (e.g., hours, miles, cycles); may drive scheduling or data capture. Confirm code set with SME."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to an attachment (document, image, instruction) linked to this task."
+  },
+  {
+    "column name": "formula",
+    "description": "Optional calculation expression used to derive task results, thresholds, or cost allocations. Confirm syntax and scope with SME."
+  },
+  {
+    "column name": "required",
+    "description": "Flag indicating whether completion of this task is mandatory to close the work order or checklist."
+  },
+  {
+    "column name": "cost_portion",
+    "description": "Numeric portion or percentage of total job cost attributed to this task for costing and reporting. Confirm units with SME."
+  },
+  {
+    "column name": "nesting",
+    "description": "Code representing the hierarchical level or grouping of this task within the checklist (parent/subtask structure). Confirm code meanings with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the creator of this record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when the record was last updated."
+  },
+  {
+    "column name": "task_id",
+    "description": "External or system-generated identifier for the task, distinct from sequence/number; may map to OEM or corporate standards. Confirm usage with SME."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours required to complete the task."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field for implementation-specific notes or codes."
+  },
+  {
+    "column name": "shared",
+    "description": "Flag indicating the task or template is shared and reusable across sites, assets, or fleets."
+  }
+]

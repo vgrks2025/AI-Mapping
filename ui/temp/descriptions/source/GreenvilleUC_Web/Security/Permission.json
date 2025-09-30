@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "PermissionID",
+    "description": "Unique numeric identifier for a permission definition used across the system for role assignments, auditing, and joins."
+  },
+  {
+    "column name": "PermissionCode",
+    "description": "Stable, machine-readable key for a permission used in authorization logic, API calls, and role mappings; not shown to end users."
+  },
+  {
+    "column name": "FriendlyName",
+    "description": "Human-friendly label for a permission shown in admin/user interfaces and reports; may be localized."
+  }
+]

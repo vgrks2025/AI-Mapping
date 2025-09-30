@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset for which the meter reading was recorded; links readings to a specific vehicle/equipment record."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Business classification of the asset used for reporting and to interpret meter units and maintenance rules."
+  },
+  {
+    "column name": "read_no",
+    "description": "Sequential number of the reading for this asset, indicating the order of captures over time."
+  },
+  {
+    "column name": "read_dt",
+    "description": "Timestamp when the meter reading was taken on the asset."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Type and unit of the meter being recorded (e.g., miles, hours, kilometers) for the reading."
+  },
+  {
+    "column name": "reading",
+    "description": "Numeric value of the asset’s meter at read_dt in the specified meter_type; typically cumulative, but may reset on meter replacement."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Maintenance work order number associated with the reading, often captured during service intake or completion."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or process that created the reading record (e.g., migration job, integration, or human entry)."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the reading record was created in the system."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last modified the reading record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time the reading record was last updated."
+  },
+  {
+    "column name": "asset_loc_id",
+    "description": "Likely identifier of the asset’s location or depot at the time of reading; confirm with SME."
+  },
+  {
+    "column name": "activity",
+    "description": "Likely activity or reason code tied to the reading (e.g., PM service, inspection); confirm with SME."
+  },
+  {
+    "column name": "reading_flag",
+    "description": "Likely status flag for the reading (e.g., estimated, rollover, corrected, invalid); confirm with SME."
+  },
+  {
+    "column name": "unit_serial",
+    "description": "Likely manufacturer serial number or VIN for the asset recorded with the reading; confirm with SME."
+  }
+]

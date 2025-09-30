@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for the downtime type record; unique within this table."
+  },
+  {
+    "column name": "id",
+    "description": "Business code or short name for the downtime category used in UI and reports."
+  },
+  {
+    "column name": "description",
+    "description": "Extended explanation of what the downtime category represents."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes about the downtime type, such as guidance or exceptions."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-generated timestamp when this record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Legacy/alternate timestamp of the last user-driven update; likely overlaps with user_date_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or service account that created this downtime type."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the downtime type was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or service account that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent modification performed by a user."
+  }
+]

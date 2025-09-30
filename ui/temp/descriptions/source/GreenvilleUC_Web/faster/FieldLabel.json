@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "LabelID",
+    "description": "Unique identifier for this field label configuration record within the fleet management system."
+  },
+  {
+    "column name": "CanRelabel",
+    "description": "Indicates whether administrators can customize/rename the field’s caption in the application."
+  },
+  {
+    "column name": "FieldID",
+    "description": "Identifier referencing the underlying data field this label applies to (foreign key to field metadata)."
+  },
+  {
+    "column name": "LabelDefault",
+    "description": "System-supplied default caption for the field, used when no customization is applied."
+  },
+  {
+    "column name": "LabelCurrent",
+    "description": "Active caption currently shown to users for the field; may differ from the default if relabeled."
+  }
+]

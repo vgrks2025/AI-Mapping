@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this metadata row defining a parent–child DTO relationship; uniquely identifies the record."
+  },
+  {
+    "column name": "property",
+    "description": "Logical name of the child collection/relationship on the parent data type as exposed by the API/model."
+  },
+  {
+    "column name": "dtoparent",
+    "description": "Identifier of the parent DTO/data type this child definition belongs to (likely a foreign key to the DTO types table; confirm with SME)."
+  },
+  {
+    "column name": "dtochild",
+    "description": "Identifier of the child DTO/data type participating in the relationship (likely a foreign key to the DTO types table; confirm with SME)."
+  },
+  {
+    "column name": "childlink",
+    "description": "Name of the attribute on the child data type that references the parent record (the join/foreign-key field used to relate child rows to their parent)."
+  }
+]

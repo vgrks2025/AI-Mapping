@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the equipment type record; used as the primary key and for joins to related tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the record was created or last updated in the source; stored as a compact yyyymmddhhmmssSSS string; confirm exact semantics with SME."
+  },
+  {
+    "column name": "equiptype",
+    "description": "Human-readable description of the equipment category used for fleet assets."
+  },
+  {
+    "column name": "code",
+    "description": "Short standardized code representing the equipment category for concise display, filtering, and integrations."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system for this equipment category, used for cross-referencing and migration; may be null if not applicable."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table associated with the legacy identifier, aiding lineage and data migration; may be null."
+  },
+  {
+    "column name": "assettype",
+    "description": "Numeric classification indicating the broader asset class group this equipment category belongs to; values map to a reference list; confirm mapping with SME."
+  },
+  {
+    "column name": "assettyper",
+    "description": "Configuration field indicating the attribute used to determine the asset class for this record; likely for metadata-driven logic; confirm with SME."
+  }
+]

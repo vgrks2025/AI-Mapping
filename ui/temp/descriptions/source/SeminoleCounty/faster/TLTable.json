@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "TLType",
+    "description": ""
+  },
+  {
+    "column name": "TLCode",
+    "description": ""
+  },
+  {
+    "column name": "TLCont",
+    "description": ""
+  },
+  {
+    "column name": "TLDesc",
+    "description": ""
+  },
+  {
+    "column name": "TLDatePosted",
+    "description": ""
+  },
+  {
+    "column name": "TLTimePosted",
+    "description": ""
+  },
+  {
+    "column name": "TLMPFlag",
+    "description": ""
+  }
+]

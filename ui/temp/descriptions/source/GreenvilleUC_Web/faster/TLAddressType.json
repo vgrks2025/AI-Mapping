@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AddressTypeID",
+    "description": "System-generated unique identifier for the address purpose category used across fleet management workflows."
+  },
+  {
+    "column name": "AddressType",
+    "description": "Business label describing the purpose of an address; used to classify and route communications, shipments, and responsibilities within fleet operations."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean indicator that the address type is retired/inactive and should not be selected for new records, while remaining available for historical references and reporting."
+  }
+]

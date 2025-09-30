@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "AutoEmailTemplateBodyID",
+    "description": "System-generated unique identifier for this automated email template content record."
+  },
+  {
+    "column name": "AutoEmailTemplateID",
+    "description": "Identifier linking this content to its parent automated email template/header; used to group versions or variants."
+  },
+  {
+    "column name": "Subject",
+    "description": "Subject line used when sending the automated email; supports merge fields/placeholders resolved with asset/event data."
+  },
+  {
+    "column name": "Message",
+    "description": "Main email body content (HTML/plain text) for the automated notification; supports merge fields/placeholders populated with asset, work, or alert details at send time."
+  },
+  {
+    "column name": "EmailFrom",
+    "description": "Sender email address used for the outbound automated message."
+  },
+  {
+    "column name": "CreatedUserID",
+    "description": "User account that created this template content; typically a reference to the application’s user table."
+  },
+  {
+    "column name": "ModifiedUserID",
+    "description": "User account that last updated this template content; typically a reference to the application’s user table."
+  },
+  {
+    "column name": "CreatedDate",
+    "description": "Timestamp when the template content was created; time zone per system configuration."
+  },
+  {
+    "column name": "ModifiedDate",
+    "description": "Timestamp when the template content was last updated."
+  },
+  {
+    "column name": "AdvancedNotification",
+    "description": "Flag indicating this template is for advance/pre-due notifications (e.g., before a service or PM is due); likely boolean 0/1; confirm with SME."
+  },
+  {
+    "column name": "PMVariance",
+    "description": "Tolerance or offset used for preventive maintenance notifications (e.g., days, miles, or percentage before/after due); confirm unit and behavior with SME."
+  },
+  {
+    "column name": "TextMessage",
+    "description": "Short-form message for SMS/text notifications associated with the template; merge fields supported."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the warehouse group/workgroup associated with the record; likely used to segment fleet locations. Confirm exact meaning of 'wg' with SME."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Short code uniquely identifying the warehouse or mobile inventory location within the fleet."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or login that created the warehouse record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "System timestamp when the warehouse record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or login that last modified the warehouse record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "System timestamp of the most recent update to the warehouse record."
+  },
+  {
+    "column name": "ware_descr",
+    "description": "Full descriptive name of the warehouse or vehicle-based parts location for display and reporting."
+  }
+]

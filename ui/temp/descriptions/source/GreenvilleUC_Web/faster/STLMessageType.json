@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "MessageTypeID",
+    "description": "Unique key identifying the type of operational request/event used in fleet workflows and integrations; enables consistent referencing across transactions."
+  },
+  {
+    "column name": "MessageType",
+    "description": "Short textual name for the operational request/event type indicating which fleet action is requested or performed; used by applications to interpret and route processing."
+  }
+]

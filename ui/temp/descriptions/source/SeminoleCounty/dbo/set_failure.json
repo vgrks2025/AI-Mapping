@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "failure_code",
+    "description": "Short code identifying a standardized failure/issue reason used when logging vehicle or asset problems."
+  },
+  {
+    "column name": "failure_descr",
+    "description": "Human-readable description of the failure reason corresponding to failure_code."
+  },
+  {
+    "column name": "remarks",
+    "description": "Optional free-text notes providing additional context or instructions related to the failure type."
+  },
+  {
+    "column name": "asset_mngmnt_point",
+    "description": "Likely identifier for the asset management control point, cost center, or location associated with this failure type; confirm with SME."
+  },
+  {
+    "column name": "downtime",
+    "description": "Yes/No indicator of whether selecting this failure type counts the asset as down (unavailable for service)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or name of who created this failure type entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when this failure type entry was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or name of who last modified this failure type entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to this failure type entry."
+  },
+  {
+    "column name": "fail_group",
+    "description": "Numeric grouping code used to categorize related failure types for reporting or workflow; confirm exact meaning with SME."
+  },
+  {
+    "column name": "reportable",
+    "description": "Flag indicating whether this failure type must be reported to external parties or regulators."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether this failure type is currently active and selectable in the system."
+  }
+]

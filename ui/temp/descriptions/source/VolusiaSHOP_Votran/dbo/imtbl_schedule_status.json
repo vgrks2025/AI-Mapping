@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique key for this schedule status record."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable schedule status identifier used in the application."
+  },
+  {
+    "column name": "description",
+    "description": "Detailed explanation of the status and its intended use."
+  },
+  {
+    "column name": "schedule_status_default",
+    "description": "Boolean flag indicating the default status for new schedules."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Boolean flag to exclude this status from selection lists."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Boolean flag to exclude this status from reports and dashboards."
+  },
+  {
+    "column name": "generate_PM_work",
+    "description": "Flag indicating whether preventive maintenance work orders are generated for schedules in this status."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or remarks about this status."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last changed this record; likely overlaps with other audit fields; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time when this record was last modified."
+  }
+]

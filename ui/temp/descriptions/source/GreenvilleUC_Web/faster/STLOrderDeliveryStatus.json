@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "OrderDeliveryStatusID",
+    "description": "Unique identifier for a delivery status in the lookup table, used to reference an order’s receipt/delivery state across related records."
+  },
+  {
+    "column name": "OrderDeliveryStatus",
+    "description": "Human-readable status name describing the receipt/delivery progress of an order or order line within the ordering process."
+  }
+]

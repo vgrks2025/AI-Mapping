@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "NotificationCategoryID",
+    "description": "Unique identifier for the message type classification used to group and manage system communications."
+  },
+  {
+    "column name": "NotificationCategoryName",
+    "description": "User-friendly label for the message type classification displayed in user interfaces and reports."
+  }
+]

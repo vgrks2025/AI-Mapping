@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "CertificationID",
+    "description": "Foreign key referencing a specific compliance certification record (likely for a driver, vehicle, or equipment; confirm with SME) used to associate it with a certification class."
+  },
+  {
+    "column name": "CertificationClassID",
+    "description": "Foreign key identifying the classification/category of certification (e.g., class level or type) linked to a certification through this association; exact taxonomy may vary; confirm with SME."
+  }
+]

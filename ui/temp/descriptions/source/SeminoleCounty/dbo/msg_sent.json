@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Application user account associated with the sent message (typically the sender/owner of the outbox entry; confirm whether this denotes the mailbox owner vs. sender)."
+  },
+  {
+    "column name": "msg_no",
+    "description": "System-generated identifier or sequence number for the message, used to reference the specific notification; likely sequential within the table or per user. Confirm numbering scope with SME."
+  },
+  {
+    "column name": "subject",
+    "description": "Short title of the notification presented to recipients."
+  },
+  {
+    "column name": "body",
+    "description": "Full text content of the notification delivered to recipients."
+  },
+  {
+    "column name": "status_cd",
+    "description": "Delivery/read status of the message (e.g., unread/read); confirm complete code list with SME."
+  },
+  {
+    "column name": "from_email",
+    "description": "Sender account identifier for the message; may be a username or alias rather than an email address."
+  },
+  {
+    "column name": "to_email",
+    "description": "Primary recipient identifier(s) for the message; often a username, employee ID, or group code rather than an email address."
+  },
+  {
+    "column name": "cc_email",
+    "description": "Secondary recipients copied on the message."
+  },
+  {
+    "column name": "bcc_email",
+    "description": "Recipients copied without visibility to other recipients."
+  },
+  {
+    "column name": "importance",
+    "description": "Priority level of the message (Low/Medium/High)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the message record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the message record was created/sent."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last modified the message record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the message record."
+  }
+]

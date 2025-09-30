@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for the miscellaneous cost record."
+  },
+  {
+    "column name": "id",
+    "description": "Business code identifying the miscellaneous cost type used on work orders/invoices (e.g., labor, tax)."
+  },
+  {
+    "column name": "description",
+    "description": "Readable name/description of the miscellaneous cost type shown to users."
+  },
+  {
+    "column name": "unit_cost",
+    "description": "Default unit price for this cost item; applied when the item is added to a transaction. Currency per system settings."
+  },
+  {
+    "column name": "gl",
+    "description": "General ledger account to which this cost posts for financial reporting. Likely optional; confirm with SME."
+  },
+  {
+    "column name": "taxes",
+    "description": "Tax code or rate applied to this cost item for tax calculation. Exact meaning (code versus percent) likely varies; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the cost item."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely timestamp of the user’s last modification; name suggests a user ID but samples show timestamps; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

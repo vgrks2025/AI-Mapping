@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "ResultID",
+    "description": "Unique identifier for each outcome type used in maintenance or repair workflows; referenced by related records."
+  },
+  {
+    "column name": "ResultName",
+    "description": "Human-readable label describing the maintenance action outcome used for display, selection, and reporting across the system."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the outcome type is retired or inactive and should not be used for new transactions; retained for historical data integrity."
+  }
+]

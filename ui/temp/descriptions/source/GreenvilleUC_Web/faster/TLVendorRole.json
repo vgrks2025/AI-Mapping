@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "VendorRoleID",
+    "description": "Unique ID for the role assigned to a vendor; primary key used to link this record to other entities."
+  },
+  {
+    "column name": "VendorRole",
+    "description": "Descriptive name of the vendor’s assignment or service availability category used in dispatching, coverage, or routing decisions."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicator that the role is retired and should no longer be used for new records; retained for historical reporting and data integrity."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "OtherCostTypeID",
+    "description": "System-generated unique identifier for this ancillary cost type used on work orders, invoices, or similar transactions."
+  },
+  {
+    "column name": "OtherCost",
+    "description": "Descriptive name of the ancillary fee shown on transactions, lists, and reports."
+  },
+  {
+    "column name": "OtherCostCategoryID",
+    "description": "Reference to the cost category that groups this type for reporting, accounting, and rule application; foreign key to the category master."
+  },
+  {
+    "column name": "CostAmount",
+    "description": "Default charge amount for this cost type. Currency and tax treatment follow system settings; can be overridden on a transaction; likely a default value—confirm with SME."
+  },
+  {
+    "column name": "IsChargeAutomatically",
+    "description": "Boolean flag indicating whether this cost is automatically added to applicable transactions without manual selection."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Indicates the cost type is inactive/retired and hidden from new use while retaining historical records."
+  }
+]

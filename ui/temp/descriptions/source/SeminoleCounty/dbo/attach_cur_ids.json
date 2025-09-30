@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "attach_cur_id",
+    "description": "Identifier of the currently active attachment version for the association. Likely references a versioned attachment record; confirm with SME."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Primary key for the association between a business entity (e.g., asset, vehicle, work order) and an attachment record. Enables many-to-one linkage of files to objects."
+  },
+  {
+    "column name": "attach_id",
+    "description": "Identifier of the underlying attachment (document/file) independent of version. Groups all versions under the same attachment; confirm with SME."
+  }
+]

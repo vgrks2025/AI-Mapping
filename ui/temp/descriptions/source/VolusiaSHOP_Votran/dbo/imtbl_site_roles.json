@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the role record; used as the primary key for joins and referential integrity."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the role at a site, typically a readable code or name used in authorization and configuration."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text description or categorization of the role’s purpose or origin (e.g., core versus custom)."
+  },
+  {
+    "column name": "base",
+    "description": "Boolean indicator showing whether the role is a system-delivered/base role rather than a site-defined custom role; confirm encoding with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the most recent change to this record."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user account that originally created this role record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this role record was created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user account that last modified this role record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-driven modification to this role record."
+  }
+]

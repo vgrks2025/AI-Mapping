@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup or fleet program this location belongs to; likely a system-wide identifier used to group related locations. Confirm exact scope with SME."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Short, unique code for the location or shop within the fleet system; used in references and reporting."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person or process that created the location record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the location record was created (system create timestamp)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person or process that last modified the location record; may be null if never updated."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time the location record was last modified; null if never updated."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable name/description of the location or shop for users and reports."
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "customization_col_id",
+    "description": "System-generated unique ID of this customized column definition."
+  },
+  {
+    "column name": "customization_id",
+    "description": "Identifier of the customization profile or layout that this column definition belongs to."
+  },
+  {
+    "column name": "column_name",
+    "description": "Internal field key being customized; used by the application to map data to this column."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number controlling the display order of the column within its section or layout."
+  },
+  {
+    "column name": "label",
+    "description": "User-facing caption displayed for the column in forms, grids, or reports."
+  },
+  {
+    "column name": "is_wide",
+    "description": "Boolean flag indicating the column should use a wider layout span than standard."
+  },
+  {
+    "column name": "row_count",
+    "description": "Configured number of visible text rows for this field. 0 uses the default."
+  },
+  {
+    "column name": "section_name",
+    "description": "Name of the functional section or group this column appears under within the customization."
+  },
+  {
+    "column name": "default_value",
+    "description": "Value prepopulated in the field when creating or editing records under this customization."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or ID of the user who created this column configuration."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this column configuration was created (system timezone)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or ID of the user who last modified this column configuration."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this column configuration."
+  },
+  {
+    "column name": "config",
+    "description": "JSON configuration providing advanced properties or overrides for this field; may control behavior, validation, or presentation."
+  },
+  {
+    "column name": "visible",
+    "description": "Flag indicating whether the column is displayed to users under this customization."
+  },
+  {
+    "column name": "is_section",
+    "description": "Flag indicating this record represents a section header or group rather than a data field."
+  },
+  {
+    "column name": "mobile_offline",
+    "description": "Flag indicating whether this field is included for offline use in the mobile app; likely controls sync behavior; confirm with SME."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset the alert pertains to; links to the asset master/vehicle record."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Standardized category of the asset for this alert; used for routing, reporting, and triage."
+  },
+  {
+    "column name": "alert_no",
+    "description": "Sequence number of the alert within an asset, likely not globally unique; used to distinguish multiple alerts for the same asset (confirm with SME)."
+  },
+  {
+    "column name": "alert_text",
+    "description": "Free-text description of the alert, detailing the issue, required parts, or actions to take; visible to maintenance and operations."
+  },
+  {
+    "column name": "alert_severity",
+    "description": "Priority level assigned to the alert to indicate urgency and impact for scheduling and escalation."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID of the person who created the alert."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the alert was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the person who last updated the alert."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the alert."
+  },
+  {
+    "column name": "resolved_by",
+    "description": "User ID of the person who marked the alert as resolved/closed."
+  },
+  {
+    "column name": "resolved_dt",
+    "description": "Timestamp when the alert was marked resolved/closed."
+  },
+  {
+    "column name": "deleted_by",
+    "description": "User ID of the person who deleted or archived the alert (likely soft delete; confirm with SME)."
+  },
+  {
+    "column name": "deleted_dt",
+    "description": "Timestamp when the alert was deleted or archived, likely indicating a soft delete; confirm with SME."
+  },
+  {
+    "column name": "notes",
+    "description": "Additional internal comments related to the alert (status updates, research, parts ordering details)."
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "warr_type",
+    "description": "Short code identifying the warranty category/type used as a lookup key."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the warranty type for displays and reports."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID or process that created this warranty type record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this warranty type record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID or process that last modified this warranty type record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this warranty type record."
+  },
+  {
+    "column name": "coverage",
+    "description": "Narrative of the components/systems and scope covered by this warranty type."
+  },
+  {
+    "column name": "covered_meter",
+    "description": "Maximum usage threshold covered, typically an odometer/hours limit; confirm unit with SME."
+  },
+  {
+    "column name": "covered_years",
+    "description": "Maximum coverage duration expressed in years."
+  },
+  {
+    "column name": "covered_months",
+    "description": "Maximum coverage duration expressed in months."
+  },
+  {
+    "column name": "covered_days",
+    "description": "Maximum coverage duration expressed in days."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes, exclusions, or special conditions for this warranty type."
+  },
+  {
+    "column name": "phone_number",
+    "description": "Contact phone number for warranty inquiries or claims."
+  },
+  {
+    "column name": "web_site",
+    "description": "URL for warranty information, registration, or claims submission."
+  },
+  {
+    "column name": "udfa",
+    "description": "Custom field A for client-specific attributes; meaning varies by implementation."
+  },
+  {
+    "column name": "udfb",
+    "description": "Custom field B for client-specific attributes; meaning varies by implementation."
+  },
+  {
+    "column name": "days_for_refund",
+    "description": "Number of days within which a refund is eligible under the warranty; confirm rule with SME."
+  },
+  {
+    "column name": "days_to_return",
+    "description": "Allowed number of days to return defective items for warranty service or credit; confirm with SME."
+  },
+  {
+    "column name": "days_for_replacement",
+    "description": "Number of days within which a replacement may be issued under the warranty; confirm with SME."
+  },
+  {
+    "column name": "rma_required",
+    "description": "Indicator whether a Return Material Authorization is required before returns."
+  },
+  {
+    "column name": "loaner_provided",
+    "description": "Indicator whether a loaner vehicle/equipment is provided during warranty repair."
+  },
+  {
+    "column name": "on_site_repair",
+    "description": "Indicator whether warranty repair is performed at the asset’s location."
+  },
+  {
+    "column name": "warranty_transferable",
+    "description": "Indicator whether remaining warranty transfers to a new owner upon asset sale."
+  }
+]

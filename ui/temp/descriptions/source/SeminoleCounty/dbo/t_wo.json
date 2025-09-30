@@ -1,0 +1,414 @@
+[
+  {
+    "column name": "geometry",
+    "description": "Geospatial location of the job for mapping and analysis; likely a GIS geometry. Confirm geometry type and coordinate reference with SME."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Unique system identifier for the work order used for tracking, reporting, and billing."
+  },
+  {
+    "column name": "wk_in_progress",
+    "description": "Code indicating whether work is in progress or completed; confirm allowable values and meaning with SME."
+  },
+  {
+    "column name": "issued",
+    "description": "Date and time the work order was issued to the shop or technician."
+  },
+  {
+    "column name": "closed",
+    "description": "Date and time the work order was completed and administratively closed."
+  },
+  {
+    "column name": "target",
+    "description": "Planned due date for completing the work."
+  },
+  {
+    "column name": "assign_to",
+    "description": "Identifier of the primary technician or mechanic assigned to the work."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Identifier of the supervising person responsible for oversight; format may be ID or name."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Identifier of the crew lead in charge of field execution."
+  },
+  {
+    "column name": "origin_code",
+    "description": "Code describing how the work originated (e.g., request, inspection, telematics). Confirm code set with SME."
+  },
+  {
+    "column name": "primary_wr_no",
+    "description": "Reference to the primary originating work request or parent request for this work order."
+  },
+  {
+    "column name": "appvby",
+    "description": "Identifier of the approver who authorized the work."
+  },
+  {
+    "column name": "customer_type",
+    "description": "Classification of the requesting or billed party (such as internal department or external)."
+  },
+  {
+    "column name": "req_cust_id",
+    "description": "Identifier for the requestor or customer associated with the initial request."
+  },
+  {
+    "column name": "cust_name",
+    "description": "Name of the customer or department associated with the work."
+  },
+  {
+    "column name": "req_cell_phone",
+    "description": "Mobile phone number of the requestor or primary contact."
+  },
+  {
+    "column name": "req_phone2",
+    "description": "Secondary phone number for the requestor or contact."
+  },
+  {
+    "column name": "req_email",
+    "description": "Email address for the requestor or primary contact."
+  },
+  {
+    "column name": "portal_id",
+    "description": "User or account identifier from the request submission portal."
+  },
+  {
+    "column name": "op_id",
+    "description": "Identifier of the equipment operator/driver who reported the issue; confirm usage with SME."
+  },
+  {
+    "column name": "issue_id",
+    "description": "Reference to a standardized issue/problem code; confirm domain and catalog with SME."
+  },
+  {
+    "column name": "req_request",
+    "description": "Original problem statement or service request text submitted by the requestor."
+  },
+  {
+    "column name": "req_comments",
+    "description": "Additional comments provided with the initial request."
+  },
+  {
+    "column name": "sup_notes",
+    "description": "Notes entered by supervision regarding triage, decisions, or instructions."
+  },
+  {
+    "column name": "priority",
+    "description": "Code indicating urgency/severity for scheduling and response; confirm code meanings with SME."
+  },
+  {
+    "column name": "req_text",
+    "description": "Structured request description text; purpose may overlap with other request fields—confirm usage."
+  },
+  {
+    "column name": "req_notes",
+    "description": "Free-text notes related to the initial request."
+  },
+  {
+    "column name": "site_addr_key",
+    "description": "Foreign key to the service location address where work occurs."
+  },
+  {
+    "column name": "site_street_name",
+    "description": "Street name of the service location."
+  },
+  {
+    "column name": "site_street_number",
+    "description": "Street number of the service location."
+  },
+  {
+    "column name": "site_city",
+    "description": "City of the service location."
+  },
+  {
+    "column name": "site_zip_code",
+    "description": "Postal code of the service location."
+  },
+  {
+    "column name": "site_loc_desc",
+    "description": "Narrative description to help locate the job site or asset."
+  },
+  {
+    "column name": "site_cross_street",
+    "description": "Nearest cross street for the service location."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Code for the maintenance shop, yard, or responsible location."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created in the system."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the record."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text4",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text5",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text6",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text7",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text8",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text9",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_text10",
+    "description": "User-defined text field for agency-specific attributes; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date1",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date2",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date3",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date4",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date5",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date6",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date7",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date8",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_date9",
+    "description": "User-defined date field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_num1",
+    "description": "User-defined numeric field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_num2",
+    "description": "User-defined numeric field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "udf_num3",
+    "description": "User-defined numeric field for agency-specific tracking; meaning configured locally. Confirm with SME."
+  },
+  {
+    "column name": "req_addr_key",
+    "description": "Foreign key to the requestor’s address record."
+  },
+  {
+    "column name": "req_street_name",
+    "description": "Street name for the requestor’s address."
+  },
+  {
+    "column name": "req_street_number",
+    "description": "Street number for the requestor’s address."
+  },
+  {
+    "column name": "req_city",
+    "description": "City for the requestor’s address."
+  },
+  {
+    "column name": "req_zip",
+    "description": "Postal code for the requestor’s address."
+  },
+  {
+    "column name": "req_cross_street",
+    "description": "Nearest cross street for the requestor’s location."
+  },
+  {
+    "column name": "req_department",
+    "description": "Department submitting or responsible for the request."
+  },
+  {
+    "column name": "req_date",
+    "description": "Date the service request was submitted or logged."
+  },
+  {
+    "column name": "wr_deny_comment",
+    "description": "Free-text explanation describing why a request was denied."
+  },
+  {
+    "column name": "wr_deny_reason",
+    "description": "Code indicating the reason a request was denied."
+  },
+  {
+    "column name": "cmpm_flag",
+    "description": "Indicator distinguishing corrective maintenance from preventive maintenance."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier of the external service provider if work was outsourced."
+  },
+  {
+    "column name": "wo_descr",
+    "description": "Short summary describing the job scope, system, and component."
+  },
+  {
+    "column name": "action_taken",
+    "description": "Narrative summary of repairs performed and actions completed."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Accounting or charge code to which costs are billed."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit or cost center associated with the work."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Code representing the maintenance activity or task category."
+  },
+  {
+    "column name": "wo_type",
+    "description": "Categorization of the work order (such as corrective, preventive, inspection); confirm code set."
+  },
+  {
+    "column name": "tm_no",
+    "description": "Reference to a maintenance template, task model, or meter-based program; confirm meaning with SME."
+  },
+  {
+    "column name": "sch_no",
+    "description": "Identifier for the maintenance schedule or event that generated the work."
+  },
+  {
+    "column name": "wr_no",
+    "description": "Identifier of the originating work request linked to this order."
+  },
+  {
+    "column name": "project_no",
+    "description": "Project identifier if the work is tied to a project or capital program."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup or shop responsible for executing the order."
+  },
+  {
+    "column name": "customer_id",
+    "description": "Identifier of the billed customer or department for this work."
+  },
+  {
+    "column name": "dept_id",
+    "description": "Department code associated with the asset or charged party."
+  },
+  {
+    "column name": "wo_comments",
+    "description": "Chronological notes and communications recorded on the work order."
+  },
+  {
+    "column name": "status",
+    "description": "Lifecycle status of the work order (e.g., open, completed, canceled); confirm codes with SME."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours required to complete the job."
+  },
+  {
+    "column name": "est_labor",
+    "description": "Estimated labor cost for the job."
+  },
+  {
+    "column name": "est_equip",
+    "description": "Estimated internal equipment usage cost."
+  },
+  {
+    "column name": "est_part",
+    "description": "Estimated parts cost."
+  },
+  {
+    "column name": "est_ctr",
+    "description": "Estimated contractor or outside services cost."
+  },
+  {
+    "column name": "est_misc",
+    "description": "Estimated miscellaneous charges."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Identifier of the asset or unit being serviced."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Code indicating the asset class or equipment type."
+  },
+  {
+    "column name": "act_cost",
+    "description": "Actual total cost recorded for the order; may duplicate a calculated total—confirm definition with SME."
+  },
+  {
+    "column name": "act_work_qty",
+    "description": "Quantity of work units completed (e.g., tasks or units); confirm metric with SME."
+  },
+  {
+    "column name": "act_lbr_hrs",
+    "description": "Actual labor hours posted to the order."
+  },
+  {
+    "column name": "act_labor",
+    "description": "Actual labor cost posted to the order."
+  },
+  {
+    "column name": "act_equip",
+    "description": "Actual internal equipment usage cost posted to the order."
+  },
+  {
+    "column name": "act_part",
+    "description": "Actual parts cost posted to the order."
+  },
+  {
+    "column name": "act_misc",
+    "description": "Actual miscellaneous costs posted to the order."
+  },
+  {
+    "column name": "act_ctr",
+    "description": "Actual contractor or outside services cost posted to the order."
+  },
+  {
+    "column name": "act_total",
+    "description": "Calculated sum of all actual cost components posted to the order."
+  }
+]

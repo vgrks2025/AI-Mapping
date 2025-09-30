@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this attachment record."
+  },
+  {
+    "column name": "work_order_asset_procedure",
+    "description": "Foreign key linking the attachment to the specific Work Order–Asset Procedure record it belongs to."
+  },
+  {
+    "column name": "Attachment",
+    "description": "Reference to the attached file or document (e.g., file ID or storage path). Likely identifies the stored media for this record; confirm with SME."
+  },
+  {
+    "column name": "printable",
+    "description": "Flag indicating whether this attachment should be included when printing the work order or procedure (1=yes, 0=no)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the attachment’s content or usage."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record; field name suggests a user identifier but stores a datetime—confirm with SME."
+  },
+  {
+    "column name": "thumbnail_view",
+    "description": "Flag indicating whether the attachment should display as a thumbnail or preview (1=yes, 0=no)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this attachment record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the creating user saved this attachment record."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated this attachment record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-initiated update to this record."
+  }
+]

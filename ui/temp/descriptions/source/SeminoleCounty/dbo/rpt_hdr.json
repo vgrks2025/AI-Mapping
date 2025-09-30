@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "rpt_id",
+    "description": "Unique identifier for the report definition record used by the application."
+  },
+  {
+    "column name": "rpt_name",
+    "description": "Human-readable title of the report template shown in menus, searches, and print options."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description summarizing the report’s purpose and/or version notes for administrators and users."
+  },
+  {
+    "column name": "rpt_category",
+    "description": "Functional category and subcategory used to organize reports and support filtering or security."
+  },
+  {
+    "column name": "details",
+    "description": "Extended notes or change log for the report, including status and update history."
+  },
+  {
+    "column name": "rpt_type",
+    "description": "Code indicating the reporting engine or format used to render the report (likely JasperReports; confirm with SME)."
+  },
+  {
+    "column name": "rpt_owner",
+    "description": "User or team responsible for maintaining and governing the report definition."
+  },
+  {
+    "column name": "permissions",
+    "description": "Stored access controls for the report (e.g., roles/users allowed to view, run, or edit; confirm with SME)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the report definition."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the report definition was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified the report definition."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification to the report definition."
+  },
+  {
+    "column name": "resource_id",
+    "description": "Application resource key linking this record to the underlying report template or compiled artifact executed at runtime."
+  },
+  {
+    "column name": "jrxml",
+    "description": "Raw JasperReports XML source of the report template stored as text."
+  },
+  {
+    "column name": "system_rpt_flag",
+    "description": "Indicator that the report is system-provided rather than customer-defined (Y/N or similar)."
+  },
+  {
+    "column name": "last_publish_date",
+    "description": "Datetime when the report was last published or deployed for users."
+  },
+  {
+    "column name": "publisher",
+    "description": "User account that performed the most recent publish or deploy action."
+  }
+]

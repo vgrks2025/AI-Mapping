@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for the work type record."
+  },
+  {
+    "column name": "id",
+    "description": "Business code used to identify the work type in work orders and schedules."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description of the work type."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the work type’s usage, constraints, or legacy details."
+  },
+  {
+    "column name": "work_type_default",
+    "description": "Flag indicating this work type is the default selection; likely 1 = default, 0 = not. Confirm with SME."
+  },
+  {
+    "column name": "priority",
+    "description": "Default urgency/priority used when creating work orders of this type; values likely map to scheduling rules. Confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp when the work type record was last changed."
+  },
+  {
+    "column name": "pda_notification",
+    "description": "Flag to send mobile/PDA notification when this work type is used; likely 1 = enabled, 0 = disabled. Confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded by the user-facing application when a user last modified this work type; may differ from system last_modified. Confirm semantics with SME."
+  },
+  {
+    "column name": "assigned_to_email",
+    "description": "Email address to notify the assignee role for work orders of this type (if configured)."
+  },
+  {
+    "column name": "assigned_to_status",
+    "description": "Notification status/preference for the assignee email (e.g., active, disabled). Exact codes likely system-specific; confirm with SME."
+  },
+  {
+    "column name": "assigned_by_email",
+    "description": "Email address of the assigner/requester role to notify for this work type (if configured)."
+  },
+  {
+    "column name": "assigned_by_status",
+    "description": "Notification status/preference for the assigner/requester email; codes likely system-specific. Confirm with SME."
+  },
+  {
+    "column name": "supervisor_email",
+    "description": "Supervisor email to notify for this work type’s activities."
+  },
+  {
+    "column name": "supervisor_status",
+    "description": "Notification status/preference for the supervisor email; codes likely system-specific. Confirm with SME."
+  },
+  {
+    "column name": "woap_est_res_email",
+    "description": "Email for the planning/estimation contact (WOAP estimated resources) to notify for this work type. Likely a configuration field; confirm with SME."
+  },
+  {
+    "column name": "woap_est_res_status",
+    "description": "Notification status/preference for the WOAP estimated resources contact; codes likely system-specific. Confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this work type record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this work type record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this work type record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this work type record."
+  }
+]

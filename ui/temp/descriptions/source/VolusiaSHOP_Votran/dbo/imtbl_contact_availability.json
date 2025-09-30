@@ -1,0 +1,98 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key for this availability record; uniquely identifies a weekly schedule for a contact."
+  },
+  {
+    "column name": "contact",
+    "description": "Identifier of the contact/person (e.g., driver, technician) whose availability is recorded for the specified week."
+  },
+  {
+    "column name": "f_year",
+    "description": "Year context for the schedule, likely fiscal year used by the organization; confirm with SME."
+  },
+  {
+    "column name": "week",
+    "description": "Week number within f_year for which availability is defined (likely ISO week; confirm with SME)."
+  },
+  {
+    "column name": "sun_date",
+    "description": "Calendar date corresponding to Sunday of the referenced week."
+  },
+  {
+    "column name": "sun_shift",
+    "description": "Shift or availability code for Sunday (e.g., day/evening, on-call); values follow scheduling configuration; confirm with SME."
+  },
+  {
+    "column name": "mon_date",
+    "description": "Calendar date corresponding to Monday of the referenced week."
+  },
+  {
+    "column name": "mon_shift",
+    "description": "Shift or availability code for Monday; values defined by scheduling configuration; confirm with SME."
+  },
+  {
+    "column name": "tue_date",
+    "description": "Calendar date corresponding to Tuesday of the referenced week."
+  },
+  {
+    "column name": "tue_shift",
+    "description": "Shift or availability code for Tuesday; values defined by scheduling configuration; confirm with SME."
+  },
+  {
+    "column name": "wed_date",
+    "description": "Calendar date corresponding to Wednesday of the referenced week."
+  },
+  {
+    "column name": "wed_shift",
+    "description": "Shift or availability code for Wednesday; values defined by scheduling configuration; confirm with SME."
+  },
+  {
+    "column name": "thu_date",
+    "description": "Calendar date corresponding to Thursday of the referenced week."
+  },
+  {
+    "column name": "thu_shift",
+    "description": "Shift or availability code for Thursday; values defined by scheduling configuration; confirm with SME."
+  },
+  {
+    "column name": "fri_date",
+    "description": "Calendar date corresponding to Friday of the referenced week."
+  },
+  {
+    "column name": "fri_shift",
+    "description": "Shift or availability code for Friday; values defined by scheduling configuration; confirm with SME."
+  },
+  {
+    "column name": "sat_date",
+    "description": "Calendar date corresponding to Saturday of the referenced week."
+  },
+  {
+    "column name": "sat_shift",
+    "description": "Shift or availability code for Saturday; values defined by scheduling configuration; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp indicating when this record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp captured by the user-facing application for the most recent change; may duplicate last_modified; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user, role, or system that created the record (e.g., shop, warehouse); confirm meaning with SME."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created by the user or system."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or system that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified by the user or system."
+  }
+]

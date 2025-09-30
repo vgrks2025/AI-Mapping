@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "RequestUrgencyID",
+    "description": "Numeric identifier for the urgency level assigned to a vehicle maintenance or repair request, supporting prioritization, workflow routing, and reporting."
+  },
+  {
+    "column name": "RequestUrgencyDesc",
+    "description": "Human-readable description of the urgency classification for a service request, used by planners and drivers to understand priority, scheduling expectations, and any operational limitations."
+  }
+]

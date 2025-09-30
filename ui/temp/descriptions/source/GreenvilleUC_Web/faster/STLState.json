@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "StateID",
+    "description": "Unique system-generated identifier for each subnational region record used for joins and reference across the platform."
+  },
+  {
+    "column name": "State",
+    "description": "Official name of the subnational region (e.g., U.S. state) as displayed in user interfaces and reports."
+  },
+  {
+    "column name": "CountryID",
+    "description": "Reference to the parent country record for the region. Likely a foreign key to a country lookup table; confirm with SME."
+  }
+]

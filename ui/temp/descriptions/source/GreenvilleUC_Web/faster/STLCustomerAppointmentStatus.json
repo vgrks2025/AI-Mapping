@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "CustomerAppointmentStatusID",
+    "description": "Surrogate key identifying a distinct customer appointment state; serves as the primary/foreign key to relate statuses across tables."
+  },
+  {
+    "column name": "CustomerAppointmentStatus",
+    "description": "Short, human-readable code for the customer appointment’s current workflow state, used for display and business logic."
+  },
+  {
+    "column name": "CustomerAppointmentStatusDesc",
+    "description": "Detailed, user-facing explanation of the customer appointment state for clarity in interfaces, notifications, and reports."
+  }
+]

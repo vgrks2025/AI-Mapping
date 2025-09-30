@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for this cost transaction type; unique, non-business identifier used for internal joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business identifier for the cost transaction type, used by application logic and configurations to reference the type."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable label describing the inventory/parts cost transaction type used in stock and cost movements."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text notes providing additional context about the transaction type."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record for auditing/version control."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely date/time of the last user-attributed modification; field name implies a user, but stored values are timestamps—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created this transaction type record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when this record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time when this record was last modified by a user."
+  }
+]

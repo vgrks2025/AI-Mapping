@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this work order comment record."
+  },
+  {
+    "column name": "work_order",
+    "description": "Reference to the maintenance work order this comment pertains to."
+  },
+  {
+    "column name": "create_date",
+    "description": "System timestamp when the comment was first created."
+  },
+  {
+    "column name": "created_by_user",
+    "description": "Username of the staff member who created the comment."
+  },
+  {
+    "column name": "printable",
+    "description": "Coded flag for whether/where the note appears on printed documents; nonzero values denote destinations; confirm mapping with SME."
+  },
+  {
+    "column name": "copy_options",
+    "description": "Coded options controlling if/how the note is copied to related records (e.g., estimates, invoices, history); confirm mapping with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free‑text note content attached to the work order."
+  },
+  {
+    "column name": "changed_by_user",
+    "description": "Username of the user who last edited the comment."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System-maintained timestamp of the last change; may be unused in this dataset."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user‑initiated update to this comment."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the current application user who created the record (audit)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the current application created this record."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the current application user who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the current application last modified this record."
+  }
+]

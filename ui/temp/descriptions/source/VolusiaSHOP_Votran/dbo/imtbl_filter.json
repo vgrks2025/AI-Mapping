@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this saved filter record."
+  },
+  {
+    "column name": "object_name",
+    "description": "Technical name of the report, view, or object the filter applies to."
+  },
+  {
+    "column name": "filter_name",
+    "description": "User-assigned title used to select this saved filter in the application."
+  },
+  {
+    "column name": "description",
+    "description": "Optional notes describing the filter’s intent, scope, or criteria for business users."
+  },
+  {
+    "column name": "created_by_userid",
+    "description": "Login or username of the user who initially created the filter."
+  },
+  {
+    "column name": "app_module",
+    "description": "Application area where this filter is available (for example, Reporting)."
+  },
+  {
+    "column name": "filter_text",
+    "description": "Serialized definition of the filter criteria (likely XML), including conditions and parameters; confirm structure with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Date and time when the filter was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Username of the person who last changed the filter; may be blank if unknown."
+  },
+  {
+    "column name": "isPrivate",
+    "description": "Flag indicating whether the filter is private to the owner or shared with others; encoding may vary (confirm)."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Internal user identifier for the creator; likely foreign key to a user directory; confirm with SME."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the filter was first created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Internal user identifier for the most recent modifier; likely references a user record; confirm with SME."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-driven modification."
+  }
+]

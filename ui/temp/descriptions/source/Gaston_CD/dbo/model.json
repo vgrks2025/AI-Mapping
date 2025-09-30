@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the row; primary key used for joins and references."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Datetime the record was created or last updated, stored as yyyymmddhhmmssmmm text; used for auditing and synchronization (timezone unclear; confirm with SME)."
+  },
+  {
+    "column name": "model",
+    "description": "Vehicle size/class or body configuration description used for fleet categorization and reporting."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Legacy system identifier mapping to this record; likely used for migration and cross-system reference; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name associated with the legacy identifier; likely used for lineage, reconciliation, and auditing; confirm with SME."
+  }
+]

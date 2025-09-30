@@ -1,0 +1,282 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this purchase order record."
+  },
+  {
+    "column name": "po_prefix",
+    "description": "Optional prefix used with the number to form the full purchase order ID; confirm format with SME."
+  },
+  {
+    "column name": "po_num",
+    "description": "Sequential number component of the purchase order identifier, typically combined with a prefix."
+  },
+  {
+    "column name": "po_release_num",
+    "description": "Release number identifying a specific release against a blanket purchase agreement; confirm usage."
+  },
+  {
+    "column name": "purchase_order_type",
+    "description": "Code indicating the kind of purchase order (e.g., standard, blanket, contract, service); mapping required."
+  },
+  {
+    "column name": "blanket_po",
+    "description": "Indicates the order is a blanket agreement or references its blanket header; confirm data type and linkage."
+  },
+  {
+    "column name": "start_date",
+    "description": "Start of the order’s effective period or planned start for fulfillment (especially for blanket/contract orders)."
+  },
+  {
+    "column name": "end_date",
+    "description": "End of the order’s effective period or last valid date for releases."
+  },
+  {
+    "column name": "lump_sum_indicator",
+    "description": "Flag specifying whether pricing is captured as a single lump-sum amount rather than itemized; confirm behavior."
+  },
+  {
+    "column name": "f_release",
+    "description": "Indicator for a final release against a blanket order; exact meaning may vary by system. Confirm with SME."
+  },
+  {
+    "column name": "lump_sum",
+    "description": "Total lump-sum amount for the order when not itemized by lines."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority level or urgency code for purchasing and receiving."
+  },
+  {
+    "column name": "status",
+    "description": "Lifecycle status code of the order (e.g., draft, approved, transmitted, closed, cancelled); mapping required."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Receiving warehouse/location code for delivery of goods or services."
+  },
+  {
+    "column name": "transmitted",
+    "description": "Indicator or counter of whether/how the order was sent to the vendor (e.g., EDI, email); confirm semantics."
+  },
+  {
+    "column name": "buyer",
+    "description": "Identifier of the purchasing agent or requester responsible for the order."
+  },
+  {
+    "column name": "supplier",
+    "description": "Vendor identifier to whom the purchase order is issued."
+  },
+  {
+    "column name": "project",
+    "description": "Project or job code to which costs from this order are allocated."
+  },
+  {
+    "column name": "general_ledger",
+    "description": "Primary general ledger account charged for this order’s costs."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Indicates costs are split across multiple GL accounts or references a split allocation; confirm implementation."
+  },
+  {
+    "column name": "date_ordered",
+    "description": "Date and time the order was placed with the vendor."
+  },
+  {
+    "column name": "date_entered",
+    "description": "Timestamp when the order record was created in the system."
+  },
+  {
+    "column name": "date_approved",
+    "description": "Timestamp when the order received required approval."
+  },
+  {
+    "column name": "date_expected",
+    "description": "Expected delivery or fulfillment date for the order or first release."
+  },
+  {
+    "column name": "date_completed",
+    "description": "Date the order was fully received and closed."
+  },
+  {
+    "column name": "date_cancelled",
+    "description": "Date the order was cancelled."
+  },
+  {
+    "column name": "reference",
+    "description": "Free-text reference or external document number associated with the order."
+  },
+  {
+    "column name": "approved_by",
+    "description": "Identifier of the approver who authorized the order."
+  },
+  {
+    "column name": "supplier_contact",
+    "description": "Primary contact person at the vendor for this order."
+  },
+  {
+    "column name": "supplier_phone",
+    "description": "Telephone number for the vendor contact."
+  },
+  {
+    "column name": "supplier_fax",
+    "description": "Fax number for the vendor contact."
+  },
+  {
+    "column name": "supplier_email",
+    "description": "Email address for the vendor contact."
+  },
+  {
+    "column name": "customer_number",
+    "description": "Your organization’s account number as recorded by the vendor."
+  },
+  {
+    "column name": "f_currency",
+    "description": "Currency code used for order amounts; mapping to currency master required. Confirm whether foreign or functional currency."
+  },
+  {
+    "column name": "exchange_rate",
+    "description": "Exchange rate used to convert order currency to base currency at time of booking."
+  },
+  {
+    "column name": "common_carrier",
+    "description": "Name or code of the shipping carrier used for delivery."
+  },
+  {
+    "column name": "shipping_gl_account",
+    "description": "GL account where shipping charges for this order are posted."
+  },
+  {
+    "column name": "payment_term",
+    "description": "Payment terms agreed with the vendor (e.g., Net 30); mapping required."
+  },
+  {
+    "column name": "shipping_term",
+    "description": "Shipping terms (e.g., FOB, Incoterms) defining delivery responsibilities and risk transfer."
+  },
+  {
+    "column name": "freight_term",
+    "description": "Freight terms indicating who pays freight and when."
+  },
+  {
+    "column name": "shipping_cost_ordered",
+    "description": "Estimated shipping cost at the time of ordering."
+  },
+  {
+    "column name": "freight_cost_ordered",
+    "description": "Estimated freight cost at the time of ordering."
+  },
+  {
+    "column name": "shipping_cost_received",
+    "description": "Actual shipping cost recorded upon receipt or invoicing."
+  },
+  {
+    "column name": "freight_cost_received",
+    "description": "Actual freight cost recorded upon receipt or invoicing."
+  },
+  {
+    "column name": "bill_to_address1",
+    "description": "Billing address line 1 for invoice remittance."
+  },
+  {
+    "column name": "bill_to_address2",
+    "description": "Billing address line 2."
+  },
+  {
+    "column name": "bill_to_address3",
+    "description": "Billing address line 3."
+  },
+  {
+    "column name": "bill_to_city",
+    "description": "Billing city."
+  },
+  {
+    "column name": "bill_to_state",
+    "description": "Billing state or province."
+  },
+  {
+    "column name": "bill_to_zip",
+    "description": "Billing postal or ZIP code."
+  },
+  {
+    "column name": "bill_to_country",
+    "description": "Billing country."
+  },
+  {
+    "column name": "bill_to_county",
+    "description": "Billing county or district, if applicable."
+  },
+  {
+    "column name": "bill_to_contact",
+    "description": "Contact person for billing/invoices."
+  },
+  {
+    "column name": "bill_to_contact_title",
+    "description": "Title or role of the billing contact."
+  },
+  {
+    "column name": "bill_to_voice_number",
+    "description": "Phone number for the billing contact."
+  },
+  {
+    "column name": "bill_to_fax",
+    "description": "Fax number for the billing contact."
+  },
+  {
+    "column name": "bill_to_email",
+    "description": "Email address for the billing contact."
+  },
+  {
+    "column name": "use_remaining_parts",
+    "description": "Flag allowing remaining parts budget from a linked agreement/blanket order to be used; confirm behavior."
+  },
+  {
+    "column name": "use_remaining_labor",
+    "description": "Flag allowing remaining labor budget from a linked agreement/blanket order to be used; confirm behavior."
+  },
+  {
+    "column name": "use_remaining_misc_costs",
+    "description": "Flag allowing remaining miscellaneous budget from a linked agreement/blanket order to be used; confirm behavior."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "items_ordered",
+    "description": "Number of distinct line items on the order."
+  },
+  {
+    "column name": "options",
+    "description": "Serialized options or flags affecting order processing; definition varies by implementation. Confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Audit field recording when the last user-triggered change occurred; appears to store a timestamp. Confirm semantics."
+  },
+  {
+    "column name": "department",
+    "description": "Department or cost center responsible for this purchase."
+  },
+  {
+    "column name": "po_id",
+    "description": "Alternate or internal purchase order identifier; relationship to business number and primary key should be confirmed with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier of the person who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time the record was created by that user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier of the person who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the last modification by that user."
+  }
+]

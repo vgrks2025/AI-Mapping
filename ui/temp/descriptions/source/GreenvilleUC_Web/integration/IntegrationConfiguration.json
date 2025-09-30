@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "IntegrationConfigurationID",
+    "description": "Unique identifier for a configuration setting attached to an integration."
+  },
+  {
+    "column name": "IntegrationID",
+    "description": "Foreign key linking the configuration entry to a specific integration/provider."
+  },
+  {
+    "column name": "ConfigurationKeyID",
+    "description": "Identifier of the configuration parameter definition. Likely a foreign key to a configuration key catalog; confirm with SME."
+  },
+  {
+    "column name": "ConfigurationKeyValue",
+    "description": "Stored value for the configuration parameter. May contain text or numeric data and, when sensitive, is protected or masked."
+  },
+  {
+    "column name": "IsMandatory",
+    "description": "Flags whether this configuration parameter is required for the integration to operate."
+  },
+  {
+    "column name": "IsProtected",
+    "description": "Flags whether the parameter value is sensitive and should be encrypted or hidden in UI and logs."
+  },
+  {
+    "column name": "OrderIndex",
+    "description": "Defines the display or processing order of configuration parameters for the integration."
+  }
+]

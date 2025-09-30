@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "StatementType",
+    "description": "Identifier for the statement’s processing phase in the billing lifecycle for fleet accounts; used to drive workflow steps, validations, filtering, and reporting."
+  },
+  {
+    "column name": "StatementTypeDesc",
+    "description": "User-facing description of the statement processing phase corresponding to StatementType; provides readable text for screens, reports, and communications."
+  }
+]

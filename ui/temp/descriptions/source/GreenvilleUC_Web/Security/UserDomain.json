@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "UserID",
+    "description": "Identifier of the user linked to this domain membership; foreign key to the user master/account record."
+  },
+  {
+    "column name": "DomainID",
+    "description": "Identifier of the organizational or tenant domain the user can access within the fleet platform; likely the company/site context; confirm with SME."
+  },
+  {
+    "column name": "RoleID",
+    "description": "Identifier of the permission role assigned to the user for this domain; references the roles catalogue used for access control."
+  },
+  {
+    "column name": "IsDefault",
+    "description": "Flag indicating whether this is the user’s default domain/context used on login and for primary settings when multiple domains exist."
+  }
+]

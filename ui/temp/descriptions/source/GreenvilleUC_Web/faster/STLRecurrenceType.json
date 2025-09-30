@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "RecurrenceTypeID",
+    "description": "Internal unique identifier for a recurrence category used to schedule periodic fleet activities (e.g., maintenance, inspections, reminders)."
+  },
+  {
+    "column name": "RecurrenceType",
+    "description": "Business-friendly label describing how often a recurring activity occurs, used in schedules for fleet operations and maintenance."
+  }
+]

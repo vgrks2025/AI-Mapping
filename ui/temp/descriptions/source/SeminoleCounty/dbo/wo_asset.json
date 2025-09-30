@@ -1,0 +1,162 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Identifier of the work order linked to this asset entry."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Business asset number or code referencing the asset master; distinct from the surrogate key; confirm usage with SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Line sequence number for this asset within the associated work order."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Unique identifier of the asset referenced by this work order line, tied to the asset master."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Classification of the asset (e.g., vehicle, equipment) used for routing, reporting, and costing."
+  },
+  {
+    "column name": "asset_descr",
+    "description": "Human-readable description of the asset to aid identification."
+  },
+  {
+    "column name": "subsys_id",
+    "description": "Identifier of the specific subassembly or component worked on within the asset; likely references an asset subsystem; confirm with SME."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Code for the shop, department, or physical location responsible for the work or owning the asset."
+  },
+  {
+    "column name": "acct_no",
+    "description": "General ledger or cost account to which this work’s costs are charged."
+  },
+  {
+    "column name": "failure_code",
+    "description": "Standardized code describing the failure mode or reason the work was required."
+  },
+  {
+    "column name": "cost_share",
+    "description": "Percentage of the work order’s total cost allocated to this asset line."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes related to this asset entry on the work order."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority level assigned to the work for this asset, used to influence scheduling."
+  },
+  {
+    "column name": "rating",
+    "description": "Assessment value related to asset condition, risk, or priority; meaning may vary by implementation; confirm with SME."
+  },
+  {
+    "column name": "compl_dt",
+    "description": "Date/time when work was completed or the work order was closed for this asset line."
+  },
+  {
+    "column name": "act_labor",
+    "description": "Actual labor cost posted to this asset line."
+  },
+  {
+    "column name": "act_equip",
+    "description": "Actual internal equipment usage cost posted to this asset line."
+  },
+  {
+    "column name": "act_part",
+    "description": "Actual parts and materials cost posted to this asset line."
+  },
+  {
+    "column name": "act_ctr",
+    "description": "Actual contracted services or vendor cost posted to this asset line."
+  },
+  {
+    "column name": "act_misc",
+    "description": "Other miscellaneous actual costs posted to this asset line."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created this record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "act_lbr_hrs",
+    "description": "Actual labor hours spent on this asset for the work."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Sub-location within the site where the asset resides or where work occurred (e.g., building, bay)."
+  },
+  {
+    "column name": "opt1",
+    "description": "Client-defined optional field for additional categorization or reference; meaning varies; confirm with SME."
+  },
+  {
+    "column name": "opt2",
+    "description": "Client-defined optional field for additional categorization or reference; meaning varies; confirm with SME."
+  },
+  {
+    "column name": "wk_in_progress",
+    "description": "Indicator that costs are in work-in-progress status for this asset line; likely a flag; confirm with SME."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit or cost center responsible for the asset or the work."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Code identifying the maintenance activity or task performed."
+  },
+  {
+    "column name": "dntime",
+    "description": "Duration the asset was unavailable due to this work. Units likely hours; confirm with SME."
+  },
+  {
+    "column name": "start_dt",
+    "description": "Date/time when work started on this asset."
+  },
+  {
+    "column name": "finish_dt",
+    "description": "Date/time when physical work finished for this asset (may precede administrative completion)."
+  },
+  {
+    "column name": "fail_descr",
+    "description": "Free-text description of the problem, failure, or symptoms."
+  },
+  {
+    "column name": "new_meter_reading",
+    "description": "Meter value captured at completion (e.g., odometer or engine hours) for the asset; units depend on asset type."
+  },
+  {
+    "column name": "asset_owner",
+    "description": "Owning department, business unit, or external owner associated with the asset."
+  },
+  {
+    "column name": "asset_sub_status",
+    "description": "Detailed operational status of the asset (e.g., out-of-service, reserve)."
+  },
+  {
+    "column name": "geometry_object_id",
+    "description": "Reference to a spatial geometry record used to map the asset’s location within a GIS."
+  },
+  {
+    "column name": "tree_path",
+    "description": "Hierarchical path identifying the asset’s position within an asset structure or organizational hierarchy."
+  }
+]

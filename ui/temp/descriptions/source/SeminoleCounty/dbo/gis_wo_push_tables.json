@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "table_name",
+    "description": "Name of the work-order source table configured for GIS push operations."
+  },
+  {
+    "column name": "enabled",
+    "description": "Boolean flag controlling whether this source is active for GIS pushes."
+  },
+  {
+    "column name": "gis_url",
+    "description": "Destination URL of the GIS service used when pushing records from this source; likely a REST/feature service endpoint; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system process that created this configuration entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this configuration entry was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or system process that last updated this configuration entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this configuration entry."
+  },
+  {
+    "column name": "table_where",
+    "description": "Optional filter expression (e.g., SQL WHERE clause) restricting which source records are pushed to GIS; likely stored as text; confirm with SME."
+  }
+]

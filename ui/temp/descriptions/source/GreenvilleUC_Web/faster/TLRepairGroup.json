@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "RepairGroupID",
+    "description": "System-generated unique identifier for the repair grouping record; used as the primary key and to link related maintenance data."
+  },
+  {
+    "column name": "Group",
+    "description": "Short internal code that identifies the repair grouping within the maintenance classification scheme used across work orders and reporting."
+  },
+  {
+    "column name": "GroupDesc",
+    "description": "Human-readable name or description of the repair grouping for display on service documents, work orders, and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Flag indicating the grouping is retired and should no longer be assigned to new maintenance records; retained only for historical reporting."
+  },
+  {
+    "column name": "RepairCategoryID",
+    "description": "Reference to the parent repair category to which this grouping belongs; links to a category master for hierarchy and roll-up reporting."
+  },
+  {
+    "column name": "IsDefault",
+    "description": "Indicates this grouping is the default selection, likely used when auto-assigning groups within a category or creating new records; confirm with SME."
+  }
+]

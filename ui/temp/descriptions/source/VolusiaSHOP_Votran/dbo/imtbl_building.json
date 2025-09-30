@@ -1,0 +1,90 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for the building record; used as the primary key for joins and references."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable building identifier or name used in the application (e.g., facility, plaza, vendor shop)."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text description of the building, such as location details, landmark, or purpose."
+  },
+  {
+    "column name": "address1",
+    "description": "Primary street address line for the building."
+  },
+  {
+    "column name": "address2",
+    "description": "Optional second address line (suite, unit, floor, etc.)."
+  },
+  {
+    "column name": "address3",
+    "description": "Optional third address line for extended addressing needs."
+  },
+  {
+    "column name": "city",
+    "description": "City of the building’s mailing or physical address."
+  },
+  {
+    "column name": "state",
+    "description": "State or province for the building’s address, typically as a code."
+  },
+  {
+    "column name": "zip",
+    "description": "Postal or ZIP code for the building’s address."
+  },
+  {
+    "column name": "country",
+    "description": "Country for the building’s address."
+  },
+  {
+    "column name": "county",
+    "description": "County or parish where the building is located."
+  },
+  {
+    "column name": "phone_number",
+    "description": "Primary telephone number for the building or site contact."
+  },
+  {
+    "column name": "fax_number",
+    "description": "Fax number for the building or site."
+  },
+  {
+    "column name": "other_phone_number_description",
+    "description": "Label describing the secondary phone (e.g., dispatch, after-hours, security)."
+  },
+  {
+    "column name": "other_phone_number",
+    "description": "Secondary phone number corresponding to the labeled purpose."
+  },
+  {
+    "column name": "comments",
+    "description": "General notes about the building, operations, access, or other context."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when the record was last updated in the system."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Likely identifier of the user who last modified the record; sample appears to show timestamps—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that most recently modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was most recently modified."
+  }
+]

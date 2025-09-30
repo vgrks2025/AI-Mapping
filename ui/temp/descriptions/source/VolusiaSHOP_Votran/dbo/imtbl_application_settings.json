@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique primary key for this settings record."
+  },
+  {
+    "column name": "lingual_last_modified",
+    "description": "Timestamp when localization or language resources for the application were last updated; likely specific to multilingual content - confirm with SME."
+  },
+  {
+    "column name": "db_build",
+    "description": "Database build number corresponding to the deployed application release, used to manage compatibility and upgrades."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when any application setting in this record was last changed."
+  },
+  {
+    "column name": "nullclob",
+    "description": "Placeholder CLOB field used to store a sentinel when no text applies; likely legacy/system artifact - confirm with SME."
+  },
+  {
+    "column name": "corporate_id",
+    "description": "Identifier for the company, tenant, or corporate entity these settings apply to."
+  },
+  {
+    "column name": "split_database",
+    "description": "Boolean flag indicating whether the deployment uses a split or multi-database configuration (e.g., separating data/configuration)."
+  },
+  {
+    "column name": "import_version",
+    "description": "Version of the import framework or data schema expected by the system, used to validate import compatibility."
+  },
+  {
+    "column name": "configuration_options",
+    "description": "Encoded set of global configuration flags (likely bitmask or code) controlling optional behaviors; exact meanings defined by application - confirm with SME."
+  },
+  {
+    "column name": "track_state",
+    "description": "Flag to enable tracking of asset or record state changes across the system; likely a feature toggle - confirm with SME."
+  },
+  {
+    "column name": "auditingenabled",
+    "description": "Flag indicating whether auditing of changes (who/when) is enabled across the application."
+  },
+  {
+    "column name": "db_revision",
+    "description": "Incremental database schema revision number used for patching and migration control."
+  },
+  {
+    "column name": "fips_enabled",
+    "description": "Indicates whether FIPS-validated cryptography is enforced for security-sensitive operations."
+  },
+  {
+    "column name": "fips_initialized",
+    "description": "Indicates whether FIPS mode has been initialized/configured in this environment."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier for who created this settings record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this settings record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier for who last modified this settings record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this settings record was last modified."
+  }
+]

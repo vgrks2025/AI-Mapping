@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ValidationID",
+    "description": "A unique code identifying a meter-reading validation option used during odometer/hour-meter processing; joins to rules that control whether a reading is posted as valid or flagged."
+  },
+  {
+    "column name": "ValidationDescription",
+    "description": "Human-readable description of the validation option/action explaining how the system handles a meter reading during processing."
+  }
+]

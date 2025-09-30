@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "RepairCategoryID",
+    "description": "System-generated unique identifier for a repair category, used to classify maintenance or repair work and link related transactions such as work orders, labor, and parts to their category."
+  },
+  {
+    "column name": "Category",
+    "description": "Descriptive label for the repair category defining the type of maintenance or repair work; displayed to users and used for classification and reporting."
+  }
+]

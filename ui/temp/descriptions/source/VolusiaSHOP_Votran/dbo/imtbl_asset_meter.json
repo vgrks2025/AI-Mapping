@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this asset meter record."
+  },
+  {
+    "column name": "primary_meter",
+    "description": "Flag indicating whether this is the asset’s primary meter used for utilization/maintenance calculations (1=yes, 0=no)."
+  },
+  {
+    "column name": "asset",
+    "description": "Identifier of the asset to which this meter applies; foreign key to the asset master."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Reference to the meter type (e.g., odometer, engine hours); links to a meter type/lookup table."
+  },
+  {
+    "column name": "current_reading",
+    "description": "Most recent recorded meter value for the asset at the time of last update."
+  },
+  {
+    "column name": "calculate_avg_count_per_day",
+    "description": "Control flag to automatically calculate average daily usage for this meter (1=yes, 0=no)."
+  },
+  {
+    "column name": "average_count_per_day",
+    "description": "Calculated average change per day for this meter; used for forecasting and data validation."
+  },
+  {
+    "column name": "rollover",
+    "description": "Configured value at which the meter resets to zero (odometer rollover); likely 0 when not applicable—confirm with SME."
+  },
+  {
+    "column name": "uom",
+    "description": "Unit of measure for the meter reading (e.g., miles, kilometers, hours)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes regarding this meter or its configuration."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record."
+  },
+  {
+    "column name": "rollover_count",
+    "description": "Number of times this meter has rolled over; used to derive true cumulative usage."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last modified this record; appears redundant with last_modified—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record; references the user directory."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was initially created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the last user-initiated modification to this record."
+  }
+]

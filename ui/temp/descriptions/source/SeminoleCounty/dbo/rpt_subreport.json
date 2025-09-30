@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "rpt_id",
+    "description": "Identifier of the parent report this subreport belongs to; links the subreport record to the main report definition."
+  },
+  {
+    "column name": "rpt_subname",
+    "description": "System name of the subreport template used in work order printouts; typically aligns with the JasperReports subreport name or file base name."
+  },
+  {
+    "column name": "main_resource_id",
+    "description": "Reference to the primary resource/template used by this subreport in the reporting engine (likely a resource table foreign key; confirm with SME)."
+  },
+  {
+    "column name": "jrxml",
+    "description": "JRXML design content defining the layout, parameters, queries, and fields for the subreport."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the subreport record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the subreport record was created (UTC or system time)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified the subreport record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the subreport record."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the subreport’s purpose within work order reporting (e.g., planned vs. actual labor, equipment, or material)."
+  }
+]

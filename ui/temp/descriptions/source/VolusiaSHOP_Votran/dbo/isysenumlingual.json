@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for each localized enumeration label record within the fleet management application."
+  },
+  {
+    "column name": "language",
+    "description": "ISO language/locale code specifying the translation used for the enumeration text displayed to users."
+  },
+  {
+    "column name": "label",
+    "description": "Display text for an enumeration option in the specified locale, used across forms, lists, and workflows in the fleet management system."
+  },
+  {
+    "column name": "enum_fkey",
+    "description": "Foreign key referencing the underlying enumeration item this localized label belongs to in the master enumeration table."
+  }
+]

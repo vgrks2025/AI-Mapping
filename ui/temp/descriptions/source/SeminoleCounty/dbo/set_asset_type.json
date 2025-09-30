@@ -1,0 +1,338 @@
+[
+  {
+    "column name": "asset_type",
+    "description": "Unique code identifying the standardized asset category used for classification and business rules."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the asset type for users and reports."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Owning application or workgroup associated with this asset type."
+  },
+  {
+    "column name": "parent_asset_type",
+    "description": "Optional parent type to build an asset type hierarchy; confirm relationships with SME."
+  },
+  {
+    "column name": "level_no",
+    "description": "Hierarchy depth level for the type (e.g., 0 for root)."
+  },
+  {
+    "column name": "equipment_flag",
+    "description": "Indicates whether this type is classified as equipment."
+  },
+  {
+    "column name": "facility_flag",
+    "description": "Indicates whether this type represents facility assets."
+  },
+  {
+    "column name": "tool_flag",
+    "description": "Indicates whether this type represents hand tools or small tools."
+  },
+  {
+    "column name": "can_calibrate_flag",
+    "description": "Indicates whether assets of this type require/support calibration management."
+  },
+  {
+    "column name": "auto_key_flag",
+    "description": "Indicates if asset identifiers are auto-generated for this type."
+  },
+  {
+    "column name": "auto_key_exp",
+    "description": "Pattern or expression used to generate automatic asset identifiers; confirm format with SME."
+  },
+  {
+    "column name": "depreciation_formula",
+    "description": "Configured method used to calculate depreciation for assets of this type."
+  },
+  {
+    "column name": "plan_rate",
+    "description": "Standard planning rate (e.g., cost per hour/mile) used for budgeting or scheduling; confirm units with SME."
+  },
+  {
+    "column name": "dn_time",
+    "description": "Default downtime target or expectation for this type; confirm definition and units with SME."
+  },
+  {
+    "column name": "max_dntime_hr",
+    "description": "Maximum allowable downtime in hours before escalation or EOL scoring; confirm policy with SME."
+  },
+  {
+    "column name": "bill_rate",
+    "description": "Chargeback or external billing rate applied to this type (e.g., per hour/mile)."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or system process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record."
+  },
+  {
+    "column name": "asset_class",
+    "description": "Broad grouping used for reporting and policy (e.g., vehicles, generators)."
+  },
+  {
+    "column name": "cost_share_column",
+    "description": "Reference to the attribute used for cost allocation/chargeback; confirm implementation with SME."
+  },
+  {
+    "column name": "remarks",
+    "description": "Free-text notes or comments about the asset type."
+  },
+  {
+    "column name": "auto_key_last_no",
+    "description": "Most recent sequence number used by the auto-key generator."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Primary utilization meter unit tracked for this type (e.g., miles, hours)."
+  },
+  {
+    "column name": "meter_2_type",
+    "description": "Secondary utilization meter unit, if tracked."
+  },
+  {
+    "column name": "meter_3_type",
+    "description": "Tertiary utilization meter unit, if tracked."
+  },
+  {
+    "column name": "reorder_level",
+    "description": "Threshold at which additional units should be procured; likely used for fleet spares or pooled assets; confirm with SME."
+  },
+  {
+    "column name": "reorder_qty",
+    "description": "Standard quantity to acquire when the reorder threshold is reached; confirm policy with SME."
+  },
+  {
+    "column name": "default_cof",
+    "description": "Default COF code for this type (likely Cause of Failure on work orders); confirm with SME."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Identifier linking this type to related documents, templates, or attachment groups."
+  },
+  {
+    "column name": "mfg_est_lifespan",
+    "description": "Manufacturer’s estimated service life for the type; confirm time unit with SME."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether the type is active and available for use."
+  },
+  {
+    "column name": "vehicle_flag",
+    "description": "Indicates whether this type is considered a vehicle."
+  },
+  {
+    "column name": "svf_asset",
+    "description": "Flag indicating inclusion in an SVF program/reporting set; meaning of SVF should be confirmed with SME."
+  },
+  {
+    "column name": "geometry_type",
+    "description": "Default GIS geometry used when mapping assets of this type (e.g., point, line)."
+  },
+  {
+    "column name": "meter_incr_max",
+    "description": "Largest acceptable increase between consecutive meter readings to validate data and prevent entry errors."
+  },
+  {
+    "column name": "meter_incr_min",
+    "description": "Smallest expected increase between consecutive meter readings to detect rollbacks or resets."
+  },
+  {
+    "column name": "motorpool_flag",
+    "description": "Indicates whether assets of this type participate in motor-pool operations."
+  },
+  {
+    "column name": "borrow_flag",
+    "description": "Indicates whether assets of this type can be borrowed/shared across users or departments."
+  },
+  {
+    "column name": "lc_age_eol",
+    "description": "Lifecycle threshold for age that signals end-of-life; confirm unit with SME."
+  },
+  {
+    "column name": "lc_age_apply",
+    "description": "Indicates whether age is included in lifecycle/EOL scoring."
+  },
+  {
+    "column name": "lc_age_points",
+    "description": "Points assigned to the age factor within lifecycle scoring."
+  },
+  {
+    "column name": "lc_age_calc",
+    "description": "Formula or method used to compute the age component of lifecycle scoring; confirm with SME."
+  },
+  {
+    "column name": "lc_assessments_apply",
+    "description": "Indicates whether inspection/assessment results affect lifecycle scoring."
+  },
+  {
+    "column name": "lc_assessments_points",
+    "description": "Points assigned for assessment results within lifecycle scoring."
+  },
+  {
+    "column name": "lc_assessments_calc",
+    "description": "Calculation method for assessment-based lifecycle points; confirm with SME."
+  },
+  {
+    "column name": "lc_depreciation_apply",
+    "description": "Indicates whether depreciation contributes to lifecycle/EOL scoring."
+  },
+  {
+    "column name": "lc_depreciation_points",
+    "description": "Points associated with depreciation within lifecycle scoring."
+  },
+  {
+    "column name": "lc_depreciation_calc",
+    "description": "Formula used to translate depreciation into lifecycle points; confirm with SME."
+  },
+  {
+    "column name": "lc_dntime_eol",
+    "description": "Downtime threshold that qualifies as end-of-life for this type; confirm units with SME."
+  },
+  {
+    "column name": "lc_dntime_apply",
+    "description": "Indicates whether downtime is included in lifecycle scoring."
+  },
+  {
+    "column name": "lc_dntime_points",
+    "description": "Points assigned for downtime within lifecycle scoring."
+  },
+  {
+    "column name": "lc_dntime_calc",
+    "description": "Method used to calculate downtime-related lifecycle points; confirm with SME."
+  },
+  {
+    "column name": "lc_maintcost_eol",
+    "description": "Maintenance cost threshold that signals end-of-life (e.g., cost vs. replacement); confirm basis with SME."
+  },
+  {
+    "column name": "lc_maintcost_apply",
+    "description": "Indicates whether maintenance cost influences lifecycle scoring."
+  },
+  {
+    "column name": "lc_maintcost_points",
+    "description": "Points assigned for maintenance cost within lifecycle scoring."
+  },
+  {
+    "column name": "lc_maintcost_calc",
+    "description": "Formula used to convert maintenance cost into lifecycle points; confirm with SME."
+  },
+  {
+    "column name": "lc_meter_eol",
+    "description": "Utilization meter threshold (miles/hours) that indicates end-of-life."
+  },
+  {
+    "column name": "lc_meter_apply",
+    "description": "Indicates whether utilization meters contribute to lifecycle scoring."
+  },
+  {
+    "column name": "lc_meter_points",
+    "description": "Points assigned for meter-based utilization within lifecycle scoring."
+  },
+  {
+    "column name": "lc_meter_calc",
+    "description": "Computation method for meter-based lifecycle points; confirm with SME."
+  },
+  {
+    "column name": "lc_pof_bol",
+    "description": "Probability of failure at beginning-of-life used for lifecycle modeling; confirm scale with SME."
+  },
+  {
+    "column name": "lc_pof_eol",
+    "description": "Probability of failure at end-of-life used for lifecycle modeling; confirm scale with SME."
+  },
+  {
+    "column name": "lc_pof_apply",
+    "description": "Indicates whether probability of failure is included in lifecycle scoring."
+  },
+  {
+    "column name": "lc_pof_points",
+    "description": "Points assigned for probability of failure within lifecycle scoring."
+  },
+  {
+    "column name": "lc_pof_calc",
+    "description": "Formula for converting probability of failure into lifecycle points; confirm with SME."
+  },
+  {
+    "column name": "lc_rating_bol",
+    "description": "Condition rating at beginning-of-life used in lifecycle modeling; confirm scale with SME."
+  },
+  {
+    "column name": "lc_rating_eol",
+    "description": "Condition rating at end-of-life used in lifecycle modeling; confirm scale with SME."
+  },
+  {
+    "column name": "lc_rating_apply",
+    "description": "Indicates whether condition rating is used in lifecycle scoring."
+  },
+  {
+    "column name": "lc_rating_points",
+    "description": "Points assigned for condition rating within lifecycle scoring."
+  },
+  {
+    "column name": "lc_rating_calc",
+    "description": "Method converting condition ratings into lifecycle points; confirm with SME."
+  },
+  {
+    "column name": "lc_eol_points",
+    "description": "Total lifecycle points threshold at which an asset reaches end-of-life."
+  },
+  {
+    "column name": "asset_print_rpt_id",
+    "description": "Identifier for the default print/report template used for assets of this type."
+  },
+  {
+    "column name": "linear_flag",
+    "description": "Indicates whether assets of this type are linear features (e.g., roads, pipelines)."
+  },
+  {
+    "column name": "mobile_renderer",
+    "description": "Configuration (often JSON) for how this type is displayed or edited in mobile applications; confirm schema with SME."
+  },
+  {
+    "column name": "unit_name",
+    "description": "Standard unit of measure label associated with this type; confirm usage context with SME."
+  },
+  {
+    "column name": "aging_code",
+    "description": "Code referencing rules for aging or warranty periods; confirm mapping with SME."
+  },
+  {
+    "column name": "min_mpg",
+    "description": "Minimum expected fuel efficiency threshold used for performance monitoring and alerts."
+  },
+  {
+    "column name": "max_mpg",
+    "description": "Maximum plausible fuel efficiency used to flag data entry or sensor anomalies."
+  },
+  {
+    "column name": "eol_meter",
+    "description": "Utilization reading at which assets of this type are considered end-of-life."
+  },
+  {
+    "column name": "eol_pct_cost",
+    "description": "End-of-life threshold based on maintenance cost as a percentage of replacement value; confirm basis with SME."
+  },
+  {
+    "column name": "eol_cm_wo_count",
+    "description": "Number of corrective maintenance work orders considered when determining end-of-life."
+  },
+  {
+    "column name": "lookback_years",
+    "description": "Number of years of historical data considered in lifecycle calculations and reporting."
+  }
+]

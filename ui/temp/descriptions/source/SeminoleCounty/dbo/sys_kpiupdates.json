@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "add_dt",
+    "description": "Date and time the system logged the KPI update event."
+  },
+  {
+    "column name": "table_name",
+    "description": "Data table whose fleet KPIs were recalculated during this update."
+  },
+  {
+    "column name": "duration_ms",
+    "description": "Elapsed processing time for the KPI recalculation, measured in milliseconds."
+  },
+  {
+    "column name": "meta",
+    "description": "JSON metadata describing the update, including affected KPI groups (e.g., work requests, work orders, assets); exact schema likely varies; confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or service account that triggered the KPI recalculation."
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for this purchase requisition line record."
+  },
+  {
+    "column name": "generate",
+    "description": "Flag controlling automatic generation of procurement documents from this record; confirm with SME."
+  },
+  {
+    "column name": "select_row",
+    "description": "Indicator used to mark this row for processing or bulk actions; confirm with SME."
+  },
+  {
+    "column name": "manual_request",
+    "description": "Indicates the request was manually created rather than system-generated; confirm with SME."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Identifier of the warehouse or stocking location associated with this request."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the inventory part to be procured."
+  },
+  {
+    "column name": "issue_quantity",
+    "description": "Quantity of the part requested on this line."
+  },
+  {
+    "column name": "supplier",
+    "description": "Identifier of the vendor selected to supply the part."
+  },
+  {
+    "column name": "estimated_order_cost",
+    "description": "Estimated cost for this line in base currency, based on pricing and quantities."
+  },
+  {
+    "column name": "foreign_est_order_cost",
+    "description": "Estimated line cost expressed in a foreign currency, if applicable."
+  },
+  {
+    "column name": "allow_blanket_release",
+    "description": "Indicates this line may be fulfilled against an existing blanket purchase order."
+  },
+  {
+    "column name": "date_requested",
+    "description": "Date and time the requisition was submitted."
+  },
+  {
+    "column name": "date_needed",
+    "description": "Requested need-by date for the items."
+  },
+  {
+    "column name": "requested_by",
+    "description": "User who submitted the requisition."
+  },
+  {
+    "column name": "requester_phone",
+    "description": "Contact phone number of the requester."
+  },
+  {
+    "column name": "reference_number",
+    "description": "External or internal reference used to track this request."
+  },
+  {
+    "column name": "department",
+    "description": "Department or cost center responsible for this request."
+  },
+  {
+    "column name": "work_order",
+    "description": "Related maintenance work order driving the purchase, if any."
+  },
+  {
+    "column name": "asset",
+    "description": "Asset or equipment this purchase supports."
+  },
+  {
+    "column name": "procedures",
+    "description": "Associated maintenance procedure or PM task linked to the request; confirm with SME."
+  },
+  {
+    "column name": "project",
+    "description": "Project to which the cost should be charged."
+  },
+  {
+    "column name": "gl_account",
+    "description": "General ledger account to post the expense."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or instructions for this requisition line."
+  },
+  {
+    "column name": "user_id",
+    "description": "User account associated with this record for ownership or workflow; confirm with SME."
+  },
+  {
+    "column name": "locked",
+    "description": "Indicates whether the record is locked from editing."
+  },
+  {
+    "column name": "active",
+    "description": "Status flag showing whether the record is active."
+  },
+  {
+    "column name": "active_user",
+    "description": "User currently designated as the active owner or assignee; confirm with SME."
+  },
+  {
+    "column name": "validation",
+    "description": "System validation or status code for this record."
+  },
+  {
+    "column name": "validation_output",
+    "description": "Human-readable result or message from the validation process."
+  },
+  {
+    "column name": "validation_amount",
+    "description": "Monetary amount evaluated during validation, in base currency; confirm with SME."
+  },
+  {
+    "column name": "validation_po_blanket",
+    "description": "Reference to a blanket purchase order used during validation, if any; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "notify",
+    "description": "Flag controlling whether notifications are sent for this record; confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp captured at the last modification event by a user; confirm with SME."
+  },
+  {
+    "column name": "vendor_currency",
+    "description": "Currency code used by the vendor for pricing."
+  },
+  {
+    "column name": "vendor_currency_unit_cost",
+    "description": "Unit price of the part in the vendor’s currency."
+  },
+  {
+    "column name": "part_warehouse",
+    "description": "Identifier linking the part to a specific warehouse/location (part–warehouse key); confirm with SME."
+  },
+  {
+    "column name": "exchange_rate",
+    "description": "Exchange rate converting vendor currency to base currency applicable to this transaction."
+  },
+  {
+    "column name": "reply_email_address",
+    "description": "Email address to receive replies to procurement notifications."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User who last modified the record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the record was last modified."
+  }
+]

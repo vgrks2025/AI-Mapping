@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "HistoryReasonID",
+    "description": "Foreign key to a lookup defining why an accident history entry was created (e.g., status update, correction). Indicates the reason for the recorded change; likely references a reason code table; confirm with SME."
+  },
+  {
+    "column name": "RepairReasonID",
+    "description": "Foreign key to a lookup describing why repairs were performed after an incident (e.g., collision damage, mechanical failure). Specifies the primary repair cause for the case; likely references a reason code table; confirm with SME."
+  }
+]

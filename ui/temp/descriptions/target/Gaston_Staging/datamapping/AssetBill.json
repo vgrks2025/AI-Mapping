@@ -1,0 +1,154 @@
+[
+  {
+    "column name": "AssetBillID",
+    "description": "System-generated unique identifier for this asset billing record or configuration."
+  },
+  {
+    "column name": "AssetNumber",
+    "description": "Internal fleet identifier for the vehicle or equipment being billed."
+  },
+  {
+    "column name": "Organization",
+    "description": "Owning or responsible entity or department associated with the asset and recipient of charges."
+  },
+  {
+    "column name": "BaseRate",
+    "description": "Standard recurring charge applied to the asset, typically per month or billing period."
+  },
+  {
+    "column name": "BaseRateDetails",
+    "description": "Narrative or parameters describing how the base charge is calculated, including inclusions, periods, or exceptions."
+  },
+  {
+    "column name": "BillCodeDescription",
+    "description": "Human-readable description of the charge category or code used on the invoice."
+  },
+  {
+    "column name": "InsuranceCoverageAmount",
+    "description": "Coverage limit amount tied to the asset’s insurance for billing or cost allocation."
+  },
+  {
+    "column name": "InsurancePremiumRate",
+    "description": "Rate used to calculate the insurance premium allocated to this asset."
+  },
+  {
+    "column name": "IsBillPartIssue",
+    "description": "Indicates inclusion of consumed parts in the charges."
+  },
+  {
+    "column name": "IsBillPartMarkup",
+    "description": "Indicates whether a markup is applied to parts charges."
+  },
+  {
+    "column name": "IsBillLabor",
+    "description": "Indicates inclusion of labor charges."
+  },
+  {
+    "column name": "IsBillSublet",
+    "description": "Indicates inclusion of subcontracted or outside-service charges."
+  },
+  {
+    "column name": "IsBillMiscellaneous",
+    "description": "Indicates inclusion of miscellaneous fees or adjustments."
+  },
+  {
+    "column name": "IsBillCredits",
+    "description": "Indicates whether credit adjustments are applied on the statement."
+  },
+  {
+    "column name": "IsBillFuel",
+    "description": "Indicates inclusion of fuel costs."
+  },
+  {
+    "column name": "IsBillFuelMarkup",
+    "description": "Indicates whether a markup is applied to fuel charges."
+  },
+  {
+    "column name": "IsMonthlyBaseCharge",
+    "description": "Indicates the base charge is assessed monthly."
+  },
+  {
+    "column name": "IsBillInsurance",
+    "description": "Indicates inclusion of insurance-related charges."
+  },
+  {
+    "column name": "IsBillMileageCharge",
+    "description": "Indicates inclusion of distance-based charges (per mile or kilometer)."
+  },
+  {
+    "column name": "IsBillDepartmentalCharges",
+    "description": "Indicates inclusion of internal department allocations or passthrough charges."
+  },
+  {
+    "column name": "IsBillMarkupDepartment",
+    "description": "Indicates whether departmental allocations include an added markup; confirm with SME."
+  },
+  {
+    "column name": "IsBillReplacementCharge",
+    "description": "Indicates inclusion of capital recovery or asset replacement charges."
+  },
+  {
+    "column name": "ReplacementChargeAmount",
+    "description": "Amount assessed for capital recovery or replacement of the asset."
+  },
+  {
+    "column name": "AdditionalBaseChargeTypeCode",
+    "description": "System code representing an additional recurring charge category applied to the asset."
+  },
+  {
+    "column name": "AdditionalBaseChargeType",
+    "description": "Description of the additional recurring charge category corresponding to the code."
+  },
+  {
+    "column name": "AdditionalBaseChargeRate",
+    "description": "Rate or amount for the additional recurring charge type."
+  },
+  {
+    "column name": "IsBillJan",
+    "description": "Indicates whether charges are applied in January."
+  },
+  {
+    "column name": "IsBillFeb",
+    "description": "Indicates whether charges are applied in February."
+  },
+  {
+    "column name": "IsBillMar",
+    "description": "Indicates whether charges are applied in March."
+  },
+  {
+    "column name": "IsBillApr",
+    "description": "Indicates whether charges are applied in April."
+  },
+  {
+    "column name": "IsBillMay",
+    "description": "Indicates whether charges are applied in May."
+  },
+  {
+    "column name": "IsBillJun",
+    "description": "Indicates whether charges are applied in June."
+  },
+  {
+    "column name": "IsBillJul",
+    "description": "Indicates whether charges are applied in July."
+  },
+  {
+    "column name": "IsBillAug",
+    "description": "Indicates whether charges are applied in August."
+  },
+  {
+    "column name": "IsBillSep",
+    "description": "Indicates whether charges are applied in September."
+  },
+  {
+    "column name": "IsBillOct",
+    "description": "Indicates whether charges are applied in October."
+  },
+  {
+    "column name": "IsBillNov",
+    "description": "Indicates whether charges are applied in November."
+  },
+  {
+    "column name": "IsBillDec",
+    "description": "Indicates whether charges are applied in December."
+  }
+]

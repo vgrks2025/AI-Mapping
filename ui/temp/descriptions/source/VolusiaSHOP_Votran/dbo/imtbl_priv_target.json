@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this privilege target record; used as the primary key."
+  },
+  {
+    "column name": "object_name",
+    "description": "Internal identifier of the application object (e.g., report/widget) this privilege applies to."
+  },
+  {
+    "column name": "target_type",
+    "description": "Enumerated code for the category of object being secured (report, dashboard, menu, etc.); mapping defined by application configuration—confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp for the most recent change to this record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last user-initiated modification to this record; may mirror the system value—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that originally created this record (creator's identifier)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that most recently updated this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update performed by a user."
+  }
+]

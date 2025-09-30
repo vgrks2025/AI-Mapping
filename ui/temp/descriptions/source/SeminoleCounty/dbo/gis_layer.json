@@ -1,0 +1,122 @@
+[
+  {
+    "column name": "gis_layer_id",
+    "description": "Internal unique identifier for the GIS layer configuration record."
+  },
+  {
+    "column name": "layer_name",
+    "description": "Human-readable name of the map layer shown in applications and reports."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Asset category the layer represents, used to link map features to fleet/asset records and drive business rules."
+  },
+  {
+    "column name": "unit_id_col",
+    "description": "Name of the feature attribute that stores the asset/unit identifier used for joins and lookups."
+  },
+  {
+    "column name": "use_quotes",
+    "description": "Flag indicating whether attribute values should be quoted when building filters or queries against the feature service."
+  },
+  {
+    "column name": "min_altitude",
+    "description": "Minimum elevation at which features are considered or displayed for this layer; units likely meters—confirm with SME."
+  },
+  {
+    "column name": "max_altitude",
+    "description": "Maximum elevation at which features are considered or displayed for this layer; units likely meters—confirm with SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Display and processing order for the layer relative to other layers."
+  },
+  {
+    "column name": "gis_centric",
+    "description": "Indicates whether GIS is the authoritative system of record for this layer’s features, affecting edit direction and synchronization."
+  },
+  {
+    "column name": "allow_gis_upd",
+    "description": "Permission flag controlling whether updates initiated in GIS can modify the corresponding asset records."
+  },
+  {
+    "column name": "allow_gis_add",
+    "description": "Permission flag controlling whether new features added in GIS can create corresponding asset records."
+  },
+  {
+    "column name": "allow_gis_del",
+    "description": "Permission flag controlling whether deletions in GIS can remove corresponding asset records."
+  },
+  {
+    "column name": "allow_gis_rename",
+    "description": "Permission flag controlling whether renaming in GIS can change the identifier of the associated asset."
+  },
+  {
+    "column name": "gis_feature_service",
+    "description": "Endpoint URL of the feature service supplying this layer’s data for viewing and edits."
+  },
+  {
+    "column name": "import_chunk_size",
+    "description": "Number of features processed per batch during imports to manage performance and timeouts; exact semantics for 0 should be confirmed with SME."
+  },
+  {
+    "column name": "is_deficiency",
+    "description": "Flag marking the layer as representing deficiencies/issues rather than assets, influencing workflows and symbology."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether the layer configuration is active and visible to users."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or service account that created this layer configuration record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the layer configuration record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or service account that last updated this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "render",
+    "description": "Application-specific rendering configuration (e.g., symbology rules) used to draw features."
+  },
+  {
+    "column name": "layer_filter",
+    "description": "Filter expression limiting which features from the source service are included in this layer."
+  },
+  {
+    "column name": "hide_columns",
+    "description": "List of feature attributes to suppress from user interfaces and exports."
+  },
+  {
+    "column name": "label",
+    "description": "Labeling configuration or field expression used to display text labels on the map."
+  },
+  {
+    "column name": "users",
+    "description": "Access control list of users or groups permitted to view or edit this layer."
+  },
+  {
+    "column name": "mobile_disable_offline",
+    "description": "Flag indicating whether this layer is excluded from offline use in mobile apps."
+  },
+  {
+    "column name": "email_col",
+    "description": "Name of the feature attribute containing email addresses for notifications or contacts; confirm with SME."
+  },
+  {
+    "column name": "mobile_offline_properties",
+    "description": "Settings governing offline caching and sync for mobile clients, such as refresh scope and attachments; confirm exact properties with SME."
+  },
+  {
+    "column name": "styles",
+    "description": "Serialized style definition for the layer (e.g., ArcGIS symbolization) used by client applications to render features."
+  }
+]

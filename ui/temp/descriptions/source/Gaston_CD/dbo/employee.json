@@ -1,0 +1,194 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated primary key for the employee record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date/time the record was last created or updated, in system format."
+  },
+  {
+    "column name": "inact",
+    "description": "Flag indicating the person is inactive or terminated in the system."
+  },
+  {
+    "column name": "reldate",
+    "description": "Effective date the person was released or terminated from employment."
+  },
+  {
+    "column name": "hiredate",
+    "description": "Official hire or start date with the organization."
+  },
+  {
+    "column name": "dob",
+    "description": "Employee’s date of birth for identification and compliance."
+  },
+  {
+    "column name": "mobile",
+    "description": "Primary mobile phone number for the employee."
+  },
+  {
+    "column name": "fax",
+    "description": "Fax number associated with the employee, if any."
+  },
+  {
+    "column name": "altphone",
+    "description": "Alternate contact number or extension for the employee; may hold backup or on-call numbers."
+  },
+  {
+    "column name": "phone",
+    "description": "Primary work phone or main contact number."
+  },
+  {
+    "column name": "postcode",
+    "description": "Postal/ZIP code for the employee’s mailing address."
+  },
+  {
+    "column name": "city",
+    "description": "City for the employee’s mailing or home address."
+  },
+  {
+    "column name": "address2",
+    "description": "Second address line (apartment, suite, building, attention, etc.)."
+  },
+  {
+    "column name": "address",
+    "description": "Primary street or mailing address for the employee."
+  },
+  {
+    "column name": "lname",
+    "description": "Employee’s family or last name."
+  },
+  {
+    "column name": "fname",
+    "description": "Employee’s given or first name."
+  },
+  {
+    "column name": "empno",
+    "description": "Human Resources or payroll employee number used to identify the person."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes related to the employee (administrative or operational remarks)."
+  },
+  {
+    "column name": "relreas",
+    "description": "Free-text explanation for employment release or termination; may include HR notes or rehire status."
+  },
+  {
+    "column name": "rate",
+    "description": "Hourly labor or billing rate used in work orders/timekeeping; likely currency. Confirm with SME."
+  },
+  {
+    "column name": "email",
+    "description": "Work email address for the employee."
+  },
+  {
+    "column name": "shift",
+    "description": "Code for the employee’s work shift or schedule pattern."
+  },
+  {
+    "column name": "shiftr",
+    "description": "Lookup reference or display label source for the shift code; confirm with SME."
+  },
+  {
+    "column name": "state",
+    "description": "Code/ID referencing the state or province of the address (foreign key to location list)."
+  },
+  {
+    "column name": "stater",
+    "description": "Lookup reference or table source for the state/province code; confirm with SME."
+  },
+  {
+    "column name": "emptitle",
+    "description": "Code for the employee’s job title or classification."
+  },
+  {
+    "column name": "emptitler",
+    "description": "Lookup reference or table source for the job title code; confirm with SME."
+  },
+  {
+    "column name": "hierlvl9",
+    "description": "Organizational unit code within a multi-level hierarchy (e.g., division/department). Exact level mapping is installation-specific; confirm with SME."
+  },
+  {
+    "column name": "hierlvl9r",
+    "description": "Lookup reference or table source for the organizational unit code; confirm with SME."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Top-level organizational unit code within the company hierarchy; confirm exact mapping with SME."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Lookup reference or table source for the top-level hierarchy code; confirm with SME."
+  },
+  {
+    "column name": "emppict",
+    "description": "Binary image of the employee’s photo (BLOB)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this employee in a legacy source system, for migration traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table where the employee originated."
+  },
+  {
+    "column name": "employee_type",
+    "description": "Employment type or category (e.g., employee, contractor, temp) used for access and reporting."
+  },
+  {
+    "column name": "signature",
+    "description": "Digital signature image or captured signature data for forms and approvals."
+  },
+  {
+    "column name": "age",
+    "description": "Employee age in years or an age code; confirm calculation/source with SME."
+  },
+  {
+    "column name": "ethnicity",
+    "description": "Coded value representing the employee’s ethnicity for reporting and compliance."
+  },
+  {
+    "column name": "ethnicityr",
+    "description": "Lookup reference or table source for the ethnicity code; confirm with SME."
+  },
+  {
+    "column name": "gender",
+    "description": "Coded value representing the employee’s gender."
+  },
+  {
+    "column name": "genderr",
+    "description": "Lookup reference or table source for the gender code; confirm with SME."
+  },
+  {
+    "column name": "relreason",
+    "description": "Coded reason for employment release or termination (foreign key to reasons list)."
+  },
+  {
+    "column name": "relreasonr",
+    "description": "Lookup reference or table source for the release/termination reason code."
+  },
+  {
+    "column name": "manager",
+    "description": "Identifier of the employee’s manager or supervisor (foreign key to the employee table)."
+  },
+  {
+    "column name": "managerr",
+    "description": "Reference to the entity or table used by the manager field; confirm with SME."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Second-level organizational unit code in the hierarchy (e.g., department/section). Exact mapping may vary; confirm with SME."
+  },
+  {
+    "column name": "hierlvl2r",
+    "description": "Lookup reference or table source for the second-level hierarchy code; confirm with SME."
+  },
+  {
+    "column name": "language",
+    "description": "Preferred spoken or written language for communications."
+  }
+]

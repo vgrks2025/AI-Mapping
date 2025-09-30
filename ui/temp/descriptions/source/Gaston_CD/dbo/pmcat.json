@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique internal identifier for the preventive maintenance category record; serves as the primary key and join reference."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp of the record’s last update, stored as YYYYMMDDHHMMSSmmm; used for change tracking and integration. Time zone and create-versus-update semantics likely; confirm with SME."
+  },
+  {
+    "column name": "category",
+    "description": "Business name/description of the preventive maintenance schedule or service grouping used to organize and trigger PM tasks and reporting."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from the prior system corresponding to this record; retained for migration lineage, reconciliation, and cross-referencing. Population rules and uniqueness constraints likely; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which the record was migrated; used for lineage, traceability, and troubleshooting. May be null when not applicable."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the category is inactive/retired and should be excluded from new use and scheduling; false denotes active. Effective-dating behavior and historical reporting impact likely; confirm with SME."
+  }
+]

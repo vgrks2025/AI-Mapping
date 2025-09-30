@@ -1,0 +1,78 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate identifier for this physical inventory detail line."
+  },
+  {
+    "column name": "physical_inventory",
+    "description": "Identifier of the physical inventory event/header this line belongs to (foreign key)."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the stock item or part number being counted."
+  },
+  {
+    "column name": "location",
+    "description": "Storage location (e.g., warehouse/bin) where the item was counted."
+  },
+  {
+    "column name": "component",
+    "description": "If populated, identifies the related asset/component for this part at the location; likely optional context link; confirm with SME."
+  },
+  {
+    "column name": "computer_quantity",
+    "description": "System on-hand quantity prior to the physical count; may be negative."
+  },
+  {
+    "column name": "physical_count",
+    "description": "Quantity physically counted at the location during the inventory."
+  },
+  {
+    "column name": "difference",
+    "description": "Calculated variance between counted and system quantities; negative indicates shortage, positive indicates overage."
+  },
+  {
+    "column name": "physical_date",
+    "description": "Date/time when the physical count for this line was performed."
+  },
+  {
+    "column name": "counted_by",
+    "description": "User or employee who performed the physical count."
+  },
+  {
+    "column name": "error_message",
+    "description": "Validation or processing error details for this line, if any."
+  },
+  {
+    "column name": "date_update",
+    "description": "Date/time when inventory balances were updated based on this count; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about this count line or observed anomalies."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent change to this record (audit field)."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the most recent user-initiated change; appears to mirror last_modified in samples; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this record (audit field)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was created (audit field)."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record (audit field)."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when a user last modified this record (audit field)."
+  }
+]

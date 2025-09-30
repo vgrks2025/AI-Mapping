@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for the purchase order attribute definition; primary key used for reference and joins."
+  },
+  {
+    "column name": "user_defined_label",
+    "description": "User-facing label displayed for the attribute on PO screens, forms, or reports; configurable by administrators."
+  },
+  {
+    "column name": "description",
+    "description": "Brief explanation of the attribute’s business meaning or usage, supporting help text and documentation."
+  },
+  {
+    "column name": "datatype",
+    "description": "Code indicating the attribute’s data type (e.g., text, number, date); values map to a type catalog; confirm with SME."
+  },
+  {
+    "column name": "datasize",
+    "description": "Maximum length, precision, or scale allowed for the attribute’s value; may be null when not applicable."
+  },
+  {
+    "column name": "required",
+    "description": "Boolean-like flag indicating whether the attribute must be provided when entering a PO; confirm value mapping with SME."
+  },
+  {
+    "column name": "specification",
+    "description": "Meaning unclear; likely flags system-defined versus custom attribute, or enables special validation/behavior; confirm with SME."
+  },
+  {
+    "column name": "unit_of_measure",
+    "description": "Unit associated with numeric attribute values (e.g., miles, hours, currency); blank when not applicable."
+  },
+  {
+    "column name": "default_value",
+    "description": "Value prefilled for the attribute on new records when no user input is provided."
+  },
+  {
+    "column name": "display_order",
+    "description": "Sequence number controlling the attribute’s display position relative to other PO attributes."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this attribute definition, used for auditing and synchronization."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or rationale about this attribute definition for administrators and auditors."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Field meaning ambiguous; values appear as timestamps, likely the time of last user-initiated change; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created this attribute definition; used for audit trail."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the attribute definition was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last updated the attribute definition."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the attribute definition was last changed."
+  }
+]

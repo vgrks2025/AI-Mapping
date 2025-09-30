@@ -1,0 +1,98 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this sublet detail record on a work order."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp when this record was created or last updated (likely YYYYMMDDHHMMSSmmm); confirm exact semantics and timezone with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the sublet service or repair performed by the external vendor."
+  },
+  {
+    "column name": "invno",
+    "description": "Vendor-provided invoice number or reference associated with this sublet charge."
+  },
+  {
+    "column name": "pono",
+    "description": "Purchase order number authorizing the outsourced work for this work order."
+  },
+  {
+    "column name": "comments",
+    "description": "Additional notes regarding this sublet line item."
+  },
+  {
+    "column name": "total",
+    "description": "Total billed amount for this sublet line, including all applicable components (currency)."
+  },
+  {
+    "column name": "subtotal",
+    "description": "Subtotal amount for this sublet line before taxes, discounts, or additional fees (currency)."
+  },
+  {
+    "column name": "misccost",
+    "description": "Miscellaneous charges associated with this sublet line (e.g., fees, freight)."
+  },
+  {
+    "column name": "invoice",
+    "description": "Internal billing invoice identifier tied to this work order/sublet line (if invoiced to a customer); confirm linkage."
+  },
+  {
+    "column name": "vendor",
+    "description": "Identifier of the external vendor that performed the sublet work."
+  },
+  {
+    "column name": "vendorr",
+    "description": "System reference/metadata indicating the related entity for vendor linkage; not business data. Confirm usage."
+  },
+  {
+    "column name": "actwo",
+    "description": "Work order identifier used for accounting/integration purposes; typically mirrors the workorder field. Confirm differences and usage with SME."
+  },
+  {
+    "column name": "actwor",
+    "description": "System reference/metadata naming the related entity for actwo; not business data."
+  },
+  {
+    "column name": "workorder",
+    "description": "The work order number to which this sublet charge belongs."
+  },
+  {
+    "column name": "workorderr",
+    "description": "System reference/metadata naming the related entity for workorder; not business data."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original source-system key for this record, retained for migration or audit purposes."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source-system table from which this record originated."
+  },
+  {
+    "column name": "labor",
+    "description": "Labor cost portion of this sublet charge (as billed by the vendor)."
+  },
+  {
+    "column name": "parts",
+    "description": "Parts or materials cost portion of this sublet charge (as billed by the vendor)."
+  },
+  {
+    "column name": "other",
+    "description": "Other non-labor, non-parts charges for this sublet line (e.g., shop supplies, environmental fees)."
+  },
+  {
+    "column name": "tdate",
+    "description": "Transaction or service date for this sublet entry (YYYYMMDD)."
+  },
+  {
+    "column name": "vendor_invoice",
+    "description": "Internal key referencing the linked vendor invoice record or image for this sublet; not the vendor’s invoice number. Confirm mapping."
+  },
+  {
+    "column name": "vendor_invoicer",
+    "description": "System reference/metadata naming the related entity for vendor_invoice; not business data."
+  }
+]

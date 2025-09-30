@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "acct_no",
+    "description": "Identifier/name for the organizational account or location within the fleet; used to associate assets, work, and costs to that unit."
+  },
+  {
+    "column name": "acct_descr",
+    "description": "Human-readable description of the account, providing additional context beyond the identifier (purpose, location, or department details)."
+  },
+  {
+    "column name": "start_date",
+    "description": "Date the account becomes active or valid for use in transactions and reporting."
+  },
+  {
+    "column name": "warn_date",
+    "description": "Date to begin warning that the account will expire soon; used to trigger notifications or reporting flags."
+  },
+  {
+    "column name": "expr_date",
+    "description": "Date the account expires and becomes invalid for transactions or selection."
+  },
+  {
+    "column name": "absent_flag",
+    "description": "Indicator that the account is temporarily inactive/absent from normal operations or selection lists; likely a Y/N flag; confirm with SME."
+  },
+  {
+    "column name": "grp_code",
+    "description": "Code representing the reporting or security group this account belongs to, supporting hierarchy or access control."
+  },
+  {
+    "column name": "grp_index",
+    "description": "Numeric order or key used to sort or link accounts within a group; supports hierarchical grouping or display order."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or system ID that created the record (audit trail)."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created (audit trail)."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or system ID that last modified the record (audit trail)."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record (audit trail)."
+  },
+  {
+    "column name": "activity_code_filter",
+    "description": "Optional list or pattern of activity codes allowed or included for this account in billing, work orders, or reporting; behavior may vary; confirm with SME."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field for custom notes, tags, or integration-specific values related to the account."
+  }
+]

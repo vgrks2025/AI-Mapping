@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this upgrade metadata record."
+  },
+  {
+    "column name": "tablesrc",
+    "description": "Name of the table in the application schema affected by the recorded upgrade action."
+  },
+  {
+    "column name": "tablecol",
+    "description": "Name of the column within that table impacted by the upgrade."
+  },
+  {
+    "column name": "operation",
+    "description": "Category of schema or data adjustment applied during the upgrade."
+  },
+  {
+    "column name": "value",
+    "description": "Parameter for the operation, such as the new column name, default value, or explanatory note."
+  },
+  {
+    "column name": "codedatatype",
+    "description": "Declared data type associated with the value or column, stored as an application code type (likely CLR type; confirm with SME)."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this upgrade metadata record was last updated."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when this record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the most recent modification to this record."
+  }
+]

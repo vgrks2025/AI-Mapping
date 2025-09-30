@@ -1,0 +1,114 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Identifier of the work order these notification preferences apply to."
+  },
+  {
+    "column name": "user_name",
+    "description": "Application user for whom the notification settings on this work order are defined."
+  },
+  {
+    "column name": "on_creation",
+    "description": "Indicates whether the user should be notified when the work order is created."
+  },
+  {
+    "column name": "on_assigned",
+    "description": "Indicates whether the user should be notified when assignment changes occur."
+  },
+  {
+    "column name": "on_wip_change",
+    "description": "Indicates whether the user should be notified when work-in-progress/status changes."
+  },
+  {
+    "column name": "on_close",
+    "description": "Indicates whether the user should be notified when the work order is closed."
+  },
+  {
+    "column name": "on_task_done",
+    "description": "Indicates whether the user should be notified when a task under the work order is completed."
+  },
+  {
+    "column name": "on_parts_rcvd",
+    "description": "Indicates whether the user should be notified when required parts for the work order are received."
+  },
+  {
+    "column name": "on_evt1",
+    "description": "Indicates notification on a custom event 1 for this work order; likely organization-defined trigger—confirm with SME."
+  },
+  {
+    "column name": "on_evt2",
+    "description": "Indicates notification on a custom event 2 for this work order; likely organization-defined trigger—confirm with SME."
+  },
+  {
+    "column name": "on_evt3",
+    "description": "Indicates notification on a custom event 3 for this work order; likely organization-defined trigger—confirm with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this notification preference record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this notification preference record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated this notification preference record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this notification preference record was last updated."
+  },
+  {
+    "column name": "on_req_comments_change",
+    "description": "Indicates whether the user should be notified when request comments change; likely tied to the service request—confirm with SME."
+  },
+  {
+    "column name": "on_req_notes_change",
+    "description": "Indicates whether the user should be notified when request notes change; likely tied to the service request—confirm with SME."
+  },
+  {
+    "column name": "notify_once",
+    "description": "If enabled, send only a single notification per event to avoid repeats; confirm exact behavior with SME."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field for additional notes or configuration; usage may vary—confirm with SME."
+  },
+  {
+    "column name": "n_watcher_oncreate",
+    "description": "Indicates whether all watchers should be notified when the work order is created; likely targets subscribed observers—confirm with SME."
+  },
+  {
+    "column name": "n_watcher_onchange_assignto",
+    "description": "Indicates whether watchers should be notified when assignment changes occur."
+  },
+  {
+    "column name": "n_watcher_onchange_wip",
+    "description": "Indicates whether watchers should be notified when work-in-progress/status changes."
+  },
+  {
+    "column name": "n_watcher_ontaskdone",
+    "description": "Indicates whether watchers should be notified when a task under the work order is completed."
+  },
+  {
+    "column name": "n_watcher_onparts",
+    "description": "Indicates whether watchers should be notified when required parts are received."
+  },
+  {
+    "column name": "n_watcher_onclose",
+    "description": "Indicates whether watchers should be notified when the work order is closed."
+  },
+  {
+    "column name": "n_watcher_onevent1",
+    "description": "Indicates watcher notification on custom event 1; likely organization-defined—confirm with SME."
+  },
+  {
+    "column name": "n_watcher_onevent2",
+    "description": "Indicates watcher notification on custom event 2; likely organization-defined—confirm with SME."
+  },
+  {
+    "column name": "n_watcher_onevent3",
+    "description": "Indicates watcher notification on custom event 3; likely organization-defined—confirm with SME."
+  }
+]

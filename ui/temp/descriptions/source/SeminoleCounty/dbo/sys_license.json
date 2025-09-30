@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "lic_keyrow",
+    "description": "System-generated unique identifier for the license record; serves as the primary key."
+  },
+  {
+    "column name": "company_name",
+    "description": "Legal name of the customer organization to which the license is issued."
+  },
+  {
+    "column name": "licenseno",
+    "description": "Unique license number assigned for entitlement tracking and activation."
+  },
+  {
+    "column name": "modules",
+    "description": "Structured list of licensed features and limits (e.g., module entitlements, user counts) tied to this license."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or automated process that created the license record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the license record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or automated process that last modified the license record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the license record."
+  },
+  {
+    "column name": "support_exp_dt",
+    "description": "Date/time when software support or maintenance coverage for this license expires."
+  },
+  {
+    "column name": "mstar_version",
+    "description": "Software release version this license applies to; likely the major compatibility indicator; confirm with SME."
+  },
+  {
+    "column name": "api",
+    "description": "List of API resources or domains enabled under this license."
+  }
+]

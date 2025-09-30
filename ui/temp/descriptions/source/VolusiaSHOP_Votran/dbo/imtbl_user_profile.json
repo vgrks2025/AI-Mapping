@@ -1,0 +1,206 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key uniquely identifying the user profile record."
+  },
+  {
+    "column name": "user_id",
+    "description": "Unique login identifier for the user account."
+  },
+  {
+    "column name": "user_name",
+    "description": "Display name shown in the application for this user."
+  },
+  {
+    "column name": "phone_number",
+    "description": "User’s telephone contact number for notifications or support."
+  },
+  {
+    "column name": "language",
+    "description": "Preferred application language setting (coded value; confirm mapping)."
+  },
+  {
+    "column name": "prompt_before_delete",
+    "description": "User preference to show a confirmation dialog before deleting records."
+  },
+  {
+    "column name": "prompt_before_save",
+    "description": "User preference to show a confirmation dialog before saving changes."
+  },
+  {
+    "column name": "date_format",
+    "description": "Preferred date display pattern for the user interface and reports."
+  },
+  {
+    "column name": "time_format",
+    "description": "Preferred time display pattern for the user interface and reports."
+  },
+  {
+    "column name": "list_separator",
+    "description": "Character used to separate values in lists/exports for this user."
+  },
+  {
+    "column name": "display_leading_zeros",
+    "description": "Preference to show leading zeros on numeric identifiers in displays and reports."
+  },
+  {
+    "column name": "starting_day_of_week",
+    "description": "User’s preferred first day of the week for calendars (coded value; confirm mapping)."
+  },
+  {
+    "column name": "work_order_check_interval",
+    "description": "Interval, in minutes, at which the system checks or refreshes work order information for this user."
+  },
+  {
+    "column name": "alert_preferences",
+    "description": "Encoded alert/notification subscription settings for the user; likely a bitmask or foreign key (confirm with SME)."
+  },
+  {
+    "column name": "level_two_minutes",
+    "description": "Threshold in minutes before escalating alerts or reminders to level two; confirm business rule with SME."
+  },
+  {
+    "column name": "default_warehouse",
+    "description": "Identifier of the default warehouse used for this user’s inventory transactions."
+  },
+  {
+    "column name": "purchase_approval_limit",
+    "description": "Maximum monetary amount the user is authorized to approve for purchasing."
+  },
+  {
+    "column name": "navigation_tree",
+    "description": "Identifier for the menu/navigation layout assigned to the user."
+  },
+  {
+    "column name": "admin_options",
+    "description": "Encoded administrative privileges or options granted to the user."
+  },
+  {
+    "column name": "email",
+    "description": "User’s email address for communication and system notifications."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes related to the user account."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this profile record was last updated in the system."
+  },
+  {
+    "column name": "last_comp_name",
+    "description": "Likely the name of the last computer or company context associated with the user; confirm with SME."
+  },
+  {
+    "column name": "status",
+    "description": "Account status code (e.g., active/inactive); confirm code mapping with SME."
+  },
+  {
+    "column name": "locked_out",
+    "description": "Indicates the account is currently locked due to security or administrative action."
+  },
+  {
+    "column name": "deleted",
+    "description": "Soft-delete flag indicating the profile is inactive but retained for audit."
+  },
+  {
+    "column name": "inactivity_limit",
+    "description": "Maximum idle time before automatic logout or session timeout; confirm units with SME."
+  },
+  {
+    "column name": "purchasing_authorizer",
+    "description": "Reference to the person/role authorized to approve this user’s purchasing; confirm linkage with SME."
+  },
+  {
+    "column name": "change_po_after_transmission",
+    "description": "Permission allowing edits to purchase orders after they have been sent to vendors."
+  },
+  {
+    "column name": "transfer_parts_from_sites",
+    "description": "Permission to transfer parts from other sites into the user’s site."
+  },
+  {
+    "column name": "transfer_parts_to_sites",
+    "description": "Permission to transfer parts from the user’s site to other sites."
+  },
+  {
+    "column name": "wo_report_format",
+    "description": "Preferred work order report template identifier for printing or export."
+  },
+  {
+    "column name": "organize_favorites",
+    "description": "Setting permitting the user to manage their Favorites menu organization."
+  },
+  {
+    "column name": "tab_suppression",
+    "description": "Codes for UI tabs suppressed/hidden for this user to simplify the interface."
+  },
+  {
+    "column name": "default_fuel_warehouse",
+    "description": "Identifier of the default warehouse used for fueling transactions by this user."
+  },
+  {
+    "column name": "user_type",
+    "description": "User role/type code determining permissions and UI behavior; confirm mapping."
+  },
+  {
+    "column name": "resources",
+    "description": "Reference to a resource group or permission bundle assigned to the user; confirm with SME."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when the user themselves last modified their profile; may mirror last_modified (confirm distinction)."
+  },
+  {
+    "column name": "sitedefault",
+    "description": "Flag indicating whether to apply site-level default settings for this user."
+  },
+  {
+    "column name": "denials",
+    "description": "Count of recent failed login attempts used for lockout decisions."
+  },
+  {
+    "column name": "alert_sound_type",
+    "description": "Code indicating the notification sound style for alerts; confirm allowable values."
+  },
+  {
+    "column name": "apply_password_policy",
+    "description": "Indicates whether system password policy is enforced for this account."
+  },
+  {
+    "column name": "my_filters_only",
+    "description": "Restricts searches and reports to filters saved by this user only."
+  },
+  {
+    "column name": "touch_screen_detection_enabled",
+    "description": "Enables touch-screen optimized features or detection for this user’s interface."
+  },
+  {
+    "column name": "my_dashboard",
+    "description": "Identifier of the user’s personalized dashboard configuration; confirm reference target."
+  },
+  {
+    "column name": "password_locked_out",
+    "description": "Indicates the password is locked due to policy violations until reset or admin action."
+  },
+  {
+    "column name": "password_needs_resetting",
+    "description": "Flag requiring the user to change their password at next sign-in."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created this profile record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this profile record was created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last updated this profile record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update to this profile record."
+  }
+]

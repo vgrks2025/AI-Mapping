@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "task_id",
+    "description": "Identifier of the maintenance task or system category this user-defined field relates to (e.g., Air System, Engine); likely references a task master record rather than a numeric ID; confirm with SME."
+  },
+  {
+    "column name": "udf_value",
+    "description": "Value captured for the task’s user-defined field—often a component, part, or attribute (e.g., Air Compressor, Filter)."
+  },
+  {
+    "column name": "add_by",
+    "description": "Username or process identifier that created the UDF record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the UDF record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Username or process identifier that last updated the UDF record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the UDF record."
+  }
+]

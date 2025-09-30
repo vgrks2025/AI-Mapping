@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "RoleID",
+    "description": "Identifier of an access role used to manage what actions users of the fleet platform can perform; ties each permission mapping to the role catalog."
+  },
+  {
+    "column name": "PermissionID",
+    "description": "Identifier of a specific allowed action or resource scope within the application; likely references a permission catalog defining what roles can do; confirm with SME."
+  },
+  {
+    "column name": "HasPermission",
+    "description": "Boolean indicator of whether the role is granted the referenced access right (true) or explicitly denied/not included (false), determining the role's effective privileges."
+  }
+]

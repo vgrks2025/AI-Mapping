@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this role-membership record; used as the primary key for joins and tracking."
+  },
+  {
+    "column name": "login",
+    "description": "User account identifier associated with the role membership at the site or tenant level."
+  },
+  {
+    "column name": "site_role",
+    "description": "Name of the role granted to the user within the site, determining permissions and access scope."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp of the most recent change to this record, used for auditing and synchronization."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user or process that initially created this record; likely references an internal user table."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Date and time when this record was first created, for auditing and historical tracking."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user or process that last updated this record; likely references an internal user table."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Date and time of the latest update to this record, for audit trail purposes."
+  }
+]

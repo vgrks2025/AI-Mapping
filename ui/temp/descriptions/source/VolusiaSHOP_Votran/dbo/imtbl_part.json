@@ -1,0 +1,82 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique key for the part record used for internal identity and joins."
+  },
+  {
+    "column name": "id",
+    "description": "Business part number used to identify the item across purchasing, inventory, and maintenance."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text item description shown on catalogs, purchase orders, and work orders."
+  },
+  {
+    "column name": "class",
+    "description": "Classification code grouping the item for inventory control, accounting, or reporting."
+  },
+  {
+    "column name": "taxable",
+    "description": "Flag indicating whether sales or use tax applies when the item is purchased or issued."
+  },
+  {
+    "column name": "status",
+    "description": "Lifecycle or availability code controlling whether the item can be ordered or issued."
+  },
+  {
+    "column name": "parent",
+    "description": "Identifier of the parent item for kits/assemblies; blank when standalone. Likely supports bill-of-materials; confirm with SME."
+  },
+  {
+    "column name": "issue_uom",
+    "description": "Unit of measure used when issuing stock to work orders or departments."
+  },
+  {
+    "column name": "purchase_uom",
+    "description": "Unit of measure used on vendor purchase orders for this item."
+  },
+  {
+    "column name": "conversion_factor",
+    "description": "Multiplier converting purchase unit quantities to issue unit quantities."
+  },
+  {
+    "column name": "hazardous_material",
+    "description": "Indicator whether the item is classified as hazardous, affecting storage, handling, shipping, and regulatory reporting."
+  },
+  {
+    "column name": "msd",
+    "description": "Reference or link to the item’s safety data sheet (SDS/MSDS); confirm exact format and storage with SME."
+  },
+  {
+    "column name": "component",
+    "description": "Flag indicating the item is used as a component within a kit/assembly/BOM rather than standalone; confirm semantics with SME."
+  },
+  {
+    "column name": "taxes",
+    "description": "Tax code or group applied to the item for calculating applicable tax amounts; mapping may be system-defined; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record, regardless of source."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded for the last user-driven change to this record; may mirror system update time; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that originally created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID of the most recent person or process to modify this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the most recent user modification occurred."
+  }
+]

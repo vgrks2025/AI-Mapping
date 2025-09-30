@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique surrogate key for the substitution row; used to identify this mapping between parts."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the primary/original part in this mapping; references the parts master."
+  },
+  {
+    "column name": "substitution",
+    "description": "Identifier of the approved substitute part that can be used in place of the original; references the same parts master."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes describing substitution rationale, vendor/brand, conditions, or storage location; optional."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp for the most recent update to this record, by any process or user."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded for the latest user-driven change to this record; field name suggests a user identifier but stores a datetime—confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who originally created this record; typically a username or employee ID."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the record was first created by a user."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user modification to this record."
+  }
+]

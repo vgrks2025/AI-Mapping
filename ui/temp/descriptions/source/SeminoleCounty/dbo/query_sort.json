@@ -1,0 +1,54 @@
+[
+  {
+    "column name": "query_id",
+    "description": "Identifier of the saved query/report these settings belong to. Groups multiple rows into one query configuration."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequential position of this field within the query layout and sort configuration; determines evaluation or display order."
+  },
+  {
+    "column name": "column_name",
+    "description": "Name of the dataset field this configuration targets, such as work order identifiers, item attributes, costs, dates, or amounts."
+  },
+  {
+    "column name": "sort_order",
+    "description": "Numeric code for sort behavior and/or priority on this field (for example, none, ascending, or descending). Exact mapping may vary; confirm with SME."
+  },
+  {
+    "column name": "subtotal",
+    "description": "Flag indicating whether a subtotal should be produced when grouping by this field."
+  },
+  {
+    "column name": "desc_flag",
+    "description": "Indicates descending sort direction for this field (Y/N). May overlap with other sort settings; confirm the authoritative control with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this configuration row."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this row was created, in system time."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last modified this configuration row."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this row was last updated."
+  },
+  {
+    "column name": "group_flag",
+    "description": "Code defining grouping behavior for this field (e.g., create a group break, subgroup, or none). Exact code meanings likely vary; confirm with SME."
+  },
+  {
+    "column name": "total_flag",
+    "description": "Code controlling whether and how this field contributes to grand totals or aggregates (e.g., sum, average). Exact values likely vary; confirm with SME."
+  },
+  {
+    "column name": "data_type",
+    "description": "Data type of the field, used to apply correct sorting, formatting, validation, and aggregation rules."
+  }
+]

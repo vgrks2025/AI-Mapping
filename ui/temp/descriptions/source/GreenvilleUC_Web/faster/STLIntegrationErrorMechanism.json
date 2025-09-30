@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "IntegrationErrorMechanismID",
+    "description": "Unique identifier for the integration error mechanism classification, used as a key to relate error records to the method/location where the error was generated or logged."
+  },
+  {
+    "column name": "IntegrationErrorMechanism",
+    "description": "Name of the mechanism or channel describing how an integration error was generated, recorded, or transmitted; used for reporting, troubleshooting, and routing."
+  }
+]

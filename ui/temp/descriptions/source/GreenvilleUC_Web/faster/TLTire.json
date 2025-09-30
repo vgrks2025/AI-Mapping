@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "TireID",
+    "description": "Unique surrogate identifier for a tire record in the catalog; used as the primary key and to link tires to vehicles, inventory, and maintenance records."
+  },
+  {
+    "column name": "Tire",
+    "description": "Human-readable tire size designation in industry format (e.g., width/aspect ratio/construction/rim diameter), representing the specification used for fitment, procurement, and inventory."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag marking the tire specification as retired or inactive; when set, exclude from new assignments and ordering, but retain for historical reference."
+  }
+]

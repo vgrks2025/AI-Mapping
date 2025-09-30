@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "crew_id",
+    "description": "Unique identifier for the maintenance crew record used for planning, assignment, and reporting."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-friendly description or name of the crew for display and selection."
+  },
+  {
+    "column name": "est_hr",
+    "description": "Estimated labor hours associated with the crew—likely capacity per shift or expected hours to complete a standard task; confirm with SME."
+  },
+  {
+    "column name": "inspection_crew",
+    "description": "Flag indicating whether the crew is dedicated to or authorized for inspections (Y/N) for regulatory or preventive checks."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the workgroup or organizational unit the crew belongs to for labor tracking and permissions."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created the record for audit purposes."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID of the last person to modify the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time of the most recent update to the record."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Identifier of the designated crew leader—likely an employee or personnel ID used for accountability and approvals; confirm with SME."
+  }
+]

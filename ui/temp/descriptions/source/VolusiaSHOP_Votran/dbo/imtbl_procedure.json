@@ -1,0 +1,74 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique primary key identifying the maintenance procedure record."
+  },
+  {
+    "column name": "id",
+    "description": "Human-readable procedure code or short name indicating the scheduled service or program."
+  },
+  {
+    "column name": "description",
+    "description": "Narrative summary of the procedure’s scope, tasks, or intent."
+  },
+  {
+    "column name": "f_type",
+    "description": "Likely categorizes procedure type (e.g., preventive, inspection, corrective); confirm with SME."
+  },
+  {
+    "column name": "status",
+    "description": "Numeric status code for the procedure’s lifecycle (e.g., active, inactive, retired); confirm code set."
+  },
+  {
+    "column name": "priority",
+    "description": "Numeric priority used for scheduling/dispatch; lower numbers may indicate higher urgency; confirm scale."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Default warehouse/location identifier for issuing parts or materials tied to this procedure; confirm mapping."
+  },
+  {
+    "column name": "warranty",
+    "description": "Flag indicating whether the work is warranty-related (1) or not (0); confirm encoding."
+  },
+  {
+    "column name": "performed_while_asset_running",
+    "description": "Indicates if the procedure can be performed while the asset is operating (1=yes, 0=no)."
+  },
+  {
+    "column name": "performed_while_asset_down",
+    "description": "Indicates if the procedure requires the asset to be out of service (1=yes, 0=no)."
+  },
+  {
+    "column name": "estimated_other_down_time",
+    "description": "Estimated additional downtime hours beyond hands-on labor (e.g., cool-down, cure time, staging)."
+  },
+  {
+    "column name": "user_last_updated",
+    "description": "User ID of the person who most recently updated the procedure."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent modification to this procedure record."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Despite the name, values appear to be datetimes; likely last modification timestamp recorded by the application; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User ID that originally created the procedure record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the procedure record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User ID that last modified the procedure record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-driven modification to this procedure."
+  }
+]

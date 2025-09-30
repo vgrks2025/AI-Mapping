@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "BudgetStatus",
+    "description": "Coded indicator of a budget line’s lifecycle within fiscal planning, used to control transaction posting, approvals, and reporting for fleet program budgets."
+  },
+  {
+    "column name": "BudgetStatusDesc",
+    "description": "User-facing description of the status code, providing clear wording for screens and reports about a budget line’s state in a given fiscal year."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "OvevrideMeterCode",
+    "description": "Code representing the reason a meter reading was overridden for an asset; likely an enumerated domain linked to a reason description; confirm with SME."
+  },
+  {
+    "column name": "OverrideMeterDesc",
+    "description": "Human-readable explanation for why a meter reading was overridden for an asset."
+  }
+]

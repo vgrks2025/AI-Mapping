@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "RateOverride",
+    "description": "Code identifying the special rate condition used for time/labor or billing (e.g., weekend, holiday). Drives selection of alternate pricing rules for work performed."
+  },
+  {
+    "column name": "RateOverrideRate",
+    "description": "Hourly billing or pay rate applied when the override condition is in effect. Stored as a numeric amount in the system currency."
+  },
+  {
+    "column name": "RateOverrideIndirectRate",
+    "description": "Indirect/overhead rate applied with the override condition, used for burdening or cost allocation. Likely expressed as a percentage rather than a currency amount; confirm with SME."
+  },
+  {
+    "column name": "RateOverrideDesc",
+    "description": "Plain-language description of the override condition that explains when the special rate applies."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the override is retired and should no longer be used in pricing or assignments."
+  },
+  {
+    "column name": "RateOverrideID",
+    "description": "System-generated unique identifier for the override record."
+  },
+  {
+    "column name": "OvertimeMultiplier",
+    "description": "Factor multiplied by the applicable base rate during overtime under this override (e.g., 1.5 for time-and-a-half)."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "column name": "DiversityCodeID",
+    "description": "Unique internal identifier for a supplier diversity classification used across vendor records and procurement reporting within fleet operations."
+  },
+  {
+    "column name": "DiversityCode",
+    "description": "Abbreviated code representing the supplier diversity classification assigned to a vendor for compliance tracking, sourcing decisions, and analytics."
+  },
+  {
+    "column name": "DiversityCodeDesc",
+    "description": "Full description of the supplier diversity classification corresponding to the code, displayed on forms, reports, and user interfaces."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean indicator that the classification is retired or no longer valid for new assignments, supporting deactivation and filtering in user interfaces and reports."
+  }
+]

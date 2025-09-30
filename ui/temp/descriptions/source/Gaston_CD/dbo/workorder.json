@@ -1,0 +1,482 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the work order record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp when the record was created or last modified (YYYYMMDDHHMMSSmmm)."
+  },
+  {
+    "column name": "ctime",
+    "description": "Likely creation time of the work order (HHMMSS); confirm with SME."
+  },
+  {
+    "column name": "ttime",
+    "description": "Likely completion/target time for the work order (HHMMSS); confirm with SME."
+  },
+  {
+    "column name": "estimate",
+    "description": "Flag indicating this record is an estimate rather than an active work order."
+  },
+  {
+    "column name": "extwo",
+    "description": "Indicates the work order is handled externally by a vendor."
+  },
+  {
+    "column name": "scheduled",
+    "description": "Indicates the work order has scheduled start/end dates or times."
+  },
+  {
+    "column name": "survey_email_sent",
+    "description": "Indicates whether a post-service survey email was sent."
+  },
+  {
+    "column name": "cdate",
+    "description": "Likely creation date of the work order (YYYYMMDD); confirm with SME."
+  },
+  {
+    "column name": "tdate",
+    "description": "Likely completion/transaction date for the work order (YYYYMMDD); confirm with SME."
+  },
+  {
+    "column name": "scheddate",
+    "description": "Scheduled service date for the work order (YYYYMMDD or blank)."
+  },
+  {
+    "column name": "pono",
+    "description": "Purchase order number associated with the work."
+  },
+  {
+    "column name": "invno",
+    "description": "Invoice number linked to the work order (vendor or billing)."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description of the service request or job."
+  },
+  {
+    "column name": "legnum",
+    "description": "Likely legacy work order number from a prior system; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes detailing issues, requested work, and actions taken."
+  },
+  {
+    "column name": "updcount",
+    "description": "Number of times the work order record has been updated."
+  },
+  {
+    "column name": "laborhours",
+    "description": "Total technician labor hours charged to this work order."
+  },
+  {
+    "column name": "totcost",
+    "description": "Total cost of the work order, including labor, parts, and other charges."
+  },
+  {
+    "column name": "discount",
+    "description": "Discount percentage applied to the work order."
+  },
+  {
+    "column name": "disdollar",
+    "description": "Discount amount in currency applied to the work order."
+  },
+  {
+    "column name": "othercost",
+    "description": "Miscellaneous costs not captured as parts or labor."
+  },
+  {
+    "column name": "shopcost",
+    "description": "Internal shop charges or overhead attributed to the work order."
+  },
+  {
+    "column name": "downtime",
+    "description": "Equipment downtime in hours attributable to this work."
+  },
+  {
+    "column name": "hoursopen",
+    "description": "Elapsed hours the work order remained open."
+  },
+  {
+    "column name": "meterout2",
+    "description": "Checkout reading for secondary meter type 2 (e.g., engine hours). 99999999.9 indicates unknown."
+  },
+  {
+    "column name": "meterout",
+    "description": "Checkout odometer/primary meter reading when work completed."
+  },
+  {
+    "column name": "meter2",
+    "description": "Check-in reading for secondary meter type 2 (e.g., engine hours). 99999999.9 indicates unknown."
+  },
+  {
+    "column name": "meter",
+    "description": "Check-in odometer/primary meter reading when the work order opened."
+  },
+  {
+    "column name": "partcnt",
+    "description": "Count of distinct parts on this work order."
+  },
+  {
+    "column name": "wono",
+    "description": "User-facing work order number used for reference and printing."
+  },
+  {
+    "column name": "scan",
+    "description": "Likely reference to scanned attachments or barcode scans; confirm with SME."
+  },
+  {
+    "column name": "vendor",
+    "description": "ID of the external service provider associated with the work."
+  },
+  {
+    "column name": "vendorr",
+    "description": "Reference source (lookup entity/table) for the vendor ID."
+  },
+  {
+    "column name": "recalleq",
+    "description": "Indicates the equipment is subject to a recall."
+  },
+  {
+    "column name": "recalleqr",
+    "description": "Reference source for recalleq; confirm with SME."
+  },
+  {
+    "column name": "recall",
+    "description": "Indicates the work performed relates to a recall campaign."
+  },
+  {
+    "column name": "recallr",
+    "description": "Reference source for recall; confirm with SME."
+  },
+  {
+    "column name": "accident",
+    "description": "Indicates the work order is tied to an accident or incident."
+  },
+  {
+    "column name": "accidentr",
+    "description": "Reference source for accident; confirm with SME."
+  },
+  {
+    "column name": "leadtech",
+    "description": "Employee ID of the lead technician responsible for the job."
+  },
+  {
+    "column name": "leadtechr",
+    "description": "Reference source (e.g., employee table) for leadtech."
+  },
+  {
+    "column name": "wostatus",
+    "description": "Code representing the current status of the work order."
+  },
+  {
+    "column name": "wostatusr",
+    "description": "Reference source for interpreting wostatus."
+  },
+  {
+    "column name": "hierlvl9",
+    "description": "Organizational/asset hierarchy code (level 9) for reporting or security."
+  },
+  {
+    "column name": "hierlvl9r",
+    "description": "Reference source for interpreting hierlvl9."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Organizational/asset hierarchy code (level 1)."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Reference source for interpreting hierlvl1."
+  },
+  {
+    "column name": "part",
+    "description": "ID of a primary part associated with the work; usage may vary by configuration."
+  },
+  {
+    "column name": "partr",
+    "description": "Reference source for interpreting part; confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Equipment/vehicle ID the work order applies to."
+  },
+  {
+    "column name": "equipr",
+    "description": "Reference source for the equipment ID."
+  },
+  {
+    "column name": "worksource",
+    "description": "Originating source of work (e.g., equipment, PM, inspection)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system linked to this work order."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy system table name corresponding to legacykey."
+  },
+  {
+    "column name": "repair_cost",
+    "description": "Internal repair costs (labor/parts) excluding vendor_cost; confirm with SME."
+  },
+  {
+    "column name": "meterout4",
+    "description": "Checkout reading for meter type 4."
+  },
+  {
+    "column name": "meterout3",
+    "description": "Checkout reading for meter type 3."
+  },
+  {
+    "column name": "meter4",
+    "description": "Check-in reading for meter type 4. 99999999.9 or 0.0 may indicate unknown."
+  },
+  {
+    "column name": "meter3",
+    "description": "Check-in reading for meter type 3. 99999999.9 or 0.0 may indicate unknown."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority level of the work order; higher values may indicate greater urgency; confirm with SME."
+  },
+  {
+    "column name": "tech_work_hours",
+    "description": "Sum of direct technician work hours logged to this work order."
+  },
+  {
+    "column name": "tech_indirect_hours",
+    "description": "Technician indirect (non-wrench) hours attributed to this work order."
+  },
+  {
+    "column name": "tech_clocked_hours",
+    "description": "Total technician clocked time associated with this work order."
+  },
+  {
+    "column name": "scheduled_end_time",
+    "description": "Scheduled end time for the job (HHMMSS)."
+  },
+  {
+    "column name": "schedule_start_time",
+    "description": "Scheduled start time for the job (HHMMSS)."
+  },
+  {
+    "column name": "createdtime",
+    "description": "Time the work order record was created (HHMMSS)."
+  },
+  {
+    "column name": "reopen_workorder",
+    "description": "Indicates the work order was reopened after being closed."
+  },
+  {
+    "column name": "closed_flag",
+    "description": "Indicates the work order is closed."
+  },
+  {
+    "column name": "quick_closed",
+    "description": "Indicates the work order was closed using a quick-close function."
+  },
+  {
+    "column name": "create_labor_from_leadtech",
+    "description": "If true, automatically create a labor entry for the lead technician."
+  },
+  {
+    "column name": "skip_source_schedule_updater",
+    "description": "When true, skip updating the originating source’s schedule."
+  },
+  {
+    "column name": "statusprompttriggered",
+    "description": "Indicates a status-change prompt was shown to the user."
+  },
+  {
+    "column name": "fromestimateind",
+    "description": "Indicates the work order originated from an estimate."
+  },
+  {
+    "column name": "created_from_tech_view",
+    "description": "Indicates the work order was created from the technician portal/view."
+  },
+  {
+    "column name": "expdate",
+    "description": "Likely expiration date for the estimate or authorization; confirm with SME."
+  },
+  {
+    "column name": "scheduled_end_date",
+    "description": "Scheduled end date for the job (YYYYMMDD)."
+  },
+  {
+    "column name": "schedule_start_date",
+    "description": "Scheduled start date for the job (YYYYMMDD)."
+  },
+  {
+    "column name": "createddate",
+    "description": "Date the work order record was created (YYYYMMDD)."
+  },
+  {
+    "column name": "quick_closed_user",
+    "description": "User ID that performed the quick-close action."
+  },
+  {
+    "column name": "quick_closed_userr",
+    "description": "Reference source for quick_closed_user."
+  },
+  {
+    "column name": "workcode",
+    "description": "Code identifying the type or category of work performed."
+  },
+  {
+    "column name": "workcoder",
+    "description": "Reference source for interpreting workcode."
+  },
+  {
+    "column name": "purorder",
+    "description": "Linked purchase order ID/number associated with this work."
+  },
+  {
+    "column name": "purorderr",
+    "description": "Reference source for purorder."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Organizational/asset hierarchy code (level 2)."
+  },
+  {
+    "column name": "hierlvl2r",
+    "description": "Reference source for interpreting hierlvl2."
+  },
+  {
+    "column name": "repair_location",
+    "description": "Code representing the repair site or shop where work occurred."
+  },
+  {
+    "column name": "repair_locationr",
+    "description": "Reference source for repair_location."
+  },
+  {
+    "column name": "source_schedule",
+    "description": "ID of the scheduling source record linked to this job."
+  },
+  {
+    "column name": "source_scheduler",
+    "description": "Reference source for source_schedule."
+  },
+  {
+    "column name": "service_class",
+    "description": "Code denoting service class/type for reporting or SLAs."
+  },
+  {
+    "column name": "service_classr",
+    "description": "Reference source for service_class."
+  },
+  {
+    "column name": "fromestimate",
+    "description": "ID of the originating estimate linked to this work order."
+  },
+  {
+    "column name": "fromestimater",
+    "description": "Reference source for fromestimate."
+  },
+  {
+    "column name": "createdby",
+    "description": "User/employee ID who created the work order."
+  },
+  {
+    "column name": "createdbyr",
+    "description": "Reference source for createdby."
+  },
+  {
+    "column name": "road_call_after_hours",
+    "description": "Indicates the road call occurred outside normal business hours."
+  },
+  {
+    "column name": "road_call",
+    "description": "Indicates this work order is for a roadside service call."
+  },
+  {
+    "column name": "allow_equip_change",
+    "description": "Permission flag to allow changing the assigned equipment on this work order."
+  },
+  {
+    "column name": "road_call_time",
+    "description": "Time of the road call event (likely HHMMSS); confirm with SME."
+  },
+  {
+    "column name": "time_open",
+    "description": "Amount of time the work order remained open; unit depends on configuration; confirm with SME."
+  },
+  {
+    "column name": "days_open",
+    "description": "Number of calendar days the work order remained open."
+  },
+  {
+    "column name": "vendor_complaint",
+    "description": "Notes or flag indicating a complaint about the vendor; confirm with SME."
+  },
+  {
+    "column name": "substatus",
+    "description": "Sub-status code providing detail beneath the main status."
+  },
+  {
+    "column name": "substatusr",
+    "description": "Reference source for substatus."
+  },
+  {
+    "column name": "vendor_cost",
+    "description": "Amount charged by an external vendor for this work."
+  },
+  {
+    "column name": "initial_save_complete",
+    "description": "Indicates the initial save/validation of the work order is complete."
+  },
+  {
+    "column name": "vendor_filter_services",
+    "description": "Service type filter used when searching for vendors."
+  },
+  {
+    "column name": "vendor_filter_servicesr",
+    "description": "Reference source for vendor_filter_services."
+  },
+  {
+    "column name": "vendor_filter_state",
+    "description": "State/region filter used when searching for vendors."
+  },
+  {
+    "column name": "vendor_filter_stater",
+    "description": "Reference source for vendor_filter_state."
+  },
+  {
+    "column name": "vendor_filter_chain",
+    "description": "Vendor chain/affiliate filter used during vendor search."
+  },
+  {
+    "column name": "vendor_filter_chainr",
+    "description": "Reference source for vendor_filter_chain."
+  },
+  {
+    "column name": "driver",
+    "description": "Driver ID associated with the equipment or service request."
+  },
+  {
+    "column name": "driverr",
+    "description": "Reference source for driver."
+  },
+  {
+    "column name": "wo_opened",
+    "description": "Indicates the work order has been opened/activated."
+  },
+  {
+    "column name": "vehicle_pickup_email_sent",
+    "description": "Indicates whether a vehicle pickup notification email was sent."
+  },
+  {
+    "column name": "scheduled_source",
+    "description": "Identifier of the scheduler/originating system for planned work."
+  },
+  {
+    "column name": "scheduled_sourcer",
+    "description": "Reference source for scheduled_source."
+  }
+]

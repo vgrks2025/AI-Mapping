@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "row_no",
+    "description": "Unique internal identifier for the record in the FAQ table; typically used for referencing or sorting. Confirm whether it is strictly sequential and serves as the primary key with the SME."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Display sequence within its category; lower numbers likely appear first in lists. Used to order items under the same grouping; confirm behavior when duplicate values exist."
+  },
+  {
+    "column name": "groupnm",
+    "description": "Name of the category or topic that groups related entries for navigation or filtering. Likely corresponds to a functional module or product area; confirm controlled vocabulary with the SME."
+  },
+  {
+    "column name": "question",
+    "description": "End-user facing inquiry text displayed on help pages or support portals."
+  },
+  {
+    "column name": "answer",
+    "description": "Response text presented to users, providing guidance or steps that address the corresponding inquiry."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user or automated process that created the entry, for audit and ownership tracking."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the entry was created, stored in system time zone; used for audit trails and recency sorting."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user or process that last modified the entry; may be null if never updated."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification; null when no updates have occurred since creation."
+  }
+]

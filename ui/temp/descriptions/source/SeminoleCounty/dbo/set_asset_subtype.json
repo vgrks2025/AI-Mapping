@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "asset_type",
+    "description": "Alphanumeric code identifying the high-level asset category to which the subtype belongs; used to standardize fleet classification across the system."
+  },
+  {
+    "column name": "asset_subtype",
+    "description": "Code for the specific asset subtype within an asset_type, used for detailed classification, reporting, and validations; likely part of a composite key with asset_type; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable description of the asset subtype, typically detailing body type, configuration, and weight class, used for selection lists and reporting."
+  },
+  {
+    "column name": "add_by",
+    "description": "Identifier of the user account or automated process that created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created, in system time."
+  },
+  {
+    "column name": "upd_by",
+    "description": "Identifier of the user account or automated process that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record."
+  }
+]

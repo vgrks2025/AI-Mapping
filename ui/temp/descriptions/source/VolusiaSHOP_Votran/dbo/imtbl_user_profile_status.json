@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique internal identifier for a user profile status record."
+  },
+  {
+    "column name": "id",
+    "description": "Business code or name representing the user profile status used in application logic."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable description or label for the status shown in the UI and documentation."
+  },
+  {
+    "column name": "status_default",
+    "description": "Boolean flag indicating this status is the default assigned to new user profiles."
+  },
+  {
+    "column name": "hide_in_lookups",
+    "description": "Boolean flag indicating this status should be hidden from lookup lists and dropdowns."
+  },
+  {
+    "column name": "hide_in_reports_and_graphs",
+    "description": "Boolean flag to exclude this status from reports and analytics visualizations."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes providing context, usage guidance, or exceptions for the status."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this status record."
+  },
+  {
+    "column name": "deactivated",
+    "description": "Soft-delete flag indicating the status is inactive and should not be used."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last change performed by a user on this record; likely overlaps with audit fields; confirm with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier of the account that created this record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier of the account that last modified this record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when this record was last modified by a user."
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "column name": "id",
+    "description": "Unique identifier for this configuration record."
+  },
+  {
+    "column name": "def_state",
+    "description": "Default state or province prefilled on new work requests."
+  },
+  {
+    "column name": "def_city",
+    "description": "Default city prefilled on new work requests."
+  },
+  {
+    "column name": "wr_pattern",
+    "description": "Pattern or prefix used to generate work request numbers."
+  },
+  {
+    "column name": "last_wr_no",
+    "description": "Most recently assigned sequential work request number used to determine the next."
+  },
+  {
+    "column name": "promise_days",
+    "description": "Default target completion window in days promised to the requester."
+  },
+  {
+    "column name": "approval_required",
+    "description": "Flag indicating whether a submitted request must be approved before work proceeds."
+  },
+  {
+    "column name": "duplicates_radius_auto",
+    "description": "Distance threshold used by automatic duplicate detection for nearby requests; confirm units with SME."
+  },
+  {
+    "column name": "duplicates_period",
+    "description": "Time window used to consider earlier requests as potential duplicates."
+  },
+  {
+    "column name": "duplicates_auto_mode",
+    "description": "Rule for how detected duplicates are automatically handled (e.g., flag, merge, close); confirm behavior with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created this configuration record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this configuration record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated this configuration."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent configuration update."
+  },
+  {
+    "column name": "default_wr_group",
+    "description": "Default maintenance or operations group assigned to new work requests."
+  },
+  {
+    "column name": "tmp_approval_reqd",
+    "description": "Message template used to notify that approval is required; confirm audience with SME."
+  },
+  {
+    "column name": "tmp_closed",
+    "description": "Message template for a closure notification (scope may differ from tmp_wr_closed; confirm with SME)."
+  },
+  {
+    "column name": "tmp_created",
+    "description": "Message template confirming a new work request was created."
+  },
+  {
+    "column name": "tmp_denied",
+    "description": "Message template informing that a request was denied."
+  },
+  {
+    "column name": "tmp_promise_date_change",
+    "description": "Message template notifying a change to the promised completion date."
+  },
+  {
+    "column name": "tmp_password_recovery",
+    "description": "Message template sent for password reset or recovery."
+  },
+  {
+    "column name": "tmp_supervisor",
+    "description": "Message template used for supervisor notifications; confirm exact triggers with SME."
+  },
+  {
+    "column name": "tmp_wo_created",
+    "description": "Message template sent when a work order is created from a request."
+  },
+  {
+    "column name": "allow_anonymous",
+    "description": "Setting that permits submitting requests without authentication."
+  },
+  {
+    "column name": "tmp_survey",
+    "description": "Message template inviting the requester to complete a satisfaction survey."
+  },
+  {
+    "column name": "survey_banner_url",
+    "description": "URL of the image displayed as the banner on the survey."
+  },
+  {
+    "column name": "tmp_operation_selected",
+    "description": "Message template sent when an operation/location is selected on a request; confirm event semantics with SME."
+  },
+  {
+    "column name": "tmp_issue_selected",
+    "description": "Message template sent when an issue/category is selected; confirm event semantics with SME."
+  },
+  {
+    "column name": "tmp_wr_assigned",
+    "description": "Message template for notifying assignment of the request to a technician or team."
+  },
+  {
+    "column name": "notify_operation_selected",
+    "description": "Notification recipients or rule for the operation-selected event; confirm storage format with SME."
+  },
+  {
+    "column name": "notify_issue_selected",
+    "description": "Notification recipients or rule for the issue-selected event; confirm storage format with SME."
+  },
+  {
+    "column name": "notify_wr_assigned",
+    "description": "Notification recipients or rule when a request is assigned; confirm storage format with SME."
+  },
+  {
+    "column name": "tmp_wr_assigned_sup",
+    "description": "Message template for assignment notifications sent to the supervisor."
+  },
+  {
+    "column name": "tmp_wr_closed",
+    "description": "Message template for notifying the requester that the work request is closed."
+  },
+  {
+    "column name": "notify_wr_assigned_sup",
+    "description": "Notification recipients or rule when a supervisor is assigned; confirm storage format with SME."
+  },
+  {
+    "column name": "notify_wr_closed",
+    "description": "Notification recipients or rule when a request is closed; confirm storage format with SME."
+  },
+  {
+    "column name": "req_request_add_only",
+    "description": "If enabled, users can add new requests but cannot edit existing ones."
+  },
+  {
+    "column name": "req_comments_add_only",
+    "description": "If enabled, users may append comments but cannot modify previous comments."
+  },
+  {
+    "column name": "req_notes_add_only",
+    "description": "If enabled, users may append notes but cannot edit existing notes."
+  },
+  {
+    "column name": "tmp_on_req_comments_change",
+    "description": "Message template used when request comments change."
+  },
+  {
+    "column name": "tmp_on_req_notes_change",
+    "description": "Message template used when request notes change."
+  },
+  {
+    "column name": "notify_on_req_comments_change",
+    "description": "Notification recipients or rule when request comments change; confirm storage format with SME."
+  },
+  {
+    "column name": "notify_on_req_notes_change",
+    "description": "Notification recipients or rule when request notes change; confirm storage format with SME."
+  },
+  {
+    "column name": "tmp_on_status_change",
+    "description": "Message template used when a request’s status changes."
+  },
+  {
+    "column name": "notify_on_status_change",
+    "description": "Notification recipients or rule when a request’s status changes; confirm storage format with SME."
+  },
+  {
+    "column name": "survey_delay_days",
+    "description": "Number of days to wait after completion before sending the survey."
+  },
+  {
+    "column name": "survey_header",
+    "description": "Header text displayed at the top of the survey."
+  },
+  {
+    "column name": "logo_attach_id",
+    "description": "Reference to the stored logo image attachment used in the requester portal or emails."
+  },
+  {
+    "column name": "auto_create_wo_flag",
+    "description": "Controls whether a work order is automatically created from a new request."
+  },
+  {
+    "column name": "notify_anonymous",
+    "description": "Notification recipients or rule for anonymously submitted requests; confirm storage format with SME."
+  },
+  {
+    "column name": "skip_preview_page",
+    "description": "If enabled, bypasses the preview step during request submission."
+  },
+  {
+    "column name": "repeat_notify_days1",
+    "description": "Days after the initial event to send the first reminder notification; confirm event with SME."
+  },
+  {
+    "column name": "repeat_notify_days2",
+    "description": "Days after the first reminder to send the second reminder; confirm event with SME."
+  },
+  {
+    "column name": "tmp_registration",
+    "description": "Message template sent for user registration or account activation."
+  },
+  {
+    "column name": "tmp_wr_assigned_repeat",
+    "description": "Message template for repeated assignment reminder notifications."
+  },
+  {
+    "column name": "show_approve",
+    "description": "Controls whether an Approve action is available in the requester portal."
+  },
+  {
+    "column name": "show_deny",
+    "description": "Controls whether a Deny action is available in the requester portal."
+  },
+  {
+    "column name": "min_pw_length",
+    "description": "Minimum allowed password length for requester accounts."
+  },
+  {
+    "column name": "pw_complexity",
+    "description": "Password complexity requirement code (e.g., mix of cases, digits, symbols); confirm encoding with SME."
+  },
+  {
+    "column name": "max_bad_logins",
+    "description": "Number of failed login attempts allowed before account lockout."
+  },
+  {
+    "column name": "pw_allow_doubles",
+    "description": "Policy flag indicating whether consecutive identical characters are permitted in passwords."
+  }
+]

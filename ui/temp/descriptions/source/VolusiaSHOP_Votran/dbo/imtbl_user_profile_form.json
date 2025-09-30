@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Unique identifier for a saved form or grid preference record associated with a user profile."
+  },
+  {
+    "column name": "user_profile",
+    "description": "Reference to the user profile that owns these form or grid preferences (foreign key)."
+  },
+  {
+    "column name": "id",
+    "description": "Identifier of the application form, sub-form, or grid that the stored preferences apply to."
+  },
+  {
+    "column name": "settings",
+    "description": "Serialized configuration for layout and columns (position, size, order, visibility). Used to restore the user’s UI layout; format is vendor-specific and likely encoded; confirm with SME."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Server-side timestamp when this preference record was last updated."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp captured from the user/client context at last update; may differ from server time; confirm with SME."
+  },
+  {
+    "column name": "print_columns",
+    "description": "Comma-separated list of fields included by default when printing the associated grid or form."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the application user who originally created this preference record."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when this preference record was initially created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the application user who most recently updated this preference record."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent update to this preference record."
+  }
+]

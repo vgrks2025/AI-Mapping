@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for this batch exception record."
+  },
+  {
+    "column name": "work_order",
+    "description": "Identifier of the maintenance work order associated with the exception encountered during batch processing."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes describing the exception or processing issue for the maintenance work order."
+  },
+  {
+    "column name": "user_id",
+    "description": "User account that recorded the exception or performed the most recent action on this record."
+  },
+  {
+    "column name": "last_modified",
+    "description": "Timestamp when this exception record was last updated in the system; used for audit and troubleshooting."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp when a user last updated this record, distinct from automated updates; likely redundant with system update time; confirm with SME."
+  },
+  {
+    "column name": "batch_type",
+    "description": "Code indicating which batch process category created or flagged the exception; values are system-defined. Confirm code list with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User account that originally created the exception record (audit field)."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the exception record was first created (audit field)."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User account that most recently modified the record (audit field), if tracked separately from system processes."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-driven modification (audit field); may duplicate the general last update time; confirm behavior with SME."
+  }
+]

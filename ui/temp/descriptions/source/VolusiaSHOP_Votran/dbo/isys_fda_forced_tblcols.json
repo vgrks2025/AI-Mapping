@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "table_name",
+    "description": "Database table identifier targeted by this configuration, indicating which entity the column rule or metadata applies to."
+  },
+  {
+    "column name": "col_name",
+    "description": "Column identifier within the referenced table that the rule or metadata applies to, likely marking it as required, enforced, or specially handled; confirm with SME."
+  }
+]

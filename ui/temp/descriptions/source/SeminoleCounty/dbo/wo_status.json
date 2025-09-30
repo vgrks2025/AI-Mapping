@@ -1,0 +1,78 @@
+[
+  {
+    "column name": "wo_no",
+    "description": "Unique identifier of the work order this status record relates to."
+  },
+  {
+    "column name": "row_no",
+    "description": "Sequence number of this status history record within the work order, used for chronological ordering."
+  },
+  {
+    "column name": "upd_code",
+    "description": "Standardized code representing the work order’s lifecycle status at this step."
+  },
+  {
+    "column name": "event_code",
+    "description": "Type of audit event recorded for this entry."
+  },
+  {
+    "column name": "email_flag",
+    "description": "Likely indicates whether an email notification was triggered for this status event; confirm with SME."
+  },
+  {
+    "column name": "email_add",
+    "description": "Recipient email address(es) used for the notification related to this event; confirm with SME."
+  },
+  {
+    "column name": "hold_flag",
+    "description": "Indicator that the work order is on hold as of this status entry."
+  },
+  {
+    "column name": "hold_rqby",
+    "description": "User or party who requested the hold for the work order."
+  },
+  {
+    "column name": "upd_notes",
+    "description": "Free-text notes describing the change or context for this status entry."
+  },
+  {
+    "column name": "assign_to",
+    "description": "Person or team responsible for the work order at this step."
+  },
+  {
+    "column name": "add_by",
+    "description": "User ID that created this status history entry."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time this status history entry was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User ID that last modified this status history entry."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time this status history entry was last modified."
+  },
+  {
+    "column name": "user_fullname",
+    "description": "Full name of the user associated with this entry; confirm with SME."
+  },
+  {
+    "column name": "upd_colname",
+    "description": "Name of the field that changed as part of this event; confirm with SME."
+  },
+  {
+    "column name": "old_value",
+    "description": "Previous value of the changed field before this event."
+  },
+  {
+    "column name": "new_value",
+    "description": "New value of the changed field after this event."
+  },
+  {
+    "column name": "comments",
+    "description": "Additional free-text comments associated with this status event."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated primary key for this work order record; unique and immutable for internal linking."
+  },
+  {
+    "column name": "id",
+    "description": "Internal identifier for the work order; may duplicate the primary key or be a legacy key; confirm with SME."
+  },
+  {
+    "column name": "wo_num",
+    "description": "Business work order number used on screens, prints, and communications; unique per work order."
+  },
+  {
+    "column name": "description",
+    "description": "Free-text summary of the issue, repair, or service requested/performed."
+  },
+  {
+    "column name": "schedule",
+    "description": "Identifier of the maintenance schedule or calendar entry associated with this work; likely a foreign key."
+  },
+  {
+    "column name": "work_order_type",
+    "description": "Code indicating the category of work (e.g., corrective, preventive, inspection); drives routing and rules."
+  },
+  {
+    "column name": "status",
+    "description": "Lifecycle status code of the work order (e.g., open, in progress, completed); used for workflow and reporting."
+  },
+  {
+    "column name": "calculated_priority",
+    "description": "System-calculated priority value derived from rules/SLAs to sequence work."
+  },
+  {
+    "column name": "priority",
+    "description": "User-assigned priority that can override the calculated priority; confirm behavior with SME."
+  },
+  {
+    "column name": "date_started",
+    "description": "Date/time work actually began."
+  },
+  {
+    "column name": "date_added",
+    "description": "Date/time the work order was created in the system."
+  },
+  {
+    "column name": "date_scheduled",
+    "description": "Planned start date/time for performing the work."
+  },
+  {
+    "column name": "date_needed",
+    "description": "Requested due-by date/time when the requester needs completion."
+  },
+  {
+    "column name": "date_printed",
+    "description": "Date/time the work order document was printed."
+  },
+  {
+    "column name": "date_completed",
+    "description": "Date/time the work was finished and closed."
+  },
+  {
+    "column name": "date_cancelled",
+    "description": "Date/time the work order was canceled."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Identifier of the supervising person responsible for this work order."
+  },
+  {
+    "column name": "project",
+    "description": "Associated project or capital program the work is charged to; likely a project code."
+  },
+  {
+    "column name": "reason",
+    "description": "Reason code explaining why the work was initiated (e.g., breakdown, inspection); used for analysis."
+  },
+  {
+    "column name": "f_delay",
+    "description": "Indicator or code for recorded delays on the work order; confirm definition and values with SME."
+  },
+  {
+    "column name": "default_gl",
+    "description": "Flag indicating whether to charge costs to the default general ledger account."
+  },
+  {
+    "column name": "gl_account",
+    "description": "General ledger account to which labor, parts, and costs for this work will be charged."
+  },
+  {
+    "column name": "gl_split",
+    "description": "Definition for splitting costs across multiple GL accounts; may reference a split template; confirm format."
+  },
+  {
+    "column name": "assigned_by",
+    "description": "Identifier of the person who assigned the work."
+  },
+  {
+    "column name": "reference",
+    "description": "External reference or related document number linked to this work order."
+  },
+  {
+    "column name": "skill",
+    "description": "Required trade/skill for the assignment (e.g., mechanic, electrician)."
+  },
+  {
+    "column name": "shift",
+    "description": "Work shift code for scheduling resources (e.g., day, night)."
+  },
+  {
+    "column name": "requested_by",
+    "description": "Name or identifier of the person who requested the work."
+  },
+  {
+    "column name": "requester_phone",
+    "description": "Contact phone or extension for the requester."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Identifier of the warehouse supplying parts/materials for this work order."
+  },
+  {
+    "column name": "from_work_request",
+    "description": "Flag indicating the work order was created from a submitted work request."
+  },
+  {
+    "column name": "schedule_asset_procedure",
+    "description": "Identifier of the asset maintenance procedure tied to the scheduled task; confirm with SME."
+  },
+  {
+    "column name": "use_remaining_parts",
+    "description": "Flag to carry forward remaining reserved parts to subsequent work; confirm behavior."
+  },
+  {
+    "column name": "use_remaining_misc_costs",
+    "description": "Flag to carry forward remaining miscellaneous costs to subsequent work; confirm behavior."
+  },
+  {
+    "column name": "use_remaining_res",
+    "description": "Flag to carry forward remaining resource reservations or allocations; confirm behavior."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this record."
+  },
+  {
+    "column name": "building",
+    "description": "Building or site code where the work is performed."
+  },
+  {
+    "column name": "f_floor",
+    "description": "Floor identifier within the building for the work location; naming suggests facility floor."
+  },
+  {
+    "column name": "room",
+    "description": "Room or specific area within the facility where the work occurs."
+  },
+  {
+    "column name": "problem_type",
+    "description": "Categorized problem or failure type reported for this work order."
+  },
+  {
+    "column name": "work_authorizer",
+    "description": "Person who approved or authorized the work to proceed."
+  },
+  {
+    "column name": "wo_id",
+    "description": "Alternate work order identifier used by the system; may mirror the business number; confirm with SME."
+  },
+  {
+    "column name": "change_gl",
+    "description": "Flag permitting GL account changes on this work order."
+  },
+  {
+    "column name": "date_needed_manually_entered",
+    "description": "Flag indicating the needed-by date was manually entered rather than system-derived."
+  },
+  {
+    "column name": "customer",
+    "description": "Customer or internal cost center to be served/billed for this work; confirm scope."
+  },
+  {
+    "column name": "combine_billing",
+    "description": "Flag to consolidate this work order’s charges with others on a single invoice."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp of the last modification performed by a user (auditable user activity)."
+  },
+  {
+    "column name": "date_scheduled_original",
+    "description": "Original scheduled date/time before any rescheduling."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "User identifier who created the work order."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the creating user saved the work order."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "User identifier who last modified the work order."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp when the last modifying user saved changes."
+  }
+]

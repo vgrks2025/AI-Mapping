@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "pkey",
+    "description": "Surrogate primary key uniquely identifying each project record."
+  },
+  {
+    "column name": "project_name",
+    "description": "Business or module name of the project this localization entry belongs to."
+  },
+  {
+    "column name": "vss_location",
+    "description": "Reference path to the source location of the project’s data (e.g., database/table/column or source-control path); used to extract strings. Likely a hierarchical locator; confirm with SME."
+  },
+  {
+    "column name": "lingual_data_type",
+    "description": "Enumerated code indicating the type of localized content or source (table column, view, resource, etc.). Mapping of codes to types should be confirmed with SMEs."
+  },
+  {
+    "column name": "namespace",
+    "description": "Logical namespace or code package used to group resources for this project, often aligning with application namespaces."
+  },
+  {
+    "column name": "process_txt",
+    "description": "Boolean flag indicating whether the text for this project should be processed for localization/export (1) or skipped (0)."
+  },
+  {
+    "column name": "filter",
+    "description": "Optional SQL filter clause applied when selecting records for this project’s extraction or processing."
+  }
+]

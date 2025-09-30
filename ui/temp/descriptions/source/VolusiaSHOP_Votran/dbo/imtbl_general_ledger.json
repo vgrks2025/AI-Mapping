@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for each ledger account row; used as the primary key for joins and auditing."
+  },
+  {
+    "column name": "id",
+    "description": "Structured general ledger account code, typically combining company/cost center and account segments and optional subcodes; used on postings and reports to categorize financial activity."
+  },
+  {
+    "column name": "description",
+    "description": "Human-readable title of the account code shown on financial reports and selections."
+  },
+  {
+    "column name": "general_ledger_status",
+    "description": "Numeric status flag indicating whether the account is active, inactive, or closed; code values are system-defined; confirm with SME."
+  },
+  {
+    "column name": "account_type",
+    "description": "Code indicating the account’s classification (e.g., asset, liability, revenue, expense) for financial statements and posting rules; numeric mapping varies by implementation; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Freeform notes about the account’s intended use, such as fuel type, program, or restrictions; not used in posting logic."
+  },
+  {
+    "column name": "last_modified",
+    "description": "System timestamp of the most recent update to this row, regardless of who made the change; used for synchronization and auditing."
+  },
+  {
+    "column name": "user_last_modified",
+    "description": "Timestamp recorded by the user-facing application for the last change to this row; may mirror the system timestamp; confirm semantics with SME."
+  },
+  {
+    "column name": "user_id_created",
+    "description": "Identifier of the user who created the row, for traceability and compliance."
+  },
+  {
+    "column name": "user_date_created",
+    "description": "Timestamp when the row was first created."
+  },
+  {
+    "column name": "user_id_modified",
+    "description": "Identifier of the user who last modified the row."
+  },
+  {
+    "column name": "user_date_modified",
+    "description": "Timestamp of the most recent user-initiated modification."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "column name": "AssetRoleID",
+    "description": "System-generated unique key for each asset role type; used to join and reference role definitions across the application."
+  },
+  {
+    "column name": "AssetRoleDesc",
+    "description": "Human-readable title or description of the relationship or responsibility associated with an asset, used in user interfaces and reports."
+  },
+  {
+    "column name": "IsObsolete",
+    "description": "Boolean flag indicating the role type is retired or superseded; prevents new assignments while preserving historical records."
+  }
+]

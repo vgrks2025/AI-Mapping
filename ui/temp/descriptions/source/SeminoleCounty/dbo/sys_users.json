@@ -1,0 +1,414 @@
+[
+  {
+    "column name": "user_name",
+    "description": "Unique user ID used to log in and identify the account across the system."
+  },
+  {
+    "column name": "email_add",
+    "description": "Primary email address for the account, used for contact and notifications."
+  },
+  {
+    "column name": "iw_date_from",
+    "description": "Start of the user’s in-service/effective period for system access; likely employment or availability start. Confirm with SME."
+  },
+  {
+    "column name": "iw_date_thru",
+    "description": "End of the user’s in-service/effective period for system access; likely employment or availability end. Confirm with SME."
+  },
+  {
+    "column name": "last_pw_chg",
+    "description": "Timestamp when the user last changed their password."
+  },
+  {
+    "column name": "account_expire_date",
+    "description": "Date the account automatically expires if not renewed."
+  },
+  {
+    "column name": "user_fullname",
+    "description": "Complete display name for the user."
+  },
+  {
+    "column name": "force_pw_chg",
+    "description": "Flag requiring the user to change password at next sign-in."
+  },
+  {
+    "column name": "old_pw_1",
+    "description": "Most recent prior password (stored as hash) to prevent reuse; confirm with SME."
+  },
+  {
+    "column name": "old_pw_2",
+    "description": "Second most recent prior password (stored as hash) to prevent reuse; confirm with SME."
+  },
+  {
+    "column name": "old_pw_3",
+    "description": "Third most recent prior password (stored as hash) to prevent reuse; confirm with SME."
+  },
+  {
+    "column name": "user_domains",
+    "description": "Security/authentication domains this user belongs to or may authenticate against; confirm with SME."
+  },
+  {
+    "column name": "craft_id",
+    "description": "Identifier linking the user to a specific labor craft/technician profile; confirm with SME."
+  },
+  {
+    "column name": "acp_from",
+    "description": "Access control policy effective start date for this user; confirm with SME."
+  },
+  {
+    "column name": "acp_to",
+    "description": "Access control policy effective end date for this user; confirm with SME."
+  },
+  {
+    "column name": "sig_enrolled",
+    "description": "Indicates whether the user is enrolled for electronic signature."
+  },
+  {
+    "column name": "sig_name",
+    "description": "Name/label of the user’s electronic signature as displayed on approvals."
+  },
+  {
+    "column name": "sig_enroll_date",
+    "description": "Date the user enrolled for electronic signature."
+  },
+  {
+    "column name": "bpw",
+    "description": "Likely backup PIN/password or biometric credential used for approvals; confirm with SME."
+  },
+  {
+    "column name": "cell_phone",
+    "description": "Mobile phone number for contacting the user."
+  },
+  {
+    "column name": "my_rights",
+    "description": "Direct permissions explicitly assigned to the user (before role inheritance)."
+  },
+  {
+    "column name": "eff_rights",
+    "description": "Effective permissions after combining direct rights, roles, and group inheritance."
+  },
+  {
+    "column name": "add_by",
+    "description": "User or process that created the account record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date and time the account record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User or process that last updated the account record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date and time the account record was last updated."
+  },
+  {
+    "column name": "active_flag",
+    "description": "Indicates whether the account is active and permitted to sign in."
+  },
+  {
+    "column name": "default_mgmt_unit",
+    "description": "Default management unit/organization context applied to the user; confirm with SME."
+  },
+  {
+    "column name": "asset_types",
+    "description": "Asset categories the user is permitted to view or work with; confirm with SME."
+  },
+  {
+    "column name": "by_text",
+    "description": "Preference to receive system notifications via text/SMS."
+  },
+  {
+    "column name": "by_in_email",
+    "description": "Preference to receive notifications via internal email."
+  },
+  {
+    "column name": "by_ext_email",
+    "description": "Preference to receive notifications via external email."
+  },
+  {
+    "column name": "email_autosignature",
+    "description": "Automatic signature block appended to emails sent by the system for this user."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Workgroup/team the user belongs to."
+  },
+  {
+    "column name": "warehouse",
+    "description": "Default storeroom/warehouse associated with the user for inventory transactions."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Identifier of the user’s supervisor within the system."
+  },
+  {
+    "column name": "show_batches",
+    "description": "Preference to display batch-processing pages or lists; confirm with SME."
+  },
+  {
+    "column name": "m_color_theme",
+    "description": "Preferred color theme for the application (often mobile)."
+  },
+  {
+    "column name": "m_remember_wo_state",
+    "description": "Preference to remember the last Work Order screen/filter state between sessions (mobile)."
+  },
+  {
+    "column name": "show_iv_batches",
+    "description": "Preference to display inventory batch screens or lists."
+  },
+  {
+    "column name": "show_po_batches",
+    "description": "Preference to display purchase order batch screens or lists."
+  },
+  {
+    "column name": "m_data_access",
+    "description": "Mobile data access level or scope (e.g., offline sync vs online); confirm with SME."
+  },
+  {
+    "column name": "craft_trade",
+    "description": "Labor trade/specialty associated with the user (e.g., mechanic, electrician)."
+  },
+  {
+    "column name": "std_hrs",
+    "description": "Standard work hours used for scheduling or labor costing; confirm unit (daily/weekly) with SME."
+  },
+  {
+    "column name": "craft_rate",
+    "description": "Standard hourly labor rate for this user’s craft."
+  },
+  {
+    "column name": "craft_iv_rate",
+    "description": "Internal/charge-out labor rate used on invoices or internal billing; confirm definition with SME."
+  },
+  {
+    "column name": "craft_udf1",
+    "description": "User-defined field for additional craft-related information; meaning set by business configuration."
+  },
+  {
+    "column name": "craft_udf2",
+    "description": "User-defined field for additional craft-related information; meaning set by business configuration."
+  },
+  {
+    "column name": "craft_udf3",
+    "description": "User-defined field for additional craft-related information; meaning set by business configuration."
+  },
+  {
+    "column name": "craft_udf4",
+    "description": "User-defined field for additional craft-related information; meaning set by business configuration."
+  },
+  {
+    "column name": "craft_udf5",
+    "description": "User-defined field for additional craft-related information; meaning set by business configuration."
+  },
+  {
+    "column name": "inspector_flag",
+    "description": "Indicates the user is authorized to perform inspections."
+  },
+  {
+    "column name": "approve_flag",
+    "description": "Indicates the user has approval authority for workflows or transactions."
+  },
+  {
+    "column name": "craft_flag",
+    "description": "Indicates the user is a labor resource/craft worker."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Associated vendor identifier when the user represents or is linked to an external vendor."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to documents or media attached to the user profile; confirm with SME."
+  },
+  {
+    "column name": "driver_flag",
+    "description": "Indicates the user is designated as a driver."
+  },
+  {
+    "column name": "two_factor_auth_reqd",
+    "description": "Indicates whether two-factor authentication is required for this account."
+  },
+  {
+    "column name": "two_factor_auth_pw",
+    "description": "Seed, backup code, or credential used for two-factor authentication; confirm storage purpose with SME."
+  },
+  {
+    "column name": "two_factor_auth_issued",
+    "description": "Date/time two-factor credentials were issued or activated."
+  },
+  {
+    "column name": "wp_year",
+    "description": "Planning or work program year associated with this user; confirm with SME."
+  },
+  {
+    "column name": "no_of_bad_logins",
+    "description": "Count of consecutive failed sign-in attempts."
+  },
+  {
+    "column name": "mobile_user_settings",
+    "description": "Serialized mobile app settings and preferences specific to this user."
+  },
+  {
+    "column name": "may_edit_notifications",
+    "description": "Indicates whether the user may modify their notification rules."
+  },
+  {
+    "column name": "sso_session_id",
+    "description": "Identifier of the user’s current or last Single Sign-On session."
+  },
+  {
+    "column name": "sso_user",
+    "description": "Indicates the account authenticates via Single Sign-On rather than local credentials; confirm with SME."
+  },
+  {
+    "column name": "sso_last_login_type",
+    "description": "Code indicating the most recent authentication method (e.g., database, SSO, domain)."
+  },
+  {
+    "column name": "may_edit_userdetails",
+    "description": "Indicates whether the user may edit their own profile details."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Flag or reference indicating the user is a crew leader or their assigned leader; confirm with SME."
+  },
+  {
+    "column name": "dept_id",
+    "description": "Department identifier the user belongs to."
+  },
+  {
+    "column name": "start_date",
+    "description": "Employment or assignment start date."
+  },
+  {
+    "column name": "end_date",
+    "description": "Employment or assignment end date."
+  },
+  {
+    "column name": "next_of_kin",
+    "description": "Name of the user’s primary emergency contact."
+  },
+  {
+    "column name": "work_phone",
+    "description": "Work/office phone number."
+  },
+  {
+    "column name": "license_no",
+    "description": "Driver’s license or professional license number."
+  },
+  {
+    "column name": "license_exp_dt",
+    "description": "Expiration date of the recorded license."
+  },
+  {
+    "column name": "immunization",
+    "description": "Notes or codes indicating immunization status; confirm coding with SME."
+  },
+  {
+    "column name": "badge",
+    "description": "Employee badge or access card number."
+  },
+  {
+    "column name": "comments1",
+    "description": "Free-text notes field for additional user information."
+  },
+  {
+    "column name": "comments2",
+    "description": "Additional free-text notes field for user information."
+  },
+  {
+    "column name": "gender",
+    "description": "Recorded gender for the user, for HR or reporting purposes."
+  },
+  {
+    "column name": "allergies",
+    "description": "Allergy information for safety or medical reporting."
+  },
+  {
+    "column name": "birth_dt",
+    "description": "Date of birth."
+  },
+  {
+    "column name": "address1",
+    "description": "Primary street address."
+  },
+  {
+    "column name": "address2",
+    "description": "Secondary address line (apartment, suite, etc.)."
+  },
+  {
+    "column name": "city",
+    "description": "City of the user’s address."
+  },
+  {
+    "column name": "state",
+    "description": "State/province of the address."
+  },
+  {
+    "column name": "zip",
+    "description": "Postal/ZIP code of the address."
+  },
+  {
+    "column name": "emergency_phone",
+    "description": "Phone number for the emergency contact."
+  },
+  {
+    "column name": "personal_cell_phone",
+    "description": "Personal mobile phone number."
+  },
+  {
+    "column name": "relation",
+    "description": "Relationship of the emergency contact to the user."
+  },
+  {
+    "column name": "first_name",
+    "description": "Given name."
+  },
+  {
+    "column name": "last_name",
+    "description": "Family/surname."
+  },
+  {
+    "column name": "title",
+    "description": "Job title or position."
+  },
+  {
+    "column name": "can_be_assigned",
+    "description": "Indicates whether the user can be assigned to work orders or tasks."
+  },
+  {
+    "column name": "can_be_supervisor",
+    "description": "Indicates whether the user can act as a supervisor on work."
+  },
+  {
+    "column name": "can_be_crew_leader",
+    "description": "Indicates whether the user can act as a crew leader."
+  },
+  {
+    "column name": "printer_name",
+    "description": "Default printer associated with the user."
+  },
+  {
+    "column name": "autofill_lem_labor_id",
+    "description": "Default labor identifier to prefill on LEM (Labor/Equipment/Materials) entries; confirm with SME."
+  },
+  {
+    "column name": "sso_user_name",
+    "description": "Username used when authenticating via Single Sign-On."
+  },
+  {
+    "column name": "autofill_lem_labor_m",
+    "description": "Default value to prefill for LEM labor (field 'm'); likely minutes or Monday hours. Confirm with SME."
+  },
+  {
+    "column name": "autofill_lem_labor_d",
+    "description": "Default value to prefill for LEM labor (field 'd'); likely daily hours. Confirm with SME."
+  },
+  {
+    "column name": "show_online_search_mobile",
+    "description": "Preference to enable live online search within the mobile app."
+  }
+]

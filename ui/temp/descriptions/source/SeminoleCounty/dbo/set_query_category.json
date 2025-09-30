@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "query_category",
+    "description": "Label identifying the functional grouping for saved queries, used to organize and filter them."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable explanation of the category’s purpose or scope."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created the category record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent modification."
+  },
+  {
+    "column name": "reserved",
+    "description": "Y/N indicator marking system-reserved entries that shouldn’t be altered; likely restricts edits and deletion; confirm with SME."
+  }
+]

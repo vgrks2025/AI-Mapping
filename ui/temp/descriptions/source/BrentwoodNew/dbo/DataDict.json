@@ -1,0 +1,230 @@
+[
+  {
+    "column name": "DataDictPK",
+    "description": "Unique identifier for this data dictionary record describing a specific table column in the application."
+  },
+  {
+    "column name": "TABLE_CATALOG",
+    "description": "Name of the database catalog that contains the referenced table."
+  },
+  {
+    "column name": "TABLE_SCHEMA",
+    "description": "Logical schema owning the referenced table."
+  },
+  {
+    "column name": "TABLE_NAME",
+    "description": "Name of the table the metadata row describes."
+  },
+  {
+    "column name": "COLUMN_NAME",
+    "description": "Name of the column being described."
+  },
+  {
+    "column name": "ORDINAL_POSITION",
+    "description": "Position of the column within the table’s column order."
+  },
+  {
+    "column name": "COLUMN_DEFAULT",
+    "description": "Default value applied by the database when no value is provided."
+  },
+  {
+    "column name": "IS_NULLABLE",
+    "description": "Indicates whether the column can store null (blank) values."
+  },
+  {
+    "column name": "DATA_TYPE",
+    "description": "Database data type assigned to the column."
+  },
+  {
+    "column name": "CHARACTER_MAXIMUM_LENGTH",
+    "description": "Maximum allowed length for character-based columns; not applicable for non-character types."
+  },
+  {
+    "column name": "FIELD_LABEL",
+    "description": "User-facing caption for the field used in forms, lists, or reports."
+  },
+  {
+    "column name": "HOTKEY",
+    "description": "Optional keyboard shortcut associated with the field in the user interface; likely legacy."
+  },
+  {
+    "column name": "FIELD_SIZE",
+    "description": "Suggested input control width/size for the field on forms; UI hint."
+  },
+  {
+    "column name": "TEMPLATE_DISPLAY",
+    "description": "Controls whether the field is shown in default templates or grid views."
+  },
+  {
+    "column name": "TEMPLATE_ORDER",
+    "description": "Display sequence for the field within a template or grid."
+  },
+  {
+    "column name": "TEMPLATE_ALIGN",
+    "description": "Text alignment for the field when displayed (e.g., left, center, right)."
+  },
+  {
+    "column name": "REQUIRED",
+    "description": "Business rule flag indicating the field must be populated to save records."
+  },
+  {
+    "column name": "LOOKUP_TABLE",
+    "description": "Identifies whether the field’s values come from a reference/lookup list."
+  },
+  {
+    "column name": "LOOKUP_TABLE_NAME",
+    "description": "Name of the reference table or list supplying valid values."
+  },
+  {
+    "column name": "FK_LOOKUP",
+    "description": "Foreign key or join key used to link the field to its lookup source."
+  },
+  {
+    "column name": "ONCHANGE_JS",
+    "description": "Client-side script to execute when the field’s value changes; confirm usage with SME."
+  },
+  {
+    "column name": "ONKEYPRESS_JS",
+    "description": "Client-side script triggered on keypress within the field; confirm usage with SME."
+  },
+  {
+    "column name": "ONFOCUS_JS",
+    "description": "Client-side script executed when the field gains focus; confirm usage with SME."
+  },
+  {
+    "column name": "ONBLUR_JS",
+    "description": "Client-side script executed when the field loses focus; confirm usage with SME."
+  },
+  {
+    "column name": "MCDEFAULT",
+    "description": "Default used by an MC-specific client or context; likely product-specific; confirm with SME."
+  },
+  {
+    "column name": "MCPOPUPONAPPLY",
+    "description": "Flag to trigger a popup when applying a value in an MC-specific client; likely product-specific; confirm with SME."
+  },
+  {
+    "column name": "CUSTOM",
+    "description": "Identifies whether this field is custom-configured (not part of the standard model)."
+  },
+  {
+    "column name": "AUDIT",
+    "description": "Indicates whether changes to this field are tracked in the audit log."
+  },
+  {
+    "column name": "USE_FOR_AUDIT_NAME",
+    "description": "Marks this field as part of the entity’s audit display name for change history."
+  },
+  {
+    "column name": "USE_TIME_IF_DATE",
+    "description": "For date fields, specifies whether time component should also be stored/used."
+  },
+  {
+    "column name": "REPORT_NOSELECT",
+    "description": "Prevents the field from being selected/filtered in report builders; used to simplify choices."
+  },
+  {
+    "column name": "REPORT_LABEL",
+    "description": "Caption for the field when displayed in reports."
+  },
+  {
+    "column name": "TOTALIFSELECTED",
+    "description": "If enabled, reporting will total/aggregate this field when included."
+  },
+  {
+    "column name": "ROWVERSIONDATE",
+    "description": "Timestamp of the last update to this dictionary row for versioning."
+  },
+  {
+    "column name": "AVAILABLEFOREDIT",
+    "description": "Indicates whether the field is editable in forms or only viewable; confirm with SME."
+  },
+  {
+    "column name": "SCREENSHOT1",
+    "description": "Reference to an illustrative screenshot for documentation or training; slot 1."
+  },
+  {
+    "column name": "SCREENSHOT2",
+    "description": "Reference to an illustrative screenshot for documentation or training; slot 2."
+  },
+  {
+    "column name": "SCREENSHOT3",
+    "description": "Reference to an illustrative screenshot for documentation or training; slot 3."
+  },
+  {
+    "column name": "REPORT_EDIT",
+    "description": "Code controlling editability or formatting in report contexts; meaning may be system-specific; confirm with SME."
+  },
+  {
+    "column name": "COPYTOMODULEONVALIDATE",
+    "description": "Destination module to copy this value to after successful validation; supports cross-module synchronization."
+  },
+  {
+    "column name": "COPYTOFIELDONVALIDATE",
+    "description": "Destination field to receive the copied value upon validation."
+  },
+  {
+    "column name": "FORM_HIDDEN",
+    "description": "Hides the field on configured forms."
+  },
+  {
+    "column name": "FORM_REQUIRED",
+    "description": "Marks the field as required on specific forms (UI-level rule)."
+  },
+  {
+    "column name": "FORM_LABEL1",
+    "description": "Additional form caption text or alternate label (slot 1); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL2",
+    "description": "Additional form caption text or alternate label (slot 2); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL3",
+    "description": "Additional form caption text or alternate label (slot 3); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL4",
+    "description": "Additional form caption text or alternate label (slot 4); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL5",
+    "description": "Additional form caption text or alternate label (slot 5); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL6",
+    "description": "Additional form caption text or alternate label (slot 6); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL7",
+    "description": "Additional form caption text or alternate label (slot 7); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL8",
+    "description": "Additional form caption text or alternate label (slot 8); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL9",
+    "description": "Additional form caption text or alternate label (slot 9); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_LABEL10",
+    "description": "Additional form caption text or alternate label (slot 10); may support multi-line or localization."
+  },
+  {
+    "column name": "FORM_FIELD_ID",
+    "description": "Internal control identifier used to bind the form input to the data field."
+  },
+  {
+    "column name": "FORM_FIELD_VALIDATE",
+    "description": "Flag controlling client-side validation for the form control."
+  },
+  {
+    "column name": "BATCHUPDATABLE",
+    "description": "Indicates whether this field can be modified via batch/mass update operations."
+  },
+  {
+    "column name": "FORM_HIDDEN2",
+    "description": "Secondary hide flag for alternate forms or conditional states; confirm with SME."
+  }
+]

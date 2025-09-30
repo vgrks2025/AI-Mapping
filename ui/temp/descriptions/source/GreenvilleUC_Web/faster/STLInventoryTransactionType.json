@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "InventoryTransactionTypeID",
+    "description": "Unique numeric identifier for an inventory transaction type. Serves as the primary key to classify how stock/assets are affected in transaction records and for cost/accounting rules."
+  },
+  {
+    "column name": "InventoryTransactionTypeDesc",
+    "description": "Human-readable name/code describing the transaction category. Used in interfaces, auditing, and reporting to explain why inventory or asset balances change."
+  }
+]

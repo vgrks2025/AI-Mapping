@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "pkey",
+    "description": "System-generated unique identifier for each dynamic-attributes row, enabling linkage to the associated fleet entity."
+  },
+  {
+    "column name": "text_field",
+    "description": "Free-text attribute for the associated vehicle, asset, trip, or event (e.g., code or label). Meaning is configurable and likely varies by setup; confirm with SME."
+  },
+  {
+    "column name": "fk_field",
+    "description": "Reference to a related record, likely the parent object (vehicle, driver, asset, or work order). Defines the relationship for this dynamic attribute; confirm with SME."
+  },
+  {
+    "column name": "cost_field",
+    "description": "Monetary amount associated with this record (e.g., part cost, fee, or charge). Currency and rounding behavior are system-configured; specific use likely varies by process; confirm with SME."
+  },
+  {
+    "column name": "date_field",
+    "description": "Relevant date for the attribute (e.g., effective, expiration, or event date). Exact business meaning is configurable and likely varies by context; confirm with SME."
+  },
+  {
+    "column name": "bool_field",
+    "description": "Yes/No indicator showing whether a condition applies to the associated fleet record. Specific condition is configurable and likely varies by deployment; confirm with SME."
+  },
+  {
+    "column name": "num_field",
+    "description": "General numeric attribute (supports decimals) for measurements, thresholds, or KPIs (e.g., weight, distance, percentage). Meaning is configurable and likely varies by setup; confirm with SME."
+  },
+  {
+    "column name": "int_field",
+    "description": "Whole-number attribute for counts, categorical codes, or selections. Meaning is configurable and likely varies by configuration; confirm with SME."
+  },
+  {
+    "column name": "note_field",
+    "description": "Freeform notes providing additional context for the associated fleet record (e.g., instructions, clarifications). Content varies by user input."
+  }
+]

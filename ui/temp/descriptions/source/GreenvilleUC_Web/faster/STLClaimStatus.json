@@ -1,0 +1,10 @@
+[
+  {
+    "column name": "ClaimStatusID",
+    "description": "Surrogate key identifying a standardized processing state for claims; used as a reference in related tables and lookups."
+  },
+  {
+    "column name": "ClaimStatus",
+    "description": "Business-friendly label describing a claim’s processing state presented in user interfaces and reports; values managed via the status reference list."
+  }
+]

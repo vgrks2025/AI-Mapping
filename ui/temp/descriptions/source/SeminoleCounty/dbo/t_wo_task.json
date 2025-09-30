@@ -1,0 +1,522 @@
+[
+  {
+    "column name": "wo_descr",
+    "description": "Human-readable task description, often including service type and component being serviced. Used to communicate what work is to be performed."
+  },
+  {
+    "column name": "wo_type",
+    "description": "Code indicating maintenance type, such as preventive versus corrective work."
+  },
+  {
+    "column name": "issued",
+    "description": "Timestamp when the task was created or issued for work."
+  },
+  {
+    "column name": "closed",
+    "description": "Timestamp when the task was completed and administratively closed."
+  },
+  {
+    "column name": "target",
+    "description": "Scheduled due date/time by which the task should be completed."
+  },
+  {
+    "column name": "assign_to",
+    "description": "Identifier of the technician or employee assigned to perform the task."
+  },
+  {
+    "column name": "supervisor",
+    "description": "Identifier of the supervisor overseeing the task."
+  },
+  {
+    "column name": "crew_leader",
+    "description": "Identifier of the crew leader responsible for field execution."
+  },
+  {
+    "column name": "origin_code",
+    "description": "Code for the source of the request (e.g., operator report, inspection, telematics); confirm with SME."
+  },
+  {
+    "column name": "primary_wr_no",
+    "description": "Identifier of the original work request linked to this task."
+  },
+  {
+    "column name": "appvby",
+    "description": "User who approved the task or work order; confirm with SME."
+  },
+  {
+    "column name": "customer_type",
+    "description": "Classification of the requesting customer (e.g., internal department or external client); confirm with SME."
+  },
+  {
+    "column name": "req_cust_id",
+    "description": "Identifier for the requester or customer associated with the task."
+  },
+  {
+    "column name": "cust_name",
+    "description": "Name of the requesting customer or department."
+  },
+  {
+    "column name": "req_cell_phone",
+    "description": "Requester’s mobile phone number for contact."
+  },
+  {
+    "column name": "req_phone2",
+    "description": "Alternate phone number for the requester."
+  },
+  {
+    "column name": "req_email",
+    "description": "Requester’s email address."
+  },
+  {
+    "column name": "portal_id",
+    "description": "External portal reference or submission ID for the request; confirm with SME."
+  },
+  {
+    "column name": "op_id",
+    "description": "Identifier of the equipment operator who reported the issue; confirm with SME."
+  },
+  {
+    "column name": "issue_id",
+    "description": "Reference ID for the reported issue from an incident or ticketing system; confirm with SME."
+  },
+  {
+    "column name": "req_request",
+    "description": "Short summary of the requester’s service need."
+  },
+  {
+    "column name": "req_comments",
+    "description": "Additional comments provided by the requester."
+  },
+  {
+    "column name": "sup_notes",
+    "description": "Supervisor’s notes or instructions related to the task."
+  },
+  {
+    "column name": "priority",
+    "description": "Code indicating urgency or service priority for scheduling and SLA management."
+  },
+  {
+    "column name": "req_text",
+    "description": "Detailed narrative of the service request."
+  },
+  {
+    "column name": "req_notes",
+    "description": "Internal notes about the request, not necessarily visible to the requester."
+  },
+  {
+    "column name": "site_addr_key",
+    "description": "Key linking to the service location’s address record."
+  },
+  {
+    "column name": "site_street_name",
+    "description": "Street name of the service location."
+  },
+  {
+    "column name": "site_street_number",
+    "description": "Street number of the service location."
+  },
+  {
+    "column name": "site_city",
+    "description": "City of the service location."
+  },
+  {
+    "column name": "site_zip_code",
+    "description": "Postal code of the service location."
+  },
+  {
+    "column name": "site_loc_desc",
+    "description": "Textual description of the specific work location at the site."
+  },
+  {
+    "column name": "site_cross_street",
+    "description": "Nearest cross street to help locate the asset or work area."
+  },
+  {
+    "column name": "udf_text1",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text2",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text3",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text4",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text5",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text6",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text7",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text8",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text9",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_text10",
+    "description": "User-defined text field for client-specific data; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_date1",
+    "description": "User-defined date field for client-specific tracking; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_date2",
+    "description": "User-defined date field for client-specific tracking; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_date3",
+    "description": "User-defined date field for client-specific tracking; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_num1",
+    "description": "User-defined numeric field for client-specific metrics; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_num2",
+    "description": "User-defined numeric field for client-specific metrics; purpose varies by configuration."
+  },
+  {
+    "column name": "udf_num3",
+    "description": "User-defined numeric field for client-specific metrics; purpose varies by configuration."
+  },
+  {
+    "column name": "action_taken",
+    "description": "Narrative of the work performed to resolve the issue."
+  },
+  {
+    "column name": "tm_no",
+    "description": "Reference number for a template, task model, or time record; confirm with SME."
+  },
+  {
+    "column name": "wr_no",
+    "description": "Identifier of the work request associated with this task."
+  },
+  {
+    "column name": "wg_name",
+    "description": "Name of the shop, work group, or division responsible for the task."
+  },
+  {
+    "column name": "project_no",
+    "description": "Project identifier to which the task’s costs are charged."
+  },
+  {
+    "column name": "customer_id",
+    "description": "Identifier for the internal or external customer receiving the service."
+  },
+  {
+    "column name": "vendor_id",
+    "description": "Identifier of the external vendor contracted for part or all of the work."
+  },
+  {
+    "column name": "wo_activity_code",
+    "description": "Accounting or activity code categorizing the type of work performed."
+  },
+  {
+    "column name": "wo_mgmt_unit",
+    "description": "Management unit or cost center accountable for the work order."
+  },
+  {
+    "column name": "wo_acct_no",
+    "description": "Financial account number used to charge the work order."
+  },
+  {
+    "column name": "wo_loc_cd",
+    "description": "Code for the shop or facility where the work order is processed."
+  },
+  {
+    "column name": "wo_wk_in_progress",
+    "description": "Status code indicating whether the overall work order is in progress; confirm with SME."
+  },
+  {
+    "column name": "asset_seq_no",
+    "description": "Sequence number for the asset within a multi-asset work order."
+  },
+  {
+    "column name": "asset_id",
+    "description": "Primary identifier of the asset (unit) being serviced."
+  },
+  {
+    "column name": "asset_type",
+    "description": "Code representing the asset’s category or class."
+  },
+  {
+    "column name": "asset_descr",
+    "description": "Descriptive text about the asset, such as model or configuration."
+  },
+  {
+    "column name": "subsys_id",
+    "description": "Identifier for the subsystem or component within the asset; confirm with SME."
+  },
+  {
+    "column name": "failure_code",
+    "description": "Code indicating the failure type or mode observed; confirm with SME."
+  },
+  {
+    "column name": "fail_descr",
+    "description": "Text description of the failure or problem reported."
+  },
+  {
+    "column name": "cost_share",
+    "description": "Percentage of the task’s cost allocated to this customer, project, or department."
+  },
+  {
+    "column name": "remarks",
+    "description": "General remarks or additional notes about the task."
+  },
+  {
+    "column name": "rating",
+    "description": "Numeric score or condition rating recorded for this task or inspection; confirm with SME."
+  },
+  {
+    "column name": "asset_compl_dt",
+    "description": "Timestamp when work on the asset was completed for this task."
+  },
+  {
+    "column name": "opt1",
+    "description": "Optional field reserved for client-specific use; confirm intended meaning with SME."
+  },
+  {
+    "column name": "opt2",
+    "description": "Optional field reserved for client-specific use; confirm intended meaning with SME."
+  },
+  {
+    "column name": "wk_in_progress",
+    "description": "Task-level status flag indicating work in progress; confirm with SME."
+  },
+  {
+    "column name": "dntime",
+    "description": "Total asset downtime attributable to this task, in hours."
+  },
+  {
+    "column name": "start_dt",
+    "description": "Timestamp when work on the task actually started."
+  },
+  {
+    "column name": "finish_dt",
+    "description": "Timestamp when work on the task finished."
+  },
+  {
+    "column name": "asset_owner",
+    "description": "Department or entity that owns the asset being serviced."
+  },
+  {
+    "column name": "loc_cd",
+    "description": "Code for the shop, yard, or facility handling this task."
+  },
+  {
+    "column name": "subloc_id",
+    "description": "Identifier for a sublocation, bay, or stall within a facility; confirm with SME."
+  },
+  {
+    "column name": "acct_no",
+    "description": "Financial account number to charge this task’s costs."
+  },
+  {
+    "column name": "mgmt_unit",
+    "description": "Management unit or cost center accountable for this task."
+  },
+  {
+    "column name": "activity_code",
+    "description": "Code classifying the specific maintenance activity performed."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Work order number to which this task belongs."
+  },
+  {
+    "column name": "asset_no",
+    "description": "Alternate asset identifier used on the work order; confirm differences from asset_id with SME."
+  },
+  {
+    "column name": "task_no",
+    "description": "Task number within the work order."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence value controlling task order within the work order."
+  },
+  {
+    "column name": "task_id",
+    "description": "Identifier for the task definition or template; confirm with SME."
+  },
+  {
+    "column name": "done",
+    "description": "Completion flag indicating whether the task is finished; confirm coding with SME."
+  },
+  {
+    "column name": "task_descr",
+    "description": "Detailed description of the specific task steps or scope."
+  },
+  {
+    "column name": "result_type",
+    "description": "Type of result recorded for the task (e.g., pass/fail, numeric reading); confirm with SME."
+  },
+  {
+    "column name": "meter_type",
+    "description": "Type of meter associated with the reading (e.g., hours, mileage); confirm with SME."
+  },
+  {
+    "column name": "result_text",
+    "description": "Recorded result or reading value captured for the task."
+  },
+  {
+    "column name": "attach_link_id",
+    "description": "Reference to attachments such as photos, documents, or diagnostics."
+  },
+  {
+    "column name": "completion_notes",
+    "description": "Notes entered upon completion detailing outcomes or follow-up needs."
+  },
+  {
+    "column name": "formula",
+    "description": "Calculation or rule applied to evaluate results or compliance; confirm with SME."
+  },
+  {
+    "column name": "required",
+    "description": "Flag indicating whether the task is mandatory for compliance or completion; confirm with SME."
+  },
+  {
+    "column name": "compl_dt",
+    "description": "Date/time the task was marked complete in the system."
+  },
+  {
+    "column name": "cost_portion",
+    "description": "Portion of the total work order cost assigned to this task (amount or percent); confirm format with SME."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when the record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp of the most recent update to the record."
+  },
+  {
+    "column name": "geometry",
+    "description": "Geospatial geometry (point/line/polygon) representing the work or asset location; confirm format with SME."
+  },
+  {
+    "column name": "task_finisher",
+    "description": "Technician who finalized and closed the task; confirm with SME."
+  },
+  {
+    "column name": "est_lbr_hr",
+    "description": "Estimated labor hours required to complete the task."
+  },
+  {
+    "column name": "percent_start",
+    "description": "Percent complete at the start of the reporting period or visit; confirm with SME."
+  },
+  {
+    "column name": "percent_end",
+    "description": "Percent complete at the end of the reporting period or visit; confirm with SME."
+  },
+  {
+    "column name": "dir_cd",
+    "description": "Directional code for location context or navigation (e.g., compass direction); confirm with SME."
+  },
+  {
+    "column name": "geometry_object_id",
+    "description": "Identifier linking to the stored GIS geometry object."
+  },
+  {
+    "column name": "act_cost",
+    "description": "Aggregated actual cost for the task; may mirror the sum of cost components. Confirm how it differs from total with SME."
+  },
+  {
+    "column name": "act_work_qty",
+    "description": "Quantity of work actually completed, in task-specific units."
+  },
+  {
+    "column name": "act_lbr_hrs",
+    "description": "Actual labor hours posted to the task."
+  },
+  {
+    "column name": "act_labor",
+    "description": "Actual labor cost charged to the task."
+  },
+  {
+    "column name": "act_equip",
+    "description": "Actual equipment usage cost charged to the task."
+  },
+  {
+    "column name": "act_part",
+    "description": "Actual parts cost charged to the task."
+  },
+  {
+    "column name": "act_misc",
+    "description": "Actual miscellaneous costs charged to the task."
+  },
+  {
+    "column name": "act_ctr",
+    "description": "Actual contractor or outside service cost charged to the task."
+  },
+  {
+    "column name": "act_total",
+    "description": "Total actual cost of the task, typically summing labor, parts, equipment, misc, and contractor."
+  },
+  {
+    "column name": "asset_udf_text1",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text2",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text3",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text4",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text5",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text6",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text7",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text8",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text9",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  },
+  {
+    "column name": "asset_udf_text10",
+    "description": "User-defined asset attribute captured at task level; purpose varies by configuration."
+  }
+]

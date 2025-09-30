@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "tm_no",
+    "description": "Identifier of the maintenance task or template this log pertains to."
+  },
+  {
+    "column name": "sch_no",
+    "description": "Identifier of the schedule variant within the task/template used for recurrence."
+  },
+  {
+    "column name": "seq_no",
+    "description": "Sequence number used to order this schedule within its maintenance nesting/group."
+  },
+  {
+    "column name": "wo_no",
+    "description": "Identifier of the work order associated to this maintenance occurrence."
+  },
+  {
+    "column name": "status",
+    "description": "Current state of the entry or related work order (e.g., open, closed, cancelled)."
+  },
+  {
+    "column name": "nest_group",
+    "description": "Grouping code for nested preventive maintenance that links related schedules; confirm with SME."
+  },
+  {
+    "column name": "nest_descr",
+    "description": "Description text for the nested maintenance group."
+  },
+  {
+    "column name": "date_created",
+    "description": "Timestamp when this maintenance log record was created."
+  },
+  {
+    "column name": "wo_close_dt",
+    "description": "Date/time the associated work order was closed; null if still open."
+  },
+  {
+    "column name": "cycle_no",
+    "description": "Cycle number within the recurring maintenance program for this task."
+  },
+  {
+    "column name": "add_by",
+    "description": "User who created the record."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Date/time the record was added."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User who last updated the record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Date/time the record was last updated."
+  },
+  {
+    "column name": "use_tm_no",
+    "description": "Reference to an alternate or parent maintenance template used instead of the primary; confirm with SME."
+  },
+  {
+    "column name": "sav_last_done_dt",
+    "description": "Saved completion date/time of the most recent performance used for scheduling."
+  },
+  {
+    "column name": "sav_next_due_dt",
+    "description": "Calculated next due date for the maintenance based on the schedule."
+  },
+  {
+    "column name": "sav_last_done_meter",
+    "description": "Equipment meter reading recorded at last completion to support meter-based scheduling."
+  },
+  {
+    "column name": "sav_next_due_meter",
+    "description": "Meter reading at which the next maintenance is due, if meter-based scheduling applies."
+  },
+  {
+    "column name": "sav_next_cycle",
+    "description": "Next cycle index or interval to apply in the maintenance program; confirm with SME."
+  },
+  {
+    "column name": "sav_open_pm_wo_no",
+    "description": "Identifier of any currently open preventive maintenance work order derived from this schedule."
+  },
+  {
+    "column name": "sav_last_wo_create_dt",
+    "description": "Timestamp when the most recent work order was created from this maintenance schedule."
+  },
+  {
+    "column name": "deleted",
+    "description": "Logical deletion flag indicating whether the record is inactive/soft-deleted."
+  }
+]

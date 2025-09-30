@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "rpt_id",
+    "description": "Unique identifier of the report referenced by the user’s favorites; used to join to the report catalog."
+  },
+  {
+    "column name": "user_name",
+    "description": "Login of the user who owns the favorite setting for the report."
+  },
+  {
+    "column name": "favorite",
+    "description": "Binary indicator of whether the user has marked the report as a favorite."
+  },
+  {
+    "column name": "add_by",
+    "description": "User account that created this record for auditing."
+  },
+  {
+    "column name": "add_dt",
+    "description": "Timestamp when this record was created."
+  },
+  {
+    "column name": "upd_by",
+    "description": "User account that last modified this record."
+  },
+  {
+    "column name": "upd_dt",
+    "description": "Timestamp when this record was last updated."
+  }
+]
