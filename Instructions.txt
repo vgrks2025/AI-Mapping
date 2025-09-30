@@ -1,0 +1,26 @@
+Aim: AI Data Mapper Applications
+
+Explanation: AI application that helps to generate mappings for source database to target database.
+
+Steps to run the application: 
+
+1. Create the required environment by installing all required libraries by running following command.
+pip install -r requirements.txt
+
+2. Navigate to ui folder
+
+3. Run the streamlit application by running following command
+streamlit run app.py
+or 
+python -m streamlit run app.py
+
+4. Once the application start: Enter all required credentials in the sidebase
+
+
+5. Navigate to /ai route 
+
+6. Proceed to Generating AI Mappings by selecting required Source DB, Target DB, Target Table.
+
+7. Export AI Mappings as json files
+
+8. Enhance the AI Mappings by giving recommendation at Re-trace.

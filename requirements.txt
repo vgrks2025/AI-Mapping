@@ -1,0 +1,11 @@
+streamlit
+pymssql
+pandas
+json
+sklearn
+sentence_transformers
+string_grouper
+pickle
+openai
+network
+pyvis
