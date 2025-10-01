@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the shift record; used as the primary key and for joins across related tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the record was created or captured, in yyyymmddhhmmssSSS format; likely stored in UTC; confirm with SME."
+  },
+  {
+    "column name": "shift",
+    "description": "Business label for the work period within a day to which assets or personnel are assigned (e.g., day/evening/night)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in the source legacy system; enables traceability and data reconciliation."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source legacy table where this record originated; used for lineage, migration auditing, and troubleshooting."
+  }
+]

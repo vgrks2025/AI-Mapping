@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique key for the upfit record in this table (primary key for asset_upfit)."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System transaction timestamp for the upfit entry in format YYYYMMDDHHMMSSmmm; represents record creation or update time; timezone not specified."
+  },
+  {
+    "column name": "workcode",
+    "description": "Code classifying the upfit work or job type; likely references a work code list used for costing or reporting; confirm with SME."
+  },
+  {
+    "column name": "workcoder",
+    "description": "Human-readable description or resolver for workcode; likely stores the work code name for reporting; confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment item or package installed during the asset’s upfit; likely references an equipment catalog."
+  },
+  {
+    "column name": "equipr",
+    "description": "Text description or reference field corresponding to equip; likely the resolved equipment name used in reports; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description of the upfit scope, quote, or vendor-provided service for the asset."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the upfit work performed, packages installed, or special instructions."
+  },
+  {
+    "column name": "id",
+    "description": "Alternate unique identifier for the upfit record used by some modules; typically mirrors keyid; confirm usage with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Flag indicating whether this upfit record is inactive or no longer applicable."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from the source legacy system to support data lineage and cross-system traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source legacy table from which this upfit record was migrated."
+  },
+  {
+    "column name": "upfit_cost",
+    "description": "Total cost of the asset’s upfit, including equipment and installation labor; currency per tenant settings."
+  },
+  {
+    "column name": "cost",
+    "description": "Standard cost field for this record, typically storing the same amount as upfit_cost for reporting consistency; confirm business rules with SME."
+  },
+  {
+    "column name": "workcode_total",
+    "description": "Total cost amount allocated under the specified workcode for this upfit."
+  }
+]

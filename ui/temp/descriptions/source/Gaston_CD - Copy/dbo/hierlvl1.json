@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique surrogate identifier for the top‑level organizational entity in the fleet hierarchy."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp of the last insert or update (likely yyyymmddhhmmssmmm); used for auditing and synchronization. Confirm timezone and precision with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Boolean flag indicating the entity is inactive or retired and should be hidden from operational lists."
+  },
+  {
+    "column name": "fax",
+    "description": "Fax number for the organization or location contact."
+  },
+  {
+    "column name": "phone",
+    "description": "Primary telephone number for the organization or location contact."
+  },
+  {
+    "column name": "postcode",
+    "description": "Postal or ZIP code for the entity’s address."
+  },
+  {
+    "column name": "city",
+    "description": "City for the entity’s mailing or physical address."
+  },
+  {
+    "column name": "address2",
+    "description": "Secondary address line, such as suite, building, or apartment."
+  },
+  {
+    "column name": "address",
+    "description": "Primary street address line for the entity."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Business name or title of the top‑level organizational group in the fleet hierarchy."
+  },
+  {
+    "column name": "hierlvl1no",
+    "description": "Numeric code for the top‑level group, used as a business identifier or ordering key; confirm uniqueness rules with SME."
+  },
+  {
+    "column name": "webadd",
+    "description": "Website URL for the organization or location."
+  },
+  {
+    "column name": "comments",
+    "description": "Free‑text notes or comments about the organizational entity."
+  },
+  {
+    "column name": "image",
+    "description": "Binary image or logo associated with the entity (stored as a blob)."
+  },
+  {
+    "column name": "email",
+    "description": "Primary email address for the organization or contact."
+  },
+  {
+    "column name": "state",
+    "description": "Reference to state/province of the address, likely a code or foreign key to a lookup; confirm code set."
+  },
+  {
+    "column name": "stater",
+    "description": "Human‑readable state or province text corresponding to the coded state field; likely denormalized for display. Confirm mapping."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this entity in a legacy source system, used for migration and cross‑reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table or system that issued the legacy key."
+  },
+  {
+    "column name": "commander",
+    "description": "Flag or identifier for integration with a specific external system/device; 0/1 or external ID expected. Meaning is unclear; confirm with SME."
+  },
+  {
+    "column name": "commanderr",
+    "description": "Descriptive text or status string associated with the external system integration field; likely used for display. Confirm usage."
+  }
+]

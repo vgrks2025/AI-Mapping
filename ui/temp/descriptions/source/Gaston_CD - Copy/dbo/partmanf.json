@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the parts manufacturer record; used as the primary key linking to related parts or procurement data."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date/time this manufacturer record was last updated (likely), stored as yyyymmddHHMMSSmmm; confirm timezone."
+  },
+  {
+    "column name": "manf",
+    "description": "Business name of the parts manufacturer or supplier used for purchasing, inventory, or vendor reference."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding manufacturer record in a legacy system; used for historical cross-reference and migrations."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table from the legacy system where this manufacturer record originated; supports lineage and data migration mapping."
+  }
+]

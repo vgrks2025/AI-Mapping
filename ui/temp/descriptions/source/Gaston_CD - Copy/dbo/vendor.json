@@ -1,0 +1,146 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the vendor record (primary key)."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the vendor record was last created or updated, stored as yyyymmddhhmmssSSS."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the vendor is inactive and should not be used."
+  },
+  {
+    "column name": "wehours",
+    "description": "Vendor weekend operating hours; likely open/close times or free-text notes; confirm with SME."
+  },
+  {
+    "column name": "wdhours",
+    "description": "Vendor weekday operating hours; likely open/close times or free-text notes; confirm with SME."
+  },
+  {
+    "column name": "mobile",
+    "description": "Mobile phone number for the vendor’s primary contact."
+  },
+  {
+    "column name": "fax",
+    "description": "Fax number for the vendor."
+  },
+  {
+    "column name": "altphone",
+    "description": "Alternate phone number for the vendor or contact."
+  },
+  {
+    "column name": "phone",
+    "description": "Primary business phone number for the vendor."
+  },
+  {
+    "column name": "postcode",
+    "description": "Postal/ZIP code for the vendor’s address; may include 5 or 9 digits."
+  },
+  {
+    "column name": "city",
+    "description": "City for the vendor’s mailing or physical address."
+  },
+  {
+    "column name": "address2",
+    "description": "Secondary address line (suite, unit, PO Box, or additional routing info)."
+  },
+  {
+    "column name": "address",
+    "description": "Primary street address for the vendor location."
+  },
+  {
+    "column name": "lname",
+    "description": "Contact last name; may contain a full name in some records; confirm with SME."
+  },
+  {
+    "column name": "fname",
+    "description": "Contact first name; sometimes populated with a company name; confirm with SME."
+  },
+  {
+    "column name": "compname",
+    "description": "Legal or trade name of the vendor company."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the vendor (e.g., brand affiliation or special instructions)."
+  },
+  {
+    "column name": "fueltax",
+    "description": "Default fuel tax rate applied to fuel purchases from this vendor; confirm with SME."
+  },
+  {
+    "column name": "vendorno",
+    "description": "Organization-assigned vendor number or account code used for identification and billing."
+  },
+  {
+    "column name": "email",
+    "description": "Primary contact email address; may occasionally store a website instead; confirm with SME."
+  },
+  {
+    "column name": "state",
+    "description": "State/province code for the vendor address (likely a numeric foreign key); confirm with SME."
+  },
+  {
+    "column name": "stater",
+    "description": "Lookup reference or label associated with the state code, used by UI/reporting; confirm with SME."
+  },
+  {
+    "column name": "comptype",
+    "description": "Code indicating vendor type or category (e.g., fuel, parts, services); confirm with SME."
+  },
+  {
+    "column name": "comptyper",
+    "description": "Lookup reference/label for the vendor type code; confirm with SME."
+  },
+  {
+    "column name": "webadd",
+    "description": "Vendor website URL."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of this vendor in a legacy system for migration or cross-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table from which this record originated."
+  },
+  {
+    "column name": "payment_terms",
+    "description": "Code for agreed payment terms (e.g., Net 30); confirm with SME."
+  },
+  {
+    "column name": "payment_termsr",
+    "description": "Lookup reference/label for the payment terms code; confirm with SME."
+  },
+  {
+    "column name": "tax_percent",
+    "description": "Default sales or service tax percentage applied to purchases from this vendor."
+  },
+  {
+    "column name": "loc_name",
+    "description": "Location or site name associated with the vendor account (specific branch or agency)."
+  },
+  {
+    "column name": "require_contract",
+    "description": "Indicates whether a formal contract is required before purchasing from this vendor."
+  },
+  {
+    "column name": "vendor_chain",
+    "description": "Code identifying the vendor’s chain or parent brand affiliation; confirm with SME."
+  },
+  {
+    "column name": "vendor_chainr",
+    "description": "Lookup reference/label for the vendor chain code; confirm with SME."
+  },
+  {
+    "column name": "ext_map",
+    "description": "External map URL linking to the vendor’s address for driving directions."
+  },
+  {
+    "column name": "unprocessed_core_count",
+    "description": "Count of core items pending return/credit with this vendor and not yet processed; confirm with SME."
+  }
+]

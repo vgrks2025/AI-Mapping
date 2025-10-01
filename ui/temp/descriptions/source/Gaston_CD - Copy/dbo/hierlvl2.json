@@ -1,0 +1,94 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this level-2 organizational unit (e.g., department) within the fleet hierarchy."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp for this record’s creation or last update, stored as a yyyymmddHHMMSSmmm-style string; used for synchronization and change tracking."
+  },
+  {
+    "column name": "commander",
+    "description": "Identifier of the unit’s manager/supervisor in the master personnel table; used to route approvals and communications; confirm exact source table with SME."
+  },
+  {
+    "column name": "commanderr",
+    "description": "Reference metadata indicating which table the manager/supervisor identifier points to (e.g., personnel table); helps resolve cross-database foreign keys."
+  },
+  {
+    "column name": "state",
+    "description": "State or province associated with the unit’s address, likely stored as a foreign key to a states lookup; confirm with SME."
+  },
+  {
+    "column name": "stater",
+    "description": "Reference metadata indicating which table the state value uses for lookup (e.g., states/provinces table)."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Foreign key to the parent level-1 organizational unit under which this unit resides."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Reference metadata specifying the table or view for the parent unit identifier."
+  },
+  {
+    "column name": "email",
+    "description": "Primary email address for the unit, used for notifications and contact."
+  },
+  {
+    "column name": "fax",
+    "description": "Fax number for the unit’s office, if maintained."
+  },
+  {
+    "column name": "phone",
+    "description": "Primary telephone number for the unit’s office."
+  },
+  {
+    "column name": "postcode",
+    "description": "Postal or ZIP code for the unit’s address."
+  },
+  {
+    "column name": "city",
+    "description": "City for the unit’s mailing or physical address."
+  },
+  {
+    "column name": "address2",
+    "description": "Second address line (suite, floor, building) for the unit."
+  },
+  {
+    "column name": "address",
+    "description": "Primary street address for the unit’s location."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Name of the level-2 organizational unit (department/division) within the fleet hierarchy; used for display and reporting."
+  },
+  {
+    "column name": "hierlvl2no",
+    "description": "Short code or identifier for the level-2 unit, used in forms, integrations, and reporting."
+  },
+  {
+    "column name": "webadd",
+    "description": "Website URL for the unit, if available."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the unit (e.g., operating details or internal remarks)."
+  },
+  {
+    "column name": "image",
+    "description": "Binary image blob associated with the unit, such as a logo or photo."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the unit is inactive or retired; True means inactive."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier for this unit from a legacy system, used for data migration and cross-referencing."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table from which this unit originated."
+  }
+]

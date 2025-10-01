@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate unique identifier for this service schedule definition; used as the primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date/time the record was last created or modified, stored as YYYYMMDDHHMMSSmmm (string); likely for auditing—confirm with SME."
+  },
+  {
+    "column name": "schedname",
+    "description": "Human-readable name of the maintenance schedule or service package applied to assets or vehicles."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in the legacy source system; used for migration or cross-system reference (likely; confirm with SME)."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table or entity the record originated from (likely used during migration; confirm with SME)."
+  },
+  {
+    "column name": "updcount",
+    "description": "Monotonically increasing counter incremented on each update to this row for versioning/optimistic concurrency control."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this meter replacement record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated timestamp when the record was created or processed (yyyymmddHHMMssSSS); used for sequencing and audit."
+  },
+  {
+    "column name": "ttime",
+    "description": "Time of day (HHMMSS) the meter replacement occurred or was logged."
+  },
+  {
+    "column name": "tdate",
+    "description": "Calendar date (YYYYMMDD) the meter replacement occurred or was logged."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the meter replacement activity or reason."
+  },
+  {
+    "column name": "comments",
+    "description": "Additional technician notes, exceptions, or remarks about the replacement."
+  },
+  {
+    "column name": "newmeter",
+    "description": "Starting reading on the new meter at installation, typically zero."
+  },
+  {
+    "column name": "meter",
+    "description": "Reading of the removed meter at time of replacement; likely the final reading before swap—confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment/asset whose meter was replaced."
+  },
+  {
+    "column name": "equipr",
+    "description": "Reference indicator for the equipment foreign key/column (e.g., 'equip'); primarily metadata for integrations; confirm with SME."
+  },
+  {
+    "column name": "metertype",
+    "description": "Unit or type of meter reading (e.g., miles 'mi', hours 'hr')."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Legacy system identifier for the same transaction, for traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name from which this record was migrated."
+  },
+  {
+    "column name": "woworkd",
+    "description": "Work order number associated with executing the meter replacement."
+  },
+  {
+    "column name": "woworkdr",
+    "description": "Reference indicator for the work order foreign key/column (e.g., 'woworkd'); primarily metadata; confirm with SME."
+  }
+]

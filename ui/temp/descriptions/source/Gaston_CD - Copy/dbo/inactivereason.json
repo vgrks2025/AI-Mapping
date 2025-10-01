@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate primary key uniquely identifying this inactivity reason record for joins and references."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated date and time when the record was created or last updated (likely); timezone/meaning should be confirmed with SME."
+  },
+  {
+    "column name": "inactivereason",
+    "description": "Business-defined explanation for why a fleet asset or component was set to inactive status or removed from service; drives reporting and disposition processes."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a prior/legacy system for this lookup; used for migration mapping and lineage (likely; confirm with SME)."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table containing the mapped record; supports cross-system reconciliation and historical traceability (likely; confirm with SME)."
+  }
+]

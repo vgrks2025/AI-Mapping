@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique surrogate identifier for this general expense record; used as the primary key for joins and deduplication."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the expense entry was captured in the system (format yyyymmddhhmmssSSS). May represent creation or last-update time; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Short textual description or category of the expense, used for reporting and classification."
+  },
+  {
+    "column name": "exptotal",
+    "description": "Total monetary amount for the expense line or transaction, typically in the organization’s base currency; decimals represent cents."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from the prior/legacy system that corresponds to this record, used for historical reference and cross-system traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system where this record originated; supports migration lineage and troubleshooting."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for each employee labor rate type record; used as the primary key and for joining to related tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time the rate type record was last created or modified, with milliseconds for sequencing and audit; likely stored in UTC."
+  },
+  {
+    "column name": "type",
+    "description": "Business label of the employee labor rate category used for labor planning, costing, and billing in service operations."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the equivalent record in a prior or external system, used for migration mapping and traceability; likely nullable—confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system corresponding to this record, enabling lineage and cross-reference during data migration; confirm with SME."
+  }
+]

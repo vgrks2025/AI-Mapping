@@ -1,0 +1,66 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Internal surrogate key uniquely identifying this row; used for internal joins and ETL processes."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp for the row's creation or last update, stored as yyyymmddhhmmssmmm; timezone may be local—confirm with SME."
+  },
+  {
+    "column name": "id",
+    "description": "System-generated unique identifier for this invoice record; role relative to keyid unclear—confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or comments associated with the invoice."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description or summary of the invoice or charge; may be user-entered."
+  },
+  {
+    "column name": "invoice_no",
+    "description": "Vendor-provided invoice number/reference appearing on the supplier’s bill; may contain letters and leading zeros."
+  },
+  {
+    "column name": "invoice_date",
+    "description": "Date on the vendor’s invoice (invoice issue date), formatted yyyymmdd."
+  },
+  {
+    "column name": "inact",
+    "description": "Flag indicating whether the invoice record is inactive/cancelled and should be excluded from normal processing."
+  },
+  {
+    "column name": "purchase_order",
+    "description": "Identifier of the purchase order linked to this invoice, if the invoice is PO-based."
+  },
+  {
+    "column name": "purchase_orderr",
+    "description": "Metadata indicating the referenced entity/table for purchase_order foreign key; used to resolve joins; likely static—confirm with SME."
+  },
+  {
+    "column name": "vendor",
+    "description": "Identifier of the vendor/supplier who issued the invoice."
+  },
+  {
+    "column name": "vendorr",
+    "description": "Metadata indicating the referenced vendor entity/table for the vendor foreign key; used to resolve joins; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original record identifier from the legacy/source system, for cross-system traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy/source table or entity from which this record originated."
+  },
+  {
+    "column name": "source",
+    "description": "Identifier of the source transaction that generated this invoice (e.g., PO, work order); often mirrors purchase_order."
+  },
+  {
+    "column name": "sourcer",
+    "description": "Metadata indicating the referenced entity/table for the source foreign key; used by the application to determine join target; confirm with SME."
+  }
+]

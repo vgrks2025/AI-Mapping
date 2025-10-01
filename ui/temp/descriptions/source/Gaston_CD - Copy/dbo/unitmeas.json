@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the unit of measure record, serving as the primary key and join reference across tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Row version timestamp capturing when the record was created or last updated, with millisecond-level precision, used for auditing, change detection, and synchronization."
+  },
+  {
+    "column name": "unitmeas",
+    "description": "Business-friendly name of the measurement unit used throughout the system for quantities, inventory, purchasing, and reporting."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a prior or external source system linking this record to its original entry; likely used for migration mapping and reconciliation; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system associated with the legacy identifier; likely retained for lineage, traceability, and troubleshooting; confirm with SME."
+  },
+  {
+    "column name": "singular_word",
+    "description": "Singular form of the unit label for grammatically correct display when quantity equals one; likely derived from the main unit name; confirm with SME."
+  }
+]

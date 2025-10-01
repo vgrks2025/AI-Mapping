@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this time entry record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "High-precision system timestamp when the time entry was created or last updated; used for audit ordering."
+  },
+  {
+    "column name": "etime",
+    "description": "End time of the worked period (HHMMSS), paired with edate to form the stop datetime."
+  },
+  {
+    "column name": "stime",
+    "description": "Start time of the worked period (HHMMSS), paired with sdate to form the start datetime."
+  },
+  {
+    "column name": "edate",
+    "description": "Calendar date when the work ended (YYYYMMDD), used with etime."
+  },
+  {
+    "column name": "sdate",
+    "description": "Calendar date when the work began (YYYYMMDD), used with stime."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes describing the work or context for this time entry."
+  },
+  {
+    "column name": "hours",
+    "description": "Total duration of work recorded for this entry expressed in decimal hours."
+  },
+  {
+    "column name": "wolabord",
+    "description": "Identifier linking this time entry to the associated work order labor record."
+  },
+  {
+    "column name": "wolabordr",
+    "description": "Likely indicates the reference key/type used to link to the work order labor record; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding entry in the legacy system for migration traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which this record originated."
+  },
+  {
+    "column name": "s_minutes",
+    "description": "Likely the minute component of the start time derived from stime; confirm with SME."
+  },
+  {
+    "column name": "s_hours",
+    "description": "Likely the hour component of the start time derived from stime; confirm with SME."
+  },
+  {
+    "column name": "type",
+    "description": "Classification of the time record (e.g., clocked vs manual hours); values may indicate how time was captured."
+  },
+  {
+    "column name": "display_time",
+    "description": "Human-readable duration for this entry in HH:MM format, derived from recorded hours."
+  },
+  {
+    "column name": "added_hours",
+    "description": "Manually entered additional time to adjust or supplement clocked time, in decimal hours."
+  },
+  {
+    "column name": "clocked_minutes",
+    "description": "Minutes component of time captured via time clock for this entry."
+  },
+  {
+    "column name": "clocked_hours",
+    "description": "Hours component of time captured via time clock for this entry."
+  },
+  {
+    "column name": "work_complete",
+    "description": "Flag indicating whether the work associated with this time entry has been completed."
+  },
+  {
+    "column name": "dec_hours",
+    "description": "Decimal-hours total after applying adjustments or conversions; likely the normalized value used for billing or reporting; confirm with SME."
+  }
+]

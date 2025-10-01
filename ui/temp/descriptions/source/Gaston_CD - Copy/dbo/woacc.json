@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique row identifier for this work order–accident link, used as the primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated date-time when this link record was created or last updated (format likely yyyymmddhhmmssSSS; timezone unclear; confirm with SME)."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the relationship between the work order and the accident, such as context or justification."
+  },
+  {
+    "column name": "accident",
+    "description": "Identifier of the related accident/incident record associated to the work order."
+  },
+  {
+    "column name": "accidentr",
+    "description": "Reference discriminator indicating the entity or table for the accident foreign key; likely used by a generic relationship model; confirm with SME."
+  },
+  {
+    "column name": "workorder",
+    "description": "Identifier of the related work order linked to the accident record."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Reference discriminator indicating the entity or table for the work order foreign key; likely used by a generic relationship model; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Source system’s original key for this relationship, used for migration or cross-system tracing."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source system table from which this relationship originated, used for legacy mapping or auditing."
+  }
+]

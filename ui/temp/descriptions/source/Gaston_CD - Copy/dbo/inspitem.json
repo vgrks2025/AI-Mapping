@@ -1,0 +1,98 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the inspection item record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System date-time when this inspection item record was last created or updated; stored with millisecond precision. Timezone/source may be system default; confirm with SME."
+  },
+  {
+    "column name": "inspitem",
+    "description": "Business name of the checklist task to be performed during inspection."
+  },
+  {
+    "column name": "notes",
+    "description": "Technician guidance or instructions for performing the task and documenting findings."
+  },
+  {
+    "column name": "inspect",
+    "description": "Identifier of the inspection template/checklist to which this item belongs (foreign key; confirm with SME)."
+  },
+  {
+    "column name": "inspectr",
+    "description": "Readable reference for the related inspection template (e.g., code or name) used for display and reporting."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Legacy system’s primary key for this item, retained for migration/audit mapping."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which this item originated."
+  },
+  {
+    "column name": "default_droplist_value",
+    "description": "Default option identifier selected in this item’s results dropdown, if a dropdown is used; confirm mapping."
+  },
+  {
+    "column name": "default_droplist_valuer",
+    "description": "Human-readable default option text corresponding to the default dropdown value."
+  },
+  {
+    "column name": "service_class",
+    "description": "Identifier of the service class or maintenance program this item applies to (e.g., PM level); confirm definition."
+  },
+  {
+    "column name": "service_classr",
+    "description": "Readable name/label of the associated service class or program for display and reports."
+  },
+  {
+    "column name": "action_on_fail",
+    "description": "Configured action when the item fails (e.g., require notes, create repair, trigger workflow)."
+  },
+  {
+    "column name": "result_input_value",
+    "description": "Expected input type or default value for capturing results on this item (e.g., numeric, text, none); confirm usage."
+  },
+  {
+    "column name": "inspresults",
+    "description": "Result set or evaluation scheme allowed for this item (e.g., pass/fail, OK/Not OK, measurement)."
+  },
+  {
+    "column name": "inspresultslabel",
+    "description": "Label shown to users next to the result input for this item."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the inspection item is inactive and should be hidden from new checklists."
+  },
+  {
+    "column name": "need_to_repair",
+    "description": "If true, a failed result automatically flags the asset/work order as needing repair or follow-up."
+  },
+  {
+    "column name": "insp_group",
+    "description": "Identifier of the grouping/section within the inspection where this item appears."
+  },
+  {
+    "column name": "insp_groupr",
+    "description": "Readable name of the inspection group/section for this item."
+  },
+  {
+    "column name": "item_category",
+    "description": "Code classifying the type of component or system inspected (e.g., brakes, lights); confirm taxonomy."
+  },
+  {
+    "column name": "item_categoryr",
+    "description": "Readable category name corresponding to the item category for display and analytics."
+  },
+  {
+    "column name": "add_when_not_issued",
+    "description": "Whether this item is auto-added to a checklist even when no work order or issuance exists; confirm behavior."
+  },
+  {
+    "column name": "seqno",
+    "description": "Sequence number determining the display order of this item within the checklist."
+  }
+]

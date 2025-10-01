@@ -1,0 +1,314 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this work order line record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System date-time when the record was created or last updated."
+  },
+  {
+    "column name": "maintreqi",
+    "description": "Indicator that this line originated from a maintenance request item."
+  },
+  {
+    "column name": "mangwork",
+    "description": "Indicator that the task is management-directed work; confirm with SME."
+  },
+  {
+    "column name": "pmduedate",
+    "description": "Scheduled due date for the associated preventive maintenance."
+  },
+  {
+    "column name": "completedate",
+    "description": "Date the work on this line was completed."
+  },
+  {
+    "column name": "unmdesc",
+    "description": "Short description of the work performed or the problem addressed."
+  },
+  {
+    "column name": "techcomm",
+    "description": "Technician’s comments or completion notes for this line."
+  },
+  {
+    "column name": "mrcomm",
+    "description": "Notes carried over from the originating maintenance request."
+  },
+  {
+    "column name": "comments",
+    "description": "General comments related to this work order line."
+  },
+  {
+    "column name": "worknotes",
+    "description": "Internal work notes or log entries for this line."
+  },
+  {
+    "column name": "pmmeterleft",
+    "description": "Remaining meter units (e.g., miles/hours) until PM was due at evaluation time."
+  },
+  {
+    "column name": "updcount",
+    "description": "System update counter used for concurrency control."
+  },
+  {
+    "column name": "laborhours",
+    "description": "Number of labor hours charged to this line."
+  },
+  {
+    "column name": "total",
+    "description": "Total cost for this line, including labor, parts, and miscellaneous charges."
+  },
+  {
+    "column name": "other",
+    "description": "Other non-labor, non-parts costs charged to this line."
+  },
+  {
+    "column name": "partsmisc",
+    "description": "Miscellaneous parts-related charges (e.g., shop supplies or freight)."
+  },
+  {
+    "column name": "parts",
+    "description": "Cost of parts used on this work order line."
+  },
+  {
+    "column name": "labmisc",
+    "description": "Miscellaneous labor-related charges (e.g., premiums or fees)."
+  },
+  {
+    "column name": "labor",
+    "description": "Labor cost charged to this line."
+  },
+  {
+    "column name": "mrstatus",
+    "description": "Status code of the associated maintenance request."
+  },
+  {
+    "column name": "mrstatusr",
+    "description": "Lookup reference or label source for the maintenance request status code; likely system metadata."
+  },
+  {
+    "column name": "maintreq",
+    "description": "Flag or identifier linking this line to a maintenance request; confirm with SME."
+  },
+  {
+    "column name": "maintreqr",
+    "description": "Lookup reference or label source for the maintreq field; likely system metadata."
+  },
+  {
+    "column name": "warranty",
+    "description": "Indicator that work or parts were covered by warranty."
+  },
+  {
+    "column name": "warrantyr",
+    "description": "Lookup reference or label source for the warranty indicator; likely system metadata."
+  },
+  {
+    "column name": "workclass",
+    "description": "Code representing the class/category of work (e.g., corrective, inspection)."
+  },
+  {
+    "column name": "workclassr",
+    "description": "Lookup reference or label source for the work class code; likely system metadata."
+  },
+  {
+    "column name": "wotype",
+    "description": "Code representing the type of work order."
+  },
+  {
+    "column name": "wotyper",
+    "description": "Lookup reference or label source for the work order type; likely system metadata."
+  },
+  {
+    "column name": "workcode",
+    "description": "Code for the specific task or repair action performed."
+  },
+  {
+    "column name": "workcoder",
+    "description": "Lookup reference or label source for the work code; likely system metadata."
+  },
+  {
+    "column name": "actwo",
+    "description": "Identifier of the parent work order this line belongs to."
+  },
+  {
+    "column name": "actwor",
+    "description": "Lookup reference or label source for the actwo field; likely system metadata."
+  },
+  {
+    "column name": "workorder",
+    "description": "Work order number associated with this line."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Lookup reference or label source for the work order number; likely system metadata."
+  },
+  {
+    "column name": "pmmetertype",
+    "description": "Unit of measure used for preventive maintenance meter (e.g., miles, hours)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system for migration or audit traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Source table name from the legacy system."
+  },
+  {
+    "column name": "correction",
+    "description": "Description of corrective action taken to resolve the issue."
+  },
+  {
+    "column name": "cause",
+    "description": "Description of the root cause or failure reason."
+  },
+  {
+    "column name": "newmeter",
+    "description": "Meter reading after service completion or at close."
+  },
+  {
+    "column name": "meter",
+    "description": "Meter reading recorded when the work was opened or performed."
+  },
+  {
+    "column name": "totalother",
+    "description": "Total of other costs aggregated for this line or related work; confirm with SME."
+  },
+  {
+    "column name": "warrantycredit",
+    "description": "Amount credited due to warranty coverage."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority code indicating urgency of the work."
+  },
+  {
+    "column name": "invvalue",
+    "description": "Inventory valuation amount for items consumed on this line; likely average cost; confirm with SME."
+  },
+  {
+    "column name": "qty",
+    "description": "Quantity of items or work units associated with this line."
+  },
+  {
+    "column name": "quickmaintreq",
+    "description": "Indicator that this line was created via quick maintenance request entry."
+  },
+  {
+    "column name": "newo",
+    "description": "Indicator that this is a newly created line (not copied); confirm with SME."
+  },
+  {
+    "column name": "isscheduled",
+    "description": "Indicator that the work was scheduled rather than unscheduled."
+  },
+  {
+    "column name": "req_override",
+    "description": "Indicator allowing requirement or PM rule overrides; confirm with SME."
+  },
+  {
+    "column name": "scheddate",
+    "description": "Scheduled date for performing this work."
+  },
+  {
+    "column name": "quickemp",
+    "description": "Identifier of the employee selected via quick entry."
+  },
+  {
+    "column name": "quickempr",
+    "description": "Lookup reference or label source for quickemp; likely system metadata."
+  },
+  {
+    "column name": "quickwo",
+    "description": "Identifier of a quick-entry work order template or shortcut; confirm with SME."
+  },
+  {
+    "column name": "quickwor",
+    "description": "Lookup reference or label source for quickwo; likely system metadata."
+  },
+  {
+    "column name": "inspitemd",
+    "description": "Identifier of the inspection item or defect linked to this line."
+  },
+  {
+    "column name": "inspitemdr",
+    "description": "Lookup reference or label source for inspitemd; likely system metadata."
+  },
+  {
+    "column name": "deferaltype",
+    "description": "Code indicating the reason/type when work is deferred."
+  },
+  {
+    "column name": "deferaltyper",
+    "description": "Lookup reference or label source for deferaltype; likely system metadata."
+  },
+  {
+    "column name": "deferred",
+    "description": "Indicator that the work was deferred or postponed."
+  },
+  {
+    "column name": "deferredr",
+    "description": "Lookup reference or label source for deferred; likely system metadata."
+  },
+  {
+    "column name": "wostatus",
+    "description": "Status code of the work order when this line was recorded."
+  },
+  {
+    "column name": "wostatusr",
+    "description": "Lookup reference or label source for wostatus; likely system metadata."
+  },
+  {
+    "column name": "attach_to",
+    "description": "Identifier of the record this line is attached or linked to (e.g., parent task)."
+  },
+  {
+    "column name": "attach_tor",
+    "description": "Lookup reference or label source for attach_to; likely system metadata."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the part used on this line."
+  },
+  {
+    "column name": "partr",
+    "description": "Lookup reference or label source for part; likely system metadata."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the asset or equipment the work was performed on."
+  },
+  {
+    "column name": "equipr",
+    "description": "Lookup reference or label source for equip; likely system metadata."
+  },
+  {
+    "column name": "quick_wc_labor_option",
+    "description": "Option controlling how labor is applied during quick work completion; confirm with SME."
+  },
+  {
+    "column name": "metertype",
+    "description": "Unit of measure for meter readings (e.g., miles, hours)."
+  },
+  {
+    "column name": "active_clock_time",
+    "description": "Duration technicians were clocked in on this line; units may vary; confirm with SME."
+  },
+  {
+    "column name": "display_labor_time",
+    "description": "Human-readable formatted labor time for display purposes."
+  },
+  {
+    "column name": "status_string",
+    "description": "Human-readable status text for this work order line."
+  },
+  {
+    "column name": "pm_days_compliance",
+    "description": "Difference in days from PM due date, used for compliance tracking."
+  },
+  {
+    "column name": "is_scheduled_pm",
+    "description": "Indicator that this is a scheduled preventive maintenance job."
+  }
+]

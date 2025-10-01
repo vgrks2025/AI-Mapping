@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the jurisdiction record; serves as the primary key for referencing this row."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the row was created or last updated, stored as a compact yyyymmddHHMMSSmmm numeric string for auditing and synchronization."
+  },
+  {
+    "column name": "descr",
+    "description": "Official name of the jurisdiction (state, province, or territory) used for display and reporting."
+  },
+  {
+    "column name": "code",
+    "description": "Standard two-letter postal abbreviation for the jurisdiction used in addresses, compliance, and integrations."
+  },
+  {
+    "column name": "fueltax",
+    "description": "Likely fuel tax rate set by the jurisdiction (e.g., currency per gallon/liter) used for IFTA or billing calculations; confirm definition and units with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Legacy system identifier corresponding to this jurisdiction, used for migration mapping and cross-system reconciliation; confirm source system."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which this record originated; used for lineage and troubleshooting."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this inspection item record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time the inspection result was recorded or last updated, with sub-second precision."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional free-text remarks about the inspection entry."
+  },
+  {
+    "column name": "itemnote",
+    "description": "Optional note specific to the checklist item’s observation or context during the inspection."
+  },
+  {
+    "column name": "inspitem",
+    "description": "Identifier of the checklist item evaluated during the inspection; links to the inspection item catalog."
+  },
+  {
+    "column name": "inspitemr",
+    "description": "Name of the reference table for the checklist item identifier in a generic/polymorphic foreign key design; confirm with SME."
+  },
+  {
+    "column name": "woinspd",
+    "description": "Foreign key to the related work order detail line this inspection item belongs to."
+  },
+  {
+    "column name": "woinspdr",
+    "description": "Name of the table referenced by the related work order detail ID in a polymorphic reference; confirm with SME."
+  },
+  {
+    "column name": "passfail",
+    "description": "Outcome of the item’s check indicating success, failure, or similar status."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from the legacy source system for this record, retained for migration mapping and traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the originating legacy table for this record, kept for data lineage and migration reference."
+  }
+]

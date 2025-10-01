@@ -1,0 +1,50 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this record; used as the table’s primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated date/time when this record was created or last updated (YYYYMMDDHHMMSSmmm); likely an audit stamp—confirm with SME."
+  },
+  {
+    "column name": "time",
+    "description": "Time of day the incident occurred, in HHMMSS (24-hour) format."
+  },
+  {
+    "column name": "tdate",
+    "description": "Calendar date of the incident, in YYYYMMDD format."
+  },
+  {
+    "column name": "descr",
+    "description": "Short category or summary of the incident/claim or follow-up action."
+  },
+  {
+    "column name": "notes",
+    "description": "Free-text details about the incident or claim handling, including statuses, parties, and claim numbers."
+  },
+  {
+    "column name": "employee",
+    "description": "Identifier of the involved employee/driver; foreign key to the employee master."
+  },
+  {
+    "column name": "employeer",
+    "description": "Reference to the source entity/table for the employee foreign key (polymorphic link); confirm with SME."
+  },
+  {
+    "column name": "accident",
+    "description": "Identifier of the related incident/case; foreign key to the incident master."
+  },
+  {
+    "column name": "accidentr",
+    "description": "Reference to the source entity/table for the incident foreign key (polymorphic link); confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a prior system used during data migration or cross-reference; may be null if originated here."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table from a prior system from which this record was migrated."
+  }
+]

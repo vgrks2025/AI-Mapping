@@ -1,0 +1,70 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Identifier linking this record to an equipment asset; likely the equipment’s primary key used as a foreign key here; confirm with SME."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp when the record was created or last updated, in millisecond precision (YYYYMMDDHHMMSSmmm)."
+  },
+  {
+    "column name": "field4",
+    "description": "User-defined attribute for additional equipment detail; purpose varies by implementation; confirm with SME."
+  },
+  {
+    "column name": "field3",
+    "description": "User-defined attribute for additional equipment detail; purpose varies by implementation; confirm with SME."
+  },
+  {
+    "column name": "field2",
+    "description": "User-defined attribute for additional equipment detail; purpose varies by implementation; confirm with SME."
+  },
+  {
+    "column name": "field1",
+    "description": "Free-text detail describing a component, feature, or accessory of the equipment."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the asset or detail, such as descriptions, configuration tags, or other remarks."
+  },
+  {
+    "column name": "detitem",
+    "description": "Detail line identifier or code distinguishing multiple detail entries for the same asset; commonly a small integer."
+  },
+  {
+    "column name": "detitemr",
+    "description": "Metadata storing a reference to the related detail field used by a generic data framework; likely holds a field name; confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment asset that this detail pertains to."
+  },
+  {
+    "column name": "equipr",
+    "description": "Metadata storing a reference to the equipment identifier field used by a generic data framework; likely holds a field name; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system to support data migration traceability or cross-referencing."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table or system from which the legacy identifier originated."
+  },
+  {
+    "column name": "source",
+    "description": "Code indicating the originating source system or load process for this record."
+  },
+  {
+    "column name": "sourcer",
+    "description": "Human-readable label or metadata reference describing the source code; likely stores a field name or lookup key; confirm with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Flag indicating whether this detail record is inactive or no longer in use."
+  },
+  {
+    "column name": "tdate",
+    "description": "Effective or transaction date associated with the detail; format unclear and may be blank-padded; confirm with SME."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this row in the PM category–service mapping."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date/time in yyyymmddhhmmssmmm format recording when the row was created or last updated; likely milliseconds included."
+  },
+  {
+    "column name": "workcode",
+    "description": "Code identifying the maintenance task or service type associated with the PM category."
+  },
+  {
+    "column name": "workcoder",
+    "description": "Reference indicator naming the code set/domain used to validate the service-task code; likely for lookup logic. Confirm with SME."
+  },
+  {
+    "column name": "pmcat",
+    "description": "Identifier of the preventive maintenance category linked to the service entry."
+  },
+  {
+    "column name": "pmcatr",
+    "description": "Reference indicator naming the code set/domain for the category identifier; likely used by validation/dictionary logic. Confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from the legacy source system, retained for data lineage and cross-system matching."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the originating table in the legacy source system for this record."
+  }
+]

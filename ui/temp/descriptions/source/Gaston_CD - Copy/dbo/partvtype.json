@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this vendor-role record associated with a part. Serves as the primary key for joins and reference."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the row was created or last updated, encoded as yyyymmddHHMMSSmmm. Supports auditing, synchronization, and change tracking."
+  },
+  {
+    "column name": "primaryvendor",
+    "description": "Boolean flag indicating the vendor is the main supplier for the part; false implies a secondary role."
+  },
+  {
+    "column name": "partvtype",
+    "description": "Categorizes the vendor’s role for a part, such as main or secondary supplier. Used to drive sourcing and procurement rules."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a legacy system; used for data migration mapping and traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system that held the original record; likely for migration lineage tracking; confirm with SME."
+  }
+]

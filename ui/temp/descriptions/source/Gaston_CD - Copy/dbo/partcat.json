@@ -1,0 +1,86 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier of the part category record; serves as the primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp for when the record was created or last updated (YYYYMMDDHHMMSSmmm)."
+  },
+  {
+    "column name": "partcat",
+    "description": "Business name of the part category used in catalogs and reports."
+  },
+  {
+    "column name": "subprtcat",
+    "description": "Identifier linking to a parent or subcategory in the hierarchy; likely a self-referential key; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Legacy system identifier retained for migration and cross-referencing."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy system table associated with the legacy identifier."
+  },
+  {
+    "column name": "type",
+    "description": "Category classification controlling inventory behavior (e.g., consumable vs. durable) and process rules."
+  },
+  {
+    "column name": "has_core",
+    "description": "Indicates whether items may involve a core charge and return process."
+  },
+  {
+    "column name": "has_size",
+    "description": "Indicates whether size attributes are tracked for items in this category."
+  },
+  {
+    "column name": "has_color",
+    "description": "Indicates whether color attributes are tracked for items in this category."
+  },
+  {
+    "column name": "has_document",
+    "description": "Indicates whether supporting documents are tracked or required for items in this category."
+  },
+  {
+    "column name": "has_sds",
+    "description": "Indicates whether Safety Data Sheets (SDS/MSDS) apply and are tracked."
+  },
+  {
+    "column name": "has_oem",
+    "description": "Indicates whether OEM cross-references or manufacturer part numbers are tracked."
+  },
+  {
+    "column name": "used_for_tools",
+    "description": "Indicates whether the category applies to tools and tool-related inventory."
+  },
+  {
+    "column name": "used_for_tires",
+    "description": "Indicates whether the category applies to tires and tire-related inventory."
+  },
+  {
+    "column name": "used_for_fluids",
+    "description": "Indicates whether the category applies to fluids such as oils or coolants."
+  },
+  {
+    "column name": "used_for_fuel",
+    "description": "Indicates whether the category applies to fuel products."
+  },
+  {
+    "column name": "issuable",
+    "description": "Indicates whether items can be issued to assets, employees, or work orders."
+  },
+  {
+    "column name": "used_for_workorder",
+    "description": "Indicates whether items are allowed to be added to work orders."
+  },
+  {
+    "column name": "core_ind",
+    "description": "Operational flag that core handling is enabled by default for this category; relationship to has_core may differ; confirm with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Inactive status flag; when enabled, the category is hidden or blocked from use."
+  }
+]

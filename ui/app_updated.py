@@ -17,7 +17,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 
-warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore") 
 st.set_page_config(page_title="AI Data Mapper — Faster Asset", layout="wide")
 
 # =============== Sidebar: User Manual only ===============

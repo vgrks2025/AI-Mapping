@@ -1,0 +1,154 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the accident record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp for when the accident record was created or last updated; includes milliseconds. Confirm whether it reflects event time or record activity."
+  },
+  {
+    "column name": "time",
+    "description": "Local time of the incident (HHMMSS)."
+  },
+  {
+    "column name": "hitrun",
+    "description": "Indicates the incident involved a hit-and-run."
+  },
+  {
+    "column name": "completed",
+    "description": "Flags that the case/claim processing is complete."
+  },
+  {
+    "column name": "tdate",
+    "description": "Date of the incident (YYYYMMDD)."
+  },
+  {
+    "column name": "addof",
+    "description": "Primary street, highway, or location where the incident occurred."
+  },
+  {
+    "column name": "cityof",
+    "description": "City or municipality of the incident location."
+  },
+  {
+    "column name": "countyof",
+    "description": "County or jurisdiction of the incident location; entries may include city names due to data entry."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description of the incident and damage."
+  },
+  {
+    "column name": "claimno",
+    "description": "Insurance claim reference or internal claim identifier for this incident."
+  },
+  {
+    "column name": "narrative",
+    "description": "Free-text narrative describing circumstances, damage, and outcomes."
+  },
+  {
+    "column name": "totalact",
+    "description": "Total actual costs paid or incurred for the incident to date; confirm currency and rollup."
+  },
+  {
+    "column name": "total",
+    "description": "Overall total for the claim, typically the estimated or approved amount; confirm definition and currency."
+  },
+  {
+    "column name": "est",
+    "description": "Estimated cost for the incident (overall or company equipment); confirm scope."
+  },
+  {
+    "column name": "pdest",
+    "description": "Estimated third-party property damage costs; confirm scope."
+  },
+  {
+    "column name": "pdtot",
+    "description": "Actual third-party property damage costs paid; confirm scope."
+  },
+  {
+    "column name": "oeqtot",
+    "description": "Actual costs for other/third-party equipment; likely non-company assets; confirm."
+  },
+  {
+    "column name": "oeqest",
+    "description": "Estimated costs for other/third-party equipment; likely non-company assets; confirm."
+  },
+  {
+    "column name": "ceqtot",
+    "description": "Total costs related to company-owned equipment (actual or aggregated); confirm whether this is actual or estimate."
+  },
+  {
+    "column name": "totinj",
+    "description": "Number of people injured in the incident."
+  },
+  {
+    "column name": "totequip",
+    "description": "Count of fleet vehicles/equipment involved or affected."
+  },
+  {
+    "column name": "typeacc",
+    "description": "Coded accident type/category identifier."
+  },
+  {
+    "column name": "typeaccr",
+    "description": "Lookup set name used to decode the accident type code."
+  },
+  {
+    "column name": "dayweek",
+    "description": "Day of week on which the incident occurred."
+  },
+  {
+    "column name": "accpict",
+    "description": "Binary image attachment (evidence photo) of the incident."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original unique key from the legacy source system (if imported)."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name from which this record was migrated."
+  },
+  {
+    "column name": "address2",
+    "description": "Additional location detail, such as a cross street or second address line."
+  },
+  {
+    "column name": "postalcode",
+    "description": "Postal/ZIP code for the incident location."
+  },
+  {
+    "column name": "state",
+    "description": "Coded state or province of the incident location; references a lookup."
+  },
+  {
+    "column name": "stater",
+    "description": "Lookup set name used to decode the state code."
+  },
+  {
+    "column name": "hierlvl9",
+    "description": "Organizational hierarchy level code (e.g., cost center or sub-unit) associated with the incident."
+  },
+  {
+    "column name": "hierlvl9r",
+    "description": "Lookup set name used to decode the level-9 hierarchy code."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Organizational hierarchy level code (mid-level unit) associated with the incident."
+  },
+  {
+    "column name": "hierlvl2r",
+    "description": "Lookup set name used to decode the level-2 hierarchy code."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Top-level organizational hierarchy code associated with the incident."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Lookup set name used to decode the level-1 hierarchy code."
+  }
+]

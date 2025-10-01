@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique surrogate identifier for this equipment status record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the status entry was recorded or took effect, with milliseconds precision (format likely YYYYMMDDHHMMSSmmm; timezone to confirm with SME)."
+  },
+  {
+    "column name": "equipstatus",
+    "description": "Business status describing the equipment’s current lifecycle or availability."
+  },
+  {
+    "column name": "inservice",
+    "description": "Serviceability flag indicating whether the unit is currently usable, unavailable, or inactive."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key from the legacy system used to cross-reference the source record; may be null/default."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table for the migrated record (data lineage); likely used for traceability; confirm with SME."
+  }
+]

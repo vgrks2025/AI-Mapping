@@ -1,0 +1,90 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for a driver-to-equipment assignment record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System date-time when the assignment record was created or last updated (likely in yyyymmddhhmmssmmm format)."
+  },
+  {
+    "column name": "tdate",
+    "description": "Effective date for the driver’s assignment change (start of this record’s validity)."
+  },
+  {
+    "column name": "reason",
+    "description": "Narrative or code explaining why the assignment changed (e.g., transfer, maintenance); confirm with SME."
+  },
+  {
+    "column name": "strtmeter2",
+    "description": "Alternate starting meter reading for the asset at assignment start (e.g., hubometer or secondary counter); confirm with SME."
+  },
+  {
+    "column name": "startmeter",
+    "description": "Primary odometer reading at the start of the driver’s assignment."
+  },
+  {
+    "column name": "endmeter2",
+    "description": "Alternate ending meter reading for the asset at assignment end (secondary counter); confirm with SME."
+  },
+  {
+    "column name": "endmeter",
+    "description": "Primary odometer reading at the end of the driver’s assignment."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment/vehicle assigned to the driver for this record."
+  },
+  {
+    "column name": "equipr",
+    "description": "Reference qualifier indicating the master data target for the equipment identifier (foreign key metadata)."
+  },
+  {
+    "column name": "prevequip",
+    "description": "Identifier of the equipment previously assigned before this change took effect."
+  },
+  {
+    "column name": "prevequipr",
+    "description": "Reference qualifier for the previous equipment identifier (foreign key metadata)."
+  },
+  {
+    "column name": "drivequip",
+    "description": "Identifier for an additional or driven unit linked to the driver during this period (e.g., trailer); confirm with SME."
+  },
+  {
+    "column name": "drivequipr",
+    "description": "Reference qualifier for the additional/secondary equipment identifier (foreign key metadata)."
+  },
+  {
+    "column name": "driver",
+    "description": "Identifier of the driver (employee) associated with this assignment record."
+  },
+  {
+    "column name": "driverr",
+    "description": "Reference qualifier indicating the master data target for the driver identifier (employee master)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key value from the legacy source system used for lineage and cross-system mapping."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table from which this record originated."
+  },
+  {
+    "column name": "strtmeter4",
+    "description": "Fourth starting meter reading captured at assignment start (auxiliary counter); confirm with SME."
+  },
+  {
+    "column name": "strtmeter3",
+    "description": "Third starting meter reading captured at assignment start (auxiliary counter); confirm with SME."
+  },
+  {
+    "column name": "endmeter4",
+    "description": "Fourth ending meter reading captured at assignment end (auxiliary counter); confirm with SME."
+  },
+  {
+    "column name": "endmeter3",
+    "description": "Third ending meter reading captured at assignment end (auxiliary counter); confirm with SME."
+  }
+]

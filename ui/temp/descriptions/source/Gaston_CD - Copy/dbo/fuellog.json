@@ -1,0 +1,266 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique system-generated identifier for this fuel transaction record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Exact date and time the fueling transaction was recorded, likely to the millisecond (YYYYMMDDHHMMSSmmm)."
+  },
+  {
+    "column name": "ttime",
+    "description": "Local time of the fueling event (HHMMSS)."
+  },
+  {
+    "column name": "mangpart",
+    "description": "Indicates the item is a managed inventory part rather than bulk fuel; confirm with SME."
+  },
+  {
+    "column name": "estimated",
+    "description": "Flags that one or more values (e.g., quantity, meter, cost) are estimated rather than measured."
+  },
+  {
+    "column name": "unauthorized",
+    "description": "Marks the fueling as not authorized per policy (e.g., wrong card, driver, or asset)."
+  },
+  {
+    "column name": "incorrect_mileage",
+    "description": "Flags the reported odometer/hourmeter as suspect or invalid for this transaction."
+  },
+  {
+    "column name": "tdate",
+    "description": "Transaction date of the fueling event (YYYYMMDD)."
+  },
+  {
+    "column name": "descr",
+    "description": "Optional free-text notes or description for the fueling entry."
+  },
+  {
+    "column name": "grandcost",
+    "description": "Total amount for the transaction including all taxes and fees."
+  },
+  {
+    "column name": "mpgvar2",
+    "description": "Variance metric for an alternate MPG calculation; likely a placeholder when unavailable; confirm with SME."
+  },
+  {
+    "column name": "mpg2",
+    "description": "Alternate miles-per-gallon calculation method; values may be placeholders or anomalous; confirm formula with SME."
+  },
+  {
+    "column name": "mpgvar",
+    "description": "Variance from expected or baseline MPG for this transaction; confirm calculation method with SME."
+  },
+  {
+    "column name": "mpg",
+    "description": "Miles per gallon based on distance traveled since last fill divided by fuel quantity dispensed."
+  },
+  {
+    "column name": "fluidcost",
+    "description": "Cost attributed to non-fuel fluids (e.g., DEF, oil) associated with this transaction."
+  },
+  {
+    "column name": "totcost",
+    "description": "Total cost charged for the fueling transaction."
+  },
+  {
+    "column name": "rectamt",
+    "description": "Amount shown on the vendor receipt or billed for the transaction."
+  },
+  {
+    "column name": "cpufifo",
+    "description": "Internal cost-per-unit using FIFO inventory valuation for the product dispensed."
+  },
+  {
+    "column name": "cpu",
+    "description": "Unit price charged by the vendor (e.g., cost per gallon)."
+  },
+  {
+    "column name": "invcost",
+    "description": "Inventory cost applied when drawing fuel from on-hand stock; zero when not applicable."
+  },
+  {
+    "column name": "quantity",
+    "description": "Volume of fuel dispensed (e.g., gallons or liters)."
+  },
+  {
+    "column name": "disttrav2",
+    "description": "Secondary distance since previous fill for an alternate meter/calculation; confirm with SME."
+  },
+  {
+    "column name": "disttrav",
+    "description": "Distance traveled since the previous fueling, based on the asset’s meter (units depend on meter type)."
+  },
+  {
+    "column name": "invmeter",
+    "description": "Inventory or pump meter reading captured for this transaction; often defaulted when not provided; confirm with SME."
+  },
+  {
+    "column name": "meter2",
+    "description": "Secondary odometer/hourmeter reading associated with the transaction; often unused; confirm with SME."
+  },
+  {
+    "column name": "card_number",
+    "description": "Fuel card number used to authorize and pay for the transaction."
+  },
+  {
+    "column name": "other_tax",
+    "description": "Other taxes or fees applied to the transaction not classified as federal or state tax."
+  },
+  {
+    "column name": "federal_tax",
+    "description": "Federal fuel tax amount included in the transaction."
+  },
+  {
+    "column name": "state_tax",
+    "description": "State fuel tax amount included in the transaction."
+  },
+  {
+    "column name": "meter",
+    "description": "Asset odometer or hourmeter reading at the time of fueling."
+  },
+  {
+    "column name": "fuelno",
+    "description": "Source-system reference or transaction number for the fueling event."
+  },
+  {
+    "column name": "fueltype",
+    "description": "Code representing the fuel product dispensed (e.g., diesel, gasoline)."
+  },
+  {
+    "column name": "fueltyper",
+    "description": "Reference label used to join or describe the fuel type in reporting; confirm with SME."
+  },
+  {
+    "column name": "vendor",
+    "description": "Identifier of the supplier or site where the fuel was purchased or dispensed."
+  },
+  {
+    "column name": "vendorr",
+    "description": "Reference label used to join or describe the vendor in reporting; confirm with SME."
+  },
+  {
+    "column name": "part",
+    "description": "Part number for the item dispensed when not standard fuel; 0 when not applicable."
+  },
+  {
+    "column name": "partr",
+    "description": "Reference label used to join or describe the part in reporting; confirm with SME."
+  },
+  {
+    "column name": "hierlvl9",
+    "description": "Organizational hierarchy code (level 9) attributed to the transaction (e.g., department/division)."
+  },
+  {
+    "column name": "hierlvl9r",
+    "description": "Reference label used to join or describe hierarchy level 9 in reporting; confirm with SME."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Organizational hierarchy code (level 1) attributed to the transaction."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Reference label used to join or describe hierarchy level 1 in reporting; confirm with SME."
+  },
+  {
+    "column name": "employee",
+    "description": "Identifier of the employee responsible for or associated with the fueling transaction."
+  },
+  {
+    "column name": "employeer",
+    "description": "Reference label used to join or describe the employee in reporting; confirm with SME."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment/vehicle that was fueled."
+  },
+  {
+    "column name": "equipr",
+    "description": "Reference label used to join or describe the equipment in reporting; confirm with SME."
+  },
+  {
+    "column name": "capacity",
+    "description": "Recorded fuel tank capacity for the equipment on this transaction; likely defaulted when unknown; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original unique identifier from a legacy system, retained for traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table from which this record originated."
+  },
+  {
+    "column name": "transaction_no",
+    "description": "External transaction number from the processor or POS system; may be blank when unavailable."
+  },
+  {
+    "column name": "hose",
+    "description": "Dispenser hose identifier used during fueling; confirm coding with SME."
+  },
+  {
+    "column name": "pump",
+    "description": "Pump or dispenser number used for the fueling event."
+  },
+  {
+    "column name": "tank",
+    "description": "Identifier of the storage tank from which the fuel was drawn; applicable for on-site fueling."
+  },
+  {
+    "column name": "site",
+    "description": "Location or site identifier where the fueling occurred."
+  },
+  {
+    "column name": "invcost_nostock",
+    "description": "Inventory cost applied when the item is treated as non-stock; confirm usage with SME."
+  },
+  {
+    "column name": "mpgvar4",
+    "description": "Variance metric for a fourth MPG calculation or period; confirm definition with SME."
+  },
+  {
+    "column name": "mpg4",
+    "description": "Fourth MPG metric (e.g., rolling average or alternate method); confirm formula with SME."
+  },
+  {
+    "column name": "mpgvar3",
+    "description": "Variance metric for a third MPG calculation or period; confirm definition with SME."
+  },
+  {
+    "column name": "mpg3",
+    "description": "Third MPG metric (e.g., rolling average or alternate method); confirm formula with SME."
+  },
+  {
+    "column name": "disttrav4",
+    "description": "Distance associated with the fourth meter or MPG calculation; confirm with SME."
+  },
+  {
+    "column name": "disttrav3",
+    "description": "Distance associated with the third meter or MPG calculation; confirm with SME."
+  },
+  {
+    "column name": "meter4",
+    "description": "Fourth meter reading captured for alternate calculations; confirm meter type with SME."
+  },
+  {
+    "column name": "meter3",
+    "description": "Third meter reading captured for alternate calculations; confirm meter type with SME."
+  },
+  {
+    "column name": "from_int",
+    "description": "Indicates the record was imported from an external interface rather than entered manually."
+  },
+  {
+    "column name": "pdate",
+    "description": "Posting date when the transaction was posted to accounting or ERP; may be blank."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Organizational hierarchy code (level 2) attributed to the transaction."
+  },
+  {
+    "column name": "hierlvl2r",
+    "description": "Reference label used to join or describe hierarchy level 2 in reporting; confirm with SME."
+  }
+]

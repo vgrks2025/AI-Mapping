@@ -1,0 +1,166 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate primary key for the warranty task record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit timestamp of the latest insert/update to this record (UTC, yyyymmddHHMMSSmmm)."
+  },
+  {
+    "column name": "expired",
+    "description": "Indicates whether the warranty coverage or task window has expired."
+  },
+  {
+    "column name": "duedate",
+    "description": "Overall due date when this warranty task becomes due; may represent the next applicable trigger date. Sentinel values can indicate not set; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Short business description of the warranty task."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-form notes or instructions related to the warranty task."
+  },
+  {
+    "column name": "meterleft",
+    "description": "Remaining meter units (e.g., miles/hours) before the task is due."
+  },
+  {
+    "column name": "daysleft",
+    "description": "Number of calendar days remaining until the task is due or warranty window closes."
+  },
+  {
+    "column name": "scan",
+    "description": "Likely stores scan/barcode/diagnostic data associated with the task; confirm with SME."
+  },
+  {
+    "column name": "schedule",
+    "description": "Serialized schedule definition (XML) describing time/meter triggers for the task."
+  },
+  {
+    "column name": "task",
+    "description": "Identifier of the specific task/procedure to be performed under warranty."
+  },
+  {
+    "column name": "taskr",
+    "description": "Reference entity/table for the task identifier (e.g., which module stores the task); used with task."
+  },
+  {
+    "column name": "item",
+    "description": "Identifier of the asset or component to which this warranty task applies."
+  },
+  {
+    "column name": "itemr",
+    "description": "Entity/table name of the referenced item (e.g., equipment, part detail)."
+  },
+  {
+    "column name": "metertype",
+    "description": "Unit of measure for the governing meter (e.g., miles, hours, kilometers)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of this record in the legacy source system for cross-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name corresponding to legacykey."
+  },
+  {
+    "column name": "schedule_builder_elapsed_time_type",
+    "description": "Time unit for the elapsed-time rule used by the scheduler (e.g., Days, Months, Years)."
+  },
+  {
+    "column name": "schedule_builder_schedule_type",
+    "description": "Scheduler rule type code determining due logic (e.g., meter-based, time-based, or both); confirm code set with SME."
+  },
+  {
+    "column name": "warranty_start",
+    "description": "Code indicating when the warranty period begins (e.g., purchase or in-service date)."
+  },
+  {
+    "column name": "schedule_builder_type_options",
+    "description": "Option code selecting the schedule template/category (e.g., preventive maintenance); confirm code meanings with SME."
+  },
+  {
+    "column name": "schedule_builder_elapsed_time",
+    "description": "Numeric elapsed-time threshold used with the elapsed_time_type to compute due dates."
+  },
+  {
+    "column name": "schedule_builder_meter4",
+    "description": "Threshold value for the fourth meter channel that can trigger the task; sentinel values may indicate not used."
+  },
+  {
+    "column name": "schedule_builder_meter3",
+    "description": "Threshold value for the third meter channel that can trigger the task; sentinel values may indicate not used."
+  },
+  {
+    "column name": "schedule_builder_meter2",
+    "description": "Threshold value for the second meter channel that can trigger the task; sentinel values may indicate not used."
+  },
+  {
+    "column name": "schedule_builder_meter1",
+    "description": "Threshold value for the primary meter channel that can trigger the task."
+  },
+  {
+    "column name": "trigger_count2",
+    "description": "Count for a secondary trigger rule (e.g., number of activations or remaining triggers); confirm behavior with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the task is inactive and should not be scheduled."
+  },
+  {
+    "column name": "schedule_builder_ignore_seasonal",
+    "description": "If true, seasonal usage adjustments are ignored when projecting due dates from meter trends."
+  },
+  {
+    "column name": "daysleft_meter",
+    "description": "Estimated days remaining until due based on meter usage projections."
+  },
+  {
+    "column name": "duemeter4",
+    "description": "Meter reading at which the task becomes due for meter channel 4."
+  },
+  {
+    "column name": "duemeter3",
+    "description": "Meter reading at which the task becomes due for meter channel 3."
+  },
+  {
+    "column name": "duemeter2",
+    "description": "Meter reading at which the task becomes due for meter channel 2."
+  },
+  {
+    "column name": "duemeter",
+    "description": "Meter reading at which the task becomes due for the primary meter."
+  },
+  {
+    "column name": "lastmeter4",
+    "description": "Most recent recorded reading for meter channel 4 used in due calculations."
+  },
+  {
+    "column name": "lastmeter3",
+    "description": "Most recent recorded reading for meter channel 3 used in due calculations."
+  },
+  {
+    "column name": "lastmeter2",
+    "description": "Most recent recorded reading for meter channel 2 used in due calculations."
+  },
+  {
+    "column name": "lastmeter",
+    "description": "Most recent recorded reading for the primary meter used in due calculations."
+  },
+  {
+    "column name": "meter_duedate",
+    "description": "Projected calendar date when the meter-based threshold is expected to be reached; blank if unknown."
+  },
+  {
+    "column name": "time_date",
+    "description": "Next due date derived from elapsed-time rules only."
+  },
+  {
+    "column name": "lastdate",
+    "description": "Date the task was last performed or last triggered, used to calculate next due."
+  }
+]

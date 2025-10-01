@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the equipment make record; used as the primary key and to reference this make from other tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated audit datetime for this record, stored as yyyymmddhhmmssmmm (milliseconds). Represents creation or last update; time zone unspecified—confirm with SME."
+  },
+  {
+    "column name": "make",
+    "description": "Brand or manufacturer label associated with equipment records (make name); may include model variants in some cases."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key from a legacy system used to cross-reference or migrate historical make records; may be null. Confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table where this record originated; supports data lineage during migration. Confirm with SME."
+  },
+  {
+    "column name": "manf_name",
+    "description": "Full manufacturer name standardized for reporting; distinct from the make display value. Likely used for normalization; confirm with SME."
+  }
+]

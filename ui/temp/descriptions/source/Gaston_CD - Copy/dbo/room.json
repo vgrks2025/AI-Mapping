@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this record; used as the primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the record was inserted or last modified, with millisecond precision. Time zone may be UTC; confirm with SME."
+  },
+  {
+    "column name": "room",
+    "description": "Code for a facility area identifying where assets, vehicles, or staff are located. Likely short codes; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the equivalent record in the legacy source system, enabling cross-reference and migration traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the table in the legacy source system from which this record originated."
+  }
+]

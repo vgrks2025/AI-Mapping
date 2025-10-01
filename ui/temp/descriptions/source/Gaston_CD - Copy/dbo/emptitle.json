@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique surrogate identifier for this job title record; used as the primary key and to link to related data."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System-generated date and time when the record was created or last updated, likely stored as YYYYMMDDHHMMSSmmm; confirm format with SME."
+  },
+  {
+    "column name": "emptitle",
+    "description": "Human-readable job role/title displayed in applications and reports."
+  },
+  {
+    "column name": "jobtype",
+    "description": "Normalized role category assigned to each title to support reporting, security, and workflows."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a prior system; used for migration, cross-reference, or data lineage. Likely nullable; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table from a prior system associated with the mapped record; used for migration or lineage; confirm with SME."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this preventive maintenance schedule record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time the record was last updated (YYYYMMDDHHMMSSmmm)."
+  },
+  {
+    "column name": "descr",
+    "description": "Short description of the maintenance schedule or task."
+  },
+  {
+    "column name": "schedule",
+    "description": "XML payload storing the detailed schedule configuration, triggers, and rules."
+  },
+  {
+    "column name": "taskd",
+    "description": "Identifier for an optional D-level task linked to this schedule; 0 indicates none."
+  },
+  {
+    "column name": "taskdr",
+    "description": "Reference table used to resolve taskd."
+  },
+  {
+    "column name": "taskc",
+    "description": "Identifier for an optional C-level task linked to this schedule; 0 indicates none."
+  },
+  {
+    "column name": "taskcr",
+    "description": "Reference table used to resolve taskc."
+  },
+  {
+    "column name": "taskb",
+    "description": "Identifier for an optional B-level task linked to this schedule; 0 indicates none."
+  },
+  {
+    "column name": "taskbr",
+    "description": "Reference table used to resolve taskb."
+  },
+  {
+    "column name": "taska",
+    "description": "Identifier for an optional A-level task linked to this schedule; 0 indicates none."
+  },
+  {
+    "column name": "taskar",
+    "description": "Reference table used to resolve taska."
+  },
+  {
+    "column name": "task",
+    "description": "Primary task code or ID associated with this schedule."
+  },
+  {
+    "column name": "taskr",
+    "description": "Reference table used to resolve the task field."
+  },
+  {
+    "column name": "schedset",
+    "description": "Identifier of the schedule set to which this record belongs."
+  },
+  {
+    "column name": "schedsetr",
+    "description": "Reference table used to resolve schedset."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Key from the legacy source system for this record, if migrated."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table of this record, if migrated."
+  },
+  {
+    "column name": "shortcut_schedule_in_type",
+    "description": "Unit or basis used for quick schedule entry (for example, meter or time)."
+  },
+  {
+    "column name": "schedule_builder_elapsed_time_type",
+    "description": "Unit used for elapsed-time scheduling (such as months or years)."
+  },
+  {
+    "column name": "schedule_builder_meter_type4",
+    "description": "Unit of the fourth meter trigger (for example, miles or hours); none when unused."
+  },
+  {
+    "column name": "schedule_builder_meter_type3",
+    "description": "Unit of the third meter trigger; none when unused."
+  },
+  {
+    "column name": "schedule_builder_meter_type2",
+    "description": "Unit of the second meter trigger; none when unused."
+  },
+  {
+    "column name": "schedule_builder_meter_type1",
+    "description": "Unit of the primary meter trigger (for example, miles or hours)."
+  },
+  {
+    "column name": "schedule_builder_schedule_type",
+    "description": "Scheduling basis indicator: meter-based, elapsed-time, date-based, or combinations thereof."
+  },
+  {
+    "column name": "schedule_builder_type_options",
+    "description": "Schedule builder category or preset applied to this configuration."
+  },
+  {
+    "column name": "shortcut_schedule_in_number",
+    "description": "Numeric interval or quantity for quick schedule entry, paired with shortcut_schedule_in_type."
+  },
+  {
+    "column name": "schedule_builder_days_ahead",
+    "description": "Days to look ahead when forecasting or alerting upcoming maintenance."
+  },
+  {
+    "column name": "schedule_builder_elapsed_time",
+    "description": "Interval value for elapsed-time scheduling, interpreted using schedule_builder_elapsed_time_type."
+  },
+  {
+    "column name": "schedule_builder_fuel",
+    "description": "Fuel usage threshold for scheduling, if enabled; units depend on configuration. Likely optional; confirm with SME."
+  },
+  {
+    "column name": "schedule_builder_meter4",
+    "description": "Meter threshold for the fourth trigger; 0 or very large values typically indicate unused."
+  },
+  {
+    "column name": "schedule_builder_meter3",
+    "description": "Meter threshold for the third trigger; 0 or very large values typically indicate unused."
+  },
+  {
+    "column name": "schedule_builder_meter2",
+    "description": "Meter threshold for the second trigger; 0 or very large values typically indicate unused."
+  },
+  {
+    "column name": "schedule_builder_meter1",
+    "description": "Meter threshold for the primary trigger (for example, miles)."
+  },
+  {
+    "column name": "changed",
+    "description": "Flag indicating whether the schedule definition has been modified since creation or last publish."
+  },
+  {
+    "column name": "schedule_builder_recurring_ind",
+    "description": "Indicates the schedule recurs after completion."
+  },
+  {
+    "column name": "schedule_builder_ignore_seasonal",
+    "description": "Indicates seasonal availability rules should be ignored when building the schedule."
+  },
+  {
+    "column name": "schedule_builder_specified_date",
+    "description": "Specific date used as a fixed start or due date (YYYYMMDD), blank when not set."
+  },
+  {
+    "column name": "service_pattern_last",
+    "description": "Identifier of the last applied service pattern for this schedule; likely a foreign key; confirm with SME."
+  },
+  {
+    "column name": "service_pattern_lastr",
+    "description": "Reference table used to resolve service_pattern_last; confirm with SME."
+  }
+]

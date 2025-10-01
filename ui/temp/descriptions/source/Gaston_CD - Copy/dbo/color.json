@@ -1,0 +1,22 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Surrogate identifier for the color record, used as the primary key for lookups and relationships."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time when this color record was created or last updated, stored as yyyymmddhhmmssSSS digits; likely UTC; confirm with SME."
+  },
+  {
+    "column name": "color",
+    "description": "Human-readable vehicle color name or combination (e.g., base/trim). Used to classify assets for reporting and search."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding color in a legacy system; used for migration and cross-system mapping; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table for this record; used to trace data lineage; confirm with SME."
+  }
+]

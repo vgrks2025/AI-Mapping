@@ -1,0 +1,1162 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the equipment record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System timestamp of the most recent change to this record; likely yyyymmddhhmmssfff format; confirm with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Indicates whether the asset is inactive/retired and no longer in service."
+  },
+  {
+    "column name": "light_bar",
+    "description": "Indicates the vehicle is equipped with a rooftop light bar."
+  },
+  {
+    "column name": "slick_top",
+    "description": "Indicates the vehicle has no external light bar (slick-top)."
+  },
+  {
+    "column name": "lojack",
+    "description": "Indicates LoJack or similar theft-recovery device is installed."
+  },
+  {
+    "column name": "grant_purchase",
+    "description": "Flags assets purchased using grant funding."
+  },
+  {
+    "column name": "confidential",
+    "description": "Marks the record as confidential for restricted visibility."
+  },
+  {
+    "column name": "recalled",
+    "description": "Indicates the asset is subject to an active manufacturer recall."
+  },
+  {
+    "column name": "disposaldate",
+    "description": "Date the asset was disposed of/removed from ownership."
+  },
+  {
+    "column name": "retiredate",
+    "description": "Date the asset was retired from active service."
+  },
+  {
+    "column name": "dispdate",
+    "description": "Date the disposal transaction was processed or posted; clarify difference from disposaldate with SME."
+  },
+  {
+    "column name": "insvcdate",
+    "description": "Date the asset was placed into service."
+  },
+  {
+    "column name": "purdate",
+    "description": "Date the asset was purchased."
+  },
+  {
+    "column name": "mestdate2",
+    "description": "Start/effective date for meter 2 estimation settings; likely configuration metadata; confirm with SME."
+  },
+  {
+    "column name": "mestdate",
+    "description": "Start/effective date for primary meter estimation settings; likely configuration metadata; confirm with SME."
+  },
+  {
+    "column name": "mupddate2",
+    "description": "Last update date for meter 2 estimation/configuration settings; confirm with SME."
+  },
+  {
+    "column name": "mupddate",
+    "description": "Last update date for primary meter estimation/configuration settings; confirm with SME."
+  },
+  {
+    "column name": "purchasepo",
+    "description": "Purchase order identifier associated with acquiring the asset."
+  },
+  {
+    "column name": "engine_size",
+    "description": "Engine displacement or series designation for the asset’s engine."
+  },
+  {
+    "column name": "oil_filter",
+    "description": "Oil filter part number or specification for the asset."
+  },
+  {
+    "column name": "tire_size",
+    "description": "Primary tire size specification for the asset."
+  },
+  {
+    "column name": "licplno",
+    "description": "Vehicle license plate number."
+  },
+  {
+    "column name": "vinno",
+    "description": "Vehicle Identification Number or serial identifier for the asset."
+  },
+  {
+    "column name": "cylinders",
+    "description": "Number of engine cylinders; 0 indicates not applicable or non-combustion power."
+  },
+  {
+    "column name": "year",
+    "description": "Model or manufacture year of the asset."
+  },
+  {
+    "column name": "equipno",
+    "description": "Internal equipment or asset number assigned by the agency."
+  },
+  {
+    "column name": "rcomments",
+    "description": "Retirement/disposal notes, including sale details or disposition remarks."
+  },
+  {
+    "column name": "comments",
+    "description": "General notes or additional remarks about the asset."
+  },
+  {
+    "column name": "expmeter2",
+    "description": "Configured expected or threshold reading for meter 2; used for planning/alerts; confirm with SME."
+  },
+  {
+    "column name": "expmeter",
+    "description": "Configured expected or threshold reading for the primary meter; used for planning/alerts; confirm with SME."
+  },
+  {
+    "column name": "soldcost",
+    "description": "Sale proceeds received when the asset was disposed."
+  },
+  {
+    "column name": "accdep",
+    "description": "Accumulated depreciation recorded for the asset."
+  },
+  {
+    "column name": "monthdep",
+    "description": "Current monthly depreciation amount for the asset."
+  },
+  {
+    "column name": "salvage",
+    "description": "Estimated salvage value used for depreciation or replacement planning."
+  },
+  {
+    "column name": "histcost",
+    "description": "Historical/legacy recorded acquisition cost; may differ from capitalized cost; confirm with SME."
+  },
+  {
+    "column name": "life",
+    "description": "Depreciation life or planned service life (periods/years as configured); confirm units with SME."
+  },
+  {
+    "column name": "downcost",
+    "description": "Down payment amount paid at acquisition."
+  },
+  {
+    "column name": "purmeter2",
+    "description": "Meter 2 reading at time of purchase or commissioning."
+  },
+  {
+    "column name": "purmeter",
+    "description": "Primary meter reading at time of purchase or commissioning."
+  },
+  {
+    "column name": "purcost",
+    "description": "Purchase price paid for the asset (excluding later upfit)."
+  },
+  {
+    "column name": "fuelused",
+    "description": "Cumulative fuel consumed by the asset to date; units per system configuration."
+  },
+  {
+    "column name": "tanksize",
+    "description": "Primary fuel tank capacity."
+  },
+  {
+    "column name": "lifeexpmeter2",
+    "description": "Expected lifetime usage for meter 2 used for lifecycle planning; confirm with SME."
+  },
+  {
+    "column name": "lifemeter2",
+    "description": "Life-to-date accumulated reading for meter 2."
+  },
+  {
+    "column name": "estmeter2",
+    "description": "Forecasted current reading for meter 2 based on estimation rules."
+  },
+  {
+    "column name": "estdist2",
+    "description": "Configured usage rate or distance basis for meter 2 forecasts; confirm with SME."
+  },
+  {
+    "column name": "meter2",
+    "description": "Current reading of meter 2 (secondary meter)."
+  },
+  {
+    "column name": "lifeexpmeter",
+    "description": "Expected lifetime usage for the primary meter used for lifecycle planning; confirm with SME."
+  },
+  {
+    "column name": "lifemeter",
+    "description": "Life-to-date accumulated reading for the primary meter."
+  },
+  {
+    "column name": "estmeter",
+    "description": "Forecasted current reading for the primary meter based on estimation rules."
+  },
+  {
+    "column name": "estdist",
+    "description": "Configured usage rate or distance basis for primary meter forecasts; confirm with SME."
+  },
+  {
+    "column name": "meter",
+    "description": "Current reading of the primary meter (e.g., odometer or hours)."
+  },
+  {
+    "column name": "gvw",
+    "description": "Gross Vehicle Weight Rating (maximum allowable weight)."
+  },
+  {
+    "column name": "vehicle_weight",
+    "description": "Actual curb or empty vehicle weight; confirm precise definition with SME."
+  },
+  {
+    "column name": "age",
+    "description": "Asset age in years, typically calculated from model year or in-service date."
+  },
+  {
+    "column name": "title",
+    "description": "Vehicle title number or status; confirm usage with SME."
+  },
+  {
+    "column name": "buyvendor",
+    "description": "Vendor identifier used for purchase; legacy or alternate to purvendor; confirm with SME."
+  },
+  {
+    "column name": "buyvendorr",
+    "description": "Lookup/display value for buyvendor."
+  },
+  {
+    "column name": "purtype",
+    "description": "Purchase type code (e.g., new, lease, surplus); organization-defined."
+  },
+  {
+    "column name": "purtyper",
+    "description": "Lookup/display value for purtype."
+  },
+  {
+    "column name": "purvendor",
+    "description": "Vendor identifier associated with the asset purchase."
+  },
+  {
+    "column name": "purvendorr",
+    "description": "Lookup/display value for purvendor."
+  },
+  {
+    "column name": "fueltype",
+    "description": "Primary fuel type code (e.g., gasoline, diesel, electric)."
+  },
+  {
+    "column name": "fueltyper",
+    "description": "Lookup/display value for fueltype."
+  },
+  {
+    "column name": "condition",
+    "description": "Condition code describing current asset condition."
+  },
+  {
+    "column name": "conditionr",
+    "description": "Lookup/display value for condition."
+  },
+  {
+    "column name": "eqsubtype",
+    "description": "Equipment subtype classification code."
+  },
+  {
+    "column name": "eqsubtyper",
+    "description": "Lookup/display value for eqsubtype."
+  },
+  {
+    "column name": "equiptype",
+    "description": "Equipment type classification code."
+  },
+  {
+    "column name": "equiptyper",
+    "description": "Lookup/display value for equiptype."
+  },
+  {
+    "column name": "color",
+    "description": "Color code for the asset’s exterior finish."
+  },
+  {
+    "column name": "colorr",
+    "description": "Lookup/display value for color."
+  },
+  {
+    "column name": "equipstatus",
+    "description": "Operational status code (e.g., active, pending disposal, disposed)."
+  },
+  {
+    "column name": "equipstatusr",
+    "description": "Lookup/display value for equipstatus."
+  },
+  {
+    "column name": "model",
+    "description": "Equipment model code referencing model master."
+  },
+  {
+    "column name": "modelr",
+    "description": "Lookup/display value for model (eqmodel)."
+  },
+  {
+    "column name": "make",
+    "description": "Equipment manufacturer/make code."
+  },
+  {
+    "column name": "maker",
+    "description": "Lookup/display value for make (eqmake)."
+  },
+  {
+    "column name": "subequip",
+    "description": "Indicates sub-equipment status or child relationship to a parent asset; confirm coding with SME."
+  },
+  {
+    "column name": "hierlvl9",
+    "description": "Organizational or cost hierarchy level 9 code for assignment/ownership."
+  },
+  {
+    "column name": "hierlvl9r",
+    "description": "Lookup/display value for hierlvl9."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Top-level organizational or cost hierarchy code for assignment/ownership."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Lookup/display value for hierlvl1."
+  },
+  {
+    "column name": "assigned",
+    "description": "Identifier of the employee, unit, or department currently assigned the asset."
+  },
+  {
+    "column name": "assignedr",
+    "description": "Lookup/display value for assigned (employee)."
+  },
+  {
+    "column name": "estmeterformula2",
+    "description": "Method used to estimate meter 2 usage (e.g., moving average)."
+  },
+  {
+    "column name": "metertype2",
+    "description": "Unit type for meter 2 (e.g., hours, miles, none)."
+  },
+  {
+    "column name": "estmeterformula",
+    "description": "Method used to estimate primary meter usage (e.g., moving average)."
+  },
+  {
+    "column name": "metertype",
+    "description": "Unit type for the primary meter (e.g., miles, hours)."
+  },
+  {
+    "column name": "mainpic",
+    "description": "Primary image of the asset stored as binary data."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Unique identifier for the asset in a legacy system."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Legacy source table name for migrated asset data."
+  },
+  {
+    "column name": "eser",
+    "description": "Engine serial number; confirm usage with SME."
+  },
+  {
+    "column name": "ehp",
+    "description": "Engine power rating (horsepower); confirm units with SME."
+  },
+  {
+    "column name": "ecid",
+    "description": "Engine calibration/control identifier; confirm meaning with SME."
+  },
+  {
+    "column name": "emodel",
+    "description": "Engine model designation."
+  },
+  {
+    "column name": "emake",
+    "description": "Engine manufacturer."
+  },
+  {
+    "column name": "ecode",
+    "description": "Engine code or internal designation; confirm with SME."
+  },
+  {
+    "column name": "transer",
+    "description": "Transmission serial number."
+  },
+  {
+    "column name": "tranmodel",
+    "description": "Transmission model designation."
+  },
+  {
+    "column name": "tranmake",
+    "description": "Transmission manufacturer."
+  },
+  {
+    "column name": "trantype",
+    "description": "Transmission type (e.g., automatic, manual, CVT)."
+  },
+  {
+    "column name": "tons",
+    "description": "Rated capacity in tons; often for trucks or equipment; confirm rating basis."
+  },
+  {
+    "column name": "wbase",
+    "description": "Wheelbase length; confirm units."
+  },
+  {
+    "column name": "psi_front",
+    "description": "Recommended front tire pressure."
+  },
+  {
+    "column name": "wsize",
+    "description": "Wheel/rim size specification."
+  },
+  {
+    "column name": "recap",
+    "description": "Retread/recap tire status or policy indicator; confirm coding with SME."
+  },
+  {
+    "column name": "btiresize",
+    "description": "Rear/back tire size specification."
+  },
+  {
+    "column name": "ftiresize",
+    "description": "Front tire size specification."
+  },
+  {
+    "column name": "spec3",
+    "description": "Additional specification field for user-defined details."
+  },
+  {
+    "column name": "spec2",
+    "description": "Additional specification field for user-defined details."
+  },
+  {
+    "column name": "spec1",
+    "description": "Additional specification field for user-defined details."
+  },
+  {
+    "column name": "sect8",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "sect7",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "sect6",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "sect5",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "sect4",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "sect3",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "sect2",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "sect1",
+    "description": "User-defined section/department classification code."
+  },
+  {
+    "column name": "address",
+    "description": "Physical address or garaging location for the asset."
+  },
+  {
+    "column name": "serialno3",
+    "description": "Additional serial number for a component/attachment."
+  },
+  {
+    "column name": "serialno2",
+    "description": "Additional serial number for a component/attachment."
+  },
+  {
+    "column name": "serialno",
+    "description": "Primary serial number for the asset (if not a VIN)."
+  },
+  {
+    "column name": "asset_descr",
+    "description": "Human-readable description of the asset combining number, year, make, and model."
+  },
+  {
+    "column name": "numrear",
+    "description": "Number of rear tires or wheels; confirm exact interpretation with SME."
+  },
+  {
+    "column name": "maintcost_perc",
+    "description": "Maintenance cost as a percentage of capital or replacement cost; confirm denominator with SME."
+  },
+  {
+    "column name": "maintcost_total",
+    "description": "Total maintenance expenditures to date for the asset."
+  },
+  {
+    "column name": "payment",
+    "description": "Recurring payment amount, typically for lease or loan obligations."
+  },
+  {
+    "column name": "leaseterm",
+    "description": "Lease term length, usually in months."
+  },
+  {
+    "column name": "expmeter4",
+    "description": "Configured expected or threshold reading for meter 4; used for planning/alerts; confirm with SME."
+  },
+  {
+    "column name": "expmeter3",
+    "description": "Configured expected or threshold reading for meter 3; used for planning/alerts; confirm with SME."
+  },
+  {
+    "column name": "user_est_value",
+    "description": "User-entered estimated current value of the asset."
+  },
+  {
+    "column name": "currentvalue",
+    "description": "System-calculated current value (e.g., depreciated value)."
+  },
+  {
+    "column name": "loan_pi",
+    "description": "Periodic principal and interest payment for asset financing."
+  },
+  {
+    "column name": "loan_down_pmt",
+    "description": "Loan down payment amount at inception."
+  },
+  {
+    "column name": "loan_down_pmt_prc",
+    "description": "Down payment percentage applied at loan start."
+  },
+  {
+    "column name": "loan_length",
+    "description": "Loan term length, typically in months."
+  },
+  {
+    "column name": "loan_rate",
+    "description": "Loan interest rate."
+  },
+  {
+    "column name": "salvageamtcalc",
+    "description": "Calculated salvage value amount used in financial schedules."
+  },
+  {
+    "column name": "salvagefact",
+    "description": "Salvage factor/percentage applied to determine salvage value."
+  },
+  {
+    "column name": "capitalcost",
+    "description": "Capitalized cost basis for the asset, including purchase and applicable capital additions."
+  },
+  {
+    "column name": "upfitcost",
+    "description": "Cost of aftermarket equipment, upfitting, or modifications."
+  },
+  {
+    "column name": "purmeter4",
+    "description": "Meter 4 reading at time of purchase or commissioning."
+  },
+  {
+    "column name": "purmeter3",
+    "description": "Meter 3 reading at time of purchase or commissioning."
+  },
+  {
+    "column name": "tanksize2",
+    "description": "Secondary tank capacity (e.g., DEF, auxiliary fuel)."
+  },
+  {
+    "column name": "tanksize3",
+    "description": "Tertiary tank capacity for additional fluids or fuels."
+  },
+  {
+    "column name": "lifemeter4",
+    "description": "Life-to-date accumulated reading for meter 4."
+  },
+  {
+    "column name": "lifemeter3",
+    "description": "Life-to-date accumulated reading for meter 3."
+  },
+  {
+    "column name": "estmeter4",
+    "description": "Forecasted current reading for meter 4 based on estimation rules."
+  },
+  {
+    "column name": "estmeter3",
+    "description": "Forecasted current reading for meter 3 based on estimation rules."
+  },
+  {
+    "column name": "meter4",
+    "description": "Current reading of meter 4."
+  },
+  {
+    "column name": "meter3",
+    "description": "Current reading of meter 3."
+  },
+  {
+    "column name": "lifeexpmeter4",
+    "description": "Expected lifetime usage for meter 4 used for lifecycle planning; confirm with SME."
+  },
+  {
+    "column name": "lifeexpmeter3",
+    "description": "Expected lifetime usage for meter 3 used for lifecycle planning; confirm with SME."
+  },
+  {
+    "column name": "estdist4",
+    "description": "Configured usage rate or distance basis for meter 4 forecasts; confirm with SME."
+  },
+  {
+    "column name": "estdist3",
+    "description": "Configured usage rate or distance basis for meter 3 forecasts; confirm with SME."
+  },
+  {
+    "column name": "warranty_time",
+    "description": "Warranty duration value for the asset."
+  },
+  {
+    "column name": "inflation",
+    "description": "Inflation rate used for projecting future replacement costs."
+  },
+  {
+    "column name": "projescrow",
+    "description": "Projected escrow balance or target for asset replacement funding."
+  },
+  {
+    "column name": "projrepcost",
+    "description": "Projected replacement cost for the asset."
+  },
+  {
+    "column name": "lifecyc",
+    "description": "Planned lifecycle length (years or periods) for replacement planning; confirm units with SME."
+  },
+  {
+    "column name": "priority",
+    "description": "Priority score or ranking for replacement or attention."
+  },
+  {
+    "column name": "oiltanksize",
+    "description": "Primary oil/fluid capacity; confirm fluid type and units with SME."
+  },
+  {
+    "column name": "oiltanksize2",
+    "description": "Secondary oil/fluid capacity; confirm fluid type and units with SME."
+  },
+  {
+    "column name": "oiltanksize3",
+    "description": "Tertiary oil/fluid capacity; confirm fluid type and units with SME."
+  },
+  {
+    "column name": "longitude",
+    "description": "Longitude coordinate of the asset’s physical location."
+  },
+  {
+    "column name": "latitude",
+    "description": "Latitude coordinate of the asset’s physical location."
+  },
+  {
+    "column name": "child_total",
+    "description": "Total cost associated with linked child/sub assets."
+  },
+  {
+    "column name": "wo_total",
+    "description": "Total cost of work orders associated with the asset."
+  },
+  {
+    "column name": "master_child_total",
+    "description": "Combined costs of the asset and its related child assets."
+  },
+  {
+    "column name": "asset_ind_schedule",
+    "description": "Indicates the asset uses an individual preventive maintenance schedule."
+  },
+  {
+    "column name": "system_edit_asset_catg",
+    "description": "System flag controlling whether the asset’s category can be edited by users."
+  },
+  {
+    "column name": "high_meter_email_sent",
+    "description": "Indicates a high-usage/meter alert email has been sent for this asset."
+  },
+  {
+    "column name": "loan",
+    "description": "Indicates the asset is financed via a loan."
+  },
+  {
+    "column name": "linkmastermeter4",
+    "description": "Indicates meter 4 is linked to a master meter for roll-up or synchronization."
+  },
+  {
+    "column name": "linkmastermeter3",
+    "description": "Indicates meter 3 is linked to a master meter for roll-up or synchronization."
+  },
+  {
+    "column name": "linkmastermeter2",
+    "description": "Indicates meter 2 is linked to a master meter for roll-up or synchronization."
+  },
+  {
+    "column name": "linkmastermeter",
+    "description": "Indicates the primary meter is linked to a master meter for roll-up or synchronization."
+  },
+  {
+    "column name": "system_user_updated_meter",
+    "description": "Indicates a user manually updated meter values (as opposed to automated feeds)."
+  },
+  {
+    "column name": "has_warranty",
+    "description": "Indicates warranty information exists for this asset."
+  },
+  {
+    "column name": "calc_escrow",
+    "description": "Controls whether the system calculates replacement escrow for this asset."
+  },
+  {
+    "column name": "update_status_log",
+    "description": "Controls whether status changes are logged to a history table."
+  },
+  {
+    "column name": "istool",
+    "description": "Indicates the record represents a tool rather than a vehicle/rolling stock."
+  },
+  {
+    "column name": "toolavail",
+    "description": "Indicates the tool is available for assignment or checkout."
+  },
+  {
+    "column name": "leaseend",
+    "description": "Lease end date."
+  },
+  {
+    "column name": "leasestart",
+    "description": "Lease start date."
+  },
+  {
+    "column name": "mestdate4",
+    "description": "Start/effective date for meter 4 estimation settings; confirm with SME."
+  },
+  {
+    "column name": "mestdate3",
+    "description": "Start/effective date for meter 3 estimation settings; confirm with SME."
+  },
+  {
+    "column name": "mupddate4",
+    "description": "Last update date for meter 4 estimation/configuration settings; confirm with SME."
+  },
+  {
+    "column name": "mupddate3",
+    "description": "Last update date for meter 3 estimation/configuration settings; confirm with SME."
+  },
+  {
+    "column name": "warexpdate",
+    "description": "Warranty expiration date."
+  },
+  {
+    "column name": "expdate",
+    "description": "Generic expiration date (e.g., registration or inspection); confirm exact use with SME."
+  },
+  {
+    "column name": "manfdate",
+    "description": "Manufacture/build date of the asset."
+  },
+  {
+    "column name": "repdate",
+    "description": "Replacement date or reported date; meaning unclear; confirm with SME."
+  },
+  {
+    "column name": "pm_class",
+    "description": "Preventive maintenance class or program code."
+  },
+  {
+    "column name": "pm_classr",
+    "description": "Lookup/display value for pm_class."
+  },
+  {
+    "column name": "inactivereason",
+    "description": "Code explaining why the asset was made inactive."
+  },
+  {
+    "column name": "inactivereasonr",
+    "description": "Lookup/display value for inactivereason."
+  },
+  {
+    "column name": "grant_fund",
+    "description": "Grant funding source or category code."
+  },
+  {
+    "column name": "grant_fundr",
+    "description": "Lookup/display value for grant_fund."
+  },
+  {
+    "column name": "leasedto",
+    "description": "Identifier of the lessee or receiving department/entity."
+  },
+  {
+    "column name": "leasedtor",
+    "description": "Lookup/display value for leasedto."
+  },
+  {
+    "column name": "req_cert",
+    "description": "Required operator certifications or credentials code."
+  },
+  {
+    "column name": "req_certr",
+    "description": "Lookup/display value for req_cert."
+  },
+  {
+    "column name": "active_season",
+    "description": "Seasonal activity code indicating when the asset is in operation."
+  },
+  {
+    "column name": "active_seasonr",
+    "description": "Lookup/display value for active_season."
+  },
+  {
+    "column name": "proj_repl_year",
+    "description": "Projected year for asset replacement (often fiscal year)."
+  },
+  {
+    "column name": "proj_repl_yearr",
+    "description": "Lookup/display or formatted value for proj_repl_year."
+  },
+  {
+    "column name": "service_type",
+    "description": "Service type code describing operational category (e.g., police, public works)."
+  },
+  {
+    "column name": "service_typer",
+    "description": "Lookup/display value for service_type."
+  },
+  {
+    "column name": "service_class",
+    "description": "Service class code for finer categorization within service type."
+  },
+  {
+    "column name": "service_classr",
+    "description": "Lookup/display value for service_class."
+  },
+  {
+    "column name": "engine",
+    "description": "Engine specification identifier or rating (e.g., horsepower); data suggests numeric value; confirm units with SME."
+  },
+  {
+    "column name": "enginer",
+    "description": "Lookup/display value for engine (asset_engine)."
+  },
+  {
+    "column name": "licplst",
+    "description": "Issuing state/province code for the license plate."
+  },
+  {
+    "column name": "licplstr",
+    "description": "Lookup/display value for licplst."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Organizational or cost hierarchy level 2 code for assignment/ownership."
+  },
+  {
+    "column name": "hierlvl2r",
+    "description": "Lookup/display value for hierlvl2."
+  },
+  {
+    "column name": "oiltype",
+    "description": "Oil specification/type code for maintenance."
+  },
+  {
+    "column name": "oiltyper",
+    "description": "Lookup/display value for oiltype."
+  },
+  {
+    "column name": "otsub3",
+    "description": "User-defined category/subcategory code; clarify local meaning with SME."
+  },
+  {
+    "column name": "otsub3r",
+    "description": "Lookup/display value for otsub3."
+  },
+  {
+    "column name": "ot3",
+    "description": "User-defined category code; clarify local meaning with SME."
+  },
+  {
+    "column name": "ot3r",
+    "description": "Lookup/display value for ot3."
+  },
+  {
+    "column name": "otsub2",
+    "description": "User-defined category/subcategory code; clarify local meaning with SME."
+  },
+  {
+    "column name": "otsub2r",
+    "description": "Lookup/display value for otsub2."
+  },
+  {
+    "column name": "ot2",
+    "description": "User-defined category code; clarify local meaning with SME."
+  },
+  {
+    "column name": "ot2r",
+    "description": "Lookup/display value for ot2."
+  },
+  {
+    "column name": "otsub1",
+    "description": "User-defined category/subcategory code; clarify local meaning with SME."
+  },
+  {
+    "column name": "otsub1r",
+    "description": "Lookup/display value for otsub1."
+  },
+  {
+    "column name": "ot1",
+    "description": "User-defined category code; clarify local meaning with SME."
+  },
+  {
+    "column name": "ot1r",
+    "description": "Lookup/display value for ot1."
+  },
+  {
+    "column name": "oil2",
+    "description": "Secondary oil specification/type code for maintenance."
+  },
+  {
+    "column name": "oil2r",
+    "description": "Lookup/display value for oil2."
+  },
+  {
+    "column name": "oil1",
+    "description": "Primary oil specification/type code for maintenance."
+  },
+  {
+    "column name": "oil1r",
+    "description": "Lookup/display value for oil1."
+  },
+  {
+    "column name": "fuel2",
+    "description": "Secondary fuel type code for multi-fuel assets."
+  },
+  {
+    "column name": "fuel2r",
+    "description": "Lookup/display value for fuel2."
+  },
+  {
+    "column name": "fuel1",
+    "description": "Primary fuel type code (alternate coding to fueltype); confirm with SME."
+  },
+  {
+    "column name": "fuel1r",
+    "description": "Lookup/display value for fuel1."
+  },
+  {
+    "column name": "loc4",
+    "description": "Location code (level 4) for asset storage or assignment."
+  },
+  {
+    "column name": "loc4r",
+    "description": "Lookup/display value for loc4."
+  },
+  {
+    "column name": "loc3",
+    "description": "Location code (level 3) for asset storage or assignment."
+  },
+  {
+    "column name": "loc3r",
+    "description": "Lookup/display value for loc3."
+  },
+  {
+    "column name": "loc2",
+    "description": "Location code (level 2) for asset storage or assignment."
+  },
+  {
+    "column name": "loc2r",
+    "description": "Lookup/display value for loc2."
+  },
+  {
+    "column name": "loc1",
+    "description": "Location code (level 1) for asset storage or assignment."
+  },
+  {
+    "column name": "loc1r",
+    "description": "Lookup/display value for loc1."
+  },
+  {
+    "column name": "setup_inspection",
+    "description": "Inspection setup or template code required for the asset."
+  },
+  {
+    "column name": "setup_inspectionr",
+    "description": "Lookup/display value for setup_inspection."
+  },
+  {
+    "column name": "assettype",
+    "description": "Asset type code (e.g., vehicle, equipment)."
+  },
+  {
+    "column name": "assettyper",
+    "description": "Lookup/display value for assettype."
+  },
+  {
+    "column name": "salvagetype",
+    "description": "Basis for salvage value (e.g., dollar or percent)."
+  },
+  {
+    "column name": "estmeterformula4",
+    "description": "Method used to estimate meter 4 usage."
+  },
+  {
+    "column name": "estmeterformula3",
+    "description": "Method used to estimate meter 3 usage."
+  },
+  {
+    "column name": "metertype4",
+    "description": "Unit type for meter 4 (e.g., hours, miles, none)."
+  },
+  {
+    "column name": "metertype3",
+    "description": "Unit type for meter 3 (e.g., hours, miles, none)."
+  },
+  {
+    "column name": "warranty_start",
+    "description": "Trigger for warranty start (e.g., purchase or in-service date)."
+  },
+  {
+    "column name": "warranty_timeunit",
+    "description": "Time unit for warranty duration (e.g., days, months)."
+  },
+  {
+    "column name": "phys_loc",
+    "description": "Format/type for physical location data (e.g., coordinates)."
+  },
+  {
+    "column name": "ext_map",
+    "description": "External map link or identifier for asset location; confirm with SME."
+  },
+  {
+    "column name": "repair_datetime",
+    "description": "Timestamp of a recorded repair event used for analytics/metrics."
+  },
+  {
+    "column name": "maintcost_datetime",
+    "description": "Timestamp used to anchor maintenance cost calculations or reporting windows."
+  },
+  {
+    "column name": "asset_pmtemplate",
+    "description": "Preventive maintenance template identifier applied to this asset."
+  },
+  {
+    "column name": "asset_pmtemplater",
+    "description": "Lookup/display value for asset_pmtemplate."
+  },
+  {
+    "column name": "user_projrepcost",
+    "description": "User-entered projected replacement cost value."
+  },
+  {
+    "column name": "override_projrepcost",
+    "description": "Flag indicating the system should use user_projrepcost instead of calculated projections."
+  },
+  {
+    "column name": "override_lifecyc",
+    "description": "Override for lifecycle timing; values may represent a specific year or offset; confirm rules with SME."
+  },
+  {
+    "column name": "psi_back",
+    "description": "Recommended rear tire pressure."
+  },
+  {
+    "column name": "planned_repdate",
+    "description": "Planned date for asset replacement."
+  },
+  {
+    "column name": "override_repdate",
+    "description": "Flag indicating planned replacement date is manually overridden/locked."
+  },
+  {
+    "column name": "asset_contact",
+    "description": "Identifier for the responsible contact person for the asset."
+  },
+  {
+    "column name": "asset_contactr",
+    "description": "Lookup/display value for asset_contact."
+  },
+  {
+    "column name": "dailymeter4",
+    "description": "Calculated average daily usage for meter 4."
+  },
+  {
+    "column name": "dailymeter3",
+    "description": "Calculated average daily usage for meter 3."
+  },
+  {
+    "column name": "dailymeter2",
+    "description": "Calculated average daily usage for meter 2."
+  },
+  {
+    "column name": "dailymeter",
+    "description": "Calculated average daily usage for the primary meter."
+  },
+  {
+    "column name": "vin_errors",
+    "description": "VIN validation or decoding error details; empty when none."
+  },
+  {
+    "column name": "vin_decoded",
+    "description": "Indicates whether the VIN was successfully decoded into make/model attributes."
+  },
+  {
+    "column name": "ezpass",
+    "description": "Electronic toll transponder identifier assigned to the vehicle."
+  },
+  {
+    "column name": "repairs_in_last_twelve_months",
+    "description": "Count of repair events in the past 12 months."
+  },
+  {
+    "column name": "maintcost_in_last_twelve_months",
+    "description": "Total maintenance costs incurred in the past 12 months."
+  },
+  {
+    "column name": "lifetime_fuel",
+    "description": "Cumulative lifetime fuel cost for the asset."
+  },
+  {
+    "column name": "lifetime_preventative",
+    "description": "Cumulative lifetime preventative maintenance cost for the asset."
+  },
+  {
+    "column name": "repair_capital_percentage",
+    "description": "Repair costs as a percentage of capital or purchase cost."
+  },
+  {
+    "column name": "lifetime_repair",
+    "description": "Cumulative lifetime repair cost for the asset."
+  },
+  {
+    "column name": "proj_repl_cost_increase",
+    "description": "Annual escalation rate or factor applied to projected replacement cost; confirm basis with SME."
+  },
+  {
+    "column name": "recv_date",
+    "description": "Date the asset was received by the agency or entered into inventory."
+  }
+]

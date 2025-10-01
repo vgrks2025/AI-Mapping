@@ -1,0 +1,42 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the document record; primary key used to join and reference this row."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the row was created or last updated, stored as numeric string with milliseconds (YYYYMMDDhhmmssSSS); time zone not explicit—confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable title or description of the attached file or record used for search and display."
+  },
+  {
+    "column name": "document",
+    "description": "Stored document payload and/or metadata, commonly serialized as XML; includes an internal document identifier used to locate the file in storage."
+  },
+  {
+    "column name": "parent",
+    "description": "Identifier of the parent entity this document is linked to. Used with parentr to resolve the relationship; foreign key to the parent record."
+  },
+  {
+    "column name": "parentr",
+    "description": "Type of the parent entity referenced by parent (e.g., equipment or work order); determines which table to query for the parent ID."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a legacy source system; enables cross-reference during migration; may be null."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy source table or module where the document originated; primarily for migration or audit; may be null."
+  },
+  {
+    "column name": "inact",
+    "description": "Boolean flag indicating whether the document is inactive/archived (true) versus active (false)."
+  },
+  {
+    "column name": "tdate",
+    "description": "Document or transaction date in YYYYMMDD format, used for filing, sorting, and reporting; exact meaning may vary by document type—confirm with SME."
+  }
+]

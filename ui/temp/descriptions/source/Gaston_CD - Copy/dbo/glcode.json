@@ -1,0 +1,30 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the GL code record; used as the primary key."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date and time the record was created or last updated, in yyyymmddhhmmssmmm format; likely a system load or update timestamp; confirm with SME."
+  },
+  {
+    "column name": "codedescr",
+    "description": "Human-readable description of the general ledger cost center or department associated with the code."
+  },
+  {
+    "column name": "code",
+    "description": "Full general ledger account string, composed of multiple segments (e.g., fund, division, department, program, project) separated by dashes, used to allocate fleet-related costs."
+  },
+  {
+    "column name": "notes",
+    "description": "Optional free-text comments or annotations about the GL code."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in the legacy/source system; used for cross-reference during migration."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy/source table where this record originated; used for data lineage and migration audit."
+  }
+]

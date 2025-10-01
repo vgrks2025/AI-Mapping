@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this warranty record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date-time the warranty row was created or last modified; stored as a high-precision numeric string (likely yyyymmddHHMMSSmmm); confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable summary of the coverage and terms for this warranty."
+  },
+  {
+    "column name": "warcode",
+    "description": "Short code identifying the warranty type or program category used across systems."
+  },
+  {
+    "column name": "schedule",
+    "description": "XML document defining coverage rules, eligibility, and timing (e.g., durations, mileage, components) for this warranty."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from the source legacy system for lineage/tracing back to the original warranty record."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system from which this warranty was migrated; confirm exact usage with SME."
+  },
+  {
+    "column name": "inact",
+    "description": "Boolean flag marking the warranty as inactive; when set, the record should not be used operationally."
+  }
+]

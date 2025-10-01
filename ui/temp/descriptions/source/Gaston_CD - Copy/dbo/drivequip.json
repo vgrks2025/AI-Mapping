@@ -1,0 +1,58 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for this driver–equipment occupancy record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Timestamp of the assignment/event, in yyyymmddHHMMssSSS format with millisecond precision; time zone not explicit—confirm."
+  },
+  {
+    "column name": "employee",
+    "description": "Likely indicates whether the occupant is an internal employee (True/False); confirm with SME."
+  },
+  {
+    "column name": "passenger",
+    "description": "Free-text passenger name when not linked to an employee; empty if captured via employee ID."
+  },
+  {
+    "column name": "comments",
+    "description": "Optional notes about the trip or assignment."
+  },
+  {
+    "column name": "equip",
+    "description": "Identifier of the equipment or vehicle involved in the record."
+  },
+  {
+    "column name": "equipr",
+    "description": "Entity/table discriminator for the equipment ID, enabling polymorphic references; confirm expected values."
+  },
+  {
+    "column name": "emp_passenger",
+    "description": "Employee identifier for the passenger when they are staff; 0 or null if none."
+  },
+  {
+    "column name": "emp_passengerr",
+    "description": "Entity/table discriminator for the passenger’s employee ID; confirm expected values."
+  },
+  {
+    "column name": "driver",
+    "description": "Employee identifier of the assigned driver; 0 or null if not set."
+  },
+  {
+    "column name": "driverr",
+    "description": "Entity/table discriminator for the driver ID used to resolve the foreign key."
+  },
+  {
+    "column name": "occupant_type",
+    "description": "Role of the person in the vehicle for this record (for example, driver or passenger)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original record identifier from the source system, kept for lineage and reconciliation."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source system table from which this record was migrated."
+  }
+]

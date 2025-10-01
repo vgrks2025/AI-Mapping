@@ -1,0 +1,34 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this alternate part number record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Date/time the record was last updated, millisecond precision (YYYYMMDDhhmmssSSS); confirm if it represents create vs. update time with SME."
+  },
+  {
+    "column name": "partno",
+    "description": "External alternate part number from a manufacturer or supplier that cross-references the internal part."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes about the alternate number, such as brand, compatibility, or usage details."
+  },
+  {
+    "column name": "part",
+    "description": "Identifier of the internal part or inventory item to which this alternate number applies."
+  },
+  {
+    "column name": "partr",
+    "description": "Code/name of the referenced entity for the part identifier (likely the target table name, e.g., part inventory); confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in the legacy system for migration lineage and cross-reference."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system associated with the legacy key."
+  }
+]

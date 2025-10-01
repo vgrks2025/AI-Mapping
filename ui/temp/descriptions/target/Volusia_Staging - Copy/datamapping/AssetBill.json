@@ -1,0 +1,154 @@
+[
+  {
+    "column name": "AssetBillID",
+    "description": "Unique identifier for the asset billing record."
+  },
+  {
+    "column name": "AssetNumber",
+    "description": "Identifier or tag for the asset being billed."
+  },
+  {
+    "column name": "Organization",
+    "description": "Organization, agency, or customer account associated with the asset’s billing."
+  },
+  {
+    "column name": "BaseRate",
+    "description": "Base charge rate applied to the asset per billing period."
+  },
+  {
+    "column name": "BaseRateDetails",
+    "description": "Notes or explanation of how the base rate is determined or applied."
+  },
+  {
+    "column name": "BillCodeDescription",
+    "description": "Readable description of the billing code applied to this asset."
+  },
+  {
+    "column name": "InsuranceCoverageAmount",
+    "description": "Coverage amount or insured value used to calculate insurance charges."
+  },
+  {
+    "column name": "InsurancePremiumRate",
+    "description": "Rate used to compute the insurance premium for the asset."
+  },
+  {
+    "column name": "IsBillPartIssue",
+    "description": "Indicates whether parts issued to this asset are billed."
+  },
+  {
+    "column name": "IsBillPartMarkup",
+    "description": "Indicates whether markup on parts is billed."
+  },
+  {
+    "column name": "IsBillLabor",
+    "description": "Indicates whether labor charges are billed."
+  },
+  {
+    "column name": "IsBillSublet",
+    "description": "Indicates whether outsourced/sublet work costs are billed."
+  },
+  {
+    "column name": "IsBillMiscellaneous",
+    "description": "Indicates whether miscellaneous charges are included on the bill."
+  },
+  {
+    "column name": "IsBillCredits",
+    "description": "Indicates whether credits/adjustments are included on the bill (likely reducing charges; confirm with SME)."
+  },
+  {
+    "column name": "IsBillFuel",
+    "description": "Indicates whether fuel usage charges are billed."
+  },
+  {
+    "column name": "IsBillFuelMarkup",
+    "description": "Indicates whether a markup on fuel is billed."
+  },
+  {
+    "column name": "IsMonthlyBaseCharge",
+    "description": "Indicates whether a recurring monthly base charge is applied."
+  },
+  {
+    "column name": "IsBillInsurance",
+    "description": "Indicates whether insurance-related charges are billed."
+  },
+  {
+    "column name": "IsBillMileageCharge",
+    "description": "Indicates whether mileage or usage-based charges are billed."
+  },
+  {
+    "column name": "IsBillDepartmentalCharges",
+    "description": "Indicates whether departmental or overhead charges are billed."
+  },
+  {
+    "column name": "IsBillMarkupDepartment",
+    "description": "Flag for billing departmental markup or surcharge (likely department-allocated markup; confirm with SME)."
+  },
+  {
+    "column name": "IsBillReplacementCharge",
+    "description": "Indicates whether an asset replacement charge is billed."
+  },
+  {
+    "column name": "ReplacementChargeAmount",
+    "description": "Amount charged when a replacement charge is applied."
+  },
+  {
+    "column name": "AdditionalBaseChargeTypeCode",
+    "description": "Code identifying an additional base charge type applied to the asset."
+  },
+  {
+    "column name": "AdditionalBaseChargeType",
+    "description": "Description of the additional base charge type."
+  },
+  {
+    "column name": "AdditionalBaseChargeRate",
+    "description": "Rate or amount for the additional base charge."
+  },
+  {
+    "column name": "IsBillJan",
+    "description": "Indicates whether the asset is billed in January."
+  },
+  {
+    "column name": "IsBillFeb",
+    "description": "Indicates whether the asset is billed in February."
+  },
+  {
+    "column name": "IsBillMar",
+    "description": "Indicates whether the asset is billed in March."
+  },
+  {
+    "column name": "IsBillApr",
+    "description": "Indicates whether the asset is billed in April."
+  },
+  {
+    "column name": "IsBillMay",
+    "description": "Indicates whether the asset is billed in May."
+  },
+  {
+    "column name": "IsBillJun",
+    "description": "Indicates whether the asset is billed in June."
+  },
+  {
+    "column name": "IsBillJul",
+    "description": "Indicates whether the asset is billed in July."
+  },
+  {
+    "column name": "IsBillAug",
+    "description": "Indicates whether the asset is billed in August."
+  },
+  {
+    "column name": "IsBillSep",
+    "description": "Indicates whether the asset is billed in September."
+  },
+  {
+    "column name": "IsBillOct",
+    "description": "Indicates whether the asset is billed in October."
+  },
+  {
+    "column name": "IsBillNov",
+    "description": "Indicates whether the asset is billed in November."
+  },
+  {
+    "column name": "IsBillDec",
+    "description": "Indicates whether the asset is billed in December."
+  }
+]

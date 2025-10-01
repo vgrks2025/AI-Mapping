@@ -1,0 +1,38 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for this equipment model record; used as the primary key and for joins to related tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Audit datetime when this model record was created or last updated, stored as a high‑precision timestamp string (likely local/UTC unknown; confirm with SME)."
+  },
+  {
+    "column name": "model",
+    "description": "Manufacturer’s model designation for the equipment (alphanumeric code used in catalogs and specifications)."
+  },
+  {
+    "column name": "make",
+    "description": "Identifier of the equipment manufacturer; foreign key to a manufacturer reference table."
+  },
+  {
+    "column name": "maker",
+    "description": "Name of the reference table/entity that holds manufacturer details for the foreign key; used to resolve the manufacturer identifier; confirm with SME."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier of the corresponding record in a prior/legacy system, enabling cross-system mapping and migration lineage."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the originating table in a prior/legacy system for this record, supporting traceability and data lineage."
+  },
+  {
+    "column name": "asset_category",
+    "description": "Code indicating the asset’s classification (e.g., truck, trailer, equipment), typically a foreign key to an asset category reference."
+  },
+  {
+    "column name": "asset_categoryr",
+    "description": "Reference source or table identifier for the asset category code, specifying where to resolve category descriptions; likely a reference pointer; confirm with SME."
+  }
+]

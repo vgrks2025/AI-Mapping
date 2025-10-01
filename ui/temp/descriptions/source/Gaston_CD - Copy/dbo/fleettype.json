@@ -1,0 +1,26 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for a fleet type record; used as the primary key and for referencing across tables."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System audit timestamp indicating when the record was created or last updated, in high-precision numeric format; timezone and origin likely system default; confirm with SME."
+  },
+  {
+    "column name": "descr",
+    "description": "Human-readable label describing the fleet classification or provider category used in reporting, rules, and selection lists."
+  },
+  {
+    "column name": "code",
+    "description": "Short code representing the fleet classification; used in user interfaces, integrations, and lookups."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier from a legacy system to support migration and cross-reference; likely the original primary key; may be null in new records; confirm with SME."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source table in the legacy system for this record; used for data lineage and migration tracking; likely populated only during conversion; confirm with SME."
+  }
+]

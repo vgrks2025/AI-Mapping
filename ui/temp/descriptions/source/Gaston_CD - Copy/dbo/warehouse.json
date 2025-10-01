@@ -1,0 +1,150 @@
+[
+  {
+    "column name": "keyid",
+    "description": "System-generated unique identifier for the warehouse record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "Last update timestamp for this record, likely UTC with millisecond precision; used for auditing and synchronization."
+  },
+  {
+    "column name": "mobile",
+    "description": "Mobile phone number for the warehouse’s primary contact."
+  },
+  {
+    "column name": "fax",
+    "description": "Fax number for the warehouse or site office."
+  },
+  {
+    "column name": "altphone",
+    "description": "Alternate phone number for the warehouse (secondary line or after-hours)."
+  },
+  {
+    "column name": "phone",
+    "description": "Primary phone number for the warehouse."
+  },
+  {
+    "column name": "postcode",
+    "description": "Postal/ZIP code for the warehouse’s physical address."
+  },
+  {
+    "column name": "city",
+    "description": "City of the warehouse’s physical address."
+  },
+  {
+    "column name": "address2",
+    "description": "Second address line (suite, building, unit, etc.)."
+  },
+  {
+    "column name": "address",
+    "description": "Street address of the warehouse."
+  },
+  {
+    "column name": "lname",
+    "description": "Last name of the warehouse’s primary contact."
+  },
+  {
+    "column name": "fname",
+    "description": "First name of the warehouse’s primary contact."
+  },
+  {
+    "column name": "location",
+    "description": "Internal location identifier or description for the warehouse (e.g., site code or GPS); meaning may vary by client; confirm with SME."
+  },
+  {
+    "column name": "warename",
+    "description": "Official name of the warehouse."
+  },
+  {
+    "column name": "compname",
+    "description": "Name of the company or business unit operating/owning the warehouse; confirm with SME."
+  },
+  {
+    "column name": "comments",
+    "description": "Free-text notes or special instructions related to the warehouse."
+  },
+  {
+    "column name": "email",
+    "description": "Email address for the warehouse or primary contact."
+  },
+  {
+    "column name": "repairs_account",
+    "description": "General ledger or cost account code used to charge repair/maintenance transactions for this warehouse."
+  },
+  {
+    "column name": "repairs_accountr",
+    "description": "Human-readable description/name corresponding to the repairs_account code."
+  },
+  {
+    "column name": "state",
+    "description": "State or province code/ID for the warehouse’s address; format may be code or reference key; confirm with SME."
+  },
+  {
+    "column name": "stater",
+    "description": "Human-readable state/province name corresponding to state."
+  },
+  {
+    "column name": "hierlvl1",
+    "description": "Organizational hierarchy level 1 identifier for this warehouse (e.g., region/division)."
+  },
+  {
+    "column name": "hierlvl1r",
+    "description": "Display name or description for hierlvl1."
+  },
+  {
+    "column name": "webadd",
+    "description": "Website URL for the warehouse or operating company."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Identifier for this warehouse in a legacy/source system to support data migration or cross-references."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the legacy/source table associated with legacykey."
+  },
+  {
+    "column name": "inactive",
+    "description": "Indicates whether the warehouse is inactive or decommissioned."
+  },
+  {
+    "column name": "mobilewarehouse",
+    "description": "Indicates a mobile or rolling warehouse (inventory carried on a vehicle)."
+  },
+  {
+    "column name": "stocked_parts",
+    "description": "Indicates this warehouse maintains stocked spare parts inventory."
+  },
+  {
+    "column name": "srcwhs",
+    "description": "Source or replenishment warehouse identifier from which this warehouse receives stock; confirm with SME."
+  },
+  {
+    "column name": "srcwhsr",
+    "description": "Human-readable name/description of the source warehouse referenced by srcwhs."
+  },
+  {
+    "column name": "equip",
+    "description": "Indicator or reference linking this warehouse to an equipment depot/group or equipment capability; confirm with SME."
+  },
+  {
+    "column name": "equipr",
+    "description": "Human-readable description for equip."
+  },
+  {
+    "column name": "hierlvl9",
+    "description": "Organizational hierarchy level 9 identifier used for deep grouping/rollups; usage varies by client; confirm with SME."
+  },
+  {
+    "column name": "hierlvl9r",
+    "description": "Display name or description for hierlvl9."
+  },
+  {
+    "column name": "hierlvl2",
+    "description": "Organizational hierarchy level 2 identifier (e.g., district/area) for this warehouse."
+  },
+  {
+    "column name": "hierlvl2r",
+    "description": "Display name or description for hierlvl2."
+  }
+]

@@ -1,0 +1,286 @@
+[
+  {
+    "column name": "keyid",
+    "description": "Unique identifier for the preventive maintenance schedule record."
+  },
+  {
+    "column name": "timestamp",
+    "description": "System date-time of the most recent update to this record."
+  },
+  {
+    "column name": "emailoverduesent",
+    "description": "Indicates whether an overdue notification email has already been sent."
+  },
+  {
+    "column name": "emailduesent",
+    "description": "Indicates whether a due-soon notification email has already been sent."
+  },
+  {
+    "column name": "duedate",
+    "description": "Calculated date when the next preventive service becomes due."
+  },
+  {
+    "column name": "lastdate",
+    "description": "Date when the associated maintenance was last completed."
+  },
+  {
+    "column name": "trigger_count",
+    "description": "Count of schedule trigger events processed for this record; exact basis may vary by configuration; confirm with SME."
+  },
+  {
+    "column name": "trigger_count2",
+    "description": "Secondary counter of trigger events (e.g., alternate meter or pattern); confirm intended use with SME."
+  },
+  {
+    "column name": "meterleft",
+    "description": "Remaining usage units until the next service threshold is reached; negative indicates overdue by that amount."
+  },
+  {
+    "column name": "daysleft",
+    "description": "Remaining days before the next service is due; negative indicates overdue."
+  },
+  {
+    "column name": "lastfuel",
+    "description": "Fuel reading captured at the last completed service, for fuel-based scheduling."
+  },
+  {
+    "column name": "lastmeter2",
+    "description": "Secondary meter reading recorded at the last completed service; sentinel values indicate unused."
+  },
+  {
+    "column name": "lastmeter",
+    "description": "Primary meter reading recorded at the last completed service."
+  },
+  {
+    "column name": "lastpatternmeter2",
+    "description": "Secondary pattern’s accumulated meter value at the last pattern checkpoint; likely used for pattern-based intervals; confirm with SME."
+  },
+  {
+    "column name": "lastpatternmeter",
+    "description": "Primary pattern’s accumulated meter value at the last pattern checkpoint; likely used for pattern-based intervals; confirm with SME."
+  },
+  {
+    "column name": "schedule",
+    "description": "Serialized configuration (XML) defining triggers, intervals, and rules for this maintenance schedule."
+  },
+  {
+    "column name": "currwo",
+    "description": "Identifier of the currently open work order generated from this schedule, if any."
+  },
+  {
+    "column name": "currwor",
+    "description": "Display/lookup reference for the current work order identifier; used for UI rendering; confirm with SME."
+  },
+  {
+    "column name": "workorder",
+    "description": "Identifier of the most recently generated or linked work order for this schedule."
+  },
+  {
+    "column name": "workorderr",
+    "description": "Display/lookup reference for the linked work order; used for UI or joins; confirm with SME."
+  },
+  {
+    "column name": "schsetequip",
+    "description": "Identifier of the equipment set associated to this schedule (grouping of assets)."
+  },
+  {
+    "column name": "schsetequipr",
+    "description": "Display/lookup reference for the associated equipment set; used for UI; confirm with SME."
+  },
+  {
+    "column name": "schsetpm",
+    "description": "Identifier of the preventive maintenance set or template applied to this schedule."
+  },
+  {
+    "column name": "schsetpmr",
+    "description": "Display/lookup reference for the PM set or template; used for UI; confirm with SME."
+  },
+  {
+    "column name": "taskd",
+    "description": "Optional subtask or category code (D level) linked to this schedule; confirm taxonomy with SME."
+  },
+  {
+    "column name": "taskdr",
+    "description": "Display/lookup reference for the D-level subtask/category; used for UI; confirm with SME."
+  },
+  {
+    "column name": "taskc",
+    "description": "Optional subtask or category code (C level) linked to this schedule; confirm taxonomy with SME."
+  },
+  {
+    "column name": "taskcr",
+    "description": "Display/lookup reference for the C-level subtask/category; used for UI; confirm with SME."
+  },
+  {
+    "column name": "taskb",
+    "description": "Optional subtask or category code (B level) linked to this schedule; confirm taxonomy with SME."
+  },
+  {
+    "column name": "taskbr",
+    "description": "Display/lookup reference for the B-level subtask/category; used for UI; confirm with SME."
+  },
+  {
+    "column name": "taska",
+    "description": "Optional subtask or category code (A level) linked to this schedule; confirm taxonomy with SME."
+  },
+  {
+    "column name": "taskar",
+    "description": "Display/lookup reference for the A-level subtask/category; used for UI; confirm with SME."
+  },
+  {
+    "column name": "task",
+    "description": "Primary task or work code that characterizes the maintenance activity."
+  },
+  {
+    "column name": "taskr",
+    "description": "Display/lookup reference for the primary task or work code (e.g., category name)."
+  },
+  {
+    "column name": "item",
+    "description": "Identifier of the asset/equipment to which this schedule applies."
+  },
+  {
+    "column name": "itemr",
+    "description": "Display/lookup reference for the associated asset/equipment."
+  },
+  {
+    "column name": "metertype",
+    "description": "Unit type for the primary meter (e.g., miles, hours, kilometers)."
+  },
+  {
+    "column name": "legacykey",
+    "description": "Original identifier from the source legacy system, for cross-system traceability."
+  },
+  {
+    "column name": "legacytable",
+    "description": "Name of the source legacy table from which this record originated."
+  },
+  {
+    "column name": "schedule_builder_type_options",
+    "description": "Selected configuration option set used by the schedule builder (e.g., PM template rules)."
+  },
+  {
+    "column name": "descr",
+    "description": "Free-text description of the schedule or maintenance activity."
+  },
+  {
+    "column name": "shortcut_schedule_in_number",
+    "description": "Value used with the shortcut scheduling feature (e.g., quick-set interval or quantity); confirm exact semantics with SME."
+  },
+  {
+    "column name": "schedule_builder_days_ahead",
+    "description": "Look-ahead window (in days) for pre-creating upcoming work orders."
+  },
+  {
+    "column name": "schedule_builder_elapsed_time",
+    "description": "Interval count for time-based scheduling, used with the associated time unit."
+  },
+  {
+    "column name": "schedule_builder_fuel",
+    "description": "Fuel consumption threshold used to trigger service; sentinel values indicate disabled."
+  },
+  {
+    "column name": "schedule_builder_meter4",
+    "description": "Fourth meter-based interval threshold for triggering service; sentinel values indicate unused."
+  },
+  {
+    "column name": "schedule_builder_meter3",
+    "description": "Third meter-based interval threshold for triggering service; sentinel values indicate unused."
+  },
+  {
+    "column name": "schedule_builder_meter2",
+    "description": "Second meter-based interval threshold for triggering service; sentinel values indicate unused."
+  },
+  {
+    "column name": "schedule_builder_meter1",
+    "description": "Primary meter-based interval threshold for triggering service."
+  },
+  {
+    "column name": "lastmeter4",
+    "description": "Fourth meter’s reading recorded at the last completed service; sentinel values indicate unused."
+  },
+  {
+    "column name": "lastmeter3",
+    "description": "Third meter’s reading recorded at the last completed service; sentinel values indicate unused."
+  },
+  {
+    "column name": "schedule_builder_recurring_ind",
+    "description": "Indicates whether the schedule repeats automatically after completion."
+  },
+  {
+    "column name": "schedule_builder_ignore_seasonal",
+    "description": "When true, seasonal restrictions are ignored and scheduling proceeds year-round."
+  },
+  {
+    "column name": "scheduled_date_override",
+    "description": "Indicates that the system-calculated target date was manually overridden."
+  },
+  {
+    "column name": "pm_ind",
+    "description": "Flags the record as a preventive maintenance schedule."
+  },
+  {
+    "column name": "schedule_builder_specified_date",
+    "description": "Explicit date used as a starting point or anchor for the schedule builder."
+  },
+  {
+    "column name": "date_scheduled",
+    "description": "Calendar date assigned for executing the next maintenance occurrence."
+  },
+  {
+    "column name": "service_pattern_last",
+    "description": "Identifier for the most recently applied service pattern instance."
+  },
+  {
+    "column name": "service_pattern_lastr",
+    "description": "Display/lookup reference for the last applied service pattern instance."
+  },
+  {
+    "column name": "source",
+    "description": "Code indicating how this record was created (e.g., UI, import, integration); confirm code set with SME."
+  },
+  {
+    "column name": "sourcer",
+    "description": "Display/lookup reference for the creation source code; used for UI; confirm with SME."
+  },
+  {
+    "column name": "shortcut_schedule_in_type",
+    "description": "Type of input used by the shortcut scheduling feature (e.g., meter, time)."
+  },
+  {
+    "column name": "schedule_builder_elapsed_time_type",
+    "description": "Unit of measure for the time-based interval (e.g., days, months)."
+  },
+  {
+    "column name": "schedule_builder_schedule_type",
+    "description": "Which basis the schedule uses (e.g., meter-based, time-based, or combined)."
+  },
+  {
+    "column name": "service_pattern_template",
+    "description": "Reference to the template defining the sequence of services for this schedule."
+  },
+  {
+    "column name": "service_pattern_templater",
+    "description": "Display/lookup reference for the service pattern template."
+  },
+  {
+    "column name": "daysleft_meter",
+    "description": "Estimated days remaining until the meter reaches the due threshold, based on usage trends."
+  },
+  {
+    "column name": "duemeter",
+    "description": "Meter value at which the next maintenance should occur."
+  },
+  {
+    "column name": "meter_duedate",
+    "description": "Predicted calendar date when the meter is expected to reach the due threshold."
+  },
+  {
+    "column name": "time_date",
+    "description": "Date used by the time-based component (e.g., last or next time trigger); exact meaning may vary; confirm with SME."
+  },
+  {
+    "column name": "date_passed_due_meter",
+    "description": "Date when the meter-based threshold was exceeded, making the service overdue."
+  }
+]
